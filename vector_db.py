@@ -34,3 +34,9 @@ documents.add(
     documents=[cs_courses_str]
 )
 
+# Query the collection
+results = documents.query(
+    query_texts=["Intro CS classes programming language"], # Chroma will embed this automatically
+    n_results=2 # how many results to return
+)
+print(results)
