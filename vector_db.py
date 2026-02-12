@@ -24,18 +24,18 @@ chroma_client = chromadb.Client()
 
 # Create a collection
 # Collections store embeddings, documents, and metadata
-documents = chroma_client.create_collection(name="university_documents")
+collection = chroma_client.create_collection(name="university_documents")
 
 cs_courses_str = md_to_string('/workspaces/university-knowledge-assistant/output/Courses • Southwestern University_extracted.md')
 
 # Chroma stores text and handles embedding and indexing automatically
-documents.add(
+collection.add(
     ids=["cs_courses"],
     documents=[cs_courses_str]
 )
 
 # Query the collection
-results = documents.query(
+results = collection.query(
     query_texts=["Intro CS classes programming language"], # Chroma will embed this automatically
     n_results=2 # how many results to return
 )
