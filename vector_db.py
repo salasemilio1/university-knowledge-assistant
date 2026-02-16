@@ -47,7 +47,10 @@ def isolate_course_info(md_text: str) -> str:
     # Remove menu navigation text; ex: Menu Search Apply
     md_text = re.sub(r"Menu Search.*?https://.*?\n", "", md_text, flags=re.DOTALL)
 
-    return md_text
+    # Remove text from links at the bottom of the page
+    md_text = re.sub(r"GEORGETOWN, TEXAS.*", "", md_text)
+
+    return md_text.strip()
 
 
 def chunk_by_courses(document_text: str) -> list[str]:
