@@ -1,4 +1,5 @@
 import chromadb
+import re
 
 def md_to_string(file_path: str) -> str:
     """
@@ -31,6 +32,21 @@ def parse_metadata(md_text: str):
     _, metadata, remaining_text = md_text.split('---', 2)
     return metadata, remaining_text.strip()
     
+def isolate_course_info(md_text: str) -> str:
+    """
+    Remove page headers, page metatdata, and menu
+    navigation text from some document text
+    """
+    
+    # Remove all page headers; ex: ## Page 1
+    md_text = re.sub(r"^## Page \d+\s*$", "", md_text, flags=re.MULTILINE)
+
+    # Remove all page metadata; ex: <!-- Page metadata: 228 words, 19 links -->
+    md_text = re.sub(r"<!--\s*Page metadata:.*?", "", md_text, flags=re.DOTALL)
+
+    # Remove menu navigation text; ex: Menu Search Apply
+    md_text = re.sub(r"Menu Search.*?https://.*?\n", "", md_text, flags=re.DOTALL)
+
 
 def chunk_by_courses(document_text: str) -> list[str]:
     """
