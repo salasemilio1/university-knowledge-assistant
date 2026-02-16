@@ -64,8 +64,9 @@ def chunk_by_courses(document_text: str) -> list[str]:
     Returns:
         list[str]: A list of strings including
         the course name and course information for every course.
-
     """
+    courses = re.split(r"(?=\d\d-\d\d\d [A-Z])", cs_courses_str)
+    return courses
 
     
 
@@ -95,5 +96,7 @@ collection.add(
 # )
 # print(results)
 
+cs_courses_metadata, cs_courses_str = parse_metadata(cs_courses_str)
 cs_courses_str = isolate_course_info(cs_courses_str)
-print(cs_courses_str)
+cs_courses = chunk_by_courses(cs_courses_str)
+print(cs_courses[17])
