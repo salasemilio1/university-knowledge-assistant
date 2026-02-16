@@ -42,7 +42,7 @@ def isolate_course_info(md_text: str) -> str:
     md_text = re.sub(r"^## Page \d+\s*$", "", md_text, flags=re.MULTILINE)
 
     # Remove all page metadata; ex: <!-- Page metadata: 228 words, 19 links -->
-    md_text = re.sub(r"<!--\s*Page metadata:.*?", "", md_text, flags=re.DOTALL)
+    md_text = re.sub(r"<!--\s*Page metadata:.*?-->", "", md_text, flags=re.DOTALL)
 
     # Remove menu navigation text; ex: Menu Search Apply
     md_text = re.sub(r"Menu Search.*?https://.*?\n", "", md_text, flags=re.DOTALL)
@@ -85,9 +85,12 @@ collection.add(
     documents=[cs_courses_str]
 )
 
-# Query the collection
-results = collection.query(
-    query_texts=["Intro CS classes programming language"], # Chroma will embed this automatically
-    n_results=2 # how many results to return
-)
-print(results)
+# # Query the collection
+# results = collection.query(
+#     query_texts=["Intro CS classes programming language"], # Chroma will embed this automatically
+#     n_results=2 # how many results to return
+# )
+# print(results)
+
+cs_courses_str = isolate_course_info(cs_courses_str)
+print(cs_courses_str)
