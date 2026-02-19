@@ -65,8 +65,14 @@ def chunk_by_courses(document_text: str) -> list[str]:
         list[str]: A list of strings including
         the course name and course information for every course.
     """
-    courses = re.split(r"(?=\d\d-\d\d\d [A-Z])", cs_courses_str)
-    return courses
+    # Use finditer so only the first time a course code is used, a new chunk is created
+    matches = list(re.finditer(r"(?=\d{2}-\d{3} [A-Z])", document_text, flags=re.MULTILINE))
+    chunks = []
+    for i, match in enumerate(matches):
+        start = match.start()
+        end = matches[i + 1].start() if i + 1 < len(matches) else len(document_text)
+        chunks.append(document_text[start:end].strip())
+    return chunks
 
     
 
@@ -99,4 +105,8 @@ collection.add(
 cs_courses_metadata, cs_courses_str = parse_metadata(cs_courses_str)
 cs_courses_str = isolate_course_info(cs_courses_str)
 cs_courses = chunk_by_courses(cs_courses_str)
-print(cs_courses[17])
+
+for course in cs_courses:
+    print(course)
+    print('\n*******************************\n')
+print(len(cs_courses))
