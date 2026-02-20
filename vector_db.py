@@ -101,7 +101,7 @@ chroma_client = chromadb.Client()
 # Collections store embeddings, documents, and metadata
 collection = chroma_client.create_collection(name="university_documents")
 
-cs_courses_str = md_to_string('/workspaces/university-knowledge-assistant/output/Courses • Southwestern University_extracted.md')
+cs_courses_str = md_to_string('/workspaces/university-knowledge-assistant/output/SU_CS_Overview_extracted.md')
 
 # Separate metadata from the rest of the content
 cs_courses_metadata, cs_courses_str = parse_metadata(cs_courses_str)
