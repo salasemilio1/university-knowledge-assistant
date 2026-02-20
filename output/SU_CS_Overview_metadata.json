@@ -1,0 +1,3508 @@
+{
+  "document_metadata": {
+    "file_path": "/Users/salashome/Documents/capstone/university-knowledge-assistant/SU_CS_Overview.pdf",
+    "file_name": "SU_CS_Overview.pdf",
+    "file_size_bytes": 202425,
+    "file_hash": "8ca86e2913df0a31aad8b7ca71e15af7ff7789e31b5f2d8d39cfc5fb6f29e237",
+    "total_pages": 5,
+    "extraction_timestamp": "2026-02-20T14:50:27.207189Z",
+    "pdf_metadata": {
+      "title": "Courses • Southwestern University",
+      "creator": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "producer": "Skia/PDF m144",
+      "creationDate": "D:20260206162002+00'00'",
+      "modDate": "D:20260206162002+00'00'"
+    },
+    "document_type": null,
+    "academic_year": null,
+    "department": null
+  },
+  "pages": [
+    {
+      "metadata": {
+        "page_number": 1,
+        "page_index": 0,
+        "width": 612.0,
+        "height": 792.0,
+        "rotation": 0,
+        "text_length": 1660,
+        "word_count": 228,
+        "has_images": false,
+        "has_links": true,
+        "link_count": 19,
+        "document_hash": "8ca86e2913df0a31aad8b7ca71e15af7ff7789e31b5f2d8d39cfc5fb6f29e237",
+        "document_name": "SU_CS_Overview.pdf"
+      },
+      "text": "COMPUTER SCIENCE Courses The Computer Science curriculum is traditional, at least in the early courses. The first two courses in the major are taught in Java, which is an excellent language for introducing object-oriented concepts. The following list of courses represents current or recent course offerings. See the course catalog for updated information. 54-144 Explorations in Computing This course is an introduction to the discipline of computer science with an emphasis on applications in the liberal arts. Topics include basic programming constructs, basic data structures, algorithmic computation, selection, iteration, interactive user interfaces, abstraction and reasoning about computer programs. This is an introductory course intended for humanities, social science and fine arts majors. May not be used for the Computer Science major or minor. Cannot be taken after successful completion of Computer Science 54-184, 54-284, or 54-454 without departmental approval. Contributes to Data Analytics and Data Science. (NS) 54-184 Computer Science I This is the standard first course in computer programming in an object-oriented style. It is primarily intended for students pursuing a major or minor in computer science, mathematics or other disciplines in the natural sciences. Topics include primitive types and operations, assignment, conditional execution, iteration, arrays, classes, methods, recursion, encapsulation, type extension, inheritance and reasoning about programs in Java. The course Menu Search Apply Visit Majors & Minors 2/6/26, 10:20 AM Courses • Southwestern University https://www.southwestern.edu/computer-science/courses/ 1/5",
+      "raw_text": "COMPUTER SCIENCE\nCourses\nThe Computer Science curriculum is traditional, at least in the early courses. The first two courses\nin the major are taught in Java, which is an excellent language for introducing object-oriented\nconcepts.\nThe following list of courses represents current or recent course offerings. See the course\ncatalog for updated information.\n54-144 Explorations in Computing\nThis course is an introduction to the discipline of computer science with an emphasis on\napplications in the liberal arts. Topics include basic programming constructs, basic data\nstructures, algorithmic computation, selection, iteration, interactive user interfaces,\nabstraction and reasoning about computer programs. This is an introductory course intended\nfor humanities, social science and fine arts majors. May not be used for the Computer Science\nmajor or minor. Cannot be taken after successful completion of Computer Science 54-184,\n54-284, or 54-454 without departmental approval. Contributes to Data Analytics and Data\nScience. (NS)\n54-184 Computer Science I\nThis is the standard first course in computer programming in an object-oriented style. It is\nprimarily intended for students pursuing a major or minor in computer science, mathematics\nor other disciplines in the natural sciences. Topics include primitive types and operations,\nassignment, conditional execution, iteration, arrays, classes, methods, recursion,\nencapsulation, type extension, inheritance and reasoning about programs in Java. The course\nMenu\nSearch\nApply\nVisit\nMajors & Minors\n2/6/26, 10:20 AM\nCourses • Southwestern University\nhttps://www.southwestern.edu/computer-science/courses/\n1/5\n",
+      "links": [
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/computer-science/",
+          "rect": "Rect(253.5, 140.25, 359.25, 151.5)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/academics/records-registrar/catalog/",
+          "rect": "Rect(47.25, 327.0, 84.75, 342.75)"
+        },
+        {
+          "type": "unknown",
+          "uri": "",
+          "rect": "Rect(105.0, 51.0, 151.5, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/admission/apply/",
+          "rect": "Rect(417.75, 51.75, 445.5, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/admission/apply/",
+          "rect": "Rect(417.75, 51.75, 445.5, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/admission/apply/",
+          "rect": "Rect(417.75, 51.75, 445.5, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/admission/apply/",
+          "rect": "Rect(417.75, 51.75, 445.5, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/admission/apply/",
+          "rect": "Rect(417.75, 51.75, 445.5, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/admission/visit/",
+          "rect": "Rect(455.25, 51.75, 475.5, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/admission/visit/",
+          "rect": "Rect(455.25, 51.75, 475.5, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/admission/visit/",
+          "rect": "Rect(455.25, 51.75, 475.5, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/admission/visit/",
+          "rect": "Rect(455.25, 51.75, 475.5, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/admission/visit/",
+          "rect": "Rect(455.25, 51.75, 475.5, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/academics/majors-minors/",
+          "rect": "Rect(485.25, 51.75, 564.75, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/academics/majors-minors/",
+          "rect": "Rect(485.25, 51.75, 564.75, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/academics/majors-minors/",
+          "rect": "Rect(485.25, 51.75, 564.75, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/academics/majors-minors/",
+          "rect": "Rect(485.25, 51.75, 564.75, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/academics/majors-minors/",
+          "rect": "Rect(485.25, 51.75, 564.75, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/",
+          "rect": "Rect(292.5, 43.5, 319.5, 76.5)"
+        }
+      ],
+      "rich_blocks": [
+        {
+          "text": "COMPUTER",
+          "font_size": 9.0,
+          "is_bold": false,
+          "page_number": 1,
+          "bounding_box": [
+            253.453125,
+            141.75230407714844,
+            309.4691162109375,
+            150.75230407714844
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "SCIENCE",
+          "font_size": 9.0,
+          "is_bold": false,
+          "page_number": 1,
+          "bounding_box": [
+            314.150390625,
+            141.75230407714844,
+            358.1622314453125,
+            150.75230407714844
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "Courses",
+          "font_size": 25.5,
+          "is_bold": false,
+          "page_number": 1,
+          "bounding_box": [
+            259.67578125,
+            154.65899658203125,
+            353.0567321777344,
+            188.65049743652344
+          ],
+          "section_heading": "Courses",
+          "heading_level": 1
+        },
+        {
+          "text": "The Computer Science curriculum is traditional, at least in the early courses. The first two courses",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 1,
+          "bounding_box": [
+            47.25,
+            235.1953125,
+            558.7407836914062,
+            249.59765625
+          ],
+          "section_heading": "Courses",
+          "heading_level": null
+        },
+        {
+          "text": "in the major are taught in Java, which is an excellent language for introducing object-oriented",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 1,
+          "bounding_box": [
+            47.25,
+            254.6953125,
+            533.9354858398438,
+            269.09765625
+          ],
+          "section_heading": "Courses",
+          "heading_level": null
+        },
+        {
+          "text": "concepts.",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 1,
+          "bounding_box": [
+            47.25,
+            274.9453125,
+            97.66200256347656,
+            289.34765625
+          ],
+          "section_heading": "Courses",
+          "heading_level": null
+        },
+        {
+          "text": "The following list of courses represents current or recent course offerings. See the course",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 1,
+          "bounding_box": [
+            47.25,
+            306.4453125,
+            514.3235473632812,
+            320.84765625
+          ],
+          "section_heading": "Courses",
+          "heading_level": null
+        },
+        {
+          "text": "catalog for updated information.",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 1,
+          "bounding_box": [
+            47.25,
+            326.6953125,
+            216.9942169189453,
+            341.09765625
+          ],
+          "section_heading": "Courses",
+          "heading_level": null
+        },
+        {
+          "text": "54-144",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 1,
+          "bounding_box": [
+            69.75,
+            362.2530517578125,
+            108.95746612548828,
+            374.2530517578125
+          ],
+          "section_heading": "Courses",
+          "heading_level": null
+        },
+        {
+          "text": "Explorations",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 1,
+          "bounding_box": [
+            112.20703125,
+            362.2530517578125,
+            177.09078979492188,
+            374.2530517578125
+          ],
+          "section_heading": "Courses",
+          "heading_level": null
+        },
+        {
+          "text": "in",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 1,
+          "bounding_box": [
+            180.33984375,
+            362.2530517578125,
+            189.81065368652344,
+            374.2530517578125
+          ],
+          "section_heading": "Courses",
+          "heading_level": null
+        },
+        {
+          "text": "Computing",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 1,
+          "bounding_box": [
+            193.0546875,
+            362.2530517578125,
+            250.484619140625,
+            374.2530517578125
+          ],
+          "section_heading": "Courses",
+          "heading_level": null
+        },
+        {
+          "text": "This course is an introduction to the discipline of computer science with an emphasis on",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 1,
+          "bounding_box": [
+            69.75,
+            384.4453125,
+            527.1803588867188,
+            398.84765625
+          ],
+          "section_heading": "Courses",
+          "heading_level": null
+        },
+        {
+          "text": "applications in the liberal arts. Topics include basic programming constructs, basic data",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 1,
+          "bounding_box": [
+            69.75,
+            408.4453125,
+            523.8630981445312,
+            422.84765625
+          ],
+          "section_heading": "Courses",
+          "heading_level": null
+        },
+        {
+          "text": "structures, algorithmic computation, selection, iteration, interactive user interfaces,",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 1,
+          "bounding_box": [
+            69.75,
+            432.4453125,
+            505.1246032714844,
+            446.84765625
+          ],
+          "section_heading": "Courses",
+          "heading_level": null
+        },
+        {
+          "text": "abstraction and reasoning about computer programs. This is an introductory course intended",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 1,
+          "bounding_box": [
+            69.75,
+            456.4453125,
+            554.4068603515625,
+            470.84765625
+          ],
+          "section_heading": "Courses",
+          "heading_level": null
+        },
+        {
+          "text": "for humanities, social science and fine arts majors. May not be used for the Computer Science",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 1,
+          "bounding_box": [
+            69.75,
+            480.4453125,
+            560.2379150390625,
+            494.84765625
+          ],
+          "section_heading": "Courses",
+          "heading_level": null
+        },
+        {
+          "text": "major or minor. Cannot be taken after successful completion of Computer Science 54-184,",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 1,
+          "bounding_box": [
+            69.75,
+            504.4453125,
+            546.761962890625,
+            518.84765625
+          ],
+          "section_heading": "Courses",
+          "heading_level": null
+        },
+        {
+          "text": "54-284, or 54-454 without departmental approval. Contributes to Data Analytics and Data",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 1,
+          "bounding_box": [
+            69.75,
+            528.4453125,
+            543.5345458984375,
+            542.84765625
+          ],
+          "section_heading": "Courses",
+          "heading_level": null
+        },
+        {
+          "text": "Science. (NS)",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 1,
+          "bounding_box": [
+            69.75,
+            552.4453125,
+            138.12600708007812,
+            566.84765625
+          ],
+          "section_heading": "Courses",
+          "heading_level": null
+        },
+        {
+          "text": "54-184",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 1,
+          "bounding_box": [
+            69.75,
+            579.7530517578125,
+            108.95746612548828,
+            591.7530517578125
+          ],
+          "section_heading": "Courses",
+          "heading_level": null
+        },
+        {
+          "text": "Computer",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 1,
+          "bounding_box": [
+            112.20703125,
+            579.7530517578125,
+            165.09239196777344,
+            591.7530517578125
+          ],
+          "section_heading": "Courses",
+          "heading_level": null
+        },
+        {
+          "text": "Science",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 1,
+          "bounding_box": [
+            168.33984375,
+            579.7530517578125,
+            208.00950622558594,
+            591.7530517578125
+          ],
+          "section_heading": "Courses",
+          "heading_level": null
+        },
+        {
+          "text": "I",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 1,
+          "bounding_box": [
+            211.259765625,
+            579.7530517578125,
+            214.70376586914062,
+            591.7530517578125
+          ],
+          "section_heading": "Courses",
+          "heading_level": null
+        },
+        {
+          "text": "This is the standard first course in computer programming in an object-oriented style. It is",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 1,
+          "bounding_box": [
+            69.75,
+            601.9453125,
+            537.5820922851562,
+            616.34765625
+          ],
+          "section_heading": "Courses",
+          "heading_level": null
+        },
+        {
+          "text": "primarily intended for students pursuing a major or minor in computer science, mathematics",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 1,
+          "bounding_box": [
+            69.75,
+            625.9453125,
+            551.3699951171875,
+            640.34765625
+          ],
+          "section_heading": "Courses",
+          "heading_level": null
+        },
+        {
+          "text": "or other disciplines in the natural sciences. Topics include primitive types and operations,",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 1,
+          "bounding_box": [
+            69.75,
+            649.9453125,
+            534.0327758789062,
+            664.34765625
+          ],
+          "section_heading": "Courses",
+          "heading_level": null
+        },
+        {
+          "text": "assignment, conditional execution, iteration, arrays, classes, methods, recursion,",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 1,
+          "bounding_box": [
+            69.75,
+            673.9453125,
+            490.3040466308594,
+            688.34765625
+          ],
+          "section_heading": "Courses",
+          "heading_level": null
+        },
+        {
+          "text": "encapsulation, type extension, inheritance and reasoning about programs in Java. The course",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 1,
+          "bounding_box": [
+            69.75,
+            697.9453125,
+            556.229736328125,
+            712.34765625
+          ],
+          "section_heading": "Courses",
+          "heading_level": null
+        },
+        {
+          "text": "Menu",
+          "font_size": 10.5,
+          "is_bold": true,
+          "page_number": 1,
+          "bounding_box": [
+            67.640625,
+            51.66943359375,
+            95.16112518310547,
+            65.63525390625
+          ],
+          "section_heading": "Menu",
+          "heading_level": 2
+        },
+        {
+          "text": "Search",
+          "font_size": 10.5,
+          "is_bold": true,
+          "page_number": 1,
+          "bounding_box": [
+            119.77734375,
+            51.66943359375,
+            151.39268493652344,
+            65.63525390625
+          ],
+          "section_heading": "Search",
+          "heading_level": 2
+        },
+        {
+          "text": "Apply",
+          "font_size": 10.5,
+          "is_bold": true,
+          "page_number": 1,
+          "bounding_box": [
+            417.92578125,
+            51.66943359375,
+            445.70880126953125,
+            65.63525390625
+          ],
+          "section_heading": "Apply",
+          "heading_level": 2
+        },
+        {
+          "text": "Visit",
+          "font_size": 10.5,
+          "is_bold": true,
+          "page_number": 1,
+          "bounding_box": [
+            455.30859375,
+            51.66943359375,
+            475.8465576171875,
+            65.63525390625
+          ],
+          "section_heading": "Visit",
+          "heading_level": 2
+        },
+        {
+          "text": "Majors & Minors",
+          "font_size": 10.5,
+          "is_bold": true,
+          "page_number": 1,
+          "bounding_box": [
+            485.4609375,
+            51.66943359375,
+            564.7476806640625,
+            65.63525390625
+          ],
+          "section_heading": "Majors & Minors",
+          "heading_level": 2
+        },
+        {
+          "text": "2/6/26, 10:20 AM",
+          "font_size": 7.994999885559082,
+          "is_bold": false,
+          "page_number": 1,
+          "bounding_box": [
+            24.0,
+            15.262338638305664,
+            84.4503173828125,
+            24.194252014160156
+          ],
+          "section_heading": "Majors & Minors",
+          "heading_level": null
+        },
+        {
+          "text": "Courses • Southwestern University",
+          "font_size": 7.994999885559082,
+          "is_bold": false,
+          "page_number": 1,
+          "bounding_box": [
+            289.6171875,
+            15.262338638305664,
+            412.8330078125,
+            24.194252014160156
+          ],
+          "section_heading": "Majors & Minors",
+          "heading_level": null
+        },
+        {
+          "text": "https://www.southwestern.edu/computer-science/courses/",
+          "font_size": 7.994999885559082,
+          "is_bold": false,
+          "page_number": 1,
+          "bounding_box": [
+            24.0,
+            768.2623291015625,
+            227.9671630859375,
+            777.1942749023438
+          ],
+          "section_heading": "Majors & Minors",
+          "heading_level": null
+        },
+        {
+          "text": "1/5",
+          "font_size": 7.994999885559082,
+          "is_bold": false,
+          "page_number": 1,
+          "bounding_box": [
+            576.8671875,
+            768.2623291015625,
+            587.9920654296875,
+            777.1942749023438
+          ],
+          "section_heading": "Majors & Minors",
+          "heading_level": null
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "page_number": 2,
+        "page_index": 1,
+        "width": 612.0,
+        "height": 792.0,
+        "rotation": 0,
+        "text_length": 2432,
+        "word_count": 336,
+        "has_images": false,
+        "has_links": true,
+        "link_count": 17,
+        "document_hash": "8ca86e2913df0a31aad8b7ca71e15af7ff7789e31b5f2d8d39cfc5fb6f29e237",
+        "document_name": "SU_CS_Overview.pdf"
+      },
+      "text": "includes a laboratory component designed to explore applications and to enhance conceptualization. Contributes to Data Analytics and Data Science. (Fall, Spring) (NS) 54-281 Colloquium in Computer Science In this seminar-style course, each student will give a lecture on a topic in computer science not normally covered in depth in the regular curriculum. Presentation of one lecture and participation in discussions is required. This course may be repeated for credit, but may not be counted toward the major or minor. Must be taken Pass/D/F. Prerequisite: Prior or concurrent enrollment in Computer Science 54-284, and permission of the instructor. 54-284 Computer Science II This course is a continuation of 54-184 Computer Science I, with an emphasis on abstract data objects such as lists, stacks, queues, trees and graphs, and test-first programming using the automated testing paradigm JUnit. Topics include algorithms for searching, sorting, traversing, inserting and deleting, and reasoning about these algorithms. The course includes a laboratory component designed to explore applications and to enhance conceptualization. Contributes to Design Thinking. Prerequisite: Computer Science 54-184 or permission of instructor. (Spring) (NS) 54-291 Puzzling Programs Given a precise program specification and a few input/output examples, students will gain experience quickly devising a solution that passes a suite of unseen (and generally more complicated) input/output examples. Teamwork, troubleshooting code based on very limited feedback from automated systems, effectively reading problem descriptions, and discerning relevant details will be practiced. This course (or prior enrollment in this course) is required for students wishing to compete in the South Central USA Regional ACM Programming Contest. This course may be repeated for credit, but may not be counted towards the major or minor. Must be taken Pass/D/F. Prerequisite: Computer Science 54-184. (Fall) 54-384 Discrete Mathematics This course investigates concepts in the modeling of discrete phenomena. Topics include logic, structure of proof, set theory, combinatorics, graphs, induction and recurrence relations. Also Mathematics 52-384. Prerequisites: Mathematics 52-164, Computer Science 54-184, and Menu Search Apply Visit Majors & Minors 2/6/26, 10:20 AM Courses • Southwestern University https://www.southwestern.edu/computer-science/courses/ 2/5",
+      "raw_text": "includes a laboratory component designed to explore applications and to enhance\nconceptualization. Contributes to Data Analytics and Data Science. (Fall, Spring) (NS)\n54-281 Colloquium in Computer Science\nIn this seminar-style course, each student will give a lecture on a topic in computer science not\nnormally covered in depth in the regular curriculum. Presentation of one lecture and\nparticipation in discussions is required. This course may be repeated for credit, but may not be\ncounted toward the major or minor. Must be taken Pass/D/F. Prerequisite: Prior or concurrent\nenrollment in Computer Science 54-284, and permission of the instructor.\n54-284 Computer Science II\nThis course is a continuation of 54-184 Computer Science I, with an emphasis on abstract data\nobjects such as lists, stacks, queues, trees and graphs, and test-first programming using the\nautomated testing paradigm JUnit. Topics include algorithms for searching, sorting, traversing,\ninserting and deleting, and reasoning about these algorithms. The course includes a laboratory\ncomponent designed to explore applications and to enhance conceptualization. Contributes to\nDesign Thinking. Prerequisite: Computer Science 54-184 or permission of instructor. (Spring)\n(NS)\n54-291 Puzzling Programs\nGiven a precise program specification and a few input/output examples, students will gain\nexperience quickly devising a solution that passes a suite of unseen (and generally more\ncomplicated) input/output examples. Teamwork, troubleshooting code based on very limited\nfeedback from automated systems, effectively reading problem descriptions, and discerning\nrelevant details will be practiced. This course (or prior enrollment in this course) is required for\nstudents wishing to compete in the South Central USA Regional ACM Programming Contest.\nThis course may be repeated for credit, but may not be counted towards the major or minor.\nMust be taken Pass/D/F. Prerequisite: Computer Science 54-184. (Fall)\n54-384 Discrete Mathematics\nThis course investigates concepts in the modeling of discrete phenomena. Topics include logic,\nstructure of proof, set theory, combinatorics, graphs, induction and recurrence relations. Also\nMathematics 52-384. Prerequisites: Mathematics 52-164, Computer Science 54-184, and\nMenu\nSearch\nApply\nVisit\nMajors & Minors\n2/6/26, 10:20 AM\nCourses • Southwestern University\nhttps://www.southwestern.edu/computer-science/courses/\n2/5\n",
+      "links": [
+        {
+          "type": "unknown",
+          "uri": "",
+          "rect": "Rect(105.0, 51.0, 151.5, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/admission/apply/",
+          "rect": "Rect(417.75, 51.75, 445.5, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/admission/apply/",
+          "rect": "Rect(417.75, 51.75, 445.5, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/admission/apply/",
+          "rect": "Rect(417.75, 51.75, 445.5, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/admission/apply/",
+          "rect": "Rect(417.75, 51.75, 445.5, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/admission/apply/",
+          "rect": "Rect(417.75, 51.75, 445.5, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/admission/visit/",
+          "rect": "Rect(455.25, 51.75, 475.5, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/admission/visit/",
+          "rect": "Rect(455.25, 51.75, 475.5, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/admission/visit/",
+          "rect": "Rect(455.25, 51.75, 475.5, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/admission/visit/",
+          "rect": "Rect(455.25, 51.75, 475.5, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/admission/visit/",
+          "rect": "Rect(455.25, 51.75, 475.5, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/academics/majors-minors/",
+          "rect": "Rect(485.25, 51.75, 564.75, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/academics/majors-minors/",
+          "rect": "Rect(485.25, 51.75, 564.75, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/academics/majors-minors/",
+          "rect": "Rect(485.25, 51.75, 564.75, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/academics/majors-minors/",
+          "rect": "Rect(485.25, 51.75, 564.75, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/academics/majors-minors/",
+          "rect": "Rect(485.25, 51.75, 564.75, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/",
+          "rect": "Rect(292.5, 43.5, 319.5, 76.5)"
+        }
+      ],
+      "rich_blocks": [
+        {
+          "text": "includes a laboratory component designed to explore applications and to enhance",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            69.75,
+            32.6953125,
+            494.6162414550781,
+            47.09765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "conceptualization. Contributes to Data Analytics and Data Science. (Fall, Spring) (NS)",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            69.75,
+            56.6953125,
+            512.2488403320312,
+            71.09765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "54-281",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            69.75,
+            84.00306701660156,
+            108.95746612548828,
+            96.00306701660156
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "Colloquium",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            112.20703125,
+            84.00306701660156,
+            172.5403594970703,
+            96.00306701660156
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "in",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            175.78125,
+            84.00306701660156,
+            185.25205993652344,
+            96.00306701660156
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "Computer",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            188.49609375,
+            84.00306701660156,
+            241.38145446777344,
+            96.00306701660156
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "Science",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            244.62890625,
+            84.00306701660156,
+            284.2985534667969,
+            96.00306701660156
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "In this seminar-style course, each student will give a lecture on a topic in computer science not",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            69.75,
+            106.1953125,
+            562.6513671875,
+            120.59765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "normally covered in depth in the regular curriculum. Presentation of one lecture and",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            69.75,
+            130.1953125,
+            509.4283447265625,
+            144.59765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "participation in discussions is required. This course may be repeated for credit, but may not be",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            69.75,
+            154.1953125,
+            563.1923828125,
+            168.59765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "counted toward the major or minor. Must be taken Pass/D/F. Prerequisite: Prior or concurrent",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            69.75,
+            178.1953125,
+            564.5011596679688,
+            192.59765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "enrollment in Computer Science 54-284, and permission of the instructor.",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            69.75,
+            202.1953125,
+            458.37835693359375,
+            216.59765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "54-284",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            69.75,
+            229.50306701660156,
+            108.95746612548828,
+            241.50306701660156
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "Computer",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            112.20703125,
+            229.50306701660156,
+            165.09239196777344,
+            241.50306701660156
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "Science",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            168.33984375,
+            229.50306701660156,
+            208.00950622558594,
+            241.50306701660156
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "II",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            211.259765625,
+            229.50306701660156,
+            218.15493774414062,
+            241.50306701660156
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "This course is a continuation of 54-184 Computer Science I, with an emphasis on abstract data",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            69.75,
+            251.6953125,
+            564.7137451171875,
+            266.09765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "objects such as lists, stacks, queues, trees and graphs, and test-first programming using the",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            69.75,
+            275.6953125,
+            545.33740234375,
+            290.09765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "automated testing paradigm JUnit. Topics include algorithms for searching, sorting, traversing,",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            69.75,
+            299.6953125,
+            561.859130859375,
+            314.09765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "inserting and deleting, and reasoning about these algorithms. The course includes a laboratory",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            69.75,
+            323.6953125,
+            561.148193359375,
+            338.09765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "component designed to explore applications and to enhance conceptualization. Contributes to",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            69.75,
+            347.6953125,
+            559.167236328125,
+            362.09765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "Design Thinking. Prerequisite: Computer Science 54-184 or permission of instructor. (Spring)",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            69.75,
+            371.6953125,
+            556.9431762695312,
+            386.09765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "(NS)",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            69.75,
+            395.6953125,
+            91.302001953125,
+            410.09765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "54-291",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            69.75,
+            423.0030517578125,
+            108.95746612548828,
+            435.0030517578125
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "Puzzling",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            112.20703125,
+            423.0030517578125,
+            154.906494140625,
+            435.0030517578125
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "Programs",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            158.15625,
+            423.0030517578125,
+            207.82907104492188,
+            435.0030517578125
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "Given a precise program specification and a few input/output examples, students will gain",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            69.75,
+            445.1953125,
+            536.2286987304688,
+            459.59765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "experience quickly devising a solution that passes a suite of unseen (and generally more",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            69.75,
+            469.1953125,
+            524.33984375,
+            483.59765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "complicated) input/output examples. Teamwork, troubleshooting code based on very limited",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            69.75,
+            493.1953125,
+            550.4780883789062,
+            507.59765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "feedback from automated systems, effectively reading problem descriptions, and discerning",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            69.75,
+            517.1953125,
+            547.0958862304688,
+            531.59765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "relevant details will be practiced. This course (or prior enrollment in this course) is required for",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            69.75,
+            541.1953125,
+            563.8484497070312,
+            555.59765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "students wishing to compete in the South Central USA Regional ACM Programming Contest.",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            69.75,
+            565.1953125,
+            549.103515625,
+            579.59765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "This course may be repeated for credit, but may not be counted towards the major or minor.",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            69.75,
+            589.1953125,
+            553.1968383789062,
+            603.59765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "Must be taken Pass/D/F. Prerequisite: Computer Science 54-184. (Fall)",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            69.75,
+            613.1953125,
+            444.52764892578125,
+            627.59765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "54-384",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            69.75,
+            640.5030517578125,
+            108.95746612548828,
+            652.5030517578125
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "Discrete",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            112.20703125,
+            640.5030517578125,
+            155.00559997558594,
+            652.5030517578125
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "Mathematics",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            158.255859375,
+            640.5030517578125,
+            225.05563354492188,
+            652.5030517578125
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "This course investigates concepts in the modeling of discrete phenomena. Topics include logic,",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            69.75,
+            662.6953125,
+            561.4080200195312,
+            677.09765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "structure of proof, set theory, combinatorics, graphs, induction and recurrence relations. Also",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            69.75,
+            686.6953125,
+            559.8742065429688,
+            701.09765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "Mathematics 52-384. Prerequisites: Mathematics 52-164, Computer Science 54-184, and",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            69.75,
+            710.6953125,
+            541.6180419921875,
+            725.09765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "Menu",
+          "font_size": 10.5,
+          "is_bold": true,
+          "page_number": 2,
+          "bounding_box": [
+            67.640625,
+            51.66943359375,
+            95.16112518310547,
+            65.63525390625
+          ],
+          "section_heading": "Menu",
+          "heading_level": 2
+        },
+        {
+          "text": "Search",
+          "font_size": 10.5,
+          "is_bold": true,
+          "page_number": 2,
+          "bounding_box": [
+            119.77734375,
+            51.66943359375,
+            151.39268493652344,
+            65.63525390625
+          ],
+          "section_heading": "Search",
+          "heading_level": 2
+        },
+        {
+          "text": "Apply",
+          "font_size": 10.5,
+          "is_bold": true,
+          "page_number": 2,
+          "bounding_box": [
+            417.92578125,
+            51.66943359375,
+            445.70880126953125,
+            65.63525390625
+          ],
+          "section_heading": "Apply",
+          "heading_level": 2
+        },
+        {
+          "text": "Visit",
+          "font_size": 10.5,
+          "is_bold": true,
+          "page_number": 2,
+          "bounding_box": [
+            455.30859375,
+            51.66943359375,
+            475.8465576171875,
+            65.63525390625
+          ],
+          "section_heading": "Visit",
+          "heading_level": 2
+        },
+        {
+          "text": "Majors & Minors",
+          "font_size": 10.5,
+          "is_bold": true,
+          "page_number": 2,
+          "bounding_box": [
+            485.4609375,
+            51.66943359375,
+            564.7476806640625,
+            65.63525390625
+          ],
+          "section_heading": "Majors & Minors",
+          "heading_level": 2
+        },
+        {
+          "text": "2/6/26, 10:20 AM",
+          "font_size": 7.994999885559082,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            24.0,
+            15.262338638305664,
+            84.4503173828125,
+            24.194252014160156
+          ],
+          "section_heading": "Majors & Minors",
+          "heading_level": null
+        },
+        {
+          "text": "Courses • Southwestern University",
+          "font_size": 7.994999885559082,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            289.6171875,
+            15.262338638305664,
+            412.8330078125,
+            24.194252014160156
+          ],
+          "section_heading": "Majors & Minors",
+          "heading_level": null
+        },
+        {
+          "text": "https://www.southwestern.edu/computer-science/courses/",
+          "font_size": 7.994999885559082,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            24.0,
+            768.2623291015625,
+            227.9671630859375,
+            777.1942749023438
+          ],
+          "section_heading": "Majors & Minors",
+          "heading_level": null
+        },
+        {
+          "text": "2/5",
+          "font_size": 7.994999885559082,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            576.8671875,
+            768.2623291015625,
+            587.9920654296875,
+            777.1942749023438
+          ],
+          "section_heading": "Majors & Minors",
+          "heading_level": null
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "page_number": 3,
+        "page_index": 2,
+        "width": 612.0,
+        "height": 792.0,
+        "rotation": 0,
+        "text_length": 2332,
+        "word_count": 284,
+        "has_images": false,
+        "has_links": true,
+        "link_count": 17,
+        "document_hash": "8ca86e2913df0a31aad8b7ca71e15af7ff7789e31b5f2d8d39cfc5fb6f29e237",
+        "document_name": "SU_CS_Overview.pdf"
+      },
+      "text": "either Mathematics 52-264 or Computer Science 54-284, or permission of instructor. (Fall) (NS) 54-394 Computer Organization This course studies computer architecture, internal representation of data, assembly language programming, subroutines and parameter passing, design of machine language instruction sets, bus structure, digital logic, and support for parallelism. The course includes a laboratory component designed to explore applications and to enhance conceptualization. Prerequisite: Computer Science 54-284 or permission of instructor. (Fall) (NS) 54-414 Operations Research Formulation and solution of problems with management, economics, engineering and science applications using modeling, optimization techniques, and simulation. Topics include linear and integer programming, simplex method, duality, sensitivity analysis, branch and bound algorithm, transportation and assignment problems, network optimization, and problem solving using optimization software. Also Mathematics 52-414 and Business 30-414. Contributes to Data Analytics and Data Science. Prerequisites: Mathematics 52-164 (Modern Calculus I), and either Business 30-474 (Finance), Mathematics 52-674 (Linear Algebra), some Computer Science course at the 300 level or above, or permission of the instructor. 54-424 Artificial Intelligence This course studies the use of computer algorithms to emulate the cognitive and problem solving capabilities of humans. Topics include: search, optimization, reinforcement learning, evolutionary computation, statistical methods and (deep) neural networks. Contributes to Neuroscience. Prerequisite: Computer Science 54-284 or permission of instructor. (NS) 54-454 Algorithms An introduction to the design and analysis of algorithms and their implementation in C++. Topics include: greedy, divide-and-conquer, dynamic programming, graph, and randomized algorithms; asymptotic analysis and computational tractability (e.g. NP-completeness); practical data structures (stacks, trees, queues, graphs, hash tables, heaps). Prerequisite: Computer Science 54-284, or permission of instructor. Contributes to Design Thinking. (Spring) (NS) 54-474 Programming Languages Menu Search Apply Visit Majors & Minors 2/6/26, 10:20 AM Courses • Southwestern University https://www.southwestern.edu/computer-science/courses/ 3/5",
+      "raw_text": "either Mathematics 52-264 or Computer Science 54-284, or permission of instructor. (Fall)\n(NS)\n54-394 Computer Organization\nThis course studies computer architecture, internal representation of data, assembly language\nprogramming, subroutines and parameter passing, design of machine language instruction sets,\nbus structure, digital logic, and support for parallelism. The course includes a laboratory\ncomponent designed to explore applications and to enhance conceptualization. Prerequisite:\nComputer Science 54-284 or permission of instructor. (Fall) (NS)\n54-414 Operations Research\nFormulation and solution of problems with management, economics, engineering and science\napplications using modeling, optimization techniques, and simulation. Topics include linear and\ninteger programming, simplex method, duality, sensitivity analysis, branch and bound\nalgorithm, transportation and assignment problems, network optimization, and problem\nsolving using optimization software. Also Mathematics 52-414 and Business 30-414.\nContributes to Data Analytics and Data Science. Prerequisites: Mathematics 52-164 (Modern\nCalculus I), and either Business 30-474 (Finance), Mathematics 52-674 (Linear Algebra), some\nComputer Science course at the 300 level or above, or permission of the instructor.\n54-424 Artificial Intelligence\nThis course studies the use of computer algorithms to emulate the cognitive and problem\nsolving capabilities of humans. Topics include: search, optimization, reinforcement learning,\nevolutionary computation, statistical methods and (deep) neural networks. Contributes to\nNeuroscience. Prerequisite: Computer Science 54-284 or permission of instructor. (NS)\n54-454 Algorithms\nAn introduction to the design and analysis of algorithms and their implementation in C++.\nTopics include: greedy, divide-and-conquer, dynamic programming, graph, and randomized\nalgorithms; asymptotic analysis and computational tractability (e.g. NP-completeness);\npractical data structures (stacks, trees, queues, graphs, hash tables, heaps). Prerequisite:\nComputer Science 54-284, or permission of instructor. Contributes to Design Thinking.\n(Spring) (NS)\n54-474 Programming Languages\nMenu\nSearch\nApply\nVisit\nMajors & Minors\n2/6/26, 10:20 AM\nCourses • Southwestern University\nhttps://www.southwestern.edu/computer-science/courses/\n3/5\n",
+      "links": [
+        {
+          "type": "unknown",
+          "uri": "",
+          "rect": "Rect(105.0, 51.0, 151.5, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/admission/apply/",
+          "rect": "Rect(417.75, 51.75, 445.5, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/admission/apply/",
+          "rect": "Rect(417.75, 51.75, 445.5, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/admission/apply/",
+          "rect": "Rect(417.75, 51.75, 445.5, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/admission/apply/",
+          "rect": "Rect(417.75, 51.75, 445.5, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/admission/apply/",
+          "rect": "Rect(417.75, 51.75, 445.5, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/admission/visit/",
+          "rect": "Rect(455.25, 51.75, 475.5, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/admission/visit/",
+          "rect": "Rect(455.25, 51.75, 475.5, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/admission/visit/",
+          "rect": "Rect(455.25, 51.75, 475.5, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/admission/visit/",
+          "rect": "Rect(455.25, 51.75, 475.5, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/admission/visit/",
+          "rect": "Rect(455.25, 51.75, 475.5, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/academics/majors-minors/",
+          "rect": "Rect(485.25, 51.75, 564.75, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/academics/majors-minors/",
+          "rect": "Rect(485.25, 51.75, 564.75, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/academics/majors-minors/",
+          "rect": "Rect(485.25, 51.75, 564.75, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/academics/majors-minors/",
+          "rect": "Rect(485.25, 51.75, 564.75, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/academics/majors-minors/",
+          "rect": "Rect(485.25, 51.75, 564.75, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/",
+          "rect": "Rect(292.5, 43.5, 319.5, 76.5)"
+        }
+      ],
+      "rich_blocks": [
+        {
+          "text": "either Mathematics 52-264 or Computer Science 54-284, or permission of instructor. (Fall)",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 3,
+          "bounding_box": [
+            69.75,
+            32.6953125,
+            547.602294921875,
+            47.09765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "(NS)",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 3,
+          "bounding_box": [
+            69.75,
+            56.6953125,
+            91.302001953125,
+            71.09765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "54-394",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 3,
+          "bounding_box": [
+            69.75,
+            84.00306701660156,
+            108.95746612548828,
+            96.00306701660156
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "Computer",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 3,
+          "bounding_box": [
+            112.20703125,
+            84.00306701660156,
+            165.09239196777344,
+            96.00306701660156
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "Organization",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 3,
+          "bounding_box": [
+            168.33984375,
+            84.00306701660156,
+            234.86338806152344,
+            96.00306701660156
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "This course studies computer architecture, internal representation of data, assembly language",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 3,
+          "bounding_box": [
+            69.75,
+            106.1953125,
+            559.0514526367188,
+            120.59765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "programming, subroutines and parameter passing, design of machine language instruction sets,",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 3,
+          "bounding_box": [
+            69.75,
+            130.1953125,
+            565.244140625,
+            144.59765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "bus structure, digital logic, and support for parallelism. The course includes a laboratory",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 3,
+          "bounding_box": [
+            69.75,
+            154.1953125,
+            530.216552734375,
+            168.59765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "component designed to explore applications and to enhance conceptualization. Prerequisite:",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 3,
+          "bounding_box": [
+            69.75,
+            178.1953125,
+            550.3054809570312,
+            192.59765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "Computer Science 54-284 or permission of instructor. (Fall) (NS)",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 3,
+          "bounding_box": [
+            69.75,
+            202.1953125,
+            408.1149597167969,
+            216.59765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "54-414",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 3,
+          "bounding_box": [
+            69.75,
+            229.50306701660156,
+            108.95746612548828,
+            241.50306701660156
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "Operations",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 3,
+          "bounding_box": [
+            112.20703125,
+            229.50306701660156,
+            169.71969604492188,
+            241.50306701660156
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "Research",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 3,
+          "bounding_box": [
+            172.96875,
+            229.50306701660156,
+            220.50820922851562,
+            241.50306701660156
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "Formulation and solution of problems with management, economics, engineering and science",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 3,
+          "bounding_box": [
+            69.75,
+            251.6953125,
+            555.6763916015625,
+            266.09765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "applications using modeling, optimization techniques, and simulation. Topics include linear and",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 3,
+          "bounding_box": [
+            69.75,
+            275.6953125,
+            563.6360473632812,
+            290.09765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "integer programming, simplex method, duality, sensitivity analysis, branch and bound",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 3,
+          "bounding_box": [
+            69.75,
+            299.6953125,
+            513.7215576171875,
+            314.09765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "algorithm, transportation and assignment problems, network optimization, and problem",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 3,
+          "bounding_box": [
+            69.75,
+            323.6953125,
+            526.9359741210938,
+            338.09765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "solving using optimization software. Also Mathematics 52-414 and Business 30-414.",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 3,
+          "bounding_box": [
+            69.75,
+            347.6953125,
+            510.6844482421875,
+            362.09765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "Contributes to Data Analytics and Data Science. Prerequisites: Mathematics 52-164 (Modern",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 3,
+          "bounding_box": [
+            69.75,
+            371.6953125,
+            554.3765869140625,
+            386.09765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "Calculus I), and either Business 30-474 (Finance), Mathematics 52-674 (Linear Algebra), some",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 3,
+          "bounding_box": [
+            69.75,
+            395.6953125,
+            561.3187866210938,
+            410.09765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "Computer Science course at the 300 level or above, or permission of the instructor.",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 3,
+          "bounding_box": [
+            69.75,
+            419.6953125,
+            506.17913818359375,
+            434.09765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "54-424",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 3,
+          "bounding_box": [
+            69.75,
+            447.0030517578125,
+            108.95746612548828,
+            459.0030517578125
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "Artificial",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 3,
+          "bounding_box": [
+            112.20703125,
+            444.25634765625,
+            155.50335693359375,
+            459.0030517578125
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "Intelligence",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 3,
+          "bounding_box": [
+            158.75390625,
+            447.0030517578125,
+            218.20481872558594,
+            459.0030517578125
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "This course studies the use of computer algorithms to emulate the cognitive and problem",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 3,
+          "bounding_box": [
+            69.75,
+            469.1953125,
+            533.1644897460938,
+            483.59765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "solving capabilities of humans. Topics include: search, optimization, reinforcement learning,",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 3,
+          "bounding_box": [
+            69.75,
+            493.1953125,
+            548.4537353515625,
+            507.59765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "evolutionary computation, statistical methods and (deep) neural networks. Contributes to",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 3,
+          "bounding_box": [
+            69.75,
+            517.1953125,
+            534.323486328125,
+            531.59765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "Neuroscience. Prerequisite: Computer Science 54-284 or permission of instructor. (NS)",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 3,
+          "bounding_box": [
+            69.75,
+            541.1953125,
+            526.2367553710938,
+            555.59765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "54-454",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 3,
+          "bounding_box": [
+            69.75,
+            568.5030517578125,
+            108.95746612548828,
+            580.5030517578125
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "Algorithms",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 3,
+          "bounding_box": [
+            112.20703125,
+            568.5030517578125,
+            168.57125854492188,
+            580.5030517578125
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "An introduction to the design and analysis of algorithms and their implementation in C++.",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 3,
+          "bounding_box": [
+            69.75,
+            590.6953125,
+            537.0779418945312,
+            605.09765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "Topics include: greedy, divide-and-conquer, dynamic programming, graph, and randomized",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 3,
+          "bounding_box": [
+            69.75,
+            614.6953125,
+            547.1353759765625,
+            629.09765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "algorithms; asymptotic analysis and computational tractability (e.g. NP-completeness);",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 3,
+          "bounding_box": [
+            69.75,
+            638.6953125,
+            519.4368896484375,
+            653.09765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "practical data structures (stacks, trees, queues, graphs, hash tables, heaps). Prerequisite:",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 3,
+          "bounding_box": [
+            69.75,
+            662.6953125,
+            533.4656372070312,
+            677.09765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "Computer Science 54-284, or permission of instructor. Contributes to Design Thinking.",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 3,
+          "bounding_box": [
+            69.75,
+            686.6953125,
+            526.421142578125,
+            701.09765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "(Spring) (NS)",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 3,
+          "bounding_box": [
+            69.75,
+            710.6953125,
+            134.36605834960938,
+            725.09765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "54-474",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 3,
+          "bounding_box": [
+            69.75,
+            738.0030517578125,
+            108.60004425048828,
+            750.0030517578125
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "Programming",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 3,
+          "bounding_box": [
+            111.849609375,
+            738.0030517578125,
+            181.689697265625,
+            750.0030517578125
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "Languages",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 3,
+          "bounding_box": [
+            184.939453125,
+            738.0030517578125,
+            239.22946166992188,
+            750.0030517578125
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "Menu",
+          "font_size": 10.5,
+          "is_bold": true,
+          "page_number": 3,
+          "bounding_box": [
+            67.640625,
+            51.66943359375,
+            95.16112518310547,
+            65.63525390625
+          ],
+          "section_heading": "Menu",
+          "heading_level": 2
+        },
+        {
+          "text": "Search",
+          "font_size": 10.5,
+          "is_bold": true,
+          "page_number": 3,
+          "bounding_box": [
+            119.77734375,
+            51.66943359375,
+            151.39268493652344,
+            65.63525390625
+          ],
+          "section_heading": "Search",
+          "heading_level": 2
+        },
+        {
+          "text": "Apply",
+          "font_size": 10.5,
+          "is_bold": true,
+          "page_number": 3,
+          "bounding_box": [
+            417.92578125,
+            51.66943359375,
+            445.70880126953125,
+            65.63525390625
+          ],
+          "section_heading": "Apply",
+          "heading_level": 2
+        },
+        {
+          "text": "Visit",
+          "font_size": 10.5,
+          "is_bold": true,
+          "page_number": 3,
+          "bounding_box": [
+            455.30859375,
+            51.66943359375,
+            475.8465576171875,
+            65.63525390625
+          ],
+          "section_heading": "Visit",
+          "heading_level": 2
+        },
+        {
+          "text": "Majors & Minors",
+          "font_size": 10.5,
+          "is_bold": true,
+          "page_number": 3,
+          "bounding_box": [
+            485.4609375,
+            51.66943359375,
+            564.7476806640625,
+            65.63525390625
+          ],
+          "section_heading": "Majors & Minors",
+          "heading_level": 2
+        },
+        {
+          "text": "2/6/26, 10:20 AM",
+          "font_size": 7.994999885559082,
+          "is_bold": false,
+          "page_number": 3,
+          "bounding_box": [
+            24.0,
+            15.262338638305664,
+            84.4503173828125,
+            24.194252014160156
+          ],
+          "section_heading": "Majors & Minors",
+          "heading_level": null
+        },
+        {
+          "text": "Courses • Southwestern University",
+          "font_size": 7.994999885559082,
+          "is_bold": false,
+          "page_number": 3,
+          "bounding_box": [
+            289.6171875,
+            15.262338638305664,
+            412.8330078125,
+            24.194252014160156
+          ],
+          "section_heading": "Majors & Minors",
+          "heading_level": null
+        },
+        {
+          "text": "https://www.southwestern.edu/computer-science/courses/",
+          "font_size": 7.994999885559082,
+          "is_bold": false,
+          "page_number": 3,
+          "bounding_box": [
+            24.0,
+            768.2623291015625,
+            227.9671630859375,
+            777.1942749023438
+          ],
+          "section_heading": "Majors & Minors",
+          "heading_level": null
+        },
+        {
+          "text": "3/5",
+          "font_size": 7.994999885559082,
+          "is_bold": false,
+          "page_number": 3,
+          "bounding_box": [
+            576.8671875,
+            768.2623291015625,
+            587.9920654296875,
+            777.1942749023438
+          ],
+          "section_heading": "Majors & Minors",
+          "heading_level": null
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "page_number": 4,
+        "page_index": 3,
+        "width": 612.0,
+        "height": 792.0,
+        "rotation": 0,
+        "text_length": 2237,
+        "word_count": 294,
+        "has_images": false,
+        "has_links": true,
+        "link_count": 17,
+        "document_hash": "8ca86e2913df0a31aad8b7ca71e15af7ff7789e31b5f2d8d39cfc5fb6f29e237",
+        "document_name": "SU_CS_Overview.pdf"
+      },
+      "text": "A study of the principles and practice in the design and implementation of imperative, functional, logic and object-oriented programming languages. Prerequisite: Computer Science 54-394 or permission of instructor. (Fall) (NS) 54-514 Database Management An introduction to the theory and practice of database management systems. Topics include database terminology, the entity-relationship model, the relational model, normalization, querying databases using SQL, and exploration of other database technologies. The course includes a laboratory component designed to explore applications and to enhance conceptualization. Contributes to Data Analytics and Data Science. Prerequisite: Computer Science 54-284 or permission of instructor. (NS) 54-524 Introduction to Numerical Analysis See Mathematics 52-524. (NS) 54-534 Functional Programming An introduction to functional programming. Topics include functions, lists, types, induction and recursion, pattern matching, infinite lists and trees. A functional programming language such as Haskell, Lisp or ML will be used in the course. There will be a large number of programming projects. Prerequisite: Computer Science 54-284 or permission of instructor. (NS) 54-644 Computer Systems An introduction to operating systems and computer networks. Topics include process control, scheduling, threads, concurrency, memory management, virtual memory, network protocol layers, packets, routing and network security. Prerequisite: Computer Science 54-394. (Spring) (NS) 54-844 Seminar in Special Topics A limited enrollment seminar not generally covered in other courses. This course may be repeated for credit as topics vary. (NS) 54-894 Senior Seminar in Software Engineering Introduction to techniques and theories for the development of large software systems. This course will fulfill the capstone requirement in Computer Science. Topics include: software design and quality, ethics, professional issues, the study of current software engineering trends, theory and practice. Each student will contribute substantially to a major semester Menu Search Apply Visit Majors & Minors 2/6/26, 10:20 AM Courses • Southwestern University https://www.southwestern.edu/computer-science/courses/ 4/5",
+      "raw_text": "A study of the principles and practice in the design and implementation of imperative,\nfunctional, logic and object-oriented programming languages. Prerequisite: Computer Science\n54-394 or permission of instructor. (Fall) (NS)\n54-514 Database Management\nAn introduction to the theory and practice of database management systems. Topics include\ndatabase terminology, the entity-relationship model, the relational model, normalization,\nquerying databases using SQL, and exploration of other database technologies. The course\nincludes a laboratory component designed to explore applications and to enhance\nconceptualization. Contributes to Data Analytics and Data Science. Prerequisite: Computer\nScience 54-284 or permission of instructor. (NS)\n54-524 Introduction to Numerical Analysis\nSee Mathematics 52-524. (NS)\n54-534 Functional Programming\nAn introduction to functional programming. Topics include functions, lists, types, induction and\nrecursion, pattern matching, infinite lists and trees. A functional programming language such\nas Haskell, Lisp or ML will be used in the course. There will be a large number of programming\nprojects. Prerequisite: Computer Science 54-284 or permission of instructor. (NS)\n54-644 Computer Systems\nAn introduction to operating systems and computer networks. Topics include process control,\nscheduling, threads, concurrency, memory management, virtual memory, network protocol\nlayers, packets, routing and network security. Prerequisite: Computer Science 54-394. (Spring)\n(NS)\n54-844 Seminar in Special Topics\nA limited enrollment seminar not generally covered in other courses. This course may be\nrepeated for credit as topics vary. (NS)\n54-894 Senior Seminar in Software Engineering\nIntroduction to techniques and theories for the development of large software systems. This\ncourse will fulfill the capstone requirement in Computer Science. Topics include: software\ndesign and quality, ethics, professional issues, the study of current software engineering\ntrends, theory and practice. Each student will contribute substantially to a major semester\nMenu\nSearch\nApply\nVisit\nMajors & Minors\n2/6/26, 10:20 AM\nCourses • Southwestern University\nhttps://www.southwestern.edu/computer-science/courses/\n4/5\n",
+      "links": [
+        {
+          "type": "unknown",
+          "uri": "",
+          "rect": "Rect(105.0, 51.0, 151.5, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/admission/apply/",
+          "rect": "Rect(417.75, 51.75, 445.5, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/admission/apply/",
+          "rect": "Rect(417.75, 51.75, 445.5, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/admission/apply/",
+          "rect": "Rect(417.75, 51.75, 445.5, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/admission/apply/",
+          "rect": "Rect(417.75, 51.75, 445.5, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/admission/apply/",
+          "rect": "Rect(417.75, 51.75, 445.5, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/admission/visit/",
+          "rect": "Rect(455.25, 51.75, 475.5, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/admission/visit/",
+          "rect": "Rect(455.25, 51.75, 475.5, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/admission/visit/",
+          "rect": "Rect(455.25, 51.75, 475.5, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/admission/visit/",
+          "rect": "Rect(455.25, 51.75, 475.5, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/admission/visit/",
+          "rect": "Rect(455.25, 51.75, 475.5, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/academics/majors-minors/",
+          "rect": "Rect(485.25, 51.75, 564.75, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/academics/majors-minors/",
+          "rect": "Rect(485.25, 51.75, 564.75, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/academics/majors-minors/",
+          "rect": "Rect(485.25, 51.75, 564.75, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/academics/majors-minors/",
+          "rect": "Rect(485.25, 51.75, 564.75, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/academics/majors-minors/",
+          "rect": "Rect(485.25, 51.75, 564.75, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/",
+          "rect": "Rect(292.5, 43.5, 319.5, 76.5)"
+        }
+      ],
+      "rich_blocks": [
+        {
+          "text": "A study of the principles and practice in the design and implementation of imperative,",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            69.75,
+            32.6953125,
+            515.2857055664062,
+            47.09765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "functional, logic and object-oriented programming languages. Prerequisite: Computer Science",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            69.75,
+            56.6953125,
+            559.0078125,
+            71.09765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "54-394 or permission of instructor. (Fall) (NS)",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            69.75,
+            80.6953125,
+            309.0622253417969,
+            95.09765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "54-514",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            69.75,
+            108.00306701660156,
+            108.95746612548828,
+            120.00306701660156
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "Database",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            112.20703125,
+            108.00306701660156,
+            160.43724060058594,
+            120.00306701660156
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "Management",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            163.6875,
+            108.00306701660156,
+            231.280029296875,
+            120.00306701660156
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "An introduction to the theory and practice of database management systems. Topics include",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            69.75,
+            130.1953125,
+            548.8026123046875,
+            144.59765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "database terminology, the entity-relationship model, the relational model, normalization,",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            69.75,
+            154.1953125,
+            532.8276977539062,
+            168.59765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "querying databases using SQL, and exploration of other database technologies. The course",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            69.75,
+            178.1953125,
+            541.593017578125,
+            192.59765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "includes a laboratory component designed to explore applications and to enhance",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            69.75,
+            202.1953125,
+            494.6162414550781,
+            216.59765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "conceptualization. Contributes to Data Analytics and Data Science. Prerequisite: Computer",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            69.75,
+            226.1953125,
+            543.9571533203125,
+            240.59765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "Science 54-284 or permission of instructor. (NS)",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            69.75,
+            250.1953125,
+            322.84613037109375,
+            264.59765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "54-524",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            69.75,
+            277.5030517578125,
+            108.95746612548828,
+            289.5030517578125
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "Introduction",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            112.20703125,
+            277.5030517578125,
+            176.42784118652344,
+            289.5030517578125
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "to",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            179.671875,
+            277.5030517578125,
+            190.21495056152344,
+            289.5030517578125
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "Numerical",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            193.458984375,
+            277.5030517578125,
+            246.82757568359375,
+            289.5030517578125
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "Analysis",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            250.078125,
+            277.5030517578125,
+            292.3564147949219,
+            289.5030517578125
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "See Mathematics 52-524. (NS)",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            69.75,
+            299.6953125,
+            229.68603515625,
+            314.09765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "54-534",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            69.75,
+            327.0030517578125,
+            108.95746612548828,
+            339.0030517578125
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "Functional",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            112.20703125,
+            327.0030517578125,
+            167.29241943359375,
+            339.0030517578125
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "Programming",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            170.54296875,
+            327.0030517578125,
+            240.383056640625,
+            339.0030517578125
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "An introduction to functional programming. Topics include functions, lists, types, induction and",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            69.75,
+            349.1953125,
+            565.0067749023438,
+            363.59765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "recursion, pattern matching, infinite lists and trees. A functional programming language such",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            69.75,
+            373.1953125,
+            551.5658569335938,
+            387.59765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "as Haskell, Lisp or ML will be used in the course. There will be a large number of programming",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            69.75,
+            397.1953125,
+            562.4489135742188,
+            411.59765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "projects. Prerequisite: Computer Science 54-284 or permission of instructor. (NS)",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            69.75,
+            421.1953125,
+            497.44378662109375,
+            435.59765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "54-644",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            69.75,
+            448.5030517578125,
+            108.95746612548828,
+            460.5030517578125
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "Computer",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            112.20703125,
+            448.5030517578125,
+            165.09239196777344,
+            460.5030517578125
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "Systems",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            168.33984375,
+            448.5030517578125,
+            210.92282104492188,
+            460.5030517578125
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "An introduction to operating systems and computer networks. Topics include process control,",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            69.75,
+            470.6953125,
+            557.0474243164062,
+            485.09765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "scheduling, threads, concurrency, memory management, virtual memory, network protocol",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            69.75,
+            494.6953125,
+            545.7491455078125,
+            509.09765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "layers, packets, routing and network security. Prerequisite: Computer Science 54-394. (Spring)",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            69.75,
+            518.6953125,
+            565.5037231445312,
+            533.09765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "(NS)",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            69.75,
+            542.6953125,
+            91.302001953125,
+            557.09765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "54-844",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            69.75,
+            570.0030517578125,
+            108.95746612548828,
+            582.0030517578125
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "Seminar",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            112.20703125,
+            570.0030517578125,
+            155.02598571777344,
+            582.0030517578125
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "in",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            158.2734375,
+            570.0030517578125,
+            167.74424743652344,
+            582.0030517578125
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "Special",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            170.98828125,
+            570.0030517578125,
+            208.00335693359375,
+            582.0030517578125
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "Topics",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            211.25390625,
+            570.0030517578125,
+            244.45016479492188,
+            582.0030517578125
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "A limited enrollment seminar not generally covered in other courses. This course may be",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            69.75,
+            592.1953125,
+            531.3214111328125,
+            606.59765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "repeated for credit as topics vary. (NS)",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            69.75,
+            616.1953125,
+            270.4047546386719,
+            630.59765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "54-894",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            69.75,
+            643.5030517578125,
+            108.95746612548828,
+            655.5030517578125
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "Senior",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            112.20703125,
+            643.5030517578125,
+            145.59239196777344,
+            655.5030517578125
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "Seminar",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            148.83984375,
+            643.5030517578125,
+            191.65879821777344,
+            655.5030517578125
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "in",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            194.90625,
+            643.5030517578125,
+            204.37705993652344,
+            655.5030517578125
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "Software",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            207.62109375,
+            643.5030517578125,
+            253.87083435058594,
+            655.5030517578125
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "Engineering",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            257.12109375,
+            643.5030517578125,
+            318.470947265625,
+            655.5030517578125
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "Introduction to techniques and theories for the development of large software systems. This",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            69.75,
+            665.6953125,
+            548.4694213867188,
+            680.09765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "course will fulfill the capstone requirement in Computer Science. Topics include: software",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            69.75,
+            689.6953125,
+            536.890625,
+            704.09765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "design and quality, ethics, professional issues, the study of current software engineering",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            69.75,
+            713.6953125,
+            527.2869262695312,
+            728.09765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "trends, theory and practice. Each student will contribute substantially to a major semester",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            69.75,
+            737.6953125,
+            538.5980834960938,
+            752.09765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "Menu",
+          "font_size": 10.5,
+          "is_bold": true,
+          "page_number": 4,
+          "bounding_box": [
+            67.640625,
+            51.66943359375,
+            95.16112518310547,
+            65.63525390625
+          ],
+          "section_heading": "Menu",
+          "heading_level": 2
+        },
+        {
+          "text": "Search",
+          "font_size": 10.5,
+          "is_bold": true,
+          "page_number": 4,
+          "bounding_box": [
+            119.77734375,
+            51.66943359375,
+            151.39268493652344,
+            65.63525390625
+          ],
+          "section_heading": "Search",
+          "heading_level": 2
+        },
+        {
+          "text": "Apply",
+          "font_size": 10.5,
+          "is_bold": true,
+          "page_number": 4,
+          "bounding_box": [
+            417.92578125,
+            51.66943359375,
+            445.70880126953125,
+            65.63525390625
+          ],
+          "section_heading": "Apply",
+          "heading_level": 2
+        },
+        {
+          "text": "Visit",
+          "font_size": 10.5,
+          "is_bold": true,
+          "page_number": 4,
+          "bounding_box": [
+            455.30859375,
+            51.66943359375,
+            475.8465576171875,
+            65.63525390625
+          ],
+          "section_heading": "Visit",
+          "heading_level": 2
+        },
+        {
+          "text": "Majors & Minors",
+          "font_size": 10.5,
+          "is_bold": true,
+          "page_number": 4,
+          "bounding_box": [
+            485.4609375,
+            51.66943359375,
+            564.7476806640625,
+            65.63525390625
+          ],
+          "section_heading": "Majors & Minors",
+          "heading_level": 2
+        },
+        {
+          "text": "2/6/26, 10:20 AM",
+          "font_size": 7.994999885559082,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            24.0,
+            15.262338638305664,
+            84.4503173828125,
+            24.194252014160156
+          ],
+          "section_heading": "Majors & Minors",
+          "heading_level": null
+        },
+        {
+          "text": "Courses • Southwestern University",
+          "font_size": 7.994999885559082,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            289.6171875,
+            15.262338638305664,
+            412.8330078125,
+            24.194252014160156
+          ],
+          "section_heading": "Majors & Minors",
+          "heading_level": null
+        },
+        {
+          "text": "https://www.southwestern.edu/computer-science/courses/",
+          "font_size": 7.994999885559082,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            24.0,
+            768.2623291015625,
+            227.9671630859375,
+            777.1942749023438
+          ],
+          "section_heading": "Majors & Minors",
+          "heading_level": null
+        },
+        {
+          "text": "4/5",
+          "font_size": 7.994999885559082,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            576.8671875,
+            768.2623291015625,
+            587.9920654296875,
+            777.1942749023438
+          ],
+          "section_heading": "Majors & Minors",
+          "heading_level": null
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "page_number": 5,
+        "page_index": 4,
+        "width": 612.0,
+        "height": 792.0,
+        "rotation": 0,
+        "text_length": 517,
+        "word_count": 70,
+        "has_images": false,
+        "has_links": true,
+        "link_count": 20,
+        "document_hash": "8ca86e2913df0a31aad8b7ca71e15af7ff7789e31b5f2d8d39cfc5fb6f29e237",
+        "document_name": "SU_CS_Overview.pdf"
+      },
+      "text": "project, do at least one major individual presentation, and have significant class participation. Each student will take the Major Field Test. Prerequisite: Six courses in the major at the 300 level or above, and permission of instructor. Must have completed one of Computer Science 54-454, 54-514, or 54-474. (Spring) (NS) (WA) GEORGETOWN, TEXAS512.863.6511 CONTACT Menu Search Apply Visit Majors & Minors 2/6/26, 10:20 AM Courses • Southwestern University https://www.southwestern.edu/computer-science/courses/ 5/5",
+      "raw_text": "project, do at least one major individual presentation, and have significant class participation.\nEach student will take the Major Field Test. Prerequisite: Six courses in the major at the 300\nlevel or above, and permission of instructor. Must have completed one of Computer Science\n54-454, 54-514, or 54-474. (Spring) (NS) (WA)\nGEORGETOWN, TEXAS512.863.6511\nCONTACT\nMenu\nSearch\nApply\nVisit\nMajors & Minors\n2/6/26, 10:20 AM\nCourses • Southwestern University\nhttps://www.southwestern.edu/computer-science/courses/\n5/5\n",
+      "links": [
+        {
+          "type": "unknown",
+          "uri": "https://www.google.com/maps/place/Southwestern+University/@30.5190568,-97.8518943,10z/data=!4m5!3m4!1s0x8644d64e47bd3f6d:0xd240741914c84ab3!8m2!3d30.6349251!4d-97.6651268",
+          "rect": "Rect(213.75, 375.75, 328.5, 387.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "tel:1-512-863-6511",
+          "rect": "Rect(328.5, 375.75, 399.0, 387.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/contact-us/",
+          "rect": "Rect(282.0, 394.5, 330.75, 405.75)"
+        },
+        {
+          "type": "unknown",
+          "uri": "",
+          "rect": "Rect(105.0, 51.0, 151.5, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/admission/apply/",
+          "rect": "Rect(417.75, 51.75, 445.5, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/admission/apply/",
+          "rect": "Rect(417.75, 51.75, 445.5, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/admission/apply/",
+          "rect": "Rect(417.75, 51.75, 445.5, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/admission/apply/",
+          "rect": "Rect(417.75, 51.75, 445.5, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/admission/apply/",
+          "rect": "Rect(417.75, 51.75, 445.5, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/admission/visit/",
+          "rect": "Rect(455.25, 51.75, 475.5, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/admission/visit/",
+          "rect": "Rect(455.25, 51.75, 475.5, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/admission/visit/",
+          "rect": "Rect(455.25, 51.75, 475.5, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/admission/visit/",
+          "rect": "Rect(455.25, 51.75, 475.5, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/admission/visit/",
+          "rect": "Rect(455.25, 51.75, 475.5, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/academics/majors-minors/",
+          "rect": "Rect(485.25, 51.75, 564.75, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/academics/majors-minors/",
+          "rect": "Rect(485.25, 51.75, 564.75, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/academics/majors-minors/",
+          "rect": "Rect(485.25, 51.75, 564.75, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/academics/majors-minors/",
+          "rect": "Rect(485.25, 51.75, 564.75, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/academics/majors-minors/",
+          "rect": "Rect(485.25, 51.75, 564.75, 66.0)"
+        },
+        {
+          "type": "unknown",
+          "uri": "https://www.southwestern.edu/",
+          "rect": "Rect(292.5, 43.5, 319.5, 76.5)"
+        }
+      ],
+      "rich_blocks": [
+        {
+          "text": "project, do at least one major individual presentation, and have significant class participation.",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 5,
+          "bounding_box": [
+            69.75,
+            32.6953125,
+            554.9854736328125,
+            47.09765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "Each student will take the Major Field Test. Prerequisite: Six courses in the major at the 300",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 5,
+          "bounding_box": [
+            69.75,
+            56.6953125,
+            548.8865356445312,
+            71.09765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "level or above, and permission of instructor. Must have completed one of Computer Science",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 5,
+          "bounding_box": [
+            69.75,
+            80.6953125,
+            550.5592041015625,
+            95.09765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "54-454, 54-514, or 54-474. (Spring) (NS) (WA)",
+          "font_size": 12.0,
+          "is_bold": false,
+          "page_number": 5,
+          "bounding_box": [
+            69.75,
+            104.6953125,
+            315.70880126953125,
+            119.09765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "GEORGETOWN,",
+          "font_size": 9.0,
+          "is_bold": false,
+          "page_number": 5,
+          "bounding_box": [
+            213.45703125,
+            376.34088134765625,
+            290.92706298828125,
+            385.34088134765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "TEXAS512.863.6511",
+          "font_size": 9.0,
+          "is_bold": false,
+          "page_number": 5,
+          "bounding_box": [
+            295.65673828125,
+            376.34088134765625,
+            398.1639099121094,
+            385.34088134765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "CONTACT",
+          "font_size": 9.0,
+          "is_bold": false,
+          "page_number": 5,
+          "bounding_box": [
+            281.68359375,
+            395.09088134765625,
+            329.9363708496094,
+            404.09088134765625
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "Menu",
+          "font_size": 10.5,
+          "is_bold": true,
+          "page_number": 5,
+          "bounding_box": [
+            67.640625,
+            51.66943359375,
+            95.16112518310547,
+            65.63525390625
+          ],
+          "section_heading": "Menu",
+          "heading_level": 2
+        },
+        {
+          "text": "Search",
+          "font_size": 10.5,
+          "is_bold": true,
+          "page_number": 5,
+          "bounding_box": [
+            119.77734375,
+            51.66943359375,
+            151.39268493652344,
+            65.63525390625
+          ],
+          "section_heading": "Search",
+          "heading_level": 2
+        },
+        {
+          "text": "Apply",
+          "font_size": 10.5,
+          "is_bold": true,
+          "page_number": 5,
+          "bounding_box": [
+            417.92578125,
+            51.66943359375,
+            445.70880126953125,
+            65.63525390625
+          ],
+          "section_heading": "Apply",
+          "heading_level": 2
+        },
+        {
+          "text": "Visit",
+          "font_size": 10.5,
+          "is_bold": true,
+          "page_number": 5,
+          "bounding_box": [
+            455.30859375,
+            51.66943359375,
+            475.8465576171875,
+            65.63525390625
+          ],
+          "section_heading": "Visit",
+          "heading_level": 2
+        },
+        {
+          "text": "Majors & Minors",
+          "font_size": 10.5,
+          "is_bold": true,
+          "page_number": 5,
+          "bounding_box": [
+            485.4609375,
+            51.66943359375,
+            564.7476806640625,
+            65.63525390625
+          ],
+          "section_heading": "Majors & Minors",
+          "heading_level": 2
+        },
+        {
+          "text": "2/6/26, 10:20 AM",
+          "font_size": 7.994999885559082,
+          "is_bold": false,
+          "page_number": 5,
+          "bounding_box": [
+            24.0,
+            15.262338638305664,
+            84.4503173828125,
+            24.194252014160156
+          ],
+          "section_heading": "Majors & Minors",
+          "heading_level": null
+        },
+        {
+          "text": "Courses • Southwestern University",
+          "font_size": 7.994999885559082,
+          "is_bold": false,
+          "page_number": 5,
+          "bounding_box": [
+            289.6171875,
+            15.262338638305664,
+            412.8330078125,
+            24.194252014160156
+          ],
+          "section_heading": "Majors & Minors",
+          "heading_level": null
+        },
+        {
+          "text": "https://www.southwestern.edu/computer-science/courses/",
+          "font_size": 7.994999885559082,
+          "is_bold": false,
+          "page_number": 5,
+          "bounding_box": [
+            24.0,
+            768.2623291015625,
+            227.9671630859375,
+            777.1942749023438
+          ],
+          "section_heading": "Majors & Minors",
+          "heading_level": null
+        },
+        {
+          "text": "5/5",
+          "font_size": 7.994999885559082,
+          "is_bold": false,
+          "page_number": 5,
+          "bounding_box": [
+            576.8671875,
+            768.2623291015625,
+            587.9920654296875,
+            777.1942749023438
+          ],
+          "section_heading": "Majors & Minors",
+          "heading_level": null
+        }
+      ]
+    }
+  ]
+}

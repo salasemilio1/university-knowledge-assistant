@@ -13,17 +13,18 @@ import json
 import sys
 from pathlib import Path
 from typing import Dict, List, Any, Optional
-from dataclasses import dataclass, asdict
+from dataclasses import dataclass, asdict, field
 from datetime import datetime
 import hashlib
+import statistics
 
 try:
-    from pypdf import PdfReader
+    import fitz  # PyMuPDF
 except ImportError:
-    print("Installing pypdf...")
+    print("Installing pymupdf...")
     import subprocess
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "pypdf", "--break-system-packages"])
-    from pypdf import PdfReader
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "pymupdf", "--break-system-packages"])
+    import fitz
 
 
 @dataclass
@@ -60,18 +61,36 @@ class PageMetadata:
 
 
 @dataclass
+class RichBlock:
+    """Block-level metadata with structural information"""
+    text: str
+    font_size: float
+    is_bold: bool
+    page_number: int  # 1-indexed
+    bounding_box: List[float]  # [x0, y0, x1, y1]
+    section_heading: Optional[str] = None
+    heading_level: Optional[int] = None
+
+
+@dataclass
 class PageContent:
     """Page content with metadata"""
     metadata: PageMetadata
     text: str
     raw_text: str  # Preserve original extraction
     links: List[Dict[str, Any]]
+    rich_blocks: List[RichBlock] = field(default_factory=list)
     
 
 @dataclass
 class DocumentBundle:
-    """Complete document with all metadata and content"""
-    document_metadata: DocumentMetadata
+    """Complete document with all metadata and content
+
+    A single source of truth for the entire document, with the document's
+    metadata and a list of page contents
+    
+    """
+    document_metadata: DocumentMetadata 
     pages: List[PageContent]
     
 
@@ -90,27 +109,25 @@ class PDFMetadataExtractor:
                 sha256_hash.update(byte_block)
         return sha256_hash.hexdigest()
     
-    def extract_document_metadata(self, pdf_path: Path, reader: PdfReader) -> DocumentMetadata:
-        """Extract document-level metadata"""
+    def extract_document_metadata(self, pdf_path: Path, doc: fitz.Document) -> DocumentMetadata:
+        """Extract document-level metadata from PyMuPDF document"""
         
         # Get PDF metadata
-        pdf_meta = reader.metadata or {}
+        pdf_meta = doc.metadata or {}
         
-        # Clean up metadata values - pypdf uses different attribute names
+        # Clean up metadata values
         cleaned_meta = {}
-        if pdf_meta:
-            # pypdf uses attributes like .title, .author, .subject
-            for attr in ['title', 'author', 'subject', 'creator', 'producer', 'creation_date', 'modification_date']:
-                value = getattr(pdf_meta, f'/{attr.capitalize()}', None) or getattr(pdf_meta, attr, None)
-                if value:
-                    cleaned_meta[attr] = str(value).strip() if value else None
+        for key in ['title', 'author', 'subject', 'creator', 'producer', 'creationDate', 'modDate']:
+            value = pdf_meta.get(key)
+            if value:
+                cleaned_meta[key] = str(value).strip()
         
         return DocumentMetadata(
             file_path=str(pdf_path.absolute()),
             file_name=pdf_path.name,
             file_size_bytes=pdf_path.stat().st_size,
             file_hash=self.compute_file_hash(pdf_path),
-            total_pages=len(reader.pages),
+            total_pages=doc.page_count,
             extraction_timestamp=datetime.utcnow().isoformat() + "Z",
             pdf_metadata=cleaned_meta,
             document_type=self._infer_document_type(pdf_path.name, cleaned_meta),
@@ -180,49 +197,106 @@ class PDFMetadataExtractor:
         
         return None
     
+    def _extract_spans_from_page(self, page: fitz.Page, page_num: int) -> List[Dict[str, Any]]:
+        """Extract spans with font info from PyMuPDF page dict"""
+        text_dict = page.get_text("dict")
+        spans = []
+        
+        for block in text_dict.get("blocks", []):
+            if block["type"] != 0:  # 0 = text block
+                continue
+            for line in block.get("lines", []):
+                for span in line.get("spans", []):
+                    span_copy = span.copy()
+                    span_copy["page_number"] = page_num + 1
+                    spans.append(span_copy)
+        
+        return spans
+    
+    def _compute_median_font_size(self, spans: List[Dict[str, Any]]) -> float:
+        """Compute median font size from spans"""
+        font_sizes = [s.get("size", 12) for s in spans]
+        return statistics.median(font_sizes) if font_sizes else 12.0
+    
+    def _detect_heading_level(
+        self, 
+        font_size: float, 
+        is_bold: bool, 
+        median_size: float
+    ) -> Optional[int]:
+        """Detect heading level based on font size and bold flag"""
+        if font_size >= median_size * 1.5:
+            return 1
+        elif font_size >= median_size * 1.2 or is_bold:
+            return 2
+        return None
+    
+    def _build_rich_blocks(
+        self, 
+        spans: List[Dict[str, Any]], 
+        page_num: int
+    ) -> tuple[List[RichBlock], List[str]]:
+        """Build rich blocks and track headings"""
+        if not spans:
+            return [], []
+        
+        median_size = self._compute_median_font_size(spans)
+        rich_blocks = []
+        headings = []
+        current_heading = None
+        
+        for span in spans:
+            text = span.get("text", "").strip()
+            if not text:
+                continue
+            
+            bbox = span.get("bbox", [0, 0, 0, 0])
+            font_size = span.get("size", median_size)
+            is_bold = (span.get("flags", 0) & 16) == 16
+            
+            heading_level = self._detect_heading_level(font_size, is_bold, median_size)
+            
+            if heading_level:
+                current_heading = text
+                headings.append(text)
+            
+            block = RichBlock(
+                text=text,
+                font_size=font_size,
+                is_bold=is_bold,
+                page_number=page_num,
+                bounding_box=list(bbox),
+                section_heading=current_heading,
+                heading_level=heading_level
+            )
+            rich_blocks.append(block)
+        
+        return rich_blocks, headings
+    
     def extract_page_metadata(
         self, 
-        page,
+        page: fitz.Page,
         page_num: int,
         doc_hash: str,
         doc_name: str
     ) -> PageMetadata:
-        """Extract page-level metadata"""
+        """Extract page-level metadata from PyMuPDF page"""
         
-        # Get page dimensions (pypdf uses mediabox)
-        mediabox = page.mediabox
-        width = float(mediabox.width)
-        height = float(mediabox.height)
-        rotation = int(page.get('/Rotate', 0))
+        # Get page dimensions
+        rect = page.rect
+        width = float(rect.width)
+        height = float(rect.height)
+        rotation = page.rotation
         
         # Extract text for analysis
-        text = page.extract_text()
+        text = page.get_text()
         word_count = len(text.split()) if text else 0
         
-        # Check for images - pypdf
-        has_images = False
-        try:
-            if '/Resources' in page and '/XObject' in page['/Resources']:
-                xobjects = page['/Resources']['/XObject'].get_object()
-                has_images = any(
-                    obj.get('/Subtype') == '/Image' 
-                    for obj in xobjects.values()
-                    if hasattr(obj, 'get')
-                )
-        except:
-            pass
-        
-        # Check for links/annotations
-        has_links = False
-        link_count = 0
-        try:
-            if '/Annots' in page:
-                annots = page['/Annots']
-                if annots:
-                    link_count = len(annots)
-                    has_links = link_count > 0
-        except:
-            pass
+        # Check for images and links
+        has_images = len(page.get_images()) > 0
+        links = page.get_links()
+        has_links = len(links) > 0
+        link_count = len(links)
         
         return PageMetadata(
             page_number=page_num + 1,  # 1-indexed for humans
@@ -241,38 +315,29 @@ class PDFMetadataExtractor:
     
     def extract_page_content(
         self, 
-        page,
+        page: fitz.Page,
         page_num: int,
         doc_hash: str,
         doc_name: str
     ) -> PageContent:
         """Extract full page content with metadata"""
         
-        # Extract text
-        raw_text = page.extract_text() or ""
-        
-        # Clean text (basic cleaning - expand as needed)
+        # Extract text and links
+        raw_text = page.get_text() or ""
         text = self._clean_text(raw_text)
         
-        # Extract links/annotations
+        # Extract spans and build rich blocks
+        spans = self._extract_spans_from_page(page, page_num)
+        rich_blocks, _ = self._build_rich_blocks(spans, page_num + 1)
+        
+        # Extract links from page
         links = []
-        try:
-            if '/Annots' in page:
-                annots = page['/Annots']
-                if annots:
-                    for annot in annots:
-                        try:
-                            annot_obj = annot.get_object()
-                            link_info = {
-                                'type': str(annot_obj.get('/Subtype', 'Unknown')),
-                                'uri': str(annot_obj.get('/A', {}).get('/URI', '')),
-                                'rect': str(annot_obj.get('/Rect', ''))
-                            }
-                            links.append(link_info)
-                        except:
-                            pass
-        except:
-            pass
+        for link_dict in page.get_links():
+            links.append({
+                'type': link_dict.get('type', 'unknown'),
+                'uri': link_dict.get('uri', ''),
+                'rect': str(link_dict.get('from', ''))
+            })
         
         # Build page metadata
         metadata = self.extract_page_metadata(page, page_num, doc_hash, doc_name)
@@ -281,7 +346,8 @@ class PDFMetadataExtractor:
             metadata=metadata,
             text=text,
             raw_text=raw_text,
-            links=links
+            links=links,
+            rich_blocks=rich_blocks
         )
     
     def _clean_text(self, text: str) -> str:
@@ -303,17 +369,17 @@ class PDFMetadataExtractor:
         
         print(f"Processing: {pdf_path.name}")
         
-        # Open PDF with pypdf
-        reader = PdfReader(pdf_path)
+        # Open PDF with fitz
+        doc = fitz.open(pdf_path)
         
         # Extract document metadata
-        doc_metadata = self.extract_document_metadata(pdf_path, reader)
+        doc_metadata = self.extract_document_metadata(pdf_path, doc)
         print(f"  - Document: {doc_metadata.total_pages} pages")
         
         # Extract page content
         pages = []
-        for page_num in range(len(reader.pages)):
-            page = reader.pages[page_num]
+        for page_num in range(doc.page_count):
+            page = doc[page_num]
             page_content = self.extract_page_content(
                 page, 
                 page_num,
@@ -325,6 +391,7 @@ class PDFMetadataExtractor:
             if (page_num + 1) % 10 == 0:
                 print(f"  - Processed {page_num + 1}/{doc_metadata.total_pages} pages")
         
+        doc.close()
         print(f"  ✓ Complete: {len(pages)} pages extracted")
         
         return DocumentBundle(
@@ -343,7 +410,8 @@ class PDFMetadataExtractor:
                     'metadata': asdict(page.metadata),
                     'text': page.text,
                     'raw_text': page.raw_text,
-                    'links': page.links
+                    'links': page.links,
+                    'rich_blocks': [asdict(block) for block in page.rich_blocks]
                 }
                 for page in bundle.pages
             ]
@@ -409,7 +477,7 @@ def main():
     
     # Example: Process a PDF
     # You can replace this with your actual PDF path
-    pdf_path = Path("sample_university_document.pdf")
+    pdf_path = Path("SU_CS_Overview.pdf")
     
     # For demonstration, let's show what the code does
     print("=" * 60)
@@ -419,7 +487,7 @@ def main():
     print("a hierarchical, immutable approach:\n")
     print("  1. Document metadata (file info, PDF properties)")
     print("  2. Page metadata (dimensions, content stats)")
-    print("  3. [Future] Region metadata (layout detection)")
+    print("  3. Rich blocks (font, bold, headings, bounding boxes)")
     print("  4. [Future] Chunk metadata (for RAG)")
     print("\n" + "=" * 60)
     
@@ -442,6 +510,28 @@ def main():
             # Save as Markdown
             md_path = output_dir / f"{pdf_path.stem}_extracted.md"
             extractor.save_as_markdown(bundle, md_path)
+            
+            # Validation: Print heading detection stats
+            print("\n" + "=" * 60)
+            print("HEADING DETECTION RESULTS")
+            print("=" * 60)
+            all_headings = []
+            for page_idx, page in enumerate(bundle.pages):
+                for block in page.rich_blocks:
+                    if block.heading_level is not None:
+                        all_headings.append({
+                            'text': block.text,
+                            'level': block.heading_level,
+                            'page': block.page_number
+                        })
+            
+            if all_headings:
+                print(f"First 3 detected headings:")
+                for i, h in enumerate(all_headings[:3]):
+                    print(f"  {i+1}. Level {h['level']}: \"{h['text'][:60]}...\" (Page {h['page']})")
+                print(f"\nTotal rich_blocks extracted: {sum(len(p.rich_blocks) for p in bundle.pages)}")
+            else:
+                print("No headings detected in document")
             
             # Print summary
             print("\n" + "=" * 60)
@@ -469,7 +559,7 @@ def main():
         print("\nEXAMPLE:")
         print("  python pdf_metadata_extractor.py syllabus_2024.pdf")
         print("\nOUTPUT:")
-        print("  - JSON file with complete metadata")
+        print("  - JSON file with complete metadata (including rich_blocks)")
         print("  - Markdown file with extracted text")
         print("  - Both saved in ./output/ directory")
         print("\n" + "=" * 60)
