@@ -64,17 +64,33 @@ def chunk_by_courses(document_text: str) -> list[str]:
     Returns:
         list[str]: A list of strings including
         the course name and course information for every course.
-    """
-    # Use finditer so only the first time a course code is used, a new chunk is created
-    matches = list(re.finditer(r"(?=\d{2}-\d{3} [A-Z])", document_text, flags=re.MULTILINE))
-    chunks = []
-    for i, match in enumerate(matches):
-        start = match.start()
-        end = matches[i + 1].start() if i + 1 < len(matches) else len(document_text)
-        chunks.append(document_text[start:end].strip())
-    return chunks
+    """  
+    seen_course_codes = set()
 
-    
+    def add_newline_once(match: re.Match):
+        """
+        Ensures that newline is added for the first time a course code appears.
+
+        Args:
+            match (re.Match): Match found by regex which contains course code
+            and an extra captial letter following it after a space.
+
+        Returns:
+            newline appended to course_code if it is the first instance,
+            otherwise just the course code.
+        """
+        match_text = match.group(1)
+        course_code = match_text[:6]
+
+        if course_code in seen_course_codes:
+            return match_text
+        else:
+            seen_course_codes.add(course_code)
+            return "\n" + match_text
+        
+    document_text = re.sub(r"(\d{2}-\d{3} [A-Z])", add_newline_once, document_text)
+    chunks = re.split(r"(?=\n\d{2}-\d{3} [A-Z])", document_text, flags=re.MULTILINE)
+    return chunks
 
 # Link to Chroma docs gettng started tutorial
 # https://docs.trychroma.com/docs/overview/getting-started
@@ -87,26 +103,27 @@ collection = chroma_client.create_collection(name="university_documents")
 
 cs_courses_str = md_to_string('/workspaces/university-knowledge-assistant/output/Courses • Southwestern University_extracted.md')
 
+# Separate metadata from the rest of the content
+cs_courses_metadata, cs_courses_str = parse_metadata(cs_courses_str)
+cs_courses_str = isolate_course_info(cs_courses_str)
 
+# Break up courses into chunks
+cs_course_chunks = chunk_by_courses(cs_courses_str)
+for chunk in cs_course_chunks:
+    print(chunk)
+    print('\n*********************\n')
+
+print(len(cs_course_chunks))
 
 # Chroma stores text and handles embedding and indexing automatically
-collection.add(
-    ids=["cs_courses"],
-    documents=[cs_courses_str]
-)
+# collection.add(
+#     ids=["cs_courses_overview", "cs_courses_54-144", "cs_courses_54-184", "cs_courses_54-281", "cs_courses_54-284", "cs_courses_54-291", "cs_courses_54-384", "cs_courses_54-394", "cs_courses_54-414", "cs_courses_54-424", "cs_courses_54-454", "cs_courses_54-474", "cs_courses_54-514", "cs_courses_54-524", "cs_courses_54-534", "cs_courses_54-644", "cs_courses_54-844", "cs_courses_54-894"],
+#     documents=cs_course_chunks
+# )
 
 # # Query the collection
 # results = collection.query(
-#     query_texts=["Intro CS classes programming language"], # Chroma will embed this automatically
+#     query_texts=["CS1 programming language used"], # Chroma will embed this automatically
 #     n_results=2 # how many results to return
 # )
 # print(results)
-
-cs_courses_metadata, cs_courses_str = parse_metadata(cs_courses_str)
-cs_courses_str = isolate_course_info(cs_courses_str)
-cs_courses = chunk_by_courses(cs_courses_str)
-
-for course in cs_courses:
-    print(course)
-    print('\n*******************************\n')
-print(len(cs_courses))
