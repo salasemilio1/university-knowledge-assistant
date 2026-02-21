@@ -109,21 +109,26 @@ cs_courses_str = isolate_course_info(cs_courses_str)
 
 # Break up courses into chunks
 cs_course_chunks = chunk_by_courses(cs_courses_str)
-for chunk in cs_course_chunks:
-    print(chunk)
-    print('\n*********************\n')
 
-print(len(cs_course_chunks))
+cs_courses_metadata = {"file_name": "SU_CS_Overview.pdf",
+    "file_size_bytes": 202425,
+   "file_hash": "8ca86e2913df0a31aad8b7ca71e15af7ff7789e31b5f2d8d39cfc5fb6f29e237",
+    "total_pages": 5}
+
+# Create copy of the document metadata for every cs course chunk.
+cs_courses_metadatas = [cs_courses_metadata.copy() for _ in cs_course_chunks]
 
 # Chroma stores text and handles embedding and indexing automatically
-# collection.add(
-#     ids=["cs_courses_overview", "cs_courses_54-144", "cs_courses_54-184", "cs_courses_54-281", "cs_courses_54-284", "cs_courses_54-291", "cs_courses_54-384", "cs_courses_54-394", "cs_courses_54-414", "cs_courses_54-424", "cs_courses_54-454", "cs_courses_54-474", "cs_courses_54-514", "cs_courses_54-524", "cs_courses_54-534", "cs_courses_54-644", "cs_courses_54-844", "cs_courses_54-894"],
-#     documents=cs_course_chunks
-# )
+collection.add(
+    ids=["cs_courses_overview", "cs_courses_54-144", "cs_courses_54-184", "cs_courses_54-281", "cs_courses_54-284", "cs_courses_54-291", "cs_courses_54-384", "cs_courses_54-394", "cs_courses_54-414", "cs_courses_54-424", "cs_courses_54-454", "cs_courses_54-474", "cs_courses_54-514", "cs_courses_54-524", "cs_courses_54-534", "cs_courses_54-644", "cs_courses_54-844", "cs_courses_54-894"],
+    documents=cs_course_chunks,
+    metadatas=cs_courses_metadatas
+)
 
-# # Query the collection
-# results = collection.query(
-#     query_texts=["CS1 programming language used"], # Chroma will embed this automatically
-#     n_results=2 # how many results to return
-# )
-# print(results)
+
+# Query the collection
+results = collection.query(
+    query_texts=["What topics are explored in Computer Systems?"], # Chroma will embed this automatically
+    n_results=5 # how many results to return
+)
+print(results)
