@@ -2,16 +2,16 @@
   "document_metadata": {
     "file_path": "/Users/salashome/Documents/capstone/university-knowledge-assistant/SU_CS_Overview.pdf",
     "file_name": "SU_CS_Overview.pdf",
-    "file_size_bytes": 202425,
-    "file_hash": "8ca86e2913df0a31aad8b7ca71e15af7ff7789e31b5f2d8d39cfc5fb6f29e237",
+    "file_size_bytes": 204731,
+    "file_hash": "3a2d98684c6ec030ead26ca55b1ad158d758f47e143bbb4f4df3e85f00647cb1",
     "total_pages": 5,
-    "extraction_timestamp": "2026-02-20T14:50:27.207189Z",
+    "extraction_timestamp": "2026-02-25T22:01:17.005873Z",
     "pdf_metadata": {
       "title": "Courses • Southwestern University",
-      "creator": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "creator": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
       "producer": "Skia/PDF m144",
-      "creationDate": "D:20260206162002+00'00'",
-      "modDate": "D:20260206162002+00'00'"
+      "creationDate": "D:20260225174546+00'00'",
+      "modDate": "D:20260225174546+00'00'"
     },
     "document_type": null,
     "academic_year": null,
@@ -25,138 +25,124 @@
         "width": 612.0,
         "height": 792.0,
         "rotation": 0,
-        "text_length": 1660,
+        "text_length": 1661,
         "word_count": 228,
         "has_images": false,
         "has_links": true,
         "link_count": 19,
-        "document_hash": "8ca86e2913df0a31aad8b7ca71e15af7ff7789e31b5f2d8d39cfc5fb6f29e237",
+        "document_hash": "3a2d98684c6ec030ead26ca55b1ad158d758f47e143bbb4f4df3e85f00647cb1",
         "document_name": "SU_CS_Overview.pdf"
       },
-      "text": "COMPUTER SCIENCE Courses The Computer Science curriculum is traditional, at least in the early courses. The first two courses in the major are taught in Java, which is an excellent language for introducing object-oriented concepts. The following list of courses represents current or recent course offerings. See the course catalog for updated information. 54-144 Explorations in Computing This course is an introduction to the discipline of computer science with an emphasis on applications in the liberal arts. Topics include basic programming constructs, basic data structures, algorithmic computation, selection, iteration, interactive user interfaces, abstraction and reasoning about computer programs. This is an introductory course intended for humanities, social science and fine arts majors. May not be used for the Computer Science major or minor. Cannot be taken after successful completion of Computer Science 54-184, 54-284, or 54-454 without departmental approval. Contributes to Data Analytics and Data Science. (NS) 54-184 Computer Science I This is the standard first course in computer programming in an object-oriented style. It is primarily intended for students pursuing a major or minor in computer science, mathematics or other disciplines in the natural sciences. Topics include primitive types and operations, assignment, conditional execution, iteration, arrays, classes, methods, recursion, encapsulation, type extension, inheritance and reasoning about programs in Java. The course Menu Search Apply Visit Majors & Minors 2/6/26, 10:20 AM Courses • Southwestern University https://www.southwestern.edu/computer-science/courses/ 1/5",
-      "raw_text": "COMPUTER SCIENCE\nCourses\nThe Computer Science curriculum is traditional, at least in the early courses. The first two courses\nin the major are taught in Java, which is an excellent language for introducing object-oriented\nconcepts.\nThe following list of courses represents current or recent course offerings. See the course\ncatalog for updated information.\n54-144 Explorations in Computing\nThis course is an introduction to the discipline of computer science with an emphasis on\napplications in the liberal arts. Topics include basic programming constructs, basic data\nstructures, algorithmic computation, selection, iteration, interactive user interfaces,\nabstraction and reasoning about computer programs. This is an introductory course intended\nfor humanities, social science and fine arts majors. May not be used for the Computer Science\nmajor or minor. Cannot be taken after successful completion of Computer Science 54-184,\n54-284, or 54-454 without departmental approval. Contributes to Data Analytics and Data\nScience. (NS)\n54-184 Computer Science I\nThis is the standard first course in computer programming in an object-oriented style. It is\nprimarily intended for students pursuing a major or minor in computer science, mathematics\nor other disciplines in the natural sciences. Topics include primitive types and operations,\nassignment, conditional execution, iteration, arrays, classes, methods, recursion,\nencapsulation, type extension, inheritance and reasoning about programs in Java. The course\nMenu\nSearch\nApply\nVisit\nMajors & Minors\n2/6/26, 10:20 AM\nCourses • Southwestern University\nhttps://www.southwestern.edu/computer-science/courses/\n1/5\n",
+      "text": "COMPUTER SCIENCE Courses The Computer Science curriculum is traditional, at least in the early courses. The first two courses in the major are taught in Java, which is an excellent language for introducing object-oriented concepts. The following list of courses represents current or recent course offerings. See the course catalog for updated information. 54-144 Explorations in Computing This course is an introduction to the discipline of computer science with an emphasis on applications in the liberal arts. Topics include basic programming constructs, basic data structures, algorithmic computation, selection, iteration, interactive user interfaces, abstraction and reasoning about computer programs. This is an introductory course intended for humanities, social science and fine arts majors. May not be used for the Computer Science major or minor. Cannot be taken after successful completion of Computer Science 54-184, 54-284, or 54-454 without departmental approval. Contributes to Data Analytics and Data Science. (NS) 54-184 Computer Science I This is the standard first course in computer programming in an object-oriented style. It is primarily intended for students pursuing a major or minor in computer science, mathematics or other disciplines in the natural sciences. Topics include primitive types and operations, assignment, conditional execution, iteration, arrays, classes, methods, recursion, encapsulation, type extension, inheritance and reasoning about programs in Java. The course",
+      "raw_text": "COMPUTER SCIENCE\nCourses\nThe Computer Science curriculum is traditional, at least in the early courses. The first two courses\nin the major are taught in Java, which is an excellent language for introducing object-oriented\nconcepts.\nThe following list of courses represents current or recent course offerings. See the course\ncatalog for updated information.\n54-144 Explorations in Computing\nThis course is an introduction to the discipline of computer science with an emphasis on\napplications in the liberal arts. Topics include basic programming constructs, basic data\nstructures, algorithmic computation, selection, iteration, interactive user interfaces,\nabstraction and reasoning about computer programs. This is an introductory course intended\nfor humanities, social science and fine arts majors. May not be used for the Computer Science\nmajor or minor. Cannot be taken after successful completion of Computer Science 54-184,\n54-284, or 54-454 without departmental approval. Contributes to Data Analytics and Data\nScience. (NS)\n54-184 Computer Science I\nThis is the standard first course in computer programming in an object-oriented style. It is\nprimarily intended for students pursuing a major or minor in computer science, mathematics or\nother disciplines in the natural sciences. Topics include primitive types and operations,\nassignment, conditional execution, iteration, arrays, classes, methods, recursion,\nencapsulation, type extension, inheritance and reasoning about programs in Java. The course\nMenu\nSearch\nApply\nVisit\nMajors & Minors\n2/25/26, 11:45 AM\nCourses • Southwestern University\nhttps://www.southwestern.edu/computer-science/courses/\n1/5\n",
       "links": [
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/computer-science/",
-          "rect": "Rect(253.5, 140.25, 359.25, 151.5)"
+          "rect": "Rect(252.75, 139.5, 359.25, 150.75)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/academics/records-registrar/catalog/",
-          "rect": "Rect(47.25, 327.0, 84.75, 342.75)"
+          "rect": "Rect(46.5, 326.25, 84.0, 342.0)"
         },
         {
           "type": "unknown",
           "uri": "",
-          "rect": "Rect(105.0, 51.0, 151.5, 66.0)"
+          "rect": "Rect(104.25, 50.25, 153.75, 65.25)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/admission/apply/",
-          "rect": "Rect(417.75, 51.75, 445.5, 66.0)"
+          "rect": "Rect(415.5, 51.75, 444.0, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/admission/apply/",
-          "rect": "Rect(417.75, 51.75, 445.5, 66.0)"
+          "rect": "Rect(415.5, 51.75, 444.0, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/admission/apply/",
-          "rect": "Rect(417.75, 51.75, 445.5, 66.0)"
+          "rect": "Rect(415.5, 51.75, 444.0, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/admission/apply/",
-          "rect": "Rect(417.75, 51.75, 445.5, 66.0)"
+          "rect": "Rect(415.5, 51.75, 444.0, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/admission/apply/",
-          "rect": "Rect(417.75, 51.75, 445.5, 66.0)"
+          "rect": "Rect(415.5, 51.75, 444.0, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/admission/visit/",
-          "rect": "Rect(455.25, 51.75, 475.5, 66.0)"
+          "rect": "Rect(453.75, 51.75, 475.5, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/admission/visit/",
-          "rect": "Rect(455.25, 51.75, 475.5, 66.0)"
+          "rect": "Rect(453.75, 51.75, 475.5, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/admission/visit/",
-          "rect": "Rect(455.25, 51.75, 475.5, 66.0)"
+          "rect": "Rect(453.75, 51.75, 475.5, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/admission/visit/",
-          "rect": "Rect(455.25, 51.75, 475.5, 66.0)"
+          "rect": "Rect(453.75, 51.75, 475.5, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/admission/visit/",
-          "rect": "Rect(455.25, 51.75, 475.5, 66.0)"
+          "rect": "Rect(453.75, 51.75, 475.5, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/academics/majors-minors/",
-          "rect": "Rect(485.25, 51.75, 564.75, 66.0)"
+          "rect": "Rect(484.5, 51.75, 564.75, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/academics/majors-minors/",
-          "rect": "Rect(485.25, 51.75, 564.75, 66.0)"
+          "rect": "Rect(484.5, 51.75, 564.75, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/academics/majors-minors/",
-          "rect": "Rect(485.25, 51.75, 564.75, 66.0)"
+          "rect": "Rect(484.5, 51.75, 564.75, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/academics/majors-minors/",
-          "rect": "Rect(485.25, 51.75, 564.75, 66.0)"
+          "rect": "Rect(484.5, 51.75, 564.75, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/academics/majors-minors/",
-          "rect": "Rect(485.25, 51.75, 564.75, 66.0)"
+          "rect": "Rect(484.5, 51.75, 564.75, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/",
-          "rect": "Rect(292.5, 43.5, 319.5, 76.5)"
+          "rect": "Rect(292.5, 42.75, 319.5, 75.75)"
         }
       ],
       "rich_blocks": [
         {
-          "text": "COMPUTER",
+          "text": "COMPUTER SCIENCE",
           "font_size": 9.0,
           "is_bold": false,
           "page_number": 1,
           "bounding_box": [
-            253.453125,
-            141.75230407714844,
-            309.4691162109375,
-            150.75230407714844
-          ],
-          "section_heading": null,
-          "heading_level": null
-        },
-        {
-          "text": "SCIENCE",
-          "font_size": 9.0,
-          "is_bold": false,
-          "page_number": 1,
-          "bounding_box": [
-            314.150390625,
-            141.75230407714844,
-            358.1622314453125,
-            150.75230407714844
+            253.078125,
+            141.00230407714844,
+            357.7872314453125,
+            150.00230407714844
           ],
           "section_heading": null,
           "heading_level": null
@@ -167,10 +153,10 @@
           "is_bold": false,
           "page_number": 1,
           "bounding_box": [
-            259.67578125,
-            154.65899658203125,
-            353.0567321777344,
-            188.65049743652344
+            259.30078125,
+            153.90899658203125,
+            352.6817321777344,
+            187.90049743652344
           ],
           "section_heading": "Courses",
           "heading_level": 1
@@ -181,10 +167,10 @@
           "is_bold": false,
           "page_number": 1,
           "bounding_box": [
-            47.25,
-            235.1953125,
-            558.7407836914062,
-            249.59765625
+            46.5,
+            234.4453125,
+            557.9907836914062,
+            248.84765625
           ],
           "section_heading": "Courses",
           "heading_level": null
@@ -195,10 +181,10 @@
           "is_bold": false,
           "page_number": 1,
           "bounding_box": [
-            47.25,
-            254.6953125,
-            533.9354858398438,
-            269.09765625
+            46.5,
+            253.9453125,
+            533.1854858398438,
+            268.34765625
           ],
           "section_heading": "Courses",
           "heading_level": null
@@ -209,10 +195,10 @@
           "is_bold": false,
           "page_number": 1,
           "bounding_box": [
-            47.25,
-            274.9453125,
-            97.66200256347656,
-            289.34765625
+            46.5,
+            274.1953125,
+            96.91200256347656,
+            288.59765625
           ],
           "section_heading": "Courses",
           "heading_level": null
@@ -223,10 +209,10 @@
           "is_bold": false,
           "page_number": 1,
           "bounding_box": [
-            47.25,
-            306.4453125,
-            514.3235473632812,
-            320.84765625
+            46.5,
+            305.6953125,
+            513.5735473632812,
+            320.09765625
           ],
           "section_heading": "Courses",
           "heading_level": null
@@ -237,66 +223,24 @@
           "is_bold": false,
           "page_number": 1,
           "bounding_box": [
-            47.25,
-            326.6953125,
-            216.9942169189453,
-            341.09765625
+            46.5,
+            325.9453125,
+            216.2442169189453,
+            340.34765625
           ],
           "section_heading": "Courses",
           "heading_level": null
         },
         {
-          "text": "54-144",
+          "text": "54-144 Explorations in Computing",
           "font_size": 12.0,
           "is_bold": false,
           "page_number": 1,
           "bounding_box": [
-            69.75,
-            362.2530517578125,
-            108.95746612548828,
-            374.2530517578125
-          ],
-          "section_heading": "Courses",
-          "heading_level": null
-        },
-        {
-          "text": "Explorations",
-          "font_size": 12.0,
-          "is_bold": false,
-          "page_number": 1,
-          "bounding_box": [
-            112.20703125,
-            362.2530517578125,
-            177.09078979492188,
-            374.2530517578125
-          ],
-          "section_heading": "Courses",
-          "heading_level": null
-        },
-        {
-          "text": "in",
-          "font_size": 12.0,
-          "is_bold": false,
-          "page_number": 1,
-          "bounding_box": [
-            180.33984375,
-            362.2530517578125,
-            189.81065368652344,
-            374.2530517578125
-          ],
-          "section_heading": "Courses",
-          "heading_level": null
-        },
-        {
-          "text": "Computing",
-          "font_size": 12.0,
-          "is_bold": false,
-          "page_number": 1,
-          "bounding_box": [
-            193.0546875,
-            362.2530517578125,
-            250.484619140625,
-            374.2530517578125
+            69.0,
+            361.5030517578125,
+            249.734619140625,
+            373.5030517578125
           ],
           "section_heading": "Courses",
           "heading_level": null
@@ -307,10 +251,10 @@
           "is_bold": false,
           "page_number": 1,
           "bounding_box": [
-            69.75,
-            384.4453125,
-            527.1803588867188,
-            398.84765625
+            69.0,
+            383.6953125,
+            526.4303588867188,
+            398.09765625
           ],
           "section_heading": "Courses",
           "heading_level": null
@@ -321,10 +265,10 @@
           "is_bold": false,
           "page_number": 1,
           "bounding_box": [
-            69.75,
-            408.4453125,
-            523.8630981445312,
-            422.84765625
+            69.0,
+            407.6953125,
+            523.1130981445312,
+            422.09765625
           ],
           "section_heading": "Courses",
           "heading_level": null
@@ -335,10 +279,10 @@
           "is_bold": false,
           "page_number": 1,
           "bounding_box": [
-            69.75,
-            432.4453125,
-            505.1246032714844,
-            446.84765625
+            69.0,
+            431.6953125,
+            504.3746032714844,
+            446.09765625
           ],
           "section_heading": "Courses",
           "heading_level": null
@@ -349,10 +293,10 @@
           "is_bold": false,
           "page_number": 1,
           "bounding_box": [
-            69.75,
-            456.4453125,
-            554.4068603515625,
-            470.84765625
+            69.0,
+            455.6953125,
+            553.6568603515625,
+            470.09765625
           ],
           "section_heading": "Courses",
           "heading_level": null
@@ -363,10 +307,10 @@
           "is_bold": false,
           "page_number": 1,
           "bounding_box": [
-            69.75,
-            480.4453125,
-            560.2379150390625,
-            494.84765625
+            69.0,
+            479.6953125,
+            559.4879150390625,
+            494.09765625
           ],
           "section_heading": "Courses",
           "heading_level": null
@@ -377,10 +321,10 @@
           "is_bold": false,
           "page_number": 1,
           "bounding_box": [
-            69.75,
-            504.4453125,
-            546.761962890625,
-            518.84765625
+            69.0,
+            503.6953125,
+            546.011962890625,
+            518.09765625
           ],
           "section_heading": "Courses",
           "heading_level": null
@@ -391,10 +335,10 @@
           "is_bold": false,
           "page_number": 1,
           "bounding_box": [
-            69.75,
-            528.4453125,
-            543.5345458984375,
-            542.84765625
+            69.0,
+            527.6953125,
+            542.7845458984375,
+            542.09765625
           ],
           "section_heading": "Courses",
           "heading_level": null
@@ -405,66 +349,24 @@
           "is_bold": false,
           "page_number": 1,
           "bounding_box": [
-            69.75,
-            552.4453125,
-            138.12600708007812,
-            566.84765625
+            69.0,
+            551.6953125,
+            137.37600708007812,
+            566.09765625
           ],
           "section_heading": "Courses",
           "heading_level": null
         },
         {
-          "text": "54-184",
+          "text": "54-184 Computer Science I",
           "font_size": 12.0,
           "is_bold": false,
           "page_number": 1,
           "bounding_box": [
-            69.75,
-            579.7530517578125,
-            108.95746612548828,
-            591.7530517578125
-          ],
-          "section_heading": "Courses",
-          "heading_level": null
-        },
-        {
-          "text": "Computer",
-          "font_size": 12.0,
-          "is_bold": false,
-          "page_number": 1,
-          "bounding_box": [
-            112.20703125,
-            579.7530517578125,
-            165.09239196777344,
-            591.7530517578125
-          ],
-          "section_heading": "Courses",
-          "heading_level": null
-        },
-        {
-          "text": "Science",
-          "font_size": 12.0,
-          "is_bold": false,
-          "page_number": 1,
-          "bounding_box": [
-            168.33984375,
-            579.7530517578125,
-            208.00950622558594,
-            591.7530517578125
-          ],
-          "section_heading": "Courses",
-          "heading_level": null
-        },
-        {
-          "text": "I",
-          "font_size": 12.0,
-          "is_bold": false,
-          "page_number": 1,
-          "bounding_box": [
-            211.259765625,
-            579.7530517578125,
-            214.70376586914062,
-            591.7530517578125
+            69.0,
+            579.0030517578125,
+            213.95376586914062,
+            591.0030517578125
           ],
           "section_heading": "Courses",
           "heading_level": null
@@ -475,38 +377,38 @@
           "is_bold": false,
           "page_number": 1,
           "bounding_box": [
-            69.75,
-            601.9453125,
-            537.5820922851562,
-            616.34765625
+            69.0,
+            601.1953125,
+            536.8320922851562,
+            615.59765625
           ],
           "section_heading": "Courses",
           "heading_level": null
         },
         {
-          "text": "primarily intended for students pursuing a major or minor in computer science, mathematics",
+          "text": "primarily intended for students pursuing a major or minor in computer science, mathematics or",
           "font_size": 12.0,
           "is_bold": false,
           "page_number": 1,
           "bounding_box": [
-            69.75,
-            625.9453125,
-            551.3699951171875,
-            640.34765625
+            69.0,
+            625.1953125,
+            565.1519775390625,
+            639.59765625
           ],
           "section_heading": "Courses",
           "heading_level": null
         },
         {
-          "text": "or other disciplines in the natural sciences. Topics include primitive types and operations,",
+          "text": "other disciplines in the natural sciences. Topics include primitive types and operations,",
           "font_size": 12.0,
           "is_bold": false,
           "page_number": 1,
           "bounding_box": [
-            69.75,
-            649.9453125,
-            534.0327758789062,
-            664.34765625
+            69.0,
+            649.1953125,
+            518.7515258789062,
+            663.59765625
           ],
           "section_heading": "Courses",
           "heading_level": null
@@ -517,10 +419,10 @@
           "is_bold": false,
           "page_number": 1,
           "bounding_box": [
-            69.75,
-            673.9453125,
-            490.3040466308594,
-            688.34765625
+            69.0,
+            673.1953125,
+            489.5540466308594,
+            687.59765625
           ],
           "section_heading": "Courses",
           "heading_level": null
@@ -531,96 +433,320 @@
           "is_bold": false,
           "page_number": 1,
           "bounding_box": [
-            69.75,
-            697.9453125,
-            556.229736328125,
-            712.34765625
+            69.0,
+            697.1953125,
+            555.479736328125,
+            711.59765625
           ],
           "section_heading": "Courses",
           "heading_level": null
         },
         {
-          "text": "Menu",
+          "text": "M",
           "font_size": 10.5,
-          "is_bold": true,
+          "is_bold": false,
           "page_number": 1,
           "bounding_box": [
-            67.640625,
-            51.66943359375,
-            95.16112518310547,
-            65.63525390625
+            66.890625,
+            52.247314453125,
+            76.17262268066406,
+            64.787841796875
           ],
-          "section_heading": "Menu",
-          "heading_level": 2
+          "section_heading": "Courses",
+          "heading_level": null
         },
         {
-          "text": "Search",
+          "text": "e",
           "font_size": 10.5,
-          "is_bold": true,
+          "is_bold": false,
           "page_number": 1,
           "bounding_box": [
-            119.77734375,
-            51.66943359375,
-            151.39268493652344,
-            65.63525390625
+            76.06787109375,
+            52.247314453125,
+            82.16837310791016,
+            64.787841796875
           ],
-          "section_heading": "Search",
-          "heading_level": 2
+          "section_heading": "Courses",
+          "heading_level": null
         },
         {
-          "text": "Apply",
+          "text": "nu",
           "font_size": 10.5,
-          "is_bold": true,
+          "is_bold": false,
           "page_number": 1,
           "bounding_box": [
-            417.92578125,
-            51.66943359375,
-            445.70880126953125,
-            65.63525390625
+            82.05615234375,
+            52.247314453125,
+            94.50287628173828,
+            64.787841796875
           ],
-          "section_heading": "Apply",
-          "heading_level": 2
+          "section_heading": "Courses",
+          "heading_level": null
         },
         {
-          "text": "Visit",
+          "text": "S",
           "font_size": 10.5,
-          "is_bold": true,
+          "is_bold": false,
           "page_number": 1,
           "bounding_box": [
-            455.30859375,
-            51.66943359375,
-            475.8465576171875,
-            65.63525390625
+            118.9921875,
+            52.247314453125,
+            125.80668640136719,
+            64.787841796875
           ],
-          "section_heading": "Visit",
-          "heading_level": 2
+          "section_heading": "Courses",
+          "heading_level": null
         },
         {
-          "text": "Majors & Minors",
+          "text": "ea",
           "font_size": 10.5,
-          "is_bold": true,
+          "is_bold": false,
           "page_number": 1,
           "bounding_box": [
-            485.4609375,
-            51.66943359375,
-            564.7476806640625,
-            65.63525390625
+            125.703369140625,
+            52.247314453125,
+            137.6136474609375,
+            64.787841796875
           ],
-          "section_heading": "Majors & Minors",
-          "heading_level": 2
+          "section_heading": "Courses",
+          "heading_level": null
         },
         {
-          "text": "2/6/26, 10:20 AM",
+          "text": "r",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 1,
+          "bounding_box": [
+            137.505615234375,
+            52.247314453125,
+            141.6846160888672,
+            64.787841796875
+          ],
+          "section_heading": "Courses",
+          "heading_level": null
+        },
+        {
+          "text": "ch",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 1,
+          "bounding_box": [
+            141.436279296875,
+            52.247314453125,
+            153.6173858642578,
+            64.787841796875
+          ],
+          "section_heading": "Courses",
+          "heading_level": null
+        },
+        {
+          "text": "A",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 1,
+          "bounding_box": [
+            415.32421875,
+            52.247314453125,
+            422.6007080078125,
+            64.787841796875
+          ],
+          "section_heading": "Courses",
+          "heading_level": null
+        },
+        {
+          "text": "pply",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 1,
+          "bounding_box": [
+            422.49169921875,
+            52.247314453125,
+            443.9219970703125,
+            64.787841796875
+          ],
+          "section_heading": "Courses",
+          "heading_level": null
+        },
+        {
+          "text": "V",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 1,
+          "bounding_box": [
+            453.41015625,
+            52.247314453125,
+            460.6446533203125,
+            64.787841796875
+          ],
+          "section_heading": "Courses",
+          "heading_level": null
+        },
+        {
+          "text": "i",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 1,
+          "bounding_box": [
+            460.53662109375,
+            52.247314453125,
+            463.2666320800781,
+            64.787841796875
+          ],
+          "section_heading": "Courses",
+          "heading_level": null
+        },
+        {
+          "text": "s",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 1,
+          "bounding_box": [
+            463.156494140625,
+            52.247314453125,
+            468.79498291015625,
+            64.787841796875
+          ],
+          "section_heading": "Courses",
+          "heading_level": null
+        },
+        {
+          "text": "i",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 1,
+          "bounding_box": [
+            468.6884765625,
+            52.247314453125,
+            471.4184875488281,
+            64.787841796875
+          ],
+          "section_heading": "Courses",
+          "heading_level": null
+        },
+        {
+          "text": "t",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 1,
+          "bounding_box": [
+            471.308349609375,
+            52.247314453125,
+            475.287841796875,
+            64.787841796875
+          ],
+          "section_heading": "Courses",
+          "heading_level": null
+        },
+        {
+          "text": "M",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 1,
+          "bounding_box": [
+            484.79296875,
+            52.247314453125,
+            494.0749816894531,
+            64.787841796875
+          ],
+          "section_heading": "Courses",
+          "heading_level": null
+        },
+        {
+          "text": "aj",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 1,
+          "bounding_box": [
+            493.97021484375,
+            52.247314453125,
+            502.5141906738281,
+            64.787841796875
+          ],
+          "section_heading": "Courses",
+          "heading_level": null
+        },
+        {
+          "text": "ors",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 1,
+          "bounding_box": [
+            502.404052734375,
+            52.247314453125,
+            518.2007446289062,
+            64.787841796875
+          ],
+          "section_heading": "Courses",
+          "heading_level": null
+        },
+        {
+          "text": "&",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 1,
+          "bounding_box": [
+            520.8525390625,
+            52.247314453125,
+            528.4335327148438,
+            64.787841796875
+          ],
+          "section_heading": "Courses",
+          "heading_level": null
+        },
+        {
+          "text": "M",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 1,
+          "bounding_box": [
+            528.32763671875,
+            52.247314453125,
+            540.367919921875,
+            64.787841796875
+          ],
+          "section_heading": "Courses",
+          "heading_level": null
+        },
+        {
+          "text": "i",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 1,
+          "bounding_box": [
+            540.26318359375,
+            52.247314453125,
+            542.9931640625,
+            64.787841796875
+          ],
+          "section_heading": "Courses",
+          "heading_level": null
+        },
+        {
+          "text": "nors",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 1,
+          "bounding_box": [
+            542.883056640625,
+            52.247314453125,
+            564.8474731445312,
+            64.787841796875
+          ],
+          "section_heading": "Courses",
+          "heading_level": null
+        },
+        {
+          "text": "2/25/26, 11:45 AM",
           "font_size": 7.994999885559082,
           "is_bold": false,
           "page_number": 1,
           "bounding_box": [
             24.0,
-            15.262338638305664,
-            84.4503173828125,
-            24.194252014160156
+            16.50374984741211,
+            84.78870391845703,
+            24.498750686645508
           ],
-          "section_heading": "Majors & Minors",
+          "section_heading": "Courses",
           "heading_level": null
         },
         {
@@ -629,12 +755,12 @@
           "is_bold": false,
           "page_number": 1,
           "bounding_box": [
-            289.6171875,
-            15.262338638305664,
-            412.8330078125,
-            24.194252014160156
+            295.4765625,
+            16.50374984741211,
+            407.30877685546875,
+            24.498750686645508
           ],
-          "section_heading": "Majors & Minors",
+          "section_heading": "Courses",
           "heading_level": null
         },
         {
@@ -644,11 +770,11 @@
           "page_number": 1,
           "bounding_box": [
             24.0,
-            768.2623291015625,
-            227.9671630859375,
-            777.1942749023438
+            768.7537231445312,
+            207.60887145996094,
+            776.748779296875
           ],
-          "section_heading": "Majors & Minors",
+          "section_heading": "Courses",
           "heading_level": null
         },
         {
@@ -657,12 +783,12 @@
           "is_bold": false,
           "page_number": 1,
           "bounding_box": [
-            576.8671875,
-            768.2623291015625,
-            587.9920654296875,
-            777.1942749023438
+            577.7578125,
+            768.7537231445312,
+            587.9896850585938,
+            776.748779296875
           ],
-          "section_heading": "Majors & Minors",
+          "section_heading": "Courses",
           "heading_level": null
         }
       ]
@@ -674,101 +800,101 @@
         "width": 612.0,
         "height": 792.0,
         "rotation": 0,
-        "text_length": 2432,
+        "text_length": 2433,
         "word_count": 336,
         "has_images": false,
         "has_links": true,
         "link_count": 17,
-        "document_hash": "8ca86e2913df0a31aad8b7ca71e15af7ff7789e31b5f2d8d39cfc5fb6f29e237",
+        "document_hash": "3a2d98684c6ec030ead26ca55b1ad158d758f47e143bbb4f4df3e85f00647cb1",
         "document_name": "SU_CS_Overview.pdf"
       },
-      "text": "includes a laboratory component designed to explore applications and to enhance conceptualization. Contributes to Data Analytics and Data Science. (Fall, Spring) (NS) 54-281 Colloquium in Computer Science In this seminar-style course, each student will give a lecture on a topic in computer science not normally covered in depth in the regular curriculum. Presentation of one lecture and participation in discussions is required. This course may be repeated for credit, but may not be counted toward the major or minor. Must be taken Pass/D/F. Prerequisite: Prior or concurrent enrollment in Computer Science 54-284, and permission of the instructor. 54-284 Computer Science II This course is a continuation of 54-184 Computer Science I, with an emphasis on abstract data objects such as lists, stacks, queues, trees and graphs, and test-first programming using the automated testing paradigm JUnit. Topics include algorithms for searching, sorting, traversing, inserting and deleting, and reasoning about these algorithms. The course includes a laboratory component designed to explore applications and to enhance conceptualization. Contributes to Design Thinking. Prerequisite: Computer Science 54-184 or permission of instructor. (Spring) (NS) 54-291 Puzzling Programs Given a precise program specification and a few input/output examples, students will gain experience quickly devising a solution that passes a suite of unseen (and generally more complicated) input/output examples. Teamwork, troubleshooting code based on very limited feedback from automated systems, effectively reading problem descriptions, and discerning relevant details will be practiced. This course (or prior enrollment in this course) is required for students wishing to compete in the South Central USA Regional ACM Programming Contest. This course may be repeated for credit, but may not be counted towards the major or minor. Must be taken Pass/D/F. Prerequisite: Computer Science 54-184. (Fall) 54-384 Discrete Mathematics This course investigates concepts in the modeling of discrete phenomena. Topics include logic, structure of proof, set theory, combinatorics, graphs, induction and recurrence relations. Also Mathematics 52-384. Prerequisites: Mathematics 52-164, Computer Science 54-184, and Menu Search Apply Visit Majors & Minors 2/6/26, 10:20 AM Courses • Southwestern University https://www.southwestern.edu/computer-science/courses/ 2/5",
-      "raw_text": "includes a laboratory component designed to explore applications and to enhance\nconceptualization. Contributes to Data Analytics and Data Science. (Fall, Spring) (NS)\n54-281 Colloquium in Computer Science\nIn this seminar-style course, each student will give a lecture on a topic in computer science not\nnormally covered in depth in the regular curriculum. Presentation of one lecture and\nparticipation in discussions is required. This course may be repeated for credit, but may not be\ncounted toward the major or minor. Must be taken Pass/D/F. Prerequisite: Prior or concurrent\nenrollment in Computer Science 54-284, and permission of the instructor.\n54-284 Computer Science II\nThis course is a continuation of 54-184 Computer Science I, with an emphasis on abstract data\nobjects such as lists, stacks, queues, trees and graphs, and test-first programming using the\nautomated testing paradigm JUnit. Topics include algorithms for searching, sorting, traversing,\ninserting and deleting, and reasoning about these algorithms. The course includes a laboratory\ncomponent designed to explore applications and to enhance conceptualization. Contributes to\nDesign Thinking. Prerequisite: Computer Science 54-184 or permission of instructor. (Spring)\n(NS)\n54-291 Puzzling Programs\nGiven a precise program specification and a few input/output examples, students will gain\nexperience quickly devising a solution that passes a suite of unseen (and generally more\ncomplicated) input/output examples. Teamwork, troubleshooting code based on very limited\nfeedback from automated systems, effectively reading problem descriptions, and discerning\nrelevant details will be practiced. This course (or prior enrollment in this course) is required for\nstudents wishing to compete in the South Central USA Regional ACM Programming Contest.\nThis course may be repeated for credit, but may not be counted towards the major or minor.\nMust be taken Pass/D/F. Prerequisite: Computer Science 54-184. (Fall)\n54-384 Discrete Mathematics\nThis course investigates concepts in the modeling of discrete phenomena. Topics include logic,\nstructure of proof, set theory, combinatorics, graphs, induction and recurrence relations. Also\nMathematics 52-384. Prerequisites: Mathematics 52-164, Computer Science 54-184, and\nMenu\nSearch\nApply\nVisit\nMajors & Minors\n2/6/26, 10:20 AM\nCourses • Southwestern University\nhttps://www.southwestern.edu/computer-science/courses/\n2/5\n",
+      "text": "includes a laboratory component designed to explore applications and to enhance conceptualization. Contributes to Data Analytics and Data Science. (Fall, Spring) (NS) 54-281 Colloquium in Computer Science In this seminar-style course, each student will give a lecture on a topic in computer science not normally covered in depth in the regular curriculum. Presentation of one lecture and participation in discussions is required. This course may be repeated for credit, but may not be counted toward the major or minor. Must be taken Pass/D/F. Prerequisite: Prior or concurrent enrollment in Computer Science 54-284, and permission of the instructor. 54-284 Computer Science II This course is a continuation of 54-184 Computer Science I, with an emphasis on abstract data objects such as lists, stacks, queues, trees and graphs, and test-first programming using the automated testing paradigm JUnit. Topics include algorithms for searching, sorting, traversing, inserting and deleting, and reasoning about these algorithms. The course includes a laboratory component designed to explore applications and to enhance conceptualization. Contributes to Design Thinking. Prerequisite: Computer Science 54-184 or permission of instructor. (Spring) (NS) 54-291 Puzzling Programs Given a precise program specification and a few input/output examples, students will gain experience quickly devising a solution that passes a suite of unseen (and generally more complicated) input/output examples. Teamwork, troubleshooting code based on very limited feedback from automated systems, effectively reading problem descriptions, and discerning relevant details will be practiced. This course (or prior enrollment in this course) is required for students wishing to compete in the South Central USA Regional ACM Programming Contest. This course may be repeated for credit, but may not be counted towards the major or minor. Must be taken Pass/D/F. Prerequisite: Computer Science 54-184. (Fall) 54-384 Discrete Mathematics This course investigates concepts in the modeling of discrete phenomena. Topics include logic, structure of proof, set theory, combinatorics, graphs, induction and recurrence relations. Also Mathematics 52-384. Prerequisites: Mathematics 52-164, Computer Science 54-184, and",
+      "raw_text": "includes a laboratory component designed to explore applications and to enhance\nconceptualization. Contributes to Data Analytics and Data Science. (Fall, Spring) (NS)\n54-281 Colloquium in Computer Science\nIn this seminar-style course, each student will give a lecture on a topic in computer science not\nnormally covered in depth in the regular curriculum. Presentation of one lecture and\nparticipation in discussions is required. This course may be repeated for credit, but may not be\ncounted toward the major or minor. Must be taken Pass/D/F. Prerequisite: Prior or concurrent\nenrollment in Computer Science 54-284, and permission of the instructor.\n54-284 Computer Science II\nThis course is a continuation of 54-184 Computer Science I, with an emphasis on abstract data\nobjects such as lists, stacks, queues, trees and graphs, and test-first programming using the\nautomated testing paradigm JUnit. Topics include algorithms for searching, sorting, traversing,\ninserting and deleting, and reasoning about these algorithms. The course includes a laboratory\ncomponent designed to explore applications and to enhance conceptualization. Contributes to\nDesign Thinking. Prerequisite: Computer Science 54-184 or permission of instructor. (Spring)\n(NS)\n54-291 Puzzling Programs\nGiven a precise program specification and a few input/output examples, students will gain\nexperience quickly devising a solution that passes a suite of unseen (and generally more\ncomplicated) input/output examples. Teamwork, troubleshooting code based on very limited\nfeedback from automated systems, effectively reading problem descriptions, and discerning\nrelevant details will be practiced. This course (or prior enrollment in this course) is required for\nstudents wishing to compete in the South Central USA Regional ACM Programming Contest.\nThis course may be repeated for credit, but may not be counted towards the major or minor.\nMust be taken Pass/D/F. Prerequisite: Computer Science 54-184. (Fall)\n54-384 Discrete Mathematics\nThis course investigates concepts in the modeling of discrete phenomena. Topics include logic,\nstructure of proof, set theory, combinatorics, graphs, induction and recurrence relations. Also\nMathematics 52-384. Prerequisites: Mathematics 52-164, Computer Science 54-184, and\nMenu\nSearch\nApply\nVisit\nMajors & Minors\n2/25/26, 11:45 AM\nCourses • Southwestern University\nhttps://www.southwestern.edu/computer-science/courses/\n2/5\n",
       "links": [
         {
           "type": "unknown",
           "uri": "",
-          "rect": "Rect(105.0, 51.0, 151.5, 66.0)"
+          "rect": "Rect(104.25, 50.25, 153.75, 65.25)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/admission/apply/",
-          "rect": "Rect(417.75, 51.75, 445.5, 66.0)"
+          "rect": "Rect(415.5, 51.75, 444.0, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/admission/apply/",
-          "rect": "Rect(417.75, 51.75, 445.5, 66.0)"
+          "rect": "Rect(415.5, 51.75, 444.0, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/admission/apply/",
-          "rect": "Rect(417.75, 51.75, 445.5, 66.0)"
+          "rect": "Rect(415.5, 51.75, 444.0, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/admission/apply/",
-          "rect": "Rect(417.75, 51.75, 445.5, 66.0)"
+          "rect": "Rect(415.5, 51.75, 444.0, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/admission/apply/",
-          "rect": "Rect(417.75, 51.75, 445.5, 66.0)"
+          "rect": "Rect(415.5, 51.75, 444.0, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/admission/visit/",
-          "rect": "Rect(455.25, 51.75, 475.5, 66.0)"
+          "rect": "Rect(453.75, 51.75, 475.5, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/admission/visit/",
-          "rect": "Rect(455.25, 51.75, 475.5, 66.0)"
+          "rect": "Rect(453.75, 51.75, 475.5, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/admission/visit/",
-          "rect": "Rect(455.25, 51.75, 475.5, 66.0)"
+          "rect": "Rect(453.75, 51.75, 475.5, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/admission/visit/",
-          "rect": "Rect(455.25, 51.75, 475.5, 66.0)"
+          "rect": "Rect(453.75, 51.75, 475.5, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/admission/visit/",
-          "rect": "Rect(455.25, 51.75, 475.5, 66.0)"
+          "rect": "Rect(453.75, 51.75, 475.5, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/academics/majors-minors/",
-          "rect": "Rect(485.25, 51.75, 564.75, 66.0)"
+          "rect": "Rect(484.5, 51.75, 564.75, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/academics/majors-minors/",
-          "rect": "Rect(485.25, 51.75, 564.75, 66.0)"
+          "rect": "Rect(484.5, 51.75, 564.75, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/academics/majors-minors/",
-          "rect": "Rect(485.25, 51.75, 564.75, 66.0)"
+          "rect": "Rect(484.5, 51.75, 564.75, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/academics/majors-minors/",
-          "rect": "Rect(485.25, 51.75, 564.75, 66.0)"
+          "rect": "Rect(484.5, 51.75, 564.75, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/academics/majors-minors/",
-          "rect": "Rect(485.25, 51.75, 564.75, 66.0)"
+          "rect": "Rect(484.5, 51.75, 564.75, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/",
-          "rect": "Rect(292.5, 43.5, 319.5, 76.5)"
+          "rect": "Rect(292.5, 42.75, 319.5, 75.75)"
         }
       ],
       "rich_blocks": [
@@ -778,10 +904,10 @@
           "is_bold": false,
           "page_number": 2,
           "bounding_box": [
-            69.75,
-            32.6953125,
-            494.6162414550781,
-            47.09765625
+            69.0,
+            31.9453125,
+            493.8662414550781,
+            46.34765625
           ],
           "section_heading": null,
           "heading_level": null
@@ -792,80 +918,24 @@
           "is_bold": false,
           "page_number": 2,
           "bounding_box": [
-            69.75,
-            56.6953125,
-            512.2488403320312,
-            71.09765625
+            69.0,
+            55.9453125,
+            511.49884033203125,
+            70.34765625
           ],
           "section_heading": null,
           "heading_level": null
         },
         {
-          "text": "54-281",
+          "text": "54-281 Colloquium in Computer Science",
           "font_size": 12.0,
           "is_bold": false,
           "page_number": 2,
           "bounding_box": [
-            69.75,
-            84.00306701660156,
-            108.95746612548828,
-            96.00306701660156
-          ],
-          "section_heading": null,
-          "heading_level": null
-        },
-        {
-          "text": "Colloquium",
-          "font_size": 12.0,
-          "is_bold": false,
-          "page_number": 2,
-          "bounding_box": [
-            112.20703125,
-            84.00306701660156,
-            172.5403594970703,
-            96.00306701660156
-          ],
-          "section_heading": null,
-          "heading_level": null
-        },
-        {
-          "text": "in",
-          "font_size": 12.0,
-          "is_bold": false,
-          "page_number": 2,
-          "bounding_box": [
-            175.78125,
-            84.00306701660156,
-            185.25205993652344,
-            96.00306701660156
-          ],
-          "section_heading": null,
-          "heading_level": null
-        },
-        {
-          "text": "Computer",
-          "font_size": 12.0,
-          "is_bold": false,
-          "page_number": 2,
-          "bounding_box": [
-            188.49609375,
-            84.00306701660156,
-            241.38145446777344,
-            96.00306701660156
-          ],
-          "section_heading": null,
-          "heading_level": null
-        },
-        {
-          "text": "Science",
-          "font_size": 12.0,
-          "is_bold": false,
-          "page_number": 2,
-          "bounding_box": [
-            244.62890625,
-            84.00306701660156,
-            284.2985534667969,
-            96.00306701660156
+            69.0,
+            83.25306701660156,
+            283.5485534667969,
+            95.25306701660156
           ],
           "section_heading": null,
           "heading_level": null
@@ -876,10 +946,10 @@
           "is_bold": false,
           "page_number": 2,
           "bounding_box": [
-            69.75,
-            106.1953125,
-            562.6513671875,
-            120.59765625
+            69.0,
+            105.4453125,
+            561.9013671875,
+            119.84765625
           ],
           "section_heading": null,
           "heading_level": null
@@ -890,10 +960,10 @@
           "is_bold": false,
           "page_number": 2,
           "bounding_box": [
-            69.75,
-            130.1953125,
-            509.4283447265625,
-            144.59765625
+            69.0,
+            129.4453125,
+            508.6783447265625,
+            143.84765625
           ],
           "section_heading": null,
           "heading_level": null
@@ -904,10 +974,10 @@
           "is_bold": false,
           "page_number": 2,
           "bounding_box": [
-            69.75,
-            154.1953125,
-            563.1923828125,
-            168.59765625
+            69.0,
+            153.4453125,
+            562.4423828125,
+            167.84765625
           ],
           "section_heading": null,
           "heading_level": null
@@ -918,10 +988,10 @@
           "is_bold": false,
           "page_number": 2,
           "bounding_box": [
-            69.75,
-            178.1953125,
-            564.5011596679688,
-            192.59765625
+            69.0,
+            177.4453125,
+            563.7511596679688,
+            191.84765625
           ],
           "section_heading": null,
           "heading_level": null
@@ -932,66 +1002,24 @@
           "is_bold": false,
           "page_number": 2,
           "bounding_box": [
-            69.75,
-            202.1953125,
-            458.37835693359375,
-            216.59765625
+            69.0,
+            201.4453125,
+            457.62835693359375,
+            215.84765625
           ],
           "section_heading": null,
           "heading_level": null
         },
         {
-          "text": "54-284",
+          "text": "54-284 Computer Science II",
           "font_size": 12.0,
           "is_bold": false,
           "page_number": 2,
           "bounding_box": [
-            69.75,
-            229.50306701660156,
-            108.95746612548828,
-            241.50306701660156
-          ],
-          "section_heading": null,
-          "heading_level": null
-        },
-        {
-          "text": "Computer",
-          "font_size": 12.0,
-          "is_bold": false,
-          "page_number": 2,
-          "bounding_box": [
-            112.20703125,
-            229.50306701660156,
-            165.09239196777344,
-            241.50306701660156
-          ],
-          "section_heading": null,
-          "heading_level": null
-        },
-        {
-          "text": "Science",
-          "font_size": 12.0,
-          "is_bold": false,
-          "page_number": 2,
-          "bounding_box": [
-            168.33984375,
-            229.50306701660156,
-            208.00950622558594,
-            241.50306701660156
-          ],
-          "section_heading": null,
-          "heading_level": null
-        },
-        {
-          "text": "II",
-          "font_size": 12.0,
-          "is_bold": false,
-          "page_number": 2,
-          "bounding_box": [
-            211.259765625,
-            229.50306701660156,
-            218.15493774414062,
-            241.50306701660156
+            69.0,
+            228.75306701660156,
+            217.40493774414062,
+            240.75306701660156
           ],
           "section_heading": null,
           "heading_level": null
@@ -1002,10 +1030,10 @@
           "is_bold": false,
           "page_number": 2,
           "bounding_box": [
-            69.75,
-            251.6953125,
-            564.7137451171875,
-            266.09765625
+            69.0,
+            250.9453125,
+            563.9637451171875,
+            265.34765625
           ],
           "section_heading": null,
           "heading_level": null
@@ -1016,10 +1044,10 @@
           "is_bold": false,
           "page_number": 2,
           "bounding_box": [
-            69.75,
-            275.6953125,
-            545.33740234375,
-            290.09765625
+            69.0,
+            274.9453125,
+            544.58740234375,
+            289.34765625
           ],
           "section_heading": null,
           "heading_level": null
@@ -1030,10 +1058,10 @@
           "is_bold": false,
           "page_number": 2,
           "bounding_box": [
-            69.75,
-            299.6953125,
-            561.859130859375,
-            314.09765625
+            69.0,
+            298.9453125,
+            561.109130859375,
+            313.34765625
           ],
           "section_heading": null,
           "heading_level": null
@@ -1044,10 +1072,10 @@
           "is_bold": false,
           "page_number": 2,
           "bounding_box": [
-            69.75,
-            323.6953125,
-            561.148193359375,
-            338.09765625
+            69.0,
+            322.9453125,
+            560.398193359375,
+            337.34765625
           ],
           "section_heading": null,
           "heading_level": null
@@ -1058,10 +1086,10 @@
           "is_bold": false,
           "page_number": 2,
           "bounding_box": [
-            69.75,
-            347.6953125,
-            559.167236328125,
-            362.09765625
+            69.0,
+            346.9453125,
+            558.417236328125,
+            361.34765625
           ],
           "section_heading": null,
           "heading_level": null
@@ -1072,10 +1100,10 @@
           "is_bold": false,
           "page_number": 2,
           "bounding_box": [
-            69.75,
-            371.6953125,
-            556.9431762695312,
-            386.09765625
+            69.0,
+            370.9453125,
+            556.1931762695312,
+            385.34765625
           ],
           "section_heading": null,
           "heading_level": null
@@ -1086,52 +1114,24 @@
           "is_bold": false,
           "page_number": 2,
           "bounding_box": [
-            69.75,
-            395.6953125,
-            91.302001953125,
-            410.09765625
+            69.0,
+            394.9453125,
+            90.552001953125,
+            409.34765625
           ],
           "section_heading": null,
           "heading_level": null
         },
         {
-          "text": "54-291",
+          "text": "54-291 Puzzling Programs",
           "font_size": 12.0,
           "is_bold": false,
           "page_number": 2,
           "bounding_box": [
-            69.75,
-            423.0030517578125,
-            108.95746612548828,
-            435.0030517578125
-          ],
-          "section_heading": null,
-          "heading_level": null
-        },
-        {
-          "text": "Puzzling",
-          "font_size": 12.0,
-          "is_bold": false,
-          "page_number": 2,
-          "bounding_box": [
-            112.20703125,
-            423.0030517578125,
-            154.906494140625,
-            435.0030517578125
-          ],
-          "section_heading": null,
-          "heading_level": null
-        },
-        {
-          "text": "Programs",
-          "font_size": 12.0,
-          "is_bold": false,
-          "page_number": 2,
-          "bounding_box": [
-            158.15625,
-            423.0030517578125,
-            207.82907104492188,
-            435.0030517578125
+            69.0,
+            422.2530517578125,
+            207.07907104492188,
+            434.2530517578125
           ],
           "section_heading": null,
           "heading_level": null
@@ -1142,10 +1142,10 @@
           "is_bold": false,
           "page_number": 2,
           "bounding_box": [
-            69.75,
-            445.1953125,
-            536.2286987304688,
-            459.59765625
+            69.0,
+            444.4453125,
+            535.4786987304688,
+            458.84765625
           ],
           "section_heading": null,
           "heading_level": null
@@ -1156,10 +1156,10 @@
           "is_bold": false,
           "page_number": 2,
           "bounding_box": [
-            69.75,
-            469.1953125,
-            524.33984375,
-            483.59765625
+            69.0,
+            468.4453125,
+            523.58984375,
+            482.84765625
           ],
           "section_heading": null,
           "heading_level": null
@@ -1170,10 +1170,10 @@
           "is_bold": false,
           "page_number": 2,
           "bounding_box": [
-            69.75,
-            493.1953125,
-            550.4780883789062,
-            507.59765625
+            69.0,
+            492.4453125,
+            549.7280883789062,
+            506.84765625
           ],
           "section_heading": null,
           "heading_level": null
@@ -1184,10 +1184,10 @@
           "is_bold": false,
           "page_number": 2,
           "bounding_box": [
-            69.75,
-            517.1953125,
-            547.0958862304688,
-            531.59765625
+            69.0,
+            516.4453125,
+            546.3458862304688,
+            530.84765625
           ],
           "section_heading": null,
           "heading_level": null
@@ -1198,10 +1198,10 @@
           "is_bold": false,
           "page_number": 2,
           "bounding_box": [
-            69.75,
-            541.1953125,
-            563.8484497070312,
-            555.59765625
+            69.0,
+            540.4453125,
+            563.0984497070312,
+            554.84765625
           ],
           "section_heading": null,
           "heading_level": null
@@ -1212,10 +1212,10 @@
           "is_bold": false,
           "page_number": 2,
           "bounding_box": [
-            69.75,
-            565.1953125,
-            549.103515625,
-            579.59765625
+            69.0,
+            564.4453125,
+            548.353515625,
+            578.84765625
           ],
           "section_heading": null,
           "heading_level": null
@@ -1226,10 +1226,10 @@
           "is_bold": false,
           "page_number": 2,
           "bounding_box": [
-            69.75,
-            589.1953125,
-            553.1968383789062,
-            603.59765625
+            69.0,
+            588.4453125,
+            552.4468383789062,
+            602.84765625
           ],
           "section_heading": null,
           "heading_level": null
@@ -1240,52 +1240,24 @@
           "is_bold": false,
           "page_number": 2,
           "bounding_box": [
-            69.75,
-            613.1953125,
-            444.52764892578125,
-            627.59765625
+            69.0,
+            612.4453125,
+            443.77764892578125,
+            626.84765625
           ],
           "section_heading": null,
           "heading_level": null
         },
         {
-          "text": "54-384",
+          "text": "54-384 Discrete Mathematics",
           "font_size": 12.0,
           "is_bold": false,
           "page_number": 2,
           "bounding_box": [
-            69.75,
-            640.5030517578125,
-            108.95746612548828,
-            652.5030517578125
-          ],
-          "section_heading": null,
-          "heading_level": null
-        },
-        {
-          "text": "Discrete",
-          "font_size": 12.0,
-          "is_bold": false,
-          "page_number": 2,
-          "bounding_box": [
-            112.20703125,
-            640.5030517578125,
-            155.00559997558594,
-            652.5030517578125
-          ],
-          "section_heading": null,
-          "heading_level": null
-        },
-        {
-          "text": "Mathematics",
-          "font_size": 12.0,
-          "is_bold": false,
-          "page_number": 2,
-          "bounding_box": [
-            158.255859375,
-            640.5030517578125,
-            225.05563354492188,
-            652.5030517578125
+            69.0,
+            639.7530517578125,
+            224.30563354492188,
+            651.7530517578125
           ],
           "section_heading": null,
           "heading_level": null
@@ -1296,10 +1268,10 @@
           "is_bold": false,
           "page_number": 2,
           "bounding_box": [
-            69.75,
-            662.6953125,
-            561.4080200195312,
-            677.09765625
+            69.0,
+            661.9453125,
+            560.6580200195312,
+            676.34765625
           ],
           "section_heading": null,
           "heading_level": null
@@ -1310,10 +1282,10 @@
           "is_bold": false,
           "page_number": 2,
           "bounding_box": [
-            69.75,
-            686.6953125,
-            559.8742065429688,
-            701.09765625
+            69.0,
+            685.9453125,
+            559.1242065429688,
+            700.34765625
           ],
           "section_heading": null,
           "heading_level": null
@@ -1324,96 +1296,320 @@
           "is_bold": false,
           "page_number": 2,
           "bounding_box": [
-            69.75,
-            710.6953125,
-            541.6180419921875,
-            725.09765625
+            69.0,
+            709.9453125,
+            540.8680419921875,
+            724.34765625
           ],
           "section_heading": null,
           "heading_level": null
         },
         {
-          "text": "Menu",
+          "text": "M",
           "font_size": 10.5,
-          "is_bold": true,
+          "is_bold": false,
           "page_number": 2,
           "bounding_box": [
-            67.640625,
-            51.66943359375,
-            95.16112518310547,
-            65.63525390625
+            66.890625,
+            52.247314453125,
+            76.17262268066406,
+            64.787841796875
           ],
-          "section_heading": "Menu",
-          "heading_level": 2
+          "section_heading": null,
+          "heading_level": null
         },
         {
-          "text": "Search",
+          "text": "e",
           "font_size": 10.5,
-          "is_bold": true,
+          "is_bold": false,
           "page_number": 2,
           "bounding_box": [
-            119.77734375,
-            51.66943359375,
-            151.39268493652344,
-            65.63525390625
+            76.06787109375,
+            52.247314453125,
+            82.16837310791016,
+            64.787841796875
           ],
-          "section_heading": "Search",
-          "heading_level": 2
+          "section_heading": null,
+          "heading_level": null
         },
         {
-          "text": "Apply",
+          "text": "nu",
           "font_size": 10.5,
-          "is_bold": true,
+          "is_bold": false,
           "page_number": 2,
           "bounding_box": [
-            417.92578125,
-            51.66943359375,
-            445.70880126953125,
-            65.63525390625
+            82.05615234375,
+            52.247314453125,
+            94.50287628173828,
+            64.787841796875
           ],
-          "section_heading": "Apply",
-          "heading_level": 2
+          "section_heading": null,
+          "heading_level": null
         },
         {
-          "text": "Visit",
+          "text": "S",
           "font_size": 10.5,
-          "is_bold": true,
+          "is_bold": false,
           "page_number": 2,
           "bounding_box": [
-            455.30859375,
-            51.66943359375,
-            475.8465576171875,
-            65.63525390625
+            118.9921875,
+            52.247314453125,
+            125.80668640136719,
+            64.787841796875
           ],
-          "section_heading": "Visit",
-          "heading_level": 2
+          "section_heading": null,
+          "heading_level": null
         },
         {
-          "text": "Majors & Minors",
+          "text": "ea",
           "font_size": 10.5,
-          "is_bold": true,
+          "is_bold": false,
           "page_number": 2,
           "bounding_box": [
-            485.4609375,
-            51.66943359375,
-            564.7476806640625,
-            65.63525390625
+            125.703369140625,
+            52.247314453125,
+            137.6136474609375,
+            64.787841796875
           ],
-          "section_heading": "Majors & Minors",
-          "heading_level": 2
+          "section_heading": null,
+          "heading_level": null
         },
         {
-          "text": "2/6/26, 10:20 AM",
+          "text": "r",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            137.505615234375,
+            52.247314453125,
+            141.6846160888672,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "ch",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            141.436279296875,
+            52.247314453125,
+            153.6173858642578,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "A",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            415.32421875,
+            52.247314453125,
+            422.6007080078125,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "pply",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            422.49169921875,
+            52.247314453125,
+            443.9219970703125,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "V",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            453.41015625,
+            52.247314453125,
+            460.6446533203125,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "i",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            460.53662109375,
+            52.247314453125,
+            463.2666320800781,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "s",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            463.156494140625,
+            52.247314453125,
+            468.79498291015625,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "i",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            468.6884765625,
+            52.247314453125,
+            471.4184875488281,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "t",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            471.308349609375,
+            52.247314453125,
+            475.287841796875,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "M",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            484.79296875,
+            52.247314453125,
+            494.0749816894531,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "aj",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            493.97021484375,
+            52.247314453125,
+            502.5141906738281,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "ors",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            502.404052734375,
+            52.247314453125,
+            518.2007446289062,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "&",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            520.8525390625,
+            52.247314453125,
+            528.4335327148438,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "M",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            528.32763671875,
+            52.247314453125,
+            540.367919921875,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "i",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            540.26318359375,
+            52.247314453125,
+            542.9931640625,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "nors",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 2,
+          "bounding_box": [
+            542.883056640625,
+            52.247314453125,
+            564.8474731445312,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "2/25/26, 11:45 AM",
           "font_size": 7.994999885559082,
           "is_bold": false,
           "page_number": 2,
           "bounding_box": [
             24.0,
-            15.262338638305664,
-            84.4503173828125,
-            24.194252014160156
+            16.50374984741211,
+            84.78870391845703,
+            24.498750686645508
           ],
-          "section_heading": "Majors & Minors",
+          "section_heading": null,
           "heading_level": null
         },
         {
@@ -1422,12 +1618,12 @@
           "is_bold": false,
           "page_number": 2,
           "bounding_box": [
-            289.6171875,
-            15.262338638305664,
-            412.8330078125,
-            24.194252014160156
+            295.4765625,
+            16.50374984741211,
+            407.30877685546875,
+            24.498750686645508
           ],
-          "section_heading": "Majors & Minors",
+          "section_heading": null,
           "heading_level": null
         },
         {
@@ -1437,11 +1633,11 @@
           "page_number": 2,
           "bounding_box": [
             24.0,
-            768.2623291015625,
-            227.9671630859375,
-            777.1942749023438
+            768.7537231445312,
+            207.60887145996094,
+            776.748779296875
           ],
-          "section_heading": "Majors & Minors",
+          "section_heading": null,
           "heading_level": null
         },
         {
@@ -1450,12 +1646,12 @@
           "is_bold": false,
           "page_number": 2,
           "bounding_box": [
-            576.8671875,
-            768.2623291015625,
-            587.9920654296875,
-            777.1942749023438
+            577.7578125,
+            768.7537231445312,
+            587.9896850585938,
+            776.748779296875
           ],
-          "section_heading": "Majors & Minors",
+          "section_heading": null,
           "heading_level": null
         }
       ]
@@ -1467,101 +1663,101 @@
         "width": 612.0,
         "height": 792.0,
         "rotation": 0,
-        "text_length": 2332,
+        "text_length": 2333,
         "word_count": 284,
         "has_images": false,
         "has_links": true,
         "link_count": 17,
-        "document_hash": "8ca86e2913df0a31aad8b7ca71e15af7ff7789e31b5f2d8d39cfc5fb6f29e237",
+        "document_hash": "3a2d98684c6ec030ead26ca55b1ad158d758f47e143bbb4f4df3e85f00647cb1",
         "document_name": "SU_CS_Overview.pdf"
       },
-      "text": "either Mathematics 52-264 or Computer Science 54-284, or permission of instructor. (Fall) (NS) 54-394 Computer Organization This course studies computer architecture, internal representation of data, assembly language programming, subroutines and parameter passing, design of machine language instruction sets, bus structure, digital logic, and support for parallelism. The course includes a laboratory component designed to explore applications and to enhance conceptualization. Prerequisite: Computer Science 54-284 or permission of instructor. (Fall) (NS) 54-414 Operations Research Formulation and solution of problems with management, economics, engineering and science applications using modeling, optimization techniques, and simulation. Topics include linear and integer programming, simplex method, duality, sensitivity analysis, branch and bound algorithm, transportation and assignment problems, network optimization, and problem solving using optimization software. Also Mathematics 52-414 and Business 30-414. Contributes to Data Analytics and Data Science. Prerequisites: Mathematics 52-164 (Modern Calculus I), and either Business 30-474 (Finance), Mathematics 52-674 (Linear Algebra), some Computer Science course at the 300 level or above, or permission of the instructor. 54-424 Artificial Intelligence This course studies the use of computer algorithms to emulate the cognitive and problem solving capabilities of humans. Topics include: search, optimization, reinforcement learning, evolutionary computation, statistical methods and (deep) neural networks. Contributes to Neuroscience. Prerequisite: Computer Science 54-284 or permission of instructor. (NS) 54-454 Algorithms An introduction to the design and analysis of algorithms and their implementation in C++. Topics include: greedy, divide-and-conquer, dynamic programming, graph, and randomized algorithms; asymptotic analysis and computational tractability (e.g. NP-completeness); practical data structures (stacks, trees, queues, graphs, hash tables, heaps). Prerequisite: Computer Science 54-284, or permission of instructor. Contributes to Design Thinking. (Spring) (NS) 54-474 Programming Languages Menu Search Apply Visit Majors & Minors 2/6/26, 10:20 AM Courses • Southwestern University https://www.southwestern.edu/computer-science/courses/ 3/5",
-      "raw_text": "either Mathematics 52-264 or Computer Science 54-284, or permission of instructor. (Fall)\n(NS)\n54-394 Computer Organization\nThis course studies computer architecture, internal representation of data, assembly language\nprogramming, subroutines and parameter passing, design of machine language instruction sets,\nbus structure, digital logic, and support for parallelism. The course includes a laboratory\ncomponent designed to explore applications and to enhance conceptualization. Prerequisite:\nComputer Science 54-284 or permission of instructor. (Fall) (NS)\n54-414 Operations Research\nFormulation and solution of problems with management, economics, engineering and science\napplications using modeling, optimization techniques, and simulation. Topics include linear and\ninteger programming, simplex method, duality, sensitivity analysis, branch and bound\nalgorithm, transportation and assignment problems, network optimization, and problem\nsolving using optimization software. Also Mathematics 52-414 and Business 30-414.\nContributes to Data Analytics and Data Science. Prerequisites: Mathematics 52-164 (Modern\nCalculus I), and either Business 30-474 (Finance), Mathematics 52-674 (Linear Algebra), some\nComputer Science course at the 300 level or above, or permission of the instructor.\n54-424 Artificial Intelligence\nThis course studies the use of computer algorithms to emulate the cognitive and problem\nsolving capabilities of humans. Topics include: search, optimization, reinforcement learning,\nevolutionary computation, statistical methods and (deep) neural networks. Contributes to\nNeuroscience. Prerequisite: Computer Science 54-284 or permission of instructor. (NS)\n54-454 Algorithms\nAn introduction to the design and analysis of algorithms and their implementation in C++.\nTopics include: greedy, divide-and-conquer, dynamic programming, graph, and randomized\nalgorithms; asymptotic analysis and computational tractability (e.g. NP-completeness);\npractical data structures (stacks, trees, queues, graphs, hash tables, heaps). Prerequisite:\nComputer Science 54-284, or permission of instructor. Contributes to Design Thinking.\n(Spring) (NS)\n54-474 Programming Languages\nMenu\nSearch\nApply\nVisit\nMajors & Minors\n2/6/26, 10:20 AM\nCourses • Southwestern University\nhttps://www.southwestern.edu/computer-science/courses/\n3/5\n",
+      "text": "either Mathematics 52-264 or Computer Science 54-284, or permission of instructor. (Fall) (NS) 54-394 Computer Organization This course studies computer architecture, internal representation of data, assembly language programming, subroutines and parameter passing, design of machine language instruction sets, bus structure, digital logic, and support for parallelism. The course includes a laboratory component designed to explore applications and to enhance conceptualization. Prerequisite: Computer Science 54-284 or permission of instructor. (Fall) (NS) 54-414 Operations Research Formulation and solution of problems with management, economics, engineering and science applications using modeling, optimization techniques, and simulation. Topics include linear and integer programming, simplex method, duality, sensitivity analysis, branch and bound algorithm, transportation and assignment problems, network optimization, and problem solving using optimization software. Also Mathematics 52-414 and Business 30-414. Contributes to Data Analytics and Data Science. Prerequisites: Mathematics 52-164 (Modern Calculus I), and either Business 30-474 (Finance), Mathematics 52-674 (Linear Algebra), some Computer Science course at the 300 level or above, or permission of the instructor. 54-424 Artificial Intelligence This course studies the use of computer algorithms to emulate the cognitive and problem solving capabilities of humans. Topics include: search, optimization, reinforcement learning, evolutionary computation, statistical methods and (deep) neural networks. Contributes to Neuroscience. Prerequisite: Computer Science 54-284 or permission of instructor. (NS) 54-454 Algorithms An introduction to the design and analysis of algorithms and their implementation in C++. Topics include: greedy, divide-and-conquer, dynamic programming, graph, and randomized algorithms; asymptotic analysis and computational tractability (e.g. NP-completeness); practical data structures (stacks, trees, queues, graphs, hash tables, heaps). Prerequisite: Computer Science 54-284, or permission of instructor. Contributes to Design Thinking. (Spring) (NS) 54-474 Programming Languages",
+      "raw_text": "either Mathematics 52-264 or Computer Science 54-284, or permission of instructor. (Fall)\n(NS)\n54-394 Computer Organization\nThis course studies computer architecture, internal representation of data, assembly language\nprogramming, subroutines and parameter passing, design of machine language instruction sets,\nbus structure, digital logic, and support for parallelism. The course includes a laboratory\ncomponent designed to explore applications and to enhance conceptualization. Prerequisite:\nComputer Science 54-284 or permission of instructor. (Fall) (NS)\n54-414 Operations Research\nFormulation and solution of problems with management, economics, engineering and science\napplications using modeling, optimization techniques, and simulation. Topics include linear and\ninteger programming, simplex method, duality, sensitivity analysis, branch and bound\nalgorithm, transportation and assignment problems, network optimization, and problem solving\nusing optimization software. Also Mathematics 52-414 and Business 30-414. Contributes to\nData Analytics and Data Science. Prerequisites: Mathematics 52-164 (Modern Calculus I), and\neither Business 30-474 (Finance), Mathematics 52-674 (Linear Algebra), some Computer\nScience course at the 300 level or above, or permission of the instructor.\n54-424 Artificial Intelligence\nThis course studies the use of computer algorithms to emulate the cognitive and problem\nsolving capabilities of humans. Topics include: search, optimization, reinforcement learning,\nevolutionary computation, statistical methods and (deep) neural networks. Contributes to\nNeuroscience. Prerequisite: Computer Science 54-284 or permission of instructor. (NS)\n54-454 Algorithms\nAn introduction to the design and analysis of algorithms and their implementation in C++.\nTopics include: greedy, divide-and-conquer, dynamic programming, graph, and randomized\nalgorithms; asymptotic analysis and computational tractability (e.g. NP-completeness);\npractical data structures (stacks, trees, queues, graphs, hash tables, heaps). Prerequisite:\nComputer Science 54-284, or permission of instructor. Contributes to Design Thinking.\n(Spring) (NS)\n54-474 Programming Languages\nMenu\nSearch\nApply\nVisit\nMajors & Minors\n2/25/26, 11:45 AM\nCourses • Southwestern University\nhttps://www.southwestern.edu/computer-science/courses/\n3/5\n",
       "links": [
         {
           "type": "unknown",
           "uri": "",
-          "rect": "Rect(105.0, 51.0, 151.5, 66.0)"
+          "rect": "Rect(104.25, 50.25, 153.75, 65.25)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/admission/apply/",
-          "rect": "Rect(417.75, 51.75, 445.5, 66.0)"
+          "rect": "Rect(415.5, 51.75, 444.0, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/admission/apply/",
-          "rect": "Rect(417.75, 51.75, 445.5, 66.0)"
+          "rect": "Rect(415.5, 51.75, 444.0, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/admission/apply/",
-          "rect": "Rect(417.75, 51.75, 445.5, 66.0)"
+          "rect": "Rect(415.5, 51.75, 444.0, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/admission/apply/",
-          "rect": "Rect(417.75, 51.75, 445.5, 66.0)"
+          "rect": "Rect(415.5, 51.75, 444.0, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/admission/apply/",
-          "rect": "Rect(417.75, 51.75, 445.5, 66.0)"
+          "rect": "Rect(415.5, 51.75, 444.0, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/admission/visit/",
-          "rect": "Rect(455.25, 51.75, 475.5, 66.0)"
+          "rect": "Rect(453.75, 51.75, 475.5, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/admission/visit/",
-          "rect": "Rect(455.25, 51.75, 475.5, 66.0)"
+          "rect": "Rect(453.75, 51.75, 475.5, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/admission/visit/",
-          "rect": "Rect(455.25, 51.75, 475.5, 66.0)"
+          "rect": "Rect(453.75, 51.75, 475.5, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/admission/visit/",
-          "rect": "Rect(455.25, 51.75, 475.5, 66.0)"
+          "rect": "Rect(453.75, 51.75, 475.5, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/admission/visit/",
-          "rect": "Rect(455.25, 51.75, 475.5, 66.0)"
+          "rect": "Rect(453.75, 51.75, 475.5, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/academics/majors-minors/",
-          "rect": "Rect(485.25, 51.75, 564.75, 66.0)"
+          "rect": "Rect(484.5, 51.75, 564.75, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/academics/majors-minors/",
-          "rect": "Rect(485.25, 51.75, 564.75, 66.0)"
+          "rect": "Rect(484.5, 51.75, 564.75, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/academics/majors-minors/",
-          "rect": "Rect(485.25, 51.75, 564.75, 66.0)"
+          "rect": "Rect(484.5, 51.75, 564.75, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/academics/majors-minors/",
-          "rect": "Rect(485.25, 51.75, 564.75, 66.0)"
+          "rect": "Rect(484.5, 51.75, 564.75, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/academics/majors-minors/",
-          "rect": "Rect(485.25, 51.75, 564.75, 66.0)"
+          "rect": "Rect(484.5, 51.75, 564.75, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/",
-          "rect": "Rect(292.5, 43.5, 319.5, 76.5)"
+          "rect": "Rect(292.5, 42.75, 319.5, 75.75)"
         }
       ],
       "rich_blocks": [
@@ -1571,10 +1767,10 @@
           "is_bold": false,
           "page_number": 3,
           "bounding_box": [
-            69.75,
-            32.6953125,
-            547.602294921875,
-            47.09765625
+            69.0,
+            31.9453125,
+            546.852294921875,
+            46.34765625
           ],
           "section_heading": null,
           "heading_level": null
@@ -1585,52 +1781,24 @@
           "is_bold": false,
           "page_number": 3,
           "bounding_box": [
-            69.75,
-            56.6953125,
-            91.302001953125,
-            71.09765625
+            69.0,
+            55.9453125,
+            90.552001953125,
+            70.34765625
           ],
           "section_heading": null,
           "heading_level": null
         },
         {
-          "text": "54-394",
+          "text": "54-394 Computer Organization",
           "font_size": 12.0,
           "is_bold": false,
           "page_number": 3,
           "bounding_box": [
-            69.75,
-            84.00306701660156,
-            108.95746612548828,
-            96.00306701660156
-          ],
-          "section_heading": null,
-          "heading_level": null
-        },
-        {
-          "text": "Computer",
-          "font_size": 12.0,
-          "is_bold": false,
-          "page_number": 3,
-          "bounding_box": [
-            112.20703125,
-            84.00306701660156,
-            165.09239196777344,
-            96.00306701660156
-          ],
-          "section_heading": null,
-          "heading_level": null
-        },
-        {
-          "text": "Organization",
-          "font_size": 12.0,
-          "is_bold": false,
-          "page_number": 3,
-          "bounding_box": [
-            168.33984375,
-            84.00306701660156,
-            234.86338806152344,
-            96.00306701660156
+            69.0,
+            83.25306701660156,
+            234.11338806152344,
+            95.25306701660156
           ],
           "section_heading": null,
           "heading_level": null
@@ -1641,10 +1809,10 @@
           "is_bold": false,
           "page_number": 3,
           "bounding_box": [
-            69.75,
-            106.1953125,
-            559.0514526367188,
-            120.59765625
+            69.0,
+            105.4453125,
+            558.3014526367188,
+            119.84765625
           ],
           "section_heading": null,
           "heading_level": null
@@ -1655,10 +1823,10 @@
           "is_bold": false,
           "page_number": 3,
           "bounding_box": [
-            69.75,
-            130.1953125,
-            565.244140625,
-            144.59765625
+            69.0,
+            129.4453125,
+            564.494140625,
+            143.84765625
           ],
           "section_heading": null,
           "heading_level": null
@@ -1669,10 +1837,10 @@
           "is_bold": false,
           "page_number": 3,
           "bounding_box": [
-            69.75,
-            154.1953125,
-            530.216552734375,
-            168.59765625
+            69.0,
+            153.4453125,
+            529.466552734375,
+            167.84765625
           ],
           "section_heading": null,
           "heading_level": null
@@ -1683,10 +1851,10 @@
           "is_bold": false,
           "page_number": 3,
           "bounding_box": [
-            69.75,
-            178.1953125,
-            550.3054809570312,
-            192.59765625
+            69.0,
+            177.4453125,
+            549.5554809570312,
+            191.84765625
           ],
           "section_heading": null,
           "heading_level": null
@@ -1697,52 +1865,24 @@
           "is_bold": false,
           "page_number": 3,
           "bounding_box": [
-            69.75,
-            202.1953125,
-            408.1149597167969,
-            216.59765625
+            69.0,
+            201.4453125,
+            407.3649597167969,
+            215.84765625
           ],
           "section_heading": null,
           "heading_level": null
         },
         {
-          "text": "54-414",
+          "text": "54-414 Operations Research",
           "font_size": 12.0,
           "is_bold": false,
           "page_number": 3,
           "bounding_box": [
-            69.75,
-            229.50306701660156,
-            108.95746612548828,
-            241.50306701660156
-          ],
-          "section_heading": null,
-          "heading_level": null
-        },
-        {
-          "text": "Operations",
-          "font_size": 12.0,
-          "is_bold": false,
-          "page_number": 3,
-          "bounding_box": [
-            112.20703125,
-            229.50306701660156,
-            169.71969604492188,
-            241.50306701660156
-          ],
-          "section_heading": null,
-          "heading_level": null
-        },
-        {
-          "text": "Research",
-          "font_size": 12.0,
-          "is_bold": false,
-          "page_number": 3,
-          "bounding_box": [
-            172.96875,
-            229.50306701660156,
-            220.50820922851562,
-            241.50306701660156
+            69.0,
+            228.75306701660156,
+            219.75820922851562,
+            240.75306701660156
           ],
           "section_heading": null,
           "heading_level": null
@@ -1753,10 +1893,10 @@
           "is_bold": false,
           "page_number": 3,
           "bounding_box": [
-            69.75,
-            251.6953125,
-            555.6763916015625,
-            266.09765625
+            69.0,
+            250.9453125,
+            554.9263916015625,
+            265.34765625
           ],
           "section_heading": null,
           "heading_level": null
@@ -1767,10 +1907,10 @@
           "is_bold": false,
           "page_number": 3,
           "bounding_box": [
-            69.75,
-            275.6953125,
-            563.6360473632812,
-            290.09765625
+            69.0,
+            274.9453125,
+            562.8860473632812,
+            289.34765625
           ],
           "section_heading": null,
           "heading_level": null
@@ -1781,122 +1921,122 @@
           "is_bold": false,
           "page_number": 3,
           "bounding_box": [
-            69.75,
-            299.6953125,
-            513.7215576171875,
-            314.09765625
+            69.0,
+            298.9453125,
+            512.9715576171875,
+            313.34765625
           ],
           "section_heading": null,
           "heading_level": null
         },
         {
-          "text": "algorithm, transportation and assignment problems, network optimization, and problem",
+          "text": "algorithm, transportation and assignment problems, network optimization, and problem solving",
           "font_size": 12.0,
           "is_bold": false,
           "page_number": 3,
           "bounding_box": [
-            69.75,
-            323.6953125,
-            526.9359741210938,
-            338.09765625
+            69.0,
+            322.9453125,
+            565.1500854492188,
+            337.34765625
           ],
           "section_heading": null,
           "heading_level": null
         },
         {
-          "text": "solving using optimization software. Also Mathematics 52-414 and Business 30-414.",
+          "text": "using optimization software. Also Mathematics 52-414 and Business 30-414. Contributes to",
           "font_size": 12.0,
           "is_bold": false,
           "page_number": 3,
           "bounding_box": [
-            69.75,
-            347.6953125,
-            510.6844482421875,
-            362.09765625
+            69.0,
+            346.9453125,
+            549.393798828125,
+            361.34765625
           ],
           "section_heading": null,
           "heading_level": null
         },
         {
-          "text": "Contributes to Data Analytics and Data Science. Prerequisites: Mathematics 52-164 (Modern",
+          "text": "Data Analytics and Data Science. Prerequisites: Mathematics 52-164 (Modern Calculus I), and",
           "font_size": 12.0,
           "is_bold": false,
           "page_number": 3,
           "bounding_box": [
-            69.75,
-            371.6953125,
-            554.3765869140625,
-            386.09765625
+            69.0,
+            370.9453125,
+            559.2415161132812,
+            385.34765625
           ],
           "section_heading": null,
           "heading_level": null
         },
         {
-          "text": "Calculus I), and either Business 30-474 (Finance), Mathematics 52-674 (Linear Algebra), some",
+          "text": "either Business 30-474 (Finance), Mathematics 52-674 (Linear Algebra), some Computer",
           "font_size": 12.0,
           "is_bold": false,
           "page_number": 3,
           "bounding_box": [
-            69.75,
-            395.6953125,
-            561.3187866210938,
-            410.09765625
+            69.0,
+            394.9453125,
+            532.628662109375,
+            409.34765625
           ],
           "section_heading": null,
           "heading_level": null
         },
         {
-          "text": "Computer Science course at the 300 level or above, or permission of the instructor.",
+          "text": "Science course at the 300 level or above, or permission of the instructor.",
           "font_size": 12.0,
           "is_bold": false,
           "page_number": 3,
           "bounding_box": [
-            69.75,
-            419.6953125,
-            506.17913818359375,
-            434.09765625
+            69.0,
+            418.9453125,
+            449.29632568359375,
+            433.34765625
           ],
           "section_heading": null,
           "heading_level": null
         },
         {
-          "text": "54-424",
+          "text": "54-424 Arti",
           "font_size": 12.0,
           "is_bold": false,
           "page_number": 3,
           "bounding_box": [
-            69.75,
-            447.0030517578125,
-            108.95746612548828,
-            459.0030517578125
+            69.0,
+            446.2530517578125,
+            130.6436767578125,
+            458.2530517578125
           ],
           "section_heading": null,
           "heading_level": null
         },
         {
-          "text": "Artificial",
+          "text": "fi",
           "font_size": 12.0,
           "is_bold": false,
           "page_number": 3,
           "bounding_box": [
-            112.20703125,
-            444.25634765625,
-            155.50335693359375,
-            459.0030517578125
+            130.646484375,
+            443.50634765625,
+            137.00648498535156,
+            455.50634765625
           ],
           "section_heading": null,
           "heading_level": null
         },
         {
-          "text": "Intelligence",
+          "text": "cial Intelligence",
           "font_size": 12.0,
           "is_bold": false,
           "page_number": 3,
           "bounding_box": [
-            158.75390625,
-            447.0030517578125,
-            218.20481872558594,
-            459.0030517578125
+            137.009765625,
+            446.2530517578125,
+            217.45481872558594,
+            458.2530517578125
           ],
           "section_heading": null,
           "heading_level": null
@@ -1907,10 +2047,10 @@
           "is_bold": false,
           "page_number": 3,
           "bounding_box": [
-            69.75,
-            469.1953125,
-            533.1644897460938,
-            483.59765625
+            69.0,
+            468.4453125,
+            532.4144897460938,
+            482.84765625
           ],
           "section_heading": null,
           "heading_level": null
@@ -1921,10 +2061,10 @@
           "is_bold": false,
           "page_number": 3,
           "bounding_box": [
-            69.75,
-            493.1953125,
-            548.4537353515625,
-            507.59765625
+            69.0,
+            492.4453125,
+            547.7037353515625,
+            506.84765625
           ],
           "section_heading": null,
           "heading_level": null
@@ -1935,10 +2075,10 @@
           "is_bold": false,
           "page_number": 3,
           "bounding_box": [
-            69.75,
-            517.1953125,
-            534.323486328125,
-            531.59765625
+            69.0,
+            516.4453125,
+            533.573486328125,
+            530.84765625
           ],
           "section_heading": null,
           "heading_level": null
@@ -1949,38 +2089,24 @@
           "is_bold": false,
           "page_number": 3,
           "bounding_box": [
-            69.75,
-            541.1953125,
-            526.2367553710938,
-            555.59765625
+            69.0,
+            540.4453125,
+            525.4867553710938,
+            554.84765625
           ],
           "section_heading": null,
           "heading_level": null
         },
         {
-          "text": "54-454",
+          "text": "54-454 Algorithms",
           "font_size": 12.0,
           "is_bold": false,
           "page_number": 3,
           "bounding_box": [
-            69.75,
-            568.5030517578125,
-            108.95746612548828,
-            580.5030517578125
-          ],
-          "section_heading": null,
-          "heading_level": null
-        },
-        {
-          "text": "Algorithms",
-          "font_size": 12.0,
-          "is_bold": false,
-          "page_number": 3,
-          "bounding_box": [
-            112.20703125,
-            568.5030517578125,
-            168.57125854492188,
-            580.5030517578125
+            69.0,
+            567.7530517578125,
+            167.82125854492188,
+            579.7530517578125
           ],
           "section_heading": null,
           "heading_level": null
@@ -1991,10 +2117,10 @@
           "is_bold": false,
           "page_number": 3,
           "bounding_box": [
-            69.75,
-            590.6953125,
-            537.0779418945312,
-            605.09765625
+            69.0,
+            589.9453125,
+            536.3279418945312,
+            604.34765625
           ],
           "section_heading": null,
           "heading_level": null
@@ -2005,10 +2131,10 @@
           "is_bold": false,
           "page_number": 3,
           "bounding_box": [
-            69.75,
-            614.6953125,
-            547.1353759765625,
-            629.09765625
+            69.0,
+            613.9453125,
+            546.3853759765625,
+            628.34765625
           ],
           "section_heading": null,
           "heading_level": null
@@ -2019,10 +2145,10 @@
           "is_bold": false,
           "page_number": 3,
           "bounding_box": [
-            69.75,
-            638.6953125,
-            519.4368896484375,
-            653.09765625
+            69.0,
+            637.9453125,
+            518.6868896484375,
+            652.34765625
           ],
           "section_heading": null,
           "heading_level": null
@@ -2033,10 +2159,10 @@
           "is_bold": false,
           "page_number": 3,
           "bounding_box": [
-            69.75,
-            662.6953125,
-            533.4656372070312,
-            677.09765625
+            69.0,
+            661.9453125,
+            532.7156372070312,
+            676.34765625
           ],
           "section_heading": null,
           "heading_level": null
@@ -2047,10 +2173,10 @@
           "is_bold": false,
           "page_number": 3,
           "bounding_box": [
-            69.75,
-            686.6953125,
-            526.421142578125,
-            701.09765625
+            69.0,
+            685.9453125,
+            525.671142578125,
+            700.34765625
           ],
           "section_heading": null,
           "heading_level": null
@@ -2061,138 +2187,334 @@
           "is_bold": false,
           "page_number": 3,
           "bounding_box": [
-            69.75,
-            710.6953125,
-            134.36605834960938,
-            725.09765625
+            69.0,
+            709.9453125,
+            133.61605834960938,
+            724.34765625
           ],
           "section_heading": null,
           "heading_level": null
         },
         {
-          "text": "54-474",
+          "text": "54-474 Programming Languages",
           "font_size": 12.0,
           "is_bold": false,
           "page_number": 3,
           "bounding_box": [
-            69.75,
-            738.0030517578125,
-            108.60004425048828,
-            750.0030517578125
+            69.0,
+            737.2530517578125,
+            238.47946166992188,
+            749.2530517578125
           ],
           "section_heading": null,
           "heading_level": null
         },
         {
-          "text": "Programming",
-          "font_size": 12.0,
+          "text": "M",
+          "font_size": 10.5,
           "is_bold": false,
           "page_number": 3,
           "bounding_box": [
-            111.849609375,
-            738.0030517578125,
-            181.689697265625,
-            750.0030517578125
+            66.890625,
+            52.247314453125,
+            76.17262268066406,
+            64.787841796875
           ],
           "section_heading": null,
           "heading_level": null
         },
         {
-          "text": "Languages",
-          "font_size": 12.0,
+          "text": "e",
+          "font_size": 10.5,
           "is_bold": false,
           "page_number": 3,
           "bounding_box": [
-            184.939453125,
-            738.0030517578125,
-            239.22946166992188,
-            750.0030517578125
+            76.06787109375,
+            52.247314453125,
+            82.16837310791016,
+            64.787841796875
           ],
           "section_heading": null,
           "heading_level": null
         },
         {
-          "text": "Menu",
+          "text": "nu",
           "font_size": 10.5,
-          "is_bold": true,
+          "is_bold": false,
           "page_number": 3,
           "bounding_box": [
-            67.640625,
-            51.66943359375,
-            95.16112518310547,
-            65.63525390625
+            82.05615234375,
+            52.247314453125,
+            94.50287628173828,
+            64.787841796875
           ],
-          "section_heading": "Menu",
-          "heading_level": 2
+          "section_heading": null,
+          "heading_level": null
         },
         {
-          "text": "Search",
+          "text": "S",
           "font_size": 10.5,
-          "is_bold": true,
+          "is_bold": false,
           "page_number": 3,
           "bounding_box": [
-            119.77734375,
-            51.66943359375,
-            151.39268493652344,
-            65.63525390625
+            118.9921875,
+            52.247314453125,
+            125.80668640136719,
+            64.787841796875
           ],
-          "section_heading": "Search",
-          "heading_level": 2
+          "section_heading": null,
+          "heading_level": null
         },
         {
-          "text": "Apply",
+          "text": "ea",
           "font_size": 10.5,
-          "is_bold": true,
+          "is_bold": false,
           "page_number": 3,
           "bounding_box": [
-            417.92578125,
-            51.66943359375,
-            445.70880126953125,
-            65.63525390625
+            125.703369140625,
+            52.247314453125,
+            137.6136474609375,
+            64.787841796875
           ],
-          "section_heading": "Apply",
-          "heading_level": 2
+          "section_heading": null,
+          "heading_level": null
         },
         {
-          "text": "Visit",
+          "text": "r",
           "font_size": 10.5,
-          "is_bold": true,
+          "is_bold": false,
           "page_number": 3,
           "bounding_box": [
-            455.30859375,
-            51.66943359375,
-            475.8465576171875,
-            65.63525390625
+            137.505615234375,
+            52.247314453125,
+            141.6846160888672,
+            64.787841796875
           ],
-          "section_heading": "Visit",
-          "heading_level": 2
+          "section_heading": null,
+          "heading_level": null
         },
         {
-          "text": "Majors & Minors",
+          "text": "ch",
           "font_size": 10.5,
-          "is_bold": true,
+          "is_bold": false,
           "page_number": 3,
           "bounding_box": [
-            485.4609375,
-            51.66943359375,
-            564.7476806640625,
-            65.63525390625
+            141.436279296875,
+            52.247314453125,
+            153.6173858642578,
+            64.787841796875
           ],
-          "section_heading": "Majors & Minors",
-          "heading_level": 2
+          "section_heading": null,
+          "heading_level": null
         },
         {
-          "text": "2/6/26, 10:20 AM",
+          "text": "A",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 3,
+          "bounding_box": [
+            415.32421875,
+            52.247314453125,
+            422.6007080078125,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "pply",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 3,
+          "bounding_box": [
+            422.49169921875,
+            52.247314453125,
+            443.9219970703125,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "V",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 3,
+          "bounding_box": [
+            453.41015625,
+            52.247314453125,
+            460.6446533203125,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "i",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 3,
+          "bounding_box": [
+            460.53662109375,
+            52.247314453125,
+            463.2666320800781,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "s",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 3,
+          "bounding_box": [
+            463.156494140625,
+            52.247314453125,
+            468.79498291015625,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "i",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 3,
+          "bounding_box": [
+            468.6884765625,
+            52.247314453125,
+            471.4184875488281,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "t",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 3,
+          "bounding_box": [
+            471.308349609375,
+            52.247314453125,
+            475.287841796875,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "M",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 3,
+          "bounding_box": [
+            484.79296875,
+            52.247314453125,
+            494.0749816894531,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "aj",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 3,
+          "bounding_box": [
+            493.97021484375,
+            52.247314453125,
+            502.5141906738281,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "ors",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 3,
+          "bounding_box": [
+            502.404052734375,
+            52.247314453125,
+            518.2007446289062,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "&",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 3,
+          "bounding_box": [
+            520.8525390625,
+            52.247314453125,
+            528.4335327148438,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "M",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 3,
+          "bounding_box": [
+            528.32763671875,
+            52.247314453125,
+            540.367919921875,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "i",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 3,
+          "bounding_box": [
+            540.26318359375,
+            52.247314453125,
+            542.9931640625,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "nors",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 3,
+          "bounding_box": [
+            542.883056640625,
+            52.247314453125,
+            564.8474731445312,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "2/25/26, 11:45 AM",
           "font_size": 7.994999885559082,
           "is_bold": false,
           "page_number": 3,
           "bounding_box": [
             24.0,
-            15.262338638305664,
-            84.4503173828125,
-            24.194252014160156
+            16.50374984741211,
+            84.78870391845703,
+            24.498750686645508
           ],
-          "section_heading": "Majors & Minors",
+          "section_heading": null,
           "heading_level": null
         },
         {
@@ -2201,12 +2523,12 @@
           "is_bold": false,
           "page_number": 3,
           "bounding_box": [
-            289.6171875,
-            15.262338638305664,
-            412.8330078125,
-            24.194252014160156
+            295.4765625,
+            16.50374984741211,
+            407.30877685546875,
+            24.498750686645508
           ],
-          "section_heading": "Majors & Minors",
+          "section_heading": null,
           "heading_level": null
         },
         {
@@ -2216,11 +2538,11 @@
           "page_number": 3,
           "bounding_box": [
             24.0,
-            768.2623291015625,
-            227.9671630859375,
-            777.1942749023438
+            768.7537231445312,
+            207.60887145996094,
+            776.748779296875
           ],
-          "section_heading": "Majors & Minors",
+          "section_heading": null,
           "heading_level": null
         },
         {
@@ -2229,12 +2551,12 @@
           "is_bold": false,
           "page_number": 3,
           "bounding_box": [
-            576.8671875,
-            768.2623291015625,
-            587.9920654296875,
-            777.1942749023438
+            577.7578125,
+            768.7537231445312,
+            587.9896850585938,
+            776.748779296875
           ],
-          "section_heading": "Majors & Minors",
+          "section_heading": null,
           "heading_level": null
         }
       ]
@@ -2246,101 +2568,101 @@
         "width": 612.0,
         "height": 792.0,
         "rotation": 0,
-        "text_length": 2237,
+        "text_length": 2238,
         "word_count": 294,
         "has_images": false,
         "has_links": true,
         "link_count": 17,
-        "document_hash": "8ca86e2913df0a31aad8b7ca71e15af7ff7789e31b5f2d8d39cfc5fb6f29e237",
+        "document_hash": "3a2d98684c6ec030ead26ca55b1ad158d758f47e143bbb4f4df3e85f00647cb1",
         "document_name": "SU_CS_Overview.pdf"
       },
-      "text": "A study of the principles and practice in the design and implementation of imperative, functional, logic and object-oriented programming languages. Prerequisite: Computer Science 54-394 or permission of instructor. (Fall) (NS) 54-514 Database Management An introduction to the theory and practice of database management systems. Topics include database terminology, the entity-relationship model, the relational model, normalization, querying databases using SQL, and exploration of other database technologies. The course includes a laboratory component designed to explore applications and to enhance conceptualization. Contributes to Data Analytics and Data Science. Prerequisite: Computer Science 54-284 or permission of instructor. (NS) 54-524 Introduction to Numerical Analysis See Mathematics 52-524. (NS) 54-534 Functional Programming An introduction to functional programming. Topics include functions, lists, types, induction and recursion, pattern matching, infinite lists and trees. A functional programming language such as Haskell, Lisp or ML will be used in the course. There will be a large number of programming projects. Prerequisite: Computer Science 54-284 or permission of instructor. (NS) 54-644 Computer Systems An introduction to operating systems and computer networks. Topics include process control, scheduling, threads, concurrency, memory management, virtual memory, network protocol layers, packets, routing and network security. Prerequisite: Computer Science 54-394. (Spring) (NS) 54-844 Seminar in Special Topics A limited enrollment seminar not generally covered in other courses. This course may be repeated for credit as topics vary. (NS) 54-894 Senior Seminar in Software Engineering Introduction to techniques and theories for the development of large software systems. This course will fulfill the capstone requirement in Computer Science. Topics include: software design and quality, ethics, professional issues, the study of current software engineering trends, theory and practice. Each student will contribute substantially to a major semester Menu Search Apply Visit Majors & Minors 2/6/26, 10:20 AM Courses • Southwestern University https://www.southwestern.edu/computer-science/courses/ 4/5",
-      "raw_text": "A study of the principles and practice in the design and implementation of imperative,\nfunctional, logic and object-oriented programming languages. Prerequisite: Computer Science\n54-394 or permission of instructor. (Fall) (NS)\n54-514 Database Management\nAn introduction to the theory and practice of database management systems. Topics include\ndatabase terminology, the entity-relationship model, the relational model, normalization,\nquerying databases using SQL, and exploration of other database technologies. The course\nincludes a laboratory component designed to explore applications and to enhance\nconceptualization. Contributes to Data Analytics and Data Science. Prerequisite: Computer\nScience 54-284 or permission of instructor. (NS)\n54-524 Introduction to Numerical Analysis\nSee Mathematics 52-524. (NS)\n54-534 Functional Programming\nAn introduction to functional programming. Topics include functions, lists, types, induction and\nrecursion, pattern matching, infinite lists and trees. A functional programming language such\nas Haskell, Lisp or ML will be used in the course. There will be a large number of programming\nprojects. Prerequisite: Computer Science 54-284 or permission of instructor. (NS)\n54-644 Computer Systems\nAn introduction to operating systems and computer networks. Topics include process control,\nscheduling, threads, concurrency, memory management, virtual memory, network protocol\nlayers, packets, routing and network security. Prerequisite: Computer Science 54-394. (Spring)\n(NS)\n54-844 Seminar in Special Topics\nA limited enrollment seminar not generally covered in other courses. This course may be\nrepeated for credit as topics vary. (NS)\n54-894 Senior Seminar in Software Engineering\nIntroduction to techniques and theories for the development of large software systems. This\ncourse will fulfill the capstone requirement in Computer Science. Topics include: software\ndesign and quality, ethics, professional issues, the study of current software engineering\ntrends, theory and practice. Each student will contribute substantially to a major semester\nMenu\nSearch\nApply\nVisit\nMajors & Minors\n2/6/26, 10:20 AM\nCourses • Southwestern University\nhttps://www.southwestern.edu/computer-science/courses/\n4/5\n",
+      "text": "A study of the principles and practice in the design and implementation of imperative, functional, logic and object-oriented programming languages. Prerequisite: Computer Science 54-394 or permission of instructor. (Fall) (NS) 54-514 Database Management An introduction to the theory and practice of database management systems. Topics include database terminology, the entity-relationship model, the relational model, normalization, querying databases using SQL, and exploration of other database technologies. The course includes a laboratory component designed to explore applications and to enhance conceptualization. Contributes to Data Analytics and Data Science. Prerequisite: Computer Science 54-284 or permission of instructor. (NS) 54-524 Introduction to Numerical Analysis See Mathematics 52-524. (NS) 54-534 Functional Programming An introduction to functional programming. Topics include functions, lists, types, induction and recursion, pattern matching, infinite lists and trees. A functional programming language such as Haskell, Lisp or ML will be used in the course. There will be a large number of programming projects. Prerequisite: Computer Science 54-284 or permission of instructor. (NS) 54-644 Computer Systems An introduction to operating systems and computer networks. Topics include process control, scheduling, threads, concurrency, memory management, virtual memory, network protocol layers, packets, routing and network security. Prerequisite: Computer Science 54-394. (Spring) (NS) 54-844 Seminar in Special Topics A limited enrollment seminar not generally covered in other courses. This course may be repeated for credit as topics vary. (NS) 54-894 Senior Seminar in Software Engineering Introduction to techniques and theories for the development of large software systems. This course will fulfill the capstone requirement in Computer Science. Topics include: software design and quality, ethics, professional issues, the study of current software engineering trends, theory and practice. Each student will contribute substantially to a major semester",
+      "raw_text": "A study of the principles and practice in the design and implementation of imperative,\nfunctional, logic and object-oriented programming languages. Prerequisite: Computer Science\n54-394 or permission of instructor. (Fall) (NS)\n54-514 Database Management\nAn introduction to the theory and practice of database management systems. Topics include\ndatabase terminology, the entity-relationship model, the relational model, normalization,\nquerying databases using SQL, and exploration of other database technologies. The course\nincludes a laboratory component designed to explore applications and to enhance\nconceptualization. Contributes to Data Analytics and Data Science. Prerequisite: Computer\nScience 54-284 or permission of instructor. (NS)\n54-524 Introduction to Numerical Analysis\nSee Mathematics 52-524. (NS)\n54-534 Functional Programming\nAn introduction to functional programming. Topics include functions, lists, types, induction and\nrecursion, pattern matching, infinite lists and trees. A functional programming language such as\nHaskell, Lisp or ML will be used in the course. There will be a large number of programming\nprojects. Prerequisite: Computer Science 54-284 or permission of instructor. (NS)\n54-644 Computer Systems\nAn introduction to operating systems and computer networks. Topics include process control,\nscheduling, threads, concurrency, memory management, virtual memory, network protocol\nlayers, packets, routing and network security. Prerequisite: Computer Science 54-394. (Spring)\n(NS)\n54-844 Seminar in Special Topics\nA limited enrollment seminar not generally covered in other courses. This course may be\nrepeated for credit as topics vary. (NS)\n54-894 Senior Seminar in Software Engineering\nIntroduction to techniques and theories for the development of large software systems. This\ncourse will fulfill the capstone requirement in Computer Science. Topics include: software\ndesign and quality, ethics, professional issues, the study of current software engineering\ntrends, theory and practice. Each student will contribute substantially to a major semester\nMenu\nSearch\nApply\nVisit\nMajors & Minors\n2/25/26, 11:45 AM\nCourses • Southwestern University\nhttps://www.southwestern.edu/computer-science/courses/\n4/5\n",
       "links": [
         {
           "type": "unknown",
           "uri": "",
-          "rect": "Rect(105.0, 51.0, 151.5, 66.0)"
+          "rect": "Rect(104.25, 50.25, 153.75, 65.25)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/admission/apply/",
-          "rect": "Rect(417.75, 51.75, 445.5, 66.0)"
+          "rect": "Rect(415.5, 51.75, 444.0, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/admission/apply/",
-          "rect": "Rect(417.75, 51.75, 445.5, 66.0)"
+          "rect": "Rect(415.5, 51.75, 444.0, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/admission/apply/",
-          "rect": "Rect(417.75, 51.75, 445.5, 66.0)"
+          "rect": "Rect(415.5, 51.75, 444.0, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/admission/apply/",
-          "rect": "Rect(417.75, 51.75, 445.5, 66.0)"
+          "rect": "Rect(415.5, 51.75, 444.0, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/admission/apply/",
-          "rect": "Rect(417.75, 51.75, 445.5, 66.0)"
+          "rect": "Rect(415.5, 51.75, 444.0, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/admission/visit/",
-          "rect": "Rect(455.25, 51.75, 475.5, 66.0)"
+          "rect": "Rect(453.75, 51.75, 475.5, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/admission/visit/",
-          "rect": "Rect(455.25, 51.75, 475.5, 66.0)"
+          "rect": "Rect(453.75, 51.75, 475.5, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/admission/visit/",
-          "rect": "Rect(455.25, 51.75, 475.5, 66.0)"
+          "rect": "Rect(453.75, 51.75, 475.5, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/admission/visit/",
-          "rect": "Rect(455.25, 51.75, 475.5, 66.0)"
+          "rect": "Rect(453.75, 51.75, 475.5, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/admission/visit/",
-          "rect": "Rect(455.25, 51.75, 475.5, 66.0)"
+          "rect": "Rect(453.75, 51.75, 475.5, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/academics/majors-minors/",
-          "rect": "Rect(485.25, 51.75, 564.75, 66.0)"
+          "rect": "Rect(484.5, 51.75, 564.75, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/academics/majors-minors/",
-          "rect": "Rect(485.25, 51.75, 564.75, 66.0)"
+          "rect": "Rect(484.5, 51.75, 564.75, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/academics/majors-minors/",
-          "rect": "Rect(485.25, 51.75, 564.75, 66.0)"
+          "rect": "Rect(484.5, 51.75, 564.75, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/academics/majors-minors/",
-          "rect": "Rect(485.25, 51.75, 564.75, 66.0)"
+          "rect": "Rect(484.5, 51.75, 564.75, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/academics/majors-minors/",
-          "rect": "Rect(485.25, 51.75, 564.75, 66.0)"
+          "rect": "Rect(484.5, 51.75, 564.75, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/",
-          "rect": "Rect(292.5, 43.5, 319.5, 76.5)"
+          "rect": "Rect(292.5, 42.75, 319.5, 75.75)"
         }
       ],
       "rich_blocks": [
@@ -2350,10 +2672,10 @@
           "is_bold": false,
           "page_number": 4,
           "bounding_box": [
-            69.75,
-            32.6953125,
-            515.2857055664062,
-            47.09765625
+            69.0,
+            31.9453125,
+            514.5357055664062,
+            46.34765625
           ],
           "section_heading": null,
           "heading_level": null
@@ -2364,10 +2686,10 @@
           "is_bold": false,
           "page_number": 4,
           "bounding_box": [
-            69.75,
-            56.6953125,
-            559.0078125,
-            71.09765625
+            69.0,
+            55.9453125,
+            558.2578125,
+            70.34765625
           ],
           "section_heading": null,
           "heading_level": null
@@ -2378,52 +2700,24 @@
           "is_bold": false,
           "page_number": 4,
           "bounding_box": [
-            69.75,
-            80.6953125,
-            309.0622253417969,
-            95.09765625
+            69.0,
+            79.9453125,
+            308.3122253417969,
+            94.34765625
           ],
           "section_heading": null,
           "heading_level": null
         },
         {
-          "text": "54-514",
+          "text": "54-514 Database Management",
           "font_size": 12.0,
           "is_bold": false,
           "page_number": 4,
           "bounding_box": [
-            69.75,
-            108.00306701660156,
-            108.95746612548828,
-            120.00306701660156
-          ],
-          "section_heading": null,
-          "heading_level": null
-        },
-        {
-          "text": "Database",
-          "font_size": 12.0,
-          "is_bold": false,
-          "page_number": 4,
-          "bounding_box": [
-            112.20703125,
-            108.00306701660156,
-            160.43724060058594,
-            120.00306701660156
-          ],
-          "section_heading": null,
-          "heading_level": null
-        },
-        {
-          "text": "Management",
-          "font_size": 12.0,
-          "is_bold": false,
-          "page_number": 4,
-          "bounding_box": [
-            163.6875,
-            108.00306701660156,
-            231.280029296875,
-            120.00306701660156
+            69.0,
+            107.25306701660156,
+            230.530029296875,
+            119.25306701660156
           ],
           "section_heading": null,
           "heading_level": null
@@ -2434,10 +2728,10 @@
           "is_bold": false,
           "page_number": 4,
           "bounding_box": [
-            69.75,
-            130.1953125,
-            548.8026123046875,
-            144.59765625
+            69.0,
+            129.4453125,
+            548.0526123046875,
+            143.84765625
           ],
           "section_heading": null,
           "heading_level": null
@@ -2448,10 +2742,10 @@
           "is_bold": false,
           "page_number": 4,
           "bounding_box": [
-            69.75,
-            154.1953125,
-            532.8276977539062,
-            168.59765625
+            69.0,
+            153.4453125,
+            532.0776977539062,
+            167.84765625
           ],
           "section_heading": null,
           "heading_level": null
@@ -2462,10 +2756,10 @@
           "is_bold": false,
           "page_number": 4,
           "bounding_box": [
-            69.75,
-            178.1953125,
-            541.593017578125,
-            192.59765625
+            69.0,
+            177.4453125,
+            540.843017578125,
+            191.84765625
           ],
           "section_heading": null,
           "heading_level": null
@@ -2476,10 +2770,10 @@
           "is_bold": false,
           "page_number": 4,
           "bounding_box": [
-            69.75,
-            202.1953125,
-            494.6162414550781,
-            216.59765625
+            69.0,
+            201.4453125,
+            493.8662414550781,
+            215.84765625
           ],
           "section_heading": null,
           "heading_level": null
@@ -2490,10 +2784,10 @@
           "is_bold": false,
           "page_number": 4,
           "bounding_box": [
-            69.75,
-            226.1953125,
-            543.9571533203125,
-            240.59765625
+            69.0,
+            225.4453125,
+            543.2071533203125,
+            239.84765625
           ],
           "section_heading": null,
           "heading_level": null
@@ -2504,80 +2798,24 @@
           "is_bold": false,
           "page_number": 4,
           "bounding_box": [
-            69.75,
-            250.1953125,
-            322.84613037109375,
-            264.59765625
+            69.0,
+            249.4453125,
+            322.09613037109375,
+            263.84765625
           ],
           "section_heading": null,
           "heading_level": null
         },
         {
-          "text": "54-524",
+          "text": "54-524 Introduction to Numerical Analysis",
           "font_size": 12.0,
           "is_bold": false,
           "page_number": 4,
           "bounding_box": [
-            69.75,
-            277.5030517578125,
-            108.95746612548828,
-            289.5030517578125
-          ],
-          "section_heading": null,
-          "heading_level": null
-        },
-        {
-          "text": "Introduction",
-          "font_size": 12.0,
-          "is_bold": false,
-          "page_number": 4,
-          "bounding_box": [
-            112.20703125,
-            277.5030517578125,
-            176.42784118652344,
-            289.5030517578125
-          ],
-          "section_heading": null,
-          "heading_level": null
-        },
-        {
-          "text": "to",
-          "font_size": 12.0,
-          "is_bold": false,
-          "page_number": 4,
-          "bounding_box": [
-            179.671875,
-            277.5030517578125,
-            190.21495056152344,
-            289.5030517578125
-          ],
-          "section_heading": null,
-          "heading_level": null
-        },
-        {
-          "text": "Numerical",
-          "font_size": 12.0,
-          "is_bold": false,
-          "page_number": 4,
-          "bounding_box": [
-            193.458984375,
-            277.5030517578125,
-            246.82757568359375,
-            289.5030517578125
-          ],
-          "section_heading": null,
-          "heading_level": null
-        },
-        {
-          "text": "Analysis",
-          "font_size": 12.0,
-          "is_bold": false,
-          "page_number": 4,
-          "bounding_box": [
-            250.078125,
-            277.5030517578125,
-            292.3564147949219,
-            289.5030517578125
+            69.0,
+            276.7530517578125,
+            291.6064147949219,
+            288.7530517578125
           ],
           "section_heading": null,
           "heading_level": null
@@ -2588,52 +2826,24 @@
           "is_bold": false,
           "page_number": 4,
           "bounding_box": [
-            69.75,
-            299.6953125,
-            229.68603515625,
-            314.09765625
+            69.0,
+            298.9453125,
+            228.93603515625,
+            313.34765625
           ],
           "section_heading": null,
           "heading_level": null
         },
         {
-          "text": "54-534",
+          "text": "54-534 Functional Programming",
           "font_size": 12.0,
           "is_bold": false,
           "page_number": 4,
           "bounding_box": [
-            69.75,
-            327.0030517578125,
-            108.95746612548828,
-            339.0030517578125
-          ],
-          "section_heading": null,
-          "heading_level": null
-        },
-        {
-          "text": "Functional",
-          "font_size": 12.0,
-          "is_bold": false,
-          "page_number": 4,
-          "bounding_box": [
-            112.20703125,
-            327.0030517578125,
-            167.29241943359375,
-            339.0030517578125
-          ],
-          "section_heading": null,
-          "heading_level": null
-        },
-        {
-          "text": "Programming",
-          "font_size": 12.0,
-          "is_bold": false,
-          "page_number": 4,
-          "bounding_box": [
-            170.54296875,
-            327.0030517578125,
-            240.383056640625,
-            339.0030517578125
+            69.0,
+            326.2530517578125,
+            239.633056640625,
+            338.2530517578125
           ],
           "section_heading": null,
           "heading_level": null
@@ -2644,38 +2854,38 @@
           "is_bold": false,
           "page_number": 4,
           "bounding_box": [
-            69.75,
-            349.1953125,
-            565.0067749023438,
-            363.59765625
+            69.0,
+            348.4453125,
+            564.2567749023438,
+            362.84765625
           ],
           "section_heading": null,
           "heading_level": null
         },
         {
-          "text": "recursion, pattern matching, infinite lists and trees. A functional programming language such",
+          "text": "recursion, pattern matching, infinite lists and trees. A functional programming language such as",
           "font_size": 12.0,
           "is_bold": false,
           "page_number": 4,
           "bounding_box": [
-            69.75,
-            373.1953125,
-            551.5658569335938,
-            387.59765625
+            69.0,
+            372.4453125,
+            565.2398681640625,
+            386.84765625
           ],
           "section_heading": null,
           "heading_level": null
         },
         {
-          "text": "as Haskell, Lisp or ML will be used in the course. There will be a large number of programming",
+          "text": "Haskell, Lisp or ML will be used in the course. There will be a large number of programming",
           "font_size": 12.0,
           "is_bold": false,
           "page_number": 4,
           "bounding_box": [
-            69.75,
-            397.1953125,
-            562.4489135742188,
-            411.59765625
+            69.0,
+            396.4453125,
+            547.2731323242188,
+            410.84765625
           ],
           "section_heading": null,
           "heading_level": null
@@ -2686,52 +2896,24 @@
           "is_bold": false,
           "page_number": 4,
           "bounding_box": [
-            69.75,
-            421.1953125,
-            497.44378662109375,
-            435.59765625
+            69.0,
+            420.4453125,
+            496.69378662109375,
+            434.84765625
           ],
           "section_heading": null,
           "heading_level": null
         },
         {
-          "text": "54-644",
+          "text": "54-644 Computer Systems",
           "font_size": 12.0,
           "is_bold": false,
           "page_number": 4,
           "bounding_box": [
-            69.75,
-            448.5030517578125,
-            108.95746612548828,
-            460.5030517578125
-          ],
-          "section_heading": null,
-          "heading_level": null
-        },
-        {
-          "text": "Computer",
-          "font_size": 12.0,
-          "is_bold": false,
-          "page_number": 4,
-          "bounding_box": [
-            112.20703125,
-            448.5030517578125,
-            165.09239196777344,
-            460.5030517578125
-          ],
-          "section_heading": null,
-          "heading_level": null
-        },
-        {
-          "text": "Systems",
-          "font_size": 12.0,
-          "is_bold": false,
-          "page_number": 4,
-          "bounding_box": [
-            168.33984375,
-            448.5030517578125,
-            210.92282104492188,
-            460.5030517578125
+            69.0,
+            447.7530517578125,
+            210.17282104492188,
+            459.7530517578125
           ],
           "section_heading": null,
           "heading_level": null
@@ -2742,10 +2924,10 @@
           "is_bold": false,
           "page_number": 4,
           "bounding_box": [
-            69.75,
-            470.6953125,
-            557.0474243164062,
-            485.09765625
+            69.0,
+            469.9453125,
+            556.2974243164062,
+            484.34765625
           ],
           "section_heading": null,
           "heading_level": null
@@ -2756,10 +2938,10 @@
           "is_bold": false,
           "page_number": 4,
           "bounding_box": [
-            69.75,
-            494.6953125,
-            545.7491455078125,
-            509.09765625
+            69.0,
+            493.9453125,
+            544.9991455078125,
+            508.34765625
           ],
           "section_heading": null,
           "heading_level": null
@@ -2770,10 +2952,10 @@
           "is_bold": false,
           "page_number": 4,
           "bounding_box": [
-            69.75,
-            518.6953125,
-            565.5037231445312,
-            533.09765625
+            69.0,
+            517.9453125,
+            564.7537231445312,
+            532.34765625
           ],
           "section_heading": null,
           "heading_level": null
@@ -2784,80 +2966,24 @@
           "is_bold": false,
           "page_number": 4,
           "bounding_box": [
-            69.75,
-            542.6953125,
-            91.302001953125,
-            557.09765625
+            69.0,
+            541.9453125,
+            90.552001953125,
+            556.34765625
           ],
           "section_heading": null,
           "heading_level": null
         },
         {
-          "text": "54-844",
+          "text": "54-844 Seminar in Special Topics",
           "font_size": 12.0,
           "is_bold": false,
           "page_number": 4,
           "bounding_box": [
-            69.75,
-            570.0030517578125,
-            108.95746612548828,
-            582.0030517578125
-          ],
-          "section_heading": null,
-          "heading_level": null
-        },
-        {
-          "text": "Seminar",
-          "font_size": 12.0,
-          "is_bold": false,
-          "page_number": 4,
-          "bounding_box": [
-            112.20703125,
-            570.0030517578125,
-            155.02598571777344,
-            582.0030517578125
-          ],
-          "section_heading": null,
-          "heading_level": null
-        },
-        {
-          "text": "in",
-          "font_size": 12.0,
-          "is_bold": false,
-          "page_number": 4,
-          "bounding_box": [
-            158.2734375,
-            570.0030517578125,
-            167.74424743652344,
-            582.0030517578125
-          ],
-          "section_heading": null,
-          "heading_level": null
-        },
-        {
-          "text": "Special",
-          "font_size": 12.0,
-          "is_bold": false,
-          "page_number": 4,
-          "bounding_box": [
-            170.98828125,
-            570.0030517578125,
-            208.00335693359375,
-            582.0030517578125
-          ],
-          "section_heading": null,
-          "heading_level": null
-        },
-        {
-          "text": "Topics",
-          "font_size": 12.0,
-          "is_bold": false,
-          "page_number": 4,
-          "bounding_box": [
-            211.25390625,
-            570.0030517578125,
-            244.45016479492188,
-            582.0030517578125
+            69.0,
+            569.2530517578125,
+            243.70016479492188,
+            581.2530517578125
           ],
           "section_heading": null,
           "heading_level": null
@@ -2868,10 +2994,10 @@
           "is_bold": false,
           "page_number": 4,
           "bounding_box": [
-            69.75,
-            592.1953125,
-            531.3214111328125,
-            606.59765625
+            69.0,
+            591.4453125,
+            530.5714111328125,
+            605.84765625
           ],
           "section_heading": null,
           "heading_level": null
@@ -2882,94 +3008,24 @@
           "is_bold": false,
           "page_number": 4,
           "bounding_box": [
-            69.75,
-            616.1953125,
-            270.4047546386719,
-            630.59765625
+            69.0,
+            615.4453125,
+            269.6547546386719,
+            629.84765625
           ],
           "section_heading": null,
           "heading_level": null
         },
         {
-          "text": "54-894",
+          "text": "54-894 Senior Seminar in Software Engineering",
           "font_size": 12.0,
           "is_bold": false,
           "page_number": 4,
           "bounding_box": [
-            69.75,
-            643.5030517578125,
-            108.95746612548828,
-            655.5030517578125
-          ],
-          "section_heading": null,
-          "heading_level": null
-        },
-        {
-          "text": "Senior",
-          "font_size": 12.0,
-          "is_bold": false,
-          "page_number": 4,
-          "bounding_box": [
-            112.20703125,
-            643.5030517578125,
-            145.59239196777344,
-            655.5030517578125
-          ],
-          "section_heading": null,
-          "heading_level": null
-        },
-        {
-          "text": "Seminar",
-          "font_size": 12.0,
-          "is_bold": false,
-          "page_number": 4,
-          "bounding_box": [
-            148.83984375,
-            643.5030517578125,
-            191.65879821777344,
-            655.5030517578125
-          ],
-          "section_heading": null,
-          "heading_level": null
-        },
-        {
-          "text": "in",
-          "font_size": 12.0,
-          "is_bold": false,
-          "page_number": 4,
-          "bounding_box": [
-            194.90625,
-            643.5030517578125,
-            204.37705993652344,
-            655.5030517578125
-          ],
-          "section_heading": null,
-          "heading_level": null
-        },
-        {
-          "text": "Software",
-          "font_size": 12.0,
-          "is_bold": false,
-          "page_number": 4,
-          "bounding_box": [
-            207.62109375,
-            643.5030517578125,
-            253.87083435058594,
-            655.5030517578125
-          ],
-          "section_heading": null,
-          "heading_level": null
-        },
-        {
-          "text": "Engineering",
-          "font_size": 12.0,
-          "is_bold": false,
-          "page_number": 4,
-          "bounding_box": [
-            257.12109375,
-            643.5030517578125,
-            318.470947265625,
-            655.5030517578125
+            69.0,
+            642.7530517578125,
+            317.720947265625,
+            654.7530517578125
           ],
           "section_heading": null,
           "heading_level": null
@@ -2980,10 +3036,10 @@
           "is_bold": false,
           "page_number": 4,
           "bounding_box": [
-            69.75,
-            665.6953125,
-            548.4694213867188,
-            680.09765625
+            69.0,
+            664.9453125,
+            547.7194213867188,
+            679.34765625
           ],
           "section_heading": null,
           "heading_level": null
@@ -2994,10 +3050,10 @@
           "is_bold": false,
           "page_number": 4,
           "bounding_box": [
-            69.75,
-            689.6953125,
-            536.890625,
-            704.09765625
+            69.0,
+            688.9453125,
+            536.140625,
+            703.34765625
           ],
           "section_heading": null,
           "heading_level": null
@@ -3008,10 +3064,10 @@
           "is_bold": false,
           "page_number": 4,
           "bounding_box": [
-            69.75,
-            713.6953125,
-            527.2869262695312,
-            728.09765625
+            69.0,
+            712.9453125,
+            526.5369262695312,
+            727.34765625
           ],
           "section_heading": null,
           "heading_level": null
@@ -3022,96 +3078,320 @@
           "is_bold": false,
           "page_number": 4,
           "bounding_box": [
-            69.75,
-            737.6953125,
-            538.5980834960938,
-            752.09765625
+            69.0,
+            736.9453125,
+            537.8480834960938,
+            751.34765625
           ],
           "section_heading": null,
           "heading_level": null
         },
         {
-          "text": "Menu",
+          "text": "M",
           "font_size": 10.5,
-          "is_bold": true,
+          "is_bold": false,
           "page_number": 4,
           "bounding_box": [
-            67.640625,
-            51.66943359375,
-            95.16112518310547,
-            65.63525390625
+            66.890625,
+            52.247314453125,
+            76.17262268066406,
+            64.787841796875
           ],
-          "section_heading": "Menu",
-          "heading_level": 2
+          "section_heading": null,
+          "heading_level": null
         },
         {
-          "text": "Search",
+          "text": "e",
           "font_size": 10.5,
-          "is_bold": true,
+          "is_bold": false,
           "page_number": 4,
           "bounding_box": [
-            119.77734375,
-            51.66943359375,
-            151.39268493652344,
-            65.63525390625
+            76.06787109375,
+            52.247314453125,
+            82.16837310791016,
+            64.787841796875
           ],
-          "section_heading": "Search",
-          "heading_level": 2
+          "section_heading": null,
+          "heading_level": null
         },
         {
-          "text": "Apply",
+          "text": "nu",
           "font_size": 10.5,
-          "is_bold": true,
+          "is_bold": false,
           "page_number": 4,
           "bounding_box": [
-            417.92578125,
-            51.66943359375,
-            445.70880126953125,
-            65.63525390625
+            82.05615234375,
+            52.247314453125,
+            94.50287628173828,
+            64.787841796875
           ],
-          "section_heading": "Apply",
-          "heading_level": 2
+          "section_heading": null,
+          "heading_level": null
         },
         {
-          "text": "Visit",
+          "text": "S",
           "font_size": 10.5,
-          "is_bold": true,
+          "is_bold": false,
           "page_number": 4,
           "bounding_box": [
-            455.30859375,
-            51.66943359375,
-            475.8465576171875,
-            65.63525390625
+            118.9921875,
+            52.247314453125,
+            125.80668640136719,
+            64.787841796875
           ],
-          "section_heading": "Visit",
-          "heading_level": 2
+          "section_heading": null,
+          "heading_level": null
         },
         {
-          "text": "Majors & Minors",
+          "text": "ea",
           "font_size": 10.5,
-          "is_bold": true,
+          "is_bold": false,
           "page_number": 4,
           "bounding_box": [
-            485.4609375,
-            51.66943359375,
-            564.7476806640625,
-            65.63525390625
+            125.703369140625,
+            52.247314453125,
+            137.6136474609375,
+            64.787841796875
           ],
-          "section_heading": "Majors & Minors",
-          "heading_level": 2
+          "section_heading": null,
+          "heading_level": null
         },
         {
-          "text": "2/6/26, 10:20 AM",
+          "text": "r",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            137.505615234375,
+            52.247314453125,
+            141.6846160888672,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "ch",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            141.436279296875,
+            52.247314453125,
+            153.6173858642578,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "A",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            415.32421875,
+            52.247314453125,
+            422.6007080078125,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "pply",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            422.49169921875,
+            52.247314453125,
+            443.9219970703125,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "V",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            453.41015625,
+            52.247314453125,
+            460.6446533203125,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "i",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            460.53662109375,
+            52.247314453125,
+            463.2666320800781,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "s",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            463.156494140625,
+            52.247314453125,
+            468.79498291015625,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "i",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            468.6884765625,
+            52.247314453125,
+            471.4184875488281,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "t",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            471.308349609375,
+            52.247314453125,
+            475.287841796875,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "M",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            484.79296875,
+            52.247314453125,
+            494.0749816894531,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "aj",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            493.97021484375,
+            52.247314453125,
+            502.5141906738281,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "ors",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            502.404052734375,
+            52.247314453125,
+            518.2007446289062,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "&",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            520.8525390625,
+            52.247314453125,
+            528.4335327148438,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "M",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            528.32763671875,
+            52.247314453125,
+            540.367919921875,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "i",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            540.26318359375,
+            52.247314453125,
+            542.9931640625,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "nors",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 4,
+          "bounding_box": [
+            542.883056640625,
+            52.247314453125,
+            564.8474731445312,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "2/25/26, 11:45 AM",
           "font_size": 7.994999885559082,
           "is_bold": false,
           "page_number": 4,
           "bounding_box": [
             24.0,
-            15.262338638305664,
-            84.4503173828125,
-            24.194252014160156
+            16.50374984741211,
+            84.78870391845703,
+            24.498750686645508
           ],
-          "section_heading": "Majors & Minors",
+          "section_heading": null,
           "heading_level": null
         },
         {
@@ -3120,12 +3400,12 @@
           "is_bold": false,
           "page_number": 4,
           "bounding_box": [
-            289.6171875,
-            15.262338638305664,
-            412.8330078125,
-            24.194252014160156
+            295.4765625,
+            16.50374984741211,
+            407.30877685546875,
+            24.498750686645508
           ],
-          "section_heading": "Majors & Minors",
+          "section_heading": null,
           "heading_level": null
         },
         {
@@ -3135,11 +3415,11 @@
           "page_number": 4,
           "bounding_box": [
             24.0,
-            768.2623291015625,
-            227.9671630859375,
-            777.1942749023438
+            768.7537231445312,
+            207.60887145996094,
+            776.748779296875
           ],
-          "section_heading": "Majors & Minors",
+          "section_heading": null,
           "heading_level": null
         },
         {
@@ -3148,12 +3428,12 @@
           "is_bold": false,
           "page_number": 4,
           "bounding_box": [
-            576.8671875,
-            768.2623291015625,
-            587.9920654296875,
-            777.1942749023438
+            577.7578125,
+            768.7537231445312,
+            587.9896850585938,
+            776.748779296875
           ],
-          "section_heading": "Majors & Minors",
+          "section_heading": null,
           "heading_level": null
         }
       ]
@@ -3165,116 +3445,116 @@
         "width": 612.0,
         "height": 792.0,
         "rotation": 0,
-        "text_length": 517,
-        "word_count": 70,
+        "text_length": 519,
+        "word_count": 71,
         "has_images": false,
         "has_links": true,
         "link_count": 20,
-        "document_hash": "8ca86e2913df0a31aad8b7ca71e15af7ff7789e31b5f2d8d39cfc5fb6f29e237",
+        "document_hash": "3a2d98684c6ec030ead26ca55b1ad158d758f47e143bbb4f4df3e85f00647cb1",
         "document_name": "SU_CS_Overview.pdf"
       },
-      "text": "project, do at least one major individual presentation, and have significant class participation. Each student will take the Major Field Test. Prerequisite: Six courses in the major at the 300 level or above, and permission of instructor. Must have completed one of Computer Science 54-454, 54-514, or 54-474. (Spring) (NS) (WA) GEORGETOWN, TEXAS512.863.6511 CONTACT Menu Search Apply Visit Majors & Minors 2/6/26, 10:20 AM Courses • Southwestern University https://www.southwestern.edu/computer-science/courses/ 5/5",
-      "raw_text": "project, do at least one major individual presentation, and have significant class participation.\nEach student will take the Major Field Test. Prerequisite: Six courses in the major at the 300\nlevel or above, and permission of instructor. Must have completed one of Computer Science\n54-454, 54-514, or 54-474. (Spring) (NS) (WA)\nGEORGETOWN, TEXAS512.863.6511\nCONTACT\nMenu\nSearch\nApply\nVisit\nMajors & Minors\n2/6/26, 10:20 AM\nCourses • Southwestern University\nhttps://www.southwestern.edu/computer-science/courses/\n5/5\n",
+      "text": "project, do at least one major individual presentation, and have significant class participation. Each student will take the Major Field Test. Prerequisite: Six courses in the major at the 300 level or above, and permission of instructor. Must have completed one of Computer Science 54-454, 54-514, or 54-474. (Spring) (NS) (WA) GEORGETOWN, TEXAS 512.863.6511 CONTACT",
+      "raw_text": "project, do at least one major individual presentation, and have significant class participation.\nEach student will take the Major Field Test. Prerequisite: Six courses in the major at the 300\nlevel or above, and permission of instructor. Must have completed one of Computer Science\n54-454, 54-514, or 54-474. (Spring) (NS) (WA)\nGEORGETOWN, TEXAS\n512.863.6511\nCONTACT\nMenu\nSearch\nApply\nVisit\nMajors & Minors\n2/25/26, 11:45 AM\nCourses • Southwestern University\nhttps://www.southwestern.edu/computer-science/courses/\n5/5\n",
       "links": [
         {
           "type": "unknown",
           "uri": "https://www.google.com/maps/place/Southwestern+University/@30.5190568,-97.8518943,10z/data=!4m5!3m4!1s0x8644d64e47bd3f6d:0xd240741914c84ab3!8m2!3d30.6349251!4d-97.6651268",
-          "rect": "Rect(213.75, 375.75, 328.5, 387.0)"
+          "rect": "Rect(248.25, 375.0, 363.75, 386.25)"
         },
         {
           "type": "unknown",
           "uri": "tel:1-512-863-6511",
-          "rect": "Rect(328.5, 375.75, 399.0, 387.0)"
+          "rect": "Rect(270.75, 393.75, 341.25, 405.0)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/contact-us/",
-          "rect": "Rect(282.0, 394.5, 330.75, 405.75)"
+          "rect": "Rect(281.25, 412.5, 330.75, 423.75)"
         },
         {
           "type": "unknown",
           "uri": "",
-          "rect": "Rect(105.0, 51.0, 151.5, 66.0)"
+          "rect": "Rect(104.25, 50.25, 153.75, 65.25)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/admission/apply/",
-          "rect": "Rect(417.75, 51.75, 445.5, 66.0)"
+          "rect": "Rect(415.5, 51.75, 444.0, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/admission/apply/",
-          "rect": "Rect(417.75, 51.75, 445.5, 66.0)"
+          "rect": "Rect(415.5, 51.75, 444.0, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/admission/apply/",
-          "rect": "Rect(417.75, 51.75, 445.5, 66.0)"
+          "rect": "Rect(415.5, 51.75, 444.0, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/admission/apply/",
-          "rect": "Rect(417.75, 51.75, 445.5, 66.0)"
+          "rect": "Rect(415.5, 51.75, 444.0, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/admission/apply/",
-          "rect": "Rect(417.75, 51.75, 445.5, 66.0)"
+          "rect": "Rect(415.5, 51.75, 444.0, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/admission/visit/",
-          "rect": "Rect(455.25, 51.75, 475.5, 66.0)"
+          "rect": "Rect(453.75, 51.75, 475.5, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/admission/visit/",
-          "rect": "Rect(455.25, 51.75, 475.5, 66.0)"
+          "rect": "Rect(453.75, 51.75, 475.5, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/admission/visit/",
-          "rect": "Rect(455.25, 51.75, 475.5, 66.0)"
+          "rect": "Rect(453.75, 51.75, 475.5, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/admission/visit/",
-          "rect": "Rect(455.25, 51.75, 475.5, 66.0)"
+          "rect": "Rect(453.75, 51.75, 475.5, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/admission/visit/",
-          "rect": "Rect(455.25, 51.75, 475.5, 66.0)"
+          "rect": "Rect(453.75, 51.75, 475.5, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/academics/majors-minors/",
-          "rect": "Rect(485.25, 51.75, 564.75, 66.0)"
+          "rect": "Rect(484.5, 51.75, 564.75, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/academics/majors-minors/",
-          "rect": "Rect(485.25, 51.75, 564.75, 66.0)"
+          "rect": "Rect(484.5, 51.75, 564.75, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/academics/majors-minors/",
-          "rect": "Rect(485.25, 51.75, 564.75, 66.0)"
+          "rect": "Rect(484.5, 51.75, 564.75, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/academics/majors-minors/",
-          "rect": "Rect(485.25, 51.75, 564.75, 66.0)"
+          "rect": "Rect(484.5, 51.75, 564.75, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/academics/majors-minors/",
-          "rect": "Rect(485.25, 51.75, 564.75, 66.0)"
+          "rect": "Rect(484.5, 51.75, 564.75, 64.5)"
         },
         {
           "type": "unknown",
           "uri": "https://www.southwestern.edu/",
-          "rect": "Rect(292.5, 43.5, 319.5, 76.5)"
+          "rect": "Rect(292.5, 42.75, 319.5, 75.75)"
         }
       ],
       "rich_blocks": [
@@ -3284,10 +3564,10 @@
           "is_bold": false,
           "page_number": 5,
           "bounding_box": [
-            69.75,
-            32.6953125,
-            554.9854736328125,
-            47.09765625
+            69.0,
+            31.9453125,
+            554.2354736328125,
+            46.34765625
           ],
           "section_heading": null,
           "heading_level": null
@@ -3298,10 +3578,10 @@
           "is_bold": false,
           "page_number": 5,
           "bounding_box": [
-            69.75,
-            56.6953125,
-            548.8865356445312,
-            71.09765625
+            69.0,
+            55.9453125,
+            548.1365356445312,
+            70.34765625
           ],
           "section_heading": null,
           "heading_level": null
@@ -3312,10 +3592,10 @@
           "is_bold": false,
           "page_number": 5,
           "bounding_box": [
-            69.75,
-            80.6953125,
-            550.5592041015625,
-            95.09765625
+            69.0,
+            79.9453125,
+            549.8092041015625,
+            94.34765625
           ],
           "section_heading": null,
           "heading_level": null
@@ -3326,38 +3606,38 @@
           "is_bold": false,
           "page_number": 5,
           "bounding_box": [
-            69.75,
-            104.6953125,
-            315.70880126953125,
-            119.09765625
+            69.0,
+            103.9453125,
+            314.95880126953125,
+            118.34765625
           ],
           "section_heading": null,
           "heading_level": null
         },
         {
-          "text": "GEORGETOWN,",
+          "text": "GEORGETOWN, TEXAS",
           "font_size": 9.0,
           "is_bold": false,
           "page_number": 5,
           "bounding_box": [
-            213.45703125,
-            376.34088134765625,
-            290.92706298828125,
-            385.34088134765625
+            248.49609375,
+            375.59088134765625,
+            362.3722839355469,
+            384.59088134765625
           ],
           "section_heading": null,
           "heading_level": null
         },
         {
-          "text": "TEXAS512.863.6511",
+          "text": "512.863.6511",
           "font_size": 9.0,
           "is_bold": false,
           "page_number": 5,
           "bounding_box": [
-            295.65673828125,
-            376.34088134765625,
-            398.1639099121094,
-            385.34088134765625
+            270.57421875,
+            394.34088134765625,
+            340.2732849121094,
+            403.34088134765625
           ],
           "section_heading": null,
           "heading_level": null
@@ -3368,96 +3648,320 @@
           "is_bold": false,
           "page_number": 5,
           "bounding_box": [
-            281.68359375,
-            395.09088134765625,
-            329.9363708496094,
-            404.09088134765625
+            281.296875,
+            413.09088134765625,
+            329.5496520996094,
+            422.09088134765625
           ],
           "section_heading": null,
           "heading_level": null
         },
         {
-          "text": "Menu",
+          "text": "M",
           "font_size": 10.5,
-          "is_bold": true,
+          "is_bold": false,
           "page_number": 5,
           "bounding_box": [
-            67.640625,
-            51.66943359375,
-            95.16112518310547,
-            65.63525390625
+            66.890625,
+            52.247314453125,
+            76.17262268066406,
+            64.787841796875
           ],
-          "section_heading": "Menu",
-          "heading_level": 2
+          "section_heading": null,
+          "heading_level": null
         },
         {
-          "text": "Search",
+          "text": "e",
           "font_size": 10.5,
-          "is_bold": true,
+          "is_bold": false,
           "page_number": 5,
           "bounding_box": [
-            119.77734375,
-            51.66943359375,
-            151.39268493652344,
-            65.63525390625
+            76.06787109375,
+            52.247314453125,
+            82.16837310791016,
+            64.787841796875
           ],
-          "section_heading": "Search",
-          "heading_level": 2
+          "section_heading": null,
+          "heading_level": null
         },
         {
-          "text": "Apply",
+          "text": "nu",
           "font_size": 10.5,
-          "is_bold": true,
+          "is_bold": false,
           "page_number": 5,
           "bounding_box": [
-            417.92578125,
-            51.66943359375,
-            445.70880126953125,
-            65.63525390625
+            82.05615234375,
+            52.247314453125,
+            94.50287628173828,
+            64.787841796875
           ],
-          "section_heading": "Apply",
-          "heading_level": 2
+          "section_heading": null,
+          "heading_level": null
         },
         {
-          "text": "Visit",
+          "text": "S",
           "font_size": 10.5,
-          "is_bold": true,
+          "is_bold": false,
           "page_number": 5,
           "bounding_box": [
-            455.30859375,
-            51.66943359375,
-            475.8465576171875,
-            65.63525390625
+            118.9921875,
+            52.247314453125,
+            125.80668640136719,
+            64.787841796875
           ],
-          "section_heading": "Visit",
-          "heading_level": 2
+          "section_heading": null,
+          "heading_level": null
         },
         {
-          "text": "Majors & Minors",
+          "text": "ea",
           "font_size": 10.5,
-          "is_bold": true,
+          "is_bold": false,
           "page_number": 5,
           "bounding_box": [
-            485.4609375,
-            51.66943359375,
-            564.7476806640625,
-            65.63525390625
+            125.703369140625,
+            52.247314453125,
+            137.6136474609375,
+            64.787841796875
           ],
-          "section_heading": "Majors & Minors",
-          "heading_level": 2
+          "section_heading": null,
+          "heading_level": null
         },
         {
-          "text": "2/6/26, 10:20 AM",
+          "text": "r",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 5,
+          "bounding_box": [
+            137.505615234375,
+            52.247314453125,
+            141.6846160888672,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "ch",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 5,
+          "bounding_box": [
+            141.436279296875,
+            52.247314453125,
+            153.6173858642578,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "A",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 5,
+          "bounding_box": [
+            415.32421875,
+            52.247314453125,
+            422.6007080078125,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "pply",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 5,
+          "bounding_box": [
+            422.49169921875,
+            52.247314453125,
+            443.9219970703125,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "V",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 5,
+          "bounding_box": [
+            453.41015625,
+            52.247314453125,
+            460.6446533203125,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "i",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 5,
+          "bounding_box": [
+            460.53662109375,
+            52.247314453125,
+            463.2666320800781,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "s",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 5,
+          "bounding_box": [
+            463.156494140625,
+            52.247314453125,
+            468.79498291015625,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "i",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 5,
+          "bounding_box": [
+            468.6884765625,
+            52.247314453125,
+            471.4184875488281,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "t",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 5,
+          "bounding_box": [
+            471.308349609375,
+            52.247314453125,
+            475.287841796875,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "M",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 5,
+          "bounding_box": [
+            484.79296875,
+            52.247314453125,
+            494.0749816894531,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "aj",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 5,
+          "bounding_box": [
+            493.97021484375,
+            52.247314453125,
+            502.5141906738281,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "ors",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 5,
+          "bounding_box": [
+            502.404052734375,
+            52.247314453125,
+            518.2007446289062,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "&",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 5,
+          "bounding_box": [
+            520.8525390625,
+            52.247314453125,
+            528.4335327148438,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "M",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 5,
+          "bounding_box": [
+            528.32763671875,
+            52.247314453125,
+            540.367919921875,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "i",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 5,
+          "bounding_box": [
+            540.26318359375,
+            52.247314453125,
+            542.9931640625,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "nors",
+          "font_size": 10.5,
+          "is_bold": false,
+          "page_number": 5,
+          "bounding_box": [
+            542.883056640625,
+            52.247314453125,
+            564.8474731445312,
+            64.787841796875
+          ],
+          "section_heading": null,
+          "heading_level": null
+        },
+        {
+          "text": "2/25/26, 11:45 AM",
           "font_size": 7.994999885559082,
           "is_bold": false,
           "page_number": 5,
           "bounding_box": [
             24.0,
-            15.262338638305664,
-            84.4503173828125,
-            24.194252014160156
+            16.50374984741211,
+            84.78870391845703,
+            24.498750686645508
           ],
-          "section_heading": "Majors & Minors",
+          "section_heading": null,
           "heading_level": null
         },
         {
@@ -3466,12 +3970,12 @@
           "is_bold": false,
           "page_number": 5,
           "bounding_box": [
-            289.6171875,
-            15.262338638305664,
-            412.8330078125,
-            24.194252014160156
+            295.4765625,
+            16.50374984741211,
+            407.30877685546875,
+            24.498750686645508
           ],
-          "section_heading": "Majors & Minors",
+          "section_heading": null,
           "heading_level": null
         },
         {
@@ -3481,11 +3985,11 @@
           "page_number": 5,
           "bounding_box": [
             24.0,
-            768.2623291015625,
-            227.9671630859375,
-            777.1942749023438
+            768.7537231445312,
+            207.60887145996094,
+            776.748779296875
           ],
-          "section_heading": "Majors & Minors",
+          "section_heading": null,
           "heading_level": null
         },
         {
@@ -3494,12 +3998,12 @@
           "is_bold": false,
           "page_number": 5,
           "bounding_box": [
-            576.8671875,
-            768.2623291015625,
-            587.9920654296875,
-            777.1942749023438
+            577.7578125,
+            768.7537231445312,
+            587.9896850585938,
+            776.748779296875
           ],
-          "section_heading": "Majors & Minors",
+          "section_heading": null,
           "heading_level": null
         }
       ]

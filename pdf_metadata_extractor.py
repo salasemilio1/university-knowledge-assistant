@@ -356,6 +356,10 @@ class PDFMetadataExtractor:
         import re
         text = re.sub(r'\s+', ' ', text)
         text = text.strip()
+
+        # remove header-footer from the text
+        # remove everything after and INCLUDING 'Menu Search
+        text = re.split(r'\s*Menu Search Apply Visit Majors & Minors.*', text, flags=re.DOTALL)[0]
         return text
     
     def process_pdf(self, pdf_path: Path) -> DocumentBundle:
