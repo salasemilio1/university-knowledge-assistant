@@ -5,7 +5,7 @@
     "file_size_bytes": 204731,
     "file_hash": "3a2d98684c6ec030ead26ca55b1ad158d758f47e143bbb4f4df3e85f00647cb1",
     "total_pages": 5,
-    "extraction_timestamp": "2026-02-25T22:01:17.005873Z",
+    "extraction_timestamp": "2026-02-25T22:07:13.231571Z",
     "pdf_metadata": {
       "title": "Courses • Southwestern University",
       "creator": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
@@ -28,110 +28,11 @@
         "text_length": 1661,
         "word_count": 228,
         "has_images": false,
-        "has_links": true,
-        "link_count": 19,
         "document_hash": "3a2d98684c6ec030ead26ca55b1ad158d758f47e143bbb4f4df3e85f00647cb1",
         "document_name": "SU_CS_Overview.pdf"
       },
       "text": "COMPUTER SCIENCE Courses The Computer Science curriculum is traditional, at least in the early courses. The first two courses in the major are taught in Java, which is an excellent language for introducing object-oriented concepts. The following list of courses represents current or recent course offerings. See the course catalog for updated information. 54-144 Explorations in Computing This course is an introduction to the discipline of computer science with an emphasis on applications in the liberal arts. Topics include basic programming constructs, basic data structures, algorithmic computation, selection, iteration, interactive user interfaces, abstraction and reasoning about computer programs. This is an introductory course intended for humanities, social science and fine arts majors. May not be used for the Computer Science major or minor. Cannot be taken after successful completion of Computer Science 54-184, 54-284, or 54-454 without departmental approval. Contributes to Data Analytics and Data Science. (NS) 54-184 Computer Science I This is the standard first course in computer programming in an object-oriented style. It is primarily intended for students pursuing a major or minor in computer science, mathematics or other disciplines in the natural sciences. Topics include primitive types and operations, assignment, conditional execution, iteration, arrays, classes, methods, recursion, encapsulation, type extension, inheritance and reasoning about programs in Java. The course",
       "raw_text": "COMPUTER SCIENCE\nCourses\nThe Computer Science curriculum is traditional, at least in the early courses. The first two courses\nin the major are taught in Java, which is an excellent language for introducing object-oriented\nconcepts.\nThe following list of courses represents current or recent course offerings. See the course\ncatalog for updated information.\n54-144 Explorations in Computing\nThis course is an introduction to the discipline of computer science with an emphasis on\napplications in the liberal arts. Topics include basic programming constructs, basic data\nstructures, algorithmic computation, selection, iteration, interactive user interfaces,\nabstraction and reasoning about computer programs. This is an introductory course intended\nfor humanities, social science and fine arts majors. May not be used for the Computer Science\nmajor or minor. Cannot be taken after successful completion of Computer Science 54-184,\n54-284, or 54-454 without departmental approval. Contributes to Data Analytics and Data\nScience. (NS)\n54-184 Computer Science I\nThis is the standard first course in computer programming in an object-oriented style. It is\nprimarily intended for students pursuing a major or minor in computer science, mathematics or\nother disciplines in the natural sciences. Topics include primitive types and operations,\nassignment, conditional execution, iteration, arrays, classes, methods, recursion,\nencapsulation, type extension, inheritance and reasoning about programs in Java. The course\nMenu\nSearch\nApply\nVisit\nMajors & Minors\n2/25/26, 11:45 AM\nCourses • Southwestern University\nhttps://www.southwestern.edu/computer-science/courses/\n1/5\n",
-      "links": [
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/computer-science/",
-          "rect": "Rect(252.75, 139.5, 359.25, 150.75)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/academics/records-registrar/catalog/",
-          "rect": "Rect(46.5, 326.25, 84.0, 342.0)"
-        },
-        {
-          "type": "unknown",
-          "uri": "",
-          "rect": "Rect(104.25, 50.25, 153.75, 65.25)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/admission/apply/",
-          "rect": "Rect(415.5, 51.75, 444.0, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/admission/apply/",
-          "rect": "Rect(415.5, 51.75, 444.0, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/admission/apply/",
-          "rect": "Rect(415.5, 51.75, 444.0, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/admission/apply/",
-          "rect": "Rect(415.5, 51.75, 444.0, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/admission/apply/",
-          "rect": "Rect(415.5, 51.75, 444.0, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/admission/visit/",
-          "rect": "Rect(453.75, 51.75, 475.5, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/admission/visit/",
-          "rect": "Rect(453.75, 51.75, 475.5, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/admission/visit/",
-          "rect": "Rect(453.75, 51.75, 475.5, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/admission/visit/",
-          "rect": "Rect(453.75, 51.75, 475.5, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/admission/visit/",
-          "rect": "Rect(453.75, 51.75, 475.5, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/academics/majors-minors/",
-          "rect": "Rect(484.5, 51.75, 564.75, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/academics/majors-minors/",
-          "rect": "Rect(484.5, 51.75, 564.75, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/academics/majors-minors/",
-          "rect": "Rect(484.5, 51.75, 564.75, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/academics/majors-minors/",
-          "rect": "Rect(484.5, 51.75, 564.75, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/academics/majors-minors/",
-          "rect": "Rect(484.5, 51.75, 564.75, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/",
-          "rect": "Rect(292.5, 42.75, 319.5, 75.75)"
-        }
-      ],
       "rich_blocks": [
         {
           "text": "COMPUTER SCIENCE",
@@ -803,100 +704,11 @@
         "text_length": 2433,
         "word_count": 336,
         "has_images": false,
-        "has_links": true,
-        "link_count": 17,
         "document_hash": "3a2d98684c6ec030ead26ca55b1ad158d758f47e143bbb4f4df3e85f00647cb1",
         "document_name": "SU_CS_Overview.pdf"
       },
       "text": "includes a laboratory component designed to explore applications and to enhance conceptualization. Contributes to Data Analytics and Data Science. (Fall, Spring) (NS) 54-281 Colloquium in Computer Science In this seminar-style course, each student will give a lecture on a topic in computer science not normally covered in depth in the regular curriculum. Presentation of one lecture and participation in discussions is required. This course may be repeated for credit, but may not be counted toward the major or minor. Must be taken Pass/D/F. Prerequisite: Prior or concurrent enrollment in Computer Science 54-284, and permission of the instructor. 54-284 Computer Science II This course is a continuation of 54-184 Computer Science I, with an emphasis on abstract data objects such as lists, stacks, queues, trees and graphs, and test-first programming using the automated testing paradigm JUnit. Topics include algorithms for searching, sorting, traversing, inserting and deleting, and reasoning about these algorithms. The course includes a laboratory component designed to explore applications and to enhance conceptualization. Contributes to Design Thinking. Prerequisite: Computer Science 54-184 or permission of instructor. (Spring) (NS) 54-291 Puzzling Programs Given a precise program specification and a few input/output examples, students will gain experience quickly devising a solution that passes a suite of unseen (and generally more complicated) input/output examples. Teamwork, troubleshooting code based on very limited feedback from automated systems, effectively reading problem descriptions, and discerning relevant details will be practiced. This course (or prior enrollment in this course) is required for students wishing to compete in the South Central USA Regional ACM Programming Contest. This course may be repeated for credit, but may not be counted towards the major or minor. Must be taken Pass/D/F. Prerequisite: Computer Science 54-184. (Fall) 54-384 Discrete Mathematics This course investigates concepts in the modeling of discrete phenomena. Topics include logic, structure of proof, set theory, combinatorics, graphs, induction and recurrence relations. Also Mathematics 52-384. Prerequisites: Mathematics 52-164, Computer Science 54-184, and",
       "raw_text": "includes a laboratory component designed to explore applications and to enhance\nconceptualization. Contributes to Data Analytics and Data Science. (Fall, Spring) (NS)\n54-281 Colloquium in Computer Science\nIn this seminar-style course, each student will give a lecture on a topic in computer science not\nnormally covered in depth in the regular curriculum. Presentation of one lecture and\nparticipation in discussions is required. This course may be repeated for credit, but may not be\ncounted toward the major or minor. Must be taken Pass/D/F. Prerequisite: Prior or concurrent\nenrollment in Computer Science 54-284, and permission of the instructor.\n54-284 Computer Science II\nThis course is a continuation of 54-184 Computer Science I, with an emphasis on abstract data\nobjects such as lists, stacks, queues, trees and graphs, and test-first programming using the\nautomated testing paradigm JUnit. Topics include algorithms for searching, sorting, traversing,\ninserting and deleting, and reasoning about these algorithms. The course includes a laboratory\ncomponent designed to explore applications and to enhance conceptualization. Contributes to\nDesign Thinking. Prerequisite: Computer Science 54-184 or permission of instructor. (Spring)\n(NS)\n54-291 Puzzling Programs\nGiven a precise program specification and a few input/output examples, students will gain\nexperience quickly devising a solution that passes a suite of unseen (and generally more\ncomplicated) input/output examples. Teamwork, troubleshooting code based on very limited\nfeedback from automated systems, effectively reading problem descriptions, and discerning\nrelevant details will be practiced. This course (or prior enrollment in this course) is required for\nstudents wishing to compete in the South Central USA Regional ACM Programming Contest.\nThis course may be repeated for credit, but may not be counted towards the major or minor.\nMust be taken Pass/D/F. Prerequisite: Computer Science 54-184. (Fall)\n54-384 Discrete Mathematics\nThis course investigates concepts in the modeling of discrete phenomena. Topics include logic,\nstructure of proof, set theory, combinatorics, graphs, induction and recurrence relations. Also\nMathematics 52-384. Prerequisites: Mathematics 52-164, Computer Science 54-184, and\nMenu\nSearch\nApply\nVisit\nMajors & Minors\n2/25/26, 11:45 AM\nCourses • Southwestern University\nhttps://www.southwestern.edu/computer-science/courses/\n2/5\n",
-      "links": [
-        {
-          "type": "unknown",
-          "uri": "",
-          "rect": "Rect(104.25, 50.25, 153.75, 65.25)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/admission/apply/",
-          "rect": "Rect(415.5, 51.75, 444.0, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/admission/apply/",
-          "rect": "Rect(415.5, 51.75, 444.0, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/admission/apply/",
-          "rect": "Rect(415.5, 51.75, 444.0, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/admission/apply/",
-          "rect": "Rect(415.5, 51.75, 444.0, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/admission/apply/",
-          "rect": "Rect(415.5, 51.75, 444.0, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/admission/visit/",
-          "rect": "Rect(453.75, 51.75, 475.5, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/admission/visit/",
-          "rect": "Rect(453.75, 51.75, 475.5, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/admission/visit/",
-          "rect": "Rect(453.75, 51.75, 475.5, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/admission/visit/",
-          "rect": "Rect(453.75, 51.75, 475.5, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/admission/visit/",
-          "rect": "Rect(453.75, 51.75, 475.5, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/academics/majors-minors/",
-          "rect": "Rect(484.5, 51.75, 564.75, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/academics/majors-minors/",
-          "rect": "Rect(484.5, 51.75, 564.75, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/academics/majors-minors/",
-          "rect": "Rect(484.5, 51.75, 564.75, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/academics/majors-minors/",
-          "rect": "Rect(484.5, 51.75, 564.75, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/academics/majors-minors/",
-          "rect": "Rect(484.5, 51.75, 564.75, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/",
-          "rect": "Rect(292.5, 42.75, 319.5, 75.75)"
-        }
-      ],
       "rich_blocks": [
         {
           "text": "includes a laboratory component designed to explore applications and to enhance",
@@ -1666,100 +1478,11 @@
         "text_length": 2333,
         "word_count": 284,
         "has_images": false,
-        "has_links": true,
-        "link_count": 17,
         "document_hash": "3a2d98684c6ec030ead26ca55b1ad158d758f47e143bbb4f4df3e85f00647cb1",
         "document_name": "SU_CS_Overview.pdf"
       },
       "text": "either Mathematics 52-264 or Computer Science 54-284, or permission of instructor. (Fall) (NS) 54-394 Computer Organization This course studies computer architecture, internal representation of data, assembly language programming, subroutines and parameter passing, design of machine language instruction sets, bus structure, digital logic, and support for parallelism. The course includes a laboratory component designed to explore applications and to enhance conceptualization. Prerequisite: Computer Science 54-284 or permission of instructor. (Fall) (NS) 54-414 Operations Research Formulation and solution of problems with management, economics, engineering and science applications using modeling, optimization techniques, and simulation. Topics include linear and integer programming, simplex method, duality, sensitivity analysis, branch and bound algorithm, transportation and assignment problems, network optimization, and problem solving using optimization software. Also Mathematics 52-414 and Business 30-414. Contributes to Data Analytics and Data Science. Prerequisites: Mathematics 52-164 (Modern Calculus I), and either Business 30-474 (Finance), Mathematics 52-674 (Linear Algebra), some Computer Science course at the 300 level or above, or permission of the instructor. 54-424 Artificial Intelligence This course studies the use of computer algorithms to emulate the cognitive and problem solving capabilities of humans. Topics include: search, optimization, reinforcement learning, evolutionary computation, statistical methods and (deep) neural networks. Contributes to Neuroscience. Prerequisite: Computer Science 54-284 or permission of instructor. (NS) 54-454 Algorithms An introduction to the design and analysis of algorithms and their implementation in C++. Topics include: greedy, divide-and-conquer, dynamic programming, graph, and randomized algorithms; asymptotic analysis and computational tractability (e.g. NP-completeness); practical data structures (stacks, trees, queues, graphs, hash tables, heaps). Prerequisite: Computer Science 54-284, or permission of instructor. Contributes to Design Thinking. (Spring) (NS) 54-474 Programming Languages",
       "raw_text": "either Mathematics 52-264 or Computer Science 54-284, or permission of instructor. (Fall)\n(NS)\n54-394 Computer Organization\nThis course studies computer architecture, internal representation of data, assembly language\nprogramming, subroutines and parameter passing, design of machine language instruction sets,\nbus structure, digital logic, and support for parallelism. The course includes a laboratory\ncomponent designed to explore applications and to enhance conceptualization. Prerequisite:\nComputer Science 54-284 or permission of instructor. (Fall) (NS)\n54-414 Operations Research\nFormulation and solution of problems with management, economics, engineering and science\napplications using modeling, optimization techniques, and simulation. Topics include linear and\ninteger programming, simplex method, duality, sensitivity analysis, branch and bound\nalgorithm, transportation and assignment problems, network optimization, and problem solving\nusing optimization software. Also Mathematics 52-414 and Business 30-414. Contributes to\nData Analytics and Data Science. Prerequisites: Mathematics 52-164 (Modern Calculus I), and\neither Business 30-474 (Finance), Mathematics 52-674 (Linear Algebra), some Computer\nScience course at the 300 level or above, or permission of the instructor.\n54-424 Artificial Intelligence\nThis course studies the use of computer algorithms to emulate the cognitive and problem\nsolving capabilities of humans. Topics include: search, optimization, reinforcement learning,\nevolutionary computation, statistical methods and (deep) neural networks. Contributes to\nNeuroscience. Prerequisite: Computer Science 54-284 or permission of instructor. (NS)\n54-454 Algorithms\nAn introduction to the design and analysis of algorithms and their implementation in C++.\nTopics include: greedy, divide-and-conquer, dynamic programming, graph, and randomized\nalgorithms; asymptotic analysis and computational tractability (e.g. NP-completeness);\npractical data structures (stacks, trees, queues, graphs, hash tables, heaps). Prerequisite:\nComputer Science 54-284, or permission of instructor. Contributes to Design Thinking.\n(Spring) (NS)\n54-474 Programming Languages\nMenu\nSearch\nApply\nVisit\nMajors & Minors\n2/25/26, 11:45 AM\nCourses • Southwestern University\nhttps://www.southwestern.edu/computer-science/courses/\n3/5\n",
-      "links": [
-        {
-          "type": "unknown",
-          "uri": "",
-          "rect": "Rect(104.25, 50.25, 153.75, 65.25)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/admission/apply/",
-          "rect": "Rect(415.5, 51.75, 444.0, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/admission/apply/",
-          "rect": "Rect(415.5, 51.75, 444.0, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/admission/apply/",
-          "rect": "Rect(415.5, 51.75, 444.0, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/admission/apply/",
-          "rect": "Rect(415.5, 51.75, 444.0, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/admission/apply/",
-          "rect": "Rect(415.5, 51.75, 444.0, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/admission/visit/",
-          "rect": "Rect(453.75, 51.75, 475.5, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/admission/visit/",
-          "rect": "Rect(453.75, 51.75, 475.5, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/admission/visit/",
-          "rect": "Rect(453.75, 51.75, 475.5, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/admission/visit/",
-          "rect": "Rect(453.75, 51.75, 475.5, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/admission/visit/",
-          "rect": "Rect(453.75, 51.75, 475.5, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/academics/majors-minors/",
-          "rect": "Rect(484.5, 51.75, 564.75, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/academics/majors-minors/",
-          "rect": "Rect(484.5, 51.75, 564.75, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/academics/majors-minors/",
-          "rect": "Rect(484.5, 51.75, 564.75, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/academics/majors-minors/",
-          "rect": "Rect(484.5, 51.75, 564.75, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/academics/majors-minors/",
-          "rect": "Rect(484.5, 51.75, 564.75, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/",
-          "rect": "Rect(292.5, 42.75, 319.5, 75.75)"
-        }
-      ],
       "rich_blocks": [
         {
           "text": "either Mathematics 52-264 or Computer Science 54-284, or permission of instructor. (Fall)",
@@ -2571,100 +2294,11 @@
         "text_length": 2238,
         "word_count": 294,
         "has_images": false,
-        "has_links": true,
-        "link_count": 17,
         "document_hash": "3a2d98684c6ec030ead26ca55b1ad158d758f47e143bbb4f4df3e85f00647cb1",
         "document_name": "SU_CS_Overview.pdf"
       },
       "text": "A study of the principles and practice in the design and implementation of imperative, functional, logic and object-oriented programming languages. Prerequisite: Computer Science 54-394 or permission of instructor. (Fall) (NS) 54-514 Database Management An introduction to the theory and practice of database management systems. Topics include database terminology, the entity-relationship model, the relational model, normalization, querying databases using SQL, and exploration of other database technologies. The course includes a laboratory component designed to explore applications and to enhance conceptualization. Contributes to Data Analytics and Data Science. Prerequisite: Computer Science 54-284 or permission of instructor. (NS) 54-524 Introduction to Numerical Analysis See Mathematics 52-524. (NS) 54-534 Functional Programming An introduction to functional programming. Topics include functions, lists, types, induction and recursion, pattern matching, infinite lists and trees. A functional programming language such as Haskell, Lisp or ML will be used in the course. There will be a large number of programming projects. Prerequisite: Computer Science 54-284 or permission of instructor. (NS) 54-644 Computer Systems An introduction to operating systems and computer networks. Topics include process control, scheduling, threads, concurrency, memory management, virtual memory, network protocol layers, packets, routing and network security. Prerequisite: Computer Science 54-394. (Spring) (NS) 54-844 Seminar in Special Topics A limited enrollment seminar not generally covered in other courses. This course may be repeated for credit as topics vary. (NS) 54-894 Senior Seminar in Software Engineering Introduction to techniques and theories for the development of large software systems. This course will fulfill the capstone requirement in Computer Science. Topics include: software design and quality, ethics, professional issues, the study of current software engineering trends, theory and practice. Each student will contribute substantially to a major semester",
       "raw_text": "A study of the principles and practice in the design and implementation of imperative,\nfunctional, logic and object-oriented programming languages. Prerequisite: Computer Science\n54-394 or permission of instructor. (Fall) (NS)\n54-514 Database Management\nAn introduction to the theory and practice of database management systems. Topics include\ndatabase terminology, the entity-relationship model, the relational model, normalization,\nquerying databases using SQL, and exploration of other database technologies. The course\nincludes a laboratory component designed to explore applications and to enhance\nconceptualization. Contributes to Data Analytics and Data Science. Prerequisite: Computer\nScience 54-284 or permission of instructor. (NS)\n54-524 Introduction to Numerical Analysis\nSee Mathematics 52-524. (NS)\n54-534 Functional Programming\nAn introduction to functional programming. Topics include functions, lists, types, induction and\nrecursion, pattern matching, infinite lists and trees. A functional programming language such as\nHaskell, Lisp or ML will be used in the course. There will be a large number of programming\nprojects. Prerequisite: Computer Science 54-284 or permission of instructor. (NS)\n54-644 Computer Systems\nAn introduction to operating systems and computer networks. Topics include process control,\nscheduling, threads, concurrency, memory management, virtual memory, network protocol\nlayers, packets, routing and network security. Prerequisite: Computer Science 54-394. (Spring)\n(NS)\n54-844 Seminar in Special Topics\nA limited enrollment seminar not generally covered in other courses. This course may be\nrepeated for credit as topics vary. (NS)\n54-894 Senior Seminar in Software Engineering\nIntroduction to techniques and theories for the development of large software systems. This\ncourse will fulfill the capstone requirement in Computer Science. Topics include: software\ndesign and quality, ethics, professional issues, the study of current software engineering\ntrends, theory and practice. Each student will contribute substantially to a major semester\nMenu\nSearch\nApply\nVisit\nMajors & Minors\n2/25/26, 11:45 AM\nCourses • Southwestern University\nhttps://www.southwestern.edu/computer-science/courses/\n4/5\n",
-      "links": [
-        {
-          "type": "unknown",
-          "uri": "",
-          "rect": "Rect(104.25, 50.25, 153.75, 65.25)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/admission/apply/",
-          "rect": "Rect(415.5, 51.75, 444.0, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/admission/apply/",
-          "rect": "Rect(415.5, 51.75, 444.0, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/admission/apply/",
-          "rect": "Rect(415.5, 51.75, 444.0, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/admission/apply/",
-          "rect": "Rect(415.5, 51.75, 444.0, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/admission/apply/",
-          "rect": "Rect(415.5, 51.75, 444.0, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/admission/visit/",
-          "rect": "Rect(453.75, 51.75, 475.5, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/admission/visit/",
-          "rect": "Rect(453.75, 51.75, 475.5, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/admission/visit/",
-          "rect": "Rect(453.75, 51.75, 475.5, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/admission/visit/",
-          "rect": "Rect(453.75, 51.75, 475.5, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/admission/visit/",
-          "rect": "Rect(453.75, 51.75, 475.5, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/academics/majors-minors/",
-          "rect": "Rect(484.5, 51.75, 564.75, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/academics/majors-minors/",
-          "rect": "Rect(484.5, 51.75, 564.75, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/academics/majors-minors/",
-          "rect": "Rect(484.5, 51.75, 564.75, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/academics/majors-minors/",
-          "rect": "Rect(484.5, 51.75, 564.75, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/academics/majors-minors/",
-          "rect": "Rect(484.5, 51.75, 564.75, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/",
-          "rect": "Rect(292.5, 42.75, 319.5, 75.75)"
-        }
-      ],
       "rich_blocks": [
         {
           "text": "A study of the principles and practice in the design and implementation of imperative,",
@@ -3448,115 +3082,11 @@
         "text_length": 519,
         "word_count": 71,
         "has_images": false,
-        "has_links": true,
-        "link_count": 20,
         "document_hash": "3a2d98684c6ec030ead26ca55b1ad158d758f47e143bbb4f4df3e85f00647cb1",
         "document_name": "SU_CS_Overview.pdf"
       },
       "text": "project, do at least one major individual presentation, and have significant class participation. Each student will take the Major Field Test. Prerequisite: Six courses in the major at the 300 level or above, and permission of instructor. Must have completed one of Computer Science 54-454, 54-514, or 54-474. (Spring) (NS) (WA) GEORGETOWN, TEXAS 512.863.6511 CONTACT",
       "raw_text": "project, do at least one major individual presentation, and have significant class participation.\nEach student will take the Major Field Test. Prerequisite: Six courses in the major at the 300\nlevel or above, and permission of instructor. Must have completed one of Computer Science\n54-454, 54-514, or 54-474. (Spring) (NS) (WA)\nGEORGETOWN, TEXAS\n512.863.6511\nCONTACT\nMenu\nSearch\nApply\nVisit\nMajors & Minors\n2/25/26, 11:45 AM\nCourses • Southwestern University\nhttps://www.southwestern.edu/computer-science/courses/\n5/5\n",
-      "links": [
-        {
-          "type": "unknown",
-          "uri": "https://www.google.com/maps/place/Southwestern+University/@30.5190568,-97.8518943,10z/data=!4m5!3m4!1s0x8644d64e47bd3f6d:0xd240741914c84ab3!8m2!3d30.6349251!4d-97.6651268",
-          "rect": "Rect(248.25, 375.0, 363.75, 386.25)"
-        },
-        {
-          "type": "unknown",
-          "uri": "tel:1-512-863-6511",
-          "rect": "Rect(270.75, 393.75, 341.25, 405.0)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/contact-us/",
-          "rect": "Rect(281.25, 412.5, 330.75, 423.75)"
-        },
-        {
-          "type": "unknown",
-          "uri": "",
-          "rect": "Rect(104.25, 50.25, 153.75, 65.25)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/admission/apply/",
-          "rect": "Rect(415.5, 51.75, 444.0, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/admission/apply/",
-          "rect": "Rect(415.5, 51.75, 444.0, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/admission/apply/",
-          "rect": "Rect(415.5, 51.75, 444.0, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/admission/apply/",
-          "rect": "Rect(415.5, 51.75, 444.0, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/admission/apply/",
-          "rect": "Rect(415.5, 51.75, 444.0, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/admission/visit/",
-          "rect": "Rect(453.75, 51.75, 475.5, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/admission/visit/",
-          "rect": "Rect(453.75, 51.75, 475.5, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/admission/visit/",
-          "rect": "Rect(453.75, 51.75, 475.5, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/admission/visit/",
-          "rect": "Rect(453.75, 51.75, 475.5, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/admission/visit/",
-          "rect": "Rect(453.75, 51.75, 475.5, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/academics/majors-minors/",
-          "rect": "Rect(484.5, 51.75, 564.75, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/academics/majors-minors/",
-          "rect": "Rect(484.5, 51.75, 564.75, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/academics/majors-minors/",
-          "rect": "Rect(484.5, 51.75, 564.75, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/academics/majors-minors/",
-          "rect": "Rect(484.5, 51.75, 564.75, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/academics/majors-minors/",
-          "rect": "Rect(484.5, 51.75, 564.75, 64.5)"
-        },
-        {
-          "type": "unknown",
-          "uri": "https://www.southwestern.edu/",
-          "rect": "Rect(292.5, 42.75, 319.5, 75.75)"
-        }
-      ],
       "rich_blocks": [
         {
           "text": "project, do at least one major individual presentation, and have significant class participation.",

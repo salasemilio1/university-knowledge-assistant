@@ -23,6 +23,7 @@ try:
 except ImportError:
     print("Installing pymupdf...")
     import subprocess
+    # we need to remove this as we are using uv
     subprocess.check_call([sys.executable, "-m", "pip", "install", "pymupdf", "--break-system-packages"])
     import fitz
 
@@ -53,8 +54,8 @@ class PageMetadata:
     text_length: int
     word_count: int
     has_images: bool
-    has_links: bool
-    link_count: int
+    # has_links: bool
+    # link_count: int
     # Inherited from document
     document_hash: str
     document_name: str
@@ -78,7 +79,7 @@ class PageContent:
     metadata: PageMetadata
     text: str
     raw_text: str  # Preserve original extraction
-    links: List[Dict[str, Any]]
+    #links: List[Dict[str, Any]]
     rich_blocks: List[RichBlock] = field(default_factory=list)
     
 
@@ -294,9 +295,9 @@ class PDFMetadataExtractor:
         
         # Check for images and links
         has_images = len(page.get_images()) > 0
-        links = page.get_links()
-        has_links = len(links) > 0
-        link_count = len(links)
+        # links = page.get_links()
+        # has_links = len(links) > 0
+        # link_count = len(links)
         
         return PageMetadata(
             page_number=page_num + 1,  # 1-indexed for humans
@@ -307,8 +308,8 @@ class PDFMetadataExtractor:
             text_length=len(text) if text else 0,
             word_count=word_count,
             has_images=has_images,
-            has_links=has_links,
-            link_count=link_count,
+            # has_links=has_links,
+            # link_count=link_count,
             document_hash=doc_hash,
             document_name=doc_name
         )
@@ -330,14 +331,14 @@ class PDFMetadataExtractor:
         spans = self._extract_spans_from_page(page, page_num)
         rich_blocks, _ = self._build_rich_blocks(spans, page_num + 1)
         
-        # Extract links from page
-        links = []
-        for link_dict in page.get_links():
-            links.append({
-                'type': link_dict.get('type', 'unknown'),
-                'uri': link_dict.get('uri', ''),
-                'rect': str(link_dict.get('from', ''))
-            })
+        # # Extract links from page
+        # links = []
+        # for link_dict in page.get_links():
+        #     links.append({
+        #         'type': link_dict.get('type', 'unknown'),
+        #         'uri': link_dict.get('uri', ''),
+        #         'rect': str(link_dict.get('from', ''))
+        #     })
         
         # Build page metadata
         metadata = self.extract_page_metadata(page, page_num, doc_hash, doc_name)
@@ -346,7 +347,7 @@ class PDFMetadataExtractor:
             metadata=metadata,
             text=text,
             raw_text=raw_text,
-            links=links,
+            # links=links,
             rich_blocks=rich_blocks
         )
     
@@ -414,7 +415,7 @@ class PDFMetadataExtractor:
                     'metadata': asdict(page.metadata),
                     'text': page.text,
                     'raw_text': page.raw_text,
-                    'links': page.links,
+                    # 'links': page.links,
                     'rich_blocks': [asdict(block) for block in page.rich_blocks]
                 }
                 for page in bundle.pages
@@ -462,7 +463,8 @@ class PDFMetadataExtractor:
             lines.append(f"\n## Page {page.metadata.page_number}")
             lines.append(f"<!-- Page metadata: {page.metadata.word_count} words, "
                         f"{'has images, ' if page.metadata.has_images else ''}"
-                        f"{page.metadata.link_count} links -->\n")
+                        # f"{page.metadata.link_count} links -->\n"
+                        )
             lines.append(page.text)
             lines.append("\n")
         
