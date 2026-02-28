@@ -5,6 +5,7 @@ data to the frontend.
 """
 
 from fastapi import FastAPI
+from fastapi import Request
 from retrieval import get_response
 
 
@@ -22,7 +23,7 @@ def read_root() -> dict:
 
 
 @app.get("/retrieve")
-def retrieve() -> str:
+def retrieve(request:Request) -> str:
     """
     Retrieves response in string form (later will be streamed).
     
@@ -30,13 +31,13 @@ def retrieve() -> str:
         str: Response from LLM.
     """
 
-    # validate / process input
+    # validate / process input. will depend on format HTMX is configured to send
 
     return get_response("query")
 
 
 @app.get("/ingest")
-def ingest() -> bool:
+def ingest(request:Request) -> bool:
     """
     Ingests an uploaded document to the database.
     
@@ -44,6 +45,6 @@ def ingest() -> bool:
         bool: Success or failure. For use in frontend error messages.
     """
 
-    # validate / process documents
+    # validate / process documents. will depend on format HTMX is configured to send
 
     return True
