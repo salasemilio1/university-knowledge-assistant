@@ -7,12 +7,13 @@ data to the frontend.
 from fastapi import FastAPI
 from retrieval import get_response
 
+
 app = FastAPI()
 
 @app.get("/")
 def read_root() -> dict:
     """
-    Root route for system. Returns status if call successful.
+    The root route for the system. Returns the system status if the call is successful.
     
     Returns:
         dict: The status of the system.
@@ -26,9 +27,8 @@ def retrieve() -> str:
     Retrieves response in string form (later will be streamed).
     
     Returns:
-        str: Response from LLM
+        str: Response from LLM.
     """
 
     return get_response("query")
 
-   
