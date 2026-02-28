@@ -16,11 +16,11 @@ def read_root():
     """
     return {"status": "Ok"} # return status
 
-@app.get("retrieve")
+@app.get("/retrieve")
 def retrieve_response():
-
-    # response = get_response()
     """
     Retrieves JSON response.
     :return:
     """
+
+   
