@@ -1,3 +1,9 @@
+"""
+This script serves as the delivery layer of the backend. Its purpose
+is to receive a request from the frontend, call core logic and return
+data to the frontend.
+"""
+
 from fastapi import FastAPI
 
 app = FastAPI()
