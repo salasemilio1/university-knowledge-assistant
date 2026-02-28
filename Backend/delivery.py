@@ -9,18 +9,25 @@ from fastapi import FastAPI
 app = FastAPI()
 
 @app.get("/")
-def read_root():
+def read_root() -> dict:
     """
     Root route for system. Returns status if call successful.
-    :return: Status of system.
+    
+    Returns:
+        dict: The status of the system.
     """
     return {"status": "Ok"} # return status
 
+
 @app.get("/retrieve")
-def retrieve_response():
+def retrieve_response() -> str:
     """
-    Retrieves JSON response.
-    :return:
+    Retrieves response in string form (later will be streamed).
+    
+    Returns:
+        str: Response from LLM
     """
+
+    return 
 
    
