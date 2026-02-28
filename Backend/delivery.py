@@ -30,5 +30,20 @@ def retrieve() -> str:
         str: Response from LLM.
     """
 
+    # validate / process input
+
     return get_response("query")
 
+
+@app.get("/ingest")
+def ingest() -> bool:
+    """
+    Ingests an uploaded document to the database.
+    
+    Returns:
+        bool: Success or failure. For use in frontend error messages.
+    """
+
+    # validate / process documents
+
+    return True
