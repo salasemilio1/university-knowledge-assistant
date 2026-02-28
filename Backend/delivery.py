@@ -5,6 +5,7 @@ data to the frontend.
 """
 
 from fastapi import FastAPI
+from retrieval import get_response
 
 app = FastAPI()
 
@@ -20,7 +21,7 @@ def read_root() -> dict:
 
 
 @app.get("/retrieve")
-def retrieve_response() -> str:
+def retrieve() -> str:
     """
     Retrieves response in string form (later will be streamed).
     
@@ -28,6 +29,6 @@ def retrieve_response() -> str:
         str: Response from LLM
     """
 
-    return 
+    return get_response("query")
 
    
