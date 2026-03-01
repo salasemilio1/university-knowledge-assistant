@@ -44,7 +44,7 @@ def isolate_course_info(md_text: str) -> str:
     md_text = re.sub(r"^## Page \d+\s*$", "", md_text, flags=re.MULTILINE)
 
     # Remove all page metadata; ex: <!-- Page metadata: 228 words, 19 links -->
-    md_text = re.sub(r"<!--\s*Page metadata:.*?-->", "", md_text, flags=re.DOTALL)
+    md_text = re.sub(r"<!--\s*Page metadata:.*?words,", "", md_text, flags=re.DOTALL)
 
     # Remove menu navigation text; ex: Menu Search Apply
     md_text = re.sub(r"Menu Search.*?https://.*?\n", "", md_text, flags=re.DOTALL)
@@ -133,27 +133,25 @@ def main():
     # Create copy of the document metadata for every cs course chunk.
     cs_courses_metadatas = [cs_courses_metadata.copy() for _ in cs_course_chunks]
 
-    # Create the embeddings using the new embedding function
-    # embeddings = sentence_transformer_ef(cs_course_chunks)
-
-
     # Chroma stores text and handles embedding and indexing automatically
-    collection.add(
-        documents=cs_course_chunks,
-        ids=["cs_courses_overview", "cs_courses_54-144", "cs_courses_54-184", "cs_courses_54-281", "cs_courses_54-284", "cs_courses_54-291", "cs_courses_54-384", "cs_courses_54-394", "cs_courses_54-414", "cs_courses_54-424", "cs_courses_54-454", "cs_courses_54-474", "cs_courses_54-514", "cs_courses_54-524", "cs_courses_54-534", "cs_courses_54-644", "cs_courses_54-844", "cs_courses_54-894"],
-        metadatas=cs_courses_metadatas
-    )
+    # collection.add(
+    #     documents=cs_course_chunks,
+    #     ids=["cs_courses_overview", "cs_courses_54-144", "cs_courses_54-184", "cs_courses_54-281", "cs_courses_54-284", "cs_courses_54-291", "cs_courses_54-384", "cs_courses_54-394", "cs_courses_54-414", "cs_courses_54-424", "cs_courses_54-454", "cs_courses_54-474", "cs_courses_54-514", "cs_courses_54-524", "cs_courses_54-534", "cs_courses_54-644", "cs_courses_54-844", "cs_courses_54-894"],
+    #     metadatas=cs_courses_metadatas
+    # )
 
     query = "Which course uses C++"
-    # query_embedding = sentence_transformer_ef([query])
 
     # Query the collection
-    results = collection.query(
-        query_texts=[query], # Use embedding created by the new embedding function
-        n_results=5, # how many results to return
-        include=["documents", "metadatas", "distances"]
-    )
-    print(results)
+    # results = collection.query(
+    #     query_texts=[query], # Use embedding created by the new embedding function
+    #     n_results=5, # how many results to return
+    #     include=["documents", "metadatas", "distances"]
+    # )
+    for chunk in cs_course_chunks:
+        print(chunk)
+        print("\n****************\n")
+    print(len(cs_course_chunks))
 
 if __name__ == "__main__":
     main()
