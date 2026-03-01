@@ -1,6 +1,7 @@
 import chromadb
 from chromadb.utils.embedding_functions import SentenceTransformerEmbeddingFunction
 import re
+import sys
 
 def md_to_string(file_path: str) -> str:
     """
@@ -93,60 +94,69 @@ def chunk_by_courses(document_text: str) -> list[str]:
     chunks = re.split(r"(?=\n\d{2}-\d{3} [A-Z])", document_text, flags=re.MULTILINE)
     return chunks
 
-# Link to Chroma docs gettng started tutorial
-# https://docs.trychroma.com/docs/overview/getting-started
+def main():
+    # Link to Chroma docs gettng started tutorial
+    # https://docs.trychroma.com/docs/overview/getting-started
 
-chroma_client = chromadb.Client()
+    chroma_client = chromadb.Client()
 
-# Create a collection
-# Collections store embeddings, documents, and metadata
-collection = chroma_client.create_collection(name="university_documents")
+    # Create a collection
+    # Collections store embeddings, documents, and metadata
+    collection = chroma_client.create_collection(name="university_documents")
 
-cs_courses_str = md_to_string('/workspaces/university-knowledge-assistant/output/SU_CS_Overview_extracted.md')
+    cs_courses_path = '/workspaces/university-knowledge-assistant/output/SU_CS_Overview_extracted.md'
+    # If there is a path provided as an argument, use it
+    if len(sys.argv) > 1:
+        cs_courses_path = sys.argv[1]
+    cs_courses_str = md_to_string(cs_courses_path)
+    
 
-# Separate metadata from the rest of the content
-cs_courses_metadata, cs_courses_str = parse_metadata(cs_courses_str)
-cs_courses_str = isolate_course_info(cs_courses_str)
+    # Separate metadata from the rest of the content
+    cs_courses_metadata, cs_courses_str = parse_metadata(cs_courses_str)
+    cs_courses_str = isolate_course_info(cs_courses_str)
 
-# Break up courses into chunks
-cs_course_chunks = chunk_by_courses(cs_courses_str)
+    # Break up courses into chunks
+    cs_course_chunks = chunk_by_courses(cs_courses_str)
 
-cs_courses_metadata = {"file_name": "SU_CS_Overview.pdf",
-    "file_size_bytes": 202425,
-   "file_hash": "8ca86e2913df0a31aad8b7ca71e15af7ff7789e31b5f2d8d39cfc5fb6f29e237",
-    "total_pages": 5}
+    cs_courses_metadata = {"file_name": "SU_CS_Overview.pdf",
+        "file_size_bytes": 202425,
+    "file_hash": "8ca86e2913df0a31aad8b7ca71e15af7ff7789e31b5f2d8d39cfc5fb6f29e237",
+        "total_pages": 5}
 
-# Create copy of the document metadata for every cs course chunk.
-cs_courses_metadatas = [cs_courses_metadata.copy() for _ in cs_course_chunks]
-
-
-# Try a different embedding function than the default
-sentence_transformer_ef = SentenceTransformerEmbeddingFunction(
-    model_name="all-mpnet-base-v2",
-    device="cpu",
-    normalize_embeddings=False
-)
-
-# Create the embeddings using the new embedding function
-embeddings = sentence_transformer_ef(cs_course_chunks)
+    # Create copy of the document metadata for every cs course chunk.
+    cs_courses_metadatas = [cs_courses_metadata.copy() for _ in cs_course_chunks]
 
 
-# Chroma stores text and handles embedding and indexing automatically
-collection.add(
-    embeddings=embeddings,
-    ids=["cs_courses_overview", "cs_courses_54-144", "cs_courses_54-184", "cs_courses_54-281", "cs_courses_54-284", "cs_courses_54-291", "cs_courses_54-384", "cs_courses_54-394", "cs_courses_54-414", "cs_courses_54-424", "cs_courses_54-454", "cs_courses_54-474", "cs_courses_54-514", "cs_courses_54-524", "cs_courses_54-534", "cs_courses_54-644", "cs_courses_54-844", "cs_courses_54-894"],
-    documents=cs_course_chunks,
-    metadatas=cs_courses_metadatas
-)
+    # Try a different embedding function than the default
+    sentence_transformer_ef = SentenceTransformerEmbeddingFunction(
+        model_name="all-mpnet-base-v2",
+        device="cpu",
+        normalize_embeddings=False
+    )
 
-query = "Which course uses C++"
-query_embedding = sentence_transformer_ef(query)
-#
+    # Create the embeddings using the new embedding function
+    embeddings = sentence_transformer_ef(cs_course_chunks)
 
-# Query the collection
-results = collection.query(
-    query_texts=[query], # Chroma will embed this automatically
-    n_results=5, # how many results to return
-    query_embeddings=[query_embedding] # Use embedding created by the new embedding function
-)
-print(results)
+
+    # Chroma stores text and handles embedding and indexing automatically
+    collection.add(
+        embeddings=embeddings,
+        ids=["cs_courses_overview", "cs_courses_54-144", "cs_courses_54-184", "cs_courses_54-281", "cs_courses_54-284", "cs_courses_54-291", "cs_courses_54-384", "cs_courses_54-394", "cs_courses_54-414", "cs_courses_54-424", "cs_courses_54-454", "cs_courses_54-474", "cs_courses_54-514", "cs_courses_54-524", "cs_courses_54-534", "cs_courses_54-644", "cs_courses_54-844", "cs_courses_54-894"],
+        documents=cs_course_chunks,
+        metadatas=cs_courses_metadatas
+    )
+
+    query = "Which course uses C++"
+    query_embedding = sentence_transformer_ef(query)
+    #
+
+    # Query the collection
+    results = collection.query(
+        query_texts=[query], # Chroma will embed this automatically
+        n_results=5, # how many results to return
+        query_embeddings=[query_embedding] # Use embedding created by the new embedding function
+    )
+    print(results)
+
+if __name__ == "__main__":
+    main()
