@@ -55,7 +55,7 @@ RE_PAGE_BREAK = re.compile(r"<!--\s*PAGE BREAK\s*-->")
 # Core functions
 # ---------------------------------------------------------------------------
 
-def _clean_text(raw_markdown: str) -> str:
+def _clean_markdown(raw_markdown: str) -> str:
     """Apply all cleaning transformations to a single chunk's markdown."""
     text = raw_markdown
 
@@ -120,7 +120,7 @@ def parse_landingai_json(filepath: str) -> list[dict]:
             continue
 
         raw_md = chunk.get("markdown", "")
-        cleaned = _clean_text(raw_md)
+        cleaned = _clean_markdown(raw_md)
 
         # Drop chunks that are empty after cleaning (pure nav-only chunks)
         if not cleaned:
