@@ -240,5 +240,7 @@ if __name__ == "__main__":
 
     print(f"Loading: {filepath}")
     results = parse_landingai_json(filepath)
-    print(f"Results: {results}")
-    validate_step1(results)
+
+    # print first 5 results
+    print(f"Results: {results[0:5]}")
+    #validate_step1(results)
