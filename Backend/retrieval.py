@@ -3,24 +3,8 @@ This script is the logic core for the retrieval feature. It is called by deliver
 """
 
 import numpy as np
+import chromadb as chroma
 
-
-def get_response(query:str) -> str:
-    """
-    Generates a response from a given query.
-
-    Args:
-        query(str): The processed query retrieved from delivery.
-
-    Returns:
-        str: The response generated from the LLM.
-    """
-
-    # The response will eventually be streamed back the user.
-
-    # call other methods
-
-    return "response"
 
 def embed_query(query:str) -> np.ndarray:
     """
@@ -94,3 +78,20 @@ def prompt_LLM():
     """
 
     return -1
+
+def get_response(query:str) -> str:
+    """
+    Generates a response from a given query.
+
+    Args:
+        query(str): The processed query retrieved from delivery.
+
+    Returns:
+        str: The response generated from the LLM.
+    """
+
+    # The response will eventually be streamed back the user.
+
+    # call other methods
+
+    return "response"
