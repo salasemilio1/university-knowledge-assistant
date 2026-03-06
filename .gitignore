@@ -208,3 +208,6 @@ __marimo__/
 
 # Files
 *.pdf
+
+# Credentials
+credentials.env
