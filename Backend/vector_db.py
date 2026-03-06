@@ -98,7 +98,7 @@ def main():
     # Link to Chroma docs gettng started tutorial
     # https://docs.trychroma.com/docs/overview/getting-started
 
-    chroma_client = chromadb.Client()
+    chroma_client = chromadb.PersistentClient(path="Database")
 
     # Try a different embedding function than the default
     # sentence_transformer_ef = SentenceTransformerEmbeddingFunction(
