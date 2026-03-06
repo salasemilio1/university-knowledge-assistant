@@ -101,15 +101,15 @@ def main():
     chroma_client = chromadb.Client()
 
     # Try a different embedding function than the default
-    sentence_transformer_ef = SentenceTransformerEmbeddingFunction(
-        model_name="all-mpnet-base-v2",
-        device="cpu",
-        normalize_embeddings=False
-    )
+    # sentence_transformer_ef = SentenceTransformerEmbeddingFunction(
+    #     model_name="all-mpnet-base-v2",
+    #     device="cpu",
+    #     normalize_embeddings=False
+    # )
 
     # Create a collection
     # Collections store embeddings, documents, and metadata
-    collection = chroma_client.create_collection(name="university_documents", embedding_function=sentence_transformer_ef)
+    collection = chroma_client.create_collection(name="university_documents")
 
     cs_courses_path = '/workspaces/university-knowledge-assistant/output/SU_CS_Overview_extracted.md'
     # If there is a path provided as an argument, use it
@@ -134,24 +134,21 @@ def main():
     cs_courses_metadatas = [cs_courses_metadata.copy() for _ in cs_course_chunks]
 
     # Chroma stores text and handles embedding and indexing automatically
-    # collection.add(
-    #     documents=cs_course_chunks,
-    #     ids=["cs_courses_overview", "cs_courses_54-144", "cs_courses_54-184", "cs_courses_54-281", "cs_courses_54-284", "cs_courses_54-291", "cs_courses_54-384", "cs_courses_54-394", "cs_courses_54-414", "cs_courses_54-424", "cs_courses_54-454", "cs_courses_54-474", "cs_courses_54-514", "cs_courses_54-524", "cs_courses_54-534", "cs_courses_54-644", "cs_courses_54-844", "cs_courses_54-894"],
-    #     metadatas=cs_courses_metadatas
-    # )
+    collection.add(
+        documents=cs_course_chunks,
+        ids=["cs_courses_overview", "cs_courses_54-144", "cs_courses_54-184", "cs_courses_54-281", "cs_courses_54-284", "cs_courses_54-291", "cs_courses_54-384", "cs_courses_54-394", "cs_courses_54-414", "cs_courses_54-424", "cs_courses_54-454", "cs_courses_54-474", "cs_courses_54-514", "cs_courses_54-524", "cs_courses_54-534", "cs_courses_54-644", "cs_courses_54-844", "cs_courses_54-894"],
+        metadatas=cs_courses_metadatas
+    )
 
     query = "Which course uses C++"
 
     # Query the collection
-    # results = collection.query(
-    #     query_texts=[query], # Use embedding created by the new embedding function
-    #     n_results=5, # how many results to return
-    #     include=["documents", "metadatas", "distances"]
-    # )
-    for chunk in cs_course_chunks:
-        print(chunk)
-        print("\n****************\n")
-    print(len(cs_course_chunks))
+    results = collection.query(
+        query_texts=[query], # Use embedding created by the new embedding function
+        n_results=5, # how many results to return
+        include=["documents", "metadatas", "distances"]
+    )
+    print(results)
 
 if __name__ == "__main__":
     main()
