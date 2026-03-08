@@ -19,22 +19,9 @@ def embed_query(query:str) -> np.ndarray:
 
     return np.random.rand(10)
 
-def embed_query(query:str) -> np.ndarray:
-    """
-    Generates embedded query via call to an embedding model.
-
-    Args:
-        query(str): The processed query.
-
-    Returns:
-        ndarray: The embedded query in the form of a vector.
-    """
-
-    return np.random.rand(10)
-
 def classify_query():
     """
-    Generates embedded query via call to an embedding model.
+    Classifies query.
 
     Args:
 
