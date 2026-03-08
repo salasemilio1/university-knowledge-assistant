@@ -4,8 +4,7 @@ is to receive a request from the frontend, call core logic and return
 data to the frontend.
 """
 
-from fastapi import FastAPI
-from fastapi import Request
+from fastapi import FastAPI, Request, HTTPException
 from retrieval import get_response
 
 
@@ -26,14 +25,27 @@ def read_root() -> dict:
 def retrieve(request:Request) -> str:
     """
     Retrieves response in string form (later will be streamed).
+    Assumes form data.
     
     Returns:
         str: Response from LLM.
     """
 
-    # validate / process input. will depend on format HTMX is configured to send
+    form = Request.form()
+    query = form["query"]
 
-    return get_response("query")
+    # check for query existence and type
+
+    if query == None:
+        raise HTTPException(status_code=400, detail="Missing \"query\" field.")
+    
+    if not isinstance(query, str):
+        raise HTTPException(status_code=400, detail="\"Query\" field must be a String.")
+
+    # remove whitespace
+    query = query.strip()
+
+    return get_response(query)
 
 
 @app.get("/ingest")
