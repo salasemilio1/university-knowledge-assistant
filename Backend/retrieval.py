@@ -90,5 +90,6 @@ def get_response(query:str) -> str:
         str: The response generated from the LLM.
     """
 
+    embedded_query:np.ndarray = embed_query(query)
 
     return "response"
