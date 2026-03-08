@@ -32,7 +32,7 @@ def retrieve(request:Request) -> str:
     """
 
     form = Request.form()
-    query = form["query"]
+    query:str = form["query"]
 
     # check for query existence and type
 

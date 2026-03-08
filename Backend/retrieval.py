@@ -90,8 +90,5 @@ def get_response(query:str) -> str:
         str: The response generated from the LLM.
     """
 
-    # The response will eventually be streamed back the user.
-
-    # call other methods
 
     return "response"
