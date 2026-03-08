@@ -6,6 +6,7 @@ data to the frontend.
 
 from fastapi import FastAPI, Request, HTTPException
 from retrieval import get_response
+from ingestion import ingest_document
 
 
 app = FastAPI()
@@ -57,6 +58,6 @@ def ingest(request:Request) -> bool:
         bool: Success or failure. For use in frontend error messages.
     """
 
-    # validate / process documents. will depend on format HTMX is configured to send
+    # validate / process documents
 
-    return True
+    return False
