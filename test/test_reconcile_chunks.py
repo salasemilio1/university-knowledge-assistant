@@ -35,7 +35,9 @@ def test_reconcile_chunk_discrepancy():
     # The returned result will be the ground-truth window
     assert result == "54-144 explorations in computing"
 
+
+    # Much smaller, but realistic and important example
     chunk = "## 54-204 Algorithms and Data Structures"
     page_text = "54-284 Algorithms and Data Structures"
     result = reconcile_chunk(chunk, page_text)
-    assert result == page_text
+    assert result == page_text.lower()

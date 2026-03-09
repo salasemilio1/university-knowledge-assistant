@@ -96,7 +96,7 @@ def reconcile_chunk(chunk_text: str, page_ground_truth: str) -> str:
     TODO: remove 4 and 5
     Reconcile chunk should replace the chunk with the ground-truth window if the
     best-match ratio is not 1.0
-    
+
     4. If the best-match ratio ≥ 0.95 → no discrepancy → return *original*
        ``chunk_text`` (preserving markdown).
     5. If the best-match ratio < 0.95 → discrepancy detected → return the
@@ -169,7 +169,7 @@ def reconcile_chunk(chunk_text: str, page_ground_truth: str) -> str:
         None, cleaned_chunk, gt_window, autojunk=False
     ).ratio()
 
-    if ratio >= 0.95:
+    if ratio >= 1:
         # Close enough — preserve original markdown
         return chunk_text
 
