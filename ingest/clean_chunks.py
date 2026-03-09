@@ -16,6 +16,7 @@ import copy
 import logging
 import re
 from difflib import SequenceMatcher
+from pathlib import Path
 from typing import Dict
 
 logger = logging.getLogger(__name__)
@@ -186,7 +187,7 @@ def reconcile_chunk(chunk_text: str, page_ground_truth: str) -> str:
 
 
 def reconcile_document(
-    landingai_json: dict, pymupdf_pages: Dict[int, str]
+    landingai_json: dict, pymupdf_pages: Dict[int, str], pdf_path: str | Path | None = None
 ) -> dict:
     """Walk all chunks in a LandingAI JSON response and reconcile each chunk's
     ``markdown`` text against the corresponding PyMuPDF page text.
@@ -201,6 +202,9 @@ def reconcile_document(
     pymupdf_pages:
         Ground-truth text keyed by **1-indexed** page number (i.e. what
         ``fitz.Page.get_text("text")`` returns for each page).
+    pdf_path:
+        Optional path to the source PDF. If provided, discrepancies will be
+        logged to a file with the same name but a ``.log`` extension.
 
     Returns
     -------
@@ -211,9 +215,16 @@ def reconcile_document(
     """
     result = copy.deepcopy(landingai_json)
 
+    log_path = None
+    if pdf_path:
+        log_path = Path(pdf_path).with_suffix(".log")
+        # clear the log if it already exists for this run
+        if log_path.exists():
+            log_path.unlink()
+
     chunks = result.get("chunks", [])
     total = len(chunks)
-    reconciled_count = 0
+    reconciled_count: int = 0
 
     for i, chunk in enumerate(chunks):
         markdown = chunk.get("markdown", "")
@@ -237,6 +248,12 @@ def reconcile_document(
         if new_text != markdown:
             chunk["markdown"] = new_text
             reconciled_count += 1
+            if log_path:
+                with open(str(log_path), "a", encoding="utf-8") as f:
+                    f.write(f"--- Discrepancy in Chunk {i + 1} (Page {page_1}) ---\n")
+                    f.write(f"Original (LandingAI):\n{markdown}\n\n")
+                    f.write(f"New (PyMuPDF):\n{new_text}\n\n")
+                    f.write("="*80 + "\n\n")
 
     logger.info(
         "Reconciliation complete: %d/%d chunks updated.", reconciled_count, total

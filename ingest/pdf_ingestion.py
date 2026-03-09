@@ -141,7 +141,7 @@ def ingest_pdf(pdf_path: str) -> Path:
 
     # Step 3: Reconcile
     logger.info("Step 3/3 — Reconciling chunks...")
-    reconciled = reconcile_document(landingai_json, pymupdf_pages)
+    reconciled = reconcile_document(landingai_json, pymupdf_pages, pdf)
 
     # Mark as reconciled
     reconciled["reconciled"] = True
