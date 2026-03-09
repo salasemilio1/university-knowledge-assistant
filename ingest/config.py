@@ -6,6 +6,8 @@ This file contains configuration for the ingest pipeline.
 # We will first categorize the document type and then use the appropriate
 # parsing method.
 
+# This also may need to be generalized to work for retrieval as well.
+
 #TODO: Drill down on what document types we need to support
 DOCUMENT_TYPES = {
     "course_catalog": {

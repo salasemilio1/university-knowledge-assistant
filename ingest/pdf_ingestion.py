@@ -26,6 +26,11 @@ import requests
 from dotenv import load_dotenv
 load_dotenv()
 
+# Add project root to sys.path so absolute imports like 'ingest.clean_chunks' 
+# work when running this file directly as a script.
+project_root = str(Path(__file__).resolve().parent.parent)
+if project_root not in sys.path:
+    sys.path.insert(0, project_root)
 from ingest.clean_chunks import reconcile_document
 
 logger = logging.getLogger(__name__)
@@ -60,7 +65,7 @@ def call_landingai(pdf_path: str) -> dict:
         response = requests.post(
             _LANDINGAI_URL,
             headers={"Authorization": f"Basic {api_key}"},
-            files={"file": (Path(pdf_path).name, f, "application/pdf")},
+            files={"document": (Path(pdf_path).name, f, "application/pdf")},
             data={"model": "dpt-2-mini"},
             timeout=120,
         )
