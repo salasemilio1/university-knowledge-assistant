@@ -170,6 +170,8 @@ class classify:
 
         }
 
+        query_classification
+
         return query_classification
     
 
@@ -188,39 +190,55 @@ class classify:
     
 
 
-    def classify_query_rule(self, query:str) -> dict:
+    def classify_query_rule(self, query:str, current_classification:dict) -> dict:
         """
         Classifies query by matching.
 
+        Args:
+            query(str): The query to classify.
+            current_classification(dict): The current query classification.
+
         Returns:
             dict: Classified query.
         """
 
         return {}
     
-    def classify_query_LLM(self, query:str) -> dict:
+    def classify_query_LLM(self, query:str, current_classification:dict) -> dict:
         """
         Classifies query by prompting LLM.
 
+        Args:
+            query(str): The query to classify.
+            current_classification(dict): The current query classification.
+
         Returns:
             dict: Classified query.
         """
 
         return {}
     
-    def classify_document_rule(self, document) -> dict:
+    def classify_document_rule(self, document, current_classification:dict) -> dict:
         """
         Classifies query by matching.
 
+        Args:
+            document( ): The document to classify.
+            current_classification(dict): The current document classification.
+
         Returns:
             dict: Classified query.
         """
 
         return {}
     
-    def classify_document_LLM(self, document) -> dict:
+    def classify_document_LLM(self, document, current_classification:dict) -> dict:
         """
         Classifies query by prompting LLM.
+
+        Args:
+            document( ): The document to classify.
+            current_classification(dict): The current document classification.
 
         Returns:
             dict: Classified query.
