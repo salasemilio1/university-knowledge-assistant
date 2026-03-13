@@ -146,6 +146,7 @@ class classify:
         "multi-topic"
     ]
 
+
     def classify_query_rule(self, query:str, current_classification:dict) -> dict:
         """
         Classifies query by matching.
@@ -158,7 +159,15 @@ class classify:
             dict: Classified query.
         """
 
-        return {}
+        query_tokens = query.split()
+
+        # add academic department to classification if it is present in query.
+        # TODO repeat same logic for other categories
+        for academic_department in self.academic_departments:
+            if academic_department in query_tokens:
+                current_classification["academic_department"].append("academic_department")
+
+        return current_classification
     
     def classify_query_LLM(self, query:str, current_classification:dict) -> dict:
         """
