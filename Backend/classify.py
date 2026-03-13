@@ -147,6 +147,8 @@ class classify:
         "multi-topic"
     ]
 
+
+
     @staticmethod
     def classify_query() -> dict:
         """
@@ -165,8 +167,6 @@ class classify:
         return query_classification
     
 
-
-
     @staticmethod
     def classify_document() -> dict:
         """
@@ -183,3 +183,43 @@ class classify:
 
         return document_classification
     
+
+    def classify_query_rule(self, query:str) -> dict:
+        """
+        Classifies query by matching.
+
+        Returns:
+            dict: Classified query.
+        """
+
+        return {}
+    
+    def classify_query_LLM(self, query:str) -> dict:
+        """
+        Classifies query by prompting LLM.
+
+        Returns:
+            dict: Classified query.
+        """
+
+        return {}
+    
+    def classify_document_rule(self, document) -> dict:
+        """
+        Classifies query by matching.
+
+        Returns:
+            dict: Classified query.
+        """
+
+        return {}
+    
+    def classify_document_LLM(self, document) -> dict:
+        """
+        Classifies query by prompting LLM.
+
+        Returns:
+            dict: Classified query.
+        """
+
+        return {}
