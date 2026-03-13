@@ -140,13 +140,11 @@ class classify:
         "historical"
     ]
 
-
     query_scope:list = [
         "specific",
         "broad",
         "multi-topic"
     ]
-
 
 
     @staticmethod
@@ -158,9 +156,17 @@ class classify:
             dict: Classified categories.
         """
 
+        # classification is represented as a dictionary.
+        # each classifying category value is a list due to potential for multiple values
         query_classification:dict = {
 
-            "department": None,
+            "academic_department": [],
+            "university_department": [],
+            "entity_type": [],
+            "audience": [],
+            "query_intent": [],
+            "time_sensitivity": [],
+            "query_scope":[]
 
         }
 
@@ -176,13 +182,11 @@ class classify:
             dict: Classified categories.
         """
         document_classification:dict = {
-
-            "department": None,
-
         }
 
         return document_classification
     
+
 
     def classify_query_rule(self, query:str) -> dict:
         """
