@@ -146,50 +146,6 @@ class classify:
         "multi-topic"
     ]
 
-
-    @staticmethod
-    def classify_query() -> dict:
-        """
-        Classifies a query.
-
-        Returns:
-            dict: Classified categories.
-        """
-
-        # classification is represented as a dictionary.
-        # each classifying category value is a list due to potential for multiple values
-        query_classification:dict = {
-
-            "academic_department": [],
-            "university_department": [],
-            "entity_type": [],
-            "audience": [],
-            "query_intent": [],
-            "time_sensitivity": [],
-            "query_scope":[]
-
-        }
-
-        query_classification
-
-        return query_classification
-    
-
-    @staticmethod
-    def classify_document() -> dict:
-        """
-        Classifies a document.
-
-        Returns:
-            dict: Classified categories.
-        """
-        document_classification:dict = {
-        }
-
-        return document_classification
-    
-
-
     def classify_query_rule(self, query:str, current_classification:dict) -> dict:
         """
         Classifies query by matching.
@@ -245,3 +201,51 @@ class classify:
         """
 
         return {}
+
+
+
+    def classify_query(self, query:str) -> dict:
+        """
+        Classifies a query.
+
+        Args:
+            query(str): The query.
+
+        Returns:
+            dict: Classified categories.
+        """
+
+        # classification is represented as a dictionary.
+        # each classifying category value is a list due to potential for multiple values
+        query_classification:dict = {
+
+            "academic_department": [],
+            "university_department": [],
+            "entity_type": [],
+            "audience": [],
+            "query_intent": [],
+            "time_sensitivity": [],
+            "query_scope":[]
+
+        }
+
+        # first pass with rule matching
+        query_classification = self.classify_query_rule(query, query_classification)
+
+        # second pass with LLM
+        query_classification = self.classify_query_LLM(query, query_classification)
+
+        return query_classification
+    
+
+    def classify_document(self) -> dict:
+        """
+        Classifies a document.
+
+        Returns:
+            dict: Classified categories.
+        """
+        document_classification:dict = {
+        }
+
+        return document_classification
