@@ -146,6 +146,8 @@ class classify:
         "multi-topic"
     ]
 
+    def __init__(self):
+        pass
 
     def classify_query_rule(self, query:str, current_classification:dict) -> dict:
         """
