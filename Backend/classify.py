@@ -3,7 +3,7 @@ The purpose of this class is to classify queries and documents based on rules
 and an LLM.
 """
 
-class classify:
+class Classify:
 
     # these lists will be used as a first pass to classify queries by matching 
     # query and document text against the contents of the list. the document or query will then be passed
