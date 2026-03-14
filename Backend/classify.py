@@ -3,7 +3,7 @@ The purpose of this class is to classify queries and documents based on rules
 and an LLM.
 """
 
-class classify:
+class Classify:
 
     # these lists will be used as a first pass to classify queries by matching 
     # query and document text against the contents of the list. the document or query will then be passed
@@ -22,11 +22,8 @@ class classify:
         ""
     ]
 
-    # all university departments
-    university_departments:list = []
-
     # what the query or document refers to
-    entity_type:list = [
+    entity_types:list = [
 
         # academic structure
         "course",
@@ -79,7 +76,7 @@ class classify:
 
 
     # who the document or query is intended for
-    audience:list = [
+    audiences:list = [
 
         "prospective_student",
         "undergraduate_student",
@@ -92,12 +89,12 @@ class classify:
     ]
 
     # type of document (course catalog, etc.)
-    document_type:list = [
+    document_types:list = [
 
     ]
 
     # intent of the query
-    query_intent:list = [
+    query_intents:list = [
 
         # information seeking
         "information_lookup",
@@ -135,17 +132,23 @@ class classify:
     ]
 
     # the time sensitivity of the query
-    time_sensitivity:list = [
+    time_sensitivities:list = [
         "current",
         "historical"
     ]
 
-    query_scope:list = [
+    query_scopes:list = [
         "specific",
         "broad",
         "multi-topic"
     ]
 
+    def __init__(self):
+        """
+        Class constructor. Does nothing except instantiate an object.
+        """
+
+        pass
 
     def classify_query_rule(self, query:str, current_classification:dict) -> dict:
         """
@@ -162,13 +165,44 @@ class classify:
         query_tokens = query.split()
 
         # add academic department to classification if it is present in query.
-        # TODO repeat same logic for other categories
         for academic_department in self.academic_departments:
             if academic_department in query_tokens:
-                current_classification["academic_department"].append("academic_department")
+                current_classification["academic_department"].append(academic_department)
+
+        # add university department to classification if it is present in query.
+        for university_department in self.university_departments:
+            if university_department in query_tokens:
+                current_classification["university_department"].append(university_department)
+
+        # add entity type to classification if it is present in query.
+        for entity_type in self.entity_types:
+            if entity_type in query_tokens:
+                current_classification["entity_type"].append(entity_type)
+
+        # add audience to classification if it is present in query.
+        for audience in self.audiences:
+            if audience in query_tokens:
+                current_classification["audience"].append(audience)
+
+        # add query intent to classification if it is present in query.
+        for query_intent in self.query_intents:
+            if query_intent in query_tokens:
+                current_classification["query_intent"].append(query_intent)
+
+        # add time sensitivity to classification if it is present in query.
+        for time_sensitivity in self.time_sensitivities:
+            if time_sensitivity in query_tokens:
+                current_classification["time_sensitivity"].append(time_sensitivity)
+
+        # add query scope to classification if it is present in query.
+        for query_scope in self.query_scopes:
+            if query_scope in query_tokens:
+                current_classification["query_scope"].append(query_scope)
 
         return current_classification
     
+
+
     def classify_query_LLM(self, query:str, current_classification:dict) -> dict:
         """
         Classifies query by prompting LLM.
