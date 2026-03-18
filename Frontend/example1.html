@@ -1,0 +1,200 @@
+
+<!-- an example html file utilizing htmx features -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTMX Feature Showcase</title>
+    <script src="https://unpkg.com/htmx.org@1.9.10"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background: #f7f7f7;
+        }
+        section {
+            background: white;
+            padding: 20px;
+            margin-bottom: 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+        h2 {
+            margin-top: 0;
+        }
+        button {
+            padding: 8px 12px;
+            margin-top: 5px;
+        }
+        input {
+            padding: 6px;
+            width: 250px;
+        }
+        .box {
+            padding: 10px;
+            background: #eef;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>🚀 HTMX Feature Showcase</h1>
+
+<!-- ========================= -->
+<!-- 1. SIMPLE REQUEST -->
+<!-- ========================= -->
+<section>
+    <h2>1. Simple Button Request</h2>
+    <button 
+        hx-get="/hello" 
+        hx-target="#hello-result"
+        hx-swap="innerHTML">
+        Say Hello
+    </button>
+    <div id="hello-result" class="box"></div>
+</section>
+
+<!-- ========================= -->
+<!-- 2. FORM SUBMISSION -->
+<!-- ========================= -->
+<section>
+    <h2>2. Form Submission</h2>
+    <form 
+        hx-post="/submit"
+        hx-target="#form-result"
+        hx-swap="innerHTML">
+        <input type="text" name="name" placeholder="Enter your name">
+        <button type="submit">Submit</button>
+    </form>
+    <div id="form-result" class="box"></div>
+</section>
+
+<!-- ========================= -->
+<!-- 3. LIVE SEARCH -->
+<!-- ========================= -->
+<section>
+    <h2>3. Live Search</h2>
+    <input 
+        type="text"
+        placeholder="Search..."
+        hx-get="/search"
+        hx-trigger="keyup changed delay:300ms"
+        hx-target="#search-results">
+    
+    <div id="search-results" class="box"></div>
+</section>
+
+<!-- ========================= -->
+<!-- 4. LOAD MORE / PAGINATION -->
+<!-- ========================= -->
+<section>
+    <h2>4. Load More (Pagination)</h2>
+    <div id="items">
+        <!-- Initial items should come from server -->
+    </div>
+
+    <button 
+        hx-get="/load-more?page=2"
+        hx-target="#items"
+        hx-swap="beforeend">
+        Load More
+    </button>
+</section>
+
+<!-- ========================= -->
+<!-- 5. DELETE ITEM -->
+<!-- ========================= -->
+<section>
+    <h2>5. Delete Item</h2>
+    <div id="item-1">
+        Item 1 
+        <button 
+            hx-delete="/delete/1"
+            hx-target="#item-1"
+            hx-swap="outerHTML">
+            Delete
+        </button>
+    </div>
+</section>
+
+<!-- ========================= -->
+<!-- 6. INLINE EDIT -->
+<!-- ========================= -->
+<section>
+    <h2>6. Inline Edit</h2>
+
+    <div 
+        hx-get="/edit/1"
+        hx-trigger="click"
+        hx-target="this"
+        hx-swap="outerHTML">
+        Click to edit this text
+    </div>
+</section>
+
+<!-- ========================= -->
+<!-- 7. AUTO REFRESH / POLLING -->
+<!-- ========================= -->
+<section>
+    <h2>7. Auto Refresh (Polling)</h2>
+
+    <div 
+        hx-get="/time"
+        hx-trigger="load, every 2s"
+        hx-target="this">
+        Loading time...
+    </div>
+</section>
+
+<!-- ========================= -->
+<!-- 8. CONDITIONAL TRIGGERS -->
+<!-- ========================= -->
+<section>
+    <h2>8. Conditional Trigger</h2>
+
+    <input 
+        type="text"
+        placeholder="Type at least 3 chars..."
+        hx-get="/validate"
+        hx-trigger="keyup changed delay:300ms"
+        hx-target="#validation-result">
+    
+    <div id="validation-result" class="box"></div>
+</section>
+
+<!-- ========================= -->
+<!-- 9. MODAL / DYNAMIC CONTENT -->
+<!-- ========================= -->
+<section>
+    <h2>9. Modal / Dynamic Content</h2>
+
+    <button 
+        hx-get="/modal"
+        hx-target="#modal"
+        hx-swap="innerHTML">
+        Open Modal
+    </button>
+
+    <div id="modal"></div>
+</section>
+
+<!-- ========================= -->
+<!-- 10. CHAT-LIKE INTERFACE -->
+<!-- ========================= -->
+<section>
+    <h2>10. Chat Interface</h2>
+
+    <div id="chat-box" class="box" style="height:150px; overflow:auto;"></div>
+
+    <form 
+        hx-post="/chat"
+        hx-target="#chat-box"
+        hx-swap="beforeend">
+        <input type="text" name="message" placeholder="Type message">
+        <button type="submit">Send</button>
+    </form>
+</section>
+
+</body>
+</html>
