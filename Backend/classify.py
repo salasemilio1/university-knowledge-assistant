@@ -4,8 +4,15 @@ and an LLM.
 """
 
 import re
+from google import genai
+import os
 
 class Classify:
+
+
+    # the model used to classify queries and documents
+    # TODO set up environment variable locally and in gcp
+    client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
 
     # these lists will be used as a first pass to classify queries by matching 
     # query and document text against the contents of the list. the document or query will then be passed
