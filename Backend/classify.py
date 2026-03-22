@@ -3,6 +3,8 @@ The purpose of this class is to classify queries and documents based on rules
 and an LLM.
 """
 
+import re
+
 class Classify:
 
     # these lists will be used as a first pass to classify queries by matching 
@@ -164,44 +166,55 @@ class Classify:
             dict: Classified query.
         """
 
-        query_tokens = query.split()
+        normalized_query = self.normalize_text(query)
 
         # add academic department to classification if it is present in query.
         for academic_department in self.academic_departments:
-            if academic_department in query_tokens:
+            if self.normalize_text(academic_department) in normalized_query:
                 current_classification["academic_department"].append(academic_department)
 
         # add university department to classification if it is present in query.
         for university_department in self.university_departments:
-            if university_department in query_tokens:
+            if self.normalize_text(university_department) in normalized_query:
                 current_classification["university_department"].append(university_department)
 
         # add entity type to classification if it is present in query.
         for entity_type in self.entity_types:
-            if entity_type in query_tokens:
+            if self.normalize_text(entity_type) in normalized_query:
                 current_classification["entity_type"].append(entity_type)
 
         # add audience to classification if it is present in query.
         for audience in self.audiences:
-            if audience in query_tokens:
+            if self.normalize_text(audience) in normalized_query:
                 current_classification["audience"].append(audience)
 
         # add query intent to classification if it is present in query.
         for query_intent in self.query_intents:
-            if query_intent in query_tokens:
+            if self.normalize_text(query_intent) in normalized_query:
                 current_classification["query_intent"].append(query_intent)
 
         # add time sensitivity to classification if it is present in query.
         for time_sensitivity in self.time_sensitivities:
-            if time_sensitivity in query_tokens:
+            if self.normalize_text(time_sensitivity) in normalized_query:
                 current_classification["time_sensitivity"].append(time_sensitivity)
 
         # add query scope to classification if it is present in query.
         for query_scope in self.query_scopes:
-            if query_scope in query_tokens:
+            if self.normalize_text(query_scope) in normalized_query:
                 current_classification["query_scope"].append(query_scope)
 
         return current_classification
+    
+    def normalize_text(self, text:str) -> str:
+        """
+        Normalizes the text of both queries and classifications for rule-based
+        query classification.
+        """
+
+        text = text.lower()
+        text = re.sub(r"[^a-z0-9\s]", " ", text)
+        text = re.sub(r"\s+", " ", text).strip()
+        return text
     
 
     def classify_query_LLM(self, query:str, current_classification:dict) -> dict:
@@ -310,9 +323,9 @@ class Classify:
         }
 
         # first pass with rule matching
-        document_classification = self.classify_query_rule(document_text, document_metadata, document_classification)
+        document_classification = self.classify_document_rule(document_text, document_metadata, document_classification)
 
         # second pass with LLM
-        document_classification = self.classify_query_LLM(document_text, document_metadata, document_classification)
+        document_classification = self.classify_document_LLM(document_text, document_metadata, document_classification)
 
         return document_classification
