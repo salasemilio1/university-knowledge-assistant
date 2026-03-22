@@ -235,7 +235,41 @@ class Classify:
             dict: Classified document.
         """
 
-        return {}
+        normalized_document_text = self.normalize_text(document_text)
+
+        # add document type to classification if it is present in query.
+        for document_type in self.document_types:
+            if self.normalize_text(document_type) in normalized_document_text:
+                current_classification["document_type"].append(document_type)
+
+        # add academic department to classification if it is present in query.
+        for academic_department in self.academic_departments:
+            if self.normalize_text(academic_department) in normalized_document_text:
+                current_classification["academic_department"].append(academic_department)
+
+        # add university department to classification if it is present in query.
+        for university_department in self.university_departments:
+            if self.normalize_text(university_department) in normalized_document_text:
+                current_classification["university_department"].append(university_department)
+
+        # add entity type to classification if it is present in query.
+        for entity_type in self.entity_types:
+            if self.normalize_text(entity_type) in normalized_document_text:
+                current_classification["entity_type"].append(entity_type)
+
+        # add audience to classification if it is present in query.
+        for audience in self.audiences:
+            if self.normalize_text(audience) in normalized_document_text:
+                current_classification["audience"].append(audience)
+
+        # add time sensitivity to classification if it is present in query.
+        for time_sensitivity in self.time_sensitivities:
+            if self.normalize_text(time_sensitivity) in normalized_document_text:
+                current_classification["time_sensitivity"].append(time_sensitivity)
+
+        #TODO match metadata
+
+        return current_classification
     
     def classify_document_LLM(self, document_text:str, document_metadata:dict, current_classification:dict) -> dict:
         """
@@ -268,9 +302,7 @@ class Classify:
         text = re.sub(r"[^a-z0-9\s]", " ", text)
         text = re.sub(r"\s+", " ", text).strip()
         return text
-
-
-
+    
 
     def classify_query(self, query:str) -> dict:
         """
