@@ -204,7 +204,6 @@ class Classify:
         return current_classification
     
 
-
     def classify_query_LLM(self, query:str, current_classification:dict) -> dict:
         """
         Classifies query by prompting LLM.
@@ -219,30 +218,34 @@ class Classify:
 
         return {}
     
-    def classify_document_rule(self, document, current_classification:dict) -> dict:
+
+    
+    def classify_document_rule(self, document_text:str, document_metadata:dict, current_classification:dict) -> dict:
         """
-        Classifies query by matching.
+        Classifies document by matching.
 
         Args:
-            document( ): The document to classify.
+            document_text(str): The text of the document to classify.
+            document_metadata(dict): The metadata of the document to classify.
             current_classification(dict): The current document classification.
 
         Returns:
-            dict: Classified query.
+            dict: Classified document.
         """
 
         return {}
     
-    def classify_document_LLM(self, document, current_classification:dict) -> dict:
+    def classify_document_LLM(self, document_text:str, document_metadata:dict, current_classification:dict) -> dict:
         """
-        Classifies query by prompting LLM.
+        Classifies document by prompting LLM.
 
         Args:
-            document( ): The document to classify.
+            document_text(str): The text of the document to classify.
+            document_metadata(dict): The metadata of the document to classify.
             current_classification(dict): The current document classification.
 
         Returns:
-            dict: Classified query.
+            dict: Classified document.
         """
 
         return {}
