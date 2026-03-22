@@ -205,17 +205,6 @@ class Classify:
 
         return current_classification
     
-    def normalize_text(self, text:str) -> str:
-        """
-        Normalizes the text of both queries and classifications for rule-based
-        query classification.
-        """
-
-        text = text.lower()
-        text = re.sub(r"[^a-z0-9\s]", " ", text)
-        text = re.sub(r"\s+", " ", text).strip()
-        return text
-    
 
     def classify_query_LLM(self, query:str, current_classification:dict) -> dict:
         """
@@ -262,6 +251,23 @@ class Classify:
         """
 
         return {}
+    
+
+    def normalize_text(self, text:str) -> str:
+        """
+        Normalizes text for rule-based classification.
+
+        Args:
+            text(str): The text to normalize. Can be queries, classifications, or document text.
+
+        Returns:
+            dict: The normalized text.
+        """
+
+        text = text.lower()
+        text = re.sub(r"[^a-z0-9\s]", " ", text)
+        text = re.sub(r"\s+", " ", text).strip()
+        return text
 
 
 
