@@ -10,6 +10,8 @@ class Classify:
     # into a LLM along with the lists for further matching that isn't feasible 
     # with rule-based matching (CS vs Computer Science, Bio vs Biology, Biolgy vs Biology)
 
+    #TODO fill in lists
+
     # all academic departments 
     academic_departments:list = [
         "Computer Science",
@@ -247,6 +249,7 @@ class Classify:
 
 
 
+
     def classify_query(self, query:str) -> dict:
         """
         Classifies a query.
@@ -281,14 +284,32 @@ class Classify:
         return query_classification
     
 
-    def classify_document(self) -> dict:
+    def classify_document(self, document_text:str, document_metadata:dict) -> dict:
         """
         Classifies a document.
+
+        Args:
+            document_text(str): The text of the document to classify.
+            document_metadata(dict): The metadata of the document to classify.
 
         Returns:
             dict: Classified categories.
         """
         document_classification:dict = {
+
+            "document_type": [],
+            "academic_department": [],
+            "university_department": [],
+            "entity_type": [],
+            "audience": [],
+            "time_sensitivity": []
+
         }
+
+        # first pass with rule matching
+        document_classification = self.classify_query_rule(document_text, document_metadata, document_classification)
+
+        # second pass with LLM
+        document_classification = self.classify_query_LLM(document_text, document_metadata, document_classification)
 
         return document_classification
