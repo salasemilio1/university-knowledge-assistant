@@ -22,7 +22,7 @@ def read_root() -> dict:
     return {"status": "Ok"} # return status
 
 
-@app.get("/retrieve")
+@app.post("/retrieve")
 def retrieve(request:Request) -> str:
     """
     Retrieves response in string form (later will be streamed).
@@ -32,7 +32,7 @@ def retrieve(request:Request) -> str:
         str: Response from LLM.
     """
 
-    form = Request.form()
+    form = request.form()
     query:str = form["query"]
 
     # check for query existence and type
@@ -49,7 +49,7 @@ def retrieve(request:Request) -> str:
     return get_response(query)
 
 
-@app.get("/ingest")
+@app.post("/ingest")
 def ingest(request:Request) -> bool:
     """
     Ingests an uploaded document to the database.
