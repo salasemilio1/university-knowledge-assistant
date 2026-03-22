@@ -3,12 +3,23 @@ The purpose of this class is to classify queries and documents based on rules
 and an LLM.
 """
 
+import re
+from google import genai
+import os
+
 class Classify:
+
+
+    # the model used to classify queries and documents
+    # TODO set up environment variable locally and in gcp
+    client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
 
     # these lists will be used as a first pass to classify queries by matching 
     # query and document text against the contents of the list. the document or query will then be passed
     # into a LLM along with the lists for further matching that isn't feasible 
     # with rule-based matching (CS vs Computer Science, Bio vs Biology, Biolgy vs Biology)
+
+    #TODO fill in lists
 
     # all academic departments 
     academic_departments:list = [
@@ -162,46 +173,45 @@ class Classify:
             dict: Classified query.
         """
 
-        query_tokens = query.split()
+        normalized_query = self.normalize_text(query)
 
         # add academic department to classification if it is present in query.
         for academic_department in self.academic_departments:
-            if academic_department in query_tokens:
+            if self.normalize_text(academic_department) in normalized_query:
                 current_classification["academic_department"].append(academic_department)
 
         # add university department to classification if it is present in query.
         for university_department in self.university_departments:
-            if university_department in query_tokens:
+            if self.normalize_text(university_department) in normalized_query:
                 current_classification["university_department"].append(university_department)
 
         # add entity type to classification if it is present in query.
         for entity_type in self.entity_types:
-            if entity_type in query_tokens:
+            if self.normalize_text(entity_type) in normalized_query:
                 current_classification["entity_type"].append(entity_type)
 
         # add audience to classification if it is present in query.
         for audience in self.audiences:
-            if audience in query_tokens:
+            if self.normalize_text(audience) in normalized_query:
                 current_classification["audience"].append(audience)
 
         # add query intent to classification if it is present in query.
         for query_intent in self.query_intents:
-            if query_intent in query_tokens:
+            if self.normalize_text(query_intent) in normalized_query:
                 current_classification["query_intent"].append(query_intent)
 
         # add time sensitivity to classification if it is present in query.
         for time_sensitivity in self.time_sensitivities:
-            if time_sensitivity in query_tokens:
+            if self.normalize_text(time_sensitivity) in normalized_query:
                 current_classification["time_sensitivity"].append(time_sensitivity)
 
         # add query scope to classification if it is present in query.
         for query_scope in self.query_scopes:
-            if query_scope in query_tokens:
+            if self.normalize_text(query_scope) in normalized_query:
                 current_classification["query_scope"].append(query_scope)
 
         return current_classification
     
-
 
     def classify_query_LLM(self, query:str, current_classification:dict) -> dict:
         """
@@ -217,35 +227,89 @@ class Classify:
 
         return {}
     
-    def classify_document_rule(self, document, current_classification:dict) -> dict:
+
+    
+    def classify_document_rule(self, document_text:str, document_metadata:dict, current_classification:dict) -> dict:
         """
-        Classifies query by matching.
+        Classifies document by matching.
 
         Args:
-            document( ): The document to classify.
+            document_text(str): The text of the document to classify.
+            document_metadata(dict): The metadata of the document to classify.
             current_classification(dict): The current document classification.
 
         Returns:
-            dict: Classified query.
+            dict: Classified document.
+        """
+
+        normalized_document_text = self.normalize_text(document_text)
+
+        # add document type to classification if it is present in query.
+        for document_type in self.document_types:
+            if self.normalize_text(document_type) in normalized_document_text:
+                current_classification["document_type"].append(document_type)
+
+        # add academic department to classification if it is present in query.
+        for academic_department in self.academic_departments:
+            if self.normalize_text(academic_department) in normalized_document_text:
+                current_classification["academic_department"].append(academic_department)
+
+        # add university department to classification if it is present in query.
+        for university_department in self.university_departments:
+            if self.normalize_text(university_department) in normalized_document_text:
+                current_classification["university_department"].append(university_department)
+
+        # add entity type to classification if it is present in query.
+        for entity_type in self.entity_types:
+            if self.normalize_text(entity_type) in normalized_document_text:
+                current_classification["entity_type"].append(entity_type)
+
+        # add audience to classification if it is present in query.
+        for audience in self.audiences:
+            if self.normalize_text(audience) in normalized_document_text:
+                current_classification["audience"].append(audience)
+
+        # add time sensitivity to classification if it is present in query.
+        for time_sensitivity in self.time_sensitivities:
+            if self.normalize_text(time_sensitivity) in normalized_document_text:
+                current_classification["time_sensitivity"].append(time_sensitivity)
+
+        #TODO match metadata
+
+        return current_classification
+    
+    def classify_document_LLM(self, document_text:str, document_metadata:dict, current_classification:dict) -> dict:
+        """
+        Classifies document by prompting LLM.
+
+        Args:
+            document_text(str): The text of the document to classify.
+            document_metadata(dict): The metadata of the document to classify.
+            current_classification(dict): The current document classification.
+
+        Returns:
+            dict: Classified document.
         """
 
         return {}
     
-    def classify_document_LLM(self, document, current_classification:dict) -> dict:
+
+    def normalize_text(self, text:str) -> str:
         """
-        Classifies query by prompting LLM.
+        Normalizes text for rule-based classification.
 
         Args:
-            document( ): The document to classify.
-            current_classification(dict): The current document classification.
+            text(str): The text to normalize. Can be queries, classifications, or document text.
 
         Returns:
-            dict: Classified query.
+            dict: The normalized text.
         """
 
-        return {}
-
-
+        text = text.lower()
+        text = re.sub(r"[^a-z0-9\s]", " ", text)
+        text = re.sub(r"\s+", " ", text).strip()
+        return text
+    
 
     def classify_query(self, query:str) -> dict:
         """
@@ -281,14 +345,32 @@ class Classify:
         return query_classification
     
 
-    def classify_document(self) -> dict:
+    def classify_document(self, document_text:str, document_metadata:dict) -> dict:
         """
         Classifies a document.
+
+        Args:
+            document_text(str): The text of the document to classify.
+            document_metadata(dict): The metadata of the document to classify.
 
         Returns:
             dict: Classified categories.
         """
         document_classification:dict = {
+
+            "document_type": [],
+            "academic_department": [],
+            "university_department": [],
+            "entity_type": [],
+            "audience": [],
+            "time_sensitivity": []
+
         }
+
+        # first pass with rule matching
+        document_classification = self.classify_document_rule(document_text, document_metadata, document_classification)
+
+        # second pass with LLM
+        document_classification = self.classify_document_LLM(document_text, document_metadata, document_classification)
 
         return document_classification

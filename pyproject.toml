@@ -9,6 +9,7 @@ dependencies = [
     "chromadb",
     "pymupdf>=1.27.1",
     "pytest>=9.0.2",
+    "google-genai>=1.68.0",
 ]
 
 [tool.pyright]
