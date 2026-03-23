@@ -4,7 +4,7 @@ This script is the logic core for the retrieval feature. It is called by deliver
 
 import numpy as np
 import chromadb as chroma
-
+import classify
 
 def embed_query(query:str) -> np.ndarray:
     """
@@ -19,16 +19,25 @@ def embed_query(query:str) -> np.ndarray:
 
     return np.random.rand(10)
 
-def classify_query():
+
+def classify_query(query:str) -> dict:
     """
     Classifies query.
 
     Args:
+        query(str): The query to classify.
 
     Returns:
+        dict: The query classification.
         
     """
-    return -1
+
+    classifier = classify.Classify()
+
+    classification = classifier.classify_query(query)
+
+    return classification
+
 
 def similarity_search():
     """
