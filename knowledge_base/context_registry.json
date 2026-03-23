@@ -1,0 +1,132 @@
+[
+  {
+    "slug": "anthropology",
+    "display_name": "Anthropology",
+    "folder": "Anthropology",
+    "description": "This context folder provides resources and information for students pursuing Anthropology degrees or minors at Southwestern University. It covers topics like career paths, faculty profiles, course descriptions, and opportunities for internships and graduate school. You'll also find details on honor society membership and relevant professional links.",
+    "keywords": [
+      "what can I do with an anthropology degree",
+      "anthropology course descriptions",
+      "who is the department chair",
+      "applying to grad school anthropology",
+      "top sociology grad programs",
+      "anthropology internships",
+      "how to get an internship",
+      "Alpha Kappa Delta requirements",
+      "sociology honor society",
+      "prerequisites for Anthropology of Race",
+      "career services help",
+      "jobs for anthropology majors",
+      "what are the requirements for AKD",
+      "anthropology faculty",
+      "environmental justice classes"
+    ]
+  },
+  {
+    "slug": "computer_science",
+    "display_name": "Computer Science",
+    "folder": "Computer Science",
+    "description": "Covers CS B.A., B.S., Minor, and Computational Mathematics degrees. Topics include programming courses (Java, C++, Haskell), algorithm analysis, artificial intelligence, computer systems, and senior software engineering capstone. Also includes department faculty, ACM/UPE clubs, and course placement via AP or transfer credit.",
+    "keywords": [
+      "programming",
+      "software",
+      "algorithms",
+      "CS",
+      "computer",
+      "coding",
+      "AI",
+      "data structures",
+      "computation",
+      "discrete math",
+      "database"
+    ]
+  },
+  {
+    "slug": "financial",
+    "display_name": "financial",
+    "folder": "financial",
+    "description": "This folder provides information on academic internships and experiential learning opportunities available through the Center for Integrative Learning. It details specific programs, including climate action summer schools and professional internship placements across various sectors, to help students gain applied experience.",
+    "keywords": [
+      "how to find an academic internship",
+      "are internships for credit",
+      "how do I apply for a funded internship",
+      "where can I do an internship",
+      "can I get credit for a summer internship",
+      "what is the Center for Integrative Learning",
+      "how do I get an internship through the university",
+      "are internships pass fail",
+      "how do I find professional development opportunities",
+      "how to get credit for experiential learning",
+      "what are the requirements for an internship",
+      "how to find internships in the environmental sector",
+      "can I do a virtual internship",
+      "how many hours do I need for an internship",
+      "what support is available for student internships"
+    ]
+  },
+  {
+    "slug": "general",
+    "display_name": "general",
+    "folder": "general",
+    "description": "This folder provides general university information, including Southwestern University's accreditation, institutional memberships, and nondiscrimination policies. It also covers academic testing procedures such as CLEP examinations, language placement requirements, and credit-by-exam policies.",
+    "keywords": [
+      "can I get college credit for CLEP exams",
+      "how do I fulfill the language requirement",
+      "what is the language placement exam",
+      "how to earn credit through advanced standing exams",
+      "what are the requirements for language exemption",
+      "is Southwestern University accredited",
+      "where can I find nondiscrimination policies",
+      "who do I contact for disability accommodations",
+      "can I repeat a language placement exam",
+      "how do I waive the foreign language requirement",
+      "how are credits awarded for subject examinations",
+      "what is the TOEFL requirement for language exemption",
+      "are CLEP general exams accepted for credit",
+      "where can I find the university mission and status",
+      "how do I report discrimination on campus"
+    ]
+  },
+  {
+    "slug": "math",
+    "display_name": "Math",
+    "folder": "Math",
+    "description": "Covers Math B.A., B.S., and Minor degrees. Topics include calculus (I, II, III), linear algebra, real analysis, complex analysis, algebraic structures, and mathematical modeling. Includes ALEKS math placement guidelines, Math Club, Pi Mu Epsilon honor society, and research opportunities like SCOPE.",
+    "keywords": [
+      "math",
+      "mathematics",
+      "calculus",
+      "algebra",
+      "analysis",
+      "geometry",
+      "statistics",
+      "ALEKS",
+      "proofs",
+      "modeling",
+      "number theory"
+    ]
+  },
+  {
+    "slug": "pre_engineering",
+    "display_name": "Pre-Engineering",
+    "folder": "Pre-Engineering",
+    "description": "This context provides information about the Pre-Engineering Pathway at Southwestern University, including required courses and degree options. It details dual degree programs with Washington University in St. Louis and Texas Tech University, as well as a physics-to-engineering graduate pathway. The content also lists specific courses within chemistry, computer science, math, and physics relevant to pre-engineering students.",
+    "keywords": [
+      "what courses are required for pre-engineering",
+      "what is the dual degree program",
+      "how to transfer to Washington University",
+      "what is the Texas Tech partnership",
+      "what are the degree requirements",
+      "what is the physics to engineering pathway",
+      "what are the pre-engineering electives",
+      "what courses are offered in chemistry",
+      "what courses are offered in computer science",
+      "what courses are offered in math",
+      "what courses are offered in physics",
+      "what is the capstone course",
+      "what faculty are involved",
+      "what is the pre-engineering pathway",
+      "what are the prerequisites for chemistry courses"
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+--- Page 1 of 1 ---
+
+Menu Search Apply Visit Majors & Minors
+PPRREE--EENNGGIINNEEEERRIINNGG PPAATTHHWWAAYY
+Courses
+Below you will -nd a list of our current or recent o4erings. See the course
+catalog for descriptions and updated information.
+CCHHEEMMIISSTTRRYY CCOOMMPPUUTTEERR SSCCIIEENNCCEE MMAATTHHEEMMAATTIICCSS PPHHYYSSIICCSS
+IINNTTRROODDUUCCTTIIOONN TTOO PPRROOGGRRAAMMMMIINNGG ((5544--114433)). An introduction to computer
+programming in an object-oriented style for practical application. Topics include class
+definition, basic program constructs, basic data structures, interactive user interfaces and
+encapsulation. This course does not fulfill the Area One Mathematics requirement. ((NNSS))
+CCOOMMPPUUTTEERR SSCCIIEENNCCEE II ((5544--118833)). Computer programming in an object-oriented style.
+Topics include primitive types and operations, assignment, selection, iteration, arrays,
+classes, methods, recursion, encapsulation, type extension, inheritance and reasoning
+about programs. Prerequisite: Previous programming with departmental approval, or
+Computer Science 54-143. (Each semester) ((NNSS))
