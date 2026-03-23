@@ -1,0 +1,36 @@
+--- Page 1 of 1 ---
+
+southwestern.edu
+Placement Information
+2–3 minutes
+Exam Placement
+Earning a 4 or 5 on the AP Computer Science A exam yields credit
+for CSC 54-184: Computer Science I. Earning a 4 or 5 on the AP
+Computer Science Principles exam earns credit for CSC54-144:
+Explorations in Computing. While that course does not count for the
+CS major or minor, students are encouraged to consult with MAT/
+CSC department chair to determine course placement in
+subsequent CSC courses. Students who have taken the AP
+Computer Science A course but did not earn credit, or who are
+comfortable in a programming language (Java or a different one)
+are encouraged to contact Dr. Anthony and Dr. Schrum to talk
+about appropriate placement.
+Non-Science Majors
+Explorations in Computing is an appropriate course for non-majors.
+However, both Explorations in Computing and Computer Science I
+are appropriate for students with no previous programming
+experience.
+Community College Transfer
+Many students are interested in transferring into our department
+using Texas Community College credits. Here is how these courses
+transfer:
+• COSC 1336 Programming Fundamentals I: Transfers in as a
+selected topics course that does not count toward the major.
+However, it may still be appropriate to place into Computer Science
+II. Please contact Dr. Anthony and Dr. Schrum for guidance.
+• COSC 1337 Programming Fundamentals II: Transfers in as CSC
+54-184: Computer Science I. However, if your previous
+programming experience is not in Java, you should consult with the
+CS faculty before taking additional courses in the department.
+• COSC 2336 Programming Fundamentals III: Transfers in as CSC
+54-284, Computer Science II
