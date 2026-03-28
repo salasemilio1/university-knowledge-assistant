@@ -10,6 +10,7 @@ dependencies = [
     "fastapi",
     "pytest",
     "google-genai",
+    "fastapi-users[sqlalchemy]>=15.0.5",
 ]
 
 [project.scripts]
