@@ -12,4 +12,13 @@ class User(SQLAlchemyBaseUserTableUUID, Base):
     """
     This class represents the user model with all fields.
     It is an ORM model powered by SQLAlchemy.
+
+    Out of the box fields include:
+        id (key): ID
+        email: str
+        hashed_password: str
+        is_active: bool
+        is_superuser: bool
+        is_verified: bool
     """
+
