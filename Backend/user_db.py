@@ -1,12 +1,17 @@
 """
-This class sets up the user database to make it available for use in the rest of
-the application.
+This script serves to manage most things related to FastAPI Users.
 """
+
 
 from collections.abc import AsyncGenerator
 
+from fastapi import Depends
+from fastapi_users.db import SQLAlchemyBaseUserTableUUID, SQLAlchemyUserDatabase
 from sqlalchemy.ext.asyncio import AsyncSession, async_sessionmaker, create_async_engine
 from sqlalchemy.orm import DeclarativeBase
+from user import User
+
+DATABASE_URL = "sqlite+aiosqlite:///./test.db"
 
 
 class Base(DeclarativeBase):
@@ -18,7 +23,6 @@ class Base(DeclarativeBase):
 
 engine = create_async_engine(DATABASE_URL)
 async_session_maker = async_sessionmaker(engine, expire_on_commit=False)
-
 
 async def create_db_and_tables():
     """
@@ -33,3 +37,8 @@ async def get_async_session() -> AsyncGenerator[AsyncSession, None]:
         yield session
 
 
+async def get_user_db(session: AsyncSession = Depends(get_async_session)):
+    """
+    Returns objext that allows interaction with currently logged in user.
+    """
+    yield SQLAlchemyUserDatabase(session, User)
