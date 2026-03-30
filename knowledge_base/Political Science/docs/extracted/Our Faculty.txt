@@ -1,0 +1,35 @@
+--- Page 1 of 2 ---
+
+Menu Search Apply Visit Majors & Minors
+POLITICAL SCIENCE
+Our Faculty
+NAME Alisa Gaunder
+TITLE Professor of Political Science
+E-MAIL gaundera@southwestern.edu
+PHONE 512.863.1418
+LOCATION CB 159
+NAME Alex Goodwin
+TITLE Assistant Professor of Political Science
+SPECIALTY American Politics, Race and Ethnic
+Politics, Black Politics, Policing, Social
+Movements,
+E-MAIL goodwina@southwestern.edu
+PHONE 512.863.1319
+
+--- Page 2 of 2 ---
+
+Menu Search Apply Visit Majors & Minors
+NAME Zoe Moss
+TITLE Assistant Professor of Political Science
+E-MAIL mossz@southwestern.edu
+PHONE 512.863.1602
+NAME Alexander Norris
+TITLE Visiting Asst. Professor of Political Science
+E-MAIL norris3@southwestern.edu
+NAME Bob Snyder
+TITLE Professor of Political Science
+SPECIALTY International Politics, U.S. Foreign Policy,
+Middle East Politics, Terrorism
+E-MAIL snyderb@southwestern.edu
+PHONE 512.863.1938
+LOCATION Mood-Bridwell 228

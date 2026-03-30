@@ -1,113 +1,276 @@
-# Skills Index — Anthropology
+# Skills Index — Sociology & Anthropology (Anthropology Focus)
 **Institution:** Southwestern University, Georgetown, Texas
-**Last Ingested:** 2026-03-19
-**Ingestion Model:** gemini-3-flash-preview
+**Last Ingested:** 2026-03-26
+**Ingestion Model:** Claude Sonnet 4.6
 **Document Count:** 9
 **Degree Paths Covered:** B.A. in Anthropology, Minor in Anthropology
 
 ---
 
-════════════════════════════════════════════════════════
-SECTION 2 — DOCUMENT REGISTRY
-════════════════════════════════════════════════════════
+## SECTION 1 — METADATA BLOCK
 
-### After Southwestern
-- **filename:** `After Southwestern.txt`
-- **document_type:** resources
-- **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
-- **description:** Outlines the post-graduation professional landscape for Sociology and Anthropology majors. It highlights core skills gained such as critical thinking, quantitative and qualitative data analysis, and cross-cultural understanding. The document lists specific employment sectors including social work, criminal justice, marketing research, and public relations. It provides guidance on utilizing the Office of Career Services for job searches and objective sharpening. Additionally, it references the American Sociological Association for career resources and points students toward the Alumni Directory for networking.
-- **critical_data:** Skills: quantitative/qualitative analysis, social organization, group behavior; Employment settings: social work, criminal justice, management, public relations, consulting.
-- **retrieval_triggers:** "jobs for anthropology majors", "careers in sociology", "anthropology skills", "alumni directory", "what can I do with an anthropology degree", "marketing research careers", "criminal justice jobs", "career services help".
+This index covers the Sociology & Anthropology department at Southwestern University, with particular focus on the Anthropology degree path. Documents span major requirements, course listings, faculty information, student organizations, graduate school guidance, internships, and career resources. The sociology track is partially covered but secondary to this index's primary Anthropology focus.
 
-### Alpha Kappa Delta
-- **filename:** `Alpha Kappa Delta.txt`
-- **document_type:** policy
-- **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** 2024-2025
-- **description:** Detailed information regarding the Texas Alpha Theta chapter of Alpha Kappa Delta (AKD), the national sociology honorary society. It explicitly lists the eligibility criteria for induction, including class standing (Junior/Senior), major/minor declaration in Sociology, and specific credit hour requirements at Southwestern University. The document mandates a minimum overall GPA of 3.6 and a minimum sociology GPA of 3.8. It identifies faculty sponsors Dr. Maria Lowe, Dr. Amanda Hernandez, and Dr. Adriana Ponce. A comprehensive list of student inductees from 2015 through 2025 is included.
-- **critical_data:** Minimum 16 hours of graded sociology credit at SU; 3.6 overall GPA; 3.8 sociology course GPA; junior or senior status.
-- **retrieval_triggers:** "Alpha Kappa Delta requirements", "sociology honor society", "AKD eligibility", "honor society GPA", "Dr. Maria Lowe AKD", "how to join sociology honors", "sociology credit hours for honors".
+---
 
-### Anthropology and Sociology Courses
-- **filename:** `Courses.txt`
-- **document_type:** course_info
-- **degree_relevance:** B.A. | Minor
-- **time_sensitive:** false
-- **catalog_year:** N/A
-- **description:** Comprehensive catalog of anthropology course offerings with detailed descriptions and topical focuses. It emphasizes themes of race, class, gender, global inequality, and environmental injustice, with geographic specializations in the Caribbean, Latin America, and Latinos in the U.S. Required core courses like ANT35-104, ANT35-424, and ANT35-964 (Senior Seminar) are described. The document includes specific prerequisites for upper-division courses such as ANT35-234 (Anthropology of Race) and ANT35-334 (Global Environmental Justice). It also details unique offerings like the Southwestern University Racial History Project (ANT35-524).
-- **critical_data:** ANT35-104 is a prerequisite for most upper-level courses; ANT35-424 is restricted to majors and offered in the Fall; ANT35-964 is a Spring capstone; Paideia tags: (ScS), (SJ), (PJ), (WA).
-- **retrieval_triggers:** "anthropology course descriptions", "ANT35-104", "Senior Seminar anthropology", "prerequisites for Anthropology of Race", "Caribbean studies courses", "environmental justice classes", "Southwestern Racial History Project".
-
-### Anthropology and Sociology Faculty
-- **filename:** `Faculty.txt`
-- **document_type:** general
-- **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
-- **description:** Profiles the faculty members of the Sociology and Anthropology department, including their academic titles, contact information, and specific research specialties. Professor Maria Lowe serves as Department Chair with expertise in racialized spaces and the Mississippi Civil Rights Movement. Assistant Professors Amanda Hernandez and Adriana Ponce specialize in gender, feminism, and qualitative methods. Professor Melissa Johnson's specialties include the Caribbean and environmental history, while Assistant Professor Naomi Reed focuses on critical whiteness studies and African diaspora studies. The document includes email addresses, phone numbers, and physical office locations for most faculty.
-- **critical_data:** Maria Lowe (Dept Chair); Melissa Johnson (Mood Bridwell 204); Naomi Reed (Mundy Cubicle 36); Amanda Hernandez; Adriana Ponce.
-- **retrieval_triggers:** "anthropology faculty", "who is the department chair", "Maria Lowe contact", "Naomi Reed specialty", "Melissa Johnson office", "sociology professors", "feminism research faculty", "whiteness studies professor".
-
-### Graduate School
-- **filename:** `Graduate School.txt`
-- **document_type:** resources
-- **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
-- **description:** Guidance for students applying to doctoral programs in Anthropology and Sociology. It details the standard components of a graduate application, including GRE scores, letters of recommendation, personal statements, and writing samples. The document advises applying to at least five schools and highlights application deadlines in December and January. It provides a historical ranking of top Anthropology research-doctoral programs, listing institutions like University of Michigan, University of Chicago, and UC Berkeley. It also provides a link to the 2024 US News and World Report rankings for Sociology programs.
-- **critical_data:** PhD deadlines typically Dec/Jan; 3 letters of recommendation usually required; lists top 13 anthropology programs.
-- **retrieval_triggers:** "applying to grad school anthropology", "top sociology grad programs", "GRE for anthropology", "PhD application deadlines", "writing sample for graduate school", "letters of recommendation for grad school".
-
-### Internships
-- **filename:** `Internships.txt`
-- **document_type:** resources
-- **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
-- **description:** Overview of internship opportunities and the application process for sociology and anthropology students. It lists past internship sites such as adult and juvenile probation offices, drug rehabilitation centers, the Texas Attorney General's Office, and various political offices. Students are instructed to contact the Director of Internships in the Office of Career Services at least one semester before their planned internship. The process requires submitting a resume and completing specific paperwork. The document encourages both academic year and summer internship experiences.
-- **critical_data:** Contact Career Services one semester prior; paperwork and resume required; diverse settings including criminal justice and politics.
-- **retrieval_triggers:** "anthropology internships", "sociology internship sites", "how to get an internship", "Director of Internships contact", "summer internships", "criminal justice internships".
-
-### Professional Links
-- **filename:** `Links.txt`
-- **document_type:** resources
-- **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
-- **description:** A curated list of professional associations and data sources relevant to sociology and anthropology students. It includes major professional bodies such as the American Anthropological Association (AAA), Latin American Studies Association (LASA), and the American Sociological Association (ASA). For research purposes, it points students to critical data sources including the U.S. Census Bureau, Bureau of Justice Statistics, and the Inter-University Consortium for Political and Social Research (ICPSR). This resource facilitates student engagement with the broader academic community and provides tools for independent data collection.
-- **critical_data:** Professional associations: AAA, LASA, SfAA, ASA, SSS; Data sources: BJS, ICPSR, NCES, NCHS, Census Bureau.
-- **retrieval_triggers:** "anthropology associations", "sociology data sources", "where to find census data", "American Anthropological Association", "Latin American Studies Association".
+## SECTION 2 — DOCUMENT REGISTRY
 
 ### Majoring and Minoring in Anthropology
-- **filename:** `Majoring and Minoring.txt`
+- **filename:** `Majoring_and_Minoring.txt`
 - **document_type:** requirements
 - **degree_relevance:** B.A. | Minor
-- **time_sensitive:** false
-- **catalog_year:** 2024-2025
-- **description:** Defines the formal requirements for the B.A. major and minor in Anthropology. The major requires a minimum of 30 credits (eight courses), including specific core courses like Intro to Cultural Anthropology (ANT35-104), Theory and Method (ANT35-424), and the Senior Seminar capstone (ANT35-964). A critical component is the 4-week intensive research period (ethnographic or historical) required before the capstone. The minor requires a minimum of 18 credits (five courses). The document also lists specific contributing courses from Feminist Studies, Political Science, and Religion that count toward the major/minor requirements.
-- **critical_data:** Major: 30 credits (8 courses); Minor: 18 credits (5 courses); 4-week intensive research requirement; Core course ANT35-424 offered Fall only; Core course ANT35-964 offered Spring only.
-- **retrieval_triggers:** "anthropology major requirements", "anthropology minor credits", "research requirement anthropology", "courses for anthropology major", "contributing courses for anthropology", "ANT35-964 prerequisite", "how many credits for anthropology minor".
+- **time_sensitive:** true
+- **catalog_year:** N/A (no explicit catalog year stated; treat as current)
+- **description:** This is the primary requirements document for the Anthropology B.A. and Minor. It specifies that the B.A. requires eight courses totaling a minimum of 30 credits, with four required core courses: ANT35-104 (Introduction to Cultural Anthropology), one of SOC34-114 or SOC34-124, ANT35-424 (Theory and Method in Cultural Anthropology), and ANT35-964 (Senior Seminar/Capstone). Four additional upper-level electives round out the major, one of which may be an upper-level Sociology course. The minor requires five courses totaling a minimum of 18 credits: ANT35-104 plus four additional contributing courses. The document also lists contributing courses from Feminist Studies (FST04-254, FST04-364), Political Science (PSC32-184), and Religion (REL19-214, REL19-354, REL19-384, REL19-364, REL19-324). The major requires an in-depth ethnographic/historical research period of at least four weeks completed by end of fall semester of the senior year. The program specializes in the Caribbean and the African Diaspora.
+- **critical_data:**
+  - B.A. requires minimum 30 credits (8 courses)
+  - Minor requires minimum 18 credits (5 courses)
+  - Required core: ANT35-104, SOC34-114 or SOC34-124, ANT35-424, ANT35-964
+  - Four additional upper-level electives required; one may be upper-level Sociology
+  - Minimum 4 weeks intensive ethnographic/historical research required before capstone (completed by end of fall senior year)
+  - Study abroad encouraged for research period; see approved provider list
+  - Racial History Project course (ANT35-524) may satisfy research requirement
+  - Course numbering: 100=intro; 200-300=upper level; 400=theory/method; 500=research; 900=capstone/independent
+  - Contributing courses available from FST, PSC, REL departments
+- **retrieval_triggers:**
+  - "how many credits for anthropology major"
+  - "what courses are required for the anthropology BA"
+  - "what is the anthropology minor"
+  - "how many classes do I need for the minor"
+  - "can I count a sociology class toward my anthropology major"
+  - "do I have to do research for the anthropology degree"
+  - "what is the capstone for anthropology"
+  - "what counts toward the anthropology major"
+  - "can I do study abroad for my research requirement"
+  - "what outside courses contribute to anthropology"
+  - "what's the difference between the major and minor"
+  - "does feminist studies count toward anthropology"
+  - "what religion courses count for anthropology"
+  - "ANT 424 requirements"
+  - "when do I take the senior seminar"
 
-### OASIS (Student Organization)
+---
+
+### Courses — Sociology & Anthropology
+- **filename:** `Courses.txt`
+- **document_type:** course_info
+- **degree_relevance:** B.A. | Minor | All
+- **time_sensitive:** false
+- **catalog_year:** N/A
+- **description:** Lists all current or recent anthropology (ANT35) course offerings with full descriptions and prerequisites. Courses include ANT35-104 (Introduction to Cultural Anthropology, each semester, ScS, SJ, PJ), ANT35-234 (Anthropology of Race: Shifting the Gaze, prerequisite ANT35-104 or permission), ANT35-244 (Race, Class and Gender in the Caribbean, prerequisite ANT35-104, FST04-104, or permission), ANT35-274 (Cultural Heritage, Criminal Justice, Race, American South, prerequisite ANT35-104 or permission), ANT35-304 (Selected Topics, offered infrequently), ANT35-334 (Global Environmental Justice, prerequisite ANT35-104, ENVS49-104, or FST04-104), ANT35-424 (Theory and Method in Cultural Anthropology, prerequisite ANT35-104, restricted to majors, offered fall only), ANT35-524 (Southwestern Univ Racial History Project, prerequisite ANT35-104 or permission), and ANT35-964 (Senior Seminar, prerequisite permission of instructor, offered spring only). The document also notes sociology (SOC34) offerings exist but lists primarily anthropology courses in the extracted text. Paideia designations (ScS, SJ, PJ, WA) are noted per course.
+- **critical_data:**
+  - ANT35-104: No prerequisites; offered each semester; satisfies ScS, SJ, PJ
+  - ANT35-234: Prerequisite ANT35-104 or permission
+  - ANT35-244: Prerequisite ANT35-104, FST04-104, or permission; satisfies Feminist Studies, International Studies, Latin American and Border Studies, Race & Ethnicity
+  - ANT35-274: Prerequisite ANT35-104 or permission; contributes to Legal Studies Certificate
+  - ANT35-304: Selected Topics; offered infrequently; repeatable with content change
+  - ANT35-334: Prerequisite ANT35-104, ENVS49-104, or FST04-104; contributes to Animal Studies, Environmental Studies, and more
+  - ANT35-424: Prerequisite ANT35-104; restricted to majors; offered fall only; prepares students for senior seminar research
+  - ANT35-524: Prerequisite ANT35-104 or permission; contributes to Race & Ethnicity Studies; can fulfill senior research requirement
+  - ANT35-964: Prerequisite permission of instructor; offered spring only; WA and ScS designations; capstone paper + campus presentation required
+- **retrieval_triggers:**
+  - "what is ANT 104"
+  - "what courses are offered in anthropology"
+  - "when is Theory and Method offered"
+  - "what are the prerequisites for ANT 424"
+  - "senior seminar details"
+  - "what is the Racial History Project course"
+  - "what courses count toward feminist studies from anthropology"
+  - "what anthropology courses satisfy Social Justice"
+  - "global environmental justice course"
+  - "race class gender Caribbean course"
+  - "ANT 274 criminal justice"
+  - "when is ANT 964 offered"
+  - "is ANT 104 offered every semester"
+  - "can I take selected topics more than once"
+  - "does anthropology have a Power and Justice course"
+
+---
+
+### Faculty — Sociology & Anthropology
+- **filename:** `Faculty.txt`
+- **document_type:** advising
+- **degree_relevance:** All
+- **time_sensitive:** true
+- **catalog_year:** N/A
+- **description:** Lists all current faculty in the Sociology and Anthropology department with name, title, specialty, email, phone, and (where provided) office location. Faculty include: Maria R. Lowe (Professor of Sociology, Department Chair; specialty: racialized spaces, racial attitudes, qualitative/mixed methods; lowem@southwestern.edu; 512.863.1936), Amanda Hernandez (Assistant Professor of Sociology; specialty: gender, feminism, religion, whiteness; hernande3@southwestern.edu; 512.863.1357), Melissa Johnson (Professor of Anthropology; specialty: nature/race/environment/tourism; area: Belize, Caribbean, U.S.-Mexico Borderlands, Central Texas; meljohn@southwestern.edu; 512.863.1406; 204 Mood Bridwell), Adriana Ponce (Assistant Professor of Sociology; specialty: community-engagement, feminism, intersectionality, family; poncea@southwestern.edu; 512.863.1328), and Naomi Reed (Assistant Professor of Anthropology; specialty: Critical Whiteness Studies, African Diaspora Studies, educational anthropology, American South; reedn@southwestern.edu; 512.863.1663; Mundy Cubicle 36 temporary).
+- **critical_data:**
+  - Department Chair: Maria R. Lowe (lowem@southwestern.edu; 512.863.1936)
+  - Anthropology faculty: Melissa Johnson and Naomi Reed
+  - Sociology faculty: Maria R. Lowe, Amanda Hernandez, Adriana Ponce
+  - Melissa Johnson's office: 204 Mood Bridwell
+  - Naomi Reed's office: Mundy Cubicle 36 (temporary)
+  - Department phone: 512.863.6511 (Georgetown, Texas contact)
+- **retrieval_triggers:**
+  - "who teaches anthropology"
+  - "who is the department chair"
+  - "how do I contact a professor"
+  - "who is my advisor"
+  - "Melissa Johnson email"
+  - "Naomi Reed office"
+  - "Maria Lowe phone number"
+  - "who teaches theory and method"
+  - "anthropology professor specialties"
+  - "who do I talk to about the major"
+  - "faculty contact information"
+
+---
+
+### Alpha Kappa Delta — National Sociology Honorary Society
+- **filename:** `Alpha_Kappa_Delta.txt`
+- **document_type:** resources
+- **degree_relevance:** B.A. | Minor
+- **time_sensitive:** true
+- **catalog_year:** 2025 (most recent induction year listed)
+- **description:** Covers the Texas Alpha Theta chapter of Alpha Kappa Delta (AKD), the national sociology honorary society housed in the department. Eligibility criteria are specified: junior or senior standing, declared sociology major or minor, minimum 16 graded sociology credit hours at SU, minimum overall GPA of 3.6, and minimum sociology GPA of 3.8. Eligible students are invited each January. Dr. Maria Lowe is faculty sponsor and chapter representative; Dr. Amanda Hernandez and Dr. Adriana Ponce are also AKD members. The document lists inductees from 2015 through 2025. Note: AKD is specifically a sociology honorary — anthropology students would need a sociology major or minor to be eligible.
+- **critical_data:**
+  - AKD is a sociology honorary — requires sociology major or minor (not anthropology)
+  - Minimum overall GPA: 3.6
+  - Minimum sociology GPA: 3.8
+  - Minimum 16 graded sociology hours at SU required
+  - Must be junior or senior
+  - Invitations sent each January
+  - Faculty sponsor: Dr. Maria Lowe
+  - 2025 inductees: Isabella Bahamon, Mary Katherine McAdams
+- **retrieval_triggers:**
+  - "Alpha Kappa Delta"
+  - "AKD sociology honor society"
+  - "how do I join the honor society"
+  - "what GPA do I need for AKD"
+  - "honorary society requirements"
+  - "sociology honors"
+  - "when are AKD invitations sent"
+
+---
+
+### OASIS — Organization of Anthropology and Sociology Interested Students
 - **filename:** `OASIS.txt`
 - **document_type:** resources
 - **degree_relevance:** All
 - **time_sensitive:** true
 - **catalog_year:** 2024-2025
-- **description:** Provides information on the Organization of Anthropology and Sociology Interested Students (OASIS). It identifies the 2024-2025 Co-Presidents as Emma French (Anthro) and Chelsey Rocha (Soc). The organization aims to build community among students and faculty through activities such as picnics, end-of-year parties, and alumni panels focusing on careers or graduate school. Students are encouraged to participate in planning through departmental faculty and are notified of events via a listserv and Instagram. The department chair serves as the primary contact for more information.
-- **critical_data:** Co-Presidents: Emma French and Chelsey Rocha; Contact Dept Chair for info; Community building events; Listserve and Instagram notifications.
-- **retrieval_triggers:** "OASIS anthropology", "student clubs for sociology", "Emma French OASIS", "Chelsey Rocha OASIS", "how to join anthropology club", "anthropology student organization".
+- **description:** Describes OASIS (Organization of Anthropology and Sociology Interested Students), the student organization for the department. Co-Presidents for 2024-2025 are Emma French (Anthropology) and Chelsey Rocha (Sociology). Both students and faculty participate. Activities may include a fall picnic, end-of-year party, alumni career panels, and community-building events. Students are notified via listserv and Instagram. Majors and minors are encouraged to participate in planning. Students interested in getting involved should contact a faculty member; for more information, contact the department chair.
+- **critical_data:**
+  - Organization name: OASIS (Organization of Anthropology and Sociology Interested Students)
+  - 2024-2025 Co-Presidents: Emma French (Anthro), Chelsey Rocha (Soc)
+  - Events: fall picnic, end-of-year party, alumni panels, community meetings
+  - Notifications via listserv and Instagram
+  - Contact department chair for more info
+- **retrieval_triggers:**
+  - "student organization anthropology"
+  - "OASIS club"
+  - "how do I get involved in the department"
+  - "is there a sociology club"
+  - "student activities anthropology"
+  - "alumni panels"
+  - "department social events"
+  - "who leads OASIS"
 
 ---
 
-════════════════════════════════════════════════════════
-SECTION 3 — DEGREE PATH SUMMARIES
-════════════════════════════════════════════════════════
+### Graduate School — Anthropology and Sociology
+- **filename:** `Graduate_School.txt`
+- **document_type:** advising
+- **degree_relevance:** B.A. | All
+- **time_sensitive:** true
+- **catalog_year:** 2024 (US News rankings cited as 2024)
+- **description:** Provides guidance on the graduate school application process and rankings. Recommends beginning the process early; PhD program applications are typically due December or January, with some programs having separate admissions and financial aid deadlines. Applications should be submitted before the earlier deadline. Students are encouraged to apply to at least five schools. Typical application materials include transcripts, GRE scores, three letters of recommendation, personal/purpose statement, application fees, writing sample, and financial aid application. A CV may also be submitted. Rankings for top graduate programs in Anthropology (from the National Research Council, 1993) are listed, with University of Michigan (#1), University of Chicago (#2), UC Berkeley (#3), Harvard (#4), and University of Arizona (#5) among the top. For Sociology, students are directed to US News 2024 rankings (linked). Faculty are encouraged as a resource for discussing graduate school interest and applications.
+- **critical_data:**
+  - PhD application deadlines: typically December or January
+  - Recommended: apply to at least 5 schools
+  - Common application materials: transcripts, GRE, 3 recommendation letters, personal statement, fees, writing sample, financial aid application
+  - Top anthropology programs (NRC 1993): U-Michigan, U-Chicago, UC Berkeley, Harvard, U-Arizona
+  - UT Austin ranks #10 in anthropology
+  - Sociology rankings: US News 2024 (link in source document)
+  - Discuss applications with department faculty
+- **retrieval_triggers:**
+  - "should I go to grad school"
+  - "how do I apply to graduate school"
+  - "what does a grad school application need"
+  - "best grad programs in anthropology"
+  - "PhD application deadline"
+  - "do I need GRE for grad school"
+  - "letters of recommendation for graduate school"
+  - "top sociology PhD programs"
+  - "how many schools should I apply to"
+  - "writing sample for grad school"
+
+---
+
+### Internships — Sociology and Anthropology
+- **filename:** `Internships.txt`
+- **document_type:** resources
+- **degree_relevance:** All
+- **time_sensitive:** false
+- **catalog_year:** N/A
+- **description:** Briefly covers academic and summer internship opportunities available to Sociology and Anthropology students. Past internship settings have included adult and juvenile probation, drug rehabilitation centers, the Attorney General's Office, and offices of Texas politicians. Students interested in academic internships should contact the Director of Internships in the Office of Career Services at least one semester before the planned internship. A resume must be submitted and all Office of Career Services paperwork completed. No specific course credit hours or formal internship course code are listed in this document.
+- **critical_data:**
+  - Contact: Director of Internships, Office of Career Services
+  - Lead time: at least one semester before planned internship
+  - Required: resume + Career Services paperwork
+  - Past internship sites: juvenile/adult probation, drug rehab, Attorney General's Office, Texas politicians
+- **retrieval_triggers:**
+  - "how do I get an internship"
+  - "internship opportunities for sociology"
+  - "anthropology internship"
+  - "can I get credit for an internship"
+  - "who do I contact for internships"
+  - "career services internship"
+  - "summer internship anthropology"
+
+---
+
+### After Southwestern — Career Resources
+- **filename:** `After_Southwestern.txt`
+- **document_type:** resources
+- **degree_relevance:** B.A. | All
+- **time_sensitive:** false
+- **catalog_year:** N/A
+- **description:** Describes post-graduation career pathways and resources for Sociology and Anthropology graduates. Highlights transferable skills: critical thinking, quantitative and qualitative data collection and analysis, understanding human interaction and group behavior, and cross-cultural competency. Employment settings mentioned include social work and criminal justice, management, administration and personnel, marketing research and public relations, retailing, and consulting. Recommends students establish an ongoing relationship with the Office of Career Services. References the American Sociological Association's "Careers in Sociology" site. Also mentions an Alumni Directory where alumni contacts willing to speak with current students can be found.
+- **critical_data:**
+  - Key skills developed: critical thinking, data collection/analysis, cultural competency
+  - Career fields: social work, criminal justice, management, marketing research, PR, retailing, consulting
+  - Resource: Office of Career Services (print and online resources)
+  - External resource: American Sociological Association "Careers in Sociology"
+  - Alumni Directory available for student networking
+- **retrieval_triggers:**
+  - "what jobs can I get with a sociology degree"
+  - "what can I do after anthropology"
+  - "careers in sociology"
+  - "is sociology a useful major"
+  - "career services for sociology students"
+  - "alumni network anthropology"
+  - "what skills does anthropology teach"
+  - "jobs with anthropology degree"
+
+---
+
+### Links — Professional Associations and Data Sources
+- **filename:** `Links.txt`
+- **document_type:** resources
+- **degree_relevance:** All
+- **time_sensitive:** false
+- **catalog_year:** N/A
+- **description:** Lists professional associations and data sources relevant to Anthropology and Sociology students. Anthropology associations: American Anthropological Association, Latin American Studies Association, Society for Applied Anthropology. Sociology associations: American Sociological Association, Southern Sociological Society. Data sources: Bureau of Justice Statistics, Inter-University Consortium for Political and Social Research (ICPSR), National Center for Education Statistics, National Center for Health Statistics, U.S. Census Bureau.
+- **critical_data:**
+  - Anthropology professional orgs: AAA, LASA, Society for Applied Anthropology
+  - Sociology professional orgs: ASA, Southern Sociological Society
+  - Data sources: BJS, ICPSR, NCES, NCHS, U.S. Census Bureau
+- **retrieval_triggers:**
+  - "professional associations for anthropology"
+  - "sociology professional organizations"
+  - "where do I find research data"
+  - "American Anthropological Association"
+  - "data sources for sociology research"
+  - "Latin American Studies Association"
+
+---
+
+## SECTION 3 — DEGREE PATH SUMMARIES
 
 ### SU Universal Graduation Requirements (All Degree Paths)
+
+These apply to ALL students regardless of major. Source: `SU_General_Policies.txt`
 
 | Requirement | Detail |
 |---|---|
@@ -122,14 +285,14 @@ SECTION 3 — DEGREE PATH SUMMARIES
 
 ### SU Universal Curriculum Requirements (Paideia Framework)
 
-**Required for ALL degree paths (B.A., B.S., B.F.A., B.Mus., B.S.Ed.):**
+**Required for ALL degree paths:**
 - First-Year Seminar (FYS) or Advanced-Entry Seminar (AES): 4 credits
-- Languages and Cultures: through third-semester proficiency (up to 12 credits)
+- Languages and Cultures: through third-semester proficiency
 - Fitness and Recreational Activity (FRA): 1 credit
-- Power and Justice (PJ) course: 1 course (satisfied by ANT35-104, 35-244, 35-334)
-- Exploration and Breadth: 6 courses from outside the major, distributed as:
-  - Part I: one course from each of four areas: Fine Arts (FA), Humanities (H), Natural Sciences (NS), Social Sciences (ScS — ANT courses satisfy this)
-  - Part II: one additional course from two of the four areas
+- Power and Justice (PJ) course: 1 course, 3-4 credits (cannot be transfer credit)
+- Exploration and Breadth: 6 courses from outside the major (Part I: one from each of FA, H, NS, ScS; Part II: one additional from two of those four areas)
+
+Note: ANT35-104 satisfies ScS, SJ, and PJ Paideia designations.
 
 ---
 
@@ -137,33 +300,33 @@ SECTION 3 — DEGREE PATH SUMMARIES
 
 | Field | Detail |
 |---|---|
-| Total Credit Hours | 127 Minimum |
-| Major Credit Hours | 30 credits (8 courses) |
+| Total Credit Hours | Minimum 30 major credits + 127 total SU graduation credits |
+| Major Credit Hours | Minimum 30 credits (8 courses) |
 | Minimum GPA (Overall) | 2.000 |
-| Minimum GPA (Major) | 2.000 |
-| Residency Requirement | 64 credits total at SU; 60% of major credits at SU |
-| Source Document | `Majoring and Minoring.txt` |
+| Minimum GPA (Major) | 2.000 (no grade below C- counts) |
+| Residency Requirement | At least 60% of major credits at SU |
+| Source Document | `Majoring_and_Minoring.txt` |
 
 **Required Core Courses:**
-- ANT35-104 — Introduction to Cultural Anthropology (4 credits)
-- SOC34-114 — Introduction to Sociology OR SOC34-124 Social Problems (4 credits)
-- ANT35-424 — Theory and Method in Cultural Anthropology (4 credits)
-- ANT35-964 — Senior Seminar (Capstone) (4 credits)
+- ANT35-104 — Introduction to Cultural Anthropology
+- SOC34-114 — Introduction to Sociology OR SOC34-124 — Social Problems
+- ANT35-424 — Theory and Method in Cultural Anthropology (fall only; recommended sophomore or junior year; restricted to majors)
+- ANT35-964 — Senior Seminar (spring of senior year; capstone)
 
 **Elective Requirements:**
-- Four additional upper-level courses in or contributing to Anthropology (approx. 16 credits).
-- One of these four may be an upper-level Sociology (SOC) course.
-- Contributing courses include: FST04-254, FST04-364, PSC32-184, REL19-214, REL19-354, REL19-384, REL19-364, REL19-324.
+- Four additional upper-level courses in or contributing to Anthropology
+- One of the four electives may be an upper-level Sociology course
+- Eligible contributing courses from FST, PSC, REL departments (see Majoring_and_Minoring.txt for full list)
 
 **Additional Graduation Requirements:**
-- **Research Period:** Must complete a minimum of 4 weeks of intensive ethnographic or historical research. Data collected must be used for the capstone.
-- **Timing:** Research must be finished by the end of the fall semester of senior year.
-- **Methods:** Research can be done via study abroad, the Southwestern University Racial History Project (ANT35-524), or an independent project.
+- Minimum four weeks of intensive ethnographic/historical research completed by end of fall of senior year
+- Research may be completed via: approved study abroad program, ANT35-524 (Racial History Project), or independently developed project
+- Senior Seminar requires a major research paper, campus presentation, and is encouraged for regional/national conference submission
 
 **Notable Constraints:**
-- ANT35-424 (Theory & Method) is offered ONLY in the Fall.
-- ANT35-964 (Senior Seminar) is offered ONLY in the Spring.
-- Prerequisite Chain: ANT35-104 is required for ANT35-424, which is required for ANT35-964.
+- ANT35-424 (Theory and Method) is offered fall only and is restricted to declared majors
+- ANT35-964 (Senior Seminar) is offered spring only and requires permission of instructor
+- Research period must be completed before entering Senior Seminar
 
 ---
 
@@ -171,290 +334,603 @@ SECTION 3 — DEGREE PATH SUMMARIES
 
 | Field | Detail |
 |---|---|
-| Total Credit Hours | 18 credits (5 courses) |
-| Residency Requirement | At least 12 minor credits must be completed at SU |
-| Source Document | `Majoring and Minoring.txt` |
+| Total Credit Hours | Minimum 18 credits (5 courses) |
+| Residency Requirement | At least 12 credits at SU |
+| Source Document | `Majoring_and_Minoring.txt` |
 
 **Required Courses:**
-- ANT35-104 — Introduction to Cultural Anthropology (4 credits)
-- Four additional courses (14 credits) that are either in or contribute to Anthropology.
+- ANT35-104 — Introduction to Cultural Anthropology
+- Four additional courses that are either in or contribute to Anthropology (including eligible FST, PSC, REL courses)
 
 ---
 
-════════════════════════════════════════════════════════
-SECTION 4 — COURSE INDEX
-════════════════════════════════════════════════════════
+### Key Differences Between B.A. and Minor
 
-### Anthropology (ANT) Courses
+| Factor | B.A. in Anthropology | Minor in Anthropology |
+|---|---|---|
+| Credit Hours | 30 minimum (8 courses) | 18 minimum (5 courses) |
+| Required Capstone | Yes — ANT35-964 Senior Seminar | No |
+| Research Period | Yes — minimum 4 weeks intensive | No |
+| Theory/Method Course | Yes — ANT35-424 required | Not explicitly required |
+| Sociology Course | SOC34-114 or SOC34-124 required | Not required |
+| Electives | 4 upper-level; 1 may be Sociology | 4 contributing courses (more flexible) |
+| AKD Eligibility | Requires sociology major/minor (not anthro major alone) | Same |
 
-**ANT35-104 — Introduction to Cultural Anthropology**
+The B.A. is for students seeking professional or graduate-level work in anthropology, social sciences, or related fields. The Minor is suitable for students in another major who want cross-cultural and social theory grounding.
+
+---
+
+## SECTION 4 — COURSE INDEX
+
+### ANT35-104 — Introduction to Cultural Anthropology
 - **Credit Hours:** 4
 - **Prerequisites:** None
-- **Offered:** Each semester
-- **Required For:** B.A. in Anthropology (Major), Minor in Anthropology
-- **Counts As:** Social Science (ScS), Social Justice (SJ), Power and Justice (PJ)
-- **Source:** `Courses.txt`, `Majoring and Minoring.txt`
+- **Corequisites:** None
+- **Offered:** Each semester (Fall and Spring)
+- **Required For:** B.A. in Anthropology (core), Minor in Anthropology (core)
+- **Counts As:** Core requirement for major and minor; ScS, SJ, PJ Paideia designations
+- **Notes:** Gateway course for all upper-level anthropology; contributes to International Studies and Sociology
+- **Source:** `Courses.txt`, `Majoring_and_Minoring.txt`
 
-**ANT35-234 — Anthropology of Race: Shifting the Gaze**
+### ANT35-234 — Anthropology of Race: Shifting the Gaze
 - **Credit Hours:** 4
 - **Prerequisites:** ANT35-104 or permission of instructor
-- **Offered:** Unknown
-- **Counts As:** Social Science (ScS), Race and Ethnicity Studies/Concepts Course
+- **Corequisites:** None
+- **Offered:** Unknown (not specified)
+- **Required For:** Not a required course; counts as upper-level elective for B.A. and Minor
+- **Counts As:** Race and Ethnicity Studies/Concepts Course
+- **Notes:** Explores W.E.B. Du Bois, White Trash School of Thought, Whiteness in Education, African Diaspora Anthropology, Critical Whiteness Studies
 - **Source:** `Courses.txt`
 
-**ANT35-244 — Race, Class and Gender in the Caribbean**
+### ANT35-244 — Race, Class and Gender in the Caribbean
 - **Credit Hours:** 4
 - **Prerequisites:** ANT35-104, FST04-104, or permission of instructor
-- **Offered:** Unknown
-- **Counts As:** Social Science (ScS), SJ, PJ, Feminist Studies, International Studies, LASB
+- **Corequisites:** None
+- **Offered:** Unknown (not specified)
+- **Required For:** Not required; counts as upper-level elective
+- **Counts As:** Feminist Studies, International Studies, Latin American and Border Studies, Race and Ethnicity Studies/Group-Themed Course
+- **Notes:** Covers history, migration, tourism, spiritualities, language, music, Carnival in the Caribbean
 - **Source:** `Courses.txt`
 
-**ANT35-274 — Cultural Heritage, Crime, Justice, Race in American South**
+### ANT35-274 — Cultural Heritage, Criminal Justice, Race, American South
 - **Credit Hours:** 4
 - **Prerequisites:** ANT35-104 or permission of instructor
-- **Offered:** Unknown
-- **Counts As:** Social Science (ScS), Race and Ethnicity Studies/Group-Themed, Legal Studies
+- **Corequisites:** None
+- **Offered:** Unknown (not specified)
+- **Required For:** Not required; counts as upper-level elective
+- **Counts As:** Race and Ethnicity Studies/Group-Themed Course; Legal Studies Certificate
+- **Notes:** Examines museums, monuments, history classes and racial ideology in predominantly White Southern cities
 - **Source:** `Courses.txt`
 
-**ANT35-304 — Selected Topics**
+### ANT35-304 — Selected Topics
 - **Credit Hours:** 4
-- **Prerequisites:** ANT35-104
+- **Prerequisites:** Not specified (varies by topic)
+- **Corequisites:** None
 - **Offered:** Infrequently
-- **Notes:** May be repeated with change in content.
+- **Required For:** May count as upper-level elective
+- **Counts As:** Varies by topic
+- **Notes:** May be repeated with change in content; falls outside typical anthropology offerings
 - **Source:** `Courses.txt`
 
-**ANT35-334 — Global Environmental Justice**
+### ANT35-334 — Global Environmental Justice
 - **Credit Hours:** 4
-- **Prerequisites:** ANT35-104, ENV49-104, or FST04-104
-- **Offered:** Unknown
-- **Counts As:** Social Science (ScS), SJ, PJ, Environmental Studies, International Studies
+- **Prerequisites:** ANT35-104, Environmental Studies 49-104, or FST04-104
+- **Corequisites:** None
+- **Offered:** Unknown (not specified)
+- **Required For:** Not required; counts as upper-level elective
+- **Counts As:** Animal Studies, Environmental Studies, Feminist Studies, Health Studies, International Studies, Race and Ethnicity Studies/Allied Course, Legal Studies Certificate
+- **Notes:** Covers climate change, consumerism, pollution, resource extraction, biodiversity, food systems, water scarcity from social inequality perspective
 - **Source:** `Courses.txt`
 
-**ANT35-424 — Theory & Method in Cultural Anthropology**
+### ANT35-424 — Theory and Method in Cultural Anthropology
 - **Credit Hours:** 4
-- **Prerequisites:** ANT35-104
-- **Offered:** Fall
-- **Required For:** B.A. in Anthropology (Major)
-- **Notes:** Restricted to Majors. Prepares students for senior seminar research.
-- **Source:** `Courses.txt`, `Majoring and Minoring.txt`
+- **Prerequisites:** ANT35-104; restricted to declared majors
+- **Corequisites:** None
+- **Offered:** Fall only
+- **Required For:** B.A. in Anthropology (core required course); recommended sophomore or junior year
+- **Counts As:** Required core course for B.A.
+- **Notes:** Prepares students to conduct ethnographic research for Senior Seminar; includes participant observation and interviewing techniques; restricted to declared anthropology majors
+- **Source:** `Courses.txt`, `Majoring_and_Minoring.txt`
 
-**ANT35-524 — Southwestern Univ Racial History Project**
+### ANT35-524 — Southwestern University Racial History Project
 - **Credit Hours:** 4
 - **Prerequisites:** ANT35-104 or permission of instructor
-- **Offered:** Fall (Senior year for capstone prep)
-- **Counts As:** Social Science (ScS), Research requirement fulfillment
-- **Source:** `Courses.txt`, `Majoring and Minoring.txt`
+- **Corequisites:** None
+- **Offered:** Fall (implied — taken before spring capstone)
+- **Required For:** Not required but may satisfy the 4-week research requirement before Senior Seminar
+- **Counts As:** Race and Ethnicity Studies/Group-Themed Course; can fulfill senior research period
+- **Notes:** Students work with existing historical/archival material and contribute to an on-campus and digital archive; recommended path for students not doing study abroad
+- **Source:** `Courses.txt`, `Majoring_and_Minoring.txt`
 
-**ANT35-964 — Senior Seminar**
+### ANT35-964 — Senior Seminar (Capstone)
 - **Credit Hours:** 4
-- **Prerequisites:** Permission of instructor; completion of 4-week research period
-- **Offered:** Spring
-- **Required For:** B.A. in Anthropology (Major)
-- **Counts As:** Capstone, Writing Attentive (WA), Social Science (ScS)
-- **Source:** `Courses.txt`, `Majoring and Minoring.txt`
+- **Prerequisites:** Permission of instructor; research period must be completed prior
+- **Corequisites:** None
+- **Offered:** Spring only
+- **Required For:** B.A. in Anthropology (required capstone)
+- **Counts As:** Capstone; WA (Writing Across the Curriculum) and ScS designations
+- **Notes:** Students write a major research paper contextualizing ethnographic data in scholarly literature; present paper to campus; encouraged to present at national/regional conferences and Southwestern Undergraduate Works Symposium
+- **Source:** `Courses.txt`, `Majoring_and_Minoring.txt`
 
-### Contributing Courses (Non-ANT Prefix)
-
-**SOC34-114 — Introduction to Sociology**
+### SOC34-114 — Introduction to Sociology
 - **Credit Hours:** 4
-- **Prerequisites:** None
-- **Required For:** B.A. in Anthropology (Major Option)
-- **Source:** `Majoring and Minoring.txt`
+- **Prerequisites:** None (inferred)
+- **Corequisites:** None
+- **Offered:** Unknown
+- **Required For:** B.A. in Anthropology (one of two options for sociology requirement)
+- **Counts As:** Required supporting course for Anthropology B.A.
+- **Notes:** Alternative to SOC34-124 for fulfilling the sociology requirement within the Anthropology major
+- **Source:** `Majoring_and_Minoring.txt`
 
-**SOC34-124 — Social Problems**
+### SOC34-124 — Social Problems
 - **Credit Hours:** 4
-- **Prerequisites:** None
-- **Required For:** B.A. in Anthropology (Major Option)
-- **Source:** `Majoring and Minoring.txt`
+- **Prerequisites:** None (inferred)
+- **Corequisites:** None
+- **Offered:** Unknown
+- **Required For:** B.A. in Anthropology (one of two options for sociology requirement)
+- **Counts As:** Required supporting course for Anthropology B.A.
+- **Notes:** Alternative to SOC34-114 for fulfilling the sociology requirement within the Anthropology major
+- **Source:** `Majoring_and_Minoring.txt`
 
-**FST04-254 — Latinx Spiritualities**
-- **Counts As:** Contributing elective for Anthropology Major/Minor
-- **Source:** `Majoring and Minoring.txt`
+### Contributing Courses from Other Departments
 
-**PSC32-184 — Politics of Latin America and the Caribbean**
-- **Counts As:** Contributing elective for Anthropology Major/Minor
-- **Source:** `Majoring and Minoring.txt`
+| Course | Department | Counts Toward |
+|---|---|---|
+| FST04-254 — Latinx Spiritualities | Feminist Studies | Anthropology Major/Minor |
+| FST04-364 — Chicana Feminisms | Feminist Studies | Anthropology Major/Minor |
+| PSC32-184 — Politics of Latin America and the Caribbean | Political Science | Anthropology Major/Minor |
+| REL19-214 — Native American Traditions | Religion | Anthropology Major/Minor |
+| REL19-354 — Gender and Sexuality in Native America | Religion | Anthropology Major/Minor |
+| REL19-384 — Rastas, Saints and Virgins | Religion | Anthropology Major/Minor |
+| REL19-364 — Pilgrimage | Religion | Anthropology Major/Minor |
+| REL19-324 — Women, Goddesses and Religion | Religion | Anthropology Major/Minor |
 
-**REL19-354 — Gender and Sexuality in Native America**
-- **Counts As:** Contributing elective for Anthropology Major/Minor
-- **Source:** `Majoring and Minoring.txt`
+Source: `Majoring_and_Minoring.txt`
 
 ---
 
-════════════════════════════════════════════════════════
-SECTION 5 — TOPIC INDEX
-════════════════════════════════════════════════════════
+## SECTION 5 — TOPIC INDEX
 
-- Alpha Kappa Delta (AKD) → `Alpha Kappa Delta.txt`
-- Alumni Directory → `After Southwestern.txt`
-- American Anthropological Association (AAA) → `Links.txt`
-- American Sociological Association (ASA) → `Links.txt`
-- Anthropology Major Requirements → `Majoring and Minoring.txt`
-- Anthropology Minor Requirements → `Majoring and Minoring.txt`
-- Application for Diploma → `SU_General_Policies.txt` (via cross-ref)
-- Capstone Requirement → `Majoring and Minoring.txt`, `Courses.txt`
-- Career Services → `After Southwestern.txt`, `Internships.txt`
-- Caribbean Geographic Focus → `Courses.txt`, `Majoring and Minoring.txt`
-- Census Data → `Links.txt`
-- Contributing Courses (FST, PSC, REL) → `Majoring and Minoring.txt`
-- Core Course: ANT35-104 → `Majoring and Minoring.txt`, `Courses.txt`
-- Core Course: ANT35-424 → `Majoring and Minoring.txt`, `Courses.txt`
-- Core Course: ANT35-964 → `Majoring and Minoring.txt`, `Courses.txt`
-- Criminal Justice Careers → `After Southwestern.txt`, `Internships.txt`
-- Department Chair (Maria Lowe) → `Faculty.txt`, `OASIS.txt`
-- Director of Internships → `Internships.txt`
-- Environmental Justice → `Courses.txt`
-- Ethnographic Research Method → `Courses.txt`, `Majoring and Minoring.txt`
-- Faculty Specialties (e.g., Whiteness, Race) → `Faculty.txt`
-- GPA Requirement (AKD) → `Alpha Kappa Delta.txt`
-- GPA Requirement (Major) → `Majoring and Minoring.txt`, `SU_General_Policies.txt`
-- Grad School Deadlines → `Graduate School.txt`
-- Grad School Rankings → `Graduate School.txt`
-- Honors (Departmental) → `Majoring and Minoring.txt`
-- Internship Paperwork/Resume → `Internships.txt`
-- Latin American and Border Studies (LASB) → `Courses.txt`
-- OASIS (Student Organization) → `OASIS.txt`
-- Paideia: Power and Justice (PJ) → `Courses.txt`, `SU_General_Policies.txt`
-- Paideia: Social Science (ScS) → `Courses.txt`, `SU_General_Policies.txt`
-- Prerequisite: ANT35-104 → `Courses.txt`
-- Research Period (4-week) → `Majoring and Minoring.txt`
-- Senior Seminar Timing → `Majoring and Minoring.txt`
-- Sociology Major/Minor Declared (AKD) → `Alpha Kappa Delta.txt`
-- Southwestern Racial History Project → `Courses.txt`, `Majoring and Minoring.txt`
-- Study Abroad Research → `Majoring and Minoring.txt`
-- Summer Internships → `Internships.txt`
-- Theory and Method Offering (Fall Only) → `Majoring and Minoring.txt`
-- Whiteness Studies → `Courses.txt`, `Faculty.txt`
-
----
-
-════════════════════════════════════════════════════════
-SECTION 6 — QUERY PATTERN MAP
-════════════════════════════════════════════════════════
-
-**Q: What are the requirements to join the sociology honor society?**
-- **Docs:** `Alpha Kappa Delta.txt`
-- **Routing Note:** Document lists specific credit (16 hours), GPA (3.6 overall, 3.8 SOC), and status requirements.
-- **Disambiguation Needed:** No.
-
-**Q: I want to major in Anthropology. What classes do I need?**
-- **Docs:** `Majoring and Minoring.txt`
-- **Routing Note:** Lists the 8 required courses and the 30-credit minimum.
-- **Disambiguation Needed:** No.
-
-**Q: How do I find an internship in criminal justice?**
-- **Docs:** `Internships.txt`, `After Southwestern.txt`
-- **Routing Note:** Lists probation and the Attorney General's office as past sites.
-- **Disambiguation Needed:** No.
-
-**Q: Who teaches about whiteness or the African Diaspora?**
-- **Docs:** `Faculty.txt`
-- **Routing Note:** Naomi Reed's specialty is critical whiteness and African Diaspora studies.
-- **Disambiguation Needed:** No.
-
-**Q: Does the Anthropology major have a capstone?**
-- **Docs:** `Majoring and Minoring.txt`, `Courses.txt`
-- **Routing Note:** Identifies ANT35-964 Senior Seminar as the capstone.
-- **Disambiguation Needed:** No.
-
-**Q: I'm a senior. When do I need to finish my research project?**
-- **Docs:** `Majoring and Minoring.txt`
-- **Routing Note:** States research must be completed by the end of the fall semester of the senior year.
-- **Disambiguation Needed:** No.
-
-**Q: Can I take religion classes for my Anthropology major?**
-- **Docs:** `Majoring and Minoring.txt`
-- **Routing Note:** Lists specific REL courses (e.g., REL19-214) that contribute to the major.
-- **Disambiguation Needed:** No.
-
-**Q: What is the minimum GPA to graduate with an Anthro degree?**
-- **Docs:** `Majoring and Minoring.txt`, `SU_General_Policies.txt`
-- **Routing Note:** Requires major doc for major-specific context and general doc for the 2.000 university standard.
-- **Disambiguation Needed:** No.
-
-**Q: Is there an anthropology club?**
-- **Docs:** `OASIS.txt`
-- **Routing Note:** Details OASIS and its co-presidents.
-- **Disambiguation Needed:** No.
-
-**Q: What are the top graduate schools for anthropology?**
-- **Docs:** `Graduate School.txt`
-- **Routing Note:** Lists 13 ranked programs.
-- **Disambiguation Needed:** No.
+- B.A. in Anthropology requirements → `Majoring_and_Minoring.txt`
+- Minor in Anthropology requirements → `Majoring_and_Minoring.txt`
+- Total credits required for anthropology major → `Majoring_and_Minoring.txt`, `SU_General_Policies.txt`
+- Total credits required for anthropology minor → `Majoring_and_Minoring.txt`
+- Required core courses for B.A. → `Majoring_and_Minoring.txt`
+- ANT35-104 Introduction to Cultural Anthropology → `Courses.txt`, `Majoring_and_Minoring.txt`
+- ANT35-234 Anthropology of Race → `Courses.txt`
+- ANT35-244 Race, Class and Gender in the Caribbean → `Courses.txt`
+- ANT35-274 Cultural Heritage and Criminal Justice → `Courses.txt`
+- ANT35-304 Selected Topics → `Courses.txt`
+- ANT35-334 Global Environmental Justice → `Courses.txt`
+- ANT35-424 Theory and Method in Cultural Anthropology → `Courses.txt`, `Majoring_and_Minoring.txt`
+- ANT35-524 Southwestern University Racial History Project → `Courses.txt`, `Majoring_and_Minoring.txt`
+- ANT35-964 Senior Seminar (Capstone) → `Courses.txt`, `Majoring_and_Minoring.txt`
+- SOC34-114 Introduction to Sociology (as Anthropology major requirement) → `Majoring_and_Minoring.txt`
+- SOC34-124 Social Problems (as Anthropology major requirement) → `Majoring_and_Minoring.txt`
+- FST04-254 Latinx Spiritualities contributing to Anthropology → `Majoring_and_Minoring.txt`
+- FST04-364 Chicana Feminisms contributing to Anthropology → `Majoring_and_Minoring.txt`
+- PSC32-184 Politics of Latin America and the Caribbean → `Majoring_and_Minoring.txt`
+- REL19-214 Native American Traditions → `Majoring_and_Minoring.txt`
+- REL19-354 Gender and Sexuality in Native America → `Majoring_and_Minoring.txt`
+- REL19-384 Rastas, Saints and Virgins → `Majoring_and_Minoring.txt`
+- REL19-364 Pilgrimage → `Majoring_and_Minoring.txt`
+- REL19-324 Women, Goddesses and Religion → `Majoring_and_Minoring.txt`
+- Elective requirements for anthropology B.A. → `Majoring_and_Minoring.txt`
+- Can a sociology course count toward anthropology major → `Majoring_and_Minoring.txt`
+- Outside/contributing courses for anthropology → `Majoring_and_Minoring.txt`
+- Upper-level elective pool for anthropology → `Majoring_and_Minoring.txt`, `Courses.txt`
+- Senior capstone requirements → `Courses.txt`, `Majoring_and_Minoring.txt`
+- Research period requirement for anthropology B.A. → `Majoring_and_Minoring.txt`
+- How to satisfy research requirement → `Majoring_and_Minoring.txt`
+- Study abroad and research requirement → `Majoring_and_Minoring.txt`, `SU_Resources_and_Financial.txt`
+- Racial History Project as research option → `Majoring_and_Minoring.txt`, `Courses.txt`
+- ANT35-424 is fall only → `Courses.txt`
+- ANT35-964 is spring only → `Courses.txt`
+- ANT35-424 restricted to declared majors → `Courses.txt`
+- Prerequisites for ANT35-424 → `Courses.txt`
+- Prerequisites for ANT35-964 → `Courses.txt`
+- Prerequisite chains for upper-division anthropology courses → `Courses.txt`
+- Paideia designations for anthropology courses → `Courses.txt`
+- Power and Justice requirement satisfied by ANT35-104 → `Courses.txt`
+- Social Sciences Paideia courses in anthropology → `Courses.txt`
+- Writing Across the Curriculum (WA) in anthropology → `Courses.txt`
+- Faculty contact information → `Faculty.txt`
+- Department chair contact → `Faculty.txt`
+- Anthropology professors and specialties → `Faculty.txt`
+- Sociology professors and specialties → `Faculty.txt`
+- Who to contact for advising → `Faculty.txt`
+- Alpha Kappa Delta eligibility → `Alpha_Kappa_Delta.txt`
+- AKD GPA requirements → `Alpha_Kappa_Delta.txt`
+- AKD sociology-specific (not anthropology) → `Alpha_Kappa_Delta.txt`
+- AKD induction timeline → `Alpha_Kappa_Delta.txt`
+- OASIS student organization → `OASIS.txt`
+- OASIS activities and how to join → `OASIS.txt`
+- Department social events → `OASIS.txt`
+- Alumni career panels → `OASIS.txt`
+- Graduate school application process → `Graduate_School.txt`
+- Graduate school deadlines → `Graduate_School.txt`
+- GRE requirement for grad school → `Graduate_School.txt`
+- Letters of recommendation for grad school → `Graduate_School.txt`
+- Top anthropology PhD programs → `Graduate_School.txt`
+- Top sociology PhD programs → `Graduate_School.txt`
+- Writing sample for graduate school → `Graduate_School.txt`
+- Internship opportunities for anthropology students → `Internships.txt`
+- How to apply for an internship → `Internships.txt`
+- Career Services and internships → `Internships.txt`
+- Academic internship credit → `Internships.txt`
+- Jobs after sociology/anthropology degree → `After_Southwestern.txt`
+- Career paths with anthropology major → `After_Southwestern.txt`
+- Career Services resources → `After_Southwestern.txt`
+- Alumni networking → `After_Southwestern.txt`
+- Professional associations for anthropology → `Links.txt`
+- Professional associations for sociology → `Links.txt`
+- Research data sources for sociology/anthropology → `Links.txt`
+- GPA requirements for graduation → `Majoring_and_Minoring.txt`, `SU_General_Policies.txt`
+- Academic probation and dismissal → `SU_General_Policies.txt`
+- Transfer credit rules → `Majoring_and_Minoring.txt`, `SU_General_Policies.txt`
+- Pass/D/F grading option → `SU_General_Policies.txt`
+- Paideia general education requirements → `SU_General_Policies.txt`
+- Graduation application process → `SU_General_Policies.txt`
+- Financial aid impact of course load changes → `SU_Resources_and_Financial.txt`
+- Tuition refund schedule → `SU_Resources_and_Financial.txt`
+- Study abroad programs available → `SU_Resources_and_Financial.txt`
+- SURF research funding → `SU_Resources_and_Financial.txt`
+- King Creativity Fund → `SU_Resources_and_Financial.txt`
+- Double major policies → `SU_General_Policies.txt`
+- Course repeat policies → `SU_General_Policies.txt`
+- Incomplete grade policies → `SU_General_Policies.txt`
+- Latin Honors (Cum Laude, Magna, Summa) → `SU_General_Policies.txt`
+- Departmental Honors → `SU_General_Policies.txt`
+- Disability accommodations → `SU_General_Policies.txt`
 
 ---
 
-════════════════════════════════════════════════════════
-SECTION 7 — CROSS-REFERENCE FLAGS
-════════════════════════════════════════════════════════
+## SECTION 6 — QUERY PATTERN MAP
+
+**Q:** I'm a freshman — what's the first anthropology course I should take?
+**Docs:** `Courses.txt`, `Majoring_and_Minoring.txt`
+**Routing Note:** ANT35-104 is required and has no prerequisites; it is the gateway for all other anthropology courses and is offered every semester.
+**Disambiguation Needed:** No
+
+**Q:** What are all the courses I need to graduate with an anthropology major?
+**Docs:** `Majoring_and_Minoring.txt`, `Courses.txt`
+**Routing Note:** Majoring_and_Minoring.txt lists all four required core courses and elective requirements; Courses.txt provides course details.
+**Disambiguation Needed:** No (only one major degree path — B.A.)
+
+**Q:** I'm a sophomore — should I do the B.A. or just the minor?
+**Docs:** `Majoring_and_Minoring.txt`
+**Routing Note:** Document explicitly contrasts B.A. (30 credits, research requirement, capstone) vs. Minor (18 credits, no capstone); student can compare requirements.
+**Disambiguation Needed:** No — but system should present both options clearly
+
+**Q:** Can I count a Political Science course toward my anthropology major?
+**Docs:** `Majoring_and_Minoring.txt`
+**Routing Note:** PSC32-184 is listed as a contributing course to the Anthropology major and minor.
+**Disambiguation Needed:** No — specific course is listed
+
+**Q:** I'm a junior — can I still add the anthropology minor?
+**Docs:** `Majoring_and_Minoring.txt`, `SU_General_Policies.txt`
+**Routing Note:** Minor requires 5 courses (18 credits); general policies cover minor residency (12 credits at SU) and adding a minor procedurally.
+**Disambiguation Needed:** No
+
+**Q:** I'm a senior applying for graduation — what do I need to have done?
+**Docs:** `Majoring_and_Minoring.txt`, `Courses.txt`, `SU_General_Policies.txt`
+**Routing Note:** Major docs confirm capstone (ANT35-964) and research period completion; SU_General_Policies covers Application for Diploma, credit minimums, GPA, residency.
+**Disambiguation Needed:** No
+
+**Q:** I transferred in — will my anthropology credits count?
+**Docs:** `Majoring_and_Minoring.txt`, `SU_General_Policies.txt`
+**Routing Note:** Major doc covers 60% residency requirement; SU_General_Policies covers C- minimum, P/CR not accepted, ELEC coding, and transfer credit procedures.
+**Disambiguation Needed:** Yes — ask which specific courses or credits they are asking about
+
+**Q:** I failed ANT35-424 — what happens now?
+**Docs:** `Courses.txt`, `Majoring_and_Minoring.txt`, `SU_General_Policies.txt`
+**Routing Note:** ANT35-424 is a required core course offered fall only, restricted to majors; SU_General_Policies covers course repeat, GPA recalculation, and academic standing rules.
+**Disambiguation Needed:** No
+
+**Q:** Can I double major in anthropology and sociology?
+**Docs:** `Majoring_and_Minoring.txt`, `SU_General_Policies.txt`
+**Routing Note:** Major doc shows anthropology and sociology are in the same department; SU_General_Policies covers paired major restrictions and double major rules.
+**Disambiguation Needed:** No — but advise student to consult advisor given paired major restrictions
+
+**Q:** My GPA is a 2.3 — am I in good standing?
+**Docs:** `SU_General_Policies.txt`
+**Routing Note:** Good standing, probation, and dismissal thresholds are in SU_General_Policies, not major documents.
+**Disambiguation Needed:** No
+
+**Q:** What is ANT35-104 about?
+**Docs:** `Courses.txt`
+**Routing Note:** Full course description, Paideia designations, and offering schedule are in Courses.txt.
+**Disambiguation Needed:** No
+
+**Q:** What prerequisites do I need for Theory and Method?
+**Docs:** `Courses.txt`
+**Routing Note:** ANT35-424 requires ANT35-104 and declaration of major; restricted to majors; fall only.
+**Disambiguation Needed:** No
+
+**Q:** What is the senior seminar like?
+**Docs:** `Courses.txt`, `Majoring_and_Minoring.txt`
+**Routing Note:** ANT35-964 description in Courses.txt explains research paper, campus presentation, and conference opportunity; Majoring_and_Minoring confirms it as capstone.
+**Disambiguation Needed:** No
+
+**Q:** Can I do the Racial History Project instead of study abroad for my research requirement?
+**Docs:** `Majoring_and_Minoring.txt`, `Courses.txt`
+**Routing Note:** Both documents confirm ANT35-524 is an approved path to satisfy the research period requirement.
+**Disambiguation Needed:** No
+
+**Q:** When is ANT35-424 offered?
+**Docs:** `Courses.txt`
+**Routing Note:** Explicitly fall only; restricted to majors.
+**Disambiguation Needed:** No
+
+**Q:** What Paideia requirements does ANT35-104 satisfy?
+**Docs:** `Courses.txt`, `SU_General_Policies.txt`
+**Routing Note:** Courses.txt notes ScS, SJ, and PJ designations; SU_General_Policies explains full Paideia framework.
+**Disambiguation Needed:** No
+
+**Q:** I'm thinking about grad school — what do I need to apply?
+**Docs:** `Graduate_School.txt`
+**Routing Note:** Document lists all typical application requirements and recommends applying to at least 5 programs.
+**Disambiguation Needed:** No
+
+**Q:** What are the best anthropology PhD programs?
+**Docs:** `Graduate_School.txt`
+**Routing Note:** Rankings list from National Research Council included; top 13 programs listed.
+**Disambiguation Needed:** No
+
+**Q:** How do I get an internship in criminal justice or social work?
+**Docs:** `Internships.txt`, `After_Southwestern.txt`
+**Routing Note:** Internships.txt notes past placements in probation and AG's office; After_Southwestern confirms criminal justice as a career path; contact Career Services Director of Internships.
+**Disambiguation Needed:** No
+
+**Q:** What can I do with my anthropology degree?
+**Docs:** `After_Southwestern.txt`
+**Routing Note:** Lists employment settings: social work, criminal justice, management, marketing research, PR, consulting; recommends Career Services and ASA careers site.
+**Disambiguation Needed:** No
+
+**Q:** Who is the anthropology department chair?
+**Docs:** `Faculty.txt`
+**Routing Note:** Maria R. Lowe is listed as Professor of Sociology and Department Chair with contact info.
+**Disambiguation Needed:** No
+
+**Q:** How do I join OASIS?
+**Docs:** `OASIS.txt`
+**Routing Note:** Contact any faculty member or department chair; notifications via listserv and Instagram.
+**Disambiguation Needed:** No
+
+**Q:** Am I eligible for Alpha Kappa Delta?
+**Docs:** `Alpha_Kappa_Delta.txt`
+**Routing Note:** AKD requires sociology major or minor (not anthropology-only), junior/senior standing, 3.6 overall GPA, 3.8 sociology GPA, 16 graded sociology hours at SU.
+**Disambiguation Needed:** Yes — ask whether student has a sociology major or minor
+
+**Q:** Can I take a pass/fail option for my anthropology elective?
+**Docs:** `SU_General_Policies.txt`
+**Routing Note:** Pass/D/F policy (not simply pass/fail) is covered exclusively in SU_General_Policies; major docs do not specify restrictions.
+**Disambiguation Needed:** No — but note SU uses Pass/D/F system
+
+**Q:** Do I need to study abroad for the anthropology major?
+**Docs:** `Majoring_and_Minoring.txt`, `SU_Resources_and_Financial.txt`
+**Routing Note:** Study abroad is encouraged but not required; alternatives (ANT35-524, independent project) are listed; Resources doc covers program options and credit rules.
+**Disambiguation Needed:** No
+
+**Q:** What research funding is available for my anthropology project?
+**Docs:** `SU_Resources_and_Financial.txt`
+**Routing Note:** SURF and King Creativity Fund are covered in the resources document; not covered in major-specific docs.
+**Disambiguation Needed:** No
+
+**Q:** What courses does Melissa Johnson teach?
+**Docs:** `Faculty.txt`, `Courses.txt`
+**Routing Note:** Faculty.txt lists Johnson's specialties (nature, race, environment, tourism, Caribbean); Courses.txt lists all anthropology courses that match those areas.
+**Disambiguation Needed:** No — but note course assignments not explicitly listed
+
+**Q:** I want to do environmental work — what anthropology courses are relevant?
+**Docs:** `Courses.txt`, `After_Southwestern.txt`
+**Routing Note:** ANT35-334 (Global Environmental Justice) directly covers environmental topics; After_Southwestern notes consulting and public relations as related fields.
+**Disambiguation Needed:** No
+
+**Q:** What happens to my financial aid if I drop below full-time?
+**Docs:** `SU_Resources_and_Financial.txt`, `SU_General_Policies.txt`
+**Routing Note:** Not covered in major documents; routing should always escalate to university-wide financial and policy documents.
+**Disambiguation Needed:** No
+
+**Q:** Can I count FST courses toward my anthropology minor?
+**Docs:** `Majoring_and_Minoring.txt`
+**Routing Note:** FST04-254 and FST04-364 are explicitly listed as contributing to the Anthropology major and minor.
+**Disambiguation Needed:** No
+
+**Q:** What's the difference between a sociology and anthropology major at SU?
+**Docs:** `Majoring_and_Minoring.txt`, `Courses.txt`, `Faculty.txt`
+**Routing Note:** Majoring_and_Minoring.txt focuses on anthropology requirements; sociology requirements not fully detailed in available documents; note shared department and overlapping courses.
+**Disambiguation Needed:** Yes — sociology major requirements not fully detailed in available documents; advise student to consult advisor
+
+**Q:** When should I take ANT35-424?
+**Docs:** `Courses.txt`, `Majoring_and_Minoring.txt`
+**Routing Note:** Recommended sophomore or junior year; fall only; prerequisite is ANT35-104; must be completed before Senior Seminar.
+**Disambiguation Needed:** No
+
+**Q:** Can I present my senior seminar research at a conference?
+**Docs:** `Courses.txt`
+**Routing Note:** ANT35-964 description explicitly encourages national/regional conference presentation and Southwestern Undergraduate Works Symposium.
+**Disambiguation Needed:** No
+
+**Q:** What is the minimum GPA to graduate?
+**Docs:** `SU_General_Policies.txt`, `Majoring_and_Minoring.txt`
+**Routing Note:** University-wide 2.000 GPA minimum in SU_General_Policies; major GPA also 2.000 with no grade below C- counting toward major.
+**Disambiguation Needed:** No
+
+**Q:** I want to focus on Latin America — what courses should I take?
+**Docs:** `Courses.txt`, `Majoring_and_Minoring.txt`
+**Routing Note:** Department specializes in Caribbean and Latin America; ANT35-244 (Caribbean), PSC32-184, FST04-254, FST04-364, REL19-384 all contribute; Melissa Johnson's research area includes Caribbean and U.S.-Mexico Borderlands.
+**Disambiguation Needed:** No
+
+---
+
+## SECTION 7 — CROSS-REFERENCE FLAGS
 
 - **Topic:** Graduation requirements (credit minimums, residency, GPA)
-  - **What major docs cover:** 30 credits for major; 18 for minor.
-  - **What general docs must cover:** 127-credit minimum, 64-credit SU residency, 2.000 overall GPA, "Application for Diploma" deadlines.
-  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` alongside `Majoring and Minoring.txt`.
+  - **What major docs cover:** Major-specific credit hours (30 for B.A., 18 for minor) and required courses
+  - **What general docs must cover:** 127-credit minimum, 64-credit SU residency, last 32 in-residence, 2.000 GPA threshold, 60% major residency, Application for Diploma
+  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` alongside `Majoring_and_Minoring.txt` for any graduation eligibility question
 
 - **Topic:** Paideia general education requirements
-  - **What major docs cover:** Courses designated as ScS, PJ, and SJ.
-  - **What general docs must cover:** FYS/AES, FRA, and the structure of Exploration & Breadth (Parts I and II).
-  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for gen-ed queries.
+  - **What major docs cover:** Which anthropology courses satisfy Paideia designations (ANT35-104 satisfies ScS, SJ, PJ)
+  - **What general docs must cover:** Full FYS/AES, Language and Cultures, FRA, Power and Justice, Exploration and Breadth Parts I and II structure; Paideia with Distinction
+  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any Paideia or gen-ed question
 
-- **Topic:** Study abroad credit and programs
-  - **What major docs cover:** Encourages study abroad for the research requirement.
-  - **What general docs must cover:** Specific approved programs, application deadlines, and credit transfer limits.
-  - **Routing instruction:** Retrieve `SU_Resources_and_Financial.txt` for program lists.
+- **Topic:** Pass/D/F grading option
+  - **What major docs cover:** Not covered
+  - **What general docs must cover:** Full Pass/D/F policy, deadlines, GPA impact
+  - **Routing instruction:** Retrieve `SU_General_Policies.txt` for any grading option question
+
+- **Topic:** Academic probation, dismissal, and appeal
+  - **What major docs cover:** Not covered
+  - **What general docs must cover:** Good Standing definition, Warning, Probation, Dismissal thresholds, Academic Standards Committee appeal process
+  - **Routing instruction:** Always retrieve `SU_General_Policies.txt`
 
 - **Topic:** Transfer credit rules
-  - **What major docs cover:** May specify that certain courses "contribute."
-  - **What general docs must cover:** C- minimum grade, 60% major residency rule for transfers.
-  - **Routing instruction:** Retrieve both major doc and `SU_General_Policies.txt`.
+  - **What major docs cover:** 60% major residency requirement referenced in major context
+  - **What general docs must cover:** C- minimum required; P/CR grades not accepted; ELEC-0XX/3XX coding; AP/IB/CAPE/CLEP policies
+  - **Routing instruction:** Retrieve both `Majoring_and_Minoring.txt` and `SU_General_Policies.txt`
+
+- **Topic:** Study abroad credit and programs
+  - **What major docs cover:** Study abroad as option for satisfying 4-week research requirement; approved provider list referenced but not included in documents
+  - **What general docs must cover:** SAISS process, approved programs (London, ISEP, NYAP, CHIP, CYA), deadlines, up to 19 transfer credits per semester, financial aid applicability
+  - **Routing instruction:** Retrieve `SU_Resources_and_Financial.txt` for program details; retrieve `SU_General_Policies.txt` for credit transfer rules
+
+- **Topic:** Financial aid impact of credit load changes or withdrawal
+  - **What major docs cover:** Not covered
+  - **What general docs must cover:** Withdrawal and financial aid impact, tuition refund schedule, part-time financial aid thresholds
+  - **Routing instruction:** Always retrieve `SU_Resources_and_Financial.txt`
+
+- **Topic:** Tuition refund schedule
+  - **What major docs cover:** Not covered
+  - **What general docs must cover:** 80%/60%/50%/40%/30%/0% by week; summer refund schedule
+  - **Routing instruction:** Always retrieve `SU_Resources_and_Financial.txt`
+
+- **Topic:** Internship and experiential learning funding
+  - **What major docs cover:** Internships.txt covers academic internship contact process and past settings
+  - **What general docs must cover:** SURF, King Creativity Fund, health professions shadowing, NYAP, CHIP funded opportunities
+  - **Routing instruction:** Retrieve `SU_Resources_and_Financial.txt` for funded program details alongside `Internships.txt`
+
+- **Topic:** Latin Honors and Paideia with Distinction
+  - **What major docs cover:** Not covered
+  - **What general docs must cover:** Cum Laude/Magna/Summa GPA thresholds, Dean's List, Paideia with Distinction requirements and deadlines
+  - **Routing instruction:** Always retrieve `SU_General_Policies.txt`
+
+- **Topic:** Disability accommodations and course substitution
+  - **What major docs cover:** Not covered
+  - **What general docs must cover:** SSD office, ADA accommodations, disability-related course substitution and appeals
+  - **Routing instruction:** Always retrieve `SU_General_Policies.txt`; direct student to SSD office
+
+- **Topic:** Double major policies and paired major restrictions
+  - **What major docs cover:** Not covered; anthropology and sociology are in the same department
+  - **What general docs must cover:** Paired major restrictions (cannot minor in either discipline if declared as paired major; cannot declare same-department pairing as double major)
+  - **Routing instruction:** Retrieve `SU_General_Policies.txt`; strongly recommend advisor consultation
+
+- **Topic:** Course repeat policies and GPA recalculation
+  - **What major docs cover:** Not covered
+  - **What general docs must cover:** Rules on repeating courses, GPA recalculation, limits
+  - **Routing instruction:** Always retrieve `SU_General_Policies.txt`
+
+- **Topic:** Approved study abroad providers (for research requirement)
+  - **What major docs cover:** Mentions an "approved list of study abroad providers" but does not include the list
+  - **What general docs must cover:** SAISS approved programs
+  - **Routing instruction:** Retrieve `SU_Resources_and_Financial.txt`; advise student to consult SAISS office
 
 ---
 
-════════════════════════════════════════════════════════
-SECTION 8 — KNOWN GAPS
-════════════════════════════════════════════════════════
+## SECTION 8 — KNOWN GAPS
 
-- **Topic:** Specific dates for the "Fall Picnic" or "End-of-year Party."
-  - **Reason for gap:** Not in docs; students must check the listserv or Instagram.
-  - **Recommended fallback:** Direct student to contact the department chair or check the OASIS Instagram.
+- **Topic:** Full sociology major and minor requirements
+  - **Reason for gap:** `Majoring_and_Minoring.txt` focuses on anthropology; sociology requirements not fully detailed in available documents
+  - **Recommended fallback:** Direct student to academic advisor or department chair (lowem@southwestern.edu)
 
-- **Topic:** Course descriptions for non-ANT prefixes (FST, REL, PSC).
-  - **Reason for gap:** Only ANT course descriptions are provided in `Courses.txt`.
-  - **Recommended fallback:** Suggest checking the main University Course Catalog.
+- **Topic:** Approved study abroad providers list for research requirement
+  - **Reason for gap:** Referenced in `Majoring_and_Minoring.txt` but list not included in any provided document
+  - **Recommended fallback:** Direct student to SAISS office or academic advisor
 
-- **Topic:** List of "approved study abroad providers."
-  - **Reason for gap:** `Majoring and Minoring.txt` refers to an "approved list" but does not provide it.
-  - **Recommended fallback:** Direct student to the Office of Intercultural Learning (SAISS).
+- **Topic:** Which specific faculty member teaches which course
+  - **Reason for gap:** Faculty specialties listed but course assignments not mapped in any document
+  - **Recommended fallback:** Direct student to check current course schedule or contact department
+
+- **Topic:** Exact GPA thresholds for major GPA (beyond the 2.000 minimum)
+  - **Reason for gap:** Only minimum 2.000 stated; Departmental Honors GPA not specified in major documents
+  - **Recommended fallback:** Retrieve `SU_General_Policies.txt` for Departmental Honors criteria; consult advisor
+
+- **Topic:** Sociology course listings and descriptions
+  - **Reason for gap:** Courses.txt focuses primarily on ANT35 courses; SOC34 courses not fully described
+  - **Recommended fallback:** Direct student to course catalog or advisor
+
+- **Topic:** AKD for anthropology-only majors
+  - **Reason for gap:** AKD requires sociology major or minor; anthropology-only students are ineligible unless they also have a sociology major/minor
+  - **Recommended fallback:** Clarify with student whether they have sociology credits; direct to `Alpha_Kappa_Delta.txt`
+
+- **Topic:** Specific registration and add/drop deadlines for current semester
+  - **Reason for gap:** Not in any department document; academic calendar is university-wide
+  - **Recommended fallback:** Retrieve `SU_General_Policies.txt`; direct to Registrar's Office
+
+- **Topic:** Departmental Honors thesis process for anthropology
+  - **Reason for gap:** Not covered in any provided document
+  - **Recommended fallback:** Direct student to academic advisor
+
+- **Topic:** Specific GPA requirement for OASIS leadership or AKD (beyond minimum criteria)
+  - **Reason for gap:** Not in any document beyond AKD's stated GPA minimums
+  - **Recommended fallback:** Contact department chair or faculty sponsor
+
+- **Topic:** Whether specific upper-level courses count as the "one sociology course" elective for the Anthropology B.A.
+  - **Reason for gap:** Documents state one upper-level sociology course may count but do not enumerate eligible courses
+  - **Recommended fallback:** Consult academic advisor for course-by-course evaluation
 
 ---
 
-════════════════════════════════════════════════════════
-SECTION 9 — ROUTING DECISION GUIDE
-════════════════════════════════════════════════════════
+## SECTION 9 — ROUTING DECISION GUIDE
 
-**Default document for broad major questions:** `Majoring and Minoring.txt`
+**Default document for broad major questions:** `Majoring_and_Minoring.txt`
 
 **When to retrieve multiple documents:**
-- For graduation requirements: `Majoring and Minoring.txt` + `SU_General_Policies.txt`.
-- For career/internship paths: `After Southwestern.txt` + `Internships.txt`.
-- For Alpha Kappa Delta honors: `Alpha Kappa Delta.txt` + `Faculty.txt` (for sponsor contact).
+- Any question about a specific course → retrieve `Courses.txt` AND `Majoring_and_Minoring.txt`
+- Any question about graduation eligibility → retrieve `Majoring_and_Minoring.txt` AND `SU_General_Policies.txt`
+- Any question about the research period OR study abroad → retrieve `Majoring_and_Minoring.txt` AND `SU_Resources_and_Financial.txt`
+- Any question about faculty advising or contacting the department → retrieve `Faculty.txt`
+- Any question about internships + funding → retrieve `Internships.txt` AND `SU_Resources_and_Financial.txt`
+- Any question about grad school → retrieve `Graduate_School.txt`; if also about GPA or standing, add `SU_General_Policies.txt`
+
+**Degree path disambiguation triggers:**
+- This major offers only B.A. and Minor — no B.S. disambiguation needed
+- If student says "the anthropology degree" without specifying major vs. minor, default to B.A. but confirm: "Are you asking about the full major or the minor?"
+- If student asks about AKD eligibility, clarify whether they have a sociology major or minor (AKD requires sociology, not anthropology)
 
 **High-confidence single-document retrievals:**
-- OASIS information → `OASIS.txt`
-- Specific ANT course prerequisites → `Courses.txt`
-- PhD program rankings → `Graduate School.txt`
-- Faculty specialties → `Faculty.txt`
+- "Who is the department chair / how do I contact a professor" → `Faculty.txt` only
+- "How do I join OASIS" → `OASIS.txt` only
+- "What is Alpha Kappa Delta / AKD GPA requirement" → `Alpha_Kappa_Delta.txt` only
+- "What jobs can I get / careers after anthropology" → `After_Southwestern.txt` only
+- "Professional associations for anthropology" → `Links.txt` only
+- "Graduate school application process / rankings" → `Graduate_School.txt` only
+- "How to get an internship" → `Internships.txt` only
+- "When is ANT35-104 offered / what are the prerequisites for ANT35-424" → `Courses.txt` only
 
 **Always escalate to human advisor:**
-- Questions regarding exceptions to the 4-week research requirement.
-- Requests to count a course not listed in the "Contributing Courses" section.
-- GPA appeals or graduation waivers.
+- Exceptions to any stated requirement (e.g., waiving the research period, substituting a non-listed contributing course)
+- Course substitution or waiver requests
+- Academic appeals or grade disputes
+- Situations where a student failed or withdrew from a required course multiple times
+- Questions about double majoring within the same department (sociology + anthropology)
+- Departmental Honors thesis advising
 
 **Always retrieve `SU_General_Policies.txt` alongside major docs when:**
-- Any graduation eligibility or credit count question.
-- Any Paideia or Exploration & Breadth requirement question.
-- Any transfer credit evaluation query.
+- Any graduation eligibility or credit count question
+- Any Paideia / general education requirement question
+- Any grading policy question (Pass/D/F, grade appeals, incomplete grades)
+- Any academic standing question (probation, dismissal, appeal)
+- Any transfer credit or credit-by-examination question
+- Any disability accommodation question
+- Any honors or distinction question (Latin Praise, Departmental Honors, Paideia with Distinction)
+- Any double major or paired major question
 
 **Always retrieve `SU_Resources_and_Financial.txt` alongside major docs when:**
-- Inquiring about specific study abroad programs.
-- Asking about internship funding or Career Services locations.
+- Any study abroad program question (approved providers, deadlines, eligibility, credit transfer)
+- Any financial aid or tuition question
+- Any refund or withdrawal-and-money question
+- Any internship funding question (SURF, King Creativity Fund)
+- Any health professions experience question
+- Any question about the research period that involves off-campus or funded programs
