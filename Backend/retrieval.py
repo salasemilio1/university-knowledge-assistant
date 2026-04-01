@@ -3,7 +3,6 @@ This script is the logic core for the retrieval feature. It is called by deliver
 """
 
 import numpy as np
-import chromadb as chroma
 import classify
 from cli.main import main
 
