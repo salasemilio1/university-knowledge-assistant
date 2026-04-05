@@ -5,7 +5,7 @@ This script contains the user model.
 from fastapi_users.db import SQLAlchemyBaseUserTableUUID
 from sqlalchemy.orm import Mapped, mapped_column
 from user_db import Base
-import string
+from sqlalchemy import String, Boolean
 
 
 class User(SQLAlchemyBaseUserTableUUID, Base):
@@ -22,4 +22,10 @@ class User(SQLAlchemyBaseUserTableUUID, Base):
         is_verified: bool
     """
 
+    # filled in when user created
+    first_name: Mapped[str | None] = mapped_column(String(100), nullable=True)
+    last_name: Mapped[str | None] = mapped_column(String(100), nullable=True)
 
+    # initial survey
+    is_survey_complete: Mapped[Boolean | None] = mapped_column(Boolean, nullable=True)
+    # other fields
