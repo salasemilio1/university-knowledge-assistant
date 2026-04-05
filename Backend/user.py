@@ -22,3 +22,4 @@ class User(SQLAlchemyBaseUserTableUUID, Base):
         is_verified: bool
     """
 
+

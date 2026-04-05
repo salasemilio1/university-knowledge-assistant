@@ -5,7 +5,7 @@ data to the frontend.
 """
 
 from fastapi import FastAPI, Request, HTTPException
-from retrieval import get_response
+from cli.retrieval import retrieve_response
 from ingestion import ingest_document
 
 
@@ -46,18 +46,4 @@ def retrieve(request:Request) -> str:
     # remove whitespace
     query = query.strip()
 
-    return get_response(query)
-
-
-#@app.post("/ingest")
-#def ingest(request:Request) -> bool:
-#    """
-#    Ingests an uploaded document to the database.
-    
-#    Returns:
-#        bool: Success or failure. For use in frontend error messages.
-#    """
-#
-#    # validate / process documents
-
-#    return False
+    return retrieve_response(query)
