@@ -47,17 +47,3 @@ def retrieve(request:Request) -> str:
     query = query.strip()
 
     return get_response(query)
-
-
-#@app.post("/ingest")
-#def ingest(request:Request) -> bool:
-#    """
-#    Ingests an uploaded document to the database.
-    
-#    Returns:
-#        bool: Success or failure. For use in frontend error messages.
-#    """
-#
-#    # validate / process documents
-
-#    return False

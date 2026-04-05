@@ -92,7 +92,7 @@ def _print_history(history: list[dict]) -> None:
 
 # ── Main loop ─────────────────────────────────────────────────────────────────
 
-def main() -> None:
+def retrieve_response(query:str) -> str:
     """Run the interactive advising CLI."""
     print(
         "\n"
@@ -110,14 +110,16 @@ def main() -> None:
     history: list[dict] = []
 
     while True:
-        try:
-            user_input = input("You: ").strip()
-        except (EOFError, KeyboardInterrupt):
-            print("\n\n  Goodbye! Good luck with your studies. 👋\n")
-            break
 
-        if not user_input:
-            continue
+        if not query:
+            try:
+                user_input = input("You: ").strip()
+            except (EOFError, KeyboardInterrupt):
+                print("\n\n  Goodbye! Good luck with your studies. 👋\n")
+                break
+
+            if not user_input:
+                continue
 
         # ── Special commands ──────────────────────────────────────────────────
         if user_input.lower() in ("exit", "quit"):
@@ -184,6 +186,8 @@ def main() -> None:
             duration_seconds=duration,
         )
 
+def main() -> None:
+    retrieve_response(None)
 
 if __name__ == "__main__":
     main()
