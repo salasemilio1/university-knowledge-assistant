@@ -5,7 +5,7 @@ data to the frontend.
 """
 
 from fastapi import FastAPI, Request, HTTPException
-from retrieval import get_response
+from cli.main import retrieve_response
 from ingestion import ingest_document
 
 
