@@ -5,7 +5,7 @@ data to the frontend.
 """
 
 from fastapi import FastAPI, Request, HTTPException
-from cli.main import retrieve_response
+from cli.retrieval import retrieve_response
 from ingestion import ingest_document
 
 
@@ -46,4 +46,4 @@ def retrieve(request:Request) -> str:
     # remove whitespace
     query = query.strip()
 
-    return get_response(query)
+    return retrieve_response(query)
