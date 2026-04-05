@@ -1,156 +1,676 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<title>HTMX Chat UI</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SU Advising Assistant</title>
 
-<script src="https://unpkg.com/htmx.org@1.9.10"></script>
+    <!-- HTMX handles sending the form and swapping the response in -->
+    <script src="https://unpkg.com/htmx.org@1.9.10"></script>
+    <!-- marked.js renders markdown in LLM responses -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 
-<style>
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    display: flex;
-    height: 100vh;
-}
+    <style>
+        /* ── Design tokens — Southwestern University brand ─────────── */
+        :root {
+            /* ── Dark mode (default) ── */
+            --bg: #111111;
+            --surface: #1f1f1f;
+            --surface-raised: #2a2a2a;
+            --border: rgba(248, 201, 35, 0.18);
+            --accent: #F8C923;
+            --accent-hover: #e0b51e;
+            --accent-fg: #111111;    /* text ON the gold accent button */
+            --text: #F5F5F5;
+            --muted: #9a9a9a;
+            --error: #f87171;
+            --radius: 10px;
 
-/* Sidebar */
-.sidebar {
-    width: 260px;
-    background: #202123;
-    color: white;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-}
+            /* ── Layout ── */
+            --sidebar-width: 260px;
+            --chat-max-width: 860px;
+        }
 
-.sidebar h2 {
-    font-size: 16px;
-    margin-bottom: 10px;
-}
+        /* ── Light mode overrides ────────────────────────────────────── */
+        [data-theme="light"] {
+            --bg: #FFFFFF;
+            --surface: #F2F2F2;
+            --surface-raised: #E6E6E6;
+            --border: rgba(0, 0, 0, 0.12);
+            --accent: #c49b00;       /* darker gold — stays readable on white */
+            --accent-hover: #a88400;
+            --accent-fg: #FFFFFF;
+            --text: #111111;
+            --muted: #5a5a5a;
+            --error: #dc2626;
+        }
 
-.sidebar button {
-    background: #343541;
-    border: none;
-    color: white;
-    padding: 10px;
-    margin-bottom: 10px;
-    cursor: pointer;
-    border-radius: 6px;
-}
+        /* ── Base ───────────────────────────────────────────────────── */
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
 
-.conversations {
-    flex: 1;
-    overflow-y: auto;
-}
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            height: 100vh;
+            overflow: hidden;
+        }
 
-/* Main Chat */
-.main {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    background: #343541;
-}
+        /* ── App shell — the top-level grid ─────────────────────────── */
+        /*
+         * Two-column grid: sidebar | chat
+         * To add a sidebar: populate #sidebar and set --sidebar-width.
+         * Everything else is automatic.
+         */
+        #app-shell {
+            display: grid;
+            grid-template-columns: var(--sidebar-width) 1fr;
+            height: 100vh;
+            overflow: hidden;
+            transition: grid-template-columns 0.25s ease;
+        }
 
-.chat-box {
-    flex: 1;
-    overflow-y: auto;
-    padding: 20px;
-}
+        /* Collapsed state — sidebar width goes to zero */
+        #app-shell.sidebar-collapsed {
+            grid-template-columns: 0px 1fr;
+        }
 
-/* Messages */
-.message {
-    margin-bottom: 15px;
-    max-width: 700px;
-}
+        /* ── Sidebar slot ───────────────────────────────────────────── */
+        #sidebar {
+            border-right: 1px solid var(--border);
+            background: var(--surface);
+            overflow: hidden;           /* clip content during slide animation */
+            display: flex;
+            flex-direction: column;
+            min-width: 0;               /* allow grid to shrink it fully */
+        }
 
-.user {
-    align-self: flex-end;
-    background: #0b93f6;
-    color: white;
-    padding: 10px;
-    border-radius: 10px;
-}
+        /* Inner wrapper keeps content at full width while the grid column shrinks */
+        #sidebar-inner {
+            width: var(--sidebar-width);
+            display: flex;
+            flex-direction: column;
+            height: 100%;           /* fill the sidebar fully */
+            overflow: hidden;       /* let sections control their own scroll */
+        }
 
-.bot {
-    background: #444654;
-    color: white;
-    padding: 10px;
-    border-radius: 10px;
-}
+        /* Scrollable body area — grows to push footer down */
+        #sidebar-body {
+            flex: 1;
+            overflow-y: auto;
+        }
 
-/* Input */
-.input-area {
-    padding: 15px;
-    background: #40414f;
-    display: flex;
-}
+        /* ── Sidebar header / toggle button ────────────────────────── */
+        #sidebar-header {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding: 12px 12px;
+            border-bottom: 1px solid var(--border);
+            flex-shrink: 0;
+        }
 
-.input-area input {
-    flex: 1;
-    padding: 10px;
-    border-radius: 6px;
-    border: none;
-}
+        /* The toggle sits in the top-right corner of the sidebar */
+        #sidebar-toggle {
+            background: none;
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            color: var(--muted);
+            cursor: pointer;
+            font-size: 1.1rem;
+            line-height: 1;
+            padding: 4px 8px;
+            transition: color 0.15s, border-color 0.15s;
+        }
 
-.input-area button {
-    margin-left: 10px;
-    padding: 10px 15px;
-    border: none;
-    background: #19c37d;
-    color: white;
-    border-radius: 6px;
-    cursor: pointer;
-}
-</style>
+        #sidebar-toggle:hover {
+            color: var(--accent);
+            border-color: var(--accent);
+        }
+
+        /* ── Sidebar footer — settings button ──────────────────────── */
+        #sidebar-footer {
+            flex-shrink: 0;
+            padding: 12px;
+            border-top: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        }
+
+        #settings-btn {
+            background: none;
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            color: var(--muted);
+            cursor: pointer;
+            font-size: 1.05rem;
+            line-height: 1;
+            padding: 5px 9px;
+            transition: color 0.15s, border-color 0.15s;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        #settings-btn:hover {
+            color: var(--accent);
+            border-color: var(--accent);
+        }
+
+        /* ── Settings panel — slides up from the footer ─────────────── */
+        #settings-panel {
+            background: var(--surface-raised);
+            border-top: 1px solid var(--border);
+            overflow: hidden;
+            max-height: 0;
+            transition: max-height 0.25s ease, padding 0.25s ease;
+            padding: 0 16px;
+        }
+
+        #settings-panel.open {
+            max-height: 200px;
+            padding: 14px 16px;
+        }
+
+        .setting-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 6px 0;
+            font-size: 0.88rem;
+            color: var(--text);
+        }
+
+        .setting-row span {
+            font-weight: 500;
+        }
+
+        /* Pill toggle switch */
+        .theme-toggle {
+            position: relative;
+            width: 42px;
+            height: 22px;
+        }
+
+        .theme-toggle input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+            position: absolute;
+        }
+
+        .theme-toggle-track {
+            position: absolute;
+            inset: 0;
+            background: var(--border);
+            border-radius: 999px;
+            cursor: pointer;
+            transition: background 0.2s;
+            border: 1px solid var(--border);
+        }
+
+        .theme-toggle-thumb {
+            position: absolute;
+            top: 2px;
+            left: 2px;
+            width: 16px;
+            height: 16px;
+            background: var(--muted);
+            border-radius: 50%;
+            transition: transform 0.2s, background 0.2s;
+            pointer-events: none;
+        }
+
+        .theme-toggle input:checked ~ .theme-toggle-track {
+            background: var(--accent);
+            border-color: var(--accent);
+        }
+
+        .theme-toggle input:checked ~ .theme-toggle-thumb {
+            transform: translateX(20px);
+            background: var(--accent-fg);
+        }
+
+        /* When collapsed, the reopen button floats over the chat column edge */
+        #sidebar-reopen {
+            position: fixed;
+            top: 12px;
+            left: 12px;
+            z-index: 10;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            color: var(--muted);
+            cursor: pointer;
+            font-size: 1.1rem;
+            line-height: 1;
+            padding: 4px 8px;
+            transition: color 0.15s, border-color 0.15s, opacity 0.2s;
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        #app-shell.sidebar-collapsed #sidebar-reopen {
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        #sidebar-reopen:hover {
+            color: var(--accent);
+            border-color: var(--accent);
+        }
+
+        /* ── Chat column ─────────────────────────────────────────────── */
+        #chat-column {
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            /* scroll lives inside #response, not here */
+        }
+
+        /* ── Page header ────────────────────────────────────────────── */
+        header {
+            text-align: center;
+            padding: 32px 24px 0;
+            flex-shrink: 0;
+        }
+
+        header h1 {
+            font-size: 1.75rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            margin-bottom: 8px;
+        }
+
+        header p {
+            color: var(--muted);
+            font-size: 0.95rem;
+        }
+
+        /* ── Main message area ──────────────────────────────────────── */
+        main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            overflow: hidden;
+            padding: 24px 24px 0;
+            max-width: var(--chat-max-width);
+            width: 100%;
+            margin: 0 auto;
+            /* centre within the chat column */
+        }
+
+        /* ── Ask form ───────────────────────────────────────────────── */
+        .ask-form {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .ask-form label {
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--muted);
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+        }
+
+        .ask-form textarea {
+            width: 100%;
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            color: var(--text);
+            font: inherit;
+            font-size: 1rem;
+            padding: 12px;
+            resize: vertical;
+            min-height: 90px;
+            outline: none;
+            transition: border-color 0.15s;
+        }
+
+        .ask-form textarea:focus {
+            border-color: var(--accent);
+        }
+
+        .ask-form textarea::placeholder {
+            color: var(--muted);
+        }
+
+        .form-footer {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+        }
+
+        /* Loading indicator — shown by HTMX while the request is in-flight */
+        .htmx-indicator {
+            font-size: 0.85rem;
+            color: var(--muted);
+            opacity: 0;
+            /* hidden by default */
+            transition: opacity 0.2s;
+        }
+
+        /* HTMX adds .htmx-request to the form while the request is pending */
+        .ask-form.htmx-request .htmx-indicator {
+            opacity: 1;
+        }
+
+        .submit-btn {
+            background: var(--accent);
+            color: #fff;
+            border: none;
+            border-radius: 6px;
+            padding: 10px 22px;
+            font: inherit;
+            font-size: 0.95rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.15s;
+            flex-shrink: 0;
+        }
+
+        .submit-btn:hover {
+            background: var(--accent-hover);
+        }
+
+        /* Disable the button while the request is running */
+        .ask-form.htmx-request .submit-btn {
+            opacity: 0.55;
+            pointer-events: none;
+        }
+
+        /* ── Response area ──────────────────────────────────────────── */
+        /* This scrollable div grows to fill the space above the form.
+           HTMX prepends each new response here (afterbegin), so the
+           latest answer always appears at the top. */
+        #response {
+            flex: 1;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            padding-bottom: 8px;
+        }
+
+        /* Every answer or error is wrapped in .response-block */
+        .response-block {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            line-height: 1.65;
+            overflow: hidden;
+            /* keep rounded corners when details is open */
+        }
+
+        /* ── Collapsible answer — uses native <details>/<summary> ───── */
+        /* <summary> is the always-visible clickable header (the question) */
+        .response-block summary {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 14px 20px;
+            cursor: pointer;
+            font-size: 0.92rem;
+            font-weight: 600;
+            list-style: none;
+            /* hide the default triangle */
+            user-select: none;
+        }
+
+        /* Custom triangle icon — rotates when the block is open */
+        .response-block summary::before {
+            content: '▶';
+            font-size: 0.65rem;
+            color: var(--accent);
+            flex-shrink: 0;
+            transition: transform 0.2s ease;
+        }
+
+        .response-block details[open] summary::before {
+            transform: rotate(90deg);
+        }
+
+        /* The answer text — shown only when the block is open */
+        .response-answer {
+            padding: 14px 20px 16px;
+            font-size: 0.95rem;
+            border-top: 1px solid var(--border);
+            max-height: 400px;
+            overflow-y: auto;
+            /* Styles for rendered markdown content */
+            line-height: 1.7;
+        }
+
+        .response-answer h1,
+        .response-answer h2,
+        .response-answer h3,
+        .response-answer h4,
+        .response-answer h5,
+        .response-answer h6 {
+            margin: 0.8em 0 0.4em;
+            font-weight: 700;
+            line-height: 1.3;
+        }
+
+        .response-answer h3 {
+            font-size: 1.05rem;
+            color: var(--accent);
+        }
+
+        .response-answer p {
+            margin: 0.5em 0;
+        }
+
+        .response-answer ul,
+        .response-answer ol {
+            margin: 0.5em 0 0.5em 1.5em;
+        }
+
+        .response-answer li {
+            margin: 0.25em 0;
+        }
+
+        .response-answer strong {
+            font-weight: 700;
+        }
+
+        .response-answer em {
+            font-style: italic;
+        }
+
+        .response-answer code {
+            background: rgba(248, 201, 35, 0.12);
+            padding: 0.1em 0.35em;
+            border-radius: 4px;
+            font-size: 0.88em;
+            font-family: ui-monospace, monospace;
+        }
+
+        .response-answer hr {
+            border: none;
+            border-top: 1px solid var(--border);
+            margin: 0.8em 0;
+        }
+
+        /* Error state styling */
+        .response-error {
+            border-color: rgba(248, 113, 113, 0.35);
+            color: var(--error);
+            padding: 14px 20px;
+        }
+
+        /* ── Bottom input bar ───────────────────────────────────────── */
+        .input-bar {
+            flex-shrink: 0;
+            width: 100%;
+            max-width: var(--chat-max-width);
+            margin: 0 auto;
+            /* centre to match <main> above */
+            padding: 16px 24px;
+            border-top: 1px solid var(--border);
+        }
+    </style>
 </head>
 
 <body>
 
-<!-- Sidebar -->
-<div class="sidebar">
-    <button 
-        hx-get="/new-chat"
-        hx-target="#chat-box"
-        hx-swap="innerHTML">
-        + New Chat
-    </button>
+    <div id="app-shell">
 
-    <div class="conversations"
-         hx-get="/conversations"
-         hx-trigger="load"
-         hx-target="this">
-        <!-- Loaded conversations -->
-    </div>
-</div>
+        <!-- Reopen button — visible only when sidebar is collapsed -->
+        <button id="sidebar-reopen" title="Open sidebar" aria-label="Open sidebar">☰</button>
 
-<!-- Main Chat -->
-<div class="main">
+        <!-- ── Sidebar ──────────────────────────────────────────────── -->
+        <aside id="sidebar">
+            <div id="sidebar-inner">
+                <div id="sidebar-header">
+                    <button id="sidebar-toggle" title="Close sidebar" aria-label="Close sidebar">✕</button>
+                </div>
 
-    <!-- Messages -->
-    <div id="chat-box" class="chat-box">
-        <!-- Messages will appear here -->
-    </div>
+                <!-- Scrollable sidebar content -->
+                <div id="sidebar-body">
+                    <!-- chat history, nav links, etc. go here -->
+                </div>
 
-    <!-- Input -->
-    <form 
-        class="input-area"
-        hx-post="/chat"
-        hx-target="#chat-box"
-        hx-swap="beforeend"
-        hx-on="htmx:afterRequest: this.reset()"
-    >
-        <input 
-            type="text" 
-            name="message" 
-            placeholder="Send a message..." 
-            autocomplete="off"
-            required
-        >
-        <button type="submit">Send</button>
-    </form>
+                <!-- Settings panel — slides up above the footer button -->
+                <div id="settings-panel" role="region" aria-label="Settings">
+                    <div class="setting-row">
+                        <span>Light mode</span>
+                        <label class="theme-toggle" title="Toggle light / dark mode">
+                            <input type="checkbox" id="theme-toggle-input" aria-label="Toggle light mode">
+                            <div class="theme-toggle-track"></div>
+                            <div class="theme-toggle-thumb"></div>
+                        </label>
+                    </div>
+                </div>
 
-</div>
+                <!-- Sidebar footer with settings button -->
+                <div id="sidebar-footer">
+                    <button id="settings-btn" title="Settings" aria-expanded="false" aria-controls="settings-panel">
+                        ⚙️ Settings
+                    </button>
+                </div>
+            </div>
+        </aside>
 
+        <!-- ── Chat column ─────────────────────────────────── -->
+        <div id="chat-column">
+
+            <header>
+                <h1>SU Advising Assistant</h1>
+                <p>Ask any question about courses, degree requirements, faculty, or university resources.</p>
+            </header>
+
+            <main>
+                <!--
+                    Response list — HTMX prepends each new answer here (afterbegin).
+                    Newest responses appear at the top. Each block is collapsible.
+                -->
+                <div id="response"></div>
+            </main>
+
+            <!--
+                Input bar — pinned to the bottom of the chat column.
+
+                HTMX attributes:
+                  hx-post="/ask"         — POST the form to /ask
+                  hx-target="#response"  — inject the HTML response into the response list
+                  hx-swap="afterbegin"   — prepend new answers (latest at top)
+            -->
+            <div class="input-bar">
+                <form class="ask-form" hx-post="/ask" hx-target="#response" hx-swap="afterbegin">
+                    <label for="query">Your question</label>
+
+                    <textarea id="query" name="query" required></textarea>
+
+                    <div class="form-footer">
+                        <span class="htmx-indicator">⏳ Searching...</span>
+                        <button class="submit-btn" type="submit">Ask</button>
+                    </div>
+                </form>
+            </div>
+
+        </div><!-- /#chat-column -->
+
+    </div><!-- /#app-shell -->
+
+    <script>
+        // ── Sidebar toggle ────────────────────────────────────────────
+        const shell    = document.getElementById('app-shell');
+        const btnClose = document.getElementById('sidebar-toggle');
+        const btnOpen  = document.getElementById('sidebar-reopen');
+        const STORAGE_KEY = 'su-sidebar-collapsed';
+
+        function setSidebar(collapsed) {
+            shell.classList.toggle('sidebar-collapsed', collapsed);
+            localStorage.setItem(STORAGE_KEY, collapsed ? '1' : '0');
+        }
+
+        // Restore preference on load
+        setSidebar(localStorage.getItem(STORAGE_KEY) === '1');
+
+        btnClose.addEventListener('click', () => setSidebar(true));
+        btnOpen.addEventListener('click',  () => setSidebar(false));
+
+        // ── Theme toggle ──────────────────────────────────────────────
+        const htmlEl       = document.documentElement;
+        const themeInput   = document.getElementById('theme-toggle-input');
+        const settingsBtn  = document.getElementById('settings-btn');
+        const settingsPanel = document.getElementById('settings-panel');
+        const THEME_KEY    = 'su-theme';
+
+        function setTheme(light) {
+            htmlEl.setAttribute('data-theme', light ? 'light' : 'dark');
+            themeInput.checked = light;
+            localStorage.setItem(THEME_KEY, light ? 'light' : 'dark');
+        }
+
+        // Restore saved theme
+        setTheme(localStorage.getItem(THEME_KEY) === 'light');
+
+        themeInput.addEventListener('change', () => setTheme(themeInput.checked));
+
+        // ── Settings panel toggle ─────────────────────────────────────
+        settingsBtn.addEventListener('click', () => {
+            const isOpen = settingsPanel.classList.toggle('open');
+            settingsBtn.setAttribute('aria-expanded', isOpen);
+        });
+        // Close panel when sidebar closes
+        btnClose.addEventListener('click', () => settingsPanel.classList.remove('open'));
+
+        // ── Markdown rendering ────────────────────────────────────────
+        document.body.addEventListener('htmx:afterSwap', function (evt) {
+            evt.detail.target.querySelectorAll('.response-answer').forEach(function (el) {
+                if (!el.dataset.rendered) {
+                    el.innerHTML = marked.parse(el.textContent);
+                    el.dataset.rendered = 'true';
+                }
+            });
+        });
+
+        // ── Clear textarea after submit ───────────────────────────────
+        document.body.addEventListener('htmx:afterRequest', function (evt) {
+            if (evt.detail.elt.classList.contains('ask-form')) {
+                evt.detail.elt.querySelector('textarea').value = '';
+            }
+        });
+    </script>
 </body>
+
 </html>

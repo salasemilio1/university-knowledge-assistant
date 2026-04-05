@@ -1,63 +1,181 @@
 """
-This script serves as the delivery layer of the backend. Its purpose
-is to receive a request from the frontend, call core logic and return
-data to the frontend.
+delivery.py — the web entry point for the advising assistant.
+
+This file does three things:
+  1. Serves the frontend HTML page when a user visits the site.
+  2. Receives a student's question from the frontend form.
+  3. Runs the question through the pipeline and returns the answer.
+
+All business logic lives in the pipeline/ folder.
+This file is only responsible for HTTP in / HTTP out.
 """
 
-from fastapi import FastAPI, Request, HTTPException
-from retrieval import get_response
-from ingestion import ingest_document
+import json
+import logging
+import time
+from datetime import datetime, timezone
+from pathlib import Path
 
+from fastapi import FastAPI, Form
+from fastapi.responses import FileResponse, HTMLResponse
+from fastapi.staticfiles import StaticFiles
+
+from pipeline.router import route
+from pipeline.retriever import retrieve
+from pipeline.answerer import answer
+
+# ── Setup ─────────────────────────────────────────────────────────────────────
+
+# Build absolute paths so the server works regardless of where it's launched from
+_PROJECT_ROOT = Path(__file__).resolve().parent.parent
+KNOWLEDGE_BASE_PATH = str(_PROJECT_ROOT / "knowledge_base")
+FRONTEND_DIR = _PROJECT_ROOT / "Frontend"
+LOG_DIR = _PROJECT_ROOT / "logs"
+LOG_FILE = LOG_DIR / "queries.jsonl"
+
+logging.basicConfig(
+    level=logging.WARNING,
+    format="%(asctime)s  %(levelname)-8s  %(name)s  %(message)s",
+    datefmt="%H:%M:%S",
+)
 
 app = FastAPI()
 
-@app.get("/")
-def read_root() -> dict:
+# Serve all files inside Frontend/ as static assets (CSS, JS, images, etc.)
+app.mount("/static", StaticFiles(directory=str(FRONTEND_DIR)), name="static")
+
+
+# ── Routes ────────────────────────────────────────────────────────────────────
+
+@app.get("/", response_class=FileResponse)
+def index():
+    """Serve the main chat page."""
+    return FileResponse(FRONTEND_DIR / "index.html")
+
+
+@app.post("/ask", response_class=HTMLResponse)
+async def ask(query: str = Form(...)):
     """
-    The root route for the system. Returns the system status if the call is successful.
-    
-    Returns:
-        dict: The status of the system.
+    Receive the student's question, run the pipeline, return an HTML snippet.
+
+    The frontend sends: POST /ask with form field 'query'.
+    HTMX swaps the returned HTML into the response area on the page.
+
+    Steps:
+      1. Route — decide which department folders to look in.
+      2. Retrieve — pick which documents to load.
+      3. Answer — generate the final response from those documents.
+
+    If anything goes wrong at any step, return an error message instead
+    of crashing, so the user always gets some feedback.
     """
-    return {"status": "Ok"} # return status
-
-
-@app.post("/retrieve")
-def retrieve(request:Request) -> str:
-    """
-    Retrieves response in string form (later will be streamed).
-    Assumes form data.
-    
-    Returns:
-        str: Response from LLM.
-    """
-
-    form = request.form()
-    query:str = form["query"]
-
-    # check for query existence and type
-
-    if query == None:
-        raise HTTPException(status_code=400, detail="Missing \"query\" field.")
-    
-    if not isinstance(query, str):
-        raise HTTPException(status_code=400, detail="\"Query\" field must be a String.")
-
-    # remove whitespace
     query = query.strip()
 
-    return get_response(query)
+    if not query:
+        return _error_html("Please enter a question before submitting.")
+
+    start_time = time.time()
+
+    # Step 1 — Route to the right department(s)
+    try:
+        routed_majors = route(query, KNOWLEDGE_BASE_PATH)
+    except Exception as exc:
+        logging.error("Routing failed: %s", exc)
+        return _error_html("Something went wrong while routing your question. Please try again.")
+
+    # Step 2 — Select which documents to load
+    try:
+        doc_list = retrieve(query, routed_majors, KNOWLEDGE_BASE_PATH)
+    except Exception as exc:
+        logging.error("Retrieval failed: %s", exc)
+        return _error_html("Something went wrong while retrieving documents. Please try again.")
+
+    if not doc_list:
+        return _error_html(
+            "I couldn't find any relevant documents for that question. "
+            "Try rephrasing, or contact your academic advisor directly."
+        )
+
+    # Step 3 — Generate the answer
+    # Note: history is not passed here (stateless for now).
+    # To add conversation memory later, store history in a session or pass it from the client.
+    try:
+        answer_text = answer(query, doc_list, history=[])
+    except Exception as exc:
+        logging.error("Answer generation failed: %s", exc)
+        return _error_html("Something went wrong while generating your answer. Please try again.")
+
+    # Log the query for review
+    _log_query(
+        question=query,
+        routed_majors=routed_majors,
+        selected_docs=[d["filename"] for d in doc_list],
+        answer_text=answer_text,
+        duration_seconds=time.time() - start_time,
+    )
+
+    return _answer_html(query, answer_text)
 
 
-#@app.post("/ingest")
-#def ingest(request:Request) -> bool:
-#    """
-#    Ingests an uploaded document to the database.
-    
-#    Returns:
-#        bool: Success or failure. For use in frontend error messages.
-#    """
+# ── HTML snippet builders ──────────────────────────────────────────────────────
 #
-#    # validate / process documents
+# These functions return small HTML strings that HTMX swaps into the page.
+# Keeping them here (instead of Jinja2 templates) is fine for a response
+# this simple. If the snippets grow larger, move them to templates/.
 
-#    return False
+def _answer_html(question: str, answer_text: str) -> str:
+    """Wrap the pipeline answer in a collapsible <details> block.
+
+    The question is the always-visible summary (the clickable header).
+    The answer body expands when the user clicks it.
+    'open' makes the block start expanded so the answer is immediately readable.
+    """
+    return f"""
+    <div class="response-block">
+        <details open>
+            <summary>{question}</summary>
+            <div class="response-answer">{answer_text}</div>
+        </details>
+    </div>
+    """
+
+
+def _error_html(message: str) -> str:
+    """Wrap an error message in a styled HTML block to display on the page."""
+    return f"""
+    <div class="response-block response-error">
+        <p>{message}</p>
+    </div>
+    """
+
+
+# ── Logging ───────────────────────────────────────────────────────────────────
+
+def _log_query(
+    question: str,
+    routed_majors: list[str],
+    selected_docs: list[str],
+    answer_text: str,
+    duration_seconds: float,
+) -> None:
+    """Write one query's results to a newline-delimited JSON log file.
+
+    Each line in the log file is one complete JSON object. This format is
+    easy to read line-by-line and works well with tools like jq or pandas.
+    Logging failures are swallowed so they never crash the server.
+    """
+    entry = {
+        "timestamp": datetime.now(timezone.utc).isoformat(),
+        "question": question,
+        "routed_majors": routed_majors,
+        "selected_docs": selected_docs,
+        "answer": answer_text,
+        "duration_seconds": round(duration_seconds, 2),
+    }
+
+    try:
+        LOG_DIR.mkdir(parents=True, exist_ok=True)
+        with open(LOG_FILE, "a", encoding="utf-8") as f:
+            f.write(json.dumps(entry) + "\n")
+    except Exception as exc:
+        logging.warning("Failed to write query log: %s", exc)
