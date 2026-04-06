@@ -8,6 +8,8 @@ dependencies = [
     "pdfplumber",
     "python-dotenv",
     "fastapi",
+    "markdown",          # converts LLM markdown output to HTML for the browser
+    "python-multipart",  # required to parse HTML form submissions (hx-post)
     "pytest",
     "google-genai",
     "fastapi-users[sqlalchemy]>=15.0.5",
