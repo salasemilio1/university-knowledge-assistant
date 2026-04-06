@@ -33,20 +33,14 @@ class User(Base):
     __tablename__ = "users"
 
     # filled in when user created. pulled from Google
-    google_id: Mapped[str | None] = mapped_column(String(200), nullable=False, primary_key=True)
-    email: Mapped[str | None] = mapped_column(String(200), nullable=True)
-    first_name: Mapped[str | None] = mapped_column(String(100), nullable=True)
-    last_name: Mapped[str | None] = mapped_column(String(100), nullable=True)
+    google_id:Mapped[str | None] = mapped_column(String(200), nullable=False, primary_key=True)
+    email:Mapped[str | None] = mapped_column(String(200), nullable=True)
+    first_name:Mapped[str | None] = mapped_column(String(100), nullable=True)
+    last_name:Mapped[str | None] = mapped_column(String(100), nullable=True)
 
 # create engine and session to interact with DB
 engine = create_engine(DATABASE_URL, echo=False)
-SessionLocal = sessionmaker(
-    bind=engine,
-    autoflush=False,
-    autocommit=False,
-    expire_on_commit=False,
-    class_=Session
-)
+SessionLocal = sessionmaker(bind=engine, autoflush=False, autocommit=False, expire_on_commit=False, class_=Session)
 
 Base.metadata.create_all(bind=engine) # create tables for each ORM model if they don't already exist
 
