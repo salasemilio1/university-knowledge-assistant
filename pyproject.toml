@@ -13,6 +13,7 @@ dependencies = [
     "pytest",
     "google-genai",
     "fastapi-users[sqlalchemy]>=15.0.5",
+    "pymysql>=1.1.2",
 ]
 
 [project.scripts]
