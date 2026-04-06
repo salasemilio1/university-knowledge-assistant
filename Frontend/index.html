@@ -330,17 +330,25 @@
             letter-spacing: 0.06em;
         }
 
+        .input-wrapper {
+            position: relative;
+            display: flex;
+            width: 100%;
+        }
+
         .ask-form textarea {
             width: 100%;
             background: var(--bg);
             border: 1px solid var(--border);
-            border-radius: 6px;
+            border-radius: 12px;
             color: var(--text);
             font: inherit;
             font-size: 1rem;
-            padding: 12px;
-            resize: vertical;
-            min-height: 90px;
+            padding: 14px 50px 14px 16px; /* Right padding makes room for the submit button */
+            resize: none; 
+            min-height: 54px;
+            max-height: 200px; /* ~8 lines of text before scrolling */
+            overflow-y: auto;  /* scroll inside if it exceeds max-height */
             outline: none;
             transition: border-color 0.15s;
         }
@@ -375,17 +383,22 @@
         }
 
         .submit-btn {
+            position: absolute;
+            right: 8px;
+            bottom: 8px;
             background: var(--accent);
             color: #fff;
             border: none;
-            border-radius: 6px;
-            padding: 10px 22px;
-            font: inherit;
-            font-size: 0.95rem;
-            font-weight: 600;
+            border-radius: 8px;
+            width: 36px;
+            height: 36px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             cursor: pointer;
-            transition: background 0.15s;
+            transition: background 0.15s, opacity 0.2s;
             flex-shrink: 0;
+            padding: 0;
         }
 
         .submit-btn:hover {
@@ -792,13 +805,23 @@
                 -->
                 <div class="input-bar">
                     <form class="ask-form" hx-post="/ask" hx-target="#response" hx-swap="afterbegin">
-                        <textarea id="query" name="query" placeholder="Ask about courses, requirements, faculty…"
-                            required></textarea>
+                        
+                        <div class="input-wrapper">
+                            <textarea id="query" name="query" placeholder="Ask about courses, requirements, faculty…" required></textarea>
+                            
+                            <button class="submit-btn" type="submit" title="Send (Enter)">
+                                <!-- Upwards arrow icon -->
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="12" y1="19" x2="12" y2="5"></line>
+                                    <polyline points="5 12 12 5 19 12"></polyline>
+                                </svg>
+                            </button>
+                        </div>
 
                         <div class="form-footer">
                             <span class="htmx-indicator">⏳ Thinking...</span>
-                            <button class="submit-btn" type="submit">Ask</button>
                         </div>
+                        
                     </form>
                 </div>
 
@@ -1100,7 +1123,30 @@
         // ── Clear textarea after submit ───────────────────────────────
         document.body.addEventListener('htmx:afterRequest', function (evt) {
             if (evt.detail.elt.classList.contains('ask-form')) {
-                evt.detail.elt.querySelector('textarea').value = '';
+                const ta = evt.detail.elt.querySelector('textarea');
+                ta.value = '';
+                ta.style.height = 'auto'; // reset size after clearing text
+            }
+        });
+
+        // ── Submit on Enter & Auto-resize ─────────────────────────────
+        const textarea = document.getElementById('query');
+
+        function autoResizeTextarea() {
+            // Reset height to 'auto' to correctly shrink if text is deleted
+            textarea.style.height = 'auto';
+            textarea.style.height = textarea.scrollHeight + 'px';
+        }
+
+        textarea.addEventListener('input', autoResizeTextarea);
+
+        textarea.addEventListener('keydown', function(evt) {
+            if (evt.key === 'Enter' && !evt.shiftKey) {
+                evt.preventDefault(); // prevent adding a new line
+                if (textarea.value.trim() !== '') {
+                    // Send form using standard HTML5 submission which HTMX catches
+                    textarea.closest('form').requestSubmit();
+                }
             }
         });
     </script>
