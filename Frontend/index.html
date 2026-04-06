@@ -344,11 +344,14 @@
             color: var(--text);
             font: inherit;
             font-size: 1rem;
-            padding: 14px 50px 14px 16px; /* Right padding makes room for the submit button */
-            resize: none; 
+            padding: 14px 50px 14px 16px;
+            /* Right padding makes room for the submit button */
+            resize: none;
             min-height: 54px;
-            max-height: 200px; /* ~8 lines of text before scrolling */
-            overflow-y: auto;  /* scroll inside if it exceeds max-height */
+            max-height: 200px;
+            /* ~8 lines of text before scrolling */
+            overflow-y: auto;
+            /* scroll inside if it exceeds max-height */
             outline: none;
             transition: border-color 0.15s;
         }
@@ -363,11 +366,19 @@
 
         /* ── Blinking dots animation (for loading state) ─────────────── */
         @keyframes blink {
-            0% { opacity: 0.2; }
-            20% { opacity: 1; }
-            100% { opacity: 0.2; }
+            0% {
+                opacity: 0.2;
+            }
+
+            20% {
+                opacity: 1;
+            }
+
+            100% {
+                opacity: 0.2;
+            }
         }
-        
+
         .blinking-dots {
             font-weight: 700;
             letter-spacing: 1px;
@@ -377,8 +388,13 @@
             animation: blink 1.4s infinite both;
         }
 
-        .blinking-dots span:nth-child(2) { animation-delay: 0.2s; }
-        .blinking-dots span:nth-child(3) { animation-delay: 0.4s; }
+        .blinking-dots span:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+
+        .blinking-dots span:nth-child(3) {
+            animation-delay: 0.4s;
+        }
 
         .submit-btn {
             position: absolute;
@@ -411,8 +427,8 @@
 
         /* ── Response area ──────────────────────────────────────────── */
         /* This scrollable div grows to fill the space above the form.
-           HTMX prepends each new response here (afterbegin), so the
-           latest answer always appears at the top. */
+           HTMX appends each new response here (beforeend), so the
+           latest answer always appears at the bottom. */
         #response {
             flex: 1;
             overflow-y: auto;
@@ -565,7 +581,7 @@
         .nav-btn-profile.active {
             background: var(--accent);
             color: var(--accent-fg);
-            box-shadow: 0 0 0 2px var(--accent), 0 0 0 4px rgba(248,201,35,0.25);
+            box-shadow: 0 0 0 2px var(--accent), 0 0 0 4px rgba(248, 201, 35, 0.25);
         }
 
         /* ── Profile page ────────────────────────────────────────── */
@@ -589,7 +605,8 @@
             font-weight: 600;
             padding: 8px 14px;
             transition: color 0.15s, border-color 0.15s;
-            margin-bottom: -1px; /* overlap the bar border */
+            margin-bottom: -1px;
+            /* overlap the bar border */
         }
 
         .profile-tab-btn:hover {
@@ -749,7 +766,7 @@
                 <!-- Sidebar navigation — add more <button data-page="..."> items here -->
                 <nav id="sidebar-nav" aria-label="Main navigation">
                     <button class="nav-btn" data-page="chat" title="Advising Chat">
-                        New Chat
+                        Chat
                     </button>
                     <button class="nav-btn" data-page="dashboard" title="Dashboard">
                         📊 Dashboard
@@ -799,23 +816,25 @@
                     HTMX attributes:
                       hx-post="/ask"         — POST the form to /ask
                       hx-target="#response"  — inject the HTML response into the response list
-                      hx-swap="afterbegin"   — prepend new answers (latest at top)
+                      hx-swap="beforeend"    — append new answers (latest at bottom)
                 -->
                 <div class="input-bar">
-                    <form class="ask-form" hx-post="/ask" hx-target="#response" hx-swap="afterbegin">
-                        
+                    <form class="ask-form" hx-post="/ask" hx-target="#response" hx-swap="beforeend">
+
                         <div class="input-wrapper">
-                            <textarea id="query" name="query" placeholder="Ask about courses, requirements, faculty…" required></textarea>
-                            
+                            <textarea id="query" name="query" placeholder="Ask about courses, requirements, faculty…"
+                                required></textarea>
+
                             <button class="submit-btn" type="submit" title="Send (Enter)">
                                 <!-- Upwards arrow icon -->
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                                     <line x1="12" y1="19" x2="12" y2="5"></line>
                                     <polyline points="5 12 12 5 19 12"></polyline>
                                 </svg>
                             </button>
                         </div>
-                        
+
                     </form>
                 </div>
 
@@ -873,12 +892,12 @@
 
                 <!-- Sub-tab bar — add more .profile-tab-btn + .profile-tab-panel pairs to extend -->
                 <div class="profile-tab-bar" role="tablist" aria-label="Profile sections">
-                    <button class="profile-tab-btn" data-tab="academic"
-                            role="tab" aria-controls="ptab-academic">Academic Info</button>
-                    <button class="profile-tab-btn" data-tab="account"
-                            role="tab" aria-controls="ptab-account">Account</button>
-                    <button class="profile-tab-btn" data-tab="settings"
-                            role="tab" aria-controls="ptab-settings">Settings</button>
+                    <button class="profile-tab-btn" data-tab="academic" role="tab"
+                        aria-controls="ptab-academic">Academic Info</button>
+                    <button class="profile-tab-btn" data-tab="account" role="tab"
+                        aria-controls="ptab-account">Account</button>
+                    <button class="profile-tab-btn" data-tab="settings" role="tab"
+                        aria-controls="ptab-settings">Settings</button>
                 </div>
 
                 <!-- ── Sub-tab: Academic Info ────────────────────── -->
@@ -1119,14 +1138,14 @@
             if (evt.detail.elt.classList.contains('ask-form')) {
                 const ta = evt.detail.elt.querySelector('textarea');
                 const queryText = ta.value.trim();
-                
+
                 if (queryText) {
                     // Escape HTML to prevent XSS in the temporary UI
                     const escapedQuery = queryText
                         .replace(/&/g, "&amp;")
                         .replace(/</g, "&lt;")
                         .replace(/>/g, "&gt;");
-                        
+
                     // Construct temporary "Thinking..." block mimicking the backend HTML
                     const tempHTML = `
                         <div class="response-block" id="temp-thinking">
@@ -1140,10 +1159,14 @@
                             </details>
                         </div>
                     `;
-                    
-                    document.getElementById('response').insertAdjacentHTML('afterbegin', tempHTML);
+
+                    const responseDiv = document.getElementById('response');
+                    responseDiv.insertAdjacentHTML('beforeend', tempHTML);
+
+                    // Auto-scroll to the newly appended thinking block so it's in view
+                    responseDiv.scrollTop = responseDiv.scrollHeight;
                 }
-                
+
                 // Clear the input box and reset size immediately
                 ta.value = '';
                 ta.style.height = 'auto';
@@ -1154,6 +1177,14 @@
         document.body.addEventListener('htmx:beforeSwap', function (evt) {
             const temp = document.getElementById('temp-thinking');
             if (temp) temp.remove();
+        });
+
+        // ── Scroll to bottom when real answer is fully rendered ──
+        document.body.addEventListener('htmx:afterSwap', function (evt) {
+            if (evt.detail.target.id === 'response') {
+                const responseDiv = document.getElementById('response');
+                responseDiv.scrollTop = responseDiv.scrollHeight;
+            }
         });
 
         // ── Submit on Enter & Auto-resize ─────────────────────────────
@@ -1167,7 +1198,7 @@
 
         textarea.addEventListener('input', autoResizeTextarea);
 
-        textarea.addEventListener('keydown', function(evt) {
+        textarea.addEventListener('keydown', function (evt) {
             if (evt.key === 'Enter' && !evt.shiftKey) {
                 evt.preventDefault(); // prevent adding a new line
                 if (textarea.value.trim() !== '') {
