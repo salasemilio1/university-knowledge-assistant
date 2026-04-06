@@ -178,8 +178,4 @@ def _log_query(
         with open(LOG_FILE, "a", encoding="utf-8") as f:
             f.write(json.dumps(entry) + "\n")
     except Exception as exc:
-<<<<<<< feature/interface-scaffold
         logging.warning("Failed to write query log: %s", exc)
-=======
-        logging.warning("Failed to write query log: %s", exc)
->>>>>>> main
