@@ -5,7 +5,6 @@ This script serves to manage most things related to user configuration with SQLA
 
 from sqlalchemy.orm import DeclarativeBase
 from sqlalchemy.orm import Mapped, mapped_column
-from user_db import Base
 from sqlalchemy import create_engine, sessionmaker, Session, select, exists, String, Boolean
 
 from dotenv import load_dotenv
