@@ -6,7 +6,7 @@ This script serves to manage most things related to user configuration with SQLA
 from sqlalchemy.orm import DeclarativeBase
 from sqlalchemy.orm import Mapped, mapped_column
 from user_db import Base
-from sqlalchemy import create_engine, sessionmaker, Session, select, String, Boolean
+from sqlalchemy import create_engine, sessionmaker, Session, select, exists, String, Boolean
 
 from dotenv import load_dotenv
 import os
@@ -52,13 +52,40 @@ Base.metadata.create_all(bind=engine) # create tables for each ORM model if they
 
 # API - methods to interact with DB
 
-def does_user_exist(id:str):
-    with SessionLocal() as session:
-        user = session.scalars(select(User).where(User.google_id == id)).one_or_none()
+def does_user_exist(google_id:str) -> bool:
+    """
+    Checks if user exists in DB for given key.
 
-def create_user(google_id:str, email:str, first_name:str, last_name:str):
+    Args:
+        google_id(str): The key to check for.
+    Returns:
+        bool: True if exists, false otherwise.
+    """
+
+    with SessionLocal() as session:
+        stmt = select(exists().where(User.google_id == google_id))
+        return session.scalar(stmt)
+
+
+def create_user(google_id:str, email:str, first_name:str, last_name:str) -> bool:
+    """
+    Creates user if one doesn't exist for the given key.
+
+    Args:
+        google_id(str): The Google ID of the account to create a user for.
+        email(str): The email of the account to create a user for.
+        first_name(str): The first name of the account to create a user for.
+        last_name(str): The last name of the account to create a user for.
+    Returns:
+        bool: True if successful, false if one already exists with the given key.
+    """
+
+    if does_user_exist(google_id):
+        return False
+    
     with SessionLocal() as session:
         user = User(google_id=google_id, email=email, first_name=first_name, last_name=last_name)
         session.add(user)
         session.commit()
         session.refresh(user)
+    return True
