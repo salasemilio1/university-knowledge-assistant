@@ -361,26 +361,24 @@
             color: var(--muted);
         }
 
-        .form-footer {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            gap: 12px;
+        /* ── Blinking dots animation (for loading state) ─────────────── */
+        @keyframes blink {
+            0% { opacity: 0.2; }
+            20% { opacity: 1; }
+            100% { opacity: 0.2; }
+        }
+        
+        .blinking-dots {
+            font-weight: 700;
+            letter-spacing: 1px;
         }
 
-        /* Loading indicator — shown by HTMX while the request is in-flight */
-        .htmx-indicator {
-            font-size: 0.85rem;
-            color: var(--muted);
-            opacity: 0;
-            /* hidden by default */
-            transition: opacity 0.2s;
+        .blinking-dots span {
+            animation: blink 1.4s infinite both;
         }
 
-        /* HTMX adds .htmx-request to the form while the request is pending */
-        .ask-form.htmx-request .htmx-indicator {
-            opacity: 1;
-        }
+        .blinking-dots span:nth-child(2) { animation-delay: 0.2s; }
+        .blinking-dots span:nth-child(3) { animation-delay: 0.4s; }
 
         .submit-btn {
             position: absolute;
@@ -817,10 +815,6 @@
                                 </svg>
                             </button>
                         </div>
-
-                        <div class="form-footer">
-                            <span class="htmx-indicator">⏳ Thinking...</span>
-                        </div>
                         
                     </form>
                 </div>
@@ -1120,13 +1114,46 @@
             });
         });
 
-        // ── Clear textarea after submit ───────────────────────────────
-        document.body.addEventListener('htmx:afterRequest', function (evt) {
+        // ── Move query to chat immediately on submit ──────────────────
+        document.body.addEventListener('htmx:beforeRequest', function (evt) {
             if (evt.detail.elt.classList.contains('ask-form')) {
                 const ta = evt.detail.elt.querySelector('textarea');
+                const queryText = ta.value.trim();
+                
+                if (queryText) {
+                    // Escape HTML to prevent XSS in the temporary UI
+                    const escapedQuery = queryText
+                        .replace(/&/g, "&amp;")
+                        .replace(/</g, "&lt;")
+                        .replace(/>/g, "&gt;");
+                        
+                    // Construct temporary "Thinking..." block mimicking the backend HTML
+                    const tempHTML = `
+                        <div class="response-block" id="temp-thinking">
+                            <details open>
+                                <summary>${escapedQuery}</summary>
+                                <div class="response-answer">
+                                    <span style="color: var(--muted); font-style: italic;">
+                                        Thinking<span class="blinking-dots"><span>.</span><span>.</span><span>.</span></span>
+                                    </span>
+                                </div>
+                            </details>
+                        </div>
+                    `;
+                    
+                    document.getElementById('response').insertAdjacentHTML('afterbegin', tempHTML);
+                }
+                
+                // Clear the input box and reset size immediately
                 ta.value = '';
-                ta.style.height = 'auto'; // reset size after clearing text
+                ta.style.height = 'auto';
             }
+        });
+
+        // ── Remove temporary "Thinking..." block when real answer arrives ──
+        document.body.addEventListener('htmx:beforeSwap', function (evt) {
+            const temp = document.getElementById('temp-thinking');
+            if (temp) temp.remove();
         });
 
         // ── Submit on Enter & Auto-resize ─────────────────────────────
