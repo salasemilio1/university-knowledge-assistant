@@ -528,6 +528,67 @@
             padding: 16px 24px;
             border-top: 1px solid var(--border);
         }
+
+        /* ── Sidebar navigation ─────────────────────────────────────── */
+        /*
+         * Each <button data-page="..."> in #sidebar-nav corresponds to a
+         * <section id="page-..."> in the chat column.
+         * To add a new page: add a button here + a section there.
+         */
+        #sidebar-nav {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            padding: 12px 10px;
+            flex: 1;
+            /* fills remaining sidebar height */
+            overflow-y: auto;
+            /* scroll if nav items ever overflow */
+        }
+
+        .nav-btn {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            width: 100%;
+            background: none;
+            border: none;
+            border-radius: 8px;
+            color: var(--text);
+            cursor: pointer;
+            font: inherit;
+            font-size: 0.9rem;
+            padding: 9px 12px;
+            text-align: left;
+            transition: background 0.15s, color 0.15s;
+        }
+
+        .nav-btn:hover {
+            background: var(--surface-raised);
+        }
+
+        /* Highlight the active page's nav button */
+        .nav-btn.active {
+            background: rgba(248, 201, 35, 0.12);
+            color: var(--accent);
+            font-weight: 600;
+        }
+
+        /* ── Page sections ───────────────────────────────────────────── */
+        /*
+         * Every top-level content area is a <section class="page">.
+         * Only the active page is visible; all others are hidden.
+         */
+        .page {
+            display: none;
+            flex: 1;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        .page.active {
+            display: flex;
+        }
     </style>
 </head>
 
@@ -545,10 +606,16 @@
                     <button id="sidebar-toggle" title="Close sidebar" aria-label="Close sidebar">✕</button>
                 </div>
 
-                <!-- Scrollable sidebar content -->
-                <div id="sidebar-body">
-                    <!-- chat history, nav links, etc. go here -->
-                </div>
+                <!-- Sidebar navigation — add more <button data-page="..."> items here -->
+                <nav id="sidebar-nav" aria-label="Main navigation">
+                    <button class="nav-btn" data-page="chat" title="Advising Chat">
+                        New Chat
+                    </button>
+                    <button class="nav-btn" data-page="dashboard" title="Dashboard">
+                        📊 Dashboard
+                    </button>
+                    <!-- Add future nav buttons here -->
+                </nav>
 
                 <!-- Settings panel — slides up above the footer button -->
                 <div id="settings-panel" role="region" aria-label="Settings">
@@ -571,47 +638,143 @@
             </div>
         </aside>
 
-        <!-- ── Chat column ─────────────────────────────────── -->
+        <!-- ── Content column ───────────────────────────────── -->
+        <!--
+            Each page lives in a <section class="page" id="page-NAME">.
+            navigateTo(NAME) shows the matching section and hides all others.
+            To add a new page:
+              1. Add a nav button in #sidebar-nav with data-page="NAME".
+              2. Add a <section class="page" id="page-NAME"> here.
+        -->
         <div id="chat-column">
 
-            <header>
-                <h1>SU Advising Assistant</h1>
-                <p>Ask any question about courses, degree requirements, faculty, or university resources.</p>
-            </header>
+            <!-- ── Page: Chat ─────────────────────────────────── -->
+            <section class="page" id="page-chat">
 
-            <main>
+                <header>
+                    <h1>SU Advising Assistant</h1>
+                    <p>Ask any question about courses, degree requirements, faculty, or university resources.</p>
+                </header>
+
+                <main>
+                    <!--
+                        Response list — HTMX prepends each new answer here (afterbegin).
+                        Newest responses appear at the top. Each block is collapsible.
+                    -->
+                    <div id="response"></div>
+                </main>
+
                 <!--
-                    Response list — HTMX prepends each new answer here (afterbegin).
-                    Newest responses appear at the top. Each block is collapsible.
+                    Input bar — pinned to the bottom of the chat page.
+
+                    HTMX attributes:
+                      hx-post="/ask"         — POST the form to /ask
+                      hx-target="#response"  — inject the HTML response into the response list
+                      hx-swap="afterbegin"   — prepend new answers (latest at top)
                 -->
-                <div id="response"></div>
-            </main>
+                <div class="input-bar">
+                    <form class="ask-form" hx-post="/ask" hx-target="#response" hx-swap="afterbegin">
+                        <textarea id="query" name="query" placeholder="Ask about courses, requirements, faculty…"
+                            required></textarea>
 
+                        <div class="form-footer">
+                            <span class="htmx-indicator">⏳ Thinking...</span>
+                            <button class="submit-btn" type="submit">Ask</button>
+                        </div>
+                    </form>
+                </div>
+
+            </section><!-- /#page-chat -->
+
+            <!-- ── Page: Dashboard ─────────────────────────────── -->
             <!--
-                Input bar — pinned to the bottom of the chat column.
-
-                HTMX attributes:
-                  hx-post="/ask"         — POST the form to /ask
-                  hx-target="#response"  — inject the HTML response into the response list
-                  hx-swap="afterbegin"   — prepend new answers (latest at top)
+                TODO: Replace the placeholder content below with the real
+                Dashboard implementation when it's ready. The section
+                structure (header + main) should stay the same.
             -->
-            <div class="input-bar">
-                <form class="ask-form" hx-post="/ask" hx-target="#response" hx-swap="afterbegin">
-                    <textarea id="query" name="query" placeholder="Ask about courses, requirements, faculty…"
-                        required></textarea>
+            <section class="page" id="page-dashboard">
 
-                    <div class="form-footer">
-                        <span class="htmx-indicator">⏳ Thinking...</span>
-                        <button class="submit-btn" type="submit">Ask</button>
+                <header>
+                    <h1>Dashboard</h1>
+                    <p>An overview of your academic progress and advising activity.</p>
+                </header>
+
+                <main>
+                    <!-- TODO: Replace this placeholder with real dashboard widgets -->
+                    <div style="
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        height: 100%;
+                        gap: 12px;
+                        color: var(--muted);
+                    ">
+                        <span style="font-size: 3rem;">📊</span>
+                        <p style="font-size: 1.1rem; font-weight: 600;">Dashboard — Coming Soon</p>
+                        <p style="font-size: 0.9rem;">This page is a placeholder. Implement your widgets here.</p>
                     </div>
-                </form>
-            </div>
+                </main>
+
+            </section><!-- /#page-dashboard -->
+
+            <!-- Add future page sections here -->
 
         </div><!-- /#chat-column -->
 
     </div><!-- /#app-shell -->
 
     <script>
+        // ── Page router ───────────────────────────────────────────────
+        //
+        // navigateTo(pageId) activates the matching <section id="page-{pageId}">
+        // and highlights the corresponding nav button.
+        // This is a purely client-side router — no network requests needed.
+        //
+        // How to add a new page:
+        //   1. Add a <button class="nav-btn" data-page="NAME"> in #sidebar-nav.
+        //   2. Add a <section class="page" id="page-NAME"> in #chat-column.
+        //   3. That's it — navigateTo() will handle activation automatically.
+
+        const PAGE_KEY = 'su-active-page';
+        const DEFAULT_PAGE = 'chat';
+
+        function navigateTo(pageId) {
+            // Deactivate all pages and nav buttons
+            document.querySelectorAll('.page').forEach(function (sec) {
+                sec.classList.remove('active');
+            });
+            document.querySelectorAll('.nav-btn').forEach(function (btn) {
+                btn.classList.remove('active');
+                btn.setAttribute('aria-current', 'false');
+            });
+
+            // Activate the target page
+            const targetPage = document.getElementById('page-' + pageId);
+            if (targetPage) {
+                targetPage.classList.add('active');
+            }
+
+            // Highlight the matching nav button
+            const targetBtn = document.querySelector('.nav-btn[data-page="' + pageId + '"]');
+            if (targetBtn) {
+                targetBtn.classList.add('active');
+                targetBtn.setAttribute('aria-current', 'page');
+            }
+
+            localStorage.setItem(PAGE_KEY, pageId);
+        }
+
+        // Wire up all nav buttons to the router
+        document.querySelectorAll('.nav-btn[data-page]').forEach(function (btn) {
+            btn.addEventListener('click', function () {
+                navigateTo(btn.dataset.page);
+            });
+        });
+
+        // Restore the last active page (or default to chat)
+        navigateTo(localStorage.getItem(PAGE_KEY) || DEFAULT_PAGE);
+
         // ── Sidebar toggle ────────────────────────────────────────────
         const shell = document.getElementById('app-shell');
         const btnClose = document.getElementById('sidebar-toggle');
