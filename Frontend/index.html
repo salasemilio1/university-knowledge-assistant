@@ -21,7 +21,8 @@
             --border: rgba(248, 201, 35, 0.18);
             --accent: #F8C923;
             --accent-hover: #e0b51e;
-            --accent-fg: #111111;    /* text ON the gold accent button */
+            --accent-fg: #111111;
+            /* text ON the gold accent button */
             --text: #F5F5F5;
             --muted: #9a9a9a;
             --error: #f87171;
@@ -38,7 +39,8 @@
             --surface: #F2F2F2;
             --surface-raised: #E6E6E6;
             --border: rgba(0, 0, 0, 0.12);
-            --accent: #c49b00;       /* darker gold — stays readable on white */
+            --accent: #c49b00;
+            /* darker gold — stays readable on white */
             --accent-hover: #a88400;
             --accent-fg: #FFFFFF;
             --text: #111111;
@@ -86,10 +88,12 @@
         #sidebar {
             border-right: 1px solid var(--border);
             background: var(--surface);
-            overflow: hidden;           /* clip content during slide animation */
+            overflow: hidden;
+            /* clip content during slide animation */
             display: flex;
             flex-direction: column;
-            min-width: 0;               /* allow grid to shrink it fully */
+            min-width: 0;
+            /* allow grid to shrink it fully */
         }
 
         /* Inner wrapper keeps content at full width while the grid column shrinks */
@@ -97,8 +101,10 @@
             width: var(--sidebar-width);
             display: flex;
             flex-direction: column;
-            height: 100%;           /* fill the sidebar fully */
-            overflow: hidden;       /* let sections control their own scroll */
+            height: 100%;
+            /* fill the sidebar fully */
+            overflow: hidden;
+            /* let sections control their own scroll */
         }
 
         /* Scrollable body area — grows to push footer down */
@@ -229,12 +235,12 @@
             pointer-events: none;
         }
 
-        .theme-toggle input:checked ~ .theme-toggle-track {
+        .theme-toggle input:checked~.theme-toggle-track {
             background: var(--accent);
             border-color: var(--accent);
         }
 
-        .theme-toggle input:checked ~ .theme-toggle-thumb {
+        .theme-toggle input:checked~.theme-toggle-thumb {
             transform: translateX(20px);
             background: var(--accent-fg);
         }
@@ -311,10 +317,6 @@
 
         /* ── Ask form ───────────────────────────────────────────────── */
         .ask-form {
-            background: var(--surface);
-            border: 1px solid var(--border);
-            border-radius: var(--radius);
-            padding: 20px;
             display: flex;
             flex-direction: column;
             gap: 12px;
@@ -595,12 +597,11 @@
             -->
             <div class="input-bar">
                 <form class="ask-form" hx-post="/ask" hx-target="#response" hx-swap="afterbegin">
-                    <label for="query">Your question</label>
-
-                    <textarea id="query" name="query" required></textarea>
+                    <textarea id="query" name="query" placeholder="Ask about courses, requirements, faculty…"
+                        required></textarea>
 
                     <div class="form-footer">
-                        <span class="htmx-indicator">⏳ Searching...</span>
+                        <span class="htmx-indicator">⏳ Thinking...</span>
                         <button class="submit-btn" type="submit">Ask</button>
                     </div>
                 </form>
@@ -612,9 +613,9 @@
 
     <script>
         // ── Sidebar toggle ────────────────────────────────────────────
-        const shell    = document.getElementById('app-shell');
+        const shell = document.getElementById('app-shell');
         const btnClose = document.getElementById('sidebar-toggle');
-        const btnOpen  = document.getElementById('sidebar-reopen');
+        const btnOpen = document.getElementById('sidebar-reopen');
         const STORAGE_KEY = 'su-sidebar-collapsed';
 
         function setSidebar(collapsed) {
@@ -626,14 +627,14 @@
         setSidebar(localStorage.getItem(STORAGE_KEY) === '1');
 
         btnClose.addEventListener('click', () => setSidebar(true));
-        btnOpen.addEventListener('click',  () => setSidebar(false));
+        btnOpen.addEventListener('click', () => setSidebar(false));
 
         // ── Theme toggle ──────────────────────────────────────────────
-        const htmlEl       = document.documentElement;
-        const themeInput   = document.getElementById('theme-toggle-input');
-        const settingsBtn  = document.getElementById('settings-btn');
+        const htmlEl = document.documentElement;
+        const themeInput = document.getElementById('theme-toggle-input');
+        const settingsBtn = document.getElementById('settings-btn');
         const settingsPanel = document.getElementById('settings-panel');
-        const THEME_KEY    = 'su-theme';
+        const THEME_KEY = 'su-theme';
 
         function setTheme(light) {
             htmlEl.setAttribute('data-theme', light ? 'light' : 'dark');
