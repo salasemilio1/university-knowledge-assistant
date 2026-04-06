@@ -38,11 +38,13 @@ class User(Base):
     first_name:Mapped[str | None] = mapped_column(String(100), nullable=True)
     last_name:Mapped[str | None] = mapped_column(String(100), nullable=True)
 
+
 # create engine and session to interact with DB
 engine = create_engine(DATABASE_URL, echo=False)
 SessionLocal = sessionmaker(bind=engine, autoflush=False, autocommit=False, expire_on_commit=False, class_=Session)
 
 Base.metadata.create_all(bind=engine) # create tables for each ORM model if they don't already exist
+
 
 # API - methods to interact with DB
 
