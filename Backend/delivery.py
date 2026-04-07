@@ -15,10 +15,14 @@ import logging
 import time
 from datetime import datetime, timezone
 from pathlib import Path
+import os
+from dotenv import load_dotenv
 
-from fastapi import FastAPI, Form, HTTPException
+from fastapi import FastAPI, Form, Request, HTTPException
 from fastapi.responses import FileResponse, HTMLResponse
 from fastapi.staticfiles import StaticFiles
+
+from starlette.middleware.sessions import SessionMiddleware
 
 from google.oauth2 import id_token
 from google.auth.transport import requests
@@ -31,6 +35,10 @@ from pipeline.answerer import answer
 
 # Google OAuth client
 CLIENT_ID = "645267348660-8l6o31mokh4d7g4a0h57suu2lf36motg.apps.googleusercontent.com"
+
+load_dotenv() # Load environment variables
+# Used for session middleware
+SECRET_KEY = os.getenv("SECRET_KEY")
 
 # Build absolute paths so the server works regardless of where it's launched from
 _PROJECT_ROOT = Path(__file__).resolve().parent.parent
@@ -50,6 +58,8 @@ app = FastAPI()
 # Serve all files inside Frontend/ as static assets (CSS, JS, images, etc.)
 app.mount("/static", StaticFiles(directory=str(FRONTEND_DIR)), name="static")
 
+# Add middleware (used for user sessions)
+app.add_middleware(SessionMiddleware, SECRET_KEY)
 
 # ── Routes ────────────────────────────────────────────────────────────────────
 
