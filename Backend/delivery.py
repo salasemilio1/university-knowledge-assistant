@@ -15,16 +15,32 @@ import logging
 import time
 from datetime import datetime, timezone
 from pathlib import Path
+import os
+from dotenv import load_dotenv
 
-from fastapi import FastAPI, Form
-from fastapi.responses import FileResponse, HTMLResponse
+from fastapi import FastAPI, Form, Request, Response, HTTPException
+from fastapi.responses import FileResponse, HTMLResponse, RedirectResponse
 from fastapi.staticfiles import StaticFiles
+
+from starlette.middleware.sessions import SessionMiddleware
+
+from google.oauth2 import id_token
+from google.auth.transport import requests
 
 from pipeline.router import route
 from pipeline.retriever import retrieve
 from pipeline.answerer import answer
 
+from Backend.user_db import create_user, does_user_exist
+
 # ── Setup ─────────────────────────────────────────────────────────────────────
+
+# Google OAuth client
+CLIENT_ID = "645267348660-8l6o31mokh4d7g4a0h57suu2lf36motg.apps.googleusercontent.com"
+
+load_dotenv() # Load environment variables
+# Used for session middleware
+SECRET_KEY = os.getenv("SECRET_KEY")
 
 # Build absolute paths so the server works regardless of where it's launched from
 _PROJECT_ROOT = Path(__file__).resolve().parent.parent
@@ -44,14 +60,53 @@ app = FastAPI()
 # Serve all files inside Frontend/ as static assets (CSS, JS, images, etc.)
 app.mount("/static", StaticFiles(directory=str(FRONTEND_DIR)), name="static")
 
+# Add middleware (used for user sessions)
+app.add_middleware(SessionMiddleware, SECRET_KEY)
 
 # ── Routes ────────────────────────────────────────────────────────────────────
 
 @app.get("/", response_class=FileResponse)
-def index():
+def index(request: Request):
     """Serve the main chat page."""
-    return FileResponse(FRONTEND_DIR / "index.html")
+    if(request.session.get("user_id")):
+        return FileResponse(FRONTEND_DIR / "index.html")
+    else:
+        # Route to sign-in page if user is not signed in
+        return RedirectResponse(url="/sign-in", status_code=302)
 
+@app.get("/sign-in", response_class=FileResponse)
+def index():
+    """Serve the sign-in page."""
+    return FileResponse(FRONTEND_DIR / "sign_in_page.html")
+
+@app.post("/auth/google")
+async def google_auth(request: Request, response: Response, token: str = Form(...)):
+    try:
+        idinfo = id_token.verify_oauth2_token(
+            token,
+            requests.Request(),
+            CLIENT_ID
+        )
+        
+        google_id= idinfo.get("sub")
+        email = idinfo.get("email")
+
+        name = idinfo.get("name")
+        first_name, last_name = name.split(" ", 1)
+
+        # Add user to database, if not already in the database
+        create_user(google_id,email,first_name,last_name)
+
+        # Create user session
+        request.session["user_id"] = google_id
+
+        # Redirect user to main page after login
+        response.headers["HX-Redirect"] = "/"
+    
+    except Exception:
+        raise HTTPException(status_code=400, detail="Invalid token")
+
+    
 
 @app.post("/ask", response_class=HTMLResponse)
 async def ask(query: str = Form(...)):
