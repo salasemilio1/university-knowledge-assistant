@@ -52,6 +52,11 @@ def index():
     """Serve the main chat page."""
     return FileResponse(FRONTEND_DIR / "index.html")
 
+@app.get("/sign-in", response_class=FileResponse)
+def index():
+    """Serve the sign-in page."""
+    return FileResponse(FRONTEND_DIR / "sign_in_page.html")
+
 
 @app.post("/ask", response_class=HTMLResponse)
 async def ask(query: str = Form(...)):
