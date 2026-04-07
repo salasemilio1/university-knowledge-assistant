@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SU Advising Assistant</title>
+    <title>University Knowledge Assistant</title>
 
     <!-- HTMX handles sending the form and swapping the response in -->
     <script src="https://unpkg.com/htmx.org@1.9.10"></script>
@@ -21,7 +21,8 @@
             --border: rgba(248, 201, 35, 0.18);
             --accent: #F8C923;
             --accent-hover: #e0b51e;
-            --accent-fg: #111111;    /* text ON the gold accent button */
+            --accent-fg: #111111;
+            /* text ON the gold accent button */
             --text: #F5F5F5;
             --muted: #9a9a9a;
             --error: #f87171;
@@ -38,7 +39,8 @@
             --surface: #F2F2F2;
             --surface-raised: #E6E6E6;
             --border: rgba(0, 0, 0, 0.12);
-            --accent: #c49b00;       /* darker gold — stays readable on white */
+            --accent: #c49b00;
+            /* darker gold — stays readable on white */
             --accent-hover: #a88400;
             --accent-fg: #FFFFFF;
             --text: #111111;
@@ -86,10 +88,12 @@
         #sidebar {
             border-right: 1px solid var(--border);
             background: var(--surface);
-            overflow: hidden;           /* clip content during slide animation */
+            overflow: hidden;
+            /* clip content during slide animation */
             display: flex;
             flex-direction: column;
-            min-width: 0;               /* allow grid to shrink it fully */
+            min-width: 0;
+            /* allow grid to shrink it fully */
         }
 
         /* Inner wrapper keeps content at full width while the grid column shrinks */
@@ -97,8 +101,10 @@
             width: var(--sidebar-width);
             display: flex;
             flex-direction: column;
-            height: 100%;           /* fill the sidebar fully */
-            overflow: hidden;       /* let sections control their own scroll */
+            height: 100%;
+            /* fill the sidebar fully */
+            overflow: hidden;
+            /* let sections control their own scroll */
         }
 
         /* Scrollable body area — grows to push footer down */
@@ -229,12 +235,12 @@
             pointer-events: none;
         }
 
-        .theme-toggle input:checked ~ .theme-toggle-track {
+        .theme-toggle input:checked~.theme-toggle-track {
             background: var(--accent);
             border-color: var(--accent);
         }
 
-        .theme-toggle input:checked ~ .theme-toggle-thumb {
+        .theme-toggle input:checked~.theme-toggle-thumb {
             transform: translateX(20px);
             background: var(--accent-fg);
         }
@@ -311,10 +317,6 @@
 
         /* ── Ask form ───────────────────────────────────────────────── */
         .ask-form {
-            background: var(--surface);
-            border: 1px solid var(--border);
-            border-radius: var(--radius);
-            padding: 20px;
             display: flex;
             flex-direction: column;
             gap: 12px;
@@ -328,17 +330,28 @@
             letter-spacing: 0.06em;
         }
 
+        .input-wrapper {
+            position: relative;
+            display: flex;
+            width: 100%;
+        }
+
         .ask-form textarea {
             width: 100%;
             background: var(--bg);
             border: 1px solid var(--border);
-            border-radius: 6px;
+            border-radius: 12px;
             color: var(--text);
             font: inherit;
             font-size: 1rem;
-            padding: 12px;
-            resize: vertical;
-            min-height: 90px;
+            padding: 14px 50px 14px 16px;
+            /* Right padding makes room for the submit button */
+            resize: none;
+            min-height: 54px;
+            max-height: 200px;
+            /* ~8 lines of text before scrolling */
+            overflow-y: auto;
+            /* scroll inside if it exceeds max-height */
             outline: none;
             transition: border-color 0.15s;
         }
@@ -351,39 +364,55 @@
             color: var(--muted);
         }
 
-        .form-footer {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            gap: 12px;
+        /* ── Blinking dots animation (for loading state) ─────────────── */
+        @keyframes blink {
+            0% {
+                opacity: 0.2;
+            }
+
+            20% {
+                opacity: 1;
+            }
+
+            100% {
+                opacity: 0.2;
+            }
         }
 
-        /* Loading indicator — shown by HTMX while the request is in-flight */
-        .htmx-indicator {
-            font-size: 0.85rem;
-            color: var(--muted);
-            opacity: 0;
-            /* hidden by default */
-            transition: opacity 0.2s;
+        .blinking-dots {
+            font-weight: 700;
+            letter-spacing: 1px;
         }
 
-        /* HTMX adds .htmx-request to the form while the request is pending */
-        .ask-form.htmx-request .htmx-indicator {
-            opacity: 1;
+        .blinking-dots span {
+            animation: blink 1.4s infinite both;
+        }
+
+        .blinking-dots span:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+
+        .blinking-dots span:nth-child(3) {
+            animation-delay: 0.4s;
         }
 
         .submit-btn {
+            position: absolute;
+            right: 8px;
+            bottom: 8px;
             background: var(--accent);
             color: #fff;
             border: none;
-            border-radius: 6px;
-            padding: 10px 22px;
-            font: inherit;
-            font-size: 0.95rem;
-            font-weight: 600;
+            border-radius: 8px;
+            width: 36px;
+            height: 36px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             cursor: pointer;
-            transition: background 0.15s;
+            transition: background 0.15s, opacity 0.2s;
             flex-shrink: 0;
+            padding: 0;
         }
 
         .submit-btn:hover {
@@ -398,8 +427,8 @@
 
         /* ── Response area ──────────────────────────────────────────── */
         /* This scrollable div grows to fill the space above the form.
-           HTMX prepends each new response here (afterbegin), so the
-           latest answer always appears at the top. */
+           HTMX appends each new response here (beforeend), so the
+           latest answer always appears at the bottom. */
         #response {
             flex: 1;
             overflow-y: auto;
@@ -526,6 +555,197 @@
             padding: 16px 24px;
             border-top: 1px solid var(--border);
         }
+
+        /* ── Profile nav button — visually distinct from regular nav items ──── */
+        /*
+         * Pinned to the bottom of #sidebar-nav via margin-top: auto.
+         * Styled as a filled gold pill so it stands apart from plain nav items.
+         */
+        .nav-btn-profile {
+            margin-top: auto;
+            background: var(--accent);
+            color: var(--accent-fg);
+            font-weight: 700;
+            border-radius: 8px;
+            border: none;
+            padding: 10px 14px;
+            transition: background 0.15s, transform 0.1s;
+        }
+
+        .nav-btn-profile:hover {
+            background: var(--accent-hover);
+            transform: translateY(-1px);
+        }
+
+        /* Override the shared active highlight — keep the gold pill always gold */
+        .nav-btn-profile.active {
+            background: var(--accent);
+            color: var(--accent-fg);
+            box-shadow: 0 0 0 2px var(--accent), 0 0 0 4px rgba(248, 201, 35, 0.25);
+        }
+
+        /* ── Profile page ────────────────────────────────────────── */
+        /* Sub-tab bar inside the profile page */
+        .profile-tab-bar {
+            display: flex;
+            gap: 4px;
+            padding: 8px 24px 0;
+            border-bottom: 1px solid var(--border);
+            flex-shrink: 0;
+        }
+
+        .profile-tab-btn {
+            background: none;
+            border: none;
+            border-bottom: 2px solid transparent;
+            color: var(--muted);
+            cursor: pointer;
+            font: inherit;
+            font-size: 0.88rem;
+            font-weight: 600;
+            padding: 8px 14px;
+            transition: color 0.15s, border-color 0.15s;
+            margin-bottom: -1px;
+            /* overlap the bar border */
+        }
+
+        .profile-tab-btn:hover {
+            color: var(--text);
+        }
+
+        .profile-tab-btn.active {
+            color: var(--accent);
+            border-bottom-color: var(--accent);
+        }
+
+        /* Each sub-tab panel; only the active one is visible */
+        .profile-tab-panel {
+            display: none;
+            flex: 1;
+            flex-direction: column;
+            overflow-y: auto;
+            padding: 24px;
+        }
+
+        .profile-tab-panel.active {
+            display: flex;
+        }
+
+        /* ── Profile cards (used inside sub-tab panels) ────────────── */
+        .profile-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 24px;
+            max-width: 600px;
+            width: 100%;
+            margin: 0 auto 24px;
+        }
+
+        .profile-card h2 {
+            font-size: 1rem;
+            font-weight: 700;
+            color: var(--accent);
+            margin-bottom: 16px;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+        }
+
+        /* Individual field row inside a profile card */
+        .profile-field {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            margin-bottom: 16px;
+        }
+
+        .profile-field:last-child {
+            margin-bottom: 0;
+        }
+
+        .profile-field label {
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: var(--muted);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        /* Static value display — swap for <input> / <select> when user_db is ready */
+        .profile-field .field-value {
+            font-size: 0.95rem;
+            color: var(--text);
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            padding: 9px 12px;
+        }
+
+        .field-value.placeholder {
+            color: var(--muted);
+            font-style: italic;
+        }
+
+        /* ── Sidebar navigation ─────────────────────────────────────── */
+        /*
+         * Each <button data-page="..."> in #sidebar-nav corresponds to a
+         * <section id="page-..."> in the chat column.
+         * To add a new page: add a button here + a section there.
+         */
+        #sidebar-nav {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            padding: 12px 10px;
+            flex: 1;
+            /* fills remaining sidebar height */
+            overflow-y: auto;
+            /* scroll if nav items ever overflow */
+        }
+
+        .nav-btn {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            width: 100%;
+            background: none;
+            border: none;
+            border-radius: 8px;
+            color: var(--text);
+            cursor: pointer;
+            font: inherit;
+            font-size: 0.9rem;
+            padding: 9px 12px;
+            text-align: left;
+            transition: background 0.15s, color 0.15s;
+        }
+
+        .nav-btn:hover {
+            background: var(--surface-raised);
+        }
+
+        /* Highlight the active page's nav button */
+        .nav-btn.active {
+            background: rgba(248, 201, 35, 0.12);
+            color: var(--accent);
+            font-weight: 600;
+        }
+
+        /* ── Page sections ───────────────────────────────────────────── */
+        /*
+         * Every top-level content area is a <section class="page">.
+         * Only the active page is visible; all others are hidden.
+         */
+        .page {
+            display: none;
+            flex: 1;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        .page.active {
+            display: flex;
+        }
     </style>
 </head>
 
@@ -543,78 +763,298 @@
                     <button id="sidebar-toggle" title="Close sidebar" aria-label="Close sidebar">✕</button>
                 </div>
 
-                <!-- Scrollable sidebar content -->
-                <div id="sidebar-body">
-                    <!-- chat history, nav links, etc. go here -->
-                </div>
-
-                <!-- Settings panel — slides up above the footer button -->
-                <div id="settings-panel" role="region" aria-label="Settings">
-                    <div class="setting-row">
-                        <span>Light mode</span>
-                        <label class="theme-toggle" title="Toggle light / dark mode">
-                            <input type="checkbox" id="theme-toggle-input" aria-label="Toggle light mode">
-                            <div class="theme-toggle-track"></div>
-                            <div class="theme-toggle-thumb"></div>
-                        </label>
-                    </div>
-                </div>
-
-                <!-- Sidebar footer with settings button -->
-                <div id="sidebar-footer">
-                    <button id="settings-btn" title="Settings" aria-expanded="false" aria-controls="settings-panel">
-                        ⚙️ Settings
+                <!-- Sidebar navigation — add more <button data-page="..."> items here -->
+                <nav id="sidebar-nav" aria-label="Main navigation">
+                    <button class="nav-btn" data-page="chat" title="Advising Chat">
+                        💬 Chat
                     </button>
-                </div>
+                    <button class="nav-btn" data-page="dashboard" title="Dashboard">
+                        📊 Dashboard
+                    </button>
+                    <!-- Add future nav buttons here -->
+
+                    <!--
+                        Profile button — pinned to the bottom of the nav via
+                        margin-top: auto (.nav-btn-profile). Keep it last.
+                    -->
+                    <button class="nav-btn nav-btn-profile" data-page="profile" title="My Profile">
+                        👤 Profile
+                    </button>
+                </nav>
             </div>
         </aside>
 
-        <!-- ── Chat column ─────────────────────────────────── -->
+        <!-- ── Content column ───────────────────────────────── -->
+        <!--
+            Each page lives in a <section class="page" id="page-NAME">.
+            navigateTo(NAME) shows the matching section and hides all others.
+            To add a new page:
+              1. Add a nav button in #sidebar-nav with data-page="NAME".
+              2. Add a <section class="page" id="page-NAME"> here.
+        -->
         <div id="chat-column">
 
-            <header>
-                <h1>SU Advising Assistant</h1>
-                <p>Ask any question about courses, degree requirements, faculty, or university resources.</p>
-            </header>
+            <!-- ── Page: Chat ─────────────────────────────────── -->
+            <section class="page" id="page-chat">
 
-            <main>
+                <header>
+                    <h1>University Knowledge Assistant</h1>
+                    <p>Here to help with any questions about Southwestern!</p>
+                </header>
+
+                <main>
+                    <!--
+                        Response list — HTMX prepends each new answer here (afterbegin).
+                        Newest responses appear at the top. Each block is collapsible.
+                    -->
+                    <div id="response"></div>
+                </main>
+
                 <!--
-                    Response list — HTMX prepends each new answer here (afterbegin).
-                    Newest responses appear at the top. Each block is collapsible.
+                    Input bar — pinned to the bottom of the chat page.
+
+                    HTMX attributes:
+                      hx-post="/ask"         — POST the form to /ask
+                      hx-target="#response"  — inject the HTML response into the response list
+                      hx-swap="beforeend"    — append new answers (latest at bottom)
                 -->
-                <div id="response"></div>
-            </main>
+                <div class="input-bar">
+                    <form class="ask-form" hx-post="/ask" hx-target="#response" hx-swap="beforeend">
 
+                        <div class="input-wrapper">
+                            <textarea id="query" name="query" placeholder="Ask about courses, requirements, faculty…"
+                                required></textarea>
+
+                            <button class="submit-btn" type="submit" title="Send (Enter)">
+                                <!-- Upwards arrow icon -->
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="12" y1="19" x2="12" y2="5"></line>
+                                    <polyline points="5 12 12 5 19 12"></polyline>
+                                </svg>
+                            </button>
+                        </div>
+
+                    </form>
+                </div>
+
+            </section><!-- /#page-chat -->
+
+            <!-- ── Page: Dashboard ─────────────────────────────── -->
             <!--
-                Input bar — pinned to the bottom of the chat column.
-
-                HTMX attributes:
-                  hx-post="/ask"         — POST the form to /ask
-                  hx-target="#response"  — inject the HTML response into the response list
-                  hx-swap="afterbegin"   — prepend new answers (latest at top)
+                TODO: Replace the placeholder content below with the real
+                Dashboard implementation when it's ready. The section
+                structure (header + main) should stay the same.
             -->
-            <div class="input-bar">
-                <form class="ask-form" hx-post="/ask" hx-target="#response" hx-swap="afterbegin">
-                    <label for="query">Your question</label>
+            <section class="page" id="page-dashboard">
 
-                    <textarea id="query" name="query" required></textarea>
+                <header>
+                    <h1>Dashboard</h1>
+                    <p>An overview of your academic progress and advising activity.</p>
+                </header>
 
-                    <div class="form-footer">
-                        <span class="htmx-indicator">⏳ Searching...</span>
-                        <button class="submit-btn" type="submit">Ask</button>
+                <main>
+                    <!-- TODO: Replace this placeholder with real dashboard widgets -->
+                    <div style="
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        height: 100%;
+                        gap: 12px;
+                        color: var(--muted);
+                    ">
+                        <span style="font-size: 3rem;">📊</span>
+                        <p style="font-size: 1.1rem; font-weight: 600;">Dashboard — Coming Soon</p>
+                        <p style="font-size: 0.9rem;">This page is a placeholder. Implement your widgets here.</p>
                     </div>
-                </form>
-            </div>
+                </main>
+
+            </section><!-- /#page-dashboard -->
+
+            <!-- ── Page: Profile ───────────────────────────────── -->
+            <!--
+                TODO: Wire each .field-value up to the user_db API once available.
+                      Replace static placeholder text with data fetched from /profile.
+                      Each field maps directly to a column in the User table:
+                        first_name, last_name, email, google_id (read-only)
+                      And the student profile columns (to be added by backend team):
+                        major, second_major, minor, second_minor,
+                        gpa, advisor_name, advisor_email,
+                        courses_taken, grad_year
+            -->
+            <section class="page" id="page-profile">
+
+                <header>
+                    <h1>My Profile</h1>
+                    <p>Your academic information and app settings.</p>
+                </header>
+
+                <!-- Sub-tab bar — add more .profile-tab-btn + .profile-tab-panel pairs to extend -->
+                <div class="profile-tab-bar" role="tablist" aria-label="Profile sections">
+                    <button class="profile-tab-btn" data-tab="academic" role="tab"
+                        aria-controls="ptab-academic">Academic Info</button>
+                    <button class="profile-tab-btn" data-tab="account" role="tab"
+                        aria-controls="ptab-account">Account</button>
+                    <button class="profile-tab-btn" data-tab="settings" role="tab"
+                        aria-controls="ptab-settings">Settings</button>
+                </div>
+
+                <!-- ── Sub-tab: Academic Info ────────────────────── -->
+                <!-- TODO: Populate from /profile GET response (student profile columns) -->
+                <div class="profile-tab-panel" id="ptab-academic" role="tabpanel">
+
+                    <div class="profile-card">
+                        <h2>Academic Info</h2>
+
+                        <div class="profile-field">
+                            <label>Major</label>
+                            <!-- TODO: student_profile.major -->
+                            <div class="field-value placeholder">Not yet set</div>
+                        </div>
+                        <div class="profile-field">
+                            <label>Second Major</label>
+                            <!-- TODO: student_profile.second_major -->
+                            <div class="field-value placeholder">Not yet set</div>
+                        </div>
+                        <div class="profile-field">
+                            <label>Minor</label>
+                            <!-- TODO: student_profile.minor -->
+                            <div class="field-value placeholder">Not yet set</div>
+                        </div>
+                        <div class="profile-field">
+                            <label>GPA</label>
+                            <!-- TODO: student_profile.gpa -->
+                            <div class="field-value placeholder">Not yet set</div>
+                        </div>
+                        <div class="profile-field">
+                            <label>Expected Graduation</label>
+                            <!-- TODO: student_profile.grad_year -->
+                            <div class="field-value placeholder">Not yet set</div>
+                        </div>
+                    </div>
+
+                    <div class="profile-card">
+                        <h2>Advisor</h2>
+
+                        <div class="profile-field">
+                            <label>Advisor Name</label>
+                            <!-- TODO: student_profile.advisor_name -->
+                            <div class="field-value placeholder">Not yet set</div>
+                        </div>
+                        <div class="profile-field">
+                            <label>Advisor Email</label>
+                            <!-- TODO: student_profile.advisor_email -->
+                            <div class="field-value placeholder">Not yet set</div>
+                        </div>
+                    </div>
+
+                </div><!-- /#ptab-academic -->
+
+                <!-- ── Sub-tab: Account ────────────────────────── -->
+                <!-- TODO: Populate from /profile GET response (user_db: User table) -->
+                <div class="profile-tab-panel" id="ptab-account" role="tabpanel">
+
+                    <div class="profile-card">
+                        <h2>Account</h2>
+
+                        <div class="profile-field">
+                            <label>Name</label>
+                            <!-- TODO: user.first_name + user.last_name -->
+                            <div class="field-value placeholder">Not yet loaded</div>
+                        </div>
+                        <div class="profile-field">
+                            <label>Email</label>
+                            <!-- TODO: user.email -->
+                            <div class="field-value placeholder">Not yet loaded</div>
+                        </div>
+                    </div>
+
+                </div><!-- /#ptab-account -->
+
+                <!-- ── Sub-tab: Settings ───────────────────────── -->
+                <div class="profile-tab-panel" id="ptab-settings" role="tabpanel">
+
+                    <div class="profile-card">
+                        <h2>Appearance</h2>
+
+                        <div class="setting-row">
+                            <span>Light mode</span>
+                            <label class="theme-toggle" title="Toggle light / dark mode">
+                                <input type="checkbox" id="theme-toggle-input" aria-label="Toggle light mode">
+                                <div class="theme-toggle-track"></div>
+                                <div class="theme-toggle-thumb"></div>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Add more settings cards here -->
+
+                </div><!-- /#ptab-settings -->
+
+            </section><!-- /#page-profile -->
+
+            <!-- Add future page sections here -->
 
         </div><!-- /#chat-column -->
 
     </div><!-- /#app-shell -->
 
     <script>
+        // ── Page router ───────────────────────────────────────────────
+        //
+        // navigateTo(pageId) activates the matching <section id="page-{pageId}">
+        // and highlights the corresponding nav button.
+        // This is a purely client-side router — no network requests needed.
+        //
+        // How to add a new page:
+        //   1. Add a <button class="nav-btn" data-page="NAME"> in #sidebar-nav.
+        //   2. Add a <section class="page" id="page-NAME"> in #chat-column.
+        //   3. That's it — navigateTo() will handle activation automatically.
+
+        const PAGE_KEY = 'su-active-page';
+        const DEFAULT_PAGE = 'chat';
+
+        function navigateTo(pageId) {
+            // Deactivate all pages and nav buttons
+            document.querySelectorAll('.page').forEach(function (sec) {
+                sec.classList.remove('active');
+            });
+            document.querySelectorAll('.nav-btn').forEach(function (btn) {
+                btn.classList.remove('active');
+                btn.setAttribute('aria-current', 'false');
+            });
+
+            // Activate the target page
+            const targetPage = document.getElementById('page-' + pageId);
+            if (targetPage) {
+                targetPage.classList.add('active');
+            }
+
+            // Highlight the matching nav button
+            const targetBtn = document.querySelector('.nav-btn[data-page="' + pageId + '"]');
+            if (targetBtn) {
+                targetBtn.classList.add('active');
+                targetBtn.setAttribute('aria-current', 'page');
+            }
+
+            localStorage.setItem(PAGE_KEY, pageId);
+        }
+
+        // Wire up all nav buttons to the router
+        document.querySelectorAll('.nav-btn[data-page]').forEach(function (btn) {
+            btn.addEventListener('click', function () {
+                navigateTo(btn.dataset.page);
+            });
+        });
+
+        // Restore the last active page (or default to chat)
+        navigateTo(localStorage.getItem(PAGE_KEY) || DEFAULT_PAGE);
+
         // ── Sidebar toggle ────────────────────────────────────────────
-        const shell    = document.getElementById('app-shell');
+        const shell = document.getElementById('app-shell');
         const btnClose = document.getElementById('sidebar-toggle');
-        const btnOpen  = document.getElementById('sidebar-reopen');
+        const btnOpen = document.getElementById('sidebar-reopen');
         const STORAGE_KEY = 'su-sidebar-collapsed';
 
         function setSidebar(collapsed) {
@@ -626,14 +1066,53 @@
         setSidebar(localStorage.getItem(STORAGE_KEY) === '1');
 
         btnClose.addEventListener('click', () => setSidebar(true));
-        btnOpen.addEventListener('click',  () => setSidebar(false));
+        btnOpen.addEventListener('click', () => setSidebar(false));
+
+        // ── Profile sub-tabs ──────────────────────────────────────────
+        //
+        // switchProfileTab(tabId) shows the matching .profile-tab-panel
+        // and marks the corresponding .profile-tab-btn as active.
+        // To add a new sub-tab:
+        //   1. Add a <button class="profile-tab-btn" data-tab="NAME"> in .profile-tab-bar.
+        //   2. Add a <div class="profile-tab-panel" id="ptab-NAME"> in #page-profile.
+
+        const PROFILE_TAB_KEY = 'su-profile-tab';
+        const DEFAULT_PROFILE_TAB = 'academic';
+
+        function switchProfileTab(tabId) {
+            document.querySelectorAll('.profile-tab-panel').forEach(function (p) {
+                p.classList.remove('active');
+            });
+            document.querySelectorAll('.profile-tab-btn').forEach(function (b) {
+                b.classList.remove('active');
+                b.setAttribute('aria-selected', 'false');
+            });
+
+            const panel = document.getElementById('ptab-' + tabId);
+            if (panel) panel.classList.add('active');
+
+            const btn = document.querySelector('.profile-tab-btn[data-tab="' + tabId + '"]');
+            if (btn) {
+                btn.classList.add('active');
+                btn.setAttribute('aria-selected', 'true');
+            }
+
+            localStorage.setItem(PROFILE_TAB_KEY, tabId);
+        }
+
+        document.querySelectorAll('.profile-tab-btn[data-tab]').forEach(function (btn) {
+            btn.addEventListener('click', function () {
+                switchProfileTab(btn.dataset.tab);
+            });
+        });
+
+        // Activate the last-used sub-tab (or the default)
+        switchProfileTab(localStorage.getItem(PROFILE_TAB_KEY) || DEFAULT_PROFILE_TAB);
 
         // ── Theme toggle ──────────────────────────────────────────────
-        const htmlEl       = document.documentElement;
-        const themeInput   = document.getElementById('theme-toggle-input');
-        const settingsBtn  = document.getElementById('settings-btn');
-        const settingsPanel = document.getElementById('settings-panel');
-        const THEME_KEY    = 'su-theme';
+        const htmlEl = document.documentElement;
+        const themeInput = document.getElementById('theme-toggle-input');
+        const THEME_KEY = 'su-theme';
 
         function setTheme(light) {
             htmlEl.setAttribute('data-theme', light ? 'light' : 'dark');
@@ -641,18 +1120,8 @@
             localStorage.setItem(THEME_KEY, light ? 'light' : 'dark');
         }
 
-        // Restore saved theme
         setTheme(localStorage.getItem(THEME_KEY) === 'light');
-
-        themeInput.addEventListener('change', () => setTheme(themeInput.checked));
-
-        // ── Settings panel toggle ─────────────────────────────────────
-        settingsBtn.addEventListener('click', () => {
-            const isOpen = settingsPanel.classList.toggle('open');
-            settingsBtn.setAttribute('aria-expanded', isOpen);
-        });
-        // Close panel when sidebar closes
-        btnClose.addEventListener('click', () => settingsPanel.classList.remove('open'));
+        themeInput.addEventListener('change', function () { setTheme(themeInput.checked); });
 
         // ── Markdown rendering ────────────────────────────────────────
         document.body.addEventListener('htmx:afterSwap', function (evt) {
@@ -664,10 +1133,78 @@
             });
         });
 
-        // ── Clear textarea after submit ───────────────────────────────
-        document.body.addEventListener('htmx:afterRequest', function (evt) {
+        // ── Move query to chat immediately on submit ──────────────────
+        document.body.addEventListener('htmx:beforeRequest', function (evt) {
             if (evt.detail.elt.classList.contains('ask-form')) {
-                evt.detail.elt.querySelector('textarea').value = '';
+                const ta = evt.detail.elt.querySelector('textarea');
+                const queryText = ta.value.trim();
+
+                if (queryText) {
+                    // Escape HTML to prevent XSS in the temporary UI
+                    const escapedQuery = queryText
+                        .replace(/&/g, "&amp;")
+                        .replace(/</g, "&lt;")
+                        .replace(/>/g, "&gt;");
+
+                    // Construct temporary "Thinking..." block mimicking the backend HTML
+                    const tempHTML = `
+                        <div class="response-block" id="temp-thinking">
+                            <details open>
+                                <summary>${escapedQuery}</summary>
+                                <div class="response-answer">
+                                    <span style="color: var(--muted); font-style: italic;">
+                                        Thinking<span class="blinking-dots"><span>.</span><span>.</span><span>.</span></span>
+                                    </span>
+                                </div>
+                            </details>
+                        </div>
+                    `;
+
+                    const responseDiv = document.getElementById('response');
+                    responseDiv.insertAdjacentHTML('beforeend', tempHTML);
+
+                    // Auto-scroll to the newly appended thinking block so it's in view
+                    responseDiv.scrollTop = responseDiv.scrollHeight;
+                }
+
+                // Clear the input box and reset size immediately
+                ta.value = '';
+                ta.style.height = 'auto';
+            }
+        });
+
+        // ── Remove temporary "Thinking..." block when real answer arrives ──
+        document.body.addEventListener('htmx:beforeSwap', function (evt) {
+            const temp = document.getElementById('temp-thinking');
+            if (temp) temp.remove();
+        });
+
+        // ── Scroll to bottom when real answer is fully rendered ──
+        document.body.addEventListener('htmx:afterSwap', function (evt) {
+            if (evt.detail.target.id === 'response') {
+                const responseDiv = document.getElementById('response');
+                responseDiv.scrollTop = responseDiv.scrollHeight;
+            }
+        });
+
+        // ── Submit on Enter & Auto-resize ─────────────────────────────
+        const textarea = document.getElementById('query');
+
+        function autoResizeTextarea() {
+            // Reset height to 'auto' to correctly shrink if text is deleted
+            textarea.style.height = 'auto';
+            textarea.style.height = textarea.scrollHeight + 'px';
+        }
+
+        textarea.addEventListener('input', autoResizeTextarea);
+
+        textarea.addEventListener('keydown', function (evt) {
+            if (evt.key === 'Enter' && !evt.shiftKey) {
+                evt.preventDefault(); // prevent adding a new line
+                if (textarea.value.trim() !== '') {
+                    // Send form using standard HTML5 submission which HTMX catches
+                    textarea.closest('form').requestSubmit();
+                }
             }
         });
     </script>

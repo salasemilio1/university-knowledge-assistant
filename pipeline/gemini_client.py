@@ -34,10 +34,12 @@ MODEL_ROUTER = os.getenv("MODEL_ROUTER", "gemma-3-12b-it")
 
 # Call 2: Retriever
 MODEL_RETRIEVER = os.getenv("MODEL_RETRIEVER", "gemini-3.1-flash-lite-preview")
+# MODEL_RETRIEVER = os.getenv("MODEL_RETRIEVER", "gemma-4-31b-it")
+
 
 # Call 3: Answerer (Synthesis)
 MODEL_ANSWERER = os.getenv("MODEL_ANSWERER", "gemini-3.1-flash-lite-preview")
-# MODEL_ANSWERER = os.getenv("MODEL_ANSWERER", "gemini-3-flash-preview")
+# MODEL_ANSWERER = os.getenv("MODEL_ANSWERER", "gemma-4-31b-it")
 
 # Default fallback if no model is specified
 DEFAULT_MODEL = os.getenv("GEMINI_MODEL", MODEL_ANSWERER)
