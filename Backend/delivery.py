@@ -16,15 +16,21 @@ import time
 from datetime import datetime, timezone
 from pathlib import Path
 
-from fastapi import FastAPI, Form
+from fastapi import FastAPI, Form, HTTPException
 from fastapi.responses import FileResponse, HTMLResponse
 from fastapi.staticfiles import StaticFiles
+
+from google.oauth2 import id_token
+from google.auth.transport import requests
 
 from pipeline.router import route
 from pipeline.retriever import retrieve
 from pipeline.answerer import answer
 
 # ── Setup ─────────────────────────────────────────────────────────────────────
+
+# Google OAuth client
+CLIENT_ID = "645267348660-8l6o31mokh4d7g4a0h57suu2lf36motg.apps.googleusercontent.com"
 
 # Build absolute paths so the server works regardless of where it's launched from
 _PROJECT_ROOT = Path(__file__).resolve().parent.parent
@@ -57,6 +63,28 @@ def index():
     """Serve the sign-in page."""
     return FileResponse(FRONTEND_DIR / "sign_in_page.html")
 
+@app.post("/auth/google")
+async def google_auth(token: str = Form(...)):
+    try:
+        idinfo = id_token.verify_oauth2_token(
+            token,
+            requests.Request(),
+            CLIENT_ID
+        )
+        
+        name = idinfo.get("name")
+        first_name, last_name = name.split(" ", 1)
+
+        return {
+            "google_id": idinfo.get("sub"),
+            "email": idinfo.get("email"),
+            "first_name": first_name,
+            "last_name": last_name
+        }
+    except Exception:
+        raise HTTPException(status_code=400, detail="Invalid token")
+
+    
 
 @app.post("/ask", response_class=HTMLResponse)
 async def ask(query: str = Form(...)):
