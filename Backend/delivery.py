@@ -18,8 +18,8 @@ from pathlib import Path
 import os
 from dotenv import load_dotenv
 
-from fastapi import FastAPI, Form, Request, HTTPException
-from fastapi.responses import FileResponse, HTMLResponse
+from fastapi import FastAPI, Form, Request, Response, HTTPException
+from fastapi.responses import FileResponse, HTMLResponse, RedirectResponse
 from fastapi.staticfiles import StaticFiles
 
 from starlette.middleware.sessions import SessionMiddleware
@@ -76,7 +76,7 @@ def index():
     return FileResponse(FRONTEND_DIR / "sign_in_page.html")
 
 @app.post("/auth/google")
-async def google_auth(token: str = Form(...)):
+async def google_auth(response: Response, token: str = Form(...)):
     try:
         idinfo = id_token.verify_oauth2_token(
             token,
@@ -84,23 +84,17 @@ async def google_auth(token: str = Form(...)):
             CLIENT_ID
         )
         
-        name = idinfo.get("name")
-        first_name, last_name = name.split(" ", 1)
-
         google_id= idinfo.get("sub")
         email = idinfo.get("email")
+
         name = idinfo.get("name")
         first_name, last_name = name.split(" ", 1)
 
-        created = create_user(google_id,email,first_name,last_name)
+        create_user(google_id,email,first_name,last_name)
 
-        return {
-            "created": created,
-            "google_id": google_id,
-            "email": email,
-            "first_name": first_name,
-            "last_name": last_name
-        }
+        # Redirect user to main page after login
+        response.headers["HX-Redirect"] = "/"
+    
     except Exception:
         raise HTTPException(status_code=400, detail="Invalid token")
 
