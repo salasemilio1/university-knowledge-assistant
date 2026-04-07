@@ -66,9 +66,13 @@ app.add_middleware(SessionMiddleware, SECRET_KEY)
 # ── Routes ────────────────────────────────────────────────────────────────────
 
 @app.get("/", response_class=FileResponse)
-def index():
+def index(request: Request):
     """Serve the main chat page."""
-    return FileResponse(FRONTEND_DIR / "index.html")
+    if(request.session.get("user_id")):
+        return FileResponse(FRONTEND_DIR / "index.html")
+    else:
+        # Route to sign-in page if user is not signed in
+        return RedirectResponse(url="/sign-in", status_code=302)
 
 @app.get("/sign-in", response_class=FileResponse)
 def index():
@@ -76,7 +80,7 @@ def index():
     return FileResponse(FRONTEND_DIR / "sign_in_page.html")
 
 @app.post("/auth/google")
-async def google_auth(response: Response, token: str = Form(...)):
+async def google_auth(request: Request, response: Response, token: str = Form(...)):
     try:
         idinfo = id_token.verify_oauth2_token(
             token,
@@ -90,7 +94,11 @@ async def google_auth(response: Response, token: str = Form(...)):
         name = idinfo.get("name")
         first_name, last_name = name.split(" ", 1)
 
+        # Add user to database, if not already in the database
         create_user(google_id,email,first_name,last_name)
+
+        # Create user session
+        request.session["user_id"] = google_id
 
         # Redirect user to main page after login
         response.headers["HX-Redirect"] = "/"
