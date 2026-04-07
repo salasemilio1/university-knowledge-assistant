@@ -31,6 +31,8 @@ from pipeline.router import route
 from pipeline.retriever import retrieve
 from pipeline.answerer import answer
 
+from Backend.user_db import create_user, does_user_exist
+
 # ── Setup ─────────────────────────────────────────────────────────────────────
 
 # Google OAuth client
@@ -85,9 +87,17 @@ async def google_auth(token: str = Form(...)):
         name = idinfo.get("name")
         first_name, last_name = name.split(" ", 1)
 
+        google_id= idinfo.get("sub")
+        email = idinfo.get("email")
+        name = idinfo.get("name")
+        first_name, last_name = name.split(" ", 1)
+
+        created = create_user(google_id,email,first_name,last_name)
+
         return {
-            "google_id": idinfo.get("sub"),
-            "email": idinfo.get("email"),
+            "created": created,
+            "google_id": google_id,
+            "email": email,
             "first_name": first_name,
             "last_name": last_name
         }
