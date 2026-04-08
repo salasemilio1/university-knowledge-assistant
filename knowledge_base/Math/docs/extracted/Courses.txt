@@ -1,0 +1,140 @@
+--- Page 1 of 4 ---
+
+Menu Search Apply Visit Majors & Minors
+MMAATTHH
+Courses
+The Mathematics curriculum is traditional, although many of the best practices for mathematics classrooms
+(technology, group projects, inquiry-based learning, writing mathematics, etc.) are being incorporated where
+appropriate to enhance the traditional topics.
+The following list of courses represents current or recent course offerings. See the course catalog for updated
+information.
+5522--006644 MMooddeerrnn QQuuaannttiittaattiivvee MMeetthhooddss
+This course focuses on modern quantitative and mathematical techniques, and illustrates ways in which
+these methods are used in the real world. Students will develop number sense, improve their visual/
+spatial reasoning, and better understand important mathematical functions. An emphasis is placed on
+visualizing and graphing functions, manipulating mathematical expressions, and interpreting models.
+Topics studied may include linear, polynomial, exponential, logarithmic, and trigonometric functions.
+Students who may benefit from additional preparation prior to taking Mathematics 52-164 Modern
+Calculus I are encouraged to take this course. See math placement guidelines. Cannot be taken for credit
+after completing Mathematics 52-164 Modern Calculus I with at least a C-, or concurrently with
+Mathematics 52-164 Modern Calculus I. This course may not be used for the Mathematics or
+Computational Mathematics majors or minors. (Fall, Spring) (NS)
+5522--110044 EExxpplloorraattiioonnss iinn MMaatthheemmaattiiccss
+This course presents the spirit and beauty of mathematics through topics chosen by the instructor,
+emphasizing the role that mathematics plays in society. Topics may include mathematics in art and
+literature, Euclid's Elements, game theory and voting theory. The mathematical content may include
+geometry, algebra, and number systems. The course is suitable for a general audience with a broad
+spectrum of backgrounds and abilities and also satisfies requirements for EC-6 or 4-8 teacher
+certification. This course may not be used for the Mathematics major or minor. (NS)
+5522--111144 IInnttrroodduuccttiioonn ttoo SSttaattiissttiiccss
+This course provides students in the social and natural sciences with the skills necessary to perform
+elementary statistical analysis. Topics include descriptive measures, sampling theory, Student-T and
+normal distributions, estimation and hypothesis testing with p-values, regression and correlation. This
+course may not be used for the Mathematics major or minor. Contributes to Data Analytics, Data
+Science, and Health Studies. (Fall, Spring) (NS)
+5522--116644 MMooddeerrnn CCaallccuulluuss II
+This course focuses on introducing calculus with a modeling first approach. Topics include: functions as
+models of data, vectors, differential calculus of functions of one and several variables, optimization, and
+integration. Applications may be drawn from varied areas, such as biology, chemistry, economics, and
+
+--- Page 2 of 4 ---
+
+physics. Attention is given to both symbolic and numeric computing. This course expects students to have
+Menu Search Apply Visit Majors & Minors
+prior exposure to: trigonometry, exponents, logarithms, functions and their graphs. Students who may
+benefit from additional preparation prior to taking this course are encouraged to take Mathematics
+52-064 Modern Quantitative Methods. Before registration, consult the math placement guidelines on the
+registrar's website. (Fall, Spring) (NS)
+5522--220044 TTooppiiccss iinn MMaatthheemmaattiiccss
+This course investigates a topic in Mathematics that varies according to the interests of the professor.
+This course may be repeated with a change in the topic. (NS)
+5522--226644 MMooddeerrnn CCaallccuulluuss IIII
+This course focuses on calculus useful for both theoretical and applied work in the mathematical, natural,
+and social sciences. Topics include: introductory differential equations, sequences and series, Taylor
+series, techniques and applications of integration, partial derivatives, multiple integration, and limits.
+Attention is given to both symbolic and numerical computing. Prerequisite: Mathematics 52-164. (Fall,
+Spring) (NS)
+5522--229911 PPuuttnnaamm PPoowweerr HHoouurr
+This course is designed to sharpen problem solving abilities. Students will tackle challenging problems
+from the William Lowell Putnam Competitions of previous years and study some of the published
+solutions. Students enrolled in this course will be encouraged to compete in the Putnam Competition in
+early December. This course may be repeated for credit, but may not be counted toward the major or
+minor, and must be taken Pass/D/F. Prerequisite: Consent of instructor.
+5522--330044 SSeelleecctteedd TTooppiiccss
+May be repeated with change in topic. Prerequisite: Permission of instructor.
+5522--336644 MMooddeerrnn CCaallccuulluuss IIIIII
+This course focuses on calculus useful for the mathematical and physical sciences. Topics include: scalar
+and vector-valued functions and derivatives; gradients, contour plots, and constrained and unconstrained
+optimization of multiple variables; integration over regions in various coordinate systems;
+parameterization and integration over curves, and surfaces; divergence; curl; Green's theorem; and
+formal mathematical definitions of the integral, derivative, and limit. Prerequisite: Mathematics 52-264.
+(Fall, Spring) (NS)
+5522--338844 DDiissccrreettee MMaatthheemmaattiiccss
+See Computer Science 54-384. (Fall) (NS)
+5522--440044 GGeeoommeettrryy
+This course investigates various approaches to geometry. Topics may include synthetic geometry, analytic
+geometry, projective geometry, differential geometry, Euclidean geometry and non-Euclidean geometry.
+Prerequisite: Permission of instructor. (Fall, odd years) (NS)
+5522--441144 OOppeerraattiioonnss RReesseeaarrcchh
+See Computer Science 54-414 and Business 30-414. Contributes to Data Analytics and Data Science.
+5522--552244 IInnttrroodduuccttiioonn ttoo NNuummeerriiccaall AAnnaallyyssiiss
+This course investigates the derivations and applications of numerical techniques. Topics include:
+interpolation, approximation, numerical differentiation and integration, zeros of functions and solution of
+linear systems. Also Computer Science 54-524. Prerequisites: Mathematics 52-264, 52-674, and
+
+--- Page 3 of 4 ---
+
+Computer Science 54-184, or permission of instructor. (NS)
+Menu Search Apply Visit Majors & Minors
+5522--557744 PPrroobbaabbiilliittyy aanndd MMaatthheemmaattiiccaall SSttaattiissttiiccss
+This course is a calculus-based, mathematical introduction to the fundamental principles of probability
+theory and applications. Topics include combinatorial analysis used in computing probabilities, the axioms
+and properties of probability, conditional probability, independence of events, discrete and continuous
+random variables, the standard distributions, expected value and variance, joint distributions,
+distributions of a function of a random variable, and sampling distributions. Also included are theoretical
+results such as Bayes' Theorem, Central Limit Theorem, Law of Large Numbers, the Empirical Rule,
+Hypothesis Testing and Confidence intervals at least for a single mean and a single proportion.
+Contributes to Data Analytics and Data Science. Prerequisite: Mathematics 52-264. (Spring) (NS)
+5522--667744 LLiinneeaarr AAllggeebbrraa
+This course is an introduction to the basic structure of proofs, linear equations and matrices, vector
+spaces, linear mappings, determinants, eigensystems, orthogonality, matrix decompositions and
+applications of linear algebra. Prerequisite: Mathematics 52-264, or permission of instructor. (Fall) (NS)
+5522--668844 AAllggeebbrraaiicc SSttrruuccttuurreess
+This course investigates the theory of sets, relations, functions, groups and rings. A rigorous approach to
+learning and writing proofs is emphasized. Prerequisite: Mathematics 52-674 or permission of instructor.
+(Fall) (NS)
+5522--775544 DDiiffffeerreennttiiaall EEqquuaattiioonnss
+This course investigates the theory and application of differential equations. Topics include both linear
+and nonlinear first order ordinary differential equations, numerical solutions, and higher order linear
+ordinary differential equations. Solution techniques may include undetermined coefficients, variation of
+parameters, power series solutions, and Laplace transforms. Additional topics may be chosen from linear
+systems, nonlinear systems and Fourier series analysis of partial differential equations with boundary
+conditions. Prerequisite: Mathematics 52-364, or permission of instructor. (Spring) (NS)
+5522--883344 CCoommpplleexx AAnnaallyyssiiss
+This course investigates functions of a complex variable. Topics include algebra and geometry of complex
+numbers, analytic and harmonic functions, mappings, Taylor and Laurent series, and contour integration.
+Prerequisite: Mathematics 52-364, or permission of instructor. (Fall, even years) (NS)
+5522--884444 SSeemmiinnaarr iinn SSppeecciiaall TTooppiiccss
+This course is a limited enrollment seminar in a major area of mathematics not generally covered in other
+courses. Topics may include but are not limited to advanced analysis, combinatorics, logic and history of
+mathematics. The course may be repeated for credit as topics vary. (NS)
+5522--885544 RReeaall AAnnaallyyssiiss
+This course investigates the algebra and topology of the real numbers. Topics include completeness,
+sequences, limits and continuity, differentiation, the Mean-Value Theorem, Taylors Theorem and infinite
+series. May also include sequences and series of functions. A rigorous approach to learning and writing
+proofs is emphasized. Prerequisite: Mathematics 52-674, or permission of instructor. (Spring) (NS)
+5522--889944 SSeenniioorr SSeemmiinnaarr iinn MMaatthheemmaattiiccss
+This course will fulfill the capstone requirement in Mathematics. Since it serves as a culmination of the
+student's undergraduate mathematical experience, a balance is sought between application and theory.
+
+--- Page 4 of 4 ---
+
+Topics may vary with the instructor. Applications will be taken from the social and natural sciences.
+Menu Search Apply Visit Majors & Minors
+Collaboration and significant class participation are expected. Each student will take the Major Field Test.
+A major semester project resulting in a written paper and an oral presentation is required; an external
+presentation may also be required. Prerequisites: Five courses in the major at the 300 level or above,
+Computer Science 54-184, and permission of instructor. (Fall) (NS) (WA)
+GGEEOORRGGEETTOOWWNN,, TTEEXXAASS
+551122..886633..66551111
+CCOONNTTAACCTT

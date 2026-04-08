@@ -1,0 +1,158 @@
+--- Page 1 of 6 ---
+
+southwestern.edu
+Majoring & Minoring
+5–7 minutes
+Major in Computer Science (BA): 10 courses
+• CSC54-184 Computer Science I
+• CSC54-284 Computer Science II
+• CSC54-384 Discrete Mathematics
+• CSC54-394 Computer Organization
+• CSC54-454 Algorithms
+• CSC54-474 Programming Languages
+• CSC54-644 Computer Systems
+• CSC54-894 Senior Seminar in Software Engineering (Capstone, to
+be taken in the Spring of senior year)
+• Two additional approved upper-level courses in Computer Science,
+normally begun no later than junior year
+Required supporting course in the Computer Science major
+(BA): 1 course
+• MAT52-164 Modern Calculus I, normally to be completed no later
+than the sophomore year
+Major in Computer Science (BS): 10 courses
+• CSC54-184 Computer Science I
+• CSC54-284 Computer Science II
+
+--- Page 2 of 6 ---
+
+• CSC54-384 Discrete Mathematics
+• CSC54-394 Computer Organization
+• CSC54-454 Algorithms
+• CSC54-474 Programming Languages
+• CSC54-644 Computer Systems
+• CSC54-894 Senior Seminar in Software Engineering (Capstone, to
+be taken in the Spring of senior year)
+• Two additional approved upper-level courses in Computer Science,
+normally begun no later than junior year
+Required supporting courses in the Computer Science major
+(BS): 7 courses
+• BIO50-173/171 Molecular and Cellular Foundations of Biology/lab,
+or
+BIO50-183/181 Evolutionary and Ecological Foundations of
+Biology/lab
+• CHE51-103/101 General Chemistry I/Chemical Methods and
+Techniques Laboratory I
+• MAT52-164 Modern Calculus I
+• MAT52-264 Modern Calculus II
+• MAT52-674 Linear Algebra
+• PHY53-154 Fundamentals of Physics
+• One course from:
+BIO50-183/181 Evolutionary and Ecological Foundations of
+Biology/lab, and
+BIO50-173/171 Molecular and Cellular Foundations of Biology/lab
+(counts as one course here since one is required above)
+CHE51-203/201 General Chemistry II/Chemical Methods and
+
+--- Page 3 of 6 ---
+
+Techniques Laboratory II
+MAT52-114 Introduction to Statistics
+PHY53-164 Fundamentals of Physics II
+PHY53-404 Electronics
+PHY53-454 Math Methods in Physical Science
+• Additional approved upper-level elective in Computer Science or
+Mathematics
+Minor in Computer Science: 5 courses
+• CSC54-184 Computer Science I
+• CSC54-284 Computer Science II
+• One course from:
+CSC54-394 Computer Organization
+CSC54-454 Algorithms
+• Two additional approved upper-level courses in Computer Science
+Major in Computational Mathematics (BA): 14 courses
+• CSC54-184 Computer Science I
+• CSC54-284 Computer Science II
+• CSC54-384 Discrete Mathematics
+• CSC54-394 Computer Organization
+• CSC54-454 Algorithms
+• MAT52-164 Modern Calculus I
+• MAT52-264 Modern Calculus II
+• MAT52-364 Modern Calculus III
+• MAT52-674 Linear Algebra
+• MAT52-754 Differential Equations
+
+--- Page 4 of 6 ---
+
+• Two courses from:
+CSC54-414 Operations Research
+CSC54-514 Database Management
+MAT52-524 Introduction to Numerical Analysis
+MAT52-574 Probability and Mathematical Statistics
+• One additional approved upper-level course, in Mathematics or
+Computer Science or PHY53-454 Math Methods in Physical
+Science
+• MAT52-894 Senior Seminar in Mathematics (Capstone, to be taken
+in the Fall of senior year) or CSC54-894 Senior Seminar in
+Software Engineering (Capstone, to be taken in the Spring of senior
+year)
+Major in Computational Mathematics (BS): 15 courses
+• CSC54-184 Computer Science I
+• CSC54-284 Computer Science II
+• CSC54-384 Discrete Mathematics
+• CSC54-394 Computer Organization
+• CSC54-454 Algorithms
+• MAT52-164 Modern Calculus I
+• MAT52-264 Modern Calculus II
+• MAT52-364 Modern Calculus III
+• MAT52-674 Linear Algebra
+• MAT52-754 Differential Equations
+• Two courses from:
+CSC54-414 Operations Research
+CSC54-514 Database Management
+
+--- Page 5 of 6 ---
+
+MAT52-524 Introduction to Numerical Analysis
+MAT52-574 Probability and Mathematical Statistics
+• Two additional approved upper-level courses, in Mathematics or
+Computer Science or PHY53-454 Math Methods in Physical
+Science
+• MAT52-894 Senior Seminar in Mathematics (Capstone, to be taken
+in the Fall of senior year) or CSC54-894 Senior Seminar in
+Software Engineering (Capstone, to be taken in the Spring of senior
+year)
+Required supporting courses in the Computational
+Mathematics major (BS): 4 courses
+• BIO50-173/171 Molecular and Cellular Foundations of Biology/lab,
+or
+BIO50-183/181 Evolutionary and Ecological Foundations of
+Biology/lab
+• CHE51-103/101 General Chemistry I/Chemical Methods and
+Techniques Laboratory I
+• PHY53-154 Fundamentals of Physics I
+• One course from:
+BIO50-183/181 Evolutionary and Ecological Foundations of
+Biology/lab, and
+BIO50-173/171 Molecular and Cellular Foundations of Biology/lab
+(counts as one course here since one is required above)
+CHE51-203/201 General Chemistry II/Chemical Methods and
+Techniques Laboratory II
+PHY53-164 Fundamentals of Physics II
+PHY53-404 Electronics
+See the Education Department for information regarding teacher
+
+--- Page 6 of 6 ---
+
+certification in Mathematics and Computer Science.
+Mathematics
+See Mathematics for information regarding a Mathematics major.
+Data Science
+See Data Science for information regarding the 18 credits required
+for a Data Science minor
+Education
+See the Education Department for information regarding the 24
+credits required for secondary or all-level certification in
+mathematics or computer science.
+Engineering
+See the Dual Degree, Applied Physics regarding the 16
+mathematics credits required for engineering.

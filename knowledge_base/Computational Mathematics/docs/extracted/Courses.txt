@@ -1,0 +1,173 @@
+--- Page 1 of 6 ---
+
+southwestern.edu
+Courses
+9–11 minutes
+The Computer Science curriculum is traditional, at least in the early
+courses. The first two courses in the major are taught in Java,
+which is an excellent language for introducing object-oriented
+concepts.
+The following list of courses represents current or recent course
+offerings. See the course catalog for updated information.
+• 54-144 Explorations in Computing
+An introduction to the discipline of computer science with an
+emphasis on applications in and connections to the liberal arts and
+everyday life. Programming topics include: basic programming
+constructs, basic data structures, algorithmic computation,
+selection, iteration, abstraction and reasoning about computer
+programs. This is an introductory course intended for humanities,
+social science and fine arts majors. May not be used for the
+Computer Science major or minor. Cannot be taken concurrently
+with or after successful completion of Computer Science 54-184,
+54-284, or 54-454 without departmental approval. Contributes to
+Data Analytics and Data Science. (NS)
+• 54-184 Computer Science I
+This first course in computer programming in an object-oriented
+style is primarily intended for students pursuing a major or minor in
+computer science, mathematics or other disciplines in the natural
+sciences. Topics include: primitive types and operations,
+
+--- Page 2 of 6 ---
+
+assignment, conditional execution, iteration, arrays, classes,
+methods, recursion, encapsulation, type extension, inheritance and
+reasoning about programs in Java. The course includes a
+laboratory component designed to explore applications and to
+enhance conceptualization. Contributes to Data Analytics and Data
+Science. (Fall, Spring) (NS)
+• 54-284 Computer Science II
+This course is a continuation of 54-184 Computer Science I, with an
+emphasis on abstract data objects such as lists, stacks, queues,
+trees and graphs, and test-first programming using the automated
+testing paradigm JUnit. Topics include: algorithms for searching,
+sorting, traversing, inserting and deleting, and reasoning about the
+run-time complexity of these algorithms. The course includes a
+laboratory component designed to explore applications and to
+enhance conceptualization. Contributes to Design Thinking.
+Prerequisite: Computer Science 54-184 or permission of instructor.
+(Spring) (NS)
+• 54-291 Puzzling Programs
+Given a precise program specification and a few input/output
+examples, students will gain experience quickly devising a solution
+that passes a suite of unseen (and generally more complicated)
+input/output examples. Teamwork, troubleshooting code based on
+very limited feedback from automated systems, effectively reading
+problem descriptions, and discerning relevant details will be
+practiced. This course may be repeated for credit, but may not be
+counted towards the major or minor. Must be taken Pass/D/F.
+Prerequisite: Computer Science 54-184. (Fall)
+• 54-384 Discrete Mathematics
+A study of concepts in the modeling of discrete phenomena. Topics
+include: logic, structure of proof, set theory, combinatorics, graphs,
+induction and recurrence relations. Also Mathematics 52-384.
+
+--- Page 3 of 6 ---
+
+Prerequisites: Mathematics 52-164, Computer Science 54-184, and
+either Mathematics 52-264 or Computer Science 54-284, or
+permission of instructor. (Fall) (NS)
+• 54-394 Computer Organization
+A study of computer architecture, internal representation of data,
+assembly language programming, subroutines and parameter
+passing, design of machine language instruction sets, bus
+structure, digital logic, and support for parallelism. The course
+includes a laboratory component designed to explore applications
+and to enhance conceptualization. Prerequisite: Computer Science
+54-284 or permission of instructor. (Fall) (NS)
+• 54-414 Operations Research
+Formulation and solution of problems with management,
+economics, engineering and science applications using modeling,
+optimization techniques, and simulation. Topics include: linear and
+integer programming, simplex method, duality, sensitivity analysis,
+and problem solving using optimization software. A significant
+group project resulting in a written report and presentation is
+required. Also Mathematics 52-414 and Business 30-414.
+Contributes to Data Analytics and Data Science. Prerequisites:
+Mathematics 52-164 (Modern Calculus I), and either Business
+30-474 (Finance), Mathematics 52-674 (Linear Algebra), some
+Computer Science course at the 300 level or above, or permission
+of the instructor.
+• 54-424 Artificial Intelligence
+A study of the use of computer algorithms to emulate the cognitive
+and problem solving capabilities of humans. Topics include: search,
+multi-agent search, optimization, reinforcement learning,
+evolutionary computation, statistical methods, (deep) neural
+networks, and generative artificial intelligence. Contributes to
+Neuroscience. Prerequisites: Mathematics 52-164 and Computer
+
+--- Page 4 of 6 ---
+
+Science 54-284, or permission of instructor. (NS)
+• 54-454 Algorithms
+An introduction to the design and analysis of algorithms and their
+implementation in C++. Topics include: greedy, divide-and-conquer,
+dynamic programming, graph, and randomized algorithms;
+asymptotic analysis and computational tractability (e.g. NP-
+completeness); practical data structures (stacks, trees, queues,
+graphs, hash tables, heaps). Prerequisites: Mathematics 52-164
+and Computer Science 54-284, or permission of instructor.
+Contributes to Design Thinking. (Spring) (NS)
+• 54-474 Programming Languages
+A study of the history, principles, and practice in the design and
+implementation of imperative, functional, logic and object-oriented
+programming languages. Topics include: syntax, context-free
+grammars, scope, data types, control structures, sub-programs,
+exception handling, and concurrency. Prerequisite: Computer
+Science 54-394 or permission of instructor. (Fall) (NS)
+• 54-514 Database Management
+An introduction to the theory and practice of database management
+systems. Topics include: database terminology, the entity-
+relationship model, the relational model, normalization, querying
+databases using SQL, NoSQL models, and other database
+technologies. The course includes a laboratory component
+designed to explore applications and to enhance conceptualization.
+Contributes to Data Analytics and Data Science. Prerequisite:
+Computer Science 54-284 or permission of instructor. (NS)
+• 54-524 Introduction to Numerical Analysis
+See Mathematics 52-524. (NS)
+• 54-534 Functional Programming
+
+--- Page 5 of 6 ---
+
+An introduction to functional programming. Topics include functions,
+lists, types, induction and recursion, pattern matching, infinite lists
+and trees. A functional programming language such as Haskell,
+Lisp or ML will be used in the course. There will be a large number
+of programming projects. Prerequisite: Computer Science 54-284
+or permission of instructor. (NS)
+• 54-644 Computer Systems
+An introduction to operating systems and computer networks.
+Topics include process control, scheduling, threads, concurrency,
+memory management, virtual memory, network protocol layers,
+packets, routing and network security. Prerequisite: Computer
+Science 54-394. (Spring) (NS)
+• 54-684 Theory of Computation
+An introduction to the theory of information and computation as
+physical phenomena, covering standard formalizations of
+computational concepts and proofs of their implications. Includes a
+programming component emphasizing efficient design and
+implementation of course concepts. Topics include: formal
+languages, finite automata, regular expressions, context-free
+grammars, pushdown automata, Turing machines, decidability, and
+reducibility. Prerequisites: Mathematics 52-164 and Computer
+Science 54-284, or permission of instructor. (NS)
+• 54-844 Seminar in Special Topics
+A limited enrollment seminar not generally covered in other
+courses. This course may be repeated for credit as topics vary.
+(NS)
+• 54-894 Senior Seminar in Software Engineering
+Introduction to techniques and theories for the development of large
+software systems. This course will fulfill the capstone requirement
+in Computer Science. Topics include: software design and quality,
+
+--- Page 6 of 6 ---
+
+ethics, professional issues, the study of current software
+engineering trends, theory and practice. Each student will
+contribute substantially to a major semester project as part of a
+software development team, give at least one major individual
+presentation, and have significant class participation. Each student
+will take the Major Field Test. Prerequisite: Five courses in the
+Computer Science major at the 300 level or above, and permission
+of instructor. Must have completed one of Computer Science
+54-454, 54-514, or 54-474. (Spring) (NS) (WA)

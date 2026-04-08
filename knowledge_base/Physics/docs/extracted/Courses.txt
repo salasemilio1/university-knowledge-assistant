@@ -1,0 +1,158 @@
+--- Page 1 of 6 ---
+
+Menu Search Apply Visit Majors & Minors
+PHYSICS
+Courses
+Below you will find a list of our current or recent offerings. See the course catalog for descriptions
+and updated information.
+53-034 Introduction to Earth Science
+This course examines the complex physical relations between land, sea and atmosphere. It also
+explores how some actions of our modern civilization disrupt the environment. Topics include
+geologic hazards, land management, water resources, hazardous waste disposal, energy
+resources, mineral resources and conservation of resources. Contributes to Environmental
+Studies. (NS) (Fall, Odd years)
+53-064 Exploring the Universe: the Solar System
+This course reviews our current scientific understanding of the constituents of our solar
+system: the sun, the terrestrial planets, the gas giant planets, the ice giants, dwarf planets,
+moons, rings, asteroids, comets, Kuiper belt objects, and the Oort cloud. Current theories of
+the origin and evolution of the solar system will be presented along with the history of its
+development and the basic science that governs the solar system. It will be discussed how new
+data from ground-based observatories, robotic space probes, and human space explorations
+continue to shape our theories of the solar system. Prerequisite: high school algebra.
+Appropriate for first year students. (NS) (Fall)
+53-074 Expl Universe: Stars, Galaxies, & Cosmo
+This course reviews our current scientific understanding of the universe beyond our solar
+system. Topics include: stars, stellar structure, and stellar evolution including the formation of
+white dwarfs, neutron stars, and black holes. The structure of our Milky Way galaxy, other
+galaxies and theories of how they formed will be presented. Current theories of cosmology, the
+
+--- Page 2 of 6 ---
+
+large-scale structure and evolution of the universe, the beginning and ultimate fate of the
+Menu Search Apply Visit Majors & Minors
+universe will be covered as well as how new data from ground-based observatories, and
+robotic space probes continue to shape our theories of the universe. Prerequisite: high school
+algebra. Appropriate for first year students. (NS) (Spring)
+53-104 Introduction to Engineering
+Introduction to engineering as a discipline and a profession. Examines the design,
+manufacture, assembly and evaluation of products using individual and team projects.
+Particular emphasis is placed on the role of written and graphical communication in the design
+process, the use of computer-aided design and rapid prototyping in product development and
+the role of entrepreneurship in high-tech ventures. Contributes to Design Thinking and
+Computer-Aided Design & 3D Printing Certificate. (NSL) (Spring)
+53-112 Applications of CAD
+Computer Aided Design software is used in various fields to create 2D and 3D designs,
+technical documentation, and product development. In this course students will learn how to
+use CAD software to create and manipulate 2D drawings (such as floor plans and elevations)
+and 3D models. Once created, the student will learn how to produce physical copies of these
+models using a laser cutter and/or a 3D printer. Contributes to Design Thinking and
+Computer-Aided Design & 3D Printing Certificate. (NS) (Fall)
+53-154 Fundamentals of Physics I (3-3)
+A calculus-based treatment of mechanics, wave motion, electromagnetism and optics.
+Prerequisites: Concurrent registration or credit in Mathematics 52-164. (NSL) (Fall)
+53-164 Fundamentals of Physics II (3-3)
+A calculus-based treatment of mechanics, wave motion, electromagnetism and optics.
+Prerequisites: Physics 53-154. (Spring) (NSL)
+53-214 Modern Physics (3-3)
+An introduction to thermodynamics and statistical mechanics, relativity, quantum mechanics,
+and the physics of atoms, nuclei and particles. Prerequisite: Physics 53-154, 53-164,
+Mathematics 52-164 and 52-264. Previous or concurrent registration in Mathematics 52-364,
+or consent of the instructor. (NSL) (Fall)
+53-254 Observing the Universe
+
+--- Page 3 of 6 ---
+
+This course teaches basic observing techniques of the night sky. Students will learn to operate
+Menu Search Apply Visit Majors & Minors
+telescopes, make astronomical measurements and take astronomical images. Prerequisite:
+Physics 53-164, or permission of the instructor. (NSL) (Fall, Even Years)
+53-314 Engineering Design
+This course introduces students to rapid prototyping. As part of this process students will
+deepen their proficiency in using Computer Aided Design software by creating complex single
+and multibody parts. They will also learn how to analyze the stresses on such parts. At the end
+of this course, students will have the opportunity to take the Autodesk Fusion Certified User
+exam. Contributes to Design Thinking and Computer-Aided Design & 3D Printing Certificate.
+Prerequisites: Physics 53-112 and 53-104. (NS) (Spring)
+53-324 Electromagnetism I
+An introduction to thermodynamics and statistical mechanics, relativity, quantum mechanics,
+and the physics of atoms, nuclei and particles. Prerequisite: Physics 53-154, 53-164,
+Mathematics 52-164, and 52-264. Mathematics 52-364 as a prerequisite or corequisite, or
+consent of the instructor. (NSL) (Fall)
+53-334 Classical Mechanics I (3-3)
+An advanced treatment of Newtonian mechanics with applications to kinematics, forced
+oscillations, central force motion and systems of particles. Prerequisites: Mathematics 52-364,
+Physics 53-154 and 53-164. Previous or concurrent registration in Mathematics 52-754. (NSL)
+(WA) (Spring)
+53-364 Fund of Materials Science & Engineering
+This course focuses on the emergence of structural properties from atomic and molecular-
+scale interactions by conducting a survey of three broad classes of materials: metals, ceramics
+and polymers. Particular attention will be paid to atomic structure and bonding, the structure
+of crystalline solids, phase diagrams, and the application and processing of polymers deployed
+in additive manufacturing (e.g., 3D Printing) and biomaterials. Also Chemistry 51-424.
+Contributes to Data Analytics and Data Science. Prerequisites: Physics 53-154. Chemistry 51-
+103 is a pre- or co-requisite for this course. (NS) (Spring)
+53-404 Electronics (3-3)
+
+--- Page 4 of 6 ---
+
+Introduction to digital and analog circuits with applications to modern instrumentation and
+Menu Search Apply Visit Majors & Minors
+robotics. Contributes to Design Thinking. (NSL) (Spring, Odd years)
+53-413 Classical Mechanics II (3-0)
+Introduction to the Lagrangian and Hamiltonian formulations of mechanics with application to
+non-inertial reference frames, rigid bodies and oscillating systems. Prerequisite: Physics 53-
+334. (NS) (Fall, Odd years)
+53-424 Quantum Mechanics
+A detailed introduction to quantum mechanics and its applications to atoms and molecules.
+Also Chemistry 51-714. Prerequisites: Physics 53-214 and 53-334. (NS) (Spring)
+53-433 Electromagnetism II
+Applications of Maxwells equations to propagation of plane and guided waves in various media.
+Prerequisite: Physics 53-324. (NS) (Spring, Odd years)
+53-434 Statics
+A study of forces, resultants and components of force systems, forces due to friction,
+conditions of equilibrium, forces acting on members of trusses and frame structures, centroids
+and moments of inertia. The lab portion of this course involves graphics and modeling
+fundamentals for engineering design: computer modeling of solid geometry and generation of
+engineering drawings. Introduction to computer programming using a high-level language and
+applications of computational methods to the solution of mechanical engineering problems.
+Contributes to Design Thinking. Prerequisite: Physics 53-154, Mathematics 52-164, and 52-
+264. Previous or concurrent registration in Mathematics 52-364 is required. (NS) (Fall).
+53-454 Math Methods in Physical Science
+This course examines select mathematical methods used in analyzing problems that arise in the
+physical sciences and engineering. Emphasis is given to both analytical and computer algebra
+or numerical approaches to problem solving and analysis. Analytical topics may include: linear
+vector spaces, Fourier series, ordinary differential equations, the calculus of variations, special
+functions, series solutions of differential equations, partial differential equations, functions of a
+complex variable, and integral transforms. Prerequisite: Mathematics 52-364, or permission of
+the instructor. Approved as an upper-level elective course for the Mathematics major,
+
+--- Page 5 of 6 ---
+
+Mathematics minor, and Computational Mathematics major, or as a supporting course in the
+Menu Search Apply Visit Majors & Minors
+Computer Science BS requirements. (NS)
+53-463 Dynamics
+A study of kinematics, force-mass-acceleration relations, work and energy, impulse and
+momentum as well as the moments of inertia of mass. Prerequisite: Physics 53-434,
+Mathematics 52-164, and 52-264. Previous or concurrent registration in Mathematics 52-
+364. (NS) (Spring. Odd years).
+53-473 Thermodynamics
+Basic principles of macroscopic thermodynamics including pressure-volume-temperature
+relationship of pure substances, work, heat, first and second laws of thermodynamics, entropy
+and the analysis of simple power and refrigeration systems. Prerequisite: Physics 53-154, 53-
+164, 53-214, Mathematics 52-164, 52-264, and 52-364. (NS) (Spring, Even years)
+53-872 Capstone Course (2-0)
+A scientific writing course for physics majors in which the capstone is drafted, discussed,
+revised and polished so that the writing is effective and conforms to modern standards of
+scientific journal style. In addition the student will learn how to fully integrate graphical
+elements and tables, mathematical equations, and numerical information into the document.
+The student and capstone course professor will work closely with the students capstone
+research advisor to bring the document to completion. Requirement: Students are expected to
+be finished with or nearing completion of the research phase of their capstone. (Spring)
+
+--- Page 6 of 6 ---
+
+GEORGETOWN, TEXAS
+512.863.6511
+Menu Search Apply Visit Majors & Minors
+CONTACT

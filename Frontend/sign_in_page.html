@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign in</title>
+
+    <!-- HTMX -->
+    <script src="https://unpkg.com/htmx.org@1.9.10"></script>
+
+    <!-- Google Identity Services -->
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #f5f5f5;
+        }
+        .card {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <h2>Sign in</h2>
+
+    <!-- Google sign in setup -->
+    <div id="g_id_onload"
+         data-client_id="645267348660-8l6o31mokh4d7g4a0h57suu2lf36motg.apps.googleusercontent.com"
+         data-callback="handleCredentialResponse">
+    </div>
+
+    <!-- Google sign in button -->
+    <div class="g_id_signin"></div>
+
+    <!-- Result / status -->
+    <div id="login-result" style="margin-top: 1rem;"></div>
+</div>
+
+<script>
+function handleCredentialResponse(response) {
+    const id_token = response.credential;
+
+    // Send token to backend using HTMX
+    htmx.ajax('POST', '/auth/google', {
+        target: '#login-result',
+        swap: 'innerHTML',
+        values: { token: id_token }
+    });
+}
+</script>
+
+</body>
+</html>

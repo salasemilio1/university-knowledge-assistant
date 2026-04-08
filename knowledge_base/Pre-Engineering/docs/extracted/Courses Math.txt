@@ -1,0 +1,32 @@
+--- Page 1 of 1 ---
+
+Menu Search Apply Visit Majors & Minors
+PPRREE--EENNGGIINNEEEERRIINNGG PPAATTHHWWAAYY
+Courses
+Below you will -nd a list of our current or recent o4erings. See the course
+catalog for descriptions and updated information.
+CCHHEEMMIISSTTRRYY CCOOMMPPUUTTEERR SSCCIIEENNCCEE MMAATTHHEEMMAATTIICCSS PPHHYYSSIICCSS
+CCAALLCCUULLUUSS II ((5522--115544)). Functions and graphs; derivatives, applications of differentiation.
+Exponential, logarithmic and trigonometric functions, integration, applications of
+integration. The course includes a laboratory component designed to explore applications
+and to enhance conceptualization. Prerequisite: Mastery of high school level precalculus
+(algebra, trigonometry, exponential and logarithmic functions). (Each semester) ((NNSS))
+CCAALLCCUULLUUSS IIII ((5522--225544)). Numerical integration, methods of integration, applications of the
+definite integral, improper integrals, sequences and series, Taylor’s Formula and
+approximation, polar coordinates. The course includes a laboratory component designed
+to explore applications and to enhance conceptualization. Prerequisite: Mathematics
+52-154. (Each semester) ((NNSS))
+CCAALLCCUULLUUSS IIIIII ((5522--335533)). A course in multivariable calculus. Vectors, vector functions,
+and curves. Functions of several variables, partial differentiation, multiple integration,
+applications of partial differentiation and of multiple integrals. Vector calculus, line
+integrals, Green’s Theorem, surface integrals. Prerequisite: Mathematics 52-254.
+(Each semester) (NNSS))
+LLIINNEEAARR AALLGGEEBBRRAA ((5522--667733)). Linear equations and matrices, vector spaces, linear
+mappings, determinants, quadratic forms, vector products, groups of symmetries.
+Prerequisite: Mathematics 52-254 or permission of instructor. (Each semester) ((NNSS))
+EELLEEMMEENNTTAARRYY DDIIFFFFEERREENNTTIIAALL EEQQUUAATTIIOONNSS ((5522--775533)). Topics include first order
+differential equations, separable equations, exact equations, linear differential equations
+of order n>1, homogeneous equations with constant coefficients, nonhomogeneous
+equations, the method of undetermined coefficients, variation of parameters, power
+series solutions, and an introduction to the Laplace Transform. Prerequisite:
+Mathematics 52-353, or permission of instructor. (Fall) ((NNSS))

@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTMX Chat UI With Profile Setup</title>
+
+<script src="https://unpkg.com/htmx.org@1.9.10"></script>
+
+<style>
+:root {
+    --sidebar-bg: #202123;
+    --panel-bg: #343541;
+    --panel-alt: #40414f;
+    --message-bg: #444654;
+    --accent: #19c37d;
+    --accent-dark: #13a366;
+    --user-bg: #0b93f6;
+    --text: #ffffff;
+    --muted: #b8bcc9;
+    --border: rgba(255, 255, 255, 0.12);
+    --overlay: rgba(0, 0, 0, 0.55);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+    color: var(--text);
+    background: var(--panel-bg);
+}
+
+.sidebar {
+    width: 280px;
+    background: var(--sidebar-bg);
+    color: var(--text);
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.sidebar button {
+    background: var(--panel-bg);
+    border: 1px solid transparent;
+    color: var(--text);
+    padding: 11px 12px;
+    cursor: pointer;
+    border-radius: 8px;
+    text-align: left;
+    transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.sidebar button:hover,
+.sidebar button:focus-visible {
+    background: #3d3f4b;
+    border-color: var(--border);
+    outline: none;
+}
+
+.profile-button {
+    background: rgba(25, 195, 125, 0.14);
+    border-color: rgba(25, 195, 125, 0.4);
+}
+
+.profile-summary {
+    padding: 12px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--border);
+}
+
+.profile-summary h2 {
+    margin: 0 0 8px;
+    font-size: 15px;
+}
+
+.profile-summary p {
+    margin: 0;
+    color: var(--muted);
+    line-height: 1.4;
+    font-size: 13px;
+}
+
+.conversations {
+    flex: 1;
+    overflow-y: auto;
+}
+
+.main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background: var(--panel-bg);
+}
+
+.chat-box {
+    flex: 1;
+    overflow-y: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.message {
+    margin-bottom: 15px;
+    max-width: 700px;
+}
+
+.user {
+    align-self: flex-end;
+    background: var(--user-bg);
+    color: var(--text);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.bot {
+    background: var(--message-bg);
+    color: var(--text);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.input-area {
+    padding: 15px;
+    background: var(--panel-alt);
+    display: flex;
+}
+
+.input-area input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+}
+
+.input-area button,
+.profile-actions button,
+.save-profile {
+    padding: 10px 15px;
+    border: none;
+    background: var(--accent);
+    color: var(--text);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.input-area button {
+    margin-left: 10px;
+}
+
+.input-area button:hover,
+.profile-actions button:hover,
+.save-profile:hover {
+    background: var(--accent-dark);
+}
+
+.profile-modal {
+    position: fixed;
+    inset: 0;
+    background: var(--overlay);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+}
+
+.profile-modal.open {
+    display: flex;
+}
+
+.profile-card {
+    width: min(760px, 100%);
+    max-height: 90vh;
+    overflow-y: auto;
+    background: #2f3038;
+    border-radius: 16px;
+    border: 1px solid var(--border);
+    box-shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
+}
+
+.profile-header {
+    padding: 20px 24px 10px;
+}
+
+.profile-header h1 {
+    margin: 0 0 8px;
+    font-size: 24px;
+}
+
+.profile-header p {
+    margin: 0;
+    color: var(--muted);
+    line-height: 1.5;
+}
+
+.profile-form {
+    padding: 16px 24px 24px;
+}
+
+.field-group {
+    margin-bottom: 18px;
+}
+
+.field-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.field-group select,
+.field-group input {
+    width: 100%;
+    padding: 11px 12px;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    background: #40414f;
+    color: var(--text);
+    font: inherit;
+}
+
+.field-group input {
+    margin-top: 8px;
+}
+
+.course-search {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.course-checklist {
+    max-height: 220px;
+    overflow-y: auto;
+    padding: 10px 12px;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+    background: #40414f;
+}
+
+.course-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 6px 0;
+    color: var(--text);
+}
+
+.course-option input {
+    width: auto;
+    margin: 0;
+}
+
+.course-option.hidden {
+    display: none;
+}
+
+.field-note {
+    color: var(--muted);
+    font-size: 12px;
+    margin-top: 6px;
+}
+
+.hidden-input {
+    display: none;
+}
+
+.hidden-input.show {
+    display: block;
+}
+
+.profile-actions {
+    display: flex;
+    gap: 12px;
+    justify-content: flex-end;
+    padding-top: 8px;
+}
+
+.profile-actions .secondary {
+    background: transparent;
+    border: 1px solid var(--border);
+}
+
+.profile-actions .secondary:hover {
+    background: rgba(255, 255, 255, 0.06);
+}
+
+.profile-preview {
+    margin-top: 18px;
+    padding: 14px;
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 10px;
+    border: 1px solid var(--border);
+}
+
+.profile-preview h2 {
+    margin: 0 0 10px;
+    font-size: 16px;
+}
+
+.profile-preview ul {
+    margin: 0;
+    padding-left: 18px;
+    color: var(--muted);
+}
+
+@media (max-width: 820px) {
+    body {
+        flex-direction: column;
+        height: auto;
+        min-height: 100vh;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+
+    .main {
+        min-height: 60vh;
+    }
+
+    .profile-modal {
+        padding: 12px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="sidebar">
+    <button
+        hx-get="/new-chat"
+        hx-target="#chat-box"
+        hx-swap="innerHTML">
+        + New Chat
+    </button>
+
+    <button type="button" class="profile-button" id="open-profile">
+        Create Student Profile
+    </button>
+
+    <div class="profile-summary" id="profile-summary">
+        <h2>Profile Status</h2>
+        <p>No profile saved yet. Use the button above to fill out the student profile survey.</p>
+    </div>
+
+    <div class="conversations"
+         hx-get="/conversations"
+         hx-trigger="load"
+         hx-target="this">
+    </div>
+</div>
+
+<div class="main">
+    <div id="chat-box" class="chat-box">
+        <div class="message bot">
+            Welcome! You can start a chat as usual, or choose "Create Student Profile" to fill out the profile survey.
+        </div>
+    </div>
+
+    <form
+        class="input-area"
+        hx-post="/chat"
+        hx-target="#chat-box"
+        hx-swap="beforeend"
+        hx-on="htmx:afterRequest: this.reset()">
+        <input
+            type="text"
+            name="message"
+            placeholder="Send a message..."
+            autocomplete="off"
+            required>
+        <button type="submit">Send</button>
+    </form>
+</div>
+
+<div class="profile-modal" id="profile-modal" aria-hidden="true">
+    <div class="profile-card" role="dialog" aria-modal="true" aria-labelledby="profile-title">
+        <div class="profile-header">
+            <h1 id="profile-title">Student Profile Survey</h1>
+            <p>Complete the profile below. Every question includes a dropdown, and fields that may vary can also accept a custom value if the user selects the custom option.</p>
+        </div>
+
+        <form class="profile-form" id="profile-form">
+            <div class="field-group">
+                <label for="name-select">1. Name</label>
+                <select id="name-select" data-custom-target="name-custom" required>
+                    <option value="">Select a name option</option>
+                    <option value="custom">Enter a custom name</option>
+                </select>
+                <input id="name-custom" class="hidden-input" type="text" placeholder="Enter full name">
+            </div>
+
+            <div class="field-group">
+                <label for="major-select">2. What is your major?</label>
+                <select id="major-select" required>
+                    <option value="">Select a major</option>
+                    <option>Anthropology</option>
+                    <option>Applied Physics</option>
+                    <option>Art Studio</option>
+                    <option>Art History</option>
+                    <option>Biochemistry</option>
+                    <option>Biology</option>
+                    <option>Business</option>
+                    <option>Chemistry</option>
+                    <option>Classics</option>
+                    <option>Communication Studies</option>
+                    <option>Computational Mathematics</option>
+                    <option>Computer Science</option>
+                    <option>Economics</option>
+                    <option>Education</option>
+                    <option>English</option>
+                    <option>Environmental Studies</option>
+                    <option>Feminist Studies</option>
+                    <option>French</option>
+                    <option>German</option>
+                    <option>Greek</option>
+                    <option>History</option>
+                    <option>Independent Major</option>
+                    <option>International Studies</option>
+                    <option>Kinesiology</option>
+                    <option>Latin</option>
+                    <option>Latin American &amp; Border Studies</option>
+                    <option>Mathematics</option>
+                    <option>Music</option>
+                    <option>Philosophy</option>
+                    <option>Physics</option>
+                    <option>Political Science</option>
+                    <option>Pre-Engineering</option>
+                    <option>Psychology</option>
+                    <option>Religion</option>
+                    <option>Sociology</option>
+                    <option>Spanish</option>
+                    <option>Theatre</option>
+                </select>
+            </div>
+
+            <div class="field-group">
+                <label for="second-major-select">3. Do you have a second major?</label>
+                <select id="second-major-select">
+                    <option value="">No second major</option>
+                    <option>Anthropology</option>
+                    <option>Applied Physics</option>
+                    <option>Art Studio</option>
+                    <option>Art History</option>
+                    <option>Biochemistry</option>
+                    <option>Biology</option>
+                    <option>Business</option>
+                    <option>Chemistry</option>
+                    <option>Classics</option>
+                    <option>Communication Studies</option>
+                    <option>Computational Mathematics</option>
+                    <option>Computer Science</option>
+                    <option>Economics</option>
+                    <option>Education</option>
+                    <option>English</option>
+                    <option>Environmental Studies</option>
+                    <option>Feminist Studies</option>
+                    <option>French</option>
+                    <option>German</option>
+                    <option>Greek</option>
+                    <option>History</option>
+                    <option>Independent Major</option>
+                    <option>International Studies</option>
+                    <option>Kinesiology</option>
+                    <option>Latin</option>
+                    <option>Latin American &amp; Border Studies</option>
+                    <option>Mathematics</option>
+                    <option>Music</option>
+                    <option>Philosophy</option>
+                    <option>Physics</option>
+                    <option>Political Science</option>
+                    <option>Pre-Engineering</option>
+                    <option>Psychology</option>
+                    <option>Religion</option>
+                    <option>Sociology</option>
+                    <option>Spanish</option>
+                    <option>Theatre</option>
+                </select>
+            </div>
+
+            <div class="field-group">
+                <label for="minor-select">4. Do you have a minor?</label>
+                <select id="minor-select">
+                    <option value="">No minor</option>
+                    <option>Anthropology</option>
+                    <option>Applied Physics</option>
+                    <option>Art Studio</option>
+                    <option>Art History</option>
+                    <option>Biochemistry</option>
+                    <option>Biology</option>
+                    <option>Business</option>
+                    <option>Chemistry</option>
+                    <option>Classics</option>
+                    <option>Communication Studies</option>
+                    <option>Computational Mathematics</option>
+                    <option>Computer Science</option>
+                    <option>Economics</option>
+                    <option>Education</option>
+                    <option>English</option>
+                    <option>Environmental Studies</option>
+                    <option>Feminist Studies</option>
+                    <option>French</option>
+                    <option>German</option>
+                    <option>Greek</option>
+                    <option>History</option>
+                    <option>Independent Major</option>
+                    <option>International Studies</option>
+                    <option>Kinesiology</option>
+                    <option>Latin</option>
+                    <option>Latin American &amp; Border Studies</option>
+                    <option>Mathematics</option>
+                    <option>Music</option>
+                    <option>Philosophy</option>
+                    <option>Physics</option>
+                    <option>Political Science</option>
+                    <option>Pre-Engineering</option>
+                    <option>Psychology</option>
+                    <option>Religion</option>
+                    <option>Sociology</option>
+                    <option>Spanish</option>
+                    <option>Theatre</option>
+                </select>
+            </div>
+
+            <div class="field-group">
+                <label for="second-minor-select">5. Do you have a second minor?</label>
+                <select id="second-minor-select">
+                    <option value="">No second minor</option>
+                    <option>Anthropology</option>
+                    <option>Applied Physics</option>
+                    <option>Art Studio</option>
+                    <option>Art History</option>
+                    <option>Biochemistry</option>
+                    <option>Biology</option>
+                    <option>Business</option>
+                    <option>Chemistry</option>
+                    <option>Classics</option>
+                    <option>Communication Studies</option>
+                    <option>Computational Mathematics</option>
+                    <option>Computer Science</option>
+                    <option>Economics</option>
+                    <option>Education</option>
+                    <option>English</option>
+                    <option>Environmental Studies</option>
+                    <option>Feminist Studies</option>
+                    <option>French</option>
+                    <option>German</option>
+                    <option>Greek</option>
+                    <option>History</option>
+                    <option>Independent Major</option>
+                    <option>International Studies</option>
+                    <option>Kinesiology</option>
+                    <option>Latin</option>
+                    <option>Latin American &amp; Border Studies</option>
+                    <option>Mathematics</option>
+                    <option>Music</option>
+                    <option>Philosophy</option>
+                    <option>Physics</option>
+                    <option>Political Science</option>
+                    <option>Pre-Engineering</option>
+                    <option>Psychology</option>
+                    <option>Religion</option>
+                    <option>Sociology</option>
+                    <option>Spanish</option>
+                    <option>Theatre</option>
+                </select>
+            </div>
+
+            <div class="field-group">
+                <label for="gpa-select">6. What is your GPA?</label>
+                <select id="gpa-select" data-custom-target="gpa-custom" required>
+                    <option value="">Select a GPA</option>
+                    <option>4.0</option>
+                    <option>3.9</option>
+                    <option>3.8</option>
+                    <option>3.7</option>
+                    <option>3.6</option>
+                    <option>3.5</option>
+                    <option>3.4</option>
+                    <option>3.3</option>
+                    <option>3.2</option>
+                    <option>3.1</option>
+                    <option>3.0</option>
+                    <option>2.9</option>
+                    <option>2.8</option>
+                    <option>2.7</option>
+                    <option>2.6</option>
+                    <option>2.5</option>
+                    <option>2.4</option>
+                    <option>2.3</option>
+                    <option>2.2</option>
+                    <option>2.1</option>
+                    <option>2.0</option>
+                    <option value="custom">Enter a custom GPA</option>
+                </select>
+                <input id="gpa-custom" class="hidden-input" type="text" placeholder="Enter GPA manually">
+            </div>
+
+            <div class="field-group">
+                <label for="advisor-name-select">7. What is your advisor's name?</label>
+                <select id="advisor-name-select" data-custom-target="advisor-name-custom" required>
+                    <option value="">Select an advisor option</option>
+                    <option value="custom">Enter a custom advisor name</option>
+                </select>
+                <input id="advisor-name-custom" class="hidden-input" type="text" placeholder="Enter advisor name">
+            </div>
+
+            <div class="field-group">
+                <label for="advisor-email-select">8. What is your advisor's email?</label>
+                <select id="advisor-email-select" data-custom-target="advisor-email-custom" required>
+                    <option value="">Select an advisor email option</option>
+                    <option value="custom">Enter a custom advisor email</option>
+                </select>
+                <input id="advisor-email-custom" class="hidden-input" type="email" placeholder="Enter advisor email">
+            </div>
+
+            <div class="field-group">
+                <label for="course-search">9. What courses have you taken in the past at Southwestern University?</label>
+                <input id="course-search" class="course-search" type="text" placeholder="Search courses...">
+                <div class="course-checklist" id="course-checklist">
+                    <label class="course-option" data-course-label="54-144 explorations in computing">
+                        <input type="checkbox" name="courses" value="54-144 Explorations in Computing">
+                        <span>54-144 Explorations in Computing</span>
+                    </label>
+                    <label class="course-option" data-course-label="54-184 computer science i">
+                        <input type="checkbox" name="courses" value="54-184 Computer Science I">
+                        <span>54-184 Computer Science I</span>
+                    </label>
+                    <label class="course-option" data-course-label="54-284 computer science ii">
+                        <input type="checkbox" name="courses" value="54-284 Computer Science II">
+                        <span>54-284 Computer Science II</span>
+                    </label>
+                    <label class="course-option" data-course-label="54-291 puzzling programs">
+                        <input type="checkbox" name="courses" value="54-291 Puzzling Programs">
+                        <span>54-291 Puzzling Programs</span>
+                    </label>
+                    <label class="course-option" data-course-label="54-384 discrete mathematics">
+                        <input type="checkbox" name="courses" value="54-384 Discrete Mathematics">
+                        <span>54-384 Discrete Mathematics</span>
+                    </label>
+                    <label class="course-option" data-course-label="54-394 computer organization">
+                        <input type="checkbox" name="courses" value="54-394 Computer Organization">
+                        <span>54-394 Computer Organization</span>
+                    </label>
+                    <label class="course-option" data-course-label="54-414 operations research">
+                        <input type="checkbox" name="courses" value="54-414 Operations Research">
+                        <span>54-414 Operations Research</span>
+                    </label>
+                    <label class="course-option" data-course-label="54-424 artificial intelligence">
+                        <input type="checkbox" name="courses" value="54-424 Artificial Intelligence">
+                        <span>54-424 Artificial Intelligence</span>
+                    </label>
+                    <label class="course-option" data-course-label="54-454 algorithms">
+                        <input type="checkbox" name="courses" value="54-454 Algorithms">
+                        <span>54-454 Algorithms</span>
+                    </label>
+                    <label class="course-option" data-course-label="54-474 programming languages">
+                        <input type="checkbox" name="courses" value="54-474 Programming Languages">
+                        <span>54-474 Programming Languages</span>
+                    </label>
+                    <label class="course-option" data-course-label="54-514 database management">
+                        <input type="checkbox" name="courses" value="54-514 Database Management">
+                        <span>54-514 Database Management</span>
+                    </label>
+                    <label class="course-option" data-course-label="54-524 introduction to numerical analysis">
+                        <input type="checkbox" name="courses" value="54-524 Introduction to Numerical Analysis">
+                        <span>54-524 Introduction to Numerical Analysis</span>
+                    </label>
+                    <label class="course-option" data-course-label="54-534 functional programming">
+                        <input type="checkbox" name="courses" value="54-534 Functional Programming">
+                        <span>54-534 Functional Programming</span>
+                    </label>
+                    <label class="course-option" data-course-label="54-644 computer systems">
+                        <input type="checkbox" name="courses" value="54-644 Computer Systems">
+                        <span>54-644 Computer Systems</span>
+                    </label>
+                    <label class="course-option" data-course-label="54-684 theory of computation">
+                        <input type="checkbox" name="courses" value="54-684 Theory of Computation">
+                        <span>54-684 Theory of Computation</span>
+                    </label>
+                    <label class="course-option" data-course-label="54-894 senior seminar in software engineering">
+                        <input type="checkbox" name="courses" value="54-894 Senior Seminar in Software Engineering">
+                        <span>54-894 Senior Seminar in Software Engineering</span>
+                    </label>
+                    <label class="course-option" data-course-label="other course not listed">
+                        <input type="checkbox" id="courses-custom-toggle" value="custom" data-custom-target="courses-custom">
+                        <span>Other course not listed</span>
+                    </label>
+                </div>
+                <input id="courses-custom" class="hidden-input" type="text" placeholder="Enter any additional course names">
+                <div class="field-note">Use the search box to filter the course list, then check every course that applies.</div>
+            </div>
+
+            <div class="field-group">
+                <label for="grad-year-select">10. What year do you plan to graduate?</label>
+                <select id="grad-year-select" data-custom-target="grad-year-custom" required>
+                    <option value="">Select a graduation year</option>
+                    <option>2026</option>
+                    <option>2027</option>
+                    <option>2028</option>
+                    <option>2029</option>
+                    <option>2030</option>
+                    <option>2031</option>
+                    <option>2032</option>
+                    <option>2033</option>
+                    <option value="custom">Enter a custom year</option>
+                </select>
+                <input id="grad-year-custom" class="hidden-input" type="text" placeholder="Enter graduation year">
+            </div>
+
+            <div class="profile-actions">
+                <button type="button" class="secondary" id="cancel-profile">Cancel</button>
+                <button type="submit" class="save-profile">Save Profile</button>
+            </div>
+
+            <div class="profile-preview" id="profile-preview">
+                <h2>Saved Profile Preview</h2>
+                <ul>
+                    <li>No profile saved yet.</li>
+                </ul>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script>
+const modal = document.getElementById("profile-modal");
+const openProfileButton = document.getElementById("open-profile");
+const cancelProfileButton = document.getElementById("cancel-profile");
+const profileForm = document.getElementById("profile-form");
+const profileSummary = document.getElementById("profile-summary");
+const profilePreview = document.getElementById("profile-preview");
+const courseSearch = document.getElementById("course-search");
+const courseCustomToggle = document.getElementById("courses-custom-toggle");
+
+function openModal() {
+    modal.classList.add("open");
+    modal.setAttribute("aria-hidden", "false");
+}
+
+function closeModal() {
+    modal.classList.remove("open");
+    modal.setAttribute("aria-hidden", "true");
+}
+
+function toggleCustomInput(selectElement) {
+    const targetId = selectElement.dataset.customTarget;
+    if (!targetId) {
+        return;
+    }
+
+    const input = document.getElementById(targetId);
+    if (!input) {
+        return;
+    }
+
+    let shouldShow = false;
+
+    if (selectElement.tagName === "SELECT") {
+        const selectedValues = Array.from(selectElement.selectedOptions).map((option) => option.value);
+        shouldShow = selectedValues.includes("custom");
+    } else if (selectElement.type === "checkbox") {
+        shouldShow = selectElement.checked;
+    }
+
+    input.classList.toggle("show", shouldShow);
+    input.required = shouldShow;
+
+    if (!shouldShow) {
+        input.value = "";
+    }
+}
+
+function getFieldValue(selectId, customId) {
+    const select = document.getElementById(selectId);
+    const customInput = document.getElementById(customId);
+    if (select.value === "custom") {
+        return customInput.value.trim();
+    }
+    return select.value.trim();
+}
+
+function getCoursesValue() {
+    const selected = Array.from(document.querySelectorAll('input[name="courses"]:checked')).map((input) => input.value);
+    const filtered = selected.filter(Boolean);
+    const customCourses = document.getElementById("courses-custom").value.trim();
+
+    if (customCourses) {
+        filtered.push(customCourses);
+    }
+
+    return filtered.join(", ");
+}
+
+function renderProfile(profile) {
+    profileSummary.innerHTML = `
+        <h2>Profile Status</h2>
+        <p><strong>${profile.name || "Unnamed student"}</strong><br>${profile.major || "Major not set"}${profile.secondMajor ? ` | ${profile.secondMajor}` : ""}<br>${profile.minor ? `Minor: ${profile.minor}` : "Minor: None"}${profile.secondMinor ? ` | Second Minor: ${profile.secondMinor}` : ""}<br>GPA: ${profile.gpa || "N/A"} | Graduation Year: ${profile.gradYear || "N/A"}</p>
+    `;
+
+    profilePreview.innerHTML = `
+        <h2>Saved Profile Preview</h2>
+        <ul>
+            <li><strong>Name:</strong> ${profile.name || "N/A"}</li>
+            <li><strong>Major:</strong> ${profile.major || "N/A"}</li>
+            <li><strong>Second Major:</strong> ${profile.secondMajor || "None"}</li>
+            <li><strong>Minor:</strong> ${profile.minor || "None"}</li>
+            <li><strong>Second Minor:</strong> ${profile.secondMinor || "None"}</li>
+            <li><strong>GPA:</strong> ${profile.gpa || "N/A"}</li>
+            <li><strong>Advisor:</strong> ${profile.advisorName || "N/A"}</li>
+            <li><strong>Advisor Email:</strong> ${profile.advisorEmail || "N/A"}</li>
+            <li><strong>Courses Taken:</strong> ${profile.courses || "N/A"}</li>
+            <li><strong>Graduation Year:</strong> ${profile.gradYear || "N/A"}</li>
+        </ul>
+    `;
+}
+
+openProfileButton.addEventListener("click", openModal);
+cancelProfileButton.addEventListener("click", closeModal);
+
+modal.addEventListener("click", function (event) {
+    if (event.target === modal) {
+        closeModal();
+    }
+});
+
+document.querySelectorAll("select[data-custom-target]").forEach((select) => {
+    select.addEventListener("change", function () {
+        toggleCustomInput(select);
+    });
+});
+
+courseCustomToggle.addEventListener("change", function () {
+    toggleCustomInput(courseCustomToggle);
+});
+
+courseSearch.addEventListener("input", function () {
+    const query = courseSearch.value.trim().toLowerCase();
+    document.querySelectorAll(".course-option").forEach((option) => {
+        const label = option.dataset.courseLabel || "";
+        const matches = !query || label.includes(query);
+        option.classList.toggle("hidden", !matches);
+    });
+});
+
+profileForm.addEventListener("submit", function (event) {
+    event.preventDefault();
+
+    const profile = {
+        name: getFieldValue("name-select", "name-custom"),
+        major: document.getElementById("major-select").value.trim(),
+        secondMajor: document.getElementById("second-major-select").value.trim(),
+        minor: document.getElementById("minor-select").value.trim(),
+        secondMinor: document.getElementById("second-minor-select").value.trim(),
+        gpa: getFieldValue("gpa-select", "gpa-custom"),
+        advisorName: getFieldValue("advisor-name-select", "advisor-name-custom"),
+        advisorEmail: getFieldValue("advisor-email-select", "advisor-email-custom"),
+        courses: getCoursesValue(),
+        gradYear: getFieldValue("grad-year-select", "grad-year-custom")
+    };
+
+    renderProfile(profile);
+    closeModal();
+});
+</script>
+
+</body>
+</html>
