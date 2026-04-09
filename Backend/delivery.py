@@ -106,7 +106,9 @@ async def google_auth(request: Request, response: Response, token: str = Form(..
     except Exception:
         raise HTTPException(status_code=400, detail="Invalid token")
 
-    
+@app.post("/update-user")
+async def update_user(request:Request):
+    pass
 
 @app.post("/ask", response_class=HTMLResponse)
 async def ask(query: str = Form(...)):
