@@ -31,7 +31,7 @@ from pipeline.router import route
 from pipeline.retriever import retrieve
 from pipeline.answerer import answer
 
-from Backend.user_db import create_user, does_user_exist
+from Backend.user_db import create_user, update_user
 
 # ── Setup ─────────────────────────────────────────────────────────────────────
 
@@ -106,9 +106,69 @@ async def google_auth(request: Request, response: Response, token: str = Form(..
     except Exception:
         raise HTTPException(status_code=400, detail="Invalid token")
 
-@app.post("/update-user")
-async def update_user(request:Request):
-    pass
+@app.post("/users")
+async def users(request:Request):
+
+# TODO
+#   fix html
+#   validate input
+#   add courses and store as JSON
+#   add db fields and implement update_user
+
+
+    form = await request.form() # get form data. Form object is accessible like a dictionary
+
+    # expected form fields from frontend
+    expected_field_names = [
+    "name",
+    "name_custom",
+    "major",
+    "second_major",
+    "minor",
+    "second_minor",
+    "gpa",
+    "gpa_custom",
+    "advisor_name",
+    "advisor_name_custom",
+    "advisor_email",
+    "advisor_email_custom",
+    "courses",
+    "courses_custom",
+    "grad_year",
+    "grad_year_custom"
+    ]
+
+    form_data = {} # form data
+
+    # retrieve form data
+    for field in expected_field_names:
+        if field == "courses":
+            form_data[field] = form.getlist(field)
+        else:
+            form_data[field] = form.get(field)
+
+    # TODO validate that all fields are present and are the correct type and specifications for DB (string length, etc)
+
+    user_data = {} # user data to update requesting (currently authorized) user with
+
+    # populate final values to update user with.
+    user_data["name"] = form_data["name_custom"] if form_data["name"] == "custom" else form_data["name"]
+    user_data["major"] = form_data["major"]
+    user_data["second_major"] = form_data["second_major"]
+    user_data["minor"] = form_data["minor"]
+    user_data["second_minor"] = form_data["second_minor"]
+    user_data["gpa"] = form_data["gpa_custom"] if form_data["gpa"] == "custom" else form_data["gpa"]
+    user_data["advisor_name"] = form_data["advisor_name_custom"] if form_data["advisor_name"] == "custom" else form_data["advisor_name"]
+    user_data["advisor_email"] = form_data["advisor_email_custom"] if form_data["advisor_email"] == "custom" else form_data["advisor_email"]
+    user_data["grad_year"] = form_data["grad_year_custom"] if form_data["grad_year"] == "custom" else form_data["grad_year"]
+    # TODO add courses field
+
+    # retrieve currently authed user
+    google_id = request.session.get("user_id")
+    if not google_id:
+        raise HTTPException(status_code=401, detail="Not authenticated")
+    
+    update_user(google_id, user_data)
 
 @app.post("/ask", response_class=HTMLResponse)
 async def ask(query: str = Form(...)):

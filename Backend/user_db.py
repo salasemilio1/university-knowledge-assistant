@@ -84,3 +84,18 @@ def create_user(google_id:str, email:str, first_name:str, last_name:str) -> bool
         session.commit()
         session.refresh(user)
     return True
+
+def update_user(google_id:str, user_data:dict) -> bool:
+    """
+    Updates a user from profile setup form data.
+
+    Args:
+        google_id(str): The Google ID of the account to create a user for.
+        user_data(dict): The data to update with.
+    Returns:
+        bool: True if successful, false if an account doesn't exist.
+    """
+    if not does_user_exist(google_id):
+        return False
+    
+    
