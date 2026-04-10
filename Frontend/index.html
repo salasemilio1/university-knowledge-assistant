@@ -746,6 +746,50 @@
         .page.active {
             display: flex;
         }
+
+        .profile-field input,
+.profile-field select,
+.profile-field textarea {
+    width: 100%;
+    font-size: 0.95rem;
+    color: var(--text);
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 9px 12px;
+}
+
+.profile-field input[type="checkbox"] {
+    width: auto;
+    margin-right: 8px;
+}
+
+    .profile-field label:has(input[type="checkbox"]) {
+        text-transform: none;
+        letter-spacing: 0;
+        font-size: 0.95rem;
+        color: var(--text);
+        font-weight: 400;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .profile-save-btn {
+        background: var(--accent);
+        color: var(--accent-fg);
+        border: none;
+        border-radius: 8px;
+        padding: 10px 14px;
+        font: inherit;
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+    .profile-save-btn:hover {
+        background: var(--accent-hover);
+    }
+
     </style>
 </head>
 
@@ -902,54 +946,300 @@
 
                 <!-- ── Sub-tab: Academic Info ────────────────────── -->
                 <!-- TODO: Populate from /profile GET response (student profile columns) -->
-                <div class="profile-tab-panel" id="ptab-academic" role="tabpanel">
+                <!-- ── Sub-tab: Academic Info ────────────────────── -->
+<div class="profile-tab-panel" id="ptab-academic" role="tabpanel">
 
-                    <div class="profile-card">
-                        <h2>Academic Info</h2>
+    <form
+        id="profile-form"
+        hx-post="/users"
+        hx-target="#profile-save-status"
+        hx-swap="innerHTML"
+    >
 
-                        <div class="profile-field">
-                            <label>Major</label>
-                            <!-- TODO: student_profile.major -->
-                            <div class="field-value placeholder">Not yet set</div>
-                        </div>
-                        <div class="profile-field">
-                            <label>Second Major</label>
-                            <!-- TODO: student_profile.second_major -->
-                            <div class="field-value placeholder">Not yet set</div>
-                        </div>
-                        <div class="profile-field">
-                            <label>Minor</label>
-                            <!-- TODO: student_profile.minor -->
-                            <div class="field-value placeholder">Not yet set</div>
-                        </div>
-                        <div class="profile-field">
-                            <label>GPA</label>
-                            <!-- TODO: student_profile.gpa -->
-                            <div class="field-value placeholder">Not yet set</div>
-                        </div>
-                        <div class="profile-field">
-                            <label>Expected Graduation</label>
-                            <!-- TODO: student_profile.grad_year -->
-                            <div class="field-value placeholder">Not yet set</div>
-                        </div>
-                    </div>
+        <div class="profile-card">
+            <h2>Academic Info</h2>
 
-                    <div class="profile-card">
-                        <h2>Advisor</h2>
+            <div class="profile-field">
+                <label for="major">Major</label>
+                <select id="major" name="major" required>
+                    <option value="">Select a major</option>
+                    <option>Anthropology</option>
+                    <option>Applied Physics</option>
+                    <option>Art Studio</option>
+                    <option>Art History</option>
+                    <option>Biochemistry</option>
+                    <option>Biology</option>
+                    <option>Business</option>
+                    <option>Chemistry</option>
+                    <option>Classics</option>
+                    <option>Communication Studies</option>
+                    <option>Computational Mathematics</option>
+                    <option>Computer Science</option>
+                    <option>Economics</option>
+                    <option>Education</option>
+                    <option>English</option>
+                    <option>Environmental Studies</option>
+                    <option>Feminist Studies</option>
+                    <option>French</option>
+                    <option>German</option>
+                    <option>Greek</option>
+                    <option>History</option>
+                    <option>Independent Major</option>
+                    <option>International Studies</option>
+                    <option>Kinesiology</option>
+                    <option>Latin</option>
+                    <option>Latin American &amp; Border Studies</option>
+                    <option>Mathematics</option>
+                    <option>Music</option>
+                    <option>Philosophy</option>
+                    <option>Physics</option>
+                    <option>Political Science</option>
+                    <option>Pre-Engineering</option>
+                    <option>Psychology</option>
+                    <option>Religion</option>
+                    <option>Sociology</option>
+                    <option>Spanish</option>
+                    <option>Theatre</option>
+                </select>
+            </div>
 
-                        <div class="profile-field">
-                            <label>Advisor Name</label>
-                            <!-- TODO: student_profile.advisor_name -->
-                            <div class="field-value placeholder">Not yet set</div>
-                        </div>
-                        <div class="profile-field">
-                            <label>Advisor Email</label>
-                            <!-- TODO: student_profile.advisor_email -->
-                            <div class="field-value placeholder">Not yet set</div>
-                        </div>
-                    </div>
+            <div class="profile-field">
+                <label for="second_major">Second Major</label>
+                <select id="second_major" name="second_major">
+                    <option value="">No second major</option>
+                    <option>Anthropology</option>
+                    <option>Applied Physics</option>
+                    <option>Art Studio</option>
+                    <option>Art History</option>
+                    <option>Biochemistry</option>
+                    <option>Biology</option>
+                    <option>Business</option>
+                    <option>Chemistry</option>
+                    <option>Classics</option>
+                    <option>Communication Studies</option>
+                    <option>Computational Mathematics</option>
+                    <option>Computer Science</option>
+                    <option>Economics</option>
+                    <option>Education</option>
+                    <option>English</option>
+                    <option>Environmental Studies</option>
+                    <option>Feminist Studies</option>
+                    <option>French</option>
+                    <option>German</option>
+                    <option>Greek</option>
+                    <option>History</option>
+                    <option>Independent Major</option>
+                    <option>International Studies</option>
+                    <option>Kinesiology</option>
+                    <option>Latin</option>
+                    <option>Latin American &amp; Border Studies</option>
+                    <option>Mathematics</option>
+                    <option>Music</option>
+                    <option>Philosophy</option>
+                    <option>Physics</option>
+                    <option>Political Science</option>
+                    <option>Pre-Engineering</option>
+                    <option>Psychology</option>
+                    <option>Religion</option>
+                    <option>Sociology</option>
+                    <option>Spanish</option>
+                    <option>Theatre</option>
+                </select>
+            </div>
 
-                </div><!-- /#ptab-academic -->
+            <div class="profile-field">
+                <label for="minor">Minor</label>
+                <select id="minor" name="minor">
+                    <option value="">No minor</option>
+                    <option>Anthropology</option>
+                    <option>Applied Physics</option>
+                    <option>Art Studio</option>
+                    <option>Art History</option>
+                    <option>Biochemistry</option>
+                    <option>Biology</option>
+                    <option>Business</option>
+                    <option>Chemistry</option>
+                    <option>Classics</option>
+                    <option>Communication Studies</option>
+                    <option>Computational Mathematics</option>
+                    <option>Computer Science</option>
+                    <option>Economics</option>
+                    <option>Education</option>
+                    <option>English</option>
+                    <option>Environmental Studies</option>
+                    <option>Feminist Studies</option>
+                    <option>French</option>
+                    <option>German</option>
+                    <option>Greek</option>
+                    <option>History</option>
+                    <option>Independent Major</option>
+                    <option>International Studies</option>
+                    <option>Kinesiology</option>
+                    <option>Latin</option>
+                    <option>Latin American &amp; Border Studies</option>
+                    <option>Mathematics</option>
+                    <option>Music</option>
+                    <option>Philosophy</option>
+                    <option>Physics</option>
+                    <option>Political Science</option>
+                    <option>Pre-Engineering</option>
+                    <option>Psychology</option>
+                    <option>Religion</option>
+                    <option>Sociology</option>
+                    <option>Spanish</option>
+                    <option>Theatre</option>
+                </select>
+            </div>
+
+            <div class="profile-field">
+                <label for="second_minor">Second Minor</label>
+                <select id="second_minor" name="second_minor">
+                    <option value="">No second minor</option>
+                    <option>Anthropology</option>
+                    <option>Applied Physics</option>
+                    <option>Art Studio</option>
+                    <option>Art History</option>
+                    <option>Biochemistry</option>
+                    <option>Biology</option>
+                    <option>Business</option>
+                    <option>Chemistry</option>
+                    <option>Classics</option>
+                    <option>Communication Studies</option>
+                    <option>Computational Mathematics</option>
+                    <option>Computer Science</option>
+                    <option>Economics</option>
+                    <option>Education</option>
+                    <option>English</option>
+                    <option>Environmental Studies</option>
+                    <option>Feminist Studies</option>
+                    <option>French</option>
+                    <option>German</option>
+                    <option>Greek</option>
+                    <option>History</option>
+                    <option>Independent Major</option>
+                    <option>International Studies</option>
+                    <option>Kinesiology</option>
+                    <option>Latin</option>
+                    <option>Latin American &amp; Border Studies</option>
+                    <option>Mathematics</option>
+                    <option>Music</option>
+                    <option>Philosophy</option>
+                    <option>Physics</option>
+                    <option>Political Science</option>
+                    <option>Pre-Engineering</option>
+                    <option>Psychology</option>
+                    <option>Religion</option>
+                    <option>Sociology</option>
+                    <option>Spanish</option>
+                    <option>Theatre</option>
+                </select>
+            </div>
+
+            <div class="profile-field">
+                <label for="gpa">GPA</label>
+                <select id="gpa" name="gpa">
+                    <option value="">Select a GPA</option>
+                    <option>4.0</option>
+                    <option>3.9</option>
+                    <option>3.8</option>
+                    <option>3.7</option>
+                    <option>3.6</option>
+                    <option>3.5</option>
+                    <option>3.4</option>
+                    <option>3.3</option>
+                    <option>3.2</option>
+                    <option>3.1</option>
+                    <option>3.0</option>
+                    <option>2.9</option>
+                    <option>2.8</option>
+                    <option>2.7</option>
+                    <option>2.6</option>
+                    <option>2.5</option>
+                    <option>2.4</option>
+                    <option>2.3</option>
+                    <option>2.2</option>
+                    <option>2.1</option>
+                    <option>2.0</option>
+                    <option value="custom">Enter a custom GPA</option>
+                </select>
+                <input id="gpa_custom" name="gpa_custom" type="text" placeholder="Enter GPA manually" style="display:none;">
+            </div>
+
+            <div class="profile-field">
+                <label for="grad_year">Expected Graduation</label>
+                <select id="grad_year" name="grad_year">
+                    <option value="">Select a graduation year</option>
+                    <option>2026</option>
+                    <option>2027</option>
+                    <option>2028</option>
+                    <option>2029</option>
+                    <option>2030</option>
+                    <option>2031</option>
+                    <option>2032</option>
+                    <option>2033</option>
+                    <option value="custom">Enter a custom year</option>
+                </select>
+                <input id="grad_year_custom" name="grad_year_custom" type="text" placeholder="Enter graduation year" style="display:none;">
+            </div>
+        </div>
+
+        <div class="profile-card">
+            <h2>Advisor</h2>
+
+            <div class="profile-field">
+                <label for="advisor_name">Advisor Name</label>
+                <select id="advisor_name" name="advisor_name">
+                    <option value="">Select an advisor option</option>
+                    <option value="custom">Enter a custom advisor name</option>
+                </select>
+                <input id="advisor_name_custom" name="advisor_name_custom" type="text" placeholder="Enter advisor name" style="display:none;">
+            </div>
+
+            <div class="profile-field">
+                <label for="advisor_email">Advisor Email</label>
+                <select id="advisor_email" name="advisor_email">
+                    <option value="">Select an advisor email option</option>
+                    <option value="custom">Enter a custom advisor email</option>
+                </select>
+                <input id="advisor_email_custom" name="advisor_email_custom" type="email" placeholder="Enter advisor email" style="display:none;">
+            </div>
+        </div>
+
+        <div class="profile-card">
+            <h2>Courses</h2>
+
+            <div class="profile-field">
+                <label>Courses Taken</label>
+
+                <label><input type="checkbox" name="courses" value="54-144 Explorations in Computing"> 54-144 Explorations in Computing</label>
+                <label><input type="checkbox" name="courses" value="54-184 Computer Science I"> 54-184 Computer Science I</label>
+                <label><input type="checkbox" name="courses" value="54-284 Computer Science II"> 54-284 Computer Science II</label>
+                <label><input type="checkbox" name="courses" value="54-291 Puzzling Programs"> 54-291 Puzzling Programs</label>
+                <label><input type="checkbox" name="courses" value="54-384 Discrete Mathematics"> 54-384 Discrete Mathematics</label>
+                <label><input type="checkbox" name="courses" value="54-394 Computer Organization"> 54-394 Computer Organization</label>
+                <label><input type="checkbox" name="courses" value="54-414 Operations Research"> 54-414 Operations Research</label>
+                <label><input type="checkbox" name="courses" value="54-424 Artificial Intelligence"> 54-424 Artificial Intelligence</label>
+                <label><input type="checkbox" name="courses" value="54-454 Algorithms"> 54-454 Algorithms</label>
+                <label><input type="checkbox" name="courses" value="54-474 Programming Languages"> 54-474 Programming Languages</label>
+                <label><input type="checkbox" name="courses" value="54-514 Database Management"> 54-514 Database Management</label>
+                <label><input type="checkbox" name="courses" value="54-524 Introduction to Numerical Analysis"> 54-524 Introduction to Numerical Analysis</label>
+                <label><input type="checkbox" name="courses" value="54-534 Functional Programming"> 54-534 Functional Programming</label>
+                <label><input type="checkbox" name="courses" value="54-644 Computer Systems"> 54-644 Computer Systems</label>
+                <label><input type="checkbox" name="courses" value="54-684 Theory of Computation"> 54-684 Theory of Computation</label>
+                <label><input type="checkbox" name="courses" value="54-894 Senior Seminar in Software Engineering"> 54-894 Senior Seminar in Software Engineering</label>
+
+                <input name="courses_custom" type="text" placeholder="Additional courses, comma-separated">
+            </div>
+        </div>
+
+        <div class="profile-card">
+            <button type="submit" class="profile-save-btn">Save Profile</button>
+            <div id="profile-save-status" style="margin-top:12px;"></div>
+        </div>
+
+            </form>
+
+        </div>
 
                 <!-- ── Sub-tab: Account ────────────────────────── -->
                 <!-- TODO: Populate from /profile GET response (user_db: User table) -->
@@ -1207,6 +1497,29 @@
                 }
             }
         });
+
+
+    function wireCustomField(selectId, inputId) {
+    const select = document.getElementById(selectId);
+    const input = document.getElementById(inputId);
+
+    if (!select || !input) return;
+
+    function sync() {
+        const show = select.value === "custom";
+        input.style.display = show ? "block" : "none";
+        input.required = show;
+        if (!show) input.value = "";
+    }
+
+    select.addEventListener("change", sync);
+    sync();
+}
+
+    wireCustomField("gpa", "gpa_custom");
+    wireCustomField("grad_year", "grad_year_custom");
+    wireCustomField("advisor_name", "advisor_name_custom");
+    wireCustomField("advisor_email", "advisor_email_custom");
     </script>
 </body>
 
