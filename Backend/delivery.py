@@ -130,7 +130,6 @@ async def profile(request:Request):
 async def users(request:Request):
 
 # TODO
-#   fix html. remove name and email. everything should be in the one form
 #   validate input
 
     form = await request.form() # get form data. Form object is accessible like a dictionary
@@ -197,6 +196,8 @@ async def users(request:Request):
         raise HTTPException(status_code=401, detail="Not authenticated.")
     
     update_user(google_id, user_data)
+
+    return HTMLResponse("<div style='color:#19c37d;'>Profile saved.</div>")
 
 @app.post("/ask", response_class=HTMLResponse)
 async def ask(query: str = Form(...)):
