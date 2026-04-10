@@ -75,9 +75,12 @@ def index(request: Request):
         return RedirectResponse(url="/sign-in", status_code=302)
 
 @app.get("/sign-in", response_class=FileResponse)
-def index():
+def sign_in(request: Request):
     """Serve the sign-in page."""
-    return FileResponse(FRONTEND_DIR / "sign_in_page.html")
+    if(request.session.get("user_id")):
+        return RedirectResponse(url="/", status_code = 302)
+    else:
+        return FileResponse(FRONTEND_DIR / "sign_in_page.html")
 
 @app.post("/auth/google")
 async def google_auth(request: Request, response: Response, token: str = Form(...)):
