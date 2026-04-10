@@ -15,6 +15,7 @@ dependencies = [
     "fastapi-users[sqlalchemy]>=15.0.5",
     "pymysql>=1.1.2",
     "itsdangerous>=2.2.0",
+    "google-auth>=2.49.1",
 ]
 
 [project.scripts]
