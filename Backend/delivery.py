@@ -110,7 +110,6 @@ async def google_auth(request: Request, response: Response, token: str = Form(..
 async def users(request:Request):
 
 # TODO
-#   add courses and store as JSON
 #   fix html. remove name and email. everything should be in the one form
 #   validate input
 
