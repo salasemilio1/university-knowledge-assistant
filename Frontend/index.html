@@ -1520,6 +1520,57 @@
     wireCustomField("grad_year", "grad_year_custom");
     wireCustomField("advisor_name", "advisor_name_custom");
     wireCustomField("advisor_email", "advisor_email_custom");
+
+    async function loadProfile() {
+    try {
+        const res = await fetch("/profile");
+        const data = await res.json();
+
+        // Fill selects
+        setValue("major", data.major);
+        setValue("second_major", data.second_major);
+        setValue("minor", data.minor);
+        setValue("second_minor", data.second_minor);
+        setValue("gpa", data.gpa);
+        setValue("advisor_name", data.advisor_name);
+        setValue("advisor_email", data.advisor_email);
+        setValue("grad_year", data.grad_year);
+
+        // Courses (checkboxes)
+        if (data.courses) {
+            document.querySelectorAll('input[name="courses"]').forEach(cb => {
+                if (data.courses.includes(cb.value)) {
+                    cb.checked = true;
+                }
+            });
+        }
+
+    } catch (err) {
+        console.error("Failed to load profile:", err);
+    }
+}
+
+    function setValue(id, value) {
+        const el = document.getElementById(id);
+        if (!el || !value) return;
+
+        // if value exists in dropdown
+        const optionExists = Array.from(el.options).some(o => o.value === value);
+
+        if (optionExists) {
+            el.value = value;
+        } else {
+            el.value = "custom";
+            const custom = document.getElementById(id + "_custom");
+            if (custom) {
+                custom.style.display = "block";
+                custom.value = value;
+            }
+        }
+    }
+
+    loadProfile();
+    
     </script>
 </body>
 

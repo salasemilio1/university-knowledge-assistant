@@ -31,7 +31,7 @@ from pipeline.router import route
 from pipeline.retriever import retrieve
 from pipeline.answerer import answer
 
-from Backend.user_db import create_user, update_user
+from Backend.user_db import create_user, update_user, get_user_by_id
 
 # ── Setup ─────────────────────────────────────────────────────────────────────
 
@@ -107,13 +107,12 @@ async def google_auth(request: Request, response: Response, token: str = Form(..
         raise HTTPException(status_code=400, detail="Invalid token")
     
 
-@app.post("/profile")
+@app.get("/profile")
 async def profile(request:Request):
     google_id = request.session.get("user_id")
     if not google_id:
         raise HTTPException(status_code=401, detail="Not authenticated")
-
-    user = get_user_by_google_id(google_id)
+    user = get_user_by_id(google_id)
 
     return {
         "major": user.major,
@@ -124,7 +123,7 @@ async def profile(request:Request):
         "advisor_name": user.advisor_name,
         "advisor_email": user.advisor_email,
         "grad_year": user.grad_year,
-        "courses": user.courses_taken
+        "courses": user.courses
     }
 
 @app.post("/users")
