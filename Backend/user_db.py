@@ -32,10 +32,21 @@ class User(Base):
     __tablename__ = "users"
 
     # filled in when user created. pulled from Google
-    google_id:Mapped[str | None] = mapped_column(String(200), nullable=False, primary_key=True)
-    email:Mapped[str | None] = mapped_column(String(200), nullable=True)
-    first_name:Mapped[str | None] = mapped_column(String(100), nullable=True)
-    last_name:Mapped[str | None] = mapped_column(String(100), nullable=True)
+    google_id:Mapped[str] = mapped_column(String(200), nullable=False, primary_key=True)
+    email:Mapped[str] = mapped_column(String(200), nullable=False)
+    first_name:Mapped[str] = mapped_column(String(100), nullable=False)
+    last_name:Mapped[str] = mapped_column(String(100), nullable=False)
+
+    # initial form data. pulled in when user fills out initial form
+    major:Mapped[str | None] = mapped_column(String(200), nullable=True)
+    second_major:Mapped[str | None] = mapped_column(String(200), nullable=True)
+    minor:Mapped[str | None] = mapped_column(String(200), nullable=True)
+    second_minor:Mapped[str | None] = mapped_column(String(200), nullable=True)
+    gpa:Mapped[str | None] = mapped_column(String(200), nullable=True)
+    advisor_name:Mapped[str | None] = mapped_column(String(200), nullable=True)
+    advisor_email:Mapped[str | None] = mapped_column(String(200), nullable=True)
+    grad_year:Mapped[str | None] = mapped_column(String(200), nullable=True)
+    courses:Mapped[str | None] = mapped_column(String(20000), nullable=True)
 
 
 # create engine and session to interact with DB

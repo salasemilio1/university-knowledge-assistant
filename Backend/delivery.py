@@ -110,18 +110,15 @@ async def google_auth(request: Request, response: Response, token: str = Form(..
 async def users(request:Request):
 
 # TODO
-#   fix html
+#   fix html. remove name
 #   validate input
 #   add courses and store as JSON
 #   add db fields and implement update_user
-
 
     form = await request.form() # get form data. Form object is accessible like a dictionary
 
     # expected form fields from frontend
     expected_field_names = [
-    "name",
-    "name_custom",
     "major",
     "second_major",
     "minor",
@@ -152,7 +149,6 @@ async def users(request:Request):
     user_data = {} # user data to update requesting (currently authorized) user with
 
     # populate final values to update user with.
-    user_data["name"] = form_data["name_custom"] if form_data["name"] == "custom" else form_data["name"]
     user_data["major"] = form_data["major"]
     user_data["second_major"] = form_data["second_major"]
     user_data["minor"] = form_data["minor"]
