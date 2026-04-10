@@ -1537,13 +1537,36 @@
         setValue("grad_year", data.grad_year);
 
         // Courses (checkboxes)
-        if (data.courses) {
-            document.querySelectorAll('input[name="courses"]').forEach(cb => {
-                if (data.courses.includes(cb.value)) {
-                    cb.checked = true;
-                }
-            });
+        if (data.courses && Array.isArray(data.courses)) {
+
+    const knownCourses = [];
+    const customCourses = [];
+
+    const checkboxes = document.querySelectorAll('input[name="courses"]');
+
+    data.courses.forEach(course => {
+        let matched = false;
+
+        checkboxes.forEach(cb => {
+            if (cb.value === course) {
+                cb.checked = true;
+                matched = true;
+            }
+        });
+
+        if (!matched) {
+            customCourses.push(course);
         }
+    });
+
+    // Populate custom field
+    if (customCourses.length > 0) {
+        const customInput = document.querySelector('input[name="courses_custom"]');
+        if (customInput) {
+            customInput.value = customCourses.join(", ");
+        }
+    }
+    }
 
     } catch (err) {
         console.error("Failed to load profile:", err);
