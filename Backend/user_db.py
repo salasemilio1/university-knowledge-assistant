@@ -5,7 +5,7 @@ This script serves to manage most things related to user configuration with SQLA
 
 from sqlalchemy.orm import DeclarativeBase
 from sqlalchemy.orm import Mapped, mapped_column, sessionmaker, Session
-from sqlalchemy import create_engine, select, exists, String, Boolean
+from sqlalchemy import create_engine, select, exists, String, Boolean, JSON
 
 from dotenv import load_dotenv
 import os
@@ -46,7 +46,7 @@ class User(Base):
     advisor_name:Mapped[str | None] = mapped_column(String(200), nullable=True)
     advisor_email:Mapped[str | None] = mapped_column(String(200), nullable=True)
     grad_year:Mapped[str | None] = mapped_column(String(200), nullable=True)
-    courses:Mapped[str | None] = mapped_column(String(20000), nullable=True)
+    courses:Mapped[list | None] = mapped_column(JSON, nullable=True)
 
 
 # create engine and session to interact with DB

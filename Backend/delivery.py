@@ -111,7 +111,6 @@ async def users(request:Request):
 
 # TODO
 #   add courses and store as JSON
-#   add db fields and implement update_user
 #   fix html. remove name and email. everything should be in the one form
 #   validate input
 
@@ -157,12 +156,26 @@ async def users(request:Request):
     user_data["advisor_name"] = form_data["advisor_name_custom"] if form_data["advisor_name"] == "custom" else form_data["advisor_name"]
     user_data["advisor_email"] = form_data["advisor_email_custom"] if form_data["advisor_email"] == "custom" else form_data["advisor_email"]
     user_data["grad_year"] = form_data["grad_year_custom"] if form_data["grad_year"] == "custom" else form_data["grad_year"]
-    # TODO add courses field
+    
+    courses = list(form_data["courses"]) # get courses listed in checkbox
+
+    # get courses listed in custom and extend list
+    custom_courses_raw = form_data["courses_custom"]
+    if custom_courses_raw:
+        custom_courses = [
+            course.strip()
+            for course in custom_courses_raw.split(",")
+            if course.strip()
+        ]
+        courses.extend(custom_courses)
+
+    # update user data field
+    user_data["courses"] = courses if courses else None
 
     # retrieve currently authed user
     google_id = request.session.get("user_id")
     if not google_id:
-        raise HTTPException(status_code=401, detail="Not authenticated")
+        raise HTTPException(status_code=401, detail="Not authenticated.")
     
     update_user(google_id, user_data)
 
