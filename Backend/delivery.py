@@ -106,6 +106,13 @@ async def google_auth(request: Request, response: Response, token: str = Form(..
     except Exception:
         raise HTTPException(status_code=400, detail="Invalid token")
 
+@app.post("/sign-out")
+def sign_out(request: Request, response: Response):
+    request.session.clear()
+
+    # Reroute to sign-in page after user session is cleared
+    response.headers["HX-Redirect"] = "/sign-in"
+
 @app.post("/users")
 async def users(request:Request):
 
