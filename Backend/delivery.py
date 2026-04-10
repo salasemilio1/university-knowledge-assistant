@@ -105,6 +105,27 @@ async def google_auth(request: Request, response: Response, token: str = Form(..
     
     except Exception:
         raise HTTPException(status_code=400, detail="Invalid token")
+    
+
+@app.post("/profile")
+async def profile(request:Request):
+    google_id = request.session.get("user_id")
+    if not google_id:
+        raise HTTPException(status_code=401, detail="Not authenticated")
+
+    user = get_user_by_google_id(google_id)
+
+    return {
+        "major": user.major,
+        "second_major": user.second_major,
+        "minor": user.minor,
+        "second_minor": user.second_minor,
+        "gpa": user.gpa,
+        "advisor_name": user.advisor_name,
+        "advisor_email": user.advisor_email,
+        "grad_year": user.grad_year,
+        "courses": user.courses_taken
+    }
 
 @app.post("/users")
 async def users(request:Request):

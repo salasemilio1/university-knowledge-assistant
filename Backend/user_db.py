@@ -58,6 +58,18 @@ Base.metadata.create_all(bind=engine) # create tables for each ORM model if they
 
 # API - methods to interact with DB
 
+def get_user_by_id(google_id:str) -> User:
+    """
+    Retrieves a user by key.
+
+    Args:
+        google_id(str): The key to match the user with.
+    Returns:
+        User | None: User if one exists that matches the key, None otherwise.
+    """
+    with SessionLocal() as session:
+        return session.query(User).filter(User.google_id == google_id).first()
+
 def does_user_exist(google_id:str) -> bool:
     """
     Checks if user exists in DB for given key.
