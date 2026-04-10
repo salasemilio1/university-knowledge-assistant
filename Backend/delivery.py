@@ -31,7 +31,7 @@ from pipeline.router import route
 from pipeline.retriever import retrieve
 from pipeline.answerer import answer
 
-from Backend.user_db import create_user, does_user_exist
+from Backend.user_db import create_user, update_user, get_user_by_id
 
 # ── Setup ─────────────────────────────────────────────────────────────────────
 
@@ -75,9 +75,12 @@ def index(request: Request):
         return RedirectResponse(url="/sign-in", status_code=302)
 
 @app.get("/sign-in", response_class=FileResponse)
-def index():
+def sign_in(request: Request):
     """Serve the sign-in page."""
-    return FileResponse(FRONTEND_DIR / "sign_in_page.html")
+    if(request.session.get("user_id")):
+        return RedirectResponse(url="/", status_code = 302)
+    else:
+        return FileResponse(FRONTEND_DIR / "sign_in_page.html")
 
 @app.post("/auth/google")
 async def google_auth(request: Request, response: Response, token: str = Form(...)):
@@ -105,8 +108,106 @@ async def google_auth(request: Request, response: Response, token: str = Form(..
     
     except Exception:
         raise HTTPException(status_code=400, detail="Invalid token")
-
     
+
+@app.get("/profile")
+async def profile(request:Request):
+    google_id = request.session.get("user_id")
+    if not google_id:
+        raise HTTPException(status_code=401, detail="Not authenticated")
+    user = get_user_by_id(google_id)
+
+    return {
+        "major": user.major,
+        "second_major": user.second_major,
+        "minor": user.minor,
+        "second_minor": user.second_minor,
+        "gpa": user.gpa,
+        "advisor_name": user.advisor_name,
+        "advisor_email": user.advisor_email,
+        "grad_year": user.grad_year,
+        "courses": user.courses
+    }
+
+@app.post("/sign-out")
+def sign_out(request: Request, response: Response):
+    request.session.clear()
+
+    # Reroute to sign-in page after user session is cleared
+    response.headers["HX-Redirect"] = "/sign-in"
+
+@app.post("/users")
+async def users(request:Request):
+
+# TODO
+#   validate input
+
+    form = await request.form() # get form data. Form object is accessible like a dictionary
+
+    # expected form fields from frontend
+    expected_field_names = [
+    "major",
+    "second_major",
+    "minor",
+    "second_minor",
+    "gpa",
+    "gpa_custom",
+    "advisor_name",
+    "advisor_name_custom",
+    "advisor_email",
+    "advisor_email_custom",
+    "courses",
+    "courses_custom",
+    "grad_year",
+    "grad_year_custom"
+    ]
+
+    form_data = {} # form data
+
+    # retrieve form data
+    for field in expected_field_names:
+        if field == "courses":
+            form_data[field] = form.getlist(field)
+        else:
+            form_data[field] = form.get(field)
+
+    # TODO validate that all fields are present and are the correct type and specifications for DB (string length, etc)
+
+    user_data = {} # user data to update requesting (currently authorized) user with
+
+    # populate final values to update user with.
+    user_data["major"] = form_data["major"]
+    user_data["second_major"] = form_data["second_major"]
+    user_data["minor"] = form_data["minor"]
+    user_data["second_minor"] = form_data["second_minor"]
+    user_data["gpa"] = form_data["gpa_custom"] if form_data["gpa"] == "custom" else form_data["gpa"]
+    user_data["advisor_name"] = form_data["advisor_name_custom"] if form_data["advisor_name"] == "custom" else form_data["advisor_name"]
+    user_data["advisor_email"] = form_data["advisor_email_custom"] if form_data["advisor_email"] == "custom" else form_data["advisor_email"]
+    user_data["grad_year"] = form_data["grad_year_custom"] if form_data["grad_year"] == "custom" else form_data["grad_year"]
+    
+    courses = list(form_data["courses"]) # get courses listed in checkbox
+
+    # get courses listed in custom and extend list
+    custom_courses_raw = form_data["courses_custom"]
+    if custom_courses_raw:
+        custom_courses = [
+            course.strip()
+            for course in custom_courses_raw.split(",")
+            if course.strip()
+        ]
+        courses.extend(custom_courses)
+
+    # update user data field
+    user_data["courses"] = courses if courses else None
+
+    # retrieve currently authed user
+    google_id = request.session.get("user_id")
+    if not google_id:
+        raise HTTPException(status_code=401, detail="Not authenticated.")
+    
+    update_user(google_id, user_data)
+
+    return HTMLResponse("<div style='color:#19c37d;'>Profile saved.</div>")
 
 @app.post("/ask", response_class=HTMLResponse)
 async def ask(query: str = Form(...)):

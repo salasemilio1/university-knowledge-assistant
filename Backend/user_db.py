@@ -5,7 +5,7 @@ This script serves to manage most things related to user configuration with SQLA
 
 from sqlalchemy.orm import DeclarativeBase
 from sqlalchemy.orm import Mapped, mapped_column, sessionmaker, Session
-from sqlalchemy import create_engine, select, exists, String, Boolean
+from sqlalchemy import create_engine, select, exists, String, Boolean, JSON
 
 from dotenv import load_dotenv
 import os
@@ -32,10 +32,21 @@ class User(Base):
     __tablename__ = "users"
 
     # filled in when user created. pulled from Google
-    google_id:Mapped[str | None] = mapped_column(String(200), nullable=False, primary_key=True)
-    email:Mapped[str | None] = mapped_column(String(200), nullable=True)
-    first_name:Mapped[str | None] = mapped_column(String(100), nullable=True)
-    last_name:Mapped[str | None] = mapped_column(String(100), nullable=True)
+    google_id:Mapped[str] = mapped_column(String(200), nullable=False, primary_key=True)
+    email:Mapped[str] = mapped_column(String(200), nullable=False)
+    first_name:Mapped[str] = mapped_column(String(100), nullable=False)
+    last_name:Mapped[str] = mapped_column(String(100), nullable=False)
+
+    # initial form data. pulled in when user fills out setup form
+    major:Mapped[str | None] = mapped_column(String(200), nullable=True)
+    second_major:Mapped[str | None] = mapped_column(String(200), nullable=True)
+    minor:Mapped[str | None] = mapped_column(String(200), nullable=True)
+    second_minor:Mapped[str | None] = mapped_column(String(200), nullable=True)
+    gpa:Mapped[str | None] = mapped_column(String(200), nullable=True)
+    advisor_name:Mapped[str | None] = mapped_column(String(200), nullable=True)
+    advisor_email:Mapped[str | None] = mapped_column(String(200), nullable=True)
+    grad_year:Mapped[str | None] = mapped_column(String(200), nullable=True)
+    courses:Mapped[list | None] = mapped_column(JSON, nullable=True)
 
 
 # create engine and session to interact with DB
@@ -46,6 +57,18 @@ Base.metadata.create_all(bind=engine) # create tables for each ORM model if they
 
 
 # API - methods to interact with DB
+
+def get_user_by_id(google_id:str) -> User:
+    """
+    Retrieves a user by key.
+
+    Args:
+        google_id(str): The key to match the user with.
+    Returns:
+        User | None: User if one exists that matches the key, None otherwise.
+    """
+    with SessionLocal() as session:
+        return session.query(User).filter(User.google_id == google_id).first()
 
 def does_user_exist(google_id:str) -> bool:
     """
@@ -84,3 +107,55 @@ def create_user(google_id:str, email:str, first_name:str, last_name:str) -> bool
         session.commit()
         session.refresh(user)
     return True
+
+def update_user(google_id:str, user_data:dict) -> bool:
+    """
+    Updates a user from profile setup form data.
+
+    Args:
+        google_id(str): The Google ID of the account to create a user for.
+        user_data(dict): The data to update with.
+    Returns:
+        bool: True if successful, false if an account doesn't exist.
+    """
+    if not does_user_exist(google_id):
+        return False
+    
+    with SessionLocal() as session:
+
+        user = session.get(User, google_id)
+
+        for key, value in user_data.items():
+            setattr(user, key, value)
+
+        session.commit()
+        session.refresh(user)
+
+    return True
+    
+def get_user_info(google_id:str):
+    """Returns a specific user's info.
+
+    Args:
+        google_id(str): The Google ID of the user.
+    Returns:
+        User | None: User if one with the given key exists, None otherwise.
+    """
+
+    user = get_user_by_id(google_id)
+
+    if not user:
+        return None
+    
+    return {
+        "name": user.first_name + " " + user.last_name,
+        "major": user.major,
+        "second_major": user.second_major,
+        "minor": user.minor,
+        "second_minor": user.second_minor,
+        "gpa": user.gpa,
+        "advisor_name": user.advisor_name,
+        "advisor_email": user.advisor_email,
+        "grad_year": user.grad_year,
+        "courses": user.courses,
+    }

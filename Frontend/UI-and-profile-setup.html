@@ -367,7 +367,7 @@ body {
 
     <form
         class="input-area"
-        hx-post="/chat"
+        hx-post="/users"
         hx-target="#chat-box"
         hx-swap="beforeend"
         hx-on="htmx:afterRequest: this.reset()">
@@ -388,19 +388,11 @@ body {
             <p>Complete the profile below. Every question includes a dropdown, and fields that may vary can also accept a custom value if the user selects the custom option.</p>
         </div>
 
-        <form class="profile-form" id="profile-form">
-            <div class="field-group">
-                <label for="name-select">1. Name</label>
-                <select id="name-select" data-custom-target="name-custom" required>
-                    <option value="">Select a name option</option>
-                    <option value="custom">Enter a custom name</option>
-                </select>
-                <input id="name-custom" class="hidden-input" type="text" placeholder="Enter full name">
-            </div>
+        <form class="profile-form" id="profile-form" hx-post="/users" hx-trigger="submit" hx-swap="none">
 
             <div class="field-group">
-                <label for="major-select">2. What is your major?</label>
-                <select id="major-select" required>
+                <label for="major-select">1. What is your major?</label>
+                <select id="major-select" name="major" required>
                     <option value="">Select a major</option>
                     <option>Anthropology</option>
                     <option>Applied Physics</option>
@@ -443,8 +435,8 @@ body {
             </div>
 
             <div class="field-group">
-                <label for="second-major-select">3. Do you have a second major?</label>
-                <select id="second-major-select">
+                <label for="second-major-select">2. Do you have a second major?</label>
+                <select id="second-major-select" name="second_major">
                     <option value="">No second major</option>
                     <option>Anthropology</option>
                     <option>Applied Physics</option>
@@ -487,8 +479,8 @@ body {
             </div>
 
             <div class="field-group">
-                <label for="minor-select">4. Do you have a minor?</label>
-                <select id="minor-select">
+                <label for="minor-select">3. Do you have a minor?</label>
+                <select id="minor-select" name="minor">
                     <option value="">No minor</option>
                     <option>Anthropology</option>
                     <option>Applied Physics</option>
@@ -531,8 +523,8 @@ body {
             </div>
 
             <div class="field-group">
-                <label for="second-minor-select">5. Do you have a second minor?</label>
-                <select id="second-minor-select">
+                <label for="second-minor-select">4. Do you have a second minor?</label>
+                <select id="second-minor-select" name="second_minor">
                     <option value="">No second minor</option>
                     <option>Anthropology</option>
                     <option>Applied Physics</option>
@@ -575,8 +567,8 @@ body {
             </div>
 
             <div class="field-group">
-                <label for="gpa-select">6. What is your GPA?</label>
-                <select id="gpa-select" data-custom-target="gpa-custom" required>
+                <label for="gpa-select">5. What is your GPA?</label>
+                <select id="gpa-select" data-custom-target="gpa-custom" name="gpa" required>
                     <option value="">Select a GPA</option>
                     <option>4.0</option>
                     <option>3.9</option>
@@ -601,29 +593,29 @@ body {
                     <option>2.0</option>
                     <option value="custom">Enter a custom GPA</option>
                 </select>
-                <input id="gpa-custom" class="hidden-input" type="text" placeholder="Enter GPA manually">
+                <input id="gpa-custom" name="gpa_custom" class="hidden-input" type="text" placeholder="Enter GPA manually">
             </div>
 
             <div class="field-group">
-                <label for="advisor-name-select">7. What is your advisor's name?</label>
-                <select id="advisor-name-select" data-custom-target="advisor-name-custom" required>
+                <label for="advisor-name-select">6. What is your advisor's name?</label>
+                <select id="advisor-name-select" name="advisor_name" data-custom-target="advisor-name-custom" required>
                     <option value="">Select an advisor option</option>
                     <option value="custom">Enter a custom advisor name</option>
                 </select>
-                <input id="advisor-name-custom" class="hidden-input" type="text" placeholder="Enter advisor name">
+                <input id="advisor-name-custom" name="advisor_name_custom" class="hidden-input" type="text" placeholder="Enter advisor name">
             </div>
 
             <div class="field-group">
-                <label for="advisor-email-select">8. What is your advisor's email?</label>
-                <select id="advisor-email-select" data-custom-target="advisor-email-custom" required>
+                <label for="advisor-email-select">7. What is your advisor's email?</label>
+                <select id="advisor-email-select" name="advisor_email" data-custom-target="advisor-email-custom" required>
                     <option value="">Select an advisor email option</option>
                     <option value="custom">Enter a custom advisor email</option>
                 </select>
-                <input id="advisor-email-custom" class="hidden-input" type="email" placeholder="Enter advisor email">
+                <input id="advisor-email-custom" name="advisor_email_custom" class="hidden-input" type="email" placeholder="Enter advisor email">
             </div>
 
             <div class="field-group">
-                <label for="course-search">9. What courses have you taken in the past at Southwestern University?</label>
+                <label for="course-search">8. What courses have you taken in the past at Southwestern University?</label>
                 <input id="course-search" class="course-search" type="text" placeholder="Search courses...">
                 <div class="course-checklist" id="course-checklist">
                     <label class="course-option" data-course-label="54-144 explorations in computing">
@@ -695,13 +687,13 @@ body {
                         <span>Other course not listed</span>
                     </label>
                 </div>
-                <input id="courses-custom" class="hidden-input" type="text" placeholder="Enter any additional course names">
+                <input id="courses-custom" name="courses_custom" class="hidden-input" type="text" placeholder="Enter any additional course names">
                 <div class="field-note">Use the search box to filter the course list, then check every course that applies.</div>
             </div>
 
             <div class="field-group">
-                <label for="grad-year-select">10. What year do you plan to graduate?</label>
-                <select id="grad-year-select" data-custom-target="grad-year-custom" required>
+                <label for="grad-year-select">9. What year do you plan to graduate?</label>
+                <select id="grad-year-select" name="grad_year" data-custom-target="grad-year-custom" required>
                     <option value="">Select a graduation year</option>
                     <option>2026</option>
                     <option>2027</option>
@@ -713,7 +705,7 @@ body {
                     <option>2033</option>
                     <option value="custom">Enter a custom year</option>
                 </select>
-                <input id="grad-year-custom" class="hidden-input" type="text" placeholder="Enter graduation year">
+                <input id="grad-year-custom" name="grad_year_custom" class="hidden-input" type="text" placeholder="Enter graduation year">
             </div>
 
             <div class="profile-actions">
@@ -852,10 +844,8 @@ courseSearch.addEventListener("input", function () {
 });
 
 profileForm.addEventListener("submit", function (event) {
-    event.preventDefault();
 
     const profile = {
-        name: getFieldValue("name-select", "name-custom"),
         major: document.getElementById("major-select").value.trim(),
         secondMajor: document.getElementById("second-major-select").value.trim(),
         minor: document.getElementById("minor-select").value.trim(),
