@@ -110,10 +110,10 @@ async def google_auth(request: Request, response: Response, token: str = Form(..
 async def users(request:Request):
 
 # TODO
-#   fix html. remove name
-#   validate input
 #   add courses and store as JSON
 #   add db fields and implement update_user
+#   fix html. remove name and email. everything should be in the one form
+#   validate input
 
     form = await request.form() # get form data. Form object is accessible like a dictionary
 

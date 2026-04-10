@@ -37,7 +37,7 @@ class User(Base):
     first_name:Mapped[str] = mapped_column(String(100), nullable=False)
     last_name:Mapped[str] = mapped_column(String(100), nullable=False)
 
-    # initial form data. pulled in when user fills out initial form
+    # initial form data. pulled in when user fills out setup form
     major:Mapped[str | None] = mapped_column(String(200), nullable=True)
     second_major:Mapped[str | None] = mapped_column(String(200), nullable=True)
     minor:Mapped[str | None] = mapped_column(String(200), nullable=True)
@@ -108,5 +108,17 @@ def update_user(google_id:str, user_data:dict) -> bool:
     """
     if not does_user_exist(google_id):
         return False
+    
+    with SessionLocal() as session:
+
+        user = session.get(User, google_id)
+
+        for key, value in user_data.items():
+            setattr(user, key, value)
+
+        session.commit()
+        session.refresh(user)
+
+    return True
     
     
