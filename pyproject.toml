@@ -16,6 +16,7 @@ dependencies = [
     "pymysql>=1.1.2",
     "itsdangerous>=2.2.0",
     "google-auth>=2.49.1",
+    "uvicorn[standard]>=0.44.0",
 ]
 
 [project.scripts]
