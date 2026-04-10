@@ -133,4 +133,29 @@ def update_user(google_id:str, user_data:dict) -> bool:
 
     return True
     
+def get_user_info(google_id:str):
+    """Returns a specific user's info.
+
+    Args:
+        google_id(str): The Google ID of the user.
+    Returns:
+        User | None: User if one with the given key exists, None otherwise.
+    """
+
+    user = get_user_by_id(google_id)
+
+    if not user:
+        return None
     
+    return {
+        "name": user.first_name + " " + user.last_name,
+        "major": user.major,
+        "second_major": user.second_major,
+        "minor": user.minor,
+        "second_minor": user.second_minor,
+        "gpa": user.gpa,
+        "advisor_name": user.advisor_name,
+        "advisor_email": user.advisor_email,
+        "grad_year": user.grad_year,
+        "courses": user.courses,
+    }
