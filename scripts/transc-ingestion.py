@@ -1,7 +1,12 @@
 from pypdf import PdfReader, PdfWriter
 import re
+import os 
+from dotenv import load_dotenv
 
-reader = PdfReader("scripts/transc/sample-transc.pdf")
+load_dotenv()
+FILE_PATH = os.getenv("TRANSC_PATH")
+
+reader = PdfReader(FILE_PATH)
 
 writer = PdfWriter()
 
@@ -28,6 +33,6 @@ MAT52-164 Modern Calculus I
 ENS78-101 SWE
 """
 
-matches = re.findall(course_pattern, text)
+matches = re.findall(course_pattern, text2)
 
 print(matches)
