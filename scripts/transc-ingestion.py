@@ -1,8 +1,7 @@
 from pypdf import PdfReader, PdfWriter
 import re
 
-#reader = PdfReader("scripts/transc/sample-transc.pdf")
-reader = PdfReader("scripts/transc/str2.pdf")
+reader = PdfReader("scripts/transc/sample-transc.pdf")
 
 writer = PdfWriter()
 
@@ -26,7 +25,7 @@ course_pattern = r"\b[A-Z]{3}\d{2}-\d{3}\b"
 
 text2 = """
 MAT52-164 Modern Calculus I
-ENS78-101 SU Wind Ensemble
+ENS78-101 SWE
 """
 
 matches = re.findall(course_pattern, text)
