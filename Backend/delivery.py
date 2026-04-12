@@ -155,9 +155,7 @@ async def users(request:Request):
     "gpa",
     "gpa_custom",
     "advisor_name",
-    "advisor_name_custom",
     "advisor_email",
-    "advisor_email_custom",
     "courses",
     "courses_custom",
     "grad_year",
@@ -183,8 +181,8 @@ async def users(request:Request):
     user_data["minor"] = form_data["minor"]
     user_data["second_minor"] = form_data["second_minor"]
     user_data["gpa"] = form_data["gpa_custom"] if form_data["gpa"] == "custom" else form_data["gpa"]
-    user_data["advisor_name"] = form_data["advisor_name_custom"] if form_data["advisor_name"] == "custom" else form_data["advisor_name"]
-    user_data["advisor_email"] = form_data["advisor_email_custom"] if form_data["advisor_email"] == "custom" else form_data["advisor_email"]
+    user_data["advisor_name"] = form_data["advisor_name"]
+    user_data["advisor_email"] = form_data["advisor_email"]
     user_data["grad_year"] = form_data["grad_year_custom"] if form_data["grad_year"] == "custom" else form_data["grad_year"]
     
     courses = list(form_data["courses"]) # get courses listed in checkbox

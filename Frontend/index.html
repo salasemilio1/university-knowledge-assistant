@@ -1192,20 +1192,12 @@
 
             <div class="profile-field">
                 <label for="advisor_name">Advisor Name</label>
-                <select id="advisor_name" name="advisor_name">
-                    <option value="">Select an advisor option</option>
-                    <option value="custom">Enter a custom advisor name</option>
-                </select>
-                <input id="advisor_name_custom" name="advisor_name_custom" type="text" placeholder="Enter advisor name" style="display:none;">
+                <input id="advisor_name" name="advisor_name" type="text" placeholder="Enter advisor name">
             </div>
 
             <div class="profile-field">
                 <label for="advisor_email">Advisor Email</label>
-                <select id="advisor_email" name="advisor_email">
-                    <option value="">Select an advisor email option</option>
-                    <option value="custom">Enter a custom advisor email</option>
-                </select>
-                <input id="advisor_email_custom" name="advisor_email_custom" type="email" placeholder="Enter advisor email" style="display:none;">
+                <input id="advisor_email" name="advisor_email" type="email" placeholder="Enter advisor email">
             </div>
         </div>
 
@@ -1520,8 +1512,6 @@
 
     wireCustomField("gpa", "gpa_custom");
     wireCustomField("grad_year", "grad_year_custom");
-    wireCustomField("advisor_name", "advisor_name_custom");
-    wireCustomField("advisor_email", "advisor_email_custom");
 
     async function loadProfile() {
     try {
