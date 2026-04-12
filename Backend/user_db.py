@@ -36,6 +36,7 @@ class User(Base):
     email:Mapped[str] = mapped_column(String(200), nullable=False)
     first_name:Mapped[str] = mapped_column(String(100), nullable=False)
     last_name:Mapped[str] = mapped_column(String(100), nullable=False)
+    is_profile_complete:Mapped[bool] = mapped_column(Boolean, nullable=False, default=False)
 
     # initial form data. pulled in when user fills out setup form
     major:Mapped[str | None] = mapped_column(String(200), nullable=True)
@@ -127,6 +128,7 @@ def update_user(google_id:str, user_data:dict) -> bool:
 
         for key, value in user_data.items():
             setattr(user, key, value)
+        setattr(user, "is_profile_complete", True)
 
         session.commit()
         session.refresh(user)

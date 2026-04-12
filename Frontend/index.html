@@ -1518,6 +1518,22 @@
         const res = await fetch("/profile");
         const data = await res.json();
 
+        if (!data.is_profile_complete) {
+            const response = document.getElementById("response");
+            const warning = document.createElement("div");
+            warning.id = "profile-warning";
+            warning.className = "response-block";
+
+            warning.innerHTML = `
+                <div class="response-answer">
+                    ⚠️ <strong>Complete your profile</strong><br>
+                    Please fill out your academic information so I can give you personalized responses.
+                </div>
+            `;
+
+            response.prepend(warning);
+        }
+
         // Fill selects
         setValue("major", data.major);
         setValue("second_major", data.second_major);
@@ -1592,6 +1608,12 @@
     }
 
     loadProfile();
+
+    document.getElementById("profile-form")?.addEventListener("submit", (e) => {
+    setTimeout(() => {
+        document.getElementById("profile-warning")?.remove();
+    }, 300);
+});
     
     </script>
 </body>

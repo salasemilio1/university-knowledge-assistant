@@ -120,6 +120,7 @@ async def profile(request:Request):
     return {
         "name": user.first_name + " " + user.last_name,
         "email": user.email,
+        "is_profile_complete": user.is_profile_complete,
         "major": user.major,
         "second_major": user.second_major,
         "minor": user.minor,
