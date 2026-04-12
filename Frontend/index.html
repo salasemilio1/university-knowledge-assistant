@@ -1192,20 +1192,12 @@
 
             <div class="profile-field">
                 <label for="advisor_name">Advisor Name</label>
-                <select id="advisor_name" name="advisor_name">
-                    <option value="">Select an advisor option</option>
-                    <option value="custom">Enter a custom advisor name</option>
-                </select>
-                <input id="advisor_name_custom" name="advisor_name_custom" type="text" placeholder="Enter advisor name" style="display:none;">
+                <input id="advisor_name" name="advisor_name" type="text" placeholder="Enter advisor name">
             </div>
 
             <div class="profile-field">
                 <label for="advisor_email">Advisor Email</label>
-                <select id="advisor_email" name="advisor_email">
-                    <option value="">Select an advisor email option</option>
-                    <option value="custom">Enter a custom advisor email</option>
-                </select>
-                <input id="advisor_email_custom" name="advisor_email_custom" type="email" placeholder="Enter advisor email" style="display:none;">
+                <input id="advisor_email" name="advisor_email" type="email" placeholder="Enter advisor email">
             </div>
         </div>
 
@@ -1254,13 +1246,11 @@
 
                         <div class="profile-field">
                             <label>Name</label>
-                            <!-- TODO: user.first_name + user.last_name -->
-                            <div class="field-value placeholder">Not yet loaded</div>
+                                <input id="name" name="name" type="text" readonly>
                         </div>
                         <div class="profile-field">
                             <label>Email</label>
-                            <!-- TODO: user.email -->
-                            <div class="field-value placeholder">Not yet loaded</div>
+                                <input id="email" name="email" type="text" readonly>
                         </div>
                     </div>
 
@@ -1522,13 +1512,27 @@
 
     wireCustomField("gpa", "gpa_custom");
     wireCustomField("grad_year", "grad_year_custom");
-    wireCustomField("advisor_name", "advisor_name_custom");
-    wireCustomField("advisor_email", "advisor_email_custom");
 
     async function loadProfile() {
     try {
         const res = await fetch("/profile");
         const data = await res.json();
+
+        if (!data.is_profile_complete) {
+            const response = document.getElementById("response");
+            const warning = document.createElement("div");
+            warning.id = "profile-warning";
+            warning.className = "response-block";
+
+            warning.innerHTML = `
+                <div class="response-answer">
+                    ⚠️ <strong>Complete your profile</strong><br>
+                    Please fill out your academic information so I can give you personalized responses.
+                </div>
+            `;
+
+            response.prepend(warning);
+        }
 
         // Fill selects
         setValue("major", data.major);
@@ -1539,6 +1543,8 @@
         setValue("advisor_name", data.advisor_name);
         setValue("advisor_email", data.advisor_email);
         setValue("grad_year", data.grad_year);
+        setValue("name", data.name);
+        setValue("email", data.email);
 
         // Courses (checkboxes)
         if (data.courses && Array.isArray(data.courses)) {
@@ -1578,9 +1584,14 @@
 }
 
     function setValue(id, value) {
-        const el = document.getElementById(id);
-        if (!el || !value) return;
 
+        const el = document.getElementById(id);
+        if (!el || value == null) return;
+
+        if (el.tagName === "INPUT" || el.tagName === "TEXTAREA") {
+            el.value = value;
+            return;
+        }
         // if value exists in dropdown
         const optionExists = Array.from(el.options).some(o => o.value === value);
 
@@ -1597,6 +1608,12 @@
     }
 
     loadProfile();
+
+    document.getElementById("profile-form")?.addEventListener("submit", (e) => {
+    setTimeout(() => {
+        document.getElementById("profile-warning")?.remove();
+    }, 300);
+});
     
     </script>
 </body>
