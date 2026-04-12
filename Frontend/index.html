@@ -1254,13 +1254,11 @@
 
                         <div class="profile-field">
                             <label>Name</label>
-                            <!-- TODO: user.first_name + user.last_name -->
-                            <div class="field-value placeholder">Not yet loaded</div>
+                                <input id="name" name="name" type="text" readonly>
                         </div>
                         <div class="profile-field">
                             <label>Email</label>
-                            <!-- TODO: user.email -->
-                            <div class="field-value placeholder">Not yet loaded</div>
+                                <input id="email" name="email" type="text" readonly>
                         </div>
                     </div>
 
@@ -1539,6 +1537,8 @@
         setValue("advisor_name", data.advisor_name);
         setValue("advisor_email", data.advisor_email);
         setValue("grad_year", data.grad_year);
+        setValue("name", data.name);
+        setValue("email", data.email);
 
         // Courses (checkboxes)
         if (data.courses && Array.isArray(data.courses)) {
@@ -1578,9 +1578,14 @@
 }
 
     function setValue(id, value) {
-        const el = document.getElementById(id);
-        if (!el || !value) return;
 
+        const el = document.getElementById(id);
+        if (!el || value == null) return;
+
+        if (el.tagName === "INPUT" || el.tagName === "TEXTAREA") {
+            el.value = value;
+            return;
+        }
         // if value exists in dropdown
         const optionExists = Array.from(el.options).some(o => o.value === value);
 

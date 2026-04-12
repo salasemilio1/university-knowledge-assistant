@@ -118,6 +118,8 @@ async def profile(request:Request):
     user = get_user_by_id(google_id)
 
     return {
+        "name": user.first_name + " " + user.last_name,
+        "email": user.email,
         "major": user.major,
         "second_major": user.second_major,
         "minor": user.minor,
