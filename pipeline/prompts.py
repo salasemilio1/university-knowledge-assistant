@@ -6,7 +6,7 @@ only text assembly. This makes prompts easy to read, diff, and iterate on.
 """
 
 
-def router_prompt(question: str, registry_json: str) -> str:
+def router_prompt(question: str, registry_json: str, profile: str | None = None) -> str:
     """Build the Call 1 prompt: route a question to the right major folder(s).
 
     Args:
@@ -16,6 +16,17 @@ def router_prompt(question: str, registry_json: str) -> str:
     Returns:
         A prompt string instructing the LLM to return a JSON array of major slugs.
     """
+
+    profile_block = ""      
+    if profile:
+      profile_block = f"""\
+=== STUDENT PROFILE ===
+{profile}
+=== END STUDENT PROFILE ===
+Use this ONLY to help determine relevant departments.
+Do NOT assume the student is restricted to these departments.
+"""
+
     return f"""\
 You are a university advising router. Your ONLY job is to decide which
 academic department(s) are relevant to a student's question.
@@ -26,6 +37,8 @@ that identifies the department.
 === DEPARTMENT REGISTRY ===
 {registry_json}
 === END REGISTRY ===
+
+{profile_block}
 
 STUDENT QUESTION:
 {question}
@@ -39,7 +52,7 @@ INSTRUCTIONS:
 """
 
 
-def retriever_prompt(question: str, skills_index_text: str) -> str:
+def retriever_prompt(question: str, skills_index_text: str, profile: str | None = None) -> str:
     """Build the Call 2 prompt: select which documents to load for a given major.
 
     Args:
@@ -49,6 +62,19 @@ def retriever_prompt(question: str, skills_index_text: str) -> str:
     Returns:
         A prompt string instructing the LLM to return a JSON array of filenames.
     """
+
+    profile_block = ""      
+    if profile:
+      profile_block = f"""\
+=== STUDENT PROFILE ===
+{profile}
+=== END STUDENT PROFILE ===
+Use this to prioritize which documents are most relevant.
+For example:
+- Prefer requirement docs for the student's major(s)
+- Consider completed courses when selecting documents
+"""
+
     return f"""\
 You are a document selector for a university advising system. Your job is
 to decide which knowledge base documents are needed to answer a student's
@@ -64,6 +90,8 @@ Use these sections to make your selection.
 === SKILLS INDEX ===
 {skills_index_text}
 === END SKILLS INDEX ===
+
+{profile_block}
 
 STUDENT QUESTION:
 {question}
@@ -109,14 +137,9 @@ question refers to something discussed earlier. Do not repeat previous
 answers verbatim.
 """
 
-    return f"""\
-You are an AI academic advisor for Southwestern University. Answer the
-student's question using ONLY the source documents provided below.
-{history_block}
-=== SOURCE DOCUMENTS ===
-{context}
-=== END SOURCE DOCUMENTS ===
-
+    profile_block = ""      
+    if profile:
+      profile_block = f"""\
 === STUDENT PROFILE ===
 {profile}
 === END STUDENT PROFILE ===
@@ -124,6 +147,20 @@ Use the student profile information to tailor your answer to the student.
 - You may use this to make recommendations.
 - Do not cite this section as a source.
 - If the profile conflicts with source documents, trust the source documents.
+"""
+
+    return f"""\
+You are an AI academic advisor for Southwestern University. Answer the
+student's question using ONLY the source documents provided below.
+You may use conversation history and student profile information for context when available.
+{history_block}
+
+{profile_block}
+
+=== SOURCE DOCUMENTS ===
+{context}
+=== END SOURCE DOCUMENTS ===
+
 
 STUDENT QUESTION:
 {question}
