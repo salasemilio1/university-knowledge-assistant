@@ -162,25 +162,28 @@ def get_user_info(google_id:str):
         "courses": user.courses,
     }
 
-def format_user_info(user_info: dict):
-    """Formats a user's info to make it easily readable by an LLM.
+def get_formatted_user_info(google_id: str):
+    """Returns a specific user's info
+    which is formatted to make it easily readable by an LLM.
 
     Args:
-        user_info(dict): dictionary of user info (from get_user_info).
+        google_id(str): The Google ID of the user.
     Returns:
         str: Formatted user info.
     """
+    user_info = get_user_info(google_id)
+
     second_major_text = ""
     if user_info.get("second_major"):
-        second_major_text = f"\nSecond Major: {user_info["second_major"]}"
+        second_major_text = f"""\nSecond Major: {user_info["second_major"]}"""
 
     minor_text = ""
     if user_info.get("minor"):
-        minor_text = f"\nMinor: {user_info["minor"]}"
+        minor_text = f"""\nMinor: {user_info["minor"]}"""
 
     second_minor_text = ""
-    if user_info.get("minor"):
-        second_minor_text = f"\nSecond Minor: {user_info["second_minor"]}"
+    if user_info.get("second_minor"):
+        second_minor_text = f"""\nSecond Minor: {user_info["second_minor"]}"""
 
 
     return f"""\
