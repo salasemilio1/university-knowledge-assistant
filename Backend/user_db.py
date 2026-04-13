@@ -161,3 +161,34 @@ def get_user_info(google_id:str):
         "grad_year": user.grad_year,
         "courses": user.courses,
     }
+
+def format_user_info(user_info: dict):
+    """Formats a user's info to make it easily readable by an LLM.
+
+    Args:
+        user_info(dict): dictionary of user info (from get_user_info).
+    Returns:
+        str: Formatted user info.
+    """
+    second_major_text = ""
+    if user_info.get("second_major"):
+        second_major_text = f"\nSecond Major: {user_info["second_major"]}"
+
+    minor_text = ""
+    if user_info.get("minor"):
+        minor_text = f"\nMinor: {user_info["minor"]}"
+
+    second_minor_text = ""
+    if user_info.get("minor"):
+        second_minor_text = f"\nSecond Minor: {user_info["second_minor"]}"
+
+
+    return f"""\
+Name: {user_info["name"]}
+Major: {user_info["major"]}{second_major_text}{minor_text}{second_minor_text}
+GPA: {user_info["gpa"]}
+Advisor Name: {user_info["advisor_name"]}
+Advisor Email: {user_info["advisor_email"]}
+Graduation Year: {user_info["grad_year"]}
+Courses Taken: {user_info["courses"]}
+"""
