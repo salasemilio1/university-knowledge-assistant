@@ -20,7 +20,8 @@ with pdfplumber.open(FILE_PATH) as pdf:
     print(text, "test")
 
 #course_pattern = r"\b([A-Z]{2,4}\d{2}-\d{3})\b[A-Z]{3}\d{2}-\d{3}\s+(.+?)\s+\d+\.\d{2}\s+[A-F][+-]?\s+\d+\.\d{2}\b"
-course_code_pattern = r"\b[A-Z]{3}\d{2}-\d{3}\b"
+
+course_code_pattern = r"\b[A-Z]{2,4}(?:\d{2}|\d[A-Z])-\d{3}\b"
 course_name_pattern = r"\b[A-Z]{3}\d{2}-\d{3}\s+(.+?)\s+\d+\.\d{2}\s+[A-F][+-]?\s+\d+\.\d{2}\b"
 course_credits_and_grade_pattern = r"\b(\d+\.\d{2})\s+([A-F][+-]?)\b" # can be broken up in groups
 
