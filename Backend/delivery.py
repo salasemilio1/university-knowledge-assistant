@@ -122,7 +122,9 @@ async def profile(request:Request):
         "email": user.email,
         "is_profile_complete": user.is_profile_complete,
         "major": user.major,
+        "major_degree_type": user.major_degree_type,
         "second_major": user.second_major,
+        "second_major_degree_type": user.second_major_degree_type,
         "minor": user.minor,
         "second_minor": user.second_minor,
         "gpa": user.gpa,
@@ -150,7 +152,9 @@ async def users(request:Request):
     # expected form fields from frontend
     expected_field_names = [
     "major",
+    "major_degree_type",
     "second_major",
+    "second_major_degree_type",
     "minor",
     "second_minor",
     "gpa",
@@ -178,7 +182,9 @@ async def users(request:Request):
 
     # populate final values to update user with.
     user_data["major"] = form_data["major"]
+    user_data["major_degree_type"] = form_data["major_degree_type"]
     user_data["second_major"] = form_data["second_major"]
+    user_data["second_major_degree_type"] = form_data["second_major_degree_type"]
     user_data["minor"] = form_data["minor"]
     user_data["second_minor"] = form_data["second_minor"]
     user_data["gpa"] = form_data["gpa_custom"] if form_data["gpa"] == "custom" else form_data["gpa"]

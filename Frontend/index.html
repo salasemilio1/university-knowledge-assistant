@@ -1171,7 +1171,7 @@
 
             <div class="profile-field">
                 <label for="grad_year">Expected Graduation</label>
-                <select id="grad_year" name="grad_year">
+                <select id="grad_year" name="grad_year" required>
                     <option value="">Select a graduation year</option>
                     <option>2026</option>
                     <option>2027</option>
@@ -1192,12 +1192,12 @@
 
             <div class="profile-field">
                 <label for="advisor_name">Advisor Name</label>
-                <input id="advisor_name" name="advisor_name" type="text" placeholder="Enter advisor name">
+                <input id="advisor_name" name="advisor_name" type="text" placeholder="Enter advisor name" required>
             </div>
 
             <div class="profile-field">
                 <label for="advisor_email">Advisor Email</label>
-                <input id="advisor_email" name="advisor_email" type="email" placeholder="Enter advisor email">
+                <input id="advisor_email" name="advisor_email" type="email" placeholder="Enter advisor email" required>
             </div>
         </div>
 
@@ -1491,7 +1491,6 @@
                 }
             }
         });
-
 
     function wireCustomField(selectId, inputId) {
     const select = document.getElementById(selectId);
