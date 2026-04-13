@@ -84,6 +84,7 @@ def answerer_prompt(
     question: str,
     context: str,
     history: str | None = None,
+    profile: str | None = None,
 ) -> str:
     """Build the Call 3 prompt: generate the final answer from loaded documents.
 
@@ -115,6 +116,14 @@ student's question using ONLY the source documents provided below.
 === SOURCE DOCUMENTS ===
 {context}
 === END SOURCE DOCUMENTS ===
+
+=== STUDENT PROFILE ===
+{profile}
+=== END STUDENT PROFILE ===
+Use the student profile information to tailor your answer to the student.
+- You may use this to make recommendations.
+- Do not cite this section as a source.
+- If the profile conflicts with source documents, trust the source documents.
 
 STUDENT QUESTION:
 {question}
