@@ -1,0 +1,6896 @@
+{
+  "cleaned_courses": [
+    {
+      "code": "PHY53-154",
+      "title": "Fundamentals of Physics I",
+      "confidence": 0.941,
+      "occurrences": 17,
+      "candidate_scores": {
+        "Fundamentals of Physics I": 16.0,
+        "indicates that there are three lecture hours and three lab": 0.0
+      }
+    },
+    {
+      "code": "ART68-104",
+      "title": "Drawing I",
+      "confidence": 0.714,
+      "occurrences": 7,
+      "candidate_scores": {
+        "Drawing I": 5.0,
+        "Drawing I,": 2.0
+      }
+    },
+    {
+      "code": "ART68-204",
+      "title": "Drawing II",
+      "confidence": 0.714,
+      "occurrences": 7,
+      "candidate_scores": {
+        "Drawing II": 5.0,
+        "Drawing II.": 1.0,
+        "Drawing II, Writing Attentive Humanities course.": 1.0
+      }
+    },
+    {
+      "code": "ART68-114",
+      "title": "Design I",
+      "confidence": 0.5,
+      "occurrences": 6,
+      "candidate_scores": {
+        "Design I": 3.0,
+        "Design I,": 2.0,
+        "Design": 0.2
+      }
+    },
+    {
+      "code": "ART68-224",
+      "title": "Ceramics I",
+      "confidence": 0.75,
+      "occurrences": 8,
+      "candidate_scores": {
+        "Ceramics I": 6.0,
+        "Ceramics I,": 2.0
+      }
+    },
+    {
+      "code": "ART68-244",
+      "title": "Painting I",
+      "confidence": 0.75,
+      "occurrences": 8,
+      "candidate_scores": {
+        "Painting I": 6.0,
+        "Painting I,": 2.0
+      }
+    },
+    {
+      "code": "ART68-234",
+      "title": "Sculpture I",
+      "confidence": 0.75,
+      "occurrences": 8,
+      "candidate_scores": {
+        "Sculpture I": 6.0,
+        "Sculpture I.": 1.0,
+        "Sculpture I, Art History Course, 1 Elective Studio Art": 1.0
+      }
+    },
+    {
+      "code": "ART68-314",
+      "title": "Ceramics II",
+      "confidence": 0.8,
+      "occurrences": 10,
+      "candidate_scores": {
+        "Ceramics II": 8.0,
+        "Ceramics II,": 2.0
+      }
+    },
+    {
+      "code": "ART68-334",
+      "title": "Painting II",
+      "confidence": 0.8,
+      "occurrences": 10,
+      "candidate_scores": {
+        "Painting II": 8.0,
+        "Painting II,": 2.0
+      }
+    },
+    {
+      "code": "ART68-254",
+      "title": "Printmaking I",
+      "confidence": 1.0,
+      "occurrences": 7,
+      "candidate_scores": {
+        "Printmaking I": 7.0
+      }
+    },
+    {
+      "code": "ART68-344",
+      "title": "Printmaking II",
+      "confidence": 0.778,
+      "occurrences": 9,
+      "candidate_scores": {
+        "Printmaking II": 7.0,
+        "Printmaking II), Art History course, Elective Studio Art Course": 1.0,
+        "Printmaking II), Art History course, 2 Elective Studio Art": 1.0
+      }
+    },
+    {
+      "code": "ART68-324",
+      "title": "Sculpture II",
+      "confidence": 0.7,
+      "occurrences": 10,
+      "candidate_scores": {
+        "Sculpture II": 7.0,
+        "Sculpture II,": 2.0,
+        "Sculpture II.": 1.0
+      }
+    },
+    {
+      "code": "ART68-404",
+      "title": "Seminar (Note: these courses are offered only once per year)",
+      "confidence": 0.2,
+      "occurrences": 5,
+      "candidate_scores": {
+        "Seminar (Note: these courses are offered only once per year)": 1.0,
+        "Seminar": 0.4,
+        "Seminar,": 0.4
+      },
+      "flag_reasons": [
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "ART68-504",
+      "title": "Capstone, 1 Elective Studio Art course",
+      "confidence": 0.2,
+      "occurrences": 5,
+      "candidate_scores": {
+        "Capstone, 1 Elective Studio Art course": 1.0,
+        "Capstone (Note: these courses are offered only once per year)": 1.0,
+        "Capstone": 0.6
+      },
+      "flag_reasons": [
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "ART68-354",
+      "title": "Design II",
+      "confidence": 1.0,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Design II": 3.0
+      }
+    },
+    {
+      "code": "ART68-374",
+      "title": "Drawing III",
+      "confidence": 0.75,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Drawing III": 3.0,
+        "Drawing III, One of the following level II studio art courses (": 0.5
+      }
+    },
+    {
+      "code": "ART68-512",
+      "title": "Exhibition Practicum",
+      "confidence": 0.25,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Exhibition Practicum": 1.0,
+        "Exhibition Practicum,": 1.0,
+        "Exhibition Practicum in the semester of": 0.4
+      },
+      "flag_reasons": [
+        "low_confidence_score:0.25"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "ART68-414",
+      "title": "Topics in Ceramics",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Topics in Ceramics": 1.0
+      }
+    },
+    {
+      "code": "ART68-424",
+      "title": "Topics in Painting",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Topics in Painting": 1.0
+      }
+    },
+    {
+      "code": "ART68-434",
+      "title": "Topics in Printmaking",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Topics in Printmaking": 1.0
+      }
+    },
+    {
+      "code": "ART68-444",
+      "title": "Topics in Sculpture",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Topics in Sculpture": 1.0
+      }
+    },
+    {
+      "code": "ARH71-614",
+      "title": "Annual Topics in Art History (to be taken before the capstone seminar.)",
+      "confidence": 0.375,
+      "occurrences": 8,
+      "candidate_scores": {
+        "Annual Topics in Art History (to be taken before the capstone seminar.)": 3.0,
+        "Annual Topics in Art History (to be taken before the capstone seminar)": 3.0,
+        "Annual Topics in Art History": 2.0
+      },
+      "flag_reasons": [
+        "low_confidence_score:0.38"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "ARH71-824",
+      "title": "Capstone Research Seminar",
+      "confidence": 0.7,
+      "occurrences": 8,
+      "candidate_scores": {
+        "Capstone Research Seminar": 4.0,
+        "Capstone Research Seminar (to be taken fall of senior year)": 3.0,
+        "Capstone Research Seminar (Fall senior year)": 1.0
+      },
+      "cross_listed_with": [
+        "COM75-964"
+      ]
+    },
+    {
+      "code": "ECO31-104",
+      "title": "Principles of Economics",
+      "confidence": 0.5,
+      "occurrences": 10,
+      "candidate_scores": {
+        "Principles of Economics": 5.0,
+        "Principle of Economics": 4.0,
+        "is a prerequisite for this course.": 0.0
+      }
+    },
+    {
+      "code": "BUS30-114",
+      "title": "Fundamentals of Accounting",
+      "confidence": 1.0,
+      "occurrences": 5,
+      "candidate_scores": {
+        "Fundamentals of Accounting": 5.0
+      }
+    },
+    {
+      "code": "BUS30-214",
+      "title": "Foundations of Business",
+      "confidence": 0.833,
+      "occurrences": 6,
+      "candidate_scores": {
+        "Foundations of Business": 5.0,
+        "is a prerequisite for this course.": 0.0
+      }
+    },
+    {
+      "code": "BUS30-474",
+      "title": "Finance",
+      "confidence": 0.2,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Finance": 0.8
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "BUS30-964",
+      "title": "Capstone in Business",
+      "confidence": 1.0,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Capstone in Business": 4.0
+      }
+    },
+    {
+      "code": "HIS16-014",
+      "title": "Disease, Health, and Medicine in World History",
+      "confidence": 0.909,
+      "occurrences": 11,
+      "candidate_scores": {
+        "Disease, Health, and Medicine in World History": 10.0,
+        "Disease, Health and Medicine in World History": 1.0
+      }
+    },
+    {
+      "code": "HIS16-024",
+      "title": "Empires and Empires of the Mind in World History",
+      "confidence": 1.0,
+      "occurrences": 9,
+      "candidate_scores": {
+        "Empires and Empires of the Mind in World History": 9.0
+      }
+    },
+    {
+      "code": "HIS16-034",
+      "title": "Nations and Nationalism in World History",
+      "confidence": 1.0,
+      "occurrences": 10,
+      "candidate_scores": {
+        "Nations and Nationalism in World History": 10.0
+      }
+    },
+    {
+      "code": "HIS16-044",
+      "title": "Silk Roads in World History",
+      "confidence": 1.0,
+      "occurrences": 8,
+      "candidate_scores": {
+        "Silk Roads in World History": 8.0
+      }
+    },
+    {
+      "code": "HIS16-054",
+      "title": "Food and Culture in World History",
+      "confidence": 0.667,
+      "occurrences": 9,
+      "candidate_scores": {
+        "Food and Culture in World History": 6.0,
+        "Food and Society in World History": 3.0
+      }
+    },
+    {
+      "code": "HIS16-094",
+      "title": "Topics in World History",
+      "confidence": 1.0,
+      "occurrences": 8,
+      "candidate_scores": {
+        "Topics in World History": 8.0
+      }
+    },
+    {
+      "code": "HIS16-114",
+      "title": "History of Modern Africa",
+      "confidence": 1.0,
+      "occurrences": 10,
+      "candidate_scores": {
+        "History of Modern Africa": 10.0
+      }
+    },
+    {
+      "code": "HIS16-204",
+      "title": "African Environmental History",
+      "confidence": 1.0,
+      "occurrences": 10,
+      "candidate_scores": {
+        "African Environmental History": 10.0
+      }
+    },
+    {
+      "code": "HIS16-504",
+      "title": "Topics in African History",
+      "confidence": 1.0,
+      "occurrences": 9,
+      "candidate_scores": {
+        "Topics in African History": 9.0
+      }
+    },
+    {
+      "code": "HIS16-124",
+      "title": "History of East Asia to",
+      "confidence": 1.0,
+      "occurrences": 12,
+      "candidate_scores": {
+        "History of East Asia to": 12.0
+      }
+    },
+    {
+      "code": "HIS16-134",
+      "title": "History of East Asia since",
+      "confidence": 0.909,
+      "occurrences": 11,
+      "candidate_scores": {
+        "History of East Asia since": 10.0,
+        "History of East Asia Since": 1.0
+      }
+    },
+    {
+      "code": "HIS16-234",
+      "title": "Nomadic Empires: The \u201cBarbarians\u201d of the East Eurasian World",
+      "confidence": 0.923,
+      "occurrences": 13,
+      "candidate_scores": {
+        "Nomadic Empires: The \u201cBarbarians\u201d of the East Eurasian World": 12.0,
+        "Nomadic Empires: The \u201cBarbarians\u201d of the East Eurasian Worlds": 1.0
+      }
+    },
+    {
+      "code": "HIS16-244",
+      "title": "Docile or Deviant: Women, Gender, and Sexuality in China",
+      "confidence": 1.0,
+      "occurrences": 11,
+      "candidate_scores": {
+        "Docile or Deviant: Women, Gender, and Sexuality in China": 11.0
+      }
+    },
+    {
+      "code": "HIS16-514",
+      "title": "Topics in Asian History",
+      "confidence": 1.0,
+      "occurrences": 10,
+      "candidate_scores": {
+        "Topics in Asian History": 10.0
+      }
+    },
+    {
+      "code": "HIS16-184",
+      "title": "History of Early Modern Europe",
+      "confidence": 1.0,
+      "occurrences": 8,
+      "candidate_scores": {
+        "History of Early Modern Europe": 8.0
+      }
+    },
+    {
+      "code": "HIS16-194",
+      "title": "History of Modern Europe",
+      "confidence": 1.0,
+      "occurrences": 11,
+      "candidate_scores": {
+        "History of Modern Europe": 11.0
+      }
+    },
+    {
+      "code": "HIS16-404",
+      "title": "History of the British Isles since",
+      "confidence": 0.75,
+      "occurrences": 8,
+      "candidate_scores": {
+        "History of the British Isles since": 6.0,
+        "History of the British Isles Since": 2.0
+      }
+    },
+    {
+      "code": "HIS16-414",
+      "title": "Modern France and Empire",
+      "confidence": 1.0,
+      "occurrences": 8,
+      "candidate_scores": {
+        "Modern France and Empire": 8.0
+      }
+    },
+    {
+      "code": "HIS16-424",
+      "title": "The Real Game of Thrones: The Medieval Era in History and Legend",
+      "confidence": 0.9,
+      "occurrences": 10,
+      "candidate_scores": {
+        "The Real Game of Thrones: The Medieval Era in History and Legend": 9.0,
+        "The Real Game of Thrones: The Medieval Era in History & Legend": 1.0
+      }
+    },
+    {
+      "code": "HIS16-434",
+      "title": "History of Europe\u2019s Muslims",
+      "confidence": 0.667,
+      "occurrences": 9,
+      "candidate_scores": {
+        "History of Europe\u2019s Muslims": 6.0,
+        "The History of Europe's Muslims": 1.0,
+        "Nomadic Empires: The \u201cBarbarians\u201d of the East Eurasian World": 1.0,
+        "The History of Europe\u2019s Muslims": 1.0
+      }
+    },
+    {
+      "code": "HIS16-444",
+      "title": "The Tudors: Politics & Culture, 1485-",
+      "confidence": 1.0,
+      "occurrences": 11,
+      "candidate_scores": {
+        "The Tudors: Politics & Culture, 1485-": 11.0
+      }
+    },
+    {
+      "code": "HIS16-454",
+      "title": "Histories of Race in Europe",
+      "confidence": 1.0,
+      "occurrences": 8,
+      "candidate_scores": {
+        "Histories of Race in Europe": 8.0
+      }
+    },
+    {
+      "code": "HIS16-464",
+      "title": "History of Human Rights",
+      "confidence": 1.0,
+      "occurrences": 12,
+      "candidate_scores": {
+        "History of Human Rights": 12.0
+      }
+    },
+    {
+      "code": "HIS16-554",
+      "title": "Topics in European History",
+      "confidence": 1.0,
+      "occurrences": 7,
+      "candidate_scores": {
+        "Topics in European History": 7.0
+      }
+    },
+    {
+      "code": "HIS16-144",
+      "title": "History of Colonial Latin America",
+      "confidence": 0.929,
+      "occurrences": 14,
+      "candidate_scores": {
+        "History of Colonial Latin America": 13.0,
+        "Colonial Latin America": 1.0
+      }
+    },
+    {
+      "code": "HIS16-154",
+      "title": "History of Modern Latin America",
+      "confidence": 1.0,
+      "occurrences": 12,
+      "candidate_scores": {
+        "History of Modern Latin America": 12.0
+      }
+    },
+    {
+      "code": "HIS16-264",
+      "title": "Latin American History in Film and Literature",
+      "confidence": 0.643,
+      "occurrences": 14,
+      "candidate_scores": {
+        "Latin American History in Film and Literature": 9.0,
+        "Latin American History in Film & Literature": 5.0
+      }
+    },
+    {
+      "code": "HIS16-274",
+      "title": "Reproductive Histories in Latin America",
+      "confidence": 0.812,
+      "occurrences": 16,
+      "candidate_scores": {
+        "Reproductive Histories in Latin America": 13.0,
+        "Reproductive Histories of Latin America": 3.0
+      }
+    },
+    {
+      "code": "HIS16-284",
+      "title": "The Mexican Revolution",
+      "confidence": 1.0,
+      "occurrences": 13,
+      "candidate_scores": {
+        "The Mexican Revolution": 13.0
+      }
+    },
+    {
+      "code": "HIS16-524",
+      "title": "Topics in Latin American History",
+      "confidence": 0.9,
+      "occurrences": 10,
+      "candidate_scores": {
+        "Topics in Latin American History": 9.0,
+        "The Real Game of Thrones: The Medieval Era in History and Legend": 1.0
+      }
+    },
+    {
+      "code": "HIS16-164",
+      "title": "History of the U.S.: From Colonies to Nation",
+      "confidence": 0.9,
+      "occurrences": 10,
+      "candidate_scores": {
+        "History of the U.S.: From Colonies to Nation": 9.0,
+        "History of Colonial Latin America": 1.0
+      }
+    },
+    {
+      "code": "HIS16-174",
+      "title": "History of the U.S.: From Nation to World Power",
+      "confidence": 0.875,
+      "occurrences": 8,
+      "candidate_scores": {
+        "History of the U.S.: From Nation to World Power": 7.0,
+        "History of Modern Latin America": 1.0
+      }
+    },
+    {
+      "code": "HIS16-294",
+      "title": "Texas History",
+      "confidence": 0.938,
+      "occurrences": 16,
+      "candidate_scores": {
+        "Texas History": 15.0,
+        "Texas History is required for students who did not previously take Texas History in a Texas": 0.0
+      }
+    },
+    {
+      "code": "HIS16-314",
+      "title": "History of the Civil Rights Movement",
+      "confidence": 1.0,
+      "occurrences": 10,
+      "candidate_scores": {
+        "History of the Civil Rights Movement": 10.0
+      }
+    },
+    {
+      "code": "HIS16-324",
+      "title": "Rise of the Right: History of the U.S. Conservative Movement",
+      "confidence": 0.875,
+      "occurrences": 8,
+      "candidate_scores": {
+        "Rise of the Right: History of the U.S. Conservative Movement": 7.0,
+        "Rise of the Right: History of the Conservative Movement in the U.S.": 1.0
+      }
+    },
+    {
+      "code": "HIS16-334",
+      "title": "Sport and Society in Modern America",
+      "confidence": 1.0,
+      "occurrences": 10,
+      "candidate_scores": {
+        "Sport and Society in Modern America": 10.0
+      }
+    },
+    {
+      "code": "HIS16-344",
+      "title": "The History of the U.S. West",
+      "confidence": 1.0,
+      "occurrences": 9,
+      "candidate_scores": {
+        "The History of the U.S. West": 9.0
+      }
+    },
+    {
+      "code": "HIS16-534",
+      "title": "Topics in U.S. History",
+      "confidence": 1.0,
+      "occurrences": 7,
+      "candidate_scores": {
+        "Topics in U.S. History": 7.0
+      }
+    },
+    {
+      "code": "HIS16-364",
+      "title": "Slavery and Freedom in the Atlantic World",
+      "confidence": 1.0,
+      "occurrences": 8,
+      "candidate_scores": {
+        "Slavery and Freedom in the Atlantic World": 8.0
+      }
+    },
+    {
+      "code": "HIS16-374",
+      "title": "History of the Islamic World",
+      "confidence": 1.0,
+      "occurrences": 7,
+      "candidate_scores": {
+        "History of the Islamic World": 7.0
+      }
+    },
+    {
+      "code": "HIS16-394",
+      "title": "Witches, Nuns, Prostitutes, Wives, and Queens",
+      "confidence": 0.273,
+      "occurrences": 11,
+      "candidate_scores": {
+        "Witches, Nuns, Prostitutes, Wives, and Queens": 3.0,
+        "Witches, Nuns, Prostitutes, Wives, and Queens: Women & Gender in the British World": 2.5,
+        "Witches, Nuns, Prostitutes, Wives, and Queens: Women & Gender": 2.0,
+        "Witches, Nuns, Prostitutes, Wives, & Queens: Women and Gender in the British World": 0.5
+      },
+      "flag_reasons": [
+        "low_confidence_score:0.27"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "HIS16-544",
+      "title": "Topics in Transregional History",
+      "confidence": 1.0,
+      "occurrences": 7,
+      "candidate_scores": {
+        "Topics in Transregional History": 7.0
+      }
+    },
+    {
+      "code": "HIS16-604",
+      "title": "Historiography",
+      "confidence": 0.2,
+      "occurrences": 9,
+      "candidate_scores": {
+        "Historiography": 1.8
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "HIS16-864",
+      "title": "Research Seminar (Capstone)",
+      "confidence": 1.0,
+      "occurrences": 9,
+      "candidate_scores": {
+        "Research Seminar (Capstone)": 9.0
+      }
+    },
+    {
+      "code": "ANT35-104",
+      "title": "Introduction to Cultural Anthropology",
+      "confidence": 0.833,
+      "occurrences": 18,
+      "candidate_scores": {
+        "Introduction to Cultural Anthropology": 15.0,
+        "Intro to Cultural Anthropology": 2.0,
+        "Introduction to Cultural": 1.0
+      }
+    },
+    {
+      "code": "PSC32-144",
+      "title": "Comparative Politics",
+      "confidence": 0.867,
+      "occurrences": 15,
+      "candidate_scores": {
+        "Comparative Politics": 13.0,
+        "Comparative Politics; or one World History course from": 1.0,
+        "is a prerequisite for this course.": 0.0
+      }
+    },
+    {
+      "code": "INS38-894",
+      "title": "Capstone",
+      "confidence": 0.4,
+      "occurrences": 11,
+      "candidate_scores": {
+        "Capstone": 2.2
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false,
+      "cross_listed_with": [
+        "LAS06-964"
+      ]
+    },
+    {
+      "code": "BIO50-173",
+      "title": "Molecular and Cellular Foundations of Biology",
+      "confidence": 0.333,
+      "occurrences": 9,
+      "candidate_scores": {
+        "Molecular and Cellular Foundations of Biology": 3.0,
+        "Molecular and Cellular Foundations of Biology, and": 1.0,
+        "Molecular and Cellular Foundations of Biology, and one introductory Biology lab course:": 0.5
+      },
+      "flag_reasons": [
+        "low_confidence_score:0.33"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "BIO50-183",
+      "title": "Evolutionary and Ecological Foundations of Biology",
+      "confidence": 0.556,
+      "occurrences": 9,
+      "candidate_scores": {
+        "Evolutionary and Ecological Foundations of Biology": 5.0,
+        "Evolutionary and Ecological Foundations of Biology, and one introductory Biology lab course:": 0.5,
+        "Evolutionary and Ecological Foundations of Biology, and": 0.4,
+        "Evolutionary and Ecological Foundation of Biology, and": 0.2
+      }
+    },
+    {
+      "code": "BIO50-171",
+      "title": "Inquiries in Biology",
+      "confidence": 0.636,
+      "occurrences": 11,
+      "candidate_scores": {
+        "Inquiries in Biology": 7.0,
+        "Inquiries in Biology,": 2.0,
+        "Inquiries in Biology, and": 0.4
+      }
+    },
+    {
+      "code": "BIO50-181",
+      "title": "Investigations in Biology",
+      "confidence": 1.0,
+      "occurrences": 11,
+      "candidate_scores": {
+        "Investigations in Biology": 11.0
+      }
+    },
+    {
+      "code": "BIO50-222",
+      "title": "Methods in Ecology and Evolution,",
+      "confidence": 0.25,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Methods in Ecology and Evolution,": 1.0,
+        "Methods in Ecology & Evolutionary Biology": 1.0,
+        "Methods in Ecology and Evolutionary Biology, and": 0.4
+      },
+      "flag_reasons": [
+        "low_confidence_score:0.25"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "BIO50-232",
+      "title": "Methods in Cellular/Molecular Biology",
+      "confidence": 0.75,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Methods in Cellular/Molecular Biology": 3.0,
+        "Methods in Cell and Molecular Biology": 1.0
+      }
+    },
+    {
+      "code": "BIO50-304",
+      "title": "Special Topics (with permission of Department Chair when offered)",
+      "confidence": 0.5,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Special Topics (with permission of Department Chair when offered)": 2.0,
+        "Special Topics (with permission of Department chair when offered)": 2.0
+      }
+    },
+    {
+      "code": "BIO50-354",
+      "title": "Neurobiology",
+      "confidence": 0.2,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Neurobiology": 0.6
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "BIO50-394",
+      "title": "Developmental Biology",
+      "confidence": 1.0,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Developmental Biology": 3.0
+      }
+    },
+    {
+      "code": "BIO50-404",
+      "title": "Cancer Biology",
+      "confidence": 1.0,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Cancer Biology": 3.0
+      }
+    },
+    {
+      "code": "BIO50-464",
+      "title": "Molecular Biology",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Molecular Biology": 2.0
+      }
+    },
+    {
+      "code": "BIO50-484",
+      "title": "Microbiology",
+      "confidence": 0.2,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Microbiology": 0.4
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "BIO50-494",
+      "title": "Biology of Reproduction",
+      "confidence": 1.0,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Biology of Reproduction": 3.0
+      }
+    },
+    {
+      "code": "BIO50-514",
+      "title": "Cellular Physiology",
+      "confidence": 1.0,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Cellular Physiology": 3.0
+      }
+    },
+    {
+      "code": "BIO50-534",
+      "title": "Fundamentals of Immunology",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Fundamentals of Immunology": 2.0
+      }
+    },
+    {
+      "code": "BIO50-604",
+      "title": "Principles of Biochemistry,",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Principles of Biochemistry,": 2.0
+      },
+      "cross_listed_with": [
+        "CHE51-604"
+      ]
+    },
+    {
+      "code": "CHE51-604",
+      "title": "Principles of Biochemistry",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Principles of Biochemistry": 2.0
+      },
+      "cross_listed_with": [
+        "BIO50-604"
+      ]
+    },
+    {
+      "code": "BIO50-624",
+      "title": "General Biochemistry II,",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "General Biochemistry II,": 2.0
+      },
+      "cross_listed_with": [
+        "CHE51-624"
+      ]
+    },
+    {
+      "code": "CHE51-624",
+      "title": "General Biochemistry II",
+      "confidence": 0.95,
+      "occurrences": 4,
+      "candidate_scores": {
+        "General Biochemistry II": 3.0,
+        "General Biochemistry II courses must be taken at Southwestern": 1.0
+      },
+      "cross_listed_with": [
+        "BIO50-624"
+      ]
+    },
+    {
+      "code": "BIO50-314",
+      "title": "Genetics",
+      "confidence": 0.2,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Genetics": 0.8
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "BIO50-334",
+      "title": "Evolutionary Biology",
+      "confidence": 1.0,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Evolutionary Biology": 3.0
+      }
+    },
+    {
+      "code": "BIO50-374",
+      "title": "Human Genetics and Evolution",
+      "confidence": 1.0,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Human Genetics and Evolution": 3.0
+      }
+    },
+    {
+      "code": "BIO50-384",
+      "title": "Conservation Biology",
+      "confidence": 1.0,
+      "occurrences": 5,
+      "candidate_scores": {
+        "Conservation Biology": 5.0
+      }
+    },
+    {
+      "code": "BIO50-414",
+      "title": "Plant Ecology",
+      "confidence": 1.0,
+      "occurrences": 6,
+      "candidate_scores": {
+        "Plant Ecology": 6.0
+      }
+    },
+    {
+      "code": "BIO50-434",
+      "title": "Ecology",
+      "confidence": 0.2,
+      "occurrences": 5,
+      "candidate_scores": {
+        "Ecology": 1.0
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "BIO50-444",
+      "title": "Invertebrate Ecology",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Invertebrate Ecology": 2.0
+      }
+    },
+    {
+      "code": "BIO50-474",
+      "title": "Genetics, Genomics and Medicine",
+      "confidence": 0.667,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Genetics, Genomics and Medicine": 2.0,
+        "Genetics, Genomics, and Medicine": 1.0
+      }
+    },
+    {
+      "code": "BIO50-991",
+      "title": "Biology Capstone Seminar",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Biology Capstone Seminar": 2.0
+      },
+      "cross_listed_with": [
+        "BIO50-994"
+      ]
+    },
+    {
+      "code": "BIO50-994",
+      "title": "Biology Capstone Seminar",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Biology Capstone Seminar": 2.0
+      },
+      "cross_listed_with": [
+        "BIO50-991"
+      ]
+    },
+    {
+      "code": "CHE51-103",
+      "title": "General Chemistry I",
+      "confidence": 0.875,
+      "occurrences": 8,
+      "candidate_scores": {
+        "General Chemistry I": 7.0,
+        "General Chemistry I, and": 0.2
+      }
+    },
+    {
+      "code": "CHE51-101",
+      "title": "Chemical Methods and Techniques Laboratory I",
+      "confidence": 0.875,
+      "occurrences": 8,
+      "candidate_scores": {
+        "Chemical Methods and Techniques Laboratory I": 7.0,
+        "Chemical Methods and Techniques Lab I": 1.0
+      }
+    },
+    {
+      "code": "CHE51-203",
+      "title": "General Chemistry II",
+      "confidence": 0.875,
+      "occurrences": 8,
+      "candidate_scores": {
+        "General Chemistry II": 7.0,
+        "General Chemistry II, and": 0.2
+      }
+    },
+    {
+      "code": "CHE51-201",
+      "title": "Chemical Methods and Techniques Laboratory II",
+      "confidence": 1.0,
+      "occurrences": 8,
+      "candidate_scores": {
+        "Chemical Methods and Techniques Laboratory II": 8.0
+      }
+    },
+    {
+      "code": "MAT52-114",
+      "title": "Introduction to Statistics",
+      "confidence": 1.0,
+      "occurrences": 22,
+      "candidate_scores": {
+        "Introduction to Statistics": 22.0
+      }
+    },
+    {
+      "code": "CHE51-313",
+      "title": "Organic Chemistry I",
+      "confidence": 0.636,
+      "occurrences": 11,
+      "candidate_scores": {
+        "Organic Chemistry I": 7.0,
+        "Organic Chemistry I and": 0.8
+      }
+    },
+    {
+      "code": "CHE51-311",
+      "title": "Organic Chemistry Laboratory Techniques",
+      "confidence": 0.833,
+      "occurrences": 6,
+      "candidate_scores": {
+        "Organic Chemistry Laboratory Techniques": 5.0,
+        "Organic Chemistry Laboratory Techniques,": 1.0
+      }
+    },
+    {
+      "code": "CHE51-322",
+      "title": "Organic Chemistry Laboratory",
+      "confidence": 0.167,
+      "occurrences": 6,
+      "candidate_scores": {
+        "Organic Chemistry Laboratory": 1.0,
+        "Organic Chemistry Laboratory and": 1.0
+      },
+      "flag_reasons": [
+        "low_confidence_score:0.17"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "MAT52-164",
+      "title": "Modern Calculus I",
+      "confidence": 0.839,
+      "occurrences": 31,
+      "candidate_scores": {
+        "Modern Calculus I": 26.0,
+        "Modern Calculus I should first take": 4.0,
+        "Modern Calculus I, normally to be completed no later than the sophomore year": 0.5
+      }
+    },
+    {
+      "code": "PHY53-164",
+      "title": "Fundamentals of Physics II",
+      "confidence": 1.0,
+      "occurrences": 14,
+      "candidate_scores": {
+        "Fundamentals of Physics II": 14.0
+      }
+    },
+    {
+      "code": "CHE51-323",
+      "title": "Organic Chemistry II",
+      "confidence": 0.6,
+      "occurrences": 10,
+      "candidate_scores": {
+        "Organic Chemistry II": 6.0,
+        "Organic Chemistry II must be taken at": 4.0
+      }
+    },
+    {
+      "code": "CHE51-321",
+      "title": "Organic Chemistry Laboratory Applications and",
+      "confidence": 0.2,
+      "occurrences": 5,
+      "candidate_scores": {
+        "Organic Chemistry Laboratory Applications and": 1.0
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "CHE51-332",
+      "title": "Organic Chemistry Lab Intermediate",
+      "confidence": 1.0,
+      "occurrences": 5,
+      "candidate_scores": {
+        "Organic Chemistry Lab Intermediate": 5.0
+      }
+    },
+    {
+      "code": "CHE51-932",
+      "title": "Senior Chemistry Capstone,",
+      "confidence": 0.533,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Senior Chemistry Capstone,": 1.0,
+        "Senior Chemistry Capstone with,": 1.0,
+        "Senior Chemistry Capstone": 1.0
+      },
+      "flag_reasons": [
+        "low_confidence_score:0.33"
+      ],
+      "reviewed": false,
+      "cross_listed_with": [
+        "CHE51-934"
+      ]
+    },
+    {
+      "code": "CHE51-922",
+      "title": "Senior Biochemistry Capstone",
+      "confidence": 0.7,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Senior Biochemistry Capstone": 1.0,
+        "Senior Biochemistry Capstone with,": 1.0
+      },
+      "cross_listed_with": [
+        "CHE51-924"
+      ]
+    },
+    {
+      "code": "CHE51-514",
+      "title": "Quantitative Chemical Analysis",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Quantitative Chemical Analysis": 2.0
+      }
+    },
+    {
+      "code": "CHE51-704",
+      "title": "Physical Chemistry: Thermodynamics and Kinetics",
+      "confidence": 0.667,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Physical Chemistry: Thermodynamics and Kinetics": 2.0,
+        "Physical Chemistry: Thermodynamics and Kinetics,": 1.0
+      }
+    },
+    {
+      "code": "CHE51-714",
+      "title": "Quantum Mechanics",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Quantum Mechanics": 2.0
+      },
+      "cross_listed_with": [
+        "PHY53-424"
+      ]
+    },
+    {
+      "code": "CHE51-934",
+      "title": "Senior Chemistry Capstone",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Senior Chemistry Capstone": 1.0
+      },
+      "cross_listed_with": [
+        "CHE51-932"
+      ]
+    },
+    {
+      "code": "MAT52-264",
+      "title": "Modern Calculus II",
+      "confidence": 0.929,
+      "occurrences": 14,
+      "candidate_scores": {
+        "Modern Calculus II": 13.0,
+        "Modern Calculus II,": 1.0
+      }
+    },
+    {
+      "code": "CSC54-184",
+      "title": "Computer Science I",
+      "confidence": 0.769,
+      "occurrences": 13,
+      "candidate_scores": {
+        "Computer Science I": 10.0,
+        "Computer Science I may substitute that": 1.0,
+        "Computer Science I, normally to be completed no later than the sophomore year": 1.0
+      }
+    },
+    {
+      "code": "MAT52-364",
+      "title": "Modern Calculus III",
+      "confidence": 0.889,
+      "occurrences": 9,
+      "candidate_scores": {
+        "Modern Calculus III": 8.0,
+        "Modern Calculus III,": 1.0
+      }
+    },
+    {
+      "code": "MAT52-674",
+      "title": "Linear Algebra",
+      "confidence": 1.0,
+      "occurrences": 9,
+      "candidate_scores": {
+        "Linear Algebra": 9.0
+      }
+    },
+    {
+      "code": "PHY53-214",
+      "title": "Modern Physics",
+      "confidence": 1.0,
+      "occurrences": 6,
+      "candidate_scores": {
+        "Modern Physics": 6.0
+      }
+    },
+    {
+      "code": "PHY53-404",
+      "title": "Electronics",
+      "confidence": 0.2,
+      "occurrences": 10,
+      "candidate_scores": {
+        "Electronics": 2.0
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "CHE51-614",
+      "title": "General Biochemistry I",
+      "confidence": 0.5,
+      "occurrences": 2,
+      "candidate_scores": {
+        "General Biochemistry I": 1.0,
+        "General Biochemistry I and": 0.2
+      }
+    },
+    {
+      "code": "CHE51-404",
+      "title": "Inorganic Chemistry and Biological Systems",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Inorganic Chemistry and Biological Systems": 1.0
+      }
+    },
+    {
+      "code": "CHE51-424",
+      "title": "Fundamentals of Material Science and Engineering",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Fundamentals of Material Science and Engineering": 1.0
+      }
+    },
+    {
+      "code": "CHE51-504",
+      "title": "Instrumentation in Environmental and Biological Analysis",
+      "confidence": 1.0,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Instrumentation in Environmental and Biological Analysis": 4.0
+      }
+    },
+    {
+      "code": "CHE51-862",
+      "title": "Advanced Lab in Biochemistry",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Advanced Lab in Biochemistry": 1.0
+      }
+    },
+    {
+      "code": "CHE51-924",
+      "title": "Senior Biochemistry Capstone",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Senior Biochemistry Capstone": 1.0
+      },
+      "cross_listed_with": [
+        "CHE51-922"
+      ]
+    },
+    {
+      "code": "COM75-134",
+      "title": "Critical/Cultural Communication Studies",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Critical/Cultural Communication Studies": 2.0
+      }
+    },
+    {
+      "code": "COM75-204",
+      "title": "Rhetorical Theory",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Rhetorical Theory": 2.0
+      }
+    },
+    {
+      "code": "COM75-604",
+      "title": "Critical Media Theory",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Critical Media Theory": 1.0
+      }
+    },
+    {
+      "code": "COM75-804",
+      "title": "Critical/Cultural Research Methods",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Critical/Cultural Research Methods": 1.0
+      }
+    },
+    {
+      "code": "COM75-964",
+      "title": "Capstone Research Seminar",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Capstone Research Seminar": 1.0
+      },
+      "cross_listed_with": [
+        "ARH71-824"
+      ]
+    },
+    {
+      "code": "MAT52-574",
+      "title": "Probability and Mathematical Statistics",
+      "confidence": 1.0,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Probability and Mathematical Statistics": 4.0
+      }
+    },
+    {
+      "code": "CSC54-144",
+      "title": "Explorations in Computing",
+      "confidence": 0.5,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Explorations in Computing": 1.0,
+        "Explorations in Computing.": 1.0
+      }
+    },
+    {
+      "code": "DTA25-214",
+      "title": "Introduction to Data Analytics",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Introduction to Data Analytics": 1.0
+      }
+    },
+    {
+      "code": "BUS30-414",
+      "title": "Operations Research",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Operations Research": 1.0
+      },
+      "cross_listed_with": [
+        "CSC54-414",
+        "MAT52-414"
+      ]
+    },
+    {
+      "code": "CHE51-852",
+      "title": "Advanced Lab in Analytical Chemistry",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Advanced Lab in Analytical Chemistry": 1.0
+      }
+    },
+    {
+      "code": "CSC54-414",
+      "title": "Operations Research",
+      "confidence": 1.0,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Operations Research": 3.0
+      },
+      "cross_listed_with": [
+        "BUS30-414",
+        "MAT52-414"
+      ]
+    },
+    {
+      "code": "CSC54-514",
+      "title": "Database Management",
+      "confidence": 1.0,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Database Management": 4.0
+      }
+    },
+    {
+      "code": "ECO31-314",
+      "title": "Econometrics",
+      "confidence": 0.2,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Econometrics": 0.6
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "ENV49-204",
+      "title": "Environmental GIS",
+      "confidence": 0.571,
+      "occurrences": 7,
+      "candidate_scores": {
+        "Environmental GIS": 4.0,
+        "Environmental GIS (Geographic Information Systems)": 3.0
+      }
+    },
+    {
+      "code": "ENV49-474",
+      "title": "Advanced GIS",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Advanced GIS": 2.0
+      }
+    },
+    {
+      "code": "KIN48-214",
+      "title": "Research Methods in Kinesiology",
+      "confidence": 1.0,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Research Methods in Kinesiology": 4.0
+      }
+    },
+    {
+      "code": "MAT52-414",
+      "title": "Operations Research",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Operations Research": 1.0
+      },
+      "cross_listed_with": [
+        "BUS30-414",
+        "CSC54-414"
+      ]
+    },
+    {
+      "code": "PHY53-364",
+      "title": "Fundamentals of Materials Science and Engineering",
+      "confidence": 0.8,
+      "occurrences": 5,
+      "candidate_scores": {
+        "Fundamentals of Materials Science and Engineering": 4.0,
+        "Fundamentals of Materials Science & Engineering": 1.0
+      }
+    },
+    {
+      "code": "PSY33-204",
+      "title": "Survey of Research Methods",
+      "confidence": 1.0,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Survey of Research Methods": 3.0
+      }
+    },
+    {
+      "code": "PSY33-214",
+      "title": "Inquiry-Based Research Methods",
+      "confidence": 0.333,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Inquiry-Based Research Methods": 1.0,
+        "Inquiry-Based Research Methods, and": 0.4
+      },
+      "flag_reasons": [
+        "low_confidence_score:0.33"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "PSY33-224",
+      "title": "Inquiry-Based Research Methods with Animals",
+      "confidence": 0.5,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Inquiry-Based Research Methods with Animals": 2.0,
+        "Inquiry-Based Research Methods (with Animals), and": 0.4
+      }
+    },
+    {
+      "code": "COM75-474",
+      "title": "Visual/Material Communication",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Visual/Material Communication": 1.0
+      }
+    },
+    {
+      "code": "COM75-674",
+      "title": "Film Studies",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Film Studies": 1.0
+      }
+    },
+    {
+      "code": "ENG10-184",
+      "title": "Introduction to Film Studies",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Introduction to Film Studies": 1.0
+      }
+    },
+    {
+      "code": "BUS30-394",
+      "title": "Consumer Behavior",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Consumer Behavior": 1.0
+      }
+    },
+    {
+      "code": "EDU40-144",
+      "title": "Survey of Exceptionalities",
+      "confidence": 1.0,
+      "occurrences": 13,
+      "candidate_scores": {
+        "Survey of Exceptionalities": 13.0
+      }
+    },
+    {
+      "code": "EDU40-204",
+      "title": "Innovative Schools",
+      "confidence": 1.0,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Innovative Schools": 3.0
+      }
+    },
+    {
+      "code": "EDU40-344",
+      "title": "Strategies for Life Skills and Transition",
+      "confidence": 1.0,
+      "occurrences": 7,
+      "candidate_scores": {
+        "Strategies for Life Skills and Transition": 7.0
+      }
+    },
+    {
+      "code": "EDU40-444",
+      "title": "Differentiated Instruction Strategies",
+      "confidence": 1.0,
+      "occurrences": 6,
+      "candidate_scores": {
+        "Differentiated Instruction Strategies": 6.0
+      }
+    },
+    {
+      "code": "CSC54-284",
+      "title": "Computer Science II",
+      "confidence": 1.0,
+      "occurrences": 9,
+      "candidate_scores": {
+        "Computer Science II": 9.0
+      }
+    },
+    {
+      "code": "CSC54-454",
+      "title": "Algorithms",
+      "confidence": 0.2,
+      "occurrences": 6,
+      "candidate_scores": {
+        "Algorithms": 1.2
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "PHY53-104",
+      "title": "Introduction to Engineering",
+      "confidence": 1.0,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Introduction to Engineering": 3.0
+      }
+    },
+    {
+      "code": "PHY53-112",
+      "title": "Application of CAD",
+      "confidence": 0.5,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Application of CAD": 1.0,
+        "Applications of CAD": 1.0
+      }
+    },
+    {
+      "code": "PHY53-434",
+      "title": "Statics",
+      "confidence": 0.2,
+      "occurrences": 5,
+      "candidate_scores": {
+        "Statics": 1.0
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "PHY53-314",
+      "title": "Engineering Design",
+      "confidence": 1.0,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Engineering Design": 3.0
+      }
+    },
+    {
+      "code": "ART68-164",
+      "title": "Architectural Studio I: Introduction to Drafting and Programmatic Design",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Architectural Studio I: Introduction to Drafting and Programmatic Design": 1.0
+      }
+    },
+    {
+      "code": "ART68-264",
+      "title": "Architecture Studio II: Historical Design",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Architecture Studio II: Historical Design": 1.0
+      }
+    },
+    {
+      "code": "ART68-364",
+      "title": "Architecture Studio III: Modern Structures",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Architecture Studio III: Modern Structures": 1.0
+      }
+    },
+    {
+      "code": "MUT76-223",
+      "title": "Music Technology",
+      "confidence": 1.0,
+      "occurrences": 8,
+      "candidate_scores": {
+        "Music Technology": 8.0
+      }
+    },
+    {
+      "code": "MUT76-532",
+      "title": "Applied Composition",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Applied Composition": 2.0
+      }
+    },
+    {
+      "code": "THE72-164",
+      "title": "Design Fundamentals",
+      "confidence": 1.0,
+      "occurrences": 5,
+      "candidate_scores": {
+        "Design Fundamentals": 5.0
+      }
+    },
+    {
+      "code": "THE72-704",
+      "title": "Makeup Design",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Makeup Design": 2.0
+      }
+    },
+    {
+      "code": "THE72-714",
+      "title": "Costume Design",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Costume Design": 2.0
+      }
+    },
+    {
+      "code": "THE72-724",
+      "title": "Scenic Design",
+      "confidence": 1.0,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Scenic Design": 3.0
+      }
+    },
+    {
+      "code": "THE72-734",
+      "title": "Lighting Design",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Lighting Design": 2.0
+      }
+    },
+    {
+      "code": "THE72-744",
+      "title": "Audio Technology and Design",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Audio Technology and Design": 2.0
+      }
+    },
+    {
+      "code": "THE72-754",
+      "title": "Scenic Elements and Stage Properties",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Scenic Elements and Stage Properties": 2.0
+      }
+    },
+    {
+      "code": "THE72-764",
+      "title": "Scene Painting",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Scene Painting": 2.0
+      }
+    },
+    {
+      "code": "ARH71-024",
+      "title": "Introduction to Art History: East Asian Art & Architecture",
+      "confidence": 0.5,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Introduction to Art History: East Asian Art & Architecture": 2.0,
+        "Introduction to Art History: East Asian Art and Architecture": 2.0
+      }
+    },
+    {
+      "code": "ARH71-214",
+      "title": "Arts of China",
+      "confidence": 1.0,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Arts of China": 3.0
+      }
+    },
+    {
+      "code": "ENG10-154",
+      "title": "Topics in British Literature I",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Topics in British Literature I": 2.0
+      }
+    },
+    {
+      "code": "ENG10-604",
+      "title": "Topics in Medieval Literature",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Topics in Medieval Literature": 2.0
+      }
+    },
+    {
+      "code": "ENG10-624",
+      "title": "Shakespeare",
+      "confidence": 0.2,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Shakespeare": 0.4
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "MUL80-214",
+      "title": "Music History 900-",
+      "confidence": 1.0,
+      "occurrences": 13,
+      "candidate_scores": {
+        "Music History 900-": 13.0
+      }
+    },
+    {
+      "code": "CHI22-144",
+      "title": "Chinese I, if student has taken another language sequence to fulfill general education.",
+      "confidence": 0.5,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Chinese I, if student has taken another language sequence to fulfill general education.": 0.5
+      },
+      "flag_reasons": [
+        "likely_description"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "ARH71-234",
+      "title": "Ancient Chinese Art and Civilization",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Ancient Chinese Art and Civilization": 2.0
+      }
+    },
+    {
+      "code": "ARH71-254",
+      "title": "Topics in East Asian Art",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Topics in East Asian Art": 2.0
+      }
+    },
+    {
+      "code": "ARH71-264",
+      "title": "Art in China since",
+      "confidence": 0.5,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Art in China since": 2.0,
+        "Art in China Since": 2.0
+      }
+    },
+    {
+      "code": "ENG10-464",
+      "title": "Speaking Across Languages",
+      "confidence": 1.0,
+      "occurrences": 6,
+      "candidate_scores": {
+        "Speaking Across Languages": 6.0
+      }
+    },
+    {
+      "code": "PSC32-284",
+      "title": "Japanese Politics, Culture and Society",
+      "confidence": 1.0,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Japanese Politics, Culture and Society": 3.0
+      }
+    },
+    {
+      "code": "PSC32-444",
+      "title": "The Chinese Cultural Revolution",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "The Chinese Cultural Revolution": 2.0
+      }
+    },
+    {
+      "code": "PSC32-624",
+      "title": "Germany and Japan: Losers of World War II?",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Germany and Japan: Losers of World War II?": 2.0
+      }
+    },
+    {
+      "code": "PSC32-654",
+      "title": "Women and Politics in Europe and East Asia",
+      "confidence": 0.5,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Women and Politics in Europe and East Asia": 2.0,
+        "Women and Politics in Europe and Asia": 2.0
+      }
+    },
+    {
+      "code": "REL19-284",
+      "title": "Buddhist Traditions",
+      "confidence": 1.0,
+      "occurrences": 8,
+      "candidate_scores": {
+        "Buddhist Traditions": 8.0
+      }
+    },
+    {
+      "code": "ECO31-224",
+      "title": "Intermediate Microeconomic Theory",
+      "confidence": 0.667,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Intermediate Microeconomic Theory": 2.0,
+        "Intermediate Microeconomic Theory,": 1.0
+      }
+    },
+    {
+      "code": "ECO31-234",
+      "title": "Intermediate Macroeconomic Theory",
+      "confidence": 1.0,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Intermediate Macroeconomic Theory": 3.0
+      }
+    },
+    {
+      "code": "ECO31-964",
+      "title": "Capstone in Economics (to be taken in the spring of the senior year)",
+      "confidence": 0.5,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Capstone in Economics (to be taken in the spring of the senior year)": 1.0,
+        "Capstone in Economics": 1.0
+      }
+    },
+    {
+      "code": "MAT52-064",
+      "title": "Modern Quantitative Methods",
+      "confidence": 1.0,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Modern Quantitative Methods": 4.0
+      }
+    },
+    {
+      "code": "EDU40-124",
+      "title": "Foundations and Curriculum of American Schools",
+      "confidence": 0.917,
+      "occurrences": 12,
+      "candidate_scores": {
+        "Foundations and Curriculum of American Schools": 11.0,
+        "Foundations & Curriculum of American Schools": 1.0
+      }
+    },
+    {
+      "code": "EDU40-234",
+      "title": "Schools, Society and Diversity",
+      "confidence": 1.0,
+      "occurrences": 13,
+      "candidate_scores": {
+        "Schools, Society and Diversity": 13.0
+      }
+    },
+    {
+      "code": "EDU40-944",
+      "title": "Internship",
+      "confidence": 0.2,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Internship": 0.2
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "EDU40-964",
+      "title": "Senior Seminar (Capstone)",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Senior Seminar (Capstone)": 1.0
+      },
+      "cross_listed_with": [
+        "FST04-934"
+      ]
+    },
+    {
+      "code": "EDU40-114",
+      "title": "Educational Technology",
+      "confidence": 1.0,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Educational Technology": 4.0
+      }
+    },
+    {
+      "code": "EDU40-264",
+      "title": "Teaching Culturally and Linguistically Diverse Learners",
+      "confidence": 0.778,
+      "occurrences": 9,
+      "candidate_scores": {
+        "Teaching Culturally and Linguistically Diverse Learners": 7.0,
+        "Teaching Culturally Linguistically Diverse Learners": 2.0
+      }
+    },
+    {
+      "code": "EDU40-274",
+      "title": "Multicultural Children\u2019s Literature",
+      "confidence": 1.0,
+      "occurrences": 5,
+      "candidate_scores": {
+        "Multicultural Children\u2019s Literature": 5.0
+      }
+    },
+    {
+      "code": "EDU40-294",
+      "title": "The Child and the Curriculum in Early Childhood Education",
+      "confidence": 1.0,
+      "occurrences": 5,
+      "candidate_scores": {
+        "The Child and the Curriculum in Early Childhood Education": 5.0
+      }
+    },
+    {
+      "code": "EDU40-504",
+      "title": "Teaching Social Studies in the Elementary and Middle School",
+      "confidence": 1.0,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Teaching Social Studies in the Elementary and Middle School": 4.0
+      }
+    },
+    {
+      "code": "EDU40-514",
+      "title": "Teaching Science in the Elementary and Middle School",
+      "confidence": 0.833,
+      "occurrences": 6,
+      "candidate_scores": {
+        "Teaching Science in the Elementary and Middle School": 5.0,
+        "Teaching Science in the Elementary and Secondary School": 1.0
+      }
+    },
+    {
+      "code": "EDU40-524",
+      "title": "Teaching Mathematics in the Elementary and Middle School",
+      "confidence": 1.0,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Teaching Mathematics in the Elementary and Middle School": 3.0
+      }
+    },
+    {
+      "code": "EDU40-534",
+      "title": "Reading Methods in the Elementary and Middle School I",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Reading Methods in the Elementary and Middle School I": 2.0
+      }
+    },
+    {
+      "code": "EDU40-714",
+      "title": "Instructional Strategies",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Instructional Strategies": 2.0
+      }
+    },
+    {
+      "code": "EDU40-734",
+      "title": "Reading Methods in the Elementary and Middle School II",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Reading Methods in the Elementary and Middle School II": 2.0
+      }
+    },
+    {
+      "code": "EDU40-744",
+      "title": "Positive Behavior Support",
+      "confidence": 1.0,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Positive Behavior Support": 4.0
+      }
+    },
+    {
+      "code": "EDU40-814",
+      "title": "Classroom Organization and Management",
+      "confidence": 1.0,
+      "occurrences": 7,
+      "candidate_scores": {
+        "Classroom Organization and Management": 7.0
+      }
+    },
+    {
+      "code": "EDU40-804",
+      "title": "Student Teaching in the Elementary and Middle School",
+      "confidence": 1.0,
+      "occurrences": 5,
+      "candidate_scores": {
+        "Student Teaching in the Elementary and Middle School": 5.0
+      }
+    },
+    {
+      "code": "EDU40-844",
+      "title": "Student Teaching in Generic Special Education",
+      "confidence": 1.0,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Student Teaching in Generic Special Education": 4.0
+      }
+    },
+    {
+      "code": "PSY33-104",
+      "title": "Principles of Psychology",
+      "confidence": 1.0,
+      "occurrences": 14,
+      "candidate_scores": {
+        "Principles of Psychology": 14.0
+      }
+    },
+    {
+      "code": "PSY33-344",
+      "title": "Lifespan Development",
+      "confidence": 0.917,
+      "occurrences": 12,
+      "candidate_scores": {
+        "Lifespan Development": 11.0,
+        "Lifespan Psychology": 1.0
+      }
+    },
+    {
+      "code": "MAT52-104",
+      "title": "Explorations in Mathematics",
+      "confidence": 1.0,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Explorations in Mathematics": 4.0
+      }
+    },
+    {
+      "code": "PHY53-034",
+      "title": "Introduction to Earth Science",
+      "confidence": 0.8,
+      "occurrences": 5,
+      "candidate_scores": {
+        "Introduction to Earth Science": 4.0,
+        "Introduction to Earth Science,": 1.0
+      }
+    },
+    {
+      "code": "PHY53-064",
+      "title": "Exploring the Universe: The Solar System,",
+      "confidence": 1.0,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Exploring the Universe: The Solar System,": 3.0
+      }
+    },
+    {
+      "code": "PHY53-074",
+      "title": "Exploring the Universe: Stars, Galaxies, and Cosmology",
+      "confidence": 0.667,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Exploring the Universe: Stars, Galaxies, and Cosmology": 2.0,
+        "Exploring the Universe: Stars, Galaxies and Cosmology": 1.0
+      }
+    },
+    {
+      "code": "EDU40-674",
+      "title": "Teaching Praxis",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Teaching Praxis": 2.0
+      }
+    },
+    {
+      "code": "EDU40-808",
+      "title": "Student Teaching in the Elementary and Middle School (must first complete 28 credits in content",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Student Teaching in the Elementary and Middle School (must first complete 28 credits in content": 1.0
+      }
+    },
+    {
+      "code": "ENV49-144",
+      "title": "Environmental Science",
+      "confidence": 0.667,
+      "occurrences": 6,
+      "candidate_scores": {
+        "Environmental Science": 4.0,
+        "Environmental Science,": 2.0
+      }
+    },
+    {
+      "code": "ENV49-374",
+      "title": "The Soil Ecosystem",
+      "confidence": 1.0,
+      "occurrences": 6,
+      "candidate_scores": {
+        "The Soil Ecosystem": 6.0
+      }
+    },
+    {
+      "code": "EDU40-664",
+      "title": "Literacy in the Content Area",
+      "confidence": 1.0,
+      "occurrences": 7,
+      "candidate_scores": {
+        "Literacy in the Content Area": 7.0
+      }
+    },
+    {
+      "code": "EDU40-764",
+      "title": "The Secondary Teacher",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "The Secondary Teacher": 2.0
+      }
+    },
+    {
+      "code": "EDU40-828",
+      "title": "Student Teaching in the Secondary School (must first complete 28 credits in content area/subject field",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Student Teaching in the Secondary School (must first complete 28 credits in content area/subject field": 1.0
+      }
+    },
+    {
+      "code": "EDU40-824",
+      "title": "Student Teaching in the Secondary School",
+      "confidence": 1.0,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Student Teaching in the Secondary School": 4.0
+      }
+    },
+    {
+      "code": "PSY33-484",
+      "title": "Human Sexuality",
+      "confidence": 1.0,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Human Sexuality": 4.0
+      }
+    },
+    {
+      "code": "PSY33-544",
+      "title": "Health Psychology",
+      "confidence": 1.0,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Health Psychology": 4.0
+      }
+    },
+    {
+      "code": "KIN48-324",
+      "title": "Motor Learning and Motor Control",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Motor Learning and Motor Control": 2.0
+      }
+    },
+    {
+      "code": "ENG10-404",
+      "title": "Literary Theory and Criticism",
+      "confidence": 1.0,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Literary Theory and Criticism": 3.0
+      }
+    },
+    {
+      "code": "ENG10-444",
+      "title": "Topics in Theory",
+      "confidence": 1.0,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Topics in Theory": 3.0
+      }
+    },
+    {
+      "code": "ENG10-454",
+      "title": "Feminist Film Theory",
+      "confidence": 1.0,
+      "occurrences": 6,
+      "candidate_scores": {
+        "Feminist Film Theory": 6.0
+      }
+    },
+    {
+      "code": "ENG10-934",
+      "title": "Seminar (Capstone)",
+      "confidence": 1.0,
+      "occurrences": 5,
+      "candidate_scores": {
+        "Seminar (Capstone)": 5.0
+      }
+    },
+    {
+      "code": "FST04-104",
+      "title": "Introduction to Feminist Studies",
+      "confidence": 0.9,
+      "occurrences": 10,
+      "candidate_scores": {
+        "Introduction to Feminist Studies": 9.0,
+        "or an instructor-approved alternative. Contributes to English,": 1.0
+      }
+    },
+    {
+      "code": "ENG10-244",
+      "title": "Literary Methods or 10-264 Chicana Literary Methods",
+      "confidence": 0.333,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Literary Methods or 10-264 Chicana Literary Methods": 1.0,
+        "Literary Methods,": 1.0,
+        "Literary Methods": 1.0
+      },
+      "flag_reasons": [
+        "low_confidence_score:0.33"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "FST04-204",
+      "title": "Feminist Theories and Methods",
+      "confidence": 1.0,
+      "occurrences": 8,
+      "candidate_scores": {
+        "Feminist Theories and Methods": 8.0
+      }
+    },
+    {
+      "code": "FST04-934",
+      "title": "Senior Seminar (Capstone)",
+      "confidence": 1.0,
+      "occurrences": 7,
+      "candidate_scores": {
+        "Senior Seminar (Capstone)": 7.0
+      },
+      "cross_listed_with": [
+        "EDU40-964"
+      ]
+    },
+    {
+      "code": "HIS16-384",
+      "title": "Sciences and Its Publics",
+      "confidence": 0.8,
+      "occurrences": 5,
+      "candidate_scores": {
+        "Sciences and Its Publics": 4.0,
+        "Science and Its Publics": 1.0
+      }
+    },
+    {
+      "code": "ENV49-104",
+      "title": "Introduction to Environmental Studies",
+      "confidence": 1.0,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Introduction to Environmental Studies": 4.0
+      }
+    },
+    {
+      "code": "ENV49-364",
+      "title": "U.S. Environmental Policy",
+      "confidence": 1.0,
+      "occurrences": 4,
+      "candidate_scores": {
+        "U.S. Environmental Policy": 4.0
+      }
+    },
+    {
+      "code": "ENV49-964",
+      "title": "Capstone in Environmental Studies",
+      "confidence": 1.0,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Capstone in Environmental Studies": 3.0
+      }
+    },
+    {
+      "code": "ENV49-224",
+      "title": "Ecolab",
+      "confidence": 0.2,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Ecolab": 0.8
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "BIO50-154",
+      "title": "Climate Change",
+      "confidence": 1.0,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Climate Change": 4.0
+      }
+    },
+    {
+      "code": "BIO50-194",
+      "title": "Science of Chocolate",
+      "confidence": 1.0,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Science of Chocolate": 3.0
+      }
+    },
+    {
+      "code": "CHE51-024",
+      "title": "Chemistry of the Environment",
+      "confidence": 1.0,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Chemistry of the Environment": 3.0
+      }
+    },
+    {
+      "code": "CHE51-034",
+      "title": "Chemistry of Food",
+      "confidence": 1.0,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Chemistry of Food": 3.0
+      }
+    },
+    {
+      "code": "ANT35-334",
+      "title": "Global Environmental Justice",
+      "confidence": 1.0,
+      "occurrences": 8,
+      "candidate_scores": {
+        "Global Environmental Justice": 8.0
+      }
+    },
+    {
+      "code": "ENG10-724",
+      "title": "American Environmental Literature",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "American Environmental Literature": 2.0
+      }
+    },
+    {
+      "code": "PSC32-214",
+      "title": "Race and Ethnic Politics",
+      "confidence": 1.0,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Race and Ethnic Politics": 4.0
+      }
+    },
+    {
+      "code": "REL19-334",
+      "title": "Apocalypse and Dystopia",
+      "confidence": 1.0,
+      "occurrences": 8,
+      "candidate_scores": {
+        "Apocalypse and Dystopia": 8.0
+      }
+    },
+    {
+      "code": "REL19-344",
+      "title": "Animals and Religion",
+      "confidence": 1.0,
+      "occurrences": 10,
+      "candidate_scores": {
+        "Animals and Religion": 10.0
+      }
+    },
+    {
+      "code": "REL19-374",
+      "title": "Sacred Space and the Environment",
+      "confidence": 1.0,
+      "occurrences": 8,
+      "candidate_scores": {
+        "Sacred Space and the Environment": 8.0
+      }
+    },
+    {
+      "code": "COM75-464",
+      "title": "Environmental Communication",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Environmental Communication": 1.0
+      }
+    },
+    {
+      "code": "GER12-354",
+      "title": "German Culture",
+      "confidence": 0.8,
+      "occurrences": 5,
+      "candidate_scores": {
+        "German Culture": 4.0,
+        "Topics in German Culture": 1.0
+      }
+    },
+    {
+      "code": "GER12-714",
+      "title": "Transnational Identity Narratives: Gender/Nature/Culture",
+      "confidence": 0.75,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Transnational Identity Narratives: Gender/Nature/Culture": 3.0,
+        "Transnational Identity Narratives": 1.0
+      }
+    },
+    {
+      "code": "PHI18-234",
+      "title": "Environmental Philosophy",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Environmental Philosophy": 1.0
+      }
+    },
+    {
+      "code": "REL19-364",
+      "title": "Pilgrimage",
+      "confidence": 0.2,
+      "occurrences": 8,
+      "candidate_scores": {
+        "Pilgrimage": 1.6
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "SPA15-664",
+      "title": "Nature and Culture",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Nature and Culture": 2.0
+      }
+    },
+    {
+      "code": "ENV49-214",
+      "title": "Texas Our Texas",
+      "confidence": 0.5,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Texas Our Texas": 2.0
+      },
+      "flag_reasons": [
+        "weird_characters"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "ENV49-344",
+      "title": "Remote Sensing of the Environment",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Remote Sensing of the Environment": 1.0
+      }
+    },
+    {
+      "code": "ENV49-464",
+      "title": "Sustainable Cities",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Sustainable Cities": 1.0
+      }
+    },
+    {
+      "code": "CHI22-334",
+      "title": "Intermediate/Advanced Modern Chinese",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Intermediate/Advanced Modern Chinese": 1.0
+      }
+    },
+    {
+      "code": "REL19-814",
+      "title": "Doing Religion",
+      "confidence": 0.833,
+      "occurrences": 6,
+      "candidate_scores": {
+        "Doing Religion": 5.0,
+        "Doing Religion.": 1.0
+      }
+    },
+    {
+      "code": "REL19-204",
+      "title": "Christian Traditions",
+      "confidence": 1.0,
+      "occurrences": 7,
+      "candidate_scores": {
+        "Christian Traditions": 7.0
+      }
+    },
+    {
+      "code": "REL19-214",
+      "title": "Native American Traditions",
+      "confidence": 1.0,
+      "occurrences": 8,
+      "candidate_scores": {
+        "Native American Traditions": 8.0
+      }
+    },
+    {
+      "code": "REL19-224",
+      "title": "Jewish Traditions",
+      "confidence": 1.0,
+      "occurrences": 6,
+      "candidate_scores": {
+        "Jewish Traditions": 6.0
+      }
+    },
+    {
+      "code": "REL19-244",
+      "title": "Islamic Traditions",
+      "confidence": 1.0,
+      "occurrences": 6,
+      "candidate_scores": {
+        "Islamic Traditions": 6.0
+      }
+    },
+    {
+      "code": "REL19-274",
+      "title": "Hindu Traditions",
+      "confidence": 1.0,
+      "occurrences": 8,
+      "candidate_scores": {
+        "Hindu Traditions": 8.0
+      }
+    },
+    {
+      "code": "REL19-304",
+      "title": "Selected Topics",
+      "confidence": 1.0,
+      "occurrences": 5,
+      "candidate_scores": {
+        "Selected Topics": 5.0
+      }
+    },
+    {
+      "code": "REL19-324",
+      "title": "Women, Goddesses and Religion",
+      "confidence": 0.889,
+      "occurrences": 9,
+      "candidate_scores": {
+        "Women, Goddesses and Religion": 8.0,
+        "Women, Goddesses, and Religion": 1.0
+      }
+    },
+    {
+      "code": "REL19-354",
+      "title": "Gender and Sexuality in Native America",
+      "confidence": 1.0,
+      "occurrences": 7,
+      "candidate_scores": {
+        "Gender and Sexuality in Native America": 7.0
+      }
+    },
+    {
+      "code": "REL19-384",
+      "title": "Rastas, Saints and Virgins",
+      "confidence": 0.875,
+      "occurrences": 8,
+      "candidate_scores": {
+        "Rastas, Saints and Virgins": 7.0,
+        "Rastas, Saints, and Virgins": 1.0
+      }
+    },
+    {
+      "code": "REL19-394",
+      "title": "Indigenous Myth and Narrative",
+      "confidence": 1.0,
+      "occurrences": 6,
+      "candidate_scores": {
+        "Indigenous Myth and Narrative": 6.0
+      }
+    },
+    {
+      "code": "REL19-404",
+      "title": "Religion and Animation",
+      "confidence": 1.0,
+      "occurrences": 5,
+      "candidate_scores": {
+        "Religion and Animation": 5.0
+      }
+    },
+    {
+      "code": "REL19-414",
+      "title": "The Body in Religion",
+      "confidence": 1.0,
+      "occurrences": 7,
+      "candidate_scores": {
+        "The Body in Religion": 7.0
+      }
+    },
+    {
+      "code": "REL19-714",
+      "title": "Topics in Religion",
+      "confidence": 1.0,
+      "occurrences": 5,
+      "candidate_scores": {
+        "Topics in Religion": 5.0
+      }
+    },
+    {
+      "code": "REL19-894",
+      "title": "Religion Capstone",
+      "confidence": 0.6,
+      "occurrences": 5,
+      "candidate_scores": {
+        "Religion Capstone": 3.0,
+        "Religion Capstone (to be taken fall of senior year)": 2.0
+      }
+    },
+    {
+      "code": "FST04-944",
+      "title": "Academic Internship,",
+      "confidence": 0.7,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Academic Internship,": 1.0,
+        "Academic Internship and": 0.2
+      },
+      "cross_listed_with": [
+        "MUE77-943",
+        "PSY33-948"
+      ]
+    },
+    {
+      "code": "FST04-954",
+      "title": "Independent Study, with approval from the Feminist Studies Committee.",
+      "confidence": 0.5,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Independent Study, with approval from the Feminist Studies Committee.": 1.0,
+        "Independent Study, and": 0.2
+      }
+    },
+    {
+      "code": "FST04-984",
+      "title": "Honors, with approval from the Feminist Studies Committee.",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Honors, with approval from the Feminist Studies Committee.": 1.0
+      }
+    },
+    {
+      "code": "ENG10-264",
+      "title": "Chicana Literary Methods",
+      "confidence": 1.0,
+      "occurrences": 5,
+      "candidate_scores": {
+        "Chicana Literary Methods": 5.0
+      }
+    },
+    {
+      "code": "ANT35-244",
+      "title": "Race, Class and Gender in the Caribbean",
+      "confidence": 0.857,
+      "occurrences": 7,
+      "candidate_scores": {
+        "Race, Class and Gender in the Caribbean": 6.0,
+        "Race, Class, and Gender in the Caribbean": 1.0
+      }
+    },
+    {
+      "code": "COM75-254",
+      "title": "Understanding Power in Culture",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Understanding Power in Culture": 1.0
+      }
+    },
+    {
+      "code": "COM75-264",
+      "title": "Feminist Rhetoric",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Feminist Rhetoric": 1.0
+      }
+    },
+    {
+      "code": "COM75-284",
+      "title": "The Rhetoric of Surveillance",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "The Rhetoric of Surveillance": 2.0
+      }
+    },
+    {
+      "code": "COM75-564",
+      "title": "Gender and Communication",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Gender and Communication": 1.0
+      }
+    },
+    {
+      "code": "COM75-654",
+      "title": "Muslims in the Media",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Muslims in the Media": 2.0
+      }
+    },
+    {
+      "code": "ENG10-644",
+      "title": "Victorian Mystery",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Victorian Mystery": 1.0
+      }
+    },
+    {
+      "code": "ENG10-664",
+      "title": "Topics in Romanticism",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Topics in Romanticism": 2.0
+      }
+    },
+    {
+      "code": "ENG10-674",
+      "title": "Topics in Victorian Literature and Culture",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Topics in Victorian Literature and Culture": 2.0
+      }
+    },
+    {
+      "code": "ENG10-684",
+      "title": "Topics in 20th Century British Literature",
+      "confidence": 0.5,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Topics in 20th Century British Literature": 1.0,
+        "Topics in 20th-Century British Literature": 1.0
+      }
+    },
+    {
+      "code": "ENG10-694",
+      "title": "Austen/Bronte/Woolf",
+      "confidence": 0.2,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Austen/Bronte/Woolf": 0.2
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "ENG10-854",
+      "title": "Topics in Literature, Gender and Sexuality",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Topics in Literature, Gender and Sexuality": 1.0
+      }
+    },
+    {
+      "code": "ENG10-864",
+      "title": "Topics in Contemporary Literature",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Topics in Contemporary Literature": 1.0
+      }
+    },
+    {
+      "code": "ENG10-874",
+      "title": "Topics in American Ethnic Literature",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Topics in American Ethnic Literature": 2.0
+      }
+    },
+    {
+      "code": "ENG10-884",
+      "title": "African-American Literature",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "African-American Literature": 2.0
+      }
+    },
+    {
+      "code": "ENG10-894",
+      "title": "Latinx Literature",
+      "confidence": 1.0,
+      "occurrences": 5,
+      "candidate_scores": {
+        "Latinx Literature": 5.0
+      }
+    },
+    {
+      "code": "GER12-454",
+      "title": "Feminist Studies in German",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Feminist Studies in German": 1.0
+      }
+    },
+    {
+      "code": "PHI18-144",
+      "title": "Philosophy of Love and Sex",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Philosophy of Love and Sex": 2.0
+      }
+    },
+    {
+      "code": "PHI18-194",
+      "title": "Introduction to Feminist Philosophies",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Introduction to Feminist Philosophies": 2.0
+      }
+    },
+    {
+      "code": "PHI18-324",
+      "title": "The Embodied Self",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "The Embodied Self": 2.0
+      }
+    },
+    {
+      "code": "PHI18-354",
+      "title": "Critical Philosophy of Race",
+      "confidence": 0.75,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Critical Philosophy of Race": 3.0,
+        "Critical Philosophies of Race": 1.0
+      }
+    },
+    {
+      "code": "PHI18-374",
+      "title": "Feminist Ethics",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Feminist Ethics": 1.0
+      }
+    },
+    {
+      "code": "PSC32-234",
+      "title": "Sex, Power and Politics",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Sex, Power and Politics": 1.0
+      }
+    },
+    {
+      "code": "PSC32-324",
+      "title": "Sex and the State",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Sex and the State": 2.0
+      }
+    },
+    {
+      "code": "PSC32-644",
+      "title": "Radical Democracy, Radical Activism",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Radical Democracy, Radical Activism": 2.0
+      }
+    },
+    {
+      "code": "SOC34-214",
+      "title": "Christianity & Identity in U.S. Society",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Christianity & Identity in U.S. Society": 2.0
+      }
+    },
+    {
+      "code": "SOC34-234",
+      "title": "Sociology of Gender",
+      "confidence": 1.0,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Sociology of Gender": 3.0
+      }
+    },
+    {
+      "code": "SOC34-264",
+      "title": "Racial and Ethnic Perspectives",
+      "confidence": 1.0,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Racial and Ethnic Perspectives": 4.0
+      }
+    },
+    {
+      "code": "SOC34-284",
+      "title": "Sociology of the Family",
+      "confidence": 1.0,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Sociology of the Family": 4.0
+      }
+    },
+    {
+      "code": "SPA15-644",
+      "title": "Gender, Race, and Nationalism: Spanish Cinema",
+      "confidence": 0.5,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Gender, Race, and Nationalism: Spanish Cinema": 1.0,
+        "Gender, Race and Nationalism in Spanish Cinema": 1.0
+      }
+    },
+    {
+      "code": "SPA15-854",
+      "title": "Race and Immigration in Spanish Literature",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Race and Immigration in Spanish Literature": 2.0
+      }
+    },
+    {
+      "code": "BIO50-114",
+      "title": "Explorations in Biology",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Explorations in Biology": 1.0
+      }
+    },
+    {
+      "code": "BIO50-253",
+      "title": "Human Anatomy and Physiology I, and",
+      "confidence": 0.2,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Human Anatomy and Physiology I, and": 0.2
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "BIO50-251",
+      "title": "Integrative Approach to Human Anatomy & Physiology I",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Integrative Approach to Human Anatomy & Physiology I": 1.0
+      },
+      "cross_listed_with": [
+        "KIN48-251"
+      ]
+    },
+    {
+      "code": "KIN48-253",
+      "title": "Human Anatomy and Physiology I",
+      "confidence": 0.5,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Human Anatomy and Physiology I": 1.0,
+        "Human Anatomy and Physiology I, and": 0.2
+      }
+    },
+    {
+      "code": "KIN48-251",
+      "title": "Integrative Approach to Human Anatomy & Physiology I",
+      "confidence": 0.7,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Integrative Approach to Human Anatomy & Physiology I": 1.0,
+        "Integrative Approach to Human Anatomy and Physiology I": 1.0
+      },
+      "cross_listed_with": [
+        "BIO50-251"
+      ]
+    },
+    {
+      "code": "BIO50-263",
+      "title": "Human Anatomy and Physiology II, and",
+      "confidence": 0.2,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Human Anatomy and Physiology II, and": 0.2
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "BIO50-261",
+      "title": "Integrative Approach to Human Anatomy & Physiology II,",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Integrative Approach to Human Anatomy & Physiology II,": 1.0
+      },
+      "cross_listed_with": [
+        "KIN48-261"
+      ]
+    },
+    {
+      "code": "KIN48-263",
+      "title": "Human Anatomy and Physiology II",
+      "confidence": 0.5,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Human Anatomy and Physiology II": 1.0,
+        "Human Anatomy and Physiology II, and": 0.2
+      }
+    },
+    {
+      "code": "KIN48-261",
+      "title": "Integrative Approach to Human Anatomy & Physiology II",
+      "confidence": 0.7,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Integrative Approach to Human Anatomy & Physiology II": 1.0,
+        "Integrative Approach to Human Anatomy and Physiology II": 1.0
+      },
+      "cross_listed_with": [
+        "BIO50-261"
+      ]
+    },
+    {
+      "code": "BIO50-424",
+      "title": "Organ Physiology",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Organ Physiology": 2.0
+      }
+    },
+    {
+      "code": "CHE51-014",
+      "title": "Chemistry Appreciation",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Chemistry Appreciation": 1.0
+      }
+    },
+    {
+      "code": "KIN48-123",
+      "title": "Human Structure and Function",
+      "confidence": 0.714,
+      "occurrences": 7,
+      "candidate_scores": {
+        "Human Structure and Function": 5.0,
+        "Human Structure and Function, and": 0.4
+      }
+    },
+    {
+      "code": "KIN48-121",
+      "title": "Structural Kinesiology",
+      "confidence": 0.857,
+      "occurrences": 7,
+      "candidate_scores": {
+        "Structural Kinesiology": 6.0,
+        "Structural Kinesiology Lab": 1.0
+      }
+    },
+    {
+      "code": "KIN48-234",
+      "title": "Health and Fitness Concepts",
+      "confidence": 1.0,
+      "occurrences": 5,
+      "candidate_scores": {
+        "Health and Fitness Concepts": 5.0
+      }
+    },
+    {
+      "code": "KIN48-244",
+      "title": "Stress Management",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Stress Management": 1.0
+      }
+    },
+    {
+      "code": "KIN48-374",
+      "title": "Nutritional Sciences",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Nutritional Sciences": 2.0
+      }
+    },
+    {
+      "code": "KIN48-424",
+      "title": "Health Promotion and Programming",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Health Promotion and Programming": 2.0
+      }
+    },
+    {
+      "code": "KIN48-454",
+      "title": "Tissue Mechanics,",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Tissue Mechanics,": 1.0
+      },
+      "cross_listed_with": [
+        "BIO50-454"
+      ]
+    },
+    {
+      "code": "BIO50-454",
+      "title": "Tissue Mechanics",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Tissue Mechanics": 1.0
+      },
+      "cross_listed_with": [
+        "KIN48-454"
+      ]
+    },
+    {
+      "code": "CLA07-434",
+      "title": "Greek and Latin in Scientific Terminology",
+      "confidence": 1.0,
+      "occurrences": 5,
+      "candidate_scores": {
+        "Greek and Latin in Scientific Terminology": 5.0
+      }
+    },
+    {
+      "code": "ECO31-434",
+      "title": "Public Economics",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Public Economics": 1.0
+      }
+    },
+    {
+      "code": "GER12-332",
+      "title": "or Independent Study) may fulfill requirements for the major in German.",
+      "confidence": 0.5,
+      "occurrences": 4,
+      "candidate_scores": {
+        "or Independent Study) may fulfill requirements for the major in German.": 2.0,
+        "Speak German!,": 1.0,
+        "or Independent Study) may fulfill requirements for the minor in German": 1.0
+      }
+    },
+    {
+      "code": "GER12-334",
+      "title": "Speak German!",
+      "confidence": 1.0,
+      "occurrences": 5,
+      "candidate_scores": {
+        "Speak German!": 5.0
+      }
+    },
+    {
+      "code": "GER12-912",
+      "title": "Tutorial for Transnational Identity Narratives",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Tutorial for Transnational Identity Narratives": 1.0
+      }
+    },
+    {
+      "code": "HIS16-564",
+      "title": "Topics in the History of Science, Technology, and Medicine",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Topics in the History of Science, Technology, and Medicine": 1.0
+      }
+    },
+    {
+      "code": "LAT14-164",
+      "title": "Latin III",
+      "confidence": 0.5,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Latin III": 1.0,
+        "Intermediate Latin III": 1.0
+      }
+    },
+    {
+      "code": "PSY33-524",
+      "title": "Psychopathology and Clinical Science",
+      "confidence": 1.0,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Psychopathology and Clinical Science": 3.0
+      }
+    },
+    {
+      "code": "PSY33-534",
+      "title": "Behavioral Neuroscience",
+      "confidence": 0.867,
+      "occurrences": 6,
+      "candidate_scores": {
+        "Behavioral Neuroscience": 4.0,
+        "Behavioral Neuroscience,": 1.0,
+        "Behavioral Neuroscience cannot count in both the major and required supporting courses.": 1.0
+      },
+      "cross_listed_with": [
+        "BIO50-324"
+      ]
+    },
+    {
+      "code": "BIO50-324",
+      "title": "Behavioral Neuroscience",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Behavioral Neuroscience": 1.0
+      },
+      "cross_listed_with": [
+        "PSY33-534"
+      ]
+    },
+    {
+      "code": "SPA15-274",
+      "title": "Spanish for Healthcare Professions",
+      "confidence": 1.0,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Spanish for Healthcare Professions": 3.0
+      }
+    },
+    {
+      "code": "SPA15-284",
+      "title": "Culture and Health in Hispanic Communities",
+      "confidence": 1.0,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Culture and Health in Hispanic Communities": 3.0
+      }
+    },
+    {
+      "code": "SPA15-724",
+      "title": "Spanish Phonetics and Phonology",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Spanish Phonetics and Phonology": 2.0
+      }
+    },
+    {
+      "code": "FRE11-204",
+      "title": "Conversation and Culture",
+      "confidence": 1.0,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Conversation and Culture": 4.0
+      }
+    },
+    {
+      "code": "FRE11-934",
+      "title": "Capstone Seminar (to be taken in the spring of the junior or senior year)",
+      "confidence": 1.0,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Capstone Seminar (to be taken in the spring of the junior or senior year)": 3.0
+      },
+      "cross_listed_with": [
+        "GER12-934"
+      ]
+    },
+    {
+      "code": "GER12-314",
+      "title": "Reading German: Text in Context",
+      "confidence": 1.0,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Reading German: Text in Context": 4.0
+      }
+    },
+    {
+      "code": "GER12-344",
+      "title": "Topics in German Literature and Film",
+      "confidence": 1.0,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Topics in German Literature and Film": 4.0
+      }
+    },
+    {
+      "code": "GER12-934",
+      "title": "Capstone Seminar (to be taken in the spring of the junior or senior year)",
+      "confidence": 1.0,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Capstone Seminar (to be taken in the spring of the junior or senior year)": 3.0
+      },
+      "cross_listed_with": [
+        "FRE11-934"
+      ]
+    },
+    {
+      "code": "SPA15-354",
+      "title": "Cultures and Communities of Latin America",
+      "confidence": 1.0,
+      "occurrences": 7,
+      "candidate_scores": {
+        "Cultures and Communities of Latin America": 7.0
+      }
+    },
+    {
+      "code": "SPA15-364",
+      "title": "Cultures and Communities of Spain",
+      "confidence": 1.0,
+      "occurrences": 5,
+      "candidate_scores": {
+        "Cultures and Communities of Spain": 5.0
+      }
+    },
+    {
+      "code": "SPA15-934",
+      "title": "Research Seminar for Seniors (Capstone) (offered in spring only)",
+      "confidence": 0.6,
+      "occurrences": 5,
+      "candidate_scores": {
+        "Research Seminar for Seniors (Capstone) (offered in spring only)": 3.0,
+        "Research Seminar for Seniors (Capstone)": 2.0
+      }
+    },
+    {
+      "code": "BUS30-584",
+      "title": "International Business",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "International Business": 1.0
+      }
+    },
+    {
+      "code": "ECO31-564",
+      "title": "International Economics",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "International Economics": 1.0
+      }
+    },
+    {
+      "code": "ENV49-334",
+      "title": "Theories and Practices of Sustainable Development",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Theories and Practices of Sustainable Development": 2.0
+      }
+    },
+    {
+      "code": "GER12-734",
+      "title": "Global Leadership and Intercultural Communication",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Global Leadership and Intercultural Communication": 1.0
+      }
+    },
+    {
+      "code": "PHI18-214",
+      "title": "Politics & Economics",
+      "confidence": 0.5,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Politics & Economics": 1.0,
+        "Politics and Economics": 1.0
+      }
+    },
+    {
+      "code": "PHI18-244",
+      "title": "Native American Philosophies",
+      "confidence": 1.0,
+      "occurrences": 6,
+      "candidate_scores": {
+        "Native American Philosophies": 6.0
+      }
+    },
+    {
+      "code": "PHI18-254",
+      "title": "Philosophy, Race and Revolution",
+      "confidence": 1.0,
+      "occurrences": 6,
+      "candidate_scores": {
+        "Philosophy, Race and Revolution": 6.0
+      }
+    },
+    {
+      "code": "PHI18-284",
+      "title": "Latin American Philosophy",
+      "confidence": 1.0,
+      "occurrences": 7,
+      "candidate_scores": {
+        "Latin American Philosophy": 7.0
+      }
+    },
+    {
+      "code": "PHI18-314",
+      "title": "Marxisms",
+      "confidence": 0.2,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Marxisms": 0.2
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "PSC32-364",
+      "title": "Introduction to Political Theory",
+      "confidence": 0.75,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Introduction to Political Theory": 3.0,
+        "or 32-384 are prerequisites for this course.": 0.0
+      }
+    },
+    {
+      "code": "PSC32-184",
+      "title": "Politics of Latin America and the Caribbean",
+      "confidence": 0.714,
+      "occurrences": 7,
+      "candidate_scores": {
+        "Politics of Latin America and the Caribbean": 5.0,
+        "Politics of Latin America & Caribbean": 1.0,
+        "Politics in Latin America and the Caribbean": 1.0
+      }
+    },
+    {
+      "code": "PSC32-224",
+      "title": "Middle East Politics",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Middle East Politics": 1.0
+      }
+    },
+    {
+      "code": "PSC32-384",
+      "title": "International Politics",
+      "confidence": 1.0,
+      "occurrences": 3,
+      "candidate_scores": {
+        "International Politics": 3.0
+      }
+    },
+    {
+      "code": "PSC32-114",
+      "title": "American Politics",
+      "confidence": 0.667,
+      "occurrences": 3,
+      "candidate_scores": {
+        "American Politics": 2.0,
+        "American Politics as a prerequisite)": 0.0
+      }
+    },
+    {
+      "code": "PSC32-414",
+      "title": "European Politics",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "European Politics": 1.0
+      }
+    },
+    {
+      "code": "PSC32-544",
+      "title": "International Conflict",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "International Conflict": 1.0
+      }
+    },
+    {
+      "code": "PSC32-634",
+      "title": "Resistance, Rebellion & Revolution",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Resistance, Rebellion & Revolution": 1.0
+      }
+    },
+    {
+      "code": "ARH71-054",
+      "title": "Introduction to Art History: Modern",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Introduction to Art History: Modern": 1.0
+      }
+    },
+    {
+      "code": "ARH71-354",
+      "title": "Topics in Non-Western Art",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Topics in Non-Western Art": 1.0
+      }
+    },
+    {
+      "code": "ARH71-454",
+      "title": "Topics in Pre- or Early Modern European Art",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Topics in Pre- or Early Modern European Art": 1.0
+      }
+    },
+    {
+      "code": "ARH71-484",
+      "title": "World Architecture: A Comparative Cultural History",
+      "confidence": 1.0,
+      "occurrences": 4,
+      "candidate_scores": {
+        "World Architecture: A Comparative Cultural History": 4.0
+      }
+    },
+    {
+      "code": "ARH71-494",
+      "title": "Modern Architecture",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Modern Architecture": 1.0
+      }
+    },
+    {
+      "code": "ARH71-534",
+      "title": "Modernism and the 20th c. Avant-Gardes",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Modernism and the 20th c. Avant-Gardes": 1.0
+      }
+    },
+    {
+      "code": "ENG10-164",
+      "title": "From Romanticism to Modernism",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "From Romanticism to Modernism": 1.0
+      }
+    },
+    {
+      "code": "ENG10-514",
+      "title": "World Cinema",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "World Cinema": 1.0
+      }
+    },
+    {
+      "code": "ENG10-654",
+      "title": "Topics in 18th-Century British Literature",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Topics in 18th-Century British Literature": 1.0
+      }
+    },
+    {
+      "code": "MUL80-114",
+      "title": "Introduction to Music Literature",
+      "confidence": 1.0,
+      "occurrences": 12,
+      "candidate_scores": {
+        "Introduction to Music Literature": 12.0
+      }
+    },
+    {
+      "code": "MUL80-314",
+      "title": "Music History since",
+      "confidence": 0.833,
+      "occurrences": 12,
+      "candidate_scores": {
+        "Music History since": 10.0,
+        "Music History Since": 2.0
+      }
+    },
+    {
+      "code": "MUL80-414",
+      "title": "Advanced Topics in Music History and Literature",
+      "confidence": 0.833,
+      "occurrences": 12,
+      "candidate_scores": {
+        "Advanced Topics in Music History and Literature": 10.0,
+        "Special Topics in Music History and Literature": 2.0
+      }
+    },
+    {
+      "code": "MUL80-424",
+      "title": "Music in the Cultures of Print and Performance",
+      "confidence": 0.5,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Music in the Cultures of Print and Performance": 1.0,
+        "Music in The Cultures of Print and Performance": 1.0
+      }
+    },
+    {
+      "code": "MUL80-434",
+      "title": "Music, Gender, and Sexuality",
+      "confidence": 0.5,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Music, Gender, and Sexuality": 1.0,
+        "Music, Gender and Sexuality": 1.0
+      }
+    },
+    {
+      "code": "MUL80-444",
+      "title": "Music, Race, and Nationality",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Music, Race, and Nationality": 2.0
+      }
+    },
+    {
+      "code": "MUL80-454",
+      "title": "Studies in Musical Genre and Repertoire",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Studies in Musical Genre and Repertoire": 2.0
+      }
+    },
+    {
+      "code": "KIN48-334",
+      "title": "Physiology of Exercise",
+      "confidence": 1.0,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Physiology of Exercise": 3.0
+      }
+    },
+    {
+      "code": "KIN48-344",
+      "title": "Biomechanics",
+      "confidence": 0.2,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Biomechanics": 0.4
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "KIN48-444",
+      "title": "Exercise Prescription",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Exercise Prescription": 1.0
+      }
+    },
+    {
+      "code": "KIN48-481",
+      "title": "Introduction to Capstone",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Introduction to Capstone": 2.0
+      }
+    },
+    {
+      "code": "KIN48-483",
+      "title": "Experiential Capstone in Kinesiology,",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Experiential Capstone in Kinesiology,": 2.0
+      }
+    },
+    {
+      "code": "KIN48-493",
+      "title": "Experimental Capstone in Kinesiology",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Experimental Capstone in Kinesiology": 2.0
+      }
+    },
+    {
+      "code": "KIN48-112",
+      "title": "Explorations in Kinesiology",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Explorations in Kinesiology": 2.0
+      }
+    },
+    {
+      "code": "KIN48-182",
+      "title": "Methods of Coaching",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Methods of Coaching": 1.0
+      }
+    },
+    {
+      "code": "KIN48-192",
+      "title": "Philosophy of Coaching",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Philosophy of Coaching": 1.0
+      }
+    },
+    {
+      "code": "KIN48-224",
+      "title": "Care and Prevention of Athletic Injuries",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Care and Prevention of Athletic Injuries": 1.0
+      }
+    },
+    {
+      "code": "KIN48-274",
+      "title": "Fundamentals of Movement Analysis",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Fundamentals of Movement Analysis": 1.0
+      }
+    },
+    {
+      "code": "KIN48-434",
+      "title": "Theory and Practice in Strength and Conditioning",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Theory and Practice in Strength and Conditioning": 1.0
+      }
+    },
+    {
+      "code": "CHI22-164",
+      "title": "Chinese III: Intermediate Language and Culture",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Chinese III: Intermediate Language and Culture": 1.0
+      }
+    },
+    {
+      "code": "LAT14-204",
+      "title": "Cicero in Context",
+      "confidence": 1.0,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Cicero in Context": 3.0
+      }
+    },
+    {
+      "code": "LAT14-244",
+      "title": "Vergil Aeneid",
+      "confidence": 1.0,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Vergil Aeneid": 3.0
+      }
+    },
+    {
+      "code": "LAT14-344",
+      "title": "Livy and Exemplary History",
+      "confidence": 1.0,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Livy and Exemplary History": 3.0
+      }
+    },
+    {
+      "code": "LAT14-354",
+      "title": "Petronius Satyricon: Dinner at Trimalchio\u2019s, and other Adventures in Campania",
+      "confidence": 1.0,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Petronius Satyricon: Dinner at Trimalchio\u2019s, and other Adventures in Campania": 3.0
+      }
+    },
+    {
+      "code": "LAT14-404",
+      "title": "Love is a Battlefield: Latin Elegiac Poetry",
+      "confidence": 1.0,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Love is a Battlefield: Latin Elegiac Poetry": 3.0
+      }
+    },
+    {
+      "code": "LAT14-444",
+      "title": "Vices and Virtues in the Early Roman Empire",
+      "confidence": 1.0,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Vices and Virtues in the Early Roman Empire": 3.0
+      }
+    },
+    {
+      "code": "LAT14-454",
+      "title": "Rome and the Epigraphic Habit",
+      "confidence": 1.0,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Rome and the Epigraphic Habit": 3.0
+      }
+    },
+    {
+      "code": "GRK13-144",
+      "title": "Greek I, and",
+      "confidence": 0.2,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Greek I, and": 0.2
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "GRK13-154",
+      "title": "Greek II, and",
+      "confidence": 0.1,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Greek II, and": 0.2,
+        "Introductory Greek II, and": 0.2
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.10"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "GRK13-164",
+      "title": "Greek III",
+      "confidence": 0.5,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Greek III": 1.0,
+        "Intermediate Greek III": 1.0
+      }
+    },
+    {
+      "code": "ARH71-064",
+      "title": "Introduction to Art History: Topics focused on Greek and Italian Renaissance",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Introduction to Art History: Topics focused on Greek and Italian Renaissance": 2.0
+      }
+    },
+    {
+      "code": "CLA07-204",
+      "title": "Greek and Roman Mythology",
+      "confidence": 1.0,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Greek and Roman Mythology": 3.0
+      }
+    },
+    {
+      "code": "CLA07-234",
+      "title": "The Marble Cinematic Universe: Classics in the Cinema",
+      "confidence": 1.0,
+      "occurrences": 3,
+      "candidate_scores": {
+        "The Marble Cinematic Universe: Classics in the Cinema": 3.0
+      }
+    },
+    {
+      "code": "CLA07-244",
+      "title": "Sweaty Antiquity: Sport and Spectacle in Ancient Greece and Rome",
+      "confidence": 1.0,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Sweaty Antiquity: Sport and Spectacle in Ancient Greece and Rome": 3.0
+      }
+    },
+    {
+      "code": "CLA07-324",
+      "title": "Invisible Romans: Sub-Elite and Marginalized Populations in the Roman World",
+      "confidence": 0.75,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Invisible Romans: Sub-Elite and Marginalized Populations in the Roman World": 3.0,
+        "Invisible Romans: Sub-Elite and Marginal Populations in the Roman Empire": 1.0
+      }
+    },
+    {
+      "code": "CLA07-334",
+      "title": "Emperors Behaving Badly: A History of Roman Imperial Power",
+      "confidence": 1.0,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Emperors Behaving Badly: A History of Roman Imperial Power": 4.0
+      }
+    },
+    {
+      "code": "CLA07-344",
+      "title": "War and Society in Ancient Greece and Rome",
+      "confidence": 1.0,
+      "occurrences": 3,
+      "candidate_scores": {
+        "War and Society in Ancient Greece and Rome": 3.0
+      }
+    },
+    {
+      "code": "CLA07-404",
+      "title": "An Empire of Cities: Urban Life in the Roman World",
+      "confidence": 1.0,
+      "occurrences": 3,
+      "candidate_scores": {
+        "An Empire of Cities: Urban Life in the Roman World": 3.0
+      }
+    },
+    {
+      "code": "CLA07-444",
+      "title": "Classical Sites and Monuments",
+      "confidence": 1.0,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Classical Sites and Monuments": 3.0
+      }
+    },
+    {
+      "code": "GRK13-934",
+      "title": "Capstone Seminar,",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Capstone Seminar,": 1.0
+      },
+      "cross_listed_with": [
+        "LAT14-934",
+        "CLA07-934"
+      ]
+    },
+    {
+      "code": "GRK13-954",
+      "title": "Independent Study taken as Capstone",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Independent Study taken as Capstone": 1.0
+      },
+      "cross_listed_with": [
+        "LAT14-954",
+        "CLA07-954"
+      ]
+    },
+    {
+      "code": "LAT14-934",
+      "title": "Capstone Seminar,",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Capstone Seminar,": 1.0
+      },
+      "cross_listed_with": [
+        "GRK13-934",
+        "CLA07-934"
+      ]
+    },
+    {
+      "code": "LAT14-954",
+      "title": "Independent Study taken as Capstone",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Independent Study taken as Capstone": 1.0
+      },
+      "cross_listed_with": [
+        "GRK13-954",
+        "CLA07-954"
+      ]
+    },
+    {
+      "code": "LAT14-154",
+      "title": "Introductory Latin II, and",
+      "confidence": 0.2,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Introductory Latin II, and": 0.2
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "CLA07-934",
+      "title": "Capstone Seminar,",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Capstone Seminar,": 1.0
+      },
+      "cross_listed_with": [
+        "GRK13-934",
+        "LAT14-934"
+      ]
+    },
+    {
+      "code": "CLA07-954",
+      "title": "Independent Study, taken as Capstone",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Independent Study, taken as Capstone": 1.0
+      },
+      "cross_listed_with": [
+        "GRK13-954",
+        "LAT14-954"
+      ]
+    },
+    {
+      "code": "COM75-424",
+      "title": "Latina/o/x Communication Studies",
+      "confidence": 1.0,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Latina/o/x Communication Studies": 4.0
+      }
+    },
+    {
+      "code": "FST04-314",
+      "title": "Latina Lesbian Literature",
+      "confidence": 1.0,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Latina Lesbian Literature": 4.0
+      }
+    },
+    {
+      "code": "THE72-524",
+      "title": "Latinx Drama",
+      "confidence": 1.0,
+      "occurrences": 5,
+      "candidate_scores": {
+        "Latinx Drama": 5.0
+      }
+    },
+    {
+      "code": "LAS06-964",
+      "title": "Capstone",
+      "confidence": 0.4,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Capstone": 0.6
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false,
+      "cross_listed_with": [
+        "INS38-894"
+      ]
+    },
+    {
+      "code": "SPA15-164",
+      "title": "Spanish III and majors must take two additional courses above",
+      "confidence": 0.333,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Spanish III and majors must take two additional courses above": 1.0,
+        "Spanish III. See the Spanish": 1.0,
+        "Spanish III, if taken for college level credit, may also count.": 0.5
+      },
+      "flag_reasons": [
+        "low_confidence_score:0.33"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "ENG10-174",
+      "title": "Topics in American Literature: Borderlands",
+      "confidence": 0.75,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Topics in American Literature: Borderlands": 3.0,
+        "Topics in American Literature": 1.0
+      }
+    },
+    {
+      "code": "SPA15-214",
+      "title": "Written and Oral Expression",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Written and Oral Expression": 1.0
+      }
+    },
+    {
+      "code": "SPA15-334",
+      "title": "Conversation Through Hispanic Cinema",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Conversation Through Hispanic Cinema": 1.0
+      }
+    },
+    {
+      "code": "SPA15-344",
+      "title": "Introduction to Literary Studies",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Introduction to Literary Studies": 1.0
+      }
+    },
+    {
+      "code": "SPA15-444",
+      "title": "Hispano-American Literature Abroad",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Hispano-American Literature Abroad": 1.0
+      }
+    },
+    {
+      "code": "SPA15-454",
+      "title": "Hispano-American Culture Abroad",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Hispano-American Culture Abroad": 1.0
+      }
+    },
+    {
+      "code": "SPA15-504",
+      "title": "Selected Topics in Hispano-American Literature",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Selected Topics in Hispano-American Literature": 1.0
+      }
+    },
+    {
+      "code": "SPA15-534",
+      "title": "Cultural Memory in Latin America",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Cultural Memory in Latin America": 2.0
+      }
+    },
+    {
+      "code": "SPA15-614",
+      "title": "Topics in Hispanic Film",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Topics in Hispanic Film": 1.0
+      }
+    },
+    {
+      "code": "SPA15-624",
+      "title": "Topics in Hispanic Literature",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Topics in Hispanic Literature": 1.0
+      }
+    },
+    {
+      "code": "SPA15-634",
+      "title": "Topics in Hispanic Culture",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Topics in Hispanic Culture": 1.0
+      }
+    },
+    {
+      "code": "SPA15-654",
+      "title": "Citizenship and Conflict in Colombian Cinema",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Citizenship and Conflict in Colombian Cinema": 2.0
+      }
+    },
+    {
+      "code": "SPA15-674",
+      "title": "Leisure and Play in Latin America",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Leisure and Play in Latin America": 2.0
+      }
+    },
+    {
+      "code": "SPA15-734",
+      "title": "Spanish in the United States",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Spanish in the United States": 2.0
+      }
+    },
+    {
+      "code": "MAT52-684",
+      "title": "Algebraic Structures",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Algebraic Structures": 2.0
+      }
+    },
+    {
+      "code": "MAT52-854",
+      "title": "Real Analysis",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Real Analysis": 2.0
+      }
+    },
+    {
+      "code": "MAT52-894",
+      "title": "Senior Seminar in Mathematics (Capstone, to be taken in the fall of the senior year)",
+      "confidence": 0.25,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Senior Seminar in Mathematics (Capstone, to be taken in the fall of the senior year)": 1.0,
+        "Senior Seminar in Mathematics (Capstone, to be taken in the fall of the senior year),": 1.0
+      },
+      "flag_reasons": [
+        "likely_description",
+        "low_confidence_score:0.25"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "PHY53-454",
+      "title": "Math Methods in Physical Science",
+      "confidence": 1.0,
+      "occurrences": 10,
+      "candidate_scores": {
+        "Math Methods in Physical Science": 10.0
+      }
+    },
+    {
+      "code": "MAT52-754",
+      "title": "Differential Equations",
+      "confidence": 1.0,
+      "occurrences": 6,
+      "candidate_scores": {
+        "Differential Equations": 6.0
+      }
+    },
+    {
+      "code": "CSC54-384",
+      "title": "Discrete Mathematics",
+      "confidence": 1.0,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Discrete Mathematics": 4.0
+      }
+    },
+    {
+      "code": "CSC54-394",
+      "title": "Computer Organization",
+      "confidence": 1.0,
+      "occurrences": 5,
+      "candidate_scores": {
+        "Computer Organization": 5.0
+      }
+    },
+    {
+      "code": "CSC54-474",
+      "title": "Programming Languages",
+      "confidence": 1.0,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Programming Languages": 3.0
+      }
+    },
+    {
+      "code": "CSC54-644",
+      "title": "Computer Systems",
+      "confidence": 1.0,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Computer Systems": 3.0
+      }
+    },
+    {
+      "code": "CSC54-894",
+      "title": "Senior Seminar in Software Engineering (Capstone, to be taken in the spring of the senior year)",
+      "confidence": 0.5,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Senior Seminar in Software Engineering (Capstone, to be taken in the spring of the senior year)": 2.0
+      },
+      "flag_reasons": [
+        "likely_description"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "CSC54-424",
+      "title": "Artificial Intelligence",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Artificial Intelligence": 2.0
+      }
+    },
+    {
+      "code": "CSC54-684",
+      "title": "Theory of Computation",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Theory of Computation": 1.0
+      }
+    },
+    {
+      "code": "MAT52-524",
+      "title": "Introduction to Numerical Analysis",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Introduction to Numerical Analysis": 2.0
+      }
+    },
+    {
+      "code": "MUT76-101",
+      "title": "Aural Skills I",
+      "confidence": 0.75,
+      "occurrences": 12,
+      "candidate_scores": {
+        "Aural Skills I": 9.0,
+        "Music Theory I: Fundamentals": 1.0,
+        "and": 0.2,
+        "Aural Skills I, and": 0.2
+      }
+    },
+    {
+      "code": "MUT76-103",
+      "title": "Music Theory I: Fundamentals",
+      "confidence": 0.833,
+      "occurrences": 12,
+      "candidate_scores": {
+        "Music Theory I: Fundamentals": 10.0,
+        "through a Music Theory Placement Exam or by": 1.0,
+        "Aural Skills I": 1.0
+      }
+    },
+    {
+      "code": "MUL80-100",
+      "title": "Music Colloquium (four semesters for transfer students)",
+      "confidence": 0.9,
+      "occurrences": 10,
+      "candidate_scores": {
+        "Music Colloquium (four semesters for transfer students)": 9.0,
+        "Music Colloquium": 1.0
+      }
+    },
+    {
+      "code": "MUL80-124",
+      "title": "World Music",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "World Music": 2.0
+      }
+    },
+    {
+      "code": "MUL80-134",
+      "title": "Music in the United States",
+      "confidence": 1.0,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Music in the United States": 3.0
+      }
+    },
+    {
+      "code": "MUT76-111",
+      "title": "Aural Skills II",
+      "confidence": 0.909,
+      "occurrences": 11,
+      "candidate_scores": {
+        "Aural Skills II": 10.0,
+        "Aural Skills II, and": 0.2
+      }
+    },
+    {
+      "code": "MUT76-113",
+      "title": "Music Theory II: Harmony in Practice",
+      "confidence": 0.909,
+      "occurrences": 11,
+      "candidate_scores": {
+        "Music Theory II: Harmony in Practice": 10.0,
+        "Music Theory II -: Harmony in Practice": 1.0
+      }
+    },
+    {
+      "code": "MUT76-211",
+      "title": "Aural Skills III",
+      "confidence": 1.0,
+      "occurrences": 10,
+      "candidate_scores": {
+        "Aural Skills III": 10.0
+      }
+    },
+    {
+      "code": "MUT76-213",
+      "title": "Music Theory III: Form and Analysis",
+      "confidence": 0.9,
+      "occurrences": 10,
+      "candidate_scores": {
+        "Music Theory III: Form and Analysis": 9.0,
+        "Music Theory III Form and Analysis": 1.0
+      }
+    },
+    {
+      "code": "ENS78-101",
+      "title": "Southwestern University Wind Ensemble",
+      "confidence": 1.0,
+      "occurrences": 7,
+      "candidate_scores": {
+        "Southwestern University Wind Ensemble": 7.0
+      }
+    },
+    {
+      "code": "ENS78-111",
+      "title": "Southwestern University Jazz Band",
+      "confidence": 0.2,
+      "occurrences": 5,
+      "candidate_scores": {
+        "Southwestern University Jazz Band": 1.0
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "ENS78-121",
+      "title": "Southwestern University Singers",
+      "confidence": 0.875,
+      "occurrences": 8,
+      "candidate_scores": {
+        "Southwestern University Singers": 7.0,
+        "Southwestern University Singers (with approval of department chair)": 1.0
+      }
+    },
+    {
+      "code": "ENS78-131",
+      "title": "Southwestern University Chorale",
+      "confidence": 0.875,
+      "occurrences": 8,
+      "candidate_scores": {
+        "Southwestern University Chorale": 7.0,
+        "Southwestern University Chorale (with approval of department chair)": 1.0
+      }
+    },
+    {
+      "code": "ENS78-141",
+      "title": "Opera Theatre",
+      "confidence": 1.0,
+      "occurrences": 5,
+      "candidate_scores": {
+        "Opera Theatre": 5.0
+      }
+    },
+    {
+      "code": "ENS78-171",
+      "title": "Southwestern University Orchestra",
+      "confidence": 1.0,
+      "occurrences": 7,
+      "candidate_scores": {
+        "Southwestern University Orchestra": 7.0
+      }
+    },
+    {
+      "code": "MUL80-702",
+      "title": "Diction in Vocal Music",
+      "confidence": 1.0,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Diction in Vocal Music": 3.0
+      }
+    },
+    {
+      "code": "MUT76-343",
+      "title": "Orchestration",
+      "confidence": 0.2,
+      "occurrences": 5,
+      "candidate_scores": {
+        "Orchestration": 1.0
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "MUT76-411",
+      "title": "Aural Skills IV",
+      "confidence": 1.0,
+      "occurrences": 9,
+      "candidate_scores": {
+        "Aural Skills IV": 9.0
+      }
+    },
+    {
+      "code": "MUT76-413",
+      "title": "Music Theory IV: 20th-Century Music",
+      "confidence": 1.0,
+      "occurrences": 9,
+      "candidate_scores": {
+        "Music Theory IV: 20th-Century Music": 9.0
+      }
+    },
+    {
+      "code": "MUE77-423",
+      "title": "Methods of Music in the Elementary School",
+      "confidence": 1.0,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Methods of Music in the Elementary School": 4.0
+      }
+    },
+    {
+      "code": "MUE77-443",
+      "title": "Choral Music Education",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Choral Music Education": 2.0
+      }
+    },
+    {
+      "code": "MUE77-603",
+      "title": "Introductory Conducting",
+      "confidence": 1.0,
+      "occurrences": 9,
+      "candidate_scores": {
+        "Introductory Conducting": 9.0
+      }
+    },
+    {
+      "code": "MUE77-633",
+      "title": "Advanced Choral Conducting",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Advanced Choral Conducting": 2.0
+      }
+    },
+    {
+      "code": "MUE77-943",
+      "title": "Academic Internship",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Academic Internship": 2.0
+      },
+      "cross_listed_with": [
+        "FST04-944",
+        "PSY33-948"
+      ]
+    },
+    {
+      "code": "MUE77-311",
+      "title": "String Methods",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "String Methods": 2.0
+      }
+    },
+    {
+      "code": "MUE77-321",
+      "title": "Woodwind Methods",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Woodwind Methods": 2.0
+      }
+    },
+    {
+      "code": "MUE77-331",
+      "title": "Brass Methods",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Brass Methods": 2.0
+      }
+    },
+    {
+      "code": "MUE77-341",
+      "title": "Percussion Methods",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Percussion Methods": 2.0
+      }
+    },
+    {
+      "code": "MUE77-351",
+      "title": "Vocal Methods",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Vocal Methods": 2.0
+      }
+    },
+    {
+      "code": "MUE77-473",
+      "title": "Methods of Marching Band Performance",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Methods of Marching Band Performance": 2.0
+      }
+    },
+    {
+      "code": "MUE77-623",
+      "title": "Advanced Instrumental Conducting",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Advanced Instrumental Conducting": 2.0
+      }
+    },
+    {
+      "code": "MUL80-712",
+      "title": "Song Literature and Performance",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Song Literature and Performance": 1.0
+      }
+    },
+    {
+      "code": "MUE77-522",
+      "title": "Vocal Pedagogy",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Vocal Pedagogy": 1.0
+      }
+    },
+    {
+      "code": "MUL80-602",
+      "title": "Piano Solo Repertoire A",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Piano Solo Repertoire A": 1.0
+      }
+    },
+    {
+      "code": "MUL80-612",
+      "title": "Piano Solo Repertoire B",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Piano Solo Repertoire B": 1.0
+      }
+    },
+    {
+      "code": "MUE77-532",
+      "title": "Piano Pedagogy",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Piano Pedagogy": 1.0
+      }
+    },
+    {
+      "code": "ENS78-151",
+      "title": "Chamber Music (Instrumental)",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Chamber Music (Instrumental)": 2.0
+      }
+    },
+    {
+      "code": "MUL80-622",
+      "title": "Instrumental Pedagogy and Literature",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Instrumental Pedagogy and Literature": 1.0
+      }
+    },
+    {
+      "code": "MUL80-953",
+      "title": "Independent Study (Capstone)",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Independent Study (Capstone)": 1.0
+      }
+    },
+    {
+      "code": "MUT76-313",
+      "title": "Counterpoint",
+      "confidence": 0.2,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Counterpoint": 0.4
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "MUT76-544",
+      "title": "Applied Composition (Capstone)",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Applied Composition (Capstone)": 1.0
+      }
+    },
+    {
+      "code": "NEU55-104",
+      "title": "Explorations in Neuroscience",
+      "confidence": 1.0,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Explorations in Neuroscience": 3.0
+      }
+    },
+    {
+      "code": "PSY33-834",
+      "title": "Research in Behavioral Neuroscience",
+      "confidence": 1.0,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Research in Behavioral Neuroscience": 4.0
+      }
+    },
+    {
+      "code": "BIO50-524",
+      "title": "Endocrinology",
+      "confidence": 0.2,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Endocrinology": 0.2
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "MUL80-104",
+      "title": "Introduction to Music",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Introduction to Music": 1.0
+      }
+    },
+    {
+      "code": "PSY33-384",
+      "title": "Learning and Cognition",
+      "confidence": 1.0,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Learning and Cognition": 3.0
+      }
+    },
+    {
+      "code": "PSY32-524",
+      "title": "Psychopathology and Clinical Sciences",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Psychopathology and Clinical Sciences": 1.0
+      }
+    },
+    {
+      "code": "PHI18-614",
+      "title": "Ethos, Identities, Differences",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Ethos, Identities, Differences": 1.0
+      }
+    },
+    {
+      "code": "PHI18-624",
+      "title": "Being, Structure, Change",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Being, Structure, Change": 1.0
+      }
+    },
+    {
+      "code": "PHI18-634",
+      "title": "Experience, Language, Knowledge",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Experience, Language, Knowledge": 1.0
+      }
+    },
+    {
+      "code": "PHI18-644",
+      "title": "Peoples, Power, Organization",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Peoples, Power, Organization": 2.0
+      }
+    },
+    {
+      "code": "PHI18-914",
+      "title": "Colloquium in Philosophy (Capstone, to be taken fall of the senior year)",
+      "confidence": 0.5,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Colloquium in Philosophy (Capstone, to be taken fall of the senior year)": 0.5
+      },
+      "flag_reasons": [
+        "likely_description"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "PHY53-324",
+      "title": "Electromagnetism I",
+      "confidence": 1.0,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Electromagnetism I": 4.0
+      }
+    },
+    {
+      "code": "PHY53-334",
+      "title": "Classical Mechanics I",
+      "confidence": 1.0,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Classical Mechanics I": 4.0
+      }
+    },
+    {
+      "code": "PHY53-872",
+      "title": "Capstone Course",
+      "confidence": 1.0,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Capstone Course": 3.0
+      }
+    },
+    {
+      "code": "PHY53-254",
+      "title": "Observing the Universe",
+      "confidence": 1.0,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Observing the Universe": 3.0
+      }
+    },
+    {
+      "code": "PHY53-413",
+      "title": "Classical Mechanics II",
+      "confidence": 1.0,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Classical Mechanics II": 3.0
+      }
+    },
+    {
+      "code": "PHY53-424",
+      "title": "Quantum Mechanics",
+      "confidence": 1.0,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Quantum Mechanics": 3.0
+      },
+      "cross_listed_with": [
+        "CHE51-714"
+      ]
+    },
+    {
+      "code": "PHY53-433",
+      "title": "Electromagnetism II",
+      "confidence": 1.0,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Electromagnetism II": 3.0
+      }
+    },
+    {
+      "code": "PHY53-463",
+      "title": "Dynamics",
+      "confidence": 0.2,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Dynamics": 0.8
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "PHY53-473",
+      "title": "Thermodynamics",
+      "confidence": 0.15,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Thermodynamics": 0.6,
+        "Thermodynamics.": 0.2
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.15"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "PSC32-964",
+      "title": "Senior Seminar (Capstone, to be taken in the senior year)",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Senior Seminar (Capstone, to be taken in the senior year)": 1.0
+      }
+    },
+    {
+      "code": "PSY33-211",
+      "title": "Lab for Inquiry-Based Research Methods; required for all 800 courses (i.e., a research capstone)",
+      "confidence": -0.5,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Lab for Inquiry-Based Research Methods; required for all 800 courses (i.e., a research capstone)": -1.0
+      },
+      "flag_reasons": [
+        "contains_keyword:required for",
+        "likely_description",
+        "low_confidence_score:-0.50"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "PSY33-221",
+      "title": "Lab for Inquiry-Based Research Methods (with Animals); required for all 800 courses (i.e., a research",
+      "confidence": -0.5,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Lab for Inquiry-Based Research Methods (with Animals); required for all 800 courses (i.e., a research": -1.0
+      },
+      "flag_reasons": [
+        "contains_keyword:required for",
+        "likely_description",
+        "low_confidence_score:-0.50"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "PSY33-334",
+      "title": "Personality Theory and Research",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Personality Theory and Research": 2.0
+      }
+    },
+    {
+      "code": "PSY33-374",
+      "title": "Evolutionary Psychology",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Evolutionary Psychology": 2.0
+      }
+    },
+    {
+      "code": "PSY33-564",
+      "title": "Social Psychology",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Social Psychology": 2.0
+      }
+    },
+    {
+      "code": "PSY33-574",
+      "title": "Close Relationships",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Close Relationships": 2.0
+      }
+    },
+    {
+      "code": "PSY33-353",
+      "title": "Cross-Cultural Psychology",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Cross-Cultural Psychology": 2.0
+      }
+    },
+    {
+      "code": "PSY33-364",
+      "title": "Sexuality and Culture",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Sexuality and Culture": 2.0
+      }
+    },
+    {
+      "code": "PSY33-412",
+      "title": "Careers in Psychology I is limited to First Year and Sophomore level students. Exceptions to this restriction",
+      "confidence": 0.2,
+      "occurrences": 5,
+      "candidate_scores": {
+        "Careers in Psychology I is limited to First Year and Sophomore level students. Exceptions to this restriction": 1.0,
+        "Careers in": 1.0,
+        "Careers in Psychology I, and": 0.4,
+        "Careers in Psychology I and": 0.2
+      },
+      "flag_reasons": [
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "PSY33-422",
+      "title": "Careers in Psychology II",
+      "confidence": 0.4,
+      "occurrences": 5,
+      "candidate_scores": {
+        "Careers in Psychology II": 2.0,
+        "Careers in Psychology II may not be taken concurrently in the same semester.": 2.0,
+        "Careers in Psychology II is limited to Junior and Senior level students who have completed one of the": 1.0
+      },
+      "flag_reasons": [
+        "low_confidence_score:0.40"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "PSY33-474",
+      "title": "Forensic Psychology",
+      "confidence": 1.0,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Forensic Psychology": 3.0
+      }
+    },
+    {
+      "code": "PSY33-824",
+      "title": "Research in Applied Psychology",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Research in Applied Psychology": 2.0
+      }
+    },
+    {
+      "code": "PSY33-844",
+      "title": "Research in Clinical Psychology",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Research in Clinical Psychology": 2.0
+      }
+    },
+    {
+      "code": "PSY33-864",
+      "title": "Research in Developmental Psychology",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Research in Developmental Psychology": 2.0
+      }
+    },
+    {
+      "code": "PSY33-874",
+      "title": "Research in Social Psychology",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Research in Social Psychology": 2.0
+      }
+    },
+    {
+      "code": "PSY33-884",
+      "title": "Research in Cognitive Evolutionary Psychology",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Research in Cognitive Evolutionary Psychology": 2.0
+      }
+    },
+    {
+      "code": "PSY33-948",
+      "title": "Academic Internship",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Academic Internship": 2.0
+      },
+      "cross_listed_with": [
+        "FST04-944",
+        "MUE77-943"
+      ]
+    },
+    {
+      "code": "BIO50-364",
+      "title": "Comparative Vertebrate Morphology",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Comparative Vertebrate Morphology": 2.0
+      }
+    },
+    {
+      "code": "ANT35-234",
+      "title": "Anthropology of Race: Shifting the Gaze",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Anthropology of Race: Shifting the Gaze": 1.0
+      }
+    },
+    {
+      "code": "COM75-454",
+      "title": "Race, Ethnicity, and Communication",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Race, Ethnicity, and Communication": 1.0
+      }
+    },
+    {
+      "code": "FST04-324",
+      "title": "Radical Women of Color",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Radical Women of Color": 1.0
+      }
+    },
+    {
+      "code": "ANT35-274",
+      "title": "Cultural Heritage, Criminal Justice, and Race in the American South",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Cultural Heritage, Criminal Justice, and Race in the American South": 2.0
+      }
+    },
+    {
+      "code": "ANT35-524",
+      "title": "Southwestern University Racial History Project",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Southwestern University Racial History Project": 1.0
+      }
+    },
+    {
+      "code": "FRE11-344",
+      "title": "Francophone Literature from Africa: Colonization & Independence",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Francophone Literature from Africa: Colonization & Independence": 1.0
+      }
+    },
+    {
+      "code": "FRE11-604",
+      "title": "Topics in Literature and Culture: Plural France - Diversity, Social Justice and Multicultural Identities.",
+      "confidence": 0.5,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Topics in Literature and Culture: Plural France - Diversity, Social Justice and Multicultural Identities.": 0.5
+      },
+      "flag_reasons": [
+        "likely_description"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "PSC32-354",
+      "title": "Hip Hop and Mass Incarceration",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Hip Hop and Mass Incarceration": 1.0
+      }
+    },
+    {
+      "code": "PSC32-564",
+      "title": "Black Politics",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Black Politics": 1.0
+      }
+    },
+    {
+      "code": "COM75-234",
+      "title": "Rhetorics of Resistance",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Rhetorics of Resistance": 1.0
+      }
+    },
+    {
+      "code": "ENG10-834",
+      "title": "Postcolonial Literature",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Postcolonial Literature": 1.0
+      }
+    },
+    {
+      "code": "SPA15-714",
+      "title": "Spanish Sociolinguistics",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Spanish Sociolinguistics": 1.0
+      }
+    },
+    {
+      "code": "THE72-504",
+      "title": "Theatre History",
+      "confidence": 1.0,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Theatre History": 4.0
+      }
+    },
+    {
+      "code": "REL19-424",
+      "title": "Indigenous TV and Film",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Indigenous TV and Film": 1.0
+      }
+    },
+    {
+      "code": "SOC34-314",
+      "title": "Research Methods,",
+      "confidence": 0.5,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Research Methods,": 1.0,
+        "Research Methods (recommended for sophomores; must be taken prior to the Sociological Research": 0.0
+      }
+    },
+    {
+      "code": "SOC34-344",
+      "title": "Sociological Theory, and",
+      "confidence": 0.1,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Sociological Theory, and": 0.2,
+        "Sociological Theory (recommended for juniors but may be taken by sophomores to facilitate study abroad": 0.0
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.10"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "SOC34-964",
+      "title": "Senior Research",
+      "confidence": 0.5,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Senior Research": 1.0,
+        "Senior Research Seminar (fall of senior year)": 1.0
+      }
+    },
+    {
+      "code": "SOC34-114",
+      "title": "Introduction to Sociology",
+      "confidence": 1.0,
+      "occurrences": 5,
+      "candidate_scores": {
+        "Introduction to Sociology": 5.0
+      }
+    },
+    {
+      "code": "ANT35-424",
+      "title": "Theory and Method in Cultural Anthropology (offered every fall, recommended for sophomore or junior",
+      "confidence": -1.5,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Theory and Method in Cultural Anthropology (offered every fall, recommended for sophomore or junior": -1.5
+      },
+      "flag_reasons": [
+        "contains_keyword:offered every",
+        "contains_keyword:recommended",
+        "likely_description",
+        "low_confidence_score:-1.50"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "ANT35-964",
+      "title": "Senior Seminar (Capstone, to be taken in the spring of the senior year)",
+      "confidence": 0.5,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Senior Seminar (Capstone, to be taken in the spring of the senior year)": 0.5
+      },
+      "flag_reasons": [
+        "likely_description"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "THE72-183",
+      "title": "Fundamentals of Acting",
+      "confidence": 1.0,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Fundamentals of Acting": 3.0
+      }
+    },
+    {
+      "code": "THE72-211",
+      "title": "Theatre Laboratory (six semesters)",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Theatre Laboratory (six semesters)": 2.0
+      }
+    },
+    {
+      "code": "THE72-921",
+      "title": "Theatre Capstone: Portfolio",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Theatre Capstone: Portfolio": 2.0
+      }
+    },
+    {
+      "code": "THE72-923",
+      "title": "Theatre Capstone Research Methods",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Theatre Capstone Research Methods": 2.0
+      }
+    },
+    {
+      "code": "THE72-193",
+      "title": "Movement and Voice",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Movement and Voice": 1.0
+      }
+    },
+    {
+      "code": "THE72-423",
+      "title": "Theatre Dance",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Theatre Dance": 1.0
+      }
+    },
+    {
+      "code": "THE72-434",
+      "title": "Acting Realism",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Acting Realism": 1.0
+      }
+    },
+    {
+      "code": "THE72-444",
+      "title": "Acting: Heightened Language",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Acting: Heightened Language": 1.0
+      }
+    },
+    {
+      "code": "THE72-514",
+      "title": "Topics in Costume History",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Topics in Costume History": 1.0
+      }
+    },
+    {
+      "code": "THE72-534",
+      "title": "Playwriting",
+      "confidence": 0.2,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Playwriting": 0.2
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "THE72-124",
+      "title": "Introduction to Play Analysis",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Introduction to Play Analysis": 1.0
+      }
+    },
+    {
+      "code": "THE72-674",
+      "title": "Stage Management for the Theatre",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Stage Management for the Theatre": 1.0
+      }
+    },
+    {
+      "code": "THE72-684",
+      "title": "Directing",
+      "confidence": 0.2,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Directing": 0.2
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "THE72-604",
+      "title": "Devising Theatre",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Devising Theatre": 1.0
+      }
+    },
+    {
+      "code": "PHI18-124",
+      "title": "Critical Thinking",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Critical Thinking": 1.0
+      }
+    },
+    {
+      "code": "PSC32-204",
+      "title": "American Political Thought",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "American Political Thought": 1.0
+      }
+    },
+    {
+      "code": "BUS30-254",
+      "title": "Business Law",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Business Law": 1.0
+      }
+    },
+    {
+      "code": "COM75-154",
+      "title": "Public Speaking",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Public Speaking": 1.0
+      }
+    },
+    {
+      "code": "PHI18-164",
+      "title": "Self, Ethics, Society",
+      "confidence": 1.0,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Self, Ethics, Society": 2.0
+      }
+    },
+    {
+      "code": "SPA15-943",
+      "title": "or",
+      "confidence": 0.2,
+      "occurrences": 1,
+      "candidate_scores": {
+        "or": 0.2
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "SPA15-944",
+      "title": "Study Abroad: an approved Health Studies-related study abroad program in a Spanish-speaking country",
+      "confidence": 1.0,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Study Abroad: an approved Health Studies-related study abroad program in a Spanish-speaking country": 1.0
+      }
+    }
+  ],
+  "flagged_courses": [
+    {
+      "code": "ART68-404",
+      "title": "Seminar (Note: these courses are offered only once per year)",
+      "confidence": 0.2,
+      "occurrences": 5,
+      "candidate_scores": {
+        "Seminar (Note: these courses are offered only once per year)": 1.0,
+        "Seminar": 0.4,
+        "Seminar,": 0.4
+      },
+      "flag_reasons": [
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "ART68-504",
+      "title": "Capstone, 1 Elective Studio Art course",
+      "confidence": 0.2,
+      "occurrences": 5,
+      "candidate_scores": {
+        "Capstone, 1 Elective Studio Art course": 1.0,
+        "Capstone (Note: these courses are offered only once per year)": 1.0,
+        "Capstone": 0.6
+      },
+      "flag_reasons": [
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "ART68-512",
+      "title": "Exhibition Practicum",
+      "confidence": 0.25,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Exhibition Practicum": 1.0,
+        "Exhibition Practicum,": 1.0,
+        "Exhibition Practicum in the semester of": 0.4
+      },
+      "flag_reasons": [
+        "low_confidence_score:0.25"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "ARH71-614",
+      "title": "Annual Topics in Art History (to be taken before the capstone seminar.)",
+      "confidence": 0.375,
+      "occurrences": 8,
+      "candidate_scores": {
+        "Annual Topics in Art History (to be taken before the capstone seminar.)": 3.0,
+        "Annual Topics in Art History (to be taken before the capstone seminar)": 3.0,
+        "Annual Topics in Art History": 2.0
+      },
+      "flag_reasons": [
+        "low_confidence_score:0.38"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "BUS30-474",
+      "title": "Finance",
+      "confidence": 0.2,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Finance": 0.8
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "HIS16-394",
+      "title": "Witches, Nuns, Prostitutes, Wives, and Queens",
+      "confidence": 0.273,
+      "occurrences": 11,
+      "candidate_scores": {
+        "Witches, Nuns, Prostitutes, Wives, and Queens": 3.0,
+        "Witches, Nuns, Prostitutes, Wives, and Queens: Women & Gender in the British World": 2.5,
+        "Witches, Nuns, Prostitutes, Wives, and Queens: Women & Gender": 2.0,
+        "Witches, Nuns, Prostitutes, Wives, & Queens: Women and Gender in the British World": 0.5
+      },
+      "flag_reasons": [
+        "low_confidence_score:0.27"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "HIS16-604",
+      "title": "Historiography",
+      "confidence": 0.2,
+      "occurrences": 9,
+      "candidate_scores": {
+        "Historiography": 1.8
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "INS38-894",
+      "title": "Capstone",
+      "confidence": 0.4,
+      "occurrences": 11,
+      "candidate_scores": {
+        "Capstone": 2.2
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false,
+      "cross_listed_with": [
+        "LAS06-964"
+      ]
+    },
+    {
+      "code": "BIO50-173",
+      "title": "Molecular and Cellular Foundations of Biology",
+      "confidence": 0.333,
+      "occurrences": 9,
+      "candidate_scores": {
+        "Molecular and Cellular Foundations of Biology": 3.0,
+        "Molecular and Cellular Foundations of Biology, and": 1.0,
+        "Molecular and Cellular Foundations of Biology, and one introductory Biology lab course:": 0.5
+      },
+      "flag_reasons": [
+        "low_confidence_score:0.33"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "BIO50-222",
+      "title": "Methods in Ecology and Evolution,",
+      "confidence": 0.25,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Methods in Ecology and Evolution,": 1.0,
+        "Methods in Ecology & Evolutionary Biology": 1.0,
+        "Methods in Ecology and Evolutionary Biology, and": 0.4
+      },
+      "flag_reasons": [
+        "low_confidence_score:0.25"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "BIO50-354",
+      "title": "Neurobiology",
+      "confidence": 0.2,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Neurobiology": 0.6
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "BIO50-484",
+      "title": "Microbiology",
+      "confidence": 0.2,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Microbiology": 0.4
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "BIO50-314",
+      "title": "Genetics",
+      "confidence": 0.2,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Genetics": 0.8
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "BIO50-434",
+      "title": "Ecology",
+      "confidence": 0.2,
+      "occurrences": 5,
+      "candidate_scores": {
+        "Ecology": 1.0
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "CHE51-322",
+      "title": "Organic Chemistry Laboratory",
+      "confidence": 0.167,
+      "occurrences": 6,
+      "candidate_scores": {
+        "Organic Chemistry Laboratory": 1.0,
+        "Organic Chemistry Laboratory and": 1.0
+      },
+      "flag_reasons": [
+        "low_confidence_score:0.17"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "CHE51-321",
+      "title": "Organic Chemistry Laboratory Applications and",
+      "confidence": 0.2,
+      "occurrences": 5,
+      "candidate_scores": {
+        "Organic Chemistry Laboratory Applications and": 1.0
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "CHE51-932",
+      "title": "Senior Chemistry Capstone,",
+      "confidence": 0.533,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Senior Chemistry Capstone,": 1.0,
+        "Senior Chemistry Capstone with,": 1.0,
+        "Senior Chemistry Capstone": 1.0
+      },
+      "flag_reasons": [
+        "low_confidence_score:0.33"
+      ],
+      "reviewed": false,
+      "cross_listed_with": [
+        "CHE51-934"
+      ]
+    },
+    {
+      "code": "PHY53-404",
+      "title": "Electronics",
+      "confidence": 0.2,
+      "occurrences": 10,
+      "candidate_scores": {
+        "Electronics": 2.0
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "ECO31-314",
+      "title": "Econometrics",
+      "confidence": 0.2,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Econometrics": 0.6
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "PSY33-214",
+      "title": "Inquiry-Based Research Methods",
+      "confidence": 0.333,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Inquiry-Based Research Methods": 1.0,
+        "Inquiry-Based Research Methods, and": 0.4
+      },
+      "flag_reasons": [
+        "low_confidence_score:0.33"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "CSC54-454",
+      "title": "Algorithms",
+      "confidence": 0.2,
+      "occurrences": 6,
+      "candidate_scores": {
+        "Algorithms": 1.2
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "PHY53-434",
+      "title": "Statics",
+      "confidence": 0.2,
+      "occurrences": 5,
+      "candidate_scores": {
+        "Statics": 1.0
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "ENG10-624",
+      "title": "Shakespeare",
+      "confidence": 0.2,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Shakespeare": 0.4
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "CHI22-144",
+      "title": "Chinese I, if student has taken another language sequence to fulfill general education.",
+      "confidence": 0.5,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Chinese I, if student has taken another language sequence to fulfill general education.": 0.5
+      },
+      "flag_reasons": [
+        "likely_description"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "EDU40-944",
+      "title": "Internship",
+      "confidence": 0.2,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Internship": 0.2
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "ENG10-244",
+      "title": "Literary Methods or 10-264 Chicana Literary Methods",
+      "confidence": 0.333,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Literary Methods or 10-264 Chicana Literary Methods": 1.0,
+        "Literary Methods,": 1.0,
+        "Literary Methods": 1.0
+      },
+      "flag_reasons": [
+        "low_confidence_score:0.33"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "ENV49-224",
+      "title": "Ecolab",
+      "confidence": 0.2,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Ecolab": 0.8
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "REL19-364",
+      "title": "Pilgrimage",
+      "confidence": 0.2,
+      "occurrences": 8,
+      "candidate_scores": {
+        "Pilgrimage": 1.6
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "ENV49-214",
+      "title": "Texas Our Texas",
+      "confidence": 0.5,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Texas Our Texas": 2.0
+      },
+      "flag_reasons": [
+        "weird_characters"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "ENG10-694",
+      "title": "Austen/Bronte/Woolf",
+      "confidence": 0.2,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Austen/Bronte/Woolf": 0.2
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "BIO50-253",
+      "title": "Human Anatomy and Physiology I, and",
+      "confidence": 0.2,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Human Anatomy and Physiology I, and": 0.2
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "BIO50-263",
+      "title": "Human Anatomy and Physiology II, and",
+      "confidence": 0.2,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Human Anatomy and Physiology II, and": 0.2
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "PHI18-314",
+      "title": "Marxisms",
+      "confidence": 0.2,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Marxisms": 0.2
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "KIN48-344",
+      "title": "Biomechanics",
+      "confidence": 0.2,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Biomechanics": 0.4
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "GRK13-144",
+      "title": "Greek I, and",
+      "confidence": 0.2,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Greek I, and": 0.2
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "GRK13-154",
+      "title": "Greek II, and",
+      "confidence": 0.1,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Greek II, and": 0.2,
+        "Introductory Greek II, and": 0.2
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.10"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "LAT14-154",
+      "title": "Introductory Latin II, and",
+      "confidence": 0.2,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Introductory Latin II, and": 0.2
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "LAS06-964",
+      "title": "Capstone",
+      "confidence": 0.4,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Capstone": 0.6
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false,
+      "cross_listed_with": [
+        "INS38-894"
+      ]
+    },
+    {
+      "code": "SPA15-164",
+      "title": "Spanish III and majors must take two additional courses above",
+      "confidence": 0.333,
+      "occurrences": 3,
+      "candidate_scores": {
+        "Spanish III and majors must take two additional courses above": 1.0,
+        "Spanish III. See the Spanish": 1.0,
+        "Spanish III, if taken for college level credit, may also count.": 0.5
+      },
+      "flag_reasons": [
+        "low_confidence_score:0.33"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "MAT52-894",
+      "title": "Senior Seminar in Mathematics (Capstone, to be taken in the fall of the senior year)",
+      "confidence": 0.25,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Senior Seminar in Mathematics (Capstone, to be taken in the fall of the senior year)": 1.0,
+        "Senior Seminar in Mathematics (Capstone, to be taken in the fall of the senior year),": 1.0
+      },
+      "flag_reasons": [
+        "likely_description",
+        "low_confidence_score:0.25"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "CSC54-894",
+      "title": "Senior Seminar in Software Engineering (Capstone, to be taken in the spring of the senior year)",
+      "confidence": 0.5,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Senior Seminar in Software Engineering (Capstone, to be taken in the spring of the senior year)": 2.0
+      },
+      "flag_reasons": [
+        "likely_description"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "ENS78-111",
+      "title": "Southwestern University Jazz Band",
+      "confidence": 0.2,
+      "occurrences": 5,
+      "candidate_scores": {
+        "Southwestern University Jazz Band": 1.0
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "MUT76-343",
+      "title": "Orchestration",
+      "confidence": 0.2,
+      "occurrences": 5,
+      "candidate_scores": {
+        "Orchestration": 1.0
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "MUT76-313",
+      "title": "Counterpoint",
+      "confidence": 0.2,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Counterpoint": 0.4
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "BIO50-524",
+      "title": "Endocrinology",
+      "confidence": 0.2,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Endocrinology": 0.2
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "PHI18-914",
+      "title": "Colloquium in Philosophy (Capstone, to be taken fall of the senior year)",
+      "confidence": 0.5,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Colloquium in Philosophy (Capstone, to be taken fall of the senior year)": 0.5
+      },
+      "flag_reasons": [
+        "likely_description"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "PHY53-463",
+      "title": "Dynamics",
+      "confidence": 0.2,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Dynamics": 0.8
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "PHY53-473",
+      "title": "Thermodynamics",
+      "confidence": 0.15,
+      "occurrences": 4,
+      "candidate_scores": {
+        "Thermodynamics": 0.6,
+        "Thermodynamics.": 0.2
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.15"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "PSY33-211",
+      "title": "Lab for Inquiry-Based Research Methods; required for all 800 courses (i.e., a research capstone)",
+      "confidence": -0.5,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Lab for Inquiry-Based Research Methods; required for all 800 courses (i.e., a research capstone)": -1.0
+      },
+      "flag_reasons": [
+        "contains_keyword:required for",
+        "likely_description",
+        "low_confidence_score:-0.50"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "PSY33-221",
+      "title": "Lab for Inquiry-Based Research Methods (with Animals); required for all 800 courses (i.e., a research",
+      "confidence": -0.5,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Lab for Inquiry-Based Research Methods (with Animals); required for all 800 courses (i.e., a research": -1.0
+      },
+      "flag_reasons": [
+        "contains_keyword:required for",
+        "likely_description",
+        "low_confidence_score:-0.50"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "PSY33-412",
+      "title": "Careers in Psychology I is limited to First Year and Sophomore level students. Exceptions to this restriction",
+      "confidence": 0.2,
+      "occurrences": 5,
+      "candidate_scores": {
+        "Careers in Psychology I is limited to First Year and Sophomore level students. Exceptions to this restriction": 1.0,
+        "Careers in": 1.0,
+        "Careers in Psychology I, and": 0.4,
+        "Careers in Psychology I and": 0.2
+      },
+      "flag_reasons": [
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "PSY33-422",
+      "title": "Careers in Psychology II",
+      "confidence": 0.4,
+      "occurrences": 5,
+      "candidate_scores": {
+        "Careers in Psychology II": 2.0,
+        "Careers in Psychology II may not be taken concurrently in the same semester.": 2.0,
+        "Careers in Psychology II is limited to Junior and Senior level students who have completed one of the": 1.0
+      },
+      "flag_reasons": [
+        "low_confidence_score:0.40"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "FRE11-604",
+      "title": "Topics in Literature and Culture: Plural France - Diversity, Social Justice and Multicultural Identities.",
+      "confidence": 0.5,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Topics in Literature and Culture: Plural France - Diversity, Social Justice and Multicultural Identities.": 0.5
+      },
+      "flag_reasons": [
+        "likely_description"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "SOC34-344",
+      "title": "Sociological Theory, and",
+      "confidence": 0.1,
+      "occurrences": 2,
+      "candidate_scores": {
+        "Sociological Theory, and": 0.2,
+        "Sociological Theory (recommended for juniors but may be taken by sophomores to facilitate study abroad": 0.0
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.10"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "ANT35-424",
+      "title": "Theory and Method in Cultural Anthropology (offered every fall, recommended for sophomore or junior",
+      "confidence": -1.5,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Theory and Method in Cultural Anthropology (offered every fall, recommended for sophomore or junior": -1.5
+      },
+      "flag_reasons": [
+        "contains_keyword:offered every",
+        "contains_keyword:recommended",
+        "likely_description",
+        "low_confidence_score:-1.50"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "ANT35-964",
+      "title": "Senior Seminar (Capstone, to be taken in the spring of the senior year)",
+      "confidence": 0.5,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Senior Seminar (Capstone, to be taken in the spring of the senior year)": 0.5
+      },
+      "flag_reasons": [
+        "likely_description"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "THE72-534",
+      "title": "Playwriting",
+      "confidence": 0.2,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Playwriting": 0.2
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "THE72-684",
+      "title": "Directing",
+      "confidence": 0.2,
+      "occurrences": 1,
+      "candidate_scores": {
+        "Directing": 0.2
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    },
+    {
+      "code": "SPA15-943",
+      "title": "or",
+      "confidence": 0.2,
+      "occurrences": 1,
+      "candidate_scores": {
+        "or": 0.2
+      },
+      "flag_reasons": [
+        "truncated",
+        "low_confidence_score:0.20"
+      ],
+      "reviewed": false
+    }
+  ],
+  "fuzzy_duplicates": [
+    [
+      "PHY53-154",
+      "PHY53-164"
+    ],
+    [
+      "ART68-104",
+      "ART68-204",
+      "ART68-374"
+    ],
+    [
+      "ART68-114",
+      "ART68-354"
+    ],
+    [
+      "ART68-224",
+      "ART68-314"
+    ],
+    [
+      "ART68-244",
+      "ART68-334"
+    ],
+    [
+      "ART68-234",
+      "ART68-324"
+    ],
+    [
+      "ART68-254",
+      "ART68-344"
+    ],
+    [
+      "ARH71-824",
+      "COM75-964"
+    ],
+    [
+      "BUS30-114",
+      "THE72-183"
+    ],
+    [
+      "HIS16-504",
+      "HIS16-514"
+    ],
+    [
+      "INS38-894",
+      "LAS06-964"
+    ],
+    [
+      "BIO50-604",
+      "CHE51-604"
+    ],
+    [
+      "BIO50-624",
+      "CHE51-624",
+      "CHE51-614"
+    ],
+    [
+      "BIO50-991",
+      "BIO50-994"
+    ],
+    [
+      "CHE51-103",
+      "CHE51-203"
+    ],
+    [
+      "CHE51-101",
+      "CHE51-201"
+    ],
+    [
+      "CHE51-313",
+      "CHE51-323"
+    ],
+    [
+      "MAT52-164",
+      "MAT52-264",
+      "MAT52-364"
+    ],
+    [
+      "CHE51-932",
+      "CHE51-934"
+    ],
+    [
+      "CHE51-922",
+      "CHE51-924"
+    ],
+    [
+      "CHE51-714",
+      "PHY53-424"
+    ],
+    [
+      "CSC54-184",
+      "CSC54-284"
+    ],
+    [
+      "CHE51-424",
+      "PHY53-364"
+    ],
+    [
+      "BUS30-414",
+      "CSC54-414",
+      "MAT52-414"
+    ],
+    [
+      "ECO31-224",
+      "ECO31-234"
+    ],
+    [
+      "EDU40-964",
+      "FST04-934"
+    ],
+    [
+      "EDU40-534",
+      "EDU40-734"
+    ],
+    [
+      "FST04-944",
+      "MUE77-943",
+      "PSY33-948"
+    ],
+    [
+      "ENG10-684",
+      "ENG10-654"
+    ],
+    [
+      "BIO50-253",
+      "KIN48-253",
+      "BIO50-263",
+      "KIN48-263"
+    ],
+    [
+      "BIO50-251",
+      "KIN48-251",
+      "BIO50-261",
+      "KIN48-261"
+    ],
+    [
+      "KIN48-454",
+      "BIO50-454"
+    ],
+    [
+      "PSY33-524",
+      "PSY32-524"
+    ],
+    [
+      "PSY33-534",
+      "BIO50-324"
+    ],
+    [
+      "FRE11-934",
+      "GER12-934"
+    ],
+    [
+      "KIN48-483",
+      "KIN48-493"
+    ],
+    [
+      "GRK13-144",
+      "GRK13-154"
+    ],
+    [
+      "GRK13-934",
+      "LAT14-934",
+      "CLA07-934"
+    ],
+    [
+      "GRK13-954",
+      "LAT14-954",
+      "CLA07-954"
+    ],
+    [
+      "MUT76-101",
+      "MUT76-111",
+      "MUT76-211",
+      "MUT76-411"
+    ],
+    [
+      "MUL80-602",
+      "MUL80-612"
+    ],
+    [
+      "PHY53-324",
+      "PHY53-433"
+    ],
+    [
+      "PHY53-334",
+      "PHY53-413"
+    ]
+  ]
+}
