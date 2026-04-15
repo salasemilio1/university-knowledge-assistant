@@ -13,6 +13,9 @@ from pathlib import Path
 from pipeline.gemini_client import generate, MODEL_ANSWERER
 from pipeline.prompts import answerer_prompt
 
+from Backend.user_db import get_user_by_id, get_user_info, get_formatted_user_info
+
+
 log = logging.getLogger(__name__)
 
 
@@ -79,7 +82,7 @@ def format_history(history: list[dict]) -> str | None:
 
 # ── Core answering ────────────────────────────────────────────────────────────
 
-def answer(question: str, doc_list: list[dict], history: list[dict]) -> str:
+def answer(question: str, doc_list: list[dict], history: list[dict], google_id) -> str:
     """Generate a cited answer to the student's question.
 
     Args:
@@ -92,6 +95,9 @@ def answer(question: str, doc_list: list[dict], history: list[dict]) -> str:
     """
     context = load_documents(doc_list)
     history_block = format_history(history)
+
+    # Get formatted user profile information
+    user_info = get_formatted_user_info(google_id)
 
     prompt = answerer_prompt(question, context, history_block)
     response = generate(prompt, model=MODEL_ANSWERER)

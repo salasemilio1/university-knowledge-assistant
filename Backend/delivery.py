@@ -245,7 +245,7 @@ async def ask(request: Request, query: str = Form(...)):
 
     # Step 2 — Select which documents to load
     try:
-        doc_list = retrieve(query, routed_majors, KNOWLEDGE_BASE_PATH)
+        doc_list = retrieve(query, routed_majors, KNOWLEDGE_BASE_PATH, google_id)
     except Exception as exc:
         logging.error("Retrieval failed: %s", exc)
         return _error_html("Something went wrong while retrieving documents. Please try again.")
@@ -260,7 +260,7 @@ async def ask(request: Request, query: str = Form(...)):
     # Note: history is not passed here (stateless for now).
     # To add conversation memory later, store history in a session or pass it from the client.
     try:
-        answer_text = answer(query, doc_list, history=[])
+        answer_text = answer(query, doc_list, history=[], google_id=google_id)
     except Exception as exc:
         logging.error("Answer generation failed: %s", exc)
         return _error_html("Something went wrong while generating your answer. Please try again.")
