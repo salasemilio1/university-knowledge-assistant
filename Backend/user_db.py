@@ -40,7 +40,9 @@ class User(Base):
 
     # initial form data. pulled in when user fills out setup form
     major:Mapped[str | None] = mapped_column(String(200), nullable=True)
+    major_degree_type:Mapped[str | None] = mapped_column(String(200), nullable=True)
     second_major:Mapped[str | None] = mapped_column(String(200), nullable=True)
+    second_major_degree_type:Mapped[str | None] = mapped_column(String(200), nullable=True)
     minor:Mapped[str | None] = mapped_column(String(200), nullable=True)
     second_minor:Mapped[str | None] = mapped_column(String(200), nullable=True)
     gpa:Mapped[str | None] = mapped_column(String(200), nullable=True)
