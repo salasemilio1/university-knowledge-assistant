@@ -214,7 +214,7 @@ async def users(request:Request):
     
     update_user(google_id, user_data)
 
-    return HTMLResponse("<div style='color:#19c37d;'>Profile saved.</div>")
+    return HTMLResponse("<div style='color:#808080;'>Profile saved.</div>")
 
 @app.post("/ask", response_class=HTMLResponse)
 async def ask(request: Request, query: str = Form(...)):
