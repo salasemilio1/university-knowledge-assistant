@@ -217,7 +217,7 @@ async def users(request:Request):
     return HTMLResponse("<div style='color:#19c37d;'>Profile saved.</div>")
 
 @app.post("/ask", response_class=HTMLResponse)
-async def ask(query: str = Form(...)):
+async def ask(request: Request, query: str = Form(...)):
     """
     Receive the student's question, run the pipeline, return an HTML snippet.
 
@@ -239,16 +239,19 @@ async def ask(query: str = Form(...)):
 
     start_time = time.time()
 
+    # Get google id so the router can get user profile
+    google_id = request.session.get("user_id")
+
     # Step 1 — Route to the right department(s)
     try:
-        routed_majors = route(query, KNOWLEDGE_BASE_PATH)
+        routed_majors = route(query, KNOWLEDGE_BASE_PATH, google_id)
     except Exception as exc:
         logging.error("Routing failed: %s", exc)
         return _error_html("Something went wrong while routing your question. Please try again.")
 
     # Step 2 — Select which documents to load
     try:
-        doc_list = retrieve(query, routed_majors, KNOWLEDGE_BASE_PATH)
+        doc_list = retrieve(query, routed_majors, KNOWLEDGE_BASE_PATH, google_id)
     except Exception as exc:
         logging.error("Retrieval failed: %s", exc)
         return _error_html("Something went wrong while retrieving documents. Please try again.")
@@ -263,7 +266,7 @@ async def ask(query: str = Form(...)):
     # Note: history is not passed here (stateless for now).
     # To add conversation memory later, store history in a session or pass it from the client.
     try:
-        answer_text = answer(query, doc_list, history=[])
+        answer_text = answer(query, doc_list, history=[], google_id=google_id)
     except Exception as exc:
         logging.error("Answer generation failed: %s", exc)
         return _error_html("Something went wrong while generating your answer. Please try again.")
