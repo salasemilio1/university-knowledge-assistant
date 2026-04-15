@@ -110,6 +110,20 @@ async def google_auth(request: Request, response: Response, token: str = Form(..
         raise HTTPException(status_code=400, detail="Invalid token")
     
 
+@app.get("/courses")
+async def get_courses():
+    """Returns the full list of courses as objects."""
+    courses_file = _PROJECT_ROOT / "knowledge_base" / "courses.json"
+    if not courses_file.exists():
+        return []
+    
+    with open(courses_file, "r") as f:
+        courses_dict = json.load(f)
+    
+    # Convert dict {code: title} to list [{code, title}]
+    return [{"code": code, "title": title} for code, title in courses_dict.items()]
+
+
 @app.get("/profile")
 async def profile(request:Request):
     google_id = request.session.get("user_id")

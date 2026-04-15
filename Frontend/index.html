@@ -1205,26 +1205,14 @@
             <h2>Courses</h2>
 
             <div class="profile-field">
-                <label>Courses Taken</label>
+                <label for="course-search">Courses Taken</label>
+                <input type="text" id="course-search" placeholder="Search for courses (e.g. CSC 184)..." style="margin-bottom: 12px;">
+                
+                <div id="course-list" style="max-height: 400px; overflow-y: auto; display: flex; flex-direction: column; gap: 8px;">
+                    <!-- Filtered/Selected courses will appear here -->
+                </div>
 
-                <label><input type="checkbox" name="courses" value="54-144 Explorations in Computing"> 54-144 Explorations in Computing</label>
-                <label><input type="checkbox" name="courses" value="54-184 Computer Science I"> 54-184 Computer Science I</label>
-                <label><input type="checkbox" name="courses" value="54-284 Computer Science II"> 54-284 Computer Science II</label>
-                <label><input type="checkbox" name="courses" value="54-291 Puzzling Programs"> 54-291 Puzzling Programs</label>
-                <label><input type="checkbox" name="courses" value="54-384 Discrete Mathematics"> 54-384 Discrete Mathematics</label>
-                <label><input type="checkbox" name="courses" value="54-394 Computer Organization"> 54-394 Computer Organization</label>
-                <label><input type="checkbox" name="courses" value="54-414 Operations Research"> 54-414 Operations Research</label>
-                <label><input type="checkbox" name="courses" value="54-424 Artificial Intelligence"> 54-424 Artificial Intelligence</label>
-                <label><input type="checkbox" name="courses" value="54-454 Algorithms"> 54-454 Algorithms</label>
-                <label><input type="checkbox" name="courses" value="54-474 Programming Languages"> 54-474 Programming Languages</label>
-                <label><input type="checkbox" name="courses" value="54-514 Database Management"> 54-514 Database Management</label>
-                <label><input type="checkbox" name="courses" value="54-524 Introduction to Numerical Analysis"> 54-524 Introduction to Numerical Analysis</label>
-                <label><input type="checkbox" name="courses" value="54-534 Functional Programming"> 54-534 Functional Programming</label>
-                <label><input type="checkbox" name="courses" value="54-644 Computer Systems"> 54-644 Computer Systems</label>
-                <label><input type="checkbox" name="courses" value="54-684 Theory of Computation"> 54-684 Theory of Computation</label>
-                <label><input type="checkbox" name="courses" value="54-894 Senior Seminar in Software Engineering"> 54-894 Senior Seminar in Software Engineering</label>
-
-                <input name="courses_custom" type="text" placeholder="Additional courses, comma-separated">
+                <input name="courses_custom" type="text" placeholder="Additional courses, comma-separated" style="margin-top: 16px;">
             </div>
         </div>
 
@@ -1513,13 +1501,79 @@
     wireCustomField("gpa", "gpa_custom");
     wireCustomField("grad_year", "grad_year_custom");
 
+    let allCourses = [];
+    let selectedCourses = new Set();
+
+    async function fetchAllCourses() {
+        try {
+            const res = await fetch("/courses");
+            allCourses = await res.json();
+            renderCourseList();
+        } catch (err) {
+            console.error("Failed to fetch courses:", err);
+        }
+    }
+
+    const courseSearchInput = document.getElementById("course-search");
+    const courseListContainer = document.getElementById("course-list");
+
+    courseSearchInput.addEventListener("input", () => {
+        renderCourseList(courseSearchInput.value.toLowerCase());
+    });
+
+    function renderCourseList(searchTerm = "") {
+        courseListContainer.innerHTML = "";
+        
+        const shownVals = new Set();
+
+        // 1. Always show selected courses
+        allCourses.filter(c => selectedCourses.has(`${c.code} ${c.title}`)).forEach(course => {
+            const courseVal = `${course.code} ${course.title}`;
+            renderItem(courseVal, true);
+            shownVals.add(courseVal);
+        });
+
+        // 2. If searching, show additional matches
+        if (searchTerm) {
+            allCourses.filter(c => 
+                (c.code.toLowerCase().includes(searchTerm) || 
+                 c.title.toLowerCase().includes(searchTerm)) &&
+                !shownVals.has(`${c.code} ${c.title}`)
+            ).forEach(course => {
+                const courseVal = `${course.code} ${course.title}`;
+                renderItem(courseVal, false);
+                shownVals.add(courseVal);
+            });
+        }
+    }
+
+    function renderItem(courseVal, isChecked) {
+        const label = document.createElement("label");
+        label.innerHTML = `<input type="checkbox" name="courses" value="${courseVal}" ${isChecked ? 'checked' : ''}> ${courseVal}`;
+        
+        const cb = label.querySelector('input');
+        cb.addEventListener("change", () => {
+            if (cb.checked) {
+                selectedCourses.add(courseVal);
+            } else {
+                selectedCourses.delete(courseVal);
+                // Re-render to clear the unselected item if not searching
+                if (!courseSearchInput.value.trim()) {
+                    renderCourseList();
+                }
+            }
+        });
+        
+        courseListContainer.appendChild(label);
+    }
+
     async function loadProfile() {
     try {
         const res = await fetch("/profile");
         const data = await res.json();
 
         if (!data.is_profile_complete) {
-            const response = document.getElementById("response");
+            const responseDiv = document.getElementById("response");
             const warning = document.createElement("div");
             warning.id = "profile-warning";
             warning.className = "response-block";
@@ -1531,7 +1585,7 @@
                 </div>
             `;
 
-            response.prepend(warning);
+            responseDiv.prepend(warning);
         }
 
         // Fill selects
@@ -1546,37 +1600,24 @@
         setValue("name", data.name);
         setValue("email", data.email);
 
-        // Courses (checkboxes)
-        if (data.courses && Array.isArray(data.courses)) {
-
-    const knownCourses = [];
-    const customCourses = [];
-
-    const checkboxes = document.querySelectorAll('input[name="courses"]');
-
-    data.courses.forEach(course => {
-        let matched = false;
-
-        checkboxes.forEach(cb => {
-            if (cb.value === course) {
-                cb.checked = true;
-                matched = true;
-            }
-        });
-
-        if (!matched) {
-            customCourses.push(course);
+        // Courses logic
+        selectedCourses = new Set(data.courses || []);
+        
+        // If we haven't loaded courses yet, do it now
+        if (allCourses.length === 0) {
+            await fetchAllCourses();
+        } else {
+            renderCourseList();
         }
-    });
 
-    // Populate custom field
-    if (customCourses.length > 0) {
+        // Handle custom courses not in the list
+        const knownCourseVals = new Set(allCourses.map(c => `${c.code} ${c.title}`));
+        const customCourses = (data.courses || []).filter(c => !knownCourseVals.has(c));
+        
         const customInput = document.querySelector('input[name="courses_custom"]');
         if (customInput) {
             customInput.value = customCourses.join(", ");
         }
-    }
-    }
 
     } catch (err) {
         console.error("Failed to load profile:", err);
