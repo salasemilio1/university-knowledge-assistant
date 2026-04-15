@@ -6290,7 +6290,7 @@
     },
     {
       "code": "BIO50-253",
-      "title": "Human Anatomy and Physiology I, and",
+      "title": "Human Anatomy and Physiology I",
       "confidence": 0.2,
       "occurrences": 1,
       "candidate_scores": {
@@ -6300,11 +6300,11 @@
         "truncated",
         "low_confidence_score:0.20"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "code": "BIO50-263",
-      "title": "Human Anatomy and Physiology II, and",
+      "title": "Human Anatomy and Physiology II",
       "confidence": 0.2,
       "occurrences": 1,
       "candidate_scores": {
@@ -6314,7 +6314,7 @@
         "truncated",
         "low_confidence_score:0.20"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "code": "PHI18-314",
@@ -6328,7 +6328,7 @@
         "truncated",
         "low_confidence_score:0.20"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "code": "KIN48-344",
@@ -6342,11 +6342,11 @@
         "truncated",
         "low_confidence_score:0.20"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "code": "GRK13-144",
-      "title": "Greek I, and",
+      "title": "Greek I",
       "confidence": 0.2,
       "occurrences": 1,
       "candidate_scores": {
@@ -6356,11 +6356,11 @@
         "truncated",
         "low_confidence_score:0.20"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "code": "GRK13-154",
-      "title": "Greek II, and",
+      "title": "Greek II",
       "confidence": 0.1,
       "occurrences": 2,
       "candidate_scores": {
@@ -6371,11 +6371,11 @@
         "truncated",
         "low_confidence_score:0.10"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "code": "LAT14-154",
-      "title": "Introductory Latin II, and",
+      "title": "Introductory Latin II",
       "confidence": 0.2,
       "occurrences": 1,
       "candidate_scores": {
@@ -6385,7 +6385,7 @@
         "truncated",
         "low_confidence_score:0.20"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "code": "LAS06-964",
@@ -6399,14 +6399,14 @@
         "truncated",
         "low_confidence_score:0.20"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "cross_listed_with": [
         "INS38-894"
       ]
     },
     {
       "code": "SPA15-164",
-      "title": "Spanish III and majors must take two additional courses above",
+      "title": "Spanish III",
       "confidence": 0.333,
       "occurrences": 3,
       "candidate_scores": {
@@ -6417,11 +6417,11 @@
       "flag_reasons": [
         "low_confidence_score:0.33"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "code": "MAT52-894",
-      "title": "Senior Seminar in Mathematics (Capstone, to be taken in the fall of the senior year)",
+      "title": "Senior Seminar in Mathematics",
       "confidence": 0.25,
       "occurrences": 4,
       "candidate_scores": {
@@ -6432,11 +6432,11 @@
         "likely_description",
         "low_confidence_score:0.25"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "code": "CSC54-894",
-      "title": "Senior Seminar in Software Engineering (Capstone, to be taken in the spring of the senior year)",
+      "title": "Senior Seminar in Software Engineering",
       "confidence": 0.5,
       "occurrences": 4,
       "candidate_scores": {
@@ -6445,7 +6445,7 @@
       "flag_reasons": [
         "likely_description"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "code": "ENS78-111",
@@ -6459,7 +6459,7 @@
         "truncated",
         "low_confidence_score:0.20"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "code": "MUT76-343",
@@ -6473,7 +6473,7 @@
         "truncated",
         "low_confidence_score:0.20"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "code": "MUT76-313",
@@ -6501,11 +6501,11 @@
         "truncated",
         "low_confidence_score:0.20"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "code": "PHI18-914",
-      "title": "Colloquium in Philosophy (Capstone, to be taken fall of the senior year)",
+      "title": "Colloquium in Philosophy",
       "confidence": 0.5,
       "occurrences": 1,
       "candidate_scores": {
@@ -6514,7 +6514,7 @@
       "flag_reasons": [
         "likely_description"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "code": "PHY53-463",
@@ -6528,7 +6528,7 @@
         "truncated",
         "low_confidence_score:0.20"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "code": "PHY53-473",
@@ -6543,11 +6543,11 @@
         "truncated",
         "low_confidence_score:0.15"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "code": "PSY33-211",
-      "title": "Lab for Inquiry-Based Research Methods; required for all 800 courses (i.e., a research capstone)",
+      "title": "Lab for Inquiry-Based Research Methods",
       "confidence": -0.5,
       "occurrences": 2,
       "candidate_scores": {
@@ -6558,11 +6558,11 @@
         "likely_description",
         "low_confidence_score:-0.50"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "code": "PSY33-221",
-      "title": "Lab for Inquiry-Based Research Methods (with Animals); required for all 800 courses (i.e., a research",
+      "title": "Lab for Inquiry-Based Research Methods (with Animals)",
       "confidence": -0.5,
       "occurrences": 2,
       "candidate_scores": {
@@ -6573,11 +6573,11 @@
         "likely_description",
         "low_confidence_score:-0.50"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "code": "PSY33-412",
-      "title": "Careers in Psychology I is limited to First Year and Sophomore level students. Exceptions to this restriction",
+      "title": "Careers in Psychology I",
       "confidence": 0.2,
       "occurrences": 5,
       "candidate_scores": {
@@ -6589,7 +6589,7 @@
       "flag_reasons": [
         "low_confidence_score:0.20"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "code": "PSY33-422",
@@ -6604,7 +6604,7 @@
       "flag_reasons": [
         "low_confidence_score:0.40"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "code": "FRE11-604",
@@ -6617,11 +6617,11 @@
       "flag_reasons": [
         "likely_description"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "code": "SOC34-344",
-      "title": "Sociological Theory, and",
+      "title": "Sociological Theory",
       "confidence": 0.1,
       "occurrences": 2,
       "candidate_scores": {
@@ -6632,11 +6632,11 @@
         "truncated",
         "low_confidence_score:0.10"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "code": "ANT35-424",
-      "title": "Theory and Method in Cultural Anthropology (offered every fall, recommended for sophomore or junior",
+      "title": "Theory and Method in Cultural Anthropology",
       "confidence": -1.5,
       "occurrences": 1,
       "candidate_scores": {
@@ -6648,11 +6648,11 @@
         "likely_description",
         "low_confidence_score:-1.50"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "code": "ANT35-964",
-      "title": "Senior Seminar (Capstone, to be taken in the spring of the senior year)",
+      "title": "Senior Seminar",
       "confidence": 0.5,
       "occurrences": 1,
       "candidate_scores": {
@@ -6661,7 +6661,7 @@
       "flag_reasons": [
         "likely_description"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "code": "THE72-534",
@@ -6693,7 +6693,7 @@
     },
     {
       "code": "SPA15-943",
-      "title": "or",
+      "title": "Academic Internship",
       "confidence": 0.2,
       "occurrences": 1,
       "candidate_scores": {
@@ -6703,7 +6703,7 @@
         "truncated",
         "low_confidence_score:0.20"
       ],
-      "reviewed": false
+      "reviewed": true
     }
   ],
   "fuzzy_duplicates": [
