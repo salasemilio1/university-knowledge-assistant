@@ -1,16 +1,32 @@
-import pdfplumber
-import re
 import json
 import os
+import sys
+import re
+import pdfplumber
 from collections import defaultdict
 from difflib import SequenceMatcher
+
+# Add project root to sys.path to import pipeline modules
+script_dir = os.path.dirname(os.path.abspath(__file__))
+project_root = os.path.normpath(os.path.join(script_dir, ".."))
+if project_root not in sys.path:
+    sys.path.append(project_root)
+
+try:
+    from pipeline.gemini_client import generate, extract_json, MODEL_ROUTER
+except ImportError:
+    print("Warning: pipeline.gemini_client not found. LLM reconciliation will be skipped.")
+    generate = None
+    extract_json = None
+    MODEL_ROUTER = None
 
 
 # -----------------------------
 # CONFIG & EXTRACTION
 # -----------------------------
 
-COURSE_PATTERN = r'([A-Z]{2,4}\d{2})-(\d{3})\s+(.+?)(?=\s*(?:●|\bor\b\s+[A-Z]{2,4}\d{2}-\d{3}|[A-Z]{2,4}\d{2}-\d{3})|$)'
+# Refined regex from user: requires first letter of title to be capital [A-Z]
+COURSE_PATTERN = r'([A-Z]{2,4}\d{2})-(\d{3})\s+([A-Z].+?)(?=\s*(?:●|\bor\b\s+[A-Z]{2,4}\d{2}-\d{3}|[A-Z]{2,4}\d{2}-\d{3})|$)'
 
 def extract_courses_from_pdf(catalog_path: str, output_path: str) -> dict:
     courses = defaultdict(list)
@@ -59,6 +75,15 @@ def clean_title(title: str) -> str:
 
     # Remove weird "(?)"
     title = title.replace("(?)", "")
+
+    # Rule: If semicolon exists, drop it and anything follows
+    if ";" in title:
+        title = title.split(";")[0].strip()
+
+    # Rule: Remove parentheticals starting with lowercase letter
+    # e.g. "Biology (offered in spring only)" -> "Biology"
+    # but keep "Biology (Capstone)"
+    title = re.sub(r'\s*\([a-z].*?\)', '', title).strip()
 
     # Remove extra whitespace
     title = re.sub(r'\s+', ' ', title).strip()
@@ -244,10 +269,6 @@ def clean_course_data(raw_courses: dict):
 # -----------------------------
 
 def fuzzy_group_courses(courses, threshold=0.9):
-    """
-    Optional: catch near-duplicates like
-    'Principle of Economics' vs 'Principles of Economics'
-    """
     groups = []
     used = set()
 
@@ -279,6 +300,76 @@ def fuzzy_group_courses(courses, threshold=0.9):
 
 
 # -----------------------------
+# LLM RECONCILIATION
+# -----------------------------
+
+def reconcile_courses_with_llm(result_data: dict) -> dict:
+    """
+    Groups flagged courses and sends them to Gemini for reconciliation.
+    Returns a clean mapping of code -> reconciled_title.
+    """
+    if not generate:
+        print("Skipping LLM reconciliation (gemini_client not available).")
+        return {c["code"]: c["title"] for c in result_data["cleaned_courses"]}
+
+    flagged = result_data["flagged_courses"]
+    if not flagged:
+        print("No courses flagged for reconciliation.")
+        return {c["code"]: c["title"] for c in result_data["cleaned_courses"]}
+
+    print(f"Sending {len(flagged)} flagged courses to Gemini for reconciliation...")
+
+    # Prepare input for LLM
+    llm_input = []
+    for c in flagged:
+        llm_input.append({
+            "code": c["code"],
+            "current_title": c["title"],
+            "candidates": c["candidate_scores"]
+        })
+
+    prompt = f"""
+You are a university course catalog expert. Your task is to reconcile course titles that were flagged during extraction.
+For each course below, look at the 'current_title' and the 'candidates' (which show other possible titles found in the PDF and their frequency/confidence scores).
+
+Rules:
+1. Select the most likely official, canonical course title.
+2. Remove all instructional noise, notes, and artifacts.
+   - Example: "Seminar (Note: these courses are offered only once per year)" -> "Seminar"
+   - Example: "Marxisms (to be taken fall of ...)" -> "Marxisms"
+   - Example: "Molecular and Cellular Foundations of Biology, and one ..." -> "Molecular and Cellular Foundations of Biology"
+3. Remove parenthetical notes that start with lowercase letters (e.g., "(offered in spring)") but KEEP those that start with uppercase letters (e.g., "(Capstone)").
+4. Output ONLY a valid JSON object mapping course codes to their reconciled titles.
+
+COURSE DATA:
+{json.dumps(llm_input, indent=2)}
+
+RECONCILED JSON:
+"""
+
+    response_text = generate(prompt, model=MODEL_ROUTER)
+    json_text = extract_json(response_text)
+    
+    try:
+        reconciled_flagged = json.loads(json_text)
+        print(f"Successfully reconciled {len(reconciled_flagged)} courses with LLM.")
+    except Exception as e:
+        print(f"Error parsing LLM response: {e}")
+        return {c["code"]: c["title"] for c in result_data["cleaned_courses"]}
+
+    # Build final mapping
+    final_mapping = {}
+    for c in result_data["cleaned_courses"]:
+        code = c["code"]
+        if code in reconciled_flagged:
+            final_mapping[code] = reconciled_flagged[code]
+        else:
+            final_mapping[code] = c["title"]
+
+    return final_mapping
+
+
+# -----------------------------
 # RUN
 # -----------------------------
 
@@ -289,37 +380,43 @@ if __name__ == "__main__":
     cleaned_courses_path = os.path.join(script_dir, "../knowledge_base/cleaned_courses.json")
 
     # 1. Load or Extract courses
+    # If the file is missing or contains old format mapping, re-extract
+    raw_courses = None
     if os.path.exists(courses_json_path):
         with open(courses_json_path, "r", encoding="utf-8") as f:
-            raw_courses = json.load(f)
+            data_load = json.load(f)
             
-        # Detect legacy format (mapping to strings instead of lists of strings)
-        is_legacy = False
-        for k, v in raw_courses.items():
-            if isinstance(v, str):
-                is_legacy = True
+        # Check if it is the raw (dict of lists) or final (dict of strings)
+        is_list_format = False
+        for v in data_load.values():
+            if isinstance(v, list):
+                is_list_format = True
                 break
-                
-        if is_legacy:
-            print("Found legacy courses.json format (strings instead of lists). Forcing PDF re-extraction...")
-            raw_courses = extract_courses_from_pdf(catalog_path, courses_json_path)
+        
+        if is_list_format:
+            print(f"Loading existing raw occurrences from {courses_json_path}")
+            raw_courses = data_load
         else:
-            print(f"Loading existing courses from {courses_json_path} (skipping PDF extraction)")
+            print("courses.json is in final format. Forcing re-extraction to get raw candidates.")
+            raw_courses = extract_courses_from_pdf(catalog_path, courses_json_path)
     else:
         raw_courses = extract_courses_from_pdf(catalog_path, courses_json_path)
 
-    # 2. Clean course data
-    print("Cleaning course data with consensus voting...")
+    # 2. Voting Stage
+    print("Step 1: Running consensus voting...")
     result = clean_course_data(raw_courses)
 
-    # 3. Fuzzy match grouping
-    fuzzy_groups = fuzzy_group_courses(result["cleaned_courses"])
-    result["fuzzy_duplicates"] = fuzzy_groups
+    # 3. LLM Stage
+    print("Step 2: Starting Gemini reconciliation...")
+    final_mapping = reconcile_courses_with_llm(result)
 
-    # 4. Write final output
+    # 4. Save results
     with open(cleaned_courses_path, "w", encoding="utf-8") as f:
         json.dump(result, f, indent=2)
 
-    print(f"Done. Cleaned data saved to {cleaned_courses_path}")
-    print(f"Flagged: {len(result['flagged_courses'])}")
-    print(f"Fuzzy duplicate groups: {len(fuzzy_groups)}")
+    with open(courses_json_path, "w", encoding="utf-8") as f:
+        json.dump(final_mapping, f, indent=4)
+
+    print(f"\nPipeline complete.")
+    print(f"Final reconciled mapping saved to {courses_json_path}")
+    print(f"Flagged items handled: {len(result['flagged_courses'])}")

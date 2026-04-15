@@ -33,13 +33,13 @@ GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
 MODEL_ROUTER = os.getenv("MODEL_ROUTER", "gemma-3-12b-it")
 
 # Call 2: Retriever
-MODEL_RETRIEVER = os.getenv("MODEL_RETRIEVER", "gemini-3.1-flash-lite-preview")
-# MODEL_RETRIEVER = os.getenv("MODEL_RETRIEVER", "gemma-4-31b-it")
+# MODEL_RETRIEVER = os.getenv("MODEL_RETRIEVER", "gemini-3.1-flash-lite-preview")
+MODEL_RETRIEVER = os.getenv("MODEL_RETRIEVER", "gemma-4-31b-it")
 
 
 # Call 3: Answerer (Synthesis)
-MODEL_ANSWERER = os.getenv("MODEL_ANSWERER", "gemini-3.1-flash-lite-preview")
-# MODEL_ANSWERER = os.getenv("MODEL_ANSWERER", "gemma-4-31b-it")
+# MODEL_ANSWERER = os.getenv("MODEL_ANSWERER", "gemini-3.1-flash-lite-preview")
+MODEL_ANSWERER = os.getenv("MODEL_ANSWERER", "gemma-4-31b-it")
 
 # Default fallback if no model is specified
 DEFAULT_MODEL = os.getenv("GEMINI_MODEL", MODEL_ANSWERER)
@@ -71,18 +71,29 @@ def generate(prompt: str, model: str | None = None) -> str:
         The model's text response, or a fallback error string if the call fails.
     """
     model_name = model or DEFAULT_MODEL
+    import time
+    
+    max_retries = 5
+    retry_delay = 5 # seconds
 
-    try:
-        # TODO: Add retry logic here if needed for production (e.g. tenacity)
-        response = _client.models.generate_content(
-            model=model_name,
-            contents=prompt,
-        )
-        return response.text.strip()
-
-    except Exception as exc:
-        log.error("Gemini API call failed (model=%s): %s", model_name, exc)
-        return f"[ERROR] LLM call failed: {exc}"
+    for attempt in range(max_retries):
+        try:
+            response = _client.models.generate_content(
+                model=model_name,
+                contents=prompt,
+            )
+            return response.text.strip()
+        except Exception as exc:
+            if ("503" in str(exc) or "429" in str(exc)) and attempt < max_retries - 1:
+                log.warning("Gemini API error %s (attempt %d/%d). Retrying in %ds...", exc, attempt + 1, max_retries, retry_delay)
+                time.sleep(retry_delay)
+                retry_delay *= 2
+                continue
+            
+            log.error("Gemini API call failed (model=%s): %s", model_name, exc)
+            return f"[ERROR] LLM call failed: {exc}"
+    
+    return "[ERROR] LLM call failed after retries."
 
 
 def extract_json(text: str) -> str:

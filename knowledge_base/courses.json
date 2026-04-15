@@ -1,3622 +1,588 @@
 {
-    "PHY53-154": [
-        "indicates that there are three lecture hours and three lab",
-        "Fundamentals of Physics I",
-        "Fundamentals of Physics I",
-        "Fundamentals of Physics I",
-        "Fundamentals of Physics I",
-        "Fundamentals of Physics I",
-        "Fundamentals of Physics I",
-        "Fundamentals of Physics I",
-        "Fundamentals of Physics I",
-        "Fundamentals of Physics I",
-        "Fundamentals of Physics I",
-        "Fundamentals of Physics I",
-        "Fundamentals of Physics I",
-        "Fundamentals of Physics I",
-        "Fundamentals of Physics I",
-        "Fundamentals of Physics I",
-        "Fundamentals of Physics I"
-    ],
-    "ART68-104": [
-        "Drawing I",
-        "Drawing I,",
-        "Drawing I",
-        "Drawing I,",
-        "Drawing I",
-        "Drawing I",
-        "Drawing I"
-    ],
-    "ART68-204": [
-        "Drawing II",
-        "Drawing II.",
-        "Drawing II",
-        "Drawing II, Writing Attentive Humanities course.",
-        "Drawing II",
-        "Drawing II",
-        "Drawing II"
-    ],
-    "ART68-114": [
-        "Design I",
-        "Design I,",
-        "Design I",
-        "Design I,",
-        "Design I",
-        "Design"
-    ],
-    "ART68-224": [
-        "Ceramics I",
-        "Ceramics I,",
-        "Ceramics I",
-        "Ceramics I,",
-        "Ceramics I",
-        "Ceramics I",
-        "Ceramics I",
-        "Ceramics I"
-    ],
-    "ART68-244": [
-        "Painting I",
-        "Painting I,",
-        "Painting I",
-        "Painting I,",
-        "Painting I",
-        "Painting I",
-        "Painting I",
-        "Painting I"
-    ],
-    "ART68-234": [
-        "Sculpture I",
-        "Sculpture I.",
-        "Sculpture I",
-        "Sculpture I, Art History Course, 1 Elective Studio Art",
-        "Sculpture I",
-        "Sculpture I",
-        "Sculpture I",
-        "Sculpture I"
-    ],
-    "ART68-314": [
-        "Ceramics II",
-        "Ceramics II",
-        "Ceramics II,",
-        "Ceramics II",
-        "Ceramics II",
-        "Ceramics II,",
-        "Ceramics II",
-        "Ceramics II",
-        "Ceramics II",
-        "Ceramics II"
-    ],
-    "ART68-334": [
-        "Painting II",
-        "Painting II",
-        "Painting II,",
-        "Painting II",
-        "Painting II",
-        "Painting II,",
-        "Painting II",
-        "Painting II",
-        "Painting II",
-        "Painting II"
-    ],
-    "ART68-254": [
-        "Printmaking I",
-        "Printmaking I",
-        "Printmaking I",
-        "Printmaking I",
-        "Printmaking I",
-        "Printmaking I",
-        "Printmaking I"
-    ],
-    "ART68-344": [
-        "Printmaking II",
-        "Printmaking II",
-        "Printmaking II), Art History course, Elective Studio Art Course",
-        "Printmaking II",
-        "Printmaking II",
-        "Printmaking II), Art History course, 2 Elective Studio Art",
-        "Printmaking II",
-        "Printmaking II",
-        "Printmaking II"
-    ],
-    "ART68-324": [
-        "Sculpture II",
-        "Sculpture II.",
-        "Sculpture II,",
-        "Sculpture II",
-        "Sculpture II",
-        "Sculpture II,",
-        "Sculpture II",
-        "Sculpture II",
-        "Sculpture II",
-        "Sculpture II"
-    ],
-    "ART68-404": [
-        "Seminar",
-        "Seminar,",
-        "Seminar",
-        "Seminar,",
-        "Seminar (Note: these courses are offered only once per year)"
-    ],
-    "ART68-504": [
-        "Capstone",
-        "Capstone",
-        "Capstone",
-        "Capstone, 1 Elective Studio Art course",
-        "Capstone (Note: these courses are offered only once per year)"
-    ],
-    "ART68-354": [
-        "Design II",
-        "Design II",
-        "Design II"
-    ],
-    "ART68-374": [
-        "Drawing III",
-        "Drawing III",
-        "Drawing III, One of the following level II studio art courses (",
-        "Drawing III"
-    ],
-    "ART68-512": [
-        "Exhibition Practicum in the semester of",
-        "Exhibition Practicum",
-        "Exhibition Practicum,",
-        "Exhibition Practicum in the semester of"
-    ],
-    "ART68-414": [
-        "Topics in Ceramics"
-    ],
-    "ART68-424": [
-        "Topics in Painting"
-    ],
-    "ART68-434": [
-        "Topics in Printmaking"
-    ],
-    "ART68-444": [
-        "Topics in Sculpture"
-    ],
-    "ARH71-614": [
-        "Annual Topics in Art History (to be taken before the capstone seminar.)",
-        "Annual Topics in Art History (to be taken before the capstone seminar.)",
-        "Annual Topics in Art History (to be taken before the capstone seminar.)",
-        "Annual Topics in Art History",
-        "Annual Topics in Art History (to be taken before the capstone seminar)",
-        "Annual Topics in Art History (to be taken before the capstone seminar)",
-        "Annual Topics in Art History",
-        "Annual Topics in Art History (to be taken before the capstone seminar)"
-    ],
-    "ARH71-824": [
-        "Capstone Research Seminar (Fall senior year)",
-        "Capstone Research Seminar (to be taken fall of senior year)",
-        "Capstone Research Seminar",
-        "Capstone Research Seminar",
-        "Capstone Research Seminar (to be taken fall of senior year)",
-        "Capstone Research Seminar",
-        "Capstone Research Seminar",
-        "Capstone Research Seminar (to be taken fall of senior year)"
-    ],
-    "ECO31-104": [
-        "Principle of Economics",
-        "Principles of Economics",
-        "Principles of Economics",
-        "Principle of Economics",
-        "Principles of Economics",
-        "Principle of Economics",
-        "Principle of Economics",
-        "Principles of Economics",
-        "is a prerequisite for this course.",
-        "Principles of Economics"
-    ],
-    "BUS30-114": [
-        "Fundamentals of Accounting",
-        "Fundamentals of Accounting",
-        "Fundamentals of Accounting",
-        "Fundamentals of Accounting",
-        "Fundamentals of Accounting"
-    ],
-    "BUS30-214": [
-        "Foundations of Business",
-        "Foundations of Business",
-        "Foundations of Business",
-        "Foundations of Business",
-        "Foundations of Business",
-        "is a prerequisite for this course."
-    ],
-    "BUS30-474": [
-        "Finance",
-        "Finance",
-        "Finance",
-        "Finance"
-    ],
-    "BUS30-964": [
-        "Capstone in Business",
-        "Capstone in Business",
-        "Capstone in Business",
-        "Capstone in Business"
-    ],
-    "HIS16-014": [
-        "Disease, Health, and Medicine in World History",
-        "Disease, Health, and Medicine in World History",
-        "Disease, Health and Medicine in World History",
-        "Disease, Health, and Medicine in World History",
-        "Disease, Health, and Medicine in World History",
-        "Disease, Health, and Medicine in World History",
-        "Disease, Health, and Medicine in World History",
-        "Disease, Health, and Medicine in World History",
-        "Disease, Health, and Medicine in World History",
-        "Disease, Health, and Medicine in World History",
-        "Disease, Health, and Medicine in World History"
-    ],
-    "HIS16-024": [
-        "Empires and Empires of the Mind in World History",
-        "Empires and Empires of the Mind in World History",
-        "Empires and Empires of the Mind in World History",
-        "Empires and Empires of the Mind in World History",
-        "Empires and Empires of the Mind in World History",
-        "Empires and Empires of the Mind in World History",
-        "Empires and Empires of the Mind in World History",
-        "Empires and Empires of the Mind in World History",
-        "Empires and Empires of the Mind in World History"
-    ],
-    "HIS16-034": [
-        "Nations and Nationalism in World History",
-        "Nations and Nationalism in World History",
-        "Nations and Nationalism in World History",
-        "Nations and Nationalism in World History",
-        "Nations and Nationalism in World History",
-        "Nations and Nationalism in World History",
-        "Nations and Nationalism in World History",
-        "Nations and Nationalism in World History",
-        "Nations and Nationalism in World History",
-        "Nations and Nationalism in World History"
-    ],
-    "HIS16-044": [
-        "Silk Roads in World History",
-        "Silk Roads in World History",
-        "Silk Roads in World History",
-        "Silk Roads in World History",
-        "Silk Roads in World History",
-        "Silk Roads in World History",
-        "Silk Roads in World History",
-        "Silk Roads in World History"
-    ],
-    "HIS16-054": [
-        "Food and Culture in World History",
-        "Food and Culture in World History",
-        "Food and Society in World History",
-        "Food and Culture in World History",
-        "Food and Society in World History",
-        "Food and Culture in World History",
-        "Food and Culture in World History",
-        "Food and Culture in World History",
-        "Food and Society in World History"
-    ],
-    "HIS16-094": [
-        "Topics in World History",
-        "Topics in World History",
-        "Topics in World History",
-        "Topics in World History",
-        "Topics in World History",
-        "Topics in World History",
-        "Topics in World History",
-        "Topics in World History"
-    ],
-    "HIS16-114": [
-        "History of Modern Africa",
-        "History of Modern Africa",
-        "History of Modern Africa",
-        "History of Modern Africa",
-        "History of Modern Africa",
-        "History of Modern Africa",
-        "History of Modern Africa",
-        "History of Modern Africa",
-        "History of Modern Africa",
-        "History of Modern Africa"
-    ],
-    "HIS16-204": [
-        "African Environmental History",
-        "African Environmental History",
-        "African Environmental History",
-        "African Environmental History",
-        "African Environmental History",
-        "African Environmental History",
-        "African Environmental History",
-        "African Environmental History",
-        "African Environmental History",
-        "African Environmental History"
-    ],
-    "HIS16-504": [
-        "Topics in African History",
-        "Topics in African History",
-        "Topics in African History",
-        "Topics in African History",
-        "Topics in African History",
-        "Topics in African History",
-        "Topics in African History",
-        "Topics in African History",
-        "Topics in African History"
-    ],
-    "HIS16-124": [
-        "History of East Asia to 1800",
-        "History of East Asia to 1800",
-        "History of East Asia to 1800",
-        "History of East Asia to 1800",
-        "History of East Asia to 1800",
-        "History of East Asia to 1800",
-        "History of East Asia to 1800",
-        "History of East Asia to 1800",
-        "History of East Asia to 1800",
-        "History of East Asia to 1800",
-        "History of East Asia to 1800",
-        "History of East Asia to 1800"
-    ],
-    "HIS16-134": [
-        "History of East Asia since 1800",
-        "History of East Asia since 1800",
-        "History of East Asia since 1800",
-        "History of East Asia since 1800",
-        "History of East Asia Since 1800",
-        "History of East Asia since 1800",
-        "History of East Asia since 1800",
-        "History of East Asia since 1800",
-        "History of East Asia since 1800",
-        "History of East Asia since 1800",
-        "History of East Asia since 1800"
-    ],
-    "HIS16-234": [
-        "Nomadic Empires: The \u201cBarbarians\u201d of the East Eurasian World",
-        "Nomadic Empires: The \u201cBarbarians\u201d of the East Eurasian World",
-        "Nomadic Empires: The \u201cBarbarians\u201d of the East Eurasian World",
-        "Nomadic Empires: The \u201cBarbarians\u201d of the East Eurasian World",
-        "Nomadic Empires: The \u201cBarbarians\u201d of the East Eurasian World",
-        "Nomadic Empires: The \u201cBarbarians\u201d of the East Eurasian World",
-        "Nomadic Empires: The \u201cBarbarians\u201d of the East Eurasian World",
-        "Nomadic Empires: The \u201cBarbarians\u201d of the East Eurasian World",
-        "Nomadic Empires: The \u201cBarbarians\u201d of the East Eurasian World",
-        "Nomadic Empires: The \u201cBarbarians\u201d of the East Eurasian World",
-        "Nomadic Empires: The \u201cBarbarians\u201d of the East Eurasian World",
-        "Nomadic Empires: The \u201cBarbarians\u201d of the East Eurasian World",
-        "Nomadic Empires: The \u201cBarbarians\u201d of the East Eurasian Worlds"
-    ],
-    "HIS16-244": [
-        "Docile or Deviant: Women, Gender, and Sexuality in China",
-        "Docile or Deviant: Women, Gender, and Sexuality in China",
-        "Docile or Deviant: Women, Gender, and Sexuality in China",
-        "Docile or Deviant: Women, Gender, and Sexuality in China",
-        "Docile or Deviant: Women, Gender, and Sexuality in China",
-        "Docile or Deviant: Women, Gender, and Sexuality in China",
-        "Docile or Deviant: Women, Gender, and Sexuality in China",
-        "Docile or Deviant: Women, Gender, and Sexuality in China",
-        "Docile or Deviant: Women, Gender, and Sexuality in China",
-        "Docile or Deviant: Women, Gender, and Sexuality in China",
-        "Docile or Deviant: Women, Gender, and Sexuality in China"
-    ],
-    "HIS16-514": [
-        "Topics in Asian History",
-        "Topics in Asian History",
-        "Topics in Asian History",
-        "Topics in Asian History",
-        "Topics in Asian History",
-        "Topics in Asian History",
-        "Topics in Asian History",
-        "Topics in Asian History",
-        "Topics in Asian History",
-        "Topics in Asian History"
-    ],
-    "HIS16-184": [
-        "History of Early Modern Europe",
-        "History of Early Modern Europe",
-        "History of Early Modern Europe",
-        "History of Early Modern Europe",
-        "History of Early Modern Europe",
-        "History of Early Modern Europe",
-        "History of Early Modern Europe",
-        "History of Early Modern Europe"
-    ],
-    "HIS16-194": [
-        "History of Modern Europe",
-        "History of Modern Europe",
-        "History of Modern Europe",
-        "History of Modern Europe",
-        "History of Modern Europe",
-        "History of Modern Europe",
-        "History of Modern Europe",
-        "History of Modern Europe",
-        "History of Modern Europe",
-        "History of Modern Europe",
-        "History of Modern Europe"
-    ],
-    "HIS16-404": [
-        "History of the British Isles since 1688",
-        "History of the British Isles since 1688",
-        "History of the British Isles since 1688",
-        "History of the British Isles since 1688",
-        "History of the British Isles since 1688",
-        "History of the British Isles Since 1688",
-        "History of the British Isles Since 1688",
-        "History of the British Isles since 1688"
-    ],
-    "HIS16-414": [
-        "Modern France and Empire",
-        "Modern France and Empire",
-        "Modern France and Empire",
-        "Modern France and Empire",
-        "Modern France and Empire",
-        "Modern France and Empire",
-        "Modern France and Empire",
-        "Modern France and Empire"
-    ],
-    "HIS16-424": [
-        "The Real Game of Thrones: The Medieval Era in History and Legend",
-        "The Real Game of Thrones: The Medieval Era in History & Legend",
-        "The Real Game of Thrones: The Medieval Era in History and Legend",
-        "The Real Game of Thrones: The Medieval Era in History and Legend",
-        "The Real Game of Thrones: The Medieval Era in History and Legend",
-        "The Real Game of Thrones: The Medieval Era in History and Legend",
-        "The Real Game of Thrones: The Medieval Era in History and Legend",
-        "The Real Game of Thrones: The Medieval Era in History and Legend",
-        "The Real Game of Thrones: The Medieval Era in History and Legend",
-        "The Real Game of Thrones: The Medieval Era in History and Legend"
-    ],
-    "HIS16-434": [
-        "History of Europe\u2019s Muslims",
-        "History of Europe\u2019s Muslims",
-        "History of Europe\u2019s Muslims",
-        "History of Europe\u2019s Muslims",
-        "History of Europe\u2019s Muslims",
-        "History of Europe\u2019s Muslims",
-        "The History of Europe's Muslims",
-        "Nomadic Empires: The \u201cBarbarians\u201d of the East Eurasian World",
-        "The History of Europe\u2019s Muslims"
-    ],
-    "HIS16-444": [
-        "The Tudors: Politics & Culture, 1485- 1603",
-        "The Tudors: Politics & Culture, 1485-1603",
-        "The Tudors: Politics & Culture, 1485- 1603",
-        "The Tudors: Politics & Culture, 1485- 1603",
-        "The Tudors: Politics & Culture, 1485-1603",
-        "The Tudors: Politics & Culture, 1485- 1603",
-        "The Tudors: Politics & Culture, 1485- 1603",
-        "The Tudors: Politics & Culture, 1485- 1603",
-        "The Tudors: Politics & Culture, 1485- 1603",
-        "The Tudors: Politics & Culture, 1485- 1603",
-        "The Tudors: Politics & Culture, 1485- 1603"
-    ],
-    "HIS16-454": [
-        "Histories of Race in Europe",
-        "Histories of Race in Europe",
-        "Histories of Race in Europe",
-        "Histories of Race in Europe",
-        "Histories of Race in Europe",
-        "Histories of Race in Europe",
-        "Histories of Race in Europe",
-        "Histories of Race in Europe"
-    ],
-    "HIS16-464": [
-        "History of Human Rights",
-        "History of Human Rights",
-        "History of Human Rights",
-        "History of Human Rights",
-        "History of Human Rights",
-        "History of Human Rights",
-        "History of Human Rights",
-        "History of Human Rights",
-        "History of Human Rights",
-        "History of Human Rights",
-        "History of Human Rights",
-        "History of Human Rights"
-    ],
-    "HIS16-554": [
-        "Topics in European History",
-        "Topics in European History",
-        "Topics in European History",
-        "Topics in European History",
-        "Topics in European History",
-        "Topics in European History",
-        "Topics in European History"
-    ],
-    "HIS16-144": [
-        "History of Colonial Latin America",
-        "Colonial Latin America",
-        "History of Colonial Latin America",
-        "History of Colonial Latin America",
-        "History of Colonial Latin America",
-        "History of Colonial Latin America",
-        "History of Colonial Latin America",
-        "History of Colonial Latin America",
-        "History of Colonial Latin America",
-        "History of Colonial Latin America",
-        "History of Colonial Latin America",
-        "History of Colonial Latin America",
-        "History of Colonial Latin America",
-        "History of Colonial Latin America"
-    ],
-    "HIS16-154": [
-        "History of Modern Latin America",
-        "History of Modern Latin America",
-        "History of Modern Latin America",
-        "History of Modern Latin America",
-        "History of Modern Latin America",
-        "History of Modern Latin America",
-        "History of Modern Latin America",
-        "History of Modern Latin America",
-        "History of Modern Latin America",
-        "History of Modern Latin America",
-        "History of Modern Latin America",
-        "History of Modern Latin America"
-    ],
-    "HIS16-264": [
-        "Latin American History in Film and Literature",
-        "Latin American History in Film and Literature",
-        "Latin American History in Film and Literature",
-        "Latin American History in Film and Literature",
-        "Latin American History in Film and Literature",
-        "Latin American History in Film and Literature",
-        "Latin American History in Film and Literature",
-        "Latin American History in Film and Literature",
-        "Latin American History in Film & Literature",
-        "Latin American History in Film & Literature",
-        "Latin American History in Film & Literature",
-        "Latin American History in Film & Literature",
-        "Latin American History in Film & Literature",
-        "Latin American History in Film and Literature"
-    ],
-    "HIS16-274": [
-        "Reproductive Histories in Latin America",
-        "Reproductive Histories in Latin America",
-        "Reproductive Histories in Latin America",
-        "Reproductive Histories in Latin America",
-        "Reproductive Histories in Latin America",
-        "Reproductive Histories in Latin America",
-        "Reproductive Histories in Latin America",
-        "Reproductive Histories in Latin America",
-        "Reproductive Histories of Latin America",
-        "Reproductive Histories of Latin America",
-        "Reproductive Histories of Latin America",
-        "Reproductive Histories in Latin America",
-        "Reproductive Histories in Latin America",
-        "Reproductive Histories in Latin America",
-        "Reproductive Histories in Latin America",
-        "Reproductive Histories in Latin America"
-    ],
-    "HIS16-284": [
-        "The Mexican Revolution",
-        "The Mexican Revolution",
-        "The Mexican Revolution",
-        "The Mexican Revolution",
-        "The Mexican Revolution",
-        "The Mexican Revolution",
-        "The Mexican Revolution",
-        "The Mexican Revolution",
-        "The Mexican Revolution",
-        "The Mexican Revolution",
-        "The Mexican Revolution",
-        "The Mexican Revolution",
-        "The Mexican Revolution"
-    ],
-    "HIS16-524": [
-        "Topics in Latin American History",
-        "Topics in Latin American History",
-        "Topics in Latin American History",
-        "Topics in Latin American History",
-        "Topics in Latin American History",
-        "Topics in Latin American History",
-        "Topics in Latin American History",
-        "Topics in Latin American History",
-        "Topics in Latin American History",
-        "The Real Game of Thrones: The Medieval Era in History and Legend"
-    ],
-    "HIS16-164": [
-        "History of the U.S.: From Colonies to Nation",
-        "History of the U.S.: From Colonies to Nation",
-        "History of Colonial Latin America",
-        "History of the U.S.: From Colonies to Nation",
-        "History of the U.S.: From Colonies to Nation",
-        "History of the U.S.: From Colonies to Nation",
-        "History of the U.S.: From Colonies to Nation",
-        "History of the U.S.: From Colonies to Nation",
-        "History of the U.S.: From Colonies to Nation",
-        "History of the U.S.: From Colonies to Nation"
-    ],
-    "HIS16-174": [
-        "History of the U.S.: From Nation to World Power",
-        "History of Modern Latin America",
-        "History of the U.S.: From Nation to World Power",
-        "History of the U.S.: From Nation to World Power",
-        "History of the U.S.: From Nation to World Power",
-        "History of the U.S.: From Nation to World Power",
-        "History of the U.S.: From Nation to World Power",
-        "History of the U.S.: From Nation to World Power"
-    ],
-    "HIS16-294": [
-        "Texas History",
-        "Texas History is required for students who did not previously take Texas History in a Texas",
-        "Texas History",
-        "Texas History",
-        "Texas History",
-        "Texas History",
-        "Texas History",
-        "Texas History",
-        "Texas History",
-        "Texas History",
-        "Texas History",
-        "Texas History",
-        "Texas History",
-        "Texas History",
-        "Texas History",
-        "Texas History"
-    ],
-    "HIS16-314": [
-        "History of the Civil Rights Movement",
-        "History of the Civil Rights Movement",
-        "History of the Civil Rights Movement",
-        "History of the Civil Rights Movement",
-        "History of the Civil Rights Movement",
-        "History of the Civil Rights Movement",
-        "History of the Civil Rights Movement",
-        "History of the Civil Rights Movement",
-        "History of the Civil Rights Movement",
-        "History of the Civil Rights Movement"
-    ],
-    "HIS16-324": [
-        "Rise of the Right: History of the U.S. Conservative Movement",
-        "Rise of the Right: History of the U.S. Conservative Movement",
-        "Rise of the Right: History of the Conservative Movement in the U.S.",
-        "Rise of the Right: History of the U.S. Conservative Movement",
-        "Rise of the Right: History of the U.S. Conservative Movement",
-        "Rise of the Right: History of the U.S. Conservative Movement",
-        "Rise of the Right: History of the U.S. Conservative Movement",
-        "Rise of the Right: History of the U.S. Conservative Movement"
-    ],
-    "HIS16-334": [
-        "Sport and Society in Modern America",
-        "Sport and Society in Modern America",
-        "Sport and Society in Modern America",
-        "Sport and Society in Modern America",
-        "Sport and Society in Modern America",
-        "Sport and Society in Modern America",
-        "Sport and Society in Modern America",
-        "Sport and Society in Modern America",
-        "Sport and Society in Modern America",
-        "Sport and Society in Modern America"
-    ],
-    "HIS16-344": [
-        "The History of the U.S. West",
-        "The History of the U.S. West",
-        "The History of the U.S. West",
-        "The History of the U.S. West",
-        "The History of the U.S. West",
-        "The History of the U.S. West",
-        "The History of the U.S. West",
-        "The History of the U.S. West",
-        "The History of the U.S. West"
-    ],
-    "HIS16-534": [
-        "Topics in U.S. History",
-        "Topics in U.S. History",
-        "Topics in U.S. History",
-        "Topics in U.S. History",
-        "Topics in U.S. History",
-        "Topics in U.S. History",
-        "Topics in U.S. History"
-    ],
-    "HIS16-364": [
-        "Slavery and Freedom in the Atlantic World",
-        "Slavery and Freedom in the Atlantic World",
-        "Slavery and Freedom in the Atlantic World",
-        "Slavery and Freedom in the Atlantic World",
-        "Slavery and Freedom in the Atlantic World",
-        "Slavery and Freedom in the Atlantic World",
-        "Slavery and Freedom in the Atlantic World",
-        "Slavery and Freedom in the Atlantic World"
-    ],
-    "HIS16-374": [
-        "History of the Islamic World",
-        "History of the Islamic World",
-        "History of the Islamic World",
-        "History of the Islamic World",
-        "History of the Islamic World",
-        "History of the Islamic World",
-        "History of the Islamic World"
-    ],
-    "HIS16-394": [
-        "Witches, Nuns, Prostitutes, Wives, and Queens",
-        "Witches, Nuns, Prostitutes, Wives, & Queens: Women and Gender in the British World",
-        "Witches, Nuns, Prostitutes, Wives, and Queens",
-        "Witches, Nuns, Prostitutes, Wives, and Queens: Women & Gender in the British World",
-        "Witches, Nuns, Prostitutes, Wives, and Queens: Women & Gender in the British World",
-        "Witches, Nuns, Prostitutes, Wives, and Queens: Women & Gender in the British World",
-        "Witches, Nuns, Prostitutes, Wives, and Queens: Women & Gender in the British World",
-        "Witches, Nuns, Prostitutes, Wives, and Queens",
-        "Witches, Nuns, Prostitutes, Wives, and Queens: Women & Gender in the British World",
-        "Witches, Nuns, Prostitutes, Wives, and Queens: Women & Gender",
-        "Witches, Nuns, Prostitutes, Wives, and Queens: Women & Gender"
-    ],
-    "HIS16-544": [
-        "Topics in Transregional History",
-        "Topics in Transregional History",
-        "Topics in Transregional History",
-        "Topics in Transregional History",
-        "Topics in Transregional History",
-        "Topics in Transregional History",
-        "Topics in Transregional History"
-    ],
-    "HIS16-604": [
-        "Historiography",
-        "Historiography",
-        "Historiography",
-        "Historiography",
-        "Historiography",
-        "Historiography",
-        "Historiography",
-        "Historiography",
-        "Historiography"
-    ],
-    "HIS16-864": [
-        "Research Seminar (Capstone)",
-        "Research Seminar (Capstone)",
-        "Research Seminar (Capstone)",
-        "Research Seminar (Capstone)",
-        "Research Seminar (Capstone)",
-        "Research Seminar (Capstone)",
-        "Research Seminar (Capstone)",
-        "Research Seminar (Capstone)",
-        "Research Seminar (Capstone)"
-    ],
-    "ANT35-104": [
-        "Introduction to Cultural Anthropology",
-        "Introduction to Cultural Anthropology",
-        "Introduction to Cultural",
-        "Intro to Cultural Anthropology",
-        "Introduction to Cultural Anthropology",
-        "Introduction to Cultural Anthropology",
-        "Introduction to Cultural Anthropology",
-        "Introduction to Cultural Anthropology",
-        "Introduction to Cultural Anthropology",
-        "Introduction to Cultural Anthropology",
-        "Introduction to Cultural Anthropology",
-        "Introduction to Cultural Anthropology",
-        "Introduction to Cultural Anthropology",
-        "Intro to Cultural Anthropology",
-        "Introduction to Cultural Anthropology",
-        "Introduction to Cultural Anthropology",
-        "Introduction to Cultural Anthropology",
-        "Introduction to Cultural Anthropology"
-    ],
-    "PSC32-144": [
-        "Comparative Politics",
-        "Comparative Politics; or one World History course from",
-        "Comparative Politics",
-        "Comparative Politics",
-        "Comparative Politics",
-        "Comparative Politics",
-        "Comparative Politics",
-        "Comparative Politics",
-        "is a prerequisite for this course.",
-        "Comparative Politics",
-        "Comparative Politics",
-        "Comparative Politics",
-        "Comparative Politics",
-        "Comparative Politics",
-        "Comparative Politics"
-    ],
-    "INS38-894": [
-        "Capstone",
-        "Capstone",
-        "Capstone",
-        "Capstone",
-        "Capstone",
-        "Capstone",
-        "Capstone",
-        "Capstone",
-        "Capstone",
-        "Capstone",
-        "Capstone"
-    ],
-    "BIO50-173": [
-        "Molecular and Cellular Foundations of Biology, and",
-        "Molecular and Cellular Foundations of Biology, and",
-        "Molecular and Cellular Foundations of Biology, and",
-        "Molecular and Cellular Foundations of Biology",
-        "Molecular and Cellular Foundations of Biology",
-        "Molecular and Cellular Foundations of Biology",
-        "Molecular and Cellular Foundations of Biology, and",
-        "Molecular and Cellular Foundations of Biology, and one introductory Biology lab course:",
-        "Molecular and Cellular Foundations of Biology, and"
-    ],
-    "BIO50-183": [
-        "Evolutionary and Ecological Foundations of Biology",
-        "Evolutionary and Ecological Foundations of Biology",
-        "Evolutionary and Ecological Foundations of Biology, and",
-        "Evolutionary and Ecological Foundations of Biology",
-        "Evolutionary and Ecological Foundations of Biology",
-        "Evolutionary and Ecological Foundations of Biology",
-        "Evolutionary and Ecological Foundation of Biology, and",
-        "Evolutionary and Ecological Foundations of Biology, and one introductory Biology lab course:",
-        "Evolutionary and Ecological Foundations of Biology, and"
-    ],
-    "BIO50-171": [
-        "Inquiries in Biology, and",
-        "Inquiries in Biology, and",
-        "Inquiries in Biology",
-        "Inquiries in Biology",
-        "Inquiries in Biology",
-        "Inquiries in Biology",
-        "Inquiries in Biology",
-        "Inquiries in Biology",
-        "Inquiries in Biology",
-        "Inquiries in Biology,",
-        "Inquiries in Biology,"
-    ],
-    "BIO50-181": [
-        "Investigations in Biology",
-        "Investigations in Biology",
-        "Investigations in Biology",
-        "Investigations in Biology",
-        "Investigations in Biology",
-        "Investigations in Biology",
-        "Investigations in Biology",
-        "Investigations in Biology",
-        "Investigations in Biology",
-        "Investigations in Biology",
-        "Investigations in Biology"
-    ],
-    "BIO50-222": [
-        "Methods in Ecology and Evolutionary Biology, and",
-        "Methods in Ecology and Evolutionary Biology, and",
-        "Methods in Ecology and Evolution,",
-        "Methods in Ecology & Evolutionary Biology"
-    ],
-    "BIO50-232": [
-        "Methods in Cellular/Molecular Biology",
-        "Methods in Cellular/Molecular Biology",
-        "Methods in Cell and Molecular Biology",
-        "Methods in Cellular/Molecular Biology"
-    ],
-    "BIO50-304": [
-        "Special Topics (with permission of Department Chair when offered)",
-        "Special Topics (with permission of Department Chair when offered)",
-        "Special Topics (with permission of Department chair when offered)",
-        "Special Topics (with permission of Department chair when offered)"
-    ],
-    "BIO50-354": [
-        "Neurobiology",
-        "Neurobiology",
-        "Neurobiology"
-    ],
-    "BIO50-394": [
-        "Developmental Biology",
-        "Developmental Biology",
-        "Developmental Biology"
-    ],
-    "BIO50-404": [
-        "Cancer Biology",
-        "Cancer Biology",
-        "Cancer Biology"
-    ],
-    "BIO50-464": [
-        "Molecular Biology",
-        "Molecular Biology"
-    ],
-    "BIO50-484": [
-        "Microbiology",
-        "Microbiology"
-    ],
-    "BIO50-494": [
-        "Biology of Reproduction",
-        "Biology of Reproduction",
-        "Biology of Reproduction"
-    ],
-    "BIO50-514": [
-        "Cellular Physiology",
-        "Cellular Physiology",
-        "Cellular Physiology"
-    ],
-    "BIO50-534": [
-        "Fundamentals of Immunology",
-        "Fundamentals of Immunology"
-    ],
-    "BIO50-604": [
-        "Principles of Biochemistry,",
-        "Principles of Biochemistry,"
-    ],
-    "CHE51-604": [
-        "Principles of Biochemistry",
-        "Principles of Biochemistry"
-    ],
-    "BIO50-624": [
-        "General Biochemistry II,",
-        "General Biochemistry II,"
-    ],
-    "CHE51-624": [
-        "General Biochemistry II",
-        "General Biochemistry II",
-        "General Biochemistry II2",
-        "General Biochemistry II courses must be taken at Southwestern"
-    ],
-    "BIO50-314": [
-        "Genetics",
-        "Genetics",
-        "Genetics",
-        "Genetics"
-    ],
-    "BIO50-334": [
-        "Evolutionary Biology",
-        "Evolutionary Biology",
-        "Evolutionary Biology"
-    ],
-    "BIO50-374": [
-        "Human Genetics and Evolution",
-        "Human Genetics and Evolution",
-        "Human Genetics and Evolution"
-    ],
-    "BIO50-384": [
-        "Conservation Biology",
-        "Conservation Biology",
-        "Conservation Biology",
-        "Conservation Biology",
-        "Conservation Biology"
-    ],
-    "BIO50-414": [
-        "Plant Ecology",
-        "Plant Ecology",
-        "Plant Ecology",
-        "Plant Ecology",
-        "Plant Ecology",
-        "Plant Ecology"
-    ],
-    "BIO50-434": [
-        "Ecology",
-        "Ecology",
-        "Ecology",
-        "Ecology",
-        "Ecology"
-    ],
-    "BIO50-444": [
-        "Invertebrate Ecology",
-        "Invertebrate Ecology"
-    ],
-    "BIO50-474": [
-        "Genetics, Genomics and Medicine",
-        "Genetics, Genomics and Medicine",
-        "Genetics, Genomics, and Medicine"
-    ],
-    "BIO50-991": [
-        "Biology Capstone Seminar",
-        "Biology Capstone Seminar"
-    ],
-    "BIO50-994": [
-        "Biology Capstone Seminar",
-        "Biology Capstone Seminar"
-    ],
-    "CHE51-103": [
-        "General Chemistry I",
-        "General Chemistry I",
-        "General Chemistry I",
-        "General Chemistry I",
-        "General Chemistry I",
-        "General Chemistry I",
-        "General Chemistry I",
-        "General Chemistry I, and"
-    ],
-    "CHE51-101": [
-        "Chemical Methods and Techniques Lab I",
-        "Chemical Methods and Techniques Laboratory I",
-        "Chemical Methods and Techniques Laboratory I",
-        "Chemical Methods and Techniques Laboratory I",
-        "Chemical Methods and Techniques Laboratory I",
-        "Chemical Methods and Techniques Laboratory I",
-        "Chemical Methods and Techniques Laboratory I",
-        "Chemical Methods and Techniques Laboratory I"
-    ],
-    "CHE51-203": [
-        "General Chemistry II",
-        "General Chemistry II",
-        "General Chemistry II",
-        "General Chemistry II",
-        "General Chemistry II",
-        "General Chemistry II",
-        "General Chemistry II",
-        "General Chemistry II, and"
-    ],
-    "CHE51-201": [
-        "Chemical Methods and Techniques Laboratory II",
-        "Chemical Methods and Techniques Laboratory II",
-        "Chemical Methods and Techniques Laboratory II",
-        "Chemical Methods and Techniques Laboratory II",
-        "Chemical Methods and Techniques Laboratory II",
-        "Chemical Methods and Techniques Laboratory II",
-        "Chemical Methods and Techniques Laboratory II",
-        "Chemical Methods and Techniques Laboratory II"
-    ],
-    "MAT52-114": [
-        "Introduction to Statistics",
-        "Introduction to Statistics",
-        "Introduction to Statistics",
-        "Introduction to Statistics",
-        "Introduction to Statistics",
-        "Introduction to Statistics",
-        "Introduction to Statistics",
-        "Introduction to Statistics",
-        "Introduction to Statistics",
-        "Introduction to Statistics",
-        "Introduction to Statistics",
-        "Introduction to Statistics",
-        "Introduction to Statistics",
-        "Introduction to Statistics",
-        "Introduction to Statistics",
-        "Introduction to Statistics",
-        "Introduction to Statistics",
-        "Introduction to Statistics",
-        "Introduction to Statistics",
-        "Introduction to Statistics",
-        "Introduction to Statistics",
-        "Introduction to Statistics"
-    ],
-    "CHE51-313": [
-        "Organic Chemistry I",
-        "Organic Chemistry I1",
-        "Organic Chemistry I and",
-        "Organic Chemistry I1",
-        "Organic Chemistry I and",
-        "Organic Chemistry I1",
-        "Organic Chemistry I and",
-        "Organic Chemistry I1",
-        "Organic Chemistry I and",
-        "Organic Chemistry I1",
-        "Organic Chemistry I"
-    ],
-    "CHE51-311": [
-        "Organic Chemistry Laboratory Techniques,",
-        "Organic Chemistry Laboratory Techniques",
-        "Organic Chemistry Laboratory Techniques",
-        "Organic Chemistry Laboratory Techniques",
-        "Organic Chemistry Laboratory Techniques",
-        "Organic Chemistry Laboratory Techniques"
-    ],
-    "CHE51-322": [
-        "Organic Chemistry Laboratory",
-        "Organic Chemistry Laboratory and",
-        "Organic Chemistry Laboratory and",
-        "Organic Chemistry Laboratory and",
-        "Organic Chemistry Laboratory and",
-        "Organic Chemistry Laboratory and"
-    ],
-    "MAT52-164": [
-        "Modern Calculus I",
-        "Modern Calculus I",
-        "Modern Calculus I",
-        "Modern Calculus I",
-        "Modern Calculus I",
-        "Modern Calculus I",
-        "Modern Calculus I should first take",
-        "Modern Calculus I",
-        "Modern Calculus I",
-        "Modern Calculus I should first take",
-        "Modern Calculus I",
-        "Modern Calculus I",
-        "Modern Calculus I should first take",
-        "Modern Calculus I",
-        "Modern Calculus I should first take",
-        "Modern Calculus I",
-        "Modern Calculus I",
-        "Modern Calculus I",
-        "Modern Calculus I",
-        "Modern Calculus I",
-        "Modern Calculus I",
-        "Modern Calculus I",
-        "Modern Calculus I",
-        "Modern Calculus I, normally to be completed no later than the sophomore year",
-        "Modern Calculus I",
-        "Modern Calculus I",
-        "Modern Calculus I",
-        "Modern Calculus I",
-        "Modern Calculus I",
-        "Modern Calculus I",
-        "Modern Calculus I"
-    ],
-    "PHY53-164": [
-        "Fundamentals of Physics II",
-        "Fundamentals of Physics II",
-        "Fundamentals of Physics II",
-        "Fundamentals of Physics II",
-        "Fundamentals of Physics II",
-        "Fundamentals of Physics II",
-        "Fundamentals of Physics II",
-        "Fundamentals of Physics II",
-        "Fundamentals of Physics II",
-        "Fundamentals of Physics II",
-        "Fundamentals of Physics II",
-        "Fundamentals of Physics II",
-        "Fundamentals of Physics II",
-        "Fundamentals of Physics II"
-    ],
-    "CHE51-323": [
-        "Organic Chemistry II1",
-        "Organic Chemistry II must be taken at",
-        "Organic Chemistry II1",
-        "Organic Chemistry II must be taken at",
-        "Organic Chemistry II1",
-        "Organic Chemistry II must be taken at",
-        "Organic Chemistry II1",
-        "Organic Chemistry II must be taken at",
-        "Organic Chemistry II1",
-        "Organic Chemistry II"
-    ],
-    "CHE51-321": [
-        "Organic Chemistry Laboratory Applications and",
-        "Organic Chemistry Laboratory Applications and",
-        "Organic Chemistry Laboratory Applications and",
-        "Organic Chemistry Laboratory Applications and",
-        "Organic Chemistry Laboratory Applications and"
-    ],
-    "CHE51-332": [
-        "Organic Chemistry Lab Intermediate",
-        "Organic Chemistry Lab Intermediate",
-        "Organic Chemistry Lab Intermediate",
-        "Organic Chemistry Lab Intermediate",
-        "Organic Chemistry Lab Intermediate"
-    ],
-    "CHE51-932": [
-        "Senior Chemistry Capstone,",
-        "Senior Chemistry Capstone with,",
-        "Senior Chemistry Capstone"
-    ],
-    "CHE51-922": [
-        "Senior Biochemistry Capstone",
-        "Senior Biochemistry Capstone with,"
-    ],
-    "CHE51-514": [
-        "Quantitative Chemical Analysis",
-        "Quantitative Chemical Analysis"
-    ],
-    "CHE51-704": [
-        "Physical Chemistry: Thermodynamics and Kinetics,",
-        "Physical Chemistry: Thermodynamics and Kinetics",
-        "Physical Chemistry: Thermodynamics and Kinetics"
-    ],
-    "CHE51-714": [
-        "Quantum Mechanics",
-        "Quantum Mechanics"
-    ],
-    "CHE51-934": [
-        "Senior Chemistry Capstone"
-    ],
-    "MAT52-264": [
-        "Modern Calculus II",
-        "Modern Calculus II",
-        "Modern Calculus II,",
-        "Modern Calculus II",
-        "Modern Calculus II",
-        "Modern Calculus II",
-        "Modern Calculus II",
-        "Modern Calculus II",
-        "Modern Calculus II",
-        "Modern Calculus II",
-        "Modern Calculus II",
-        "Modern Calculus II",
-        "Modern Calculus II",
-        "Modern Calculus II"
-    ],
-    "CSC54-184": [
-        "Computer Science I",
-        "Computer Science I",
-        "Computer Science I may substitute that",
-        "Computer Science I",
-        "Computer Science I, normally to be completed no later than the sophomore year",
-        "Computer Science I, normally to be completed no later than the sophomore year",
-        "Computer Science I",
-        "Computer Science I",
-        "Computer Science I",
-        "Computer Science I",
-        "Computer Science I",
-        "Computer Science I",
-        "Computer Science I"
-    ],
-    "MAT52-364": [
-        "Modern Calculus III",
-        "Modern Calculus III",
-        "Modern Calculus III",
-        "Modern Calculus III",
-        "Modern Calculus III",
-        "Modern Calculus III",
-        "Modern Calculus III,",
-        "Modern Calculus III",
-        "Modern Calculus III"
-    ],
-    "MAT52-674": [
-        "Linear Algebra",
-        "Linear Algebra",
-        "Linear Algebra",
-        "Linear Algebra",
-        "Linear Algebra",
-        "Linear Algebra",
-        "Linear Algebra",
-        "Linear Algebra",
-        "Linear Algebra"
-    ],
-    "PHY53-214": [
-        "Modern Physics",
-        "Modern Physics",
-        "Modern Physics",
-        "Modern Physics",
-        "Modern Physics",
-        "Modern Physics"
-    ],
-    "PHY53-404": [
-        "Electronics",
-        "Electronics",
-        "Electronics",
-        "Electronics",
-        "Electronics",
-        "Electronics",
-        "Electronics",
-        "Electronics",
-        "Electronics",
-        "Electronics"
-    ],
-    "CHE51-614": [
-        "General Biochemistry I2",
-        "General Biochemistry I and"
-    ],
-    "CHE51-404": [
-        "Inorganic Chemistry and Biological Systems"
-    ],
-    "CHE51-424": [
-        "Fundamentals of Material Science and Engineering"
-    ],
-    "CHE51-504": [
-        "Instrumentation in Environmental and Biological Analysis",
-        "Instrumentation in Environmental and Biological Analysis",
-        "Instrumentation in Environmental and Biological Analysis",
-        "Instrumentation in Environmental and Biological Analysis"
-    ],
-    "CHE51-862": [
-        "Advanced Lab in Biochemistry"
-    ],
-    "CHE51-924": [
-        "Senior Biochemistry Capstone"
-    ],
-    "COM75-134": [
-        "Critical/Cultural Communication Studies",
-        "Critical/Cultural Communication Studies"
-    ],
-    "COM75-204": [
-        "Rhetorical Theory",
-        "Rhetorical Theory"
-    ],
-    "COM75-604": [
-        "Critical Media Theory"
-    ],
-    "COM75-804": [
-        "Critical/Cultural Research Methods"
-    ],
-    "COM75-964": [
-        "Capstone Research Seminar"
-    ],
-    "MAT52-574": [
-        "Probability and Mathematical Statistics",
-        "Probability and Mathematical Statistics",
-        "Probability and Mathematical Statistics",
-        "Probability and Mathematical Statistics"
-    ],
-    "CSC54-144": [
-        "Explorations in Computing",
-        "Explorations in Computing."
-    ],
-    "DTA25-214": [
-        "Introduction to Data Analytics"
-    ],
-    "BUS30-414": [
-        "Operations Research"
-    ],
-    "CHE51-852": [
-        "Advanced Lab in Analytical Chemistry"
-    ],
-    "CSC54-414": [
-        "Operations Research",
-        "Operations Research",
-        "Operations Research"
-    ],
-    "CSC54-514": [
-        "Database Management",
-        "Database Management",
-        "Database Management",
-        "Database Management"
-    ],
-    "ECO31-314": [
-        "Econometrics",
-        "Econometrics",
-        "Econometrics"
-    ],
-    "ENV49-204": [
-        "Environmental GIS",
-        "Environmental GIS (Geographic Information Systems)",
-        "Environmental GIS (Geographic Information Systems)",
-        "Environmental GIS",
-        "Environmental GIS",
-        "Environmental GIS",
-        "Environmental GIS (Geographic Information Systems)"
-    ],
-    "ENV49-474": [
-        "Advanced GIS",
-        "Advanced GIS"
-    ],
-    "KIN48-214": [
-        "Research Methods in Kinesiology",
-        "Research Methods in Kinesiology",
-        "Research Methods in Kinesiology",
-        "Research Methods in Kinesiology"
-    ],
-    "MAT52-414": [
-        "Operations Research"
-    ],
-    "PHY53-364": [
-        "Fundamentals of Materials Science & Engineering",
-        "Fundamentals of Materials Science and Engineering",
-        "Fundamentals of Materials Science and Engineering",
-        "Fundamentals of Materials Science and Engineering",
-        "Fundamentals of Materials Science and Engineering"
-    ],
-    "PSY33-204": [
-        "Survey of Research Methods",
-        "Survey of Research Methods",
-        "Survey of Research Methods"
-    ],
-    "PSY33-214": [
-        "Inquiry-Based Research Methods",
-        "Inquiry-Based Research Methods, and",
-        "Inquiry-Based Research Methods, and"
-    ],
-    "PSY33-224": [
-        "Inquiry-Based Research Methods with Animals",
-        "Inquiry-Based Research Methods (with Animals), and",
-        "Inquiry-Based Research Methods (with Animals), and",
-        "Inquiry-Based Research Methods with Animals"
-    ],
-    "COM75-474": [
-        "Visual/Material Communication"
-    ],
-    "COM75-674": [
-        "Film Studies"
-    ],
-    "ENG10-184": [
-        "Introduction to Film Studies"
-    ],
-    "BUS30-394": [
-        "Consumer Behavior"
-    ],
-    "EDU40-144": [
-        "Survey of Exceptionalities",
-        "Survey of Exceptionalities",
-        "Survey of Exceptionalities",
-        "Survey of Exceptionalities",
-        "Survey of Exceptionalities",
-        "Survey of Exceptionalities",
-        "Survey of Exceptionalities",
-        "Survey of Exceptionalities",
-        "Survey of Exceptionalities",
-        "Survey of Exceptionalities",
-        "Survey of Exceptionalities",
-        "Survey of Exceptionalities",
-        "Survey of Exceptionalities"
-    ],
-    "EDU40-204": [
-        "Innovative Schools",
-        "Innovative Schools",
-        "Innovative Schools"
-    ],
-    "EDU40-344": [
-        "Strategies for Life Skills and Transition",
-        "Strategies for Life Skills and Transition",
-        "Strategies for Life Skills and Transition",
-        "Strategies for Life Skills and Transition",
-        "Strategies for Life Skills and Transition",
-        "Strategies for Life Skills and Transition",
-        "Strategies for Life Skills and Transition"
-    ],
-    "EDU40-444": [
-        "Differentiated Instruction Strategies",
-        "Differentiated Instruction Strategies",
-        "Differentiated Instruction Strategies",
-        "Differentiated Instruction Strategies",
-        "Differentiated Instruction Strategies",
-        "Differentiated Instruction Strategies"
-    ],
-    "CSC54-284": [
-        "Computer Science II",
-        "Computer Science II",
-        "Computer Science II",
-        "Computer Science II",
-        "Computer Science II",
-        "Computer Science II",
-        "Computer Science II",
-        "Computer Science II",
-        "Computer Science II"
-    ],
-    "CSC54-454": [
-        "Algorithms",
-        "Algorithms",
-        "Algorithms",
-        "Algorithms",
-        "Algorithms",
-        "Algorithms"
-    ],
-    "PHY53-104": [
-        "Introduction to Engineering",
-        "Introduction to Engineering",
-        "Introduction to Engineering"
-    ],
-    "PHY53-112": [
-        "Application of CAD",
-        "Applications of CAD"
-    ],
-    "PHY53-434": [
-        "Statics",
-        "Statics",
-        "Statics",
-        "Statics",
-        "Statics"
-    ],
-    "PHY53-314": [
-        "Engineering Design",
-        "Engineering Design",
-        "Engineering Design"
-    ],
-    "ART68-164": [
-        "Architectural Studio I: Introduction to Drafting and Programmatic Design"
-    ],
-    "ART68-264": [
-        "Architecture Studio II: Historical Design"
-    ],
-    "ART68-364": [
-        "Architecture Studio III: Modern Structures"
-    ],
-    "MUT76-223": [
-        "Music Technology",
-        "Music Technology",
-        "Music Technology",
-        "Music Technology",
-        "Music Technology",
-        "Music Technology",
-        "Music Technology",
-        "Music Technology"
-    ],
-    "MUT76-532": [
-        "Applied Composition",
-        "Applied Composition"
-    ],
-    "THE72-164": [
-        "Design Fundamentals",
-        "Design Fundamentals",
-        "Design Fundamentals",
-        "Design Fundamentals",
-        "Design Fundamentals"
-    ],
-    "THE72-704": [
-        "Makeup Design",
-        "Makeup Design"
-    ],
-    "THE72-714": [
-        "Costume Design",
-        "Costume Design"
-    ],
-    "THE72-724": [
-        "Scenic Design",
-        "Scenic Design",
-        "Scenic Design"
-    ],
-    "THE72-734": [
-        "Lighting Design",
-        "Lighting Design"
-    ],
-    "THE72-744": [
-        "Audio Technology and Design",
-        "Audio Technology and Design"
-    ],
-    "THE72-754": [
-        "Scenic Elements and Stage Properties",
-        "Scenic Elements and Stage Properties"
-    ],
-    "THE72-764": [
-        "Scene Painting",
-        "Scene Painting"
-    ],
-    "ARH71-024": [
-        "Introduction to Art History: East Asian Art & Architecture",
-        "Introduction to Art History: East Asian Art and Architecture",
-        "Introduction to Art History: East Asian Art and Architecture",
-        "Introduction to Art History: East Asian Art & Architecture"
-    ],
-    "ARH71-214": [
-        "Arts of China",
-        "Arts of China",
-        "Arts of China"
-    ],
-    "ENG10-154": [
-        "Topics in British Literature I",
-        "Topics in British Literature I"
-    ],
-    "ENG10-604": [
-        "Topics in Medieval Literature",
-        "Topics in Medieval Literature"
-    ],
-    "ENG10-624": [
-        "Shakespeare",
-        "Shakespeare"
-    ],
-    "MUL80-214": [
-        "Music History 900-1800",
-        "Music History 900-1800",
-        "Music History 900-1800",
-        "Music History 900-1800",
-        "Music History 900-1800",
-        "Music History 900-1800",
-        "Music History 900-1800",
-        "Music History 900-1800",
-        "Music History 900-1800",
-        "Music History 900-1800",
-        "Music History 900-1800",
-        "Music History 900-1800",
-        "Music History 900-1800"
-    ],
-    "CHI22-144": [
-        "Chinese I, if student has taken another language sequence to fulfill general education."
-    ],
-    "ARH71-234": [
-        "Ancient Chinese Art and Civilization",
-        "Ancient Chinese Art and Civilization"
-    ],
-    "ARH71-254": [
-        "Topics in East Asian Art",
-        "Topics in East Asian Art"
-    ],
-    "ARH71-264": [
-        "Art in China since 1911",
-        "Art in China Since 1911",
-        "Art in China since 1911",
-        "Art in China Since 1911"
-    ],
-    "ENG10-464": [
-        "Speaking Across Languages",
-        "Speaking Across Languages",
-        "Speaking Across Languages",
-        "Speaking Across Languages",
-        "Speaking Across Languages",
-        "Speaking Across Languages"
-    ],
-    "PSC32-284": [
-        "Japanese Politics, Culture and Society",
-        "Japanese Politics, Culture and Society",
-        "Japanese Politics, Culture and Society"
-    ],
-    "PSC32-444": [
-        "The Chinese Cultural Revolution",
-        "The Chinese Cultural Revolution3"
-    ],
-    "PSC32-624": [
-        "Germany and Japan: Losers of World War II?",
-        "Germany and Japan: Losers of World War II?4"
-    ],
-    "PSC32-654": [
-        "Women and Politics in Europe and East Asia",
-        "Women and Politics in Europe and Asia",
-        "Women and Politics in Europe and East Asia4",
-        "Women and Politics in Europe and Asia3"
-    ],
-    "REL19-284": [
-        "Buddhist Traditions",
-        "Buddhist Traditions",
-        "Buddhist Traditions",
-        "Buddhist Traditions",
-        "Buddhist Traditions",
-        "Buddhist Traditions",
-        "Buddhist Traditions",
-        "Buddhist Traditions"
-    ],
-    "ECO31-224": [
-        "Intermediate Microeconomic Theory",
-        "Intermediate Microeconomic Theory,",
-        "Intermediate Microeconomic Theory"
-    ],
-    "ECO31-234": [
-        "Intermediate Macroeconomic Theory",
-        "Intermediate Macroeconomic Theory",
-        "Intermediate Macroeconomic Theory"
-    ],
-    "ECO31-964": [
-        "Capstone in Economics (to be taken in the spring of the senior year)",
-        "Capstone in Economics"
-    ],
-    "MAT52-064": [
-        "Modern Quantitative Methods",
-        "Modern Quantitative Methods",
-        "Modern Quantitative Methods",
-        "Modern Quantitative Methods"
-    ],
-    "EDU40-124": [
-        "Foundations and Curriculum of American Schools",
-        "Foundations and Curriculum of American Schools",
-        "Foundations and Curriculum of American Schools",
-        "Foundations and Curriculum of American Schools",
-        "Foundations and Curriculum of American Schools",
-        "Foundations and Curriculum of American Schools",
-        "Foundations and Curriculum of American Schools",
-        "Foundations and Curriculum of American Schools",
-        "Foundations and Curriculum of American Schools",
-        "Foundations and Curriculum of American Schools",
-        "Foundations and Curriculum of American Schools",
-        "Foundations & Curriculum of American Schools"
-    ],
-    "EDU40-234": [
-        "Schools, Society and Diversity",
-        "Schools, Society and Diversity",
-        "Schools, Society and Diversity",
-        "Schools, Society and Diversity",
-        "Schools, Society and Diversity",
-        "Schools, Society and Diversity",
-        "Schools, Society and Diversity",
-        "Schools, Society and Diversity",
-        "Schools, Society and Diversity",
-        "Schools, Society and Diversity",
-        "Schools, Society and Diversity",
-        "Schools, Society and Diversity",
-        "Schools, Society and Diversity"
-    ],
-    "EDU40-944": [
-        "Internship"
-    ],
-    "EDU40-964": [
-        "Senior Seminar (Capstone)"
-    ],
-    "EDU40-114": [
-        "Educational Technology",
-        "Educational Technology",
-        "Educational Technology",
-        "Educational Technology"
-    ],
-    "EDU40-264": [
-        "Teaching Culturally and Linguistically Diverse Learners",
-        "Teaching Culturally and Linguistically Diverse Learners",
-        "Teaching Culturally and Linguistically Diverse Learners",
-        "Teaching Culturally and Linguistically Diverse Learners",
-        "Teaching Culturally and Linguistically Diverse Learners",
-        "Teaching Culturally Linguistically Diverse Learners",
-        "Teaching Culturally and Linguistically Diverse Learners",
-        "Teaching Culturally Linguistically Diverse Learners",
-        "Teaching Culturally and Linguistically Diverse Learners"
-    ],
-    "EDU40-274": [
-        "Multicultural Children\u2019s Literature",
-        "Multicultural Children\u2019s Literature",
-        "Multicultural Children\u2019s Literature",
-        "Multicultural Children\u2019s Literature",
-        "Multicultural Children\u2019s Literature"
-    ],
-    "EDU40-294": [
-        "The Child and the Curriculum in Early Childhood Education",
-        "The Child and the Curriculum in Early Childhood Education",
-        "The Child and the Curriculum in Early Childhood Education",
-        "The Child and the Curriculum in Early Childhood Education",
-        "The Child and the Curriculum in Early Childhood Education"
-    ],
-    "EDU40-504": [
-        "Teaching Social Studies in the Elementary and Middle School",
-        "Teaching Social Studies in the Elementary and Middle School",
-        "Teaching Social Studies in the Elementary and Middle School",
-        "Teaching Social Studies in the Elementary and Middle School"
-    ],
-    "EDU40-514": [
-        "Teaching Science in the Elementary and Middle School",
-        "Teaching Science in the Elementary and Middle School",
-        "Teaching Science in the Elementary and Middle School",
-        "Teaching Science in the Elementary and Middle School",
-        "Teaching Science in the Elementary and Secondary School",
-        "Teaching Science in the Elementary and Middle School"
-    ],
-    "EDU40-524": [
-        "Teaching Mathematics in the Elementary and Middle School",
-        "Teaching Mathematics in the Elementary and Middle School",
-        "Teaching Mathematics in the Elementary and Middle School"
-    ],
-    "EDU40-534": [
-        "Reading Methods in the Elementary and Middle School I",
-        "Reading Methods in the Elementary and Middle School I"
-    ],
-    "EDU40-714": [
-        "Instructional Strategies",
-        "Instructional Strategies"
-    ],
-    "EDU40-734": [
-        "Reading Methods in the Elementary and Middle School II",
-        "Reading Methods in the Elementary and Middle School II"
-    ],
-    "EDU40-744": [
-        "Positive Behavior Support",
-        "Positive Behavior Support",
-        "Positive Behavior Support",
-        "Positive Behavior Support"
-    ],
-    "EDU40-814": [
-        "Classroom Organization and Management",
-        "Classroom Organization and Management",
-        "Classroom Organization and Management",
-        "Classroom Organization and Management",
-        "Classroom Organization and Management",
-        "Classroom Organization and Management",
-        "Classroom Organization and Management"
-    ],
-    "EDU40-804": [
-        "Student Teaching in the Elementary and Middle School",
-        "Student Teaching in the Elementary and Middle School",
-        "Student Teaching in the Elementary and Middle School",
-        "Student Teaching in the Elementary and Middle School",
-        "Student Teaching in the Elementary and Middle School"
-    ],
-    "EDU40-844": [
-        "Student Teaching in Generic Special Education",
-        "Student Teaching in Generic Special Education",
-        "Student Teaching in Generic Special Education",
-        "Student Teaching in Generic Special Education"
-    ],
-    "PSY33-104": [
-        "Principles of Psychology",
-        "Principles of Psychology",
-        "Principles of Psychology",
-        "Principles of Psychology",
-        "Principles of Psychology",
-        "Principles of Psychology",
-        "Principles of Psychology",
-        "Principles of Psychology",
-        "Principles of Psychology",
-        "Principles of Psychology",
-        "Principles of Psychology",
-        "Principles of Psychology",
-        "Principles of Psychology",
-        "Principles of Psychology"
-    ],
-    "PSY33-344": [
-        "Lifespan Development",
-        "Lifespan Development",
-        "Lifespan Development",
-        "Lifespan Development",
-        "Lifespan Development",
-        "Lifespan Development",
-        "Lifespan Psychology",
-        "Lifespan Development",
-        "Lifespan Development",
-        "Lifespan Development",
-        "Lifespan Development",
-        "Lifespan Development"
-    ],
-    "MAT52-104": [
-        "Explorations in Mathematics",
-        "Explorations in Mathematics",
-        "Explorations in Mathematics",
-        "Explorations in Mathematics"
-    ],
-    "PHY53-034": [
-        "Introduction to Earth Science,",
-        "Introduction to Earth Science",
-        "Introduction to Earth Science",
-        "Introduction to Earth Science",
-        "Introduction to Earth Science"
-    ],
-    "PHY53-064": [
-        "Exploring the Universe: The Solar System,",
-        "Exploring the Universe: The Solar System,",
-        "Exploring the Universe: The Solar System,"
-    ],
-    "PHY53-074": [
-        "Exploring the Universe: Stars, Galaxies and Cosmology",
-        "Exploring the Universe: Stars, Galaxies, and Cosmology",
-        "Exploring the Universe: Stars, Galaxies, and Cosmology"
-    ],
-    "EDU40-674": [
-        "Teaching Praxis",
-        "Teaching Praxis"
-    ],
-    "EDU40-808": [
-        "Student Teaching in the Elementary and Middle School (must first complete 28 credits in content"
-    ],
-    "ENV49-144": [
-        "Environmental Science,",
-        "Environmental Science,",
-        "Environmental Science",
-        "Environmental Science",
-        "Environmental Science",
-        "Environmental Science"
-    ],
-    "ENV49-374": [
-        "The Soil Ecosystem",
-        "The Soil Ecosystem",
-        "The Soil Ecosystem",
-        "The Soil Ecosystem",
-        "The Soil Ecosystem",
-        "The Soil Ecosystem"
-    ],
-    "EDU40-664": [
-        "Literacy in the Content Area",
-        "Literacy in the Content Area",
-        "Literacy in the Content Area",
-        "Literacy in the Content Area",
-        "Literacy in the Content Area",
-        "Literacy in the Content Area",
-        "Literacy in the Content Area"
-    ],
-    "EDU40-764": [
-        "The Secondary Teacher",
-        "The Secondary Teacher"
-    ],
-    "EDU40-828": [
-        "Student Teaching in the Secondary School (must first complete 28 credits in content area/subject field"
-    ],
-    "EDU40-824": [
-        "Student Teaching in the Secondary School",
-        "Student Teaching in the Secondary School",
-        "Student Teaching in the Secondary School",
-        "Student Teaching in the Secondary School"
-    ],
-    "PSY33-484": [
-        "Human Sexuality",
-        "Human Sexuality",
-        "Human Sexuality",
-        "Human Sexuality"
-    ],
-    "PSY33-544": [
-        "Health Psychology",
-        "Health Psychology",
-        "Health Psychology",
-        "Health Psychology"
-    ],
-    "KIN48-324": [
-        "Motor Learning and Motor Control",
-        "Motor Learning and Motor Control"
-    ],
-    "ENG10-404": [
-        "Literary Theory and Criticism",
-        "Literary Theory and Criticism",
-        "Literary Theory and Criticism"
-    ],
-    "ENG10-444": [
-        "Topics in Theory",
-        "Topics in Theory",
-        "Topics in Theory"
-    ],
-    "ENG10-454": [
-        "Feminist Film Theory",
-        "Feminist Film Theory",
-        "Feminist Film Theory",
-        "Feminist Film Theory",
-        "Feminist Film Theory",
-        "Feminist Film Theory"
-    ],
-    "ENG10-934": [
-        "Seminar (Capstone)",
-        "Seminar (Capstone)",
-        "Seminar (Capstone)",
-        "Seminar (Capstone)",
-        "Seminar (Capstone)"
-    ],
-    "FST04-104": [
-        "Introduction to Feminist Studies",
-        "Introduction to Feminist Studies",
-        "Introduction to Feminist Studies",
-        "Introduction to Feminist Studies",
-        "Introduction to Feminist Studies",
-        "Introduction to Feminist Studies",
-        "or an instructor-approved alternative. Contributes to English,",
-        "Introduction to Feminist Studies",
-        "Introduction to Feminist Studies",
-        "Introduction to Feminist Studies"
-    ],
-    "ENG10-244": [
-        "Literary Methods or 10-264 Chicana Literary Methods",
-        "Literary Methods,",
-        "Literary Methods"
-    ],
-    "FST04-204": [
-        "Feminist Theories and Methods",
-        "Feminist Theories and Methods",
-        "Feminist Theories and Methods",
-        "Feminist Theories and Methods",
-        "Feminist Theories and Methods",
-        "Feminist Theories and Methods",
-        "Feminist Theories and Methods",
-        "Feminist Theories and Methods"
-    ],
-    "FST04-934": [
-        "Senior Seminar (Capstone)",
-        "Senior Seminar (Capstone)",
-        "Senior Seminar (Capstone)",
-        "Senior Seminar (Capstone)",
-        "Senior Seminar (Capstone)",
-        "Senior Seminar (Capstone)",
-        "Senior Seminar (Capstone)"
-    ],
-    "HIS16-384": [
-        "Sciences and Its Publics",
-        "Sciences and Its Publics",
-        "Sciences and Its Publics",
-        "Sciences and Its Publics",
-        "Science and Its Publics"
-    ],
-    "ENV49-104": [
-        "Introduction to Environmental Studies",
-        "Introduction to Environmental Studies",
-        "Introduction to Environmental Studies",
-        "Introduction to Environmental Studies"
-    ],
-    "ENV49-364": [
-        "U.S. Environmental Policy",
-        "U.S. Environmental Policy",
-        "U.S. Environmental Policy",
-        "U.S. Environmental Policy"
-    ],
-    "ENV49-964": [
-        "Capstone in Environmental Studies",
-        "Capstone in Environmental Studies",
-        "Capstone in Environmental Studies"
-    ],
-    "ENV49-224": [
-        "Ecolab",
-        "Ecolab",
-        "Ecolab",
-        "Ecolab"
-    ],
-    "BIO50-154": [
-        "Climate Change",
-        "Climate Change",
-        "Climate Change",
-        "Climate Change"
-    ],
-    "BIO50-194": [
-        "Science of Chocolate",
-        "Science of Chocolate",
-        "Science of Chocolate"
-    ],
-    "CHE51-024": [
-        "Chemistry of the Environment",
-        "Chemistry of the Environment",
-        "Chemistry of the Environment"
-    ],
-    "CHE51-034": [
-        "Chemistry of Food",
-        "Chemistry of Food",
-        "Chemistry of Food"
-    ],
-    "ANT35-334": [
-        "Global Environmental Justice",
-        "Global Environmental Justice",
-        "Global Environmental Justice",
-        "Global Environmental Justice",
-        "Global Environmental Justice",
-        "Global Environmental Justice",
-        "Global Environmental Justice",
-        "Global Environmental Justice"
-    ],
-    "ENG10-724": [
-        "American Environmental Literature",
-        "American Environmental Literature"
-    ],
-    "PSC32-214": [
-        "Race and Ethnic Politics",
-        "Race and Ethnic Politics",
-        "Race and Ethnic Politics",
-        "Race and Ethnic Politics"
-    ],
-    "REL19-334": [
-        "Apocalypse and Dystopia",
-        "Apocalypse and Dystopia",
-        "Apocalypse and Dystopia",
-        "Apocalypse and Dystopia",
-        "Apocalypse and Dystopia",
-        "Apocalypse and Dystopia",
-        "Apocalypse and Dystopia",
-        "Apocalypse and Dystopia"
-    ],
-    "REL19-344": [
-        "Animals and Religion",
-        "Animals and Religion",
-        "Animals and Religion",
-        "Animals and Religion",
-        "Animals and Religion",
-        "Animals and Religion",
-        "Animals and Religion",
-        "Animals and Religion",
-        "Animals and Religion",
-        "Animals and Religion"
-    ],
-    "REL19-374": [
-        "Sacred Space and the Environment",
-        "Sacred Space and the Environment",
-        "Sacred Space and the Environment",
-        "Sacred Space and the Environment",
-        "Sacred Space and the Environment",
-        "Sacred Space and the Environment",
-        "Sacred Space and the Environment",
-        "Sacred Space and the Environment"
-    ],
-    "COM75-464": [
-        "Environmental Communication"
-    ],
-    "GER12-354": [
-        "Topics in German Culture",
-        "German Culture",
-        "German Culture",
-        "German Culture",
-        "German Culture"
-    ],
-    "GER12-714": [
-        "Transnational Identity Narratives: Gender/Nature/Culture",
-        "Transnational Identity Narratives: Gender/Nature/Culture",
-        "Transnational Identity Narratives",
-        "Transnational Identity Narratives: Gender/Nature/Culture"
-    ],
-    "PHI18-234": [
-        "Environmental Philosophy"
-    ],
-    "REL19-364": [
-        "Pilgrimage",
-        "Pilgrimage",
-        "Pilgrimage",
-        "Pilgrimage",
-        "Pilgrimage",
-        "Pilgrimage",
-        "Pilgrimage",
-        "Pilgrimage"
-    ],
-    "SPA15-664": [
-        "Nature and Culture",
-        "Nature and Culture"
-    ],
-    "ENV49-214": [
-        "Texas Our(?) Texas",
-        "Texas Our (?) Texas",
-        "Texas Our (?) Texas",
-        "Texas Our (?) Texas"
-    ],
-    "ENV49-344": [
-        "Remote Sensing of the Environment"
-    ],
-    "ENV49-464": [
-        "Sustainable Cities"
-    ],
-    "CHI22-334": [
-        "Intermediate/Advanced Modern Chinese"
-    ],
-    "REL19-814": [
-        "Doing Religion",
-        "Doing Religion",
-        "Doing Religion",
-        "Doing Religion.",
-        "Doing Religion",
-        "Doing Religion"
-    ],
-    "REL19-204": [
-        "Christian Traditions",
-        "Christian Traditions",
-        "Christian Traditions",
-        "Christian Traditions",
-        "Christian Traditions",
-        "Christian Traditions",
-        "Christian Traditions"
-    ],
-    "REL19-214": [
-        "Native American Traditions",
-        "Native American Traditions",
-        "Native American Traditions",
-        "Native American Traditions",
-        "Native American Traditions",
-        "Native American Traditions",
-        "Native American Traditions",
-        "Native American Traditions"
-    ],
-    "REL19-224": [
-        "Jewish Traditions",
-        "Jewish Traditions",
-        "Jewish Traditions",
-        "Jewish Traditions",
-        "Jewish Traditions",
-        "Jewish Traditions"
-    ],
-    "REL19-244": [
-        "Islamic Traditions",
-        "Islamic Traditions",
-        "Islamic Traditions",
-        "Islamic Traditions",
-        "Islamic Traditions",
-        "Islamic Traditions"
-    ],
-    "REL19-274": [
-        "Hindu Traditions",
-        "Hindu Traditions",
-        "Hindu Traditions",
-        "Hindu Traditions",
-        "Hindu Traditions",
-        "Hindu Traditions",
-        "Hindu Traditions",
-        "Hindu Traditions"
-    ],
-    "REL19-304": [
-        "Selected Topics",
-        "Selected Topics",
-        "Selected Topics",
-        "Selected Topics",
-        "Selected Topics"
-    ],
-    "REL19-324": [
-        "Women, Goddesses and Religion",
-        "Women, Goddesses and Religion",
-        "Women, Goddesses, and Religion",
-        "Women, Goddesses and Religion",
-        "Women, Goddesses and Religion",
-        "Women, Goddesses and Religion",
-        "Women, Goddesses and Religion",
-        "Women, Goddesses and Religion",
-        "Women, Goddesses and Religion"
-    ],
-    "REL19-354": [
-        "Gender and Sexuality in Native America",
-        "Gender and Sexuality in Native America",
-        "Gender and Sexuality in Native America",
-        "Gender and Sexuality in Native America",
-        "Gender and Sexuality in Native America",
-        "Gender and Sexuality in Native America",
-        "Gender and Sexuality in Native America"
-    ],
-    "REL19-384": [
-        "Rastas, Saints and Virgins",
-        "Rastas, Saints and Virgins",
-        "Rastas, Saints, and Virgins",
-        "Rastas, Saints and Virgins",
-        "Rastas, Saints and Virgins",
-        "Rastas, Saints and Virgins",
-        "Rastas, Saints and Virgins",
-        "Rastas, Saints and Virgins"
-    ],
-    "REL19-394": [
-        "Indigenous Myth and Narrative",
-        "Indigenous Myth and Narrative",
-        "Indigenous Myth and Narrative",
-        "Indigenous Myth and Narrative",
-        "Indigenous Myth and Narrative",
-        "Indigenous Myth and Narrative"
-    ],
-    "REL19-404": [
-        "Religion and Animation",
-        "Religion and Animation",
-        "Religion and Animation",
-        "Religion and Animation",
-        "Religion and Animation"
-    ],
-    "REL19-414": [
-        "The Body in Religion",
-        "The Body in Religion",
-        "The Body in Religion",
-        "The Body in Religion",
-        "The Body in Religion",
-        "The Body in Religion",
-        "The Body in Religion"
-    ],
-    "REL19-714": [
-        "Topics in Religion",
-        "Topics in Religion",
-        "Topics in Religion",
-        "Topics in Religion",
-        "Topics in Religion"
-    ],
-    "REL19-894": [
-        "Religion Capstone (to be taken fall of senior year)",
-        "Religion Capstone",
-        "Religion Capstone (to be taken fall of senior year)",
-        "Religion Capstone",
-        "Religion Capstone"
-    ],
-    "FST04-944": [
-        "Academic Internship,",
-        "Academic Internship and"
-    ],
-    "FST04-954": [
-        "Independent Study, and",
-        "Independent Study, with approval from the Feminist Studies Committee."
-    ],
-    "FST04-984": [
-        "Honors, with approval from the Feminist Studies Committee."
-    ],
-    "ENG10-264": [
-        "Chicana Literary Methods",
-        "Chicana Literary Methods",
-        "Chicana Literary Methods",
-        "Chicana Literary Methods",
-        "Chicana Literary Methods"
-    ],
-    "ANT35-244": [
-        "Race, Class, and Gender in the Caribbean",
-        "Race, Class and Gender in the Caribbean",
-        "Race, Class and Gender in the Caribbean",
-        "Race, Class and Gender in the Caribbean",
-        "Race, Class and Gender in the Caribbean",
-        "Race, Class and Gender in the Caribbean",
-        "Race, Class and Gender in the Caribbean"
-    ],
-    "COM75-254": [
-        "Understanding Power in Culture"
-    ],
-    "COM75-264": [
-        "Feminist Rhetoric"
-    ],
-    "COM75-284": [
-        "The Rhetoric of Surveillance",
-        "The Rhetoric of Surveillance"
-    ],
-    "COM75-564": [
-        "Gender and Communication"
-    ],
-    "COM75-654": [
-        "Muslims in the Media",
-        "Muslims in the Media"
-    ],
-    "ENG10-644": [
-        "Victorian Mystery"
-    ],
-    "ENG10-664": [
-        "Topics in Romanticism",
-        "Topics in Romanticism"
-    ],
-    "ENG10-674": [
-        "Topics in Victorian Literature and Culture",
-        "Topics in Victorian Literature and Culture"
-    ],
-    "ENG10-684": [
-        "Topics in 20th Century British Literature",
-        "Topics in 20th-Century British Literature"
-    ],
-    "ENG10-694": [
-        "Austen/Bronte/Woolf"
-    ],
-    "ENG10-854": [
-        "Topics in Literature, Gender and Sexuality"
-    ],
-    "ENG10-864": [
-        "Topics in Contemporary Literature"
-    ],
-    "ENG10-874": [
-        "Topics in American Ethnic Literature",
-        "Topics in American Ethnic Literature"
-    ],
-    "ENG10-884": [
-        "African-American Literature",
-        "African-American Literature"
-    ],
-    "ENG10-894": [
-        "Latinx Literature",
-        "Latinx Literature",
-        "Latinx Literature",
-        "Latinx Literature",
-        "Latinx Literature"
-    ],
-    "GER12-454": [
-        "Feminist Studies in German"
-    ],
-    "PHI18-144": [
-        "Philosophy of Love and Sex",
-        "Philosophy of Love and Sex"
-    ],
-    "PHI18-194": [
-        "Introduction to Feminist Philosophies",
-        "Introduction to Feminist Philosophies"
-    ],
-    "PHI18-324": [
-        "The Embodied Self",
-        "The Embodied Self"
-    ],
-    "PHI18-354": [
-        "Critical Philosophy of Race",
-        "Critical Philosophy of Race",
-        "Critical Philosophies of Race",
-        "Critical Philosophy of Race"
-    ],
-    "PHI18-374": [
-        "Feminist Ethics"
-    ],
-    "PSC32-234": [
-        "Sex, Power and Politics"
-    ],
-    "PSC32-324": [
-        "Sex and the State",
-        "Sex and the State"
-    ],
-    "PSC32-644": [
-        "Radical Democracy, Radical Activism",
-        "Radical Democracy, Radical Activism"
-    ],
-    "SOC34-214": [
-        "Christianity & Identity in U.S. Society",
-        "Christianity & Identity in U.S. Society"
-    ],
-    "SOC34-234": [
-        "Sociology of Gender",
-        "Sociology of Gender",
-        "Sociology of Gender"
-    ],
-    "SOC34-264": [
-        "Racial and Ethnic Perspectives",
-        "Racial and Ethnic Perspectives",
-        "Racial and Ethnic Perspectives",
-        "Racial and Ethnic Perspectives"
-    ],
-    "SOC34-284": [
-        "Sociology of the Family",
-        "Sociology of the Family",
-        "Sociology of the Family",
-        "Sociology of the Family"
-    ],
-    "SPA15-644": [
-        "Gender, Race, and Nationalism: Spanish Cinema",
-        "Gender, Race and Nationalism in Spanish Cinema"
-    ],
-    "SPA15-854": [
-        "Race and Immigration in Spanish Literature",
-        "Race and Immigration in Spanish Literature"
-    ],
-    "BIO50-114": [
-        "Explorations in Biology"
-    ],
-    "BIO50-253": [
-        "Human Anatomy and Physiology I, and"
-    ],
-    "BIO50-251": [
-        "Integrative Approach to Human Anatomy & Physiology I"
-    ],
-    "KIN48-253": [
-        "Human Anatomy and Physiology I, and",
-        "Human Anatomy and Physiology I"
-    ],
-    "KIN48-251": [
-        "Integrative Approach to Human Anatomy & Physiology I",
-        "Integrative Approach to Human Anatomy and Physiology I"
-    ],
-    "BIO50-263": [
-        "Human Anatomy and Physiology II, and"
-    ],
-    "BIO50-261": [
-        "Integrative Approach to Human Anatomy & Physiology II,"
-    ],
-    "KIN48-263": [
-        "Human Anatomy and Physiology II, and",
-        "Human Anatomy and Physiology II"
-    ],
-    "KIN48-261": [
-        "Integrative Approach to Human Anatomy & Physiology II",
-        "Integrative Approach to Human Anatomy and Physiology II"
-    ],
-    "BIO50-424": [
-        "Organ Physiology",
-        "Organ Physiology"
-    ],
-    "CHE51-014": [
-        "Chemistry Appreciation"
-    ],
-    "KIN48-123": [
-        "Human Structure and Function",
-        "Human Structure and Function",
-        "Human Structure and Function",
-        "Human Structure and Function",
-        "Human Structure and Function",
-        "Human Structure and Function, and",
-        "Human Structure and Function, and"
-    ],
-    "KIN48-121": [
-        "Structural Kinesiology",
-        "Structural Kinesiology",
-        "Structural Kinesiology",
-        "Structural Kinesiology",
-        "Structural Kinesiology",
-        "Structural Kinesiology",
-        "Structural Kinesiology Lab"
-    ],
-    "KIN48-234": [
-        "Health and Fitness Concepts",
-        "Health and Fitness Concepts",
-        "Health and Fitness Concepts",
-        "Health and Fitness Concepts",
-        "Health and Fitness Concepts"
-    ],
-    "KIN48-244": [
-        "Stress Management"
-    ],
-    "KIN48-374": [
-        "Nutritional Sciences",
-        "Nutritional Sciences"
-    ],
-    "KIN48-424": [
-        "Health Promotion and Programming",
-        "Health Promotion and Programming"
-    ],
-    "KIN48-454": [
-        "Tissue Mechanics,"
-    ],
-    "BIO50-454": [
-        "Tissue Mechanics"
-    ],
-    "CLA07-434": [
-        "Greek and Latin in Scientific Terminology",
-        "Greek and Latin in Scientific Terminology",
-        "Greek and Latin in Scientific Terminology",
-        "Greek and Latin in Scientific Terminology",
-        "Greek and Latin in Scientific Terminology"
-    ],
-    "ECO31-434": [
-        "Public Economics"
-    ],
-    "GER12-332": [
-        "Speak German!,",
-        "or Independent Study) may fulfill requirements for the major in German.",
-        "or Independent Study) may fulfill requirements for the major in German.",
-        "or Independent Study) may fulfill requirements for the minor in German"
-    ],
-    "GER12-334": [
-        "Speak German!",
-        "Speak German!",
-        "Speak German!",
-        "Speak German!",
-        "Speak German!"
-    ],
-    "GER12-912": [
-        "Tutorial for Transnational Identity Narratives"
-    ],
-    "HIS16-564": [
-        "Topics in the History of Science, Technology, and Medicine"
-    ],
-    "LAT14-164": [
-        "Latin III",
-        "Intermediate Latin III"
-    ],
-    "PSY33-524": [
-        "Psychopathology and Clinical Science",
-        "Psychopathology and Clinical Science",
-        "Psychopathology and Clinical Science"
-    ],
-    "PSY33-534": [
-        "Behavioral Neuroscience,",
-        "Behavioral Neuroscience",
-        "Behavioral Neuroscience",
-        "Behavioral Neuroscience",
-        "Behavioral Neuroscience",
-        "Behavioral Neuroscience cannot count in both the major and required supporting courses."
-    ],
-    "BIO50-324": [
-        "Behavioral Neuroscience"
-    ],
-    "SPA15-274": [
-        "Spanish for Healthcare Professions",
-        "Spanish for Healthcare Professions",
-        "Spanish for Healthcare Professions"
-    ],
-    "SPA15-284": [
-        "Culture and Health in Hispanic Communities",
-        "Culture and Health in Hispanic Communities",
-        "Culture and Health in Hispanic Communities"
-    ],
-    "SPA15-724": [
-        "Spanish Phonetics and Phonology",
-        "Spanish Phonetics and Phonology"
-    ],
-    "FRE11-204": [
-        "Conversation and Culture",
-        "Conversation and Culture",
-        "Conversation and Culture",
-        "Conversation and Culture"
-    ],
-    "FRE11-934": [
-        "Capstone Seminar (to be taken in the spring of the junior or senior year)",
-        "Capstone Seminar (to be taken in the spring of the junior or senior year)",
-        "Capstone Seminar (to be taken in the spring of the junior or senior year)"
-    ],
-    "GER12-314": [
-        "Reading German: Text in Context",
-        "Reading German: Text in Context",
-        "Reading German: Text in Context",
-        "Reading German: Text in Context"
-    ],
-    "GER12-344": [
-        "Topics in German Literature and Film",
-        "Topics in German Literature and Film",
-        "Topics in German Literature and Film",
-        "Topics in German Literature and Film"
-    ],
-    "GER12-934": [
-        "Capstone Seminar (to be taken in the spring of the junior or senior year)",
-        "Capstone Seminar (to be taken in the spring of the junior or senior year)",
-        "Capstone Seminar (to be taken in the spring of the junior or senior year)"
-    ],
-    "SPA15-354": [
-        "Cultures and Communities of Latin America",
-        "Cultures and Communities of Latin America",
-        "Cultures and Communities of Latin America",
-        "Cultures and Communities of Latin America",
-        "Cultures and Communities of Latin America",
-        "Cultures and Communities of Latin America",
-        "Cultures and Communities of Latin America"
-    ],
-    "SPA15-364": [
-        "Cultures and Communities of Spain",
-        "Cultures and Communities of Spain",
-        "Cultures and Communities of Spain",
-        "Cultures and Communities of Spain",
-        "Cultures and Communities of Spain"
-    ],
-    "SPA15-934": [
-        "Research Seminar for Seniors (Capstone) (offered in spring only)",
-        "Research Seminar for Seniors (Capstone) (offered in spring only)",
-        "Research Seminar for Seniors (Capstone) (offered in spring only)",
-        "Research Seminar for Seniors (Capstone)",
-        "Research Seminar for Seniors (Capstone)"
-    ],
-    "BUS30-584": [
-        "International Business1"
-    ],
-    "ECO31-564": [
-        "International Economics2"
-    ],
-    "ENV49-334": [
-        "Theories and Practices of Sustainable Development",
-        "Theories and Practices of Sustainable Development"
-    ],
-    "GER12-734": [
-        "Global Leadership and Intercultural Communication"
-    ],
-    "PHI18-214": [
-        "Politics & Economics",
-        "Politics and Economics"
-    ],
-    "PHI18-244": [
-        "Native American Philosophies",
-        "Native American Philosophies",
-        "Native American Philosophies",
-        "Native American Philosophies",
-        "Native American Philosophies",
-        "Native American Philosophies"
-    ],
-    "PHI18-254": [
-        "Philosophy, Race and Revolution",
-        "Philosophy, Race and Revolution",
-        "Philosophy, Race and Revolution",
-        "Philosophy, Race and Revolution",
-        "Philosophy, Race and Revolution",
-        "Philosophy, Race and Revolution"
-    ],
-    "PHI18-284": [
-        "Latin American Philosophy",
-        "Latin American Philosophy",
-        "Latin American Philosophy",
-        "Latin American Philosophy",
-        "Latin American Philosophy",
-        "Latin American Philosophy",
-        "Latin American Philosophy"
-    ],
-    "PHI18-314": [
-        "Marxisms"
-    ],
-    "PSC32-364": [
-        "or 32-384 are prerequisites for this course.",
-        "Introduction to Political Theory",
-        "Introduction to Political Theory",
-        "Introduction to Political Theory"
-    ],
-    "PSC32-184": [
-        "Politics of Latin America and the Caribbean",
-        "Politics of Latin America and the Caribbean",
-        "Politics of Latin America & Caribbean",
-        "Politics of Latin America and the Caribbean",
-        "Politics of Latin America and the Caribbean",
-        "Politics of Latin America and the Caribbean",
-        "Politics in Latin America and the Caribbean"
-    ],
-    "PSC32-224": [
-        "Middle East Politics"
-    ],
-    "PSC32-384": [
-        "International Politics3",
-        "International Politics",
-        "International Politics"
-    ],
-    "PSC32-114": [
-        "American Politics as a prerequisite)",
-        "American Politics",
-        "American Politics"
-    ],
-    "PSC32-414": [
-        "European Politics3"
-    ],
-    "PSC32-544": [
-        "International Conflict4"
-    ],
-    "PSC32-634": [
-        "Resistance, Rebellion & Revolution4"
-    ],
-    "ARH71-054": [
-        "Introduction to Art History: Modern"
-    ],
-    "ARH71-354": [
-        "Topics in Non-Western Art"
-    ],
-    "ARH71-454": [
-        "Topics in Pre- or Early Modern European Art"
-    ],
-    "ARH71-484": [
-        "World Architecture: A Comparative Cultural History",
-        "World Architecture: A Comparative Cultural History",
-        "World Architecture: A Comparative Cultural History",
-        "World Architecture: A Comparative Cultural History"
-    ],
-    "ARH71-494": [
-        "Modern Architecture"
-    ],
-    "ARH71-534": [
-        "Modernism and the 20th c. Avant-Gardes"
-    ],
-    "ENG10-164": [
-        "From Romanticism to Modernism"
-    ],
-    "ENG10-514": [
-        "World Cinema"
-    ],
-    "ENG10-654": [
-        "Topics in 18th-Century British Literature"
-    ],
-    "MUL80-114": [
-        "Introduction to Music Literature",
-        "Introduction to Music Literature",
-        "Introduction to Music Literature",
-        "Introduction to Music Literature",
-        "Introduction to Music Literature",
-        "Introduction to Music Literature",
-        "Introduction to Music Literature",
-        "Introduction to Music Literature",
-        "Introduction to Music Literature",
-        "Introduction to Music Literature",
-        "Introduction to Music Literature",
-        "Introduction to Music Literature"
-    ],
-    "MUL80-314": [
-        "Music History Since 1800",
-        "Music History Since 1800",
-        "Music History since 1800",
-        "Music History since 1800",
-        "Music History since 1800",
-        "Music History since 1800",
-        "Music History since 1800",
-        "Music History since 1800",
-        "Music History since 1800",
-        "Music History since 1800",
-        "Music History since 1800",
-        "Music History since 1800"
-    ],
-    "MUL80-414": [
-        "Advanced Topics in Music History and Literature",
-        "Advanced Topics in Music History and Literature",
-        "Advanced Topics in Music History and Literature",
-        "Advanced Topics in Music History and Literature",
-        "Advanced Topics in Music History and Literature",
-        "Special Topics in Music History and Literature",
-        "Advanced Topics in Music History and Literature",
-        "Special Topics in Music History and Literature",
-        "Advanced Topics in Music History and Literature",
-        "Advanced Topics in Music History and Literature",
-        "Advanced Topics in Music History and Literature",
-        "Advanced Topics in Music History and Literature"
-    ],
-    "MUL80-424": [
-        "Music in the Cultures of Print and Performance",
-        "Music in The Cultures of Print and Performance"
-    ],
-    "MUL80-434": [
-        "Music, Gender, and Sexuality",
-        "Music, Gender and Sexuality"
-    ],
-    "MUL80-444": [
-        "Music, Race, and Nationality",
-        "Music, Race, and Nationality"
-    ],
-    "MUL80-454": [
-        "Studies in Musical Genre and Repertoire",
-        "Studies in Musical Genre and Repertoire"
-    ],
-    "KIN48-334": [
-        "Physiology of Exercise",
-        "Physiology of Exercise",
-        "Physiology of Exercise"
-    ],
-    "KIN48-344": [
-        "Biomechanics",
-        "Biomechanics"
-    ],
-    "KIN48-444": [
-        "Exercise Prescription"
-    ],
-    "KIN48-481": [
-        "Introduction to Capstone",
-        "Introduction to Capstone"
-    ],
-    "KIN48-483": [
-        "Experiential Capstone in Kinesiology,",
-        "Experiential Capstone in Kinesiology,"
-    ],
-    "KIN48-493": [
-        "Experimental Capstone in Kinesiology",
-        "Experimental Capstone in Kinesiology"
-    ],
-    "KIN48-112": [
-        "Explorations in Kinesiology",
-        "Explorations in Kinesiology"
-    ],
-    "KIN48-182": [
-        "Methods of Coaching"
-    ],
-    "KIN48-192": [
-        "Philosophy of Coaching"
-    ],
-    "KIN48-224": [
-        "Care and Prevention of Athletic Injuries"
-    ],
-    "KIN48-274": [
-        "Fundamentals of Movement Analysis"
-    ],
-    "KIN48-434": [
-        "Theory and Practice in Strength and Conditioning"
-    ],
-    "CHI22-164": [
-        "Chinese III: Intermediate Language and Culture"
-    ],
-    "LAT14-204": [
-        "Cicero in Context",
-        "Cicero in Context",
-        "Cicero in Context"
-    ],
-    "LAT14-244": [
-        "Vergil Aeneid",
-        "Vergil Aeneid",
-        "Vergil Aeneid"
-    ],
-    "LAT14-344": [
-        "Livy and Exemplary History",
-        "Livy and Exemplary History",
-        "Livy and Exemplary History"
-    ],
-    "LAT14-354": [
-        "Petronius Satyricon: Dinner at Trimalchio\u2019s, and other Adventures in Campania",
-        "Petronius Satyricon: Dinner at Trimalchio\u2019s, and other Adventures in Campania",
-        "Petronius Satyricon: Dinner at Trimalchio\u2019s, and other Adventures in Campania"
-    ],
-    "LAT14-404": [
-        "Love is a Battlefield: Latin Elegiac Poetry",
-        "Love is a Battlefield: Latin Elegiac Poetry",
-        "Love is a Battlefield: Latin Elegiac Poetry"
-    ],
-    "LAT14-444": [
-        "Vices and Virtues in the Early Roman Empire",
-        "Vices and Virtues in the Early Roman Empire",
-        "Vices and Virtues in the Early Roman Empire"
-    ],
-    "LAT14-454": [
-        "Rome and the Epigraphic Habit",
-        "Rome and the Epigraphic Habit",
-        "Rome and the Epigraphic Habit"
-    ],
-    "GRK13-144": [
-        "Greek I, and"
-    ],
-    "GRK13-154": [
-        "Greek II, and",
-        "Introductory Greek II, and"
-    ],
-    "GRK13-164": [
-        "Greek III",
-        "Intermediate Greek III"
-    ],
-    "ARH71-064": [
-        "Introduction to Art History: Topics focused on Greek and Italian Renaissance",
-        "Introduction to Art History: Topics focused on Greek and Italian Renaissance"
-    ],
-    "CLA07-204": [
-        "Greek and Roman Mythology",
-        "Greek and Roman Mythology",
-        "Greek and Roman Mythology"
-    ],
-    "CLA07-234": [
-        "The Marble Cinematic Universe: Classics in the Cinema",
-        "The Marble Cinematic Universe: Classics in the Cinema",
-        "The Marble Cinematic Universe: Classics in the Cinema"
-    ],
-    "CLA07-244": [
-        "Sweaty Antiquity: Sport and Spectacle in Ancient Greece and Rome",
-        "Sweaty Antiquity: Sport and Spectacle in Ancient Greece and Rome",
-        "Sweaty Antiquity: Sport and Spectacle in Ancient Greece and Rome"
-    ],
-    "CLA07-324": [
-        "Invisible Romans: Sub-Elite and Marginalized Populations in the Roman World",
-        "Invisible Romans: Sub-Elite and Marginalized Populations in the Roman World",
-        "Invisible Romans: Sub-Elite and Marginalized Populations in the Roman World",
-        "Invisible Romans: Sub-Elite and Marginal Populations in the Roman Empire"
-    ],
-    "CLA07-334": [
-        "Emperors Behaving Badly: A History of Roman Imperial Power",
-        "Emperors Behaving Badly: A History of Roman Imperial Power",
-        "Emperors Behaving Badly: A History of Roman Imperial Power",
-        "Emperors Behaving Badly: A History of Roman Imperial Power"
-    ],
-    "CLA07-344": [
-        "War and Society in Ancient Greece and Rome",
-        "War and Society in Ancient Greece and Rome",
-        "War and Society in Ancient Greece and Rome"
-    ],
-    "CLA07-404": [
-        "An Empire of Cities: Urban Life in the Roman World",
-        "An Empire of Cities: Urban Life in the Roman World",
-        "An Empire of Cities: Urban Life in the Roman World"
-    ],
-    "CLA07-444": [
-        "Classical Sites and Monuments",
-        "Classical Sites and Monuments",
-        "Classical Sites and Monuments"
-    ],
-    "GRK13-934": [
-        "Capstone Seminar,"
-    ],
-    "GRK13-954": [
-        "Independent Study taken as Capstone"
-    ],
-    "LAT14-934": [
-        "Capstone Seminar,"
-    ],
-    "LAT14-954": [
-        "Independent Study taken as Capstone"
-    ],
-    "LAT14-154": [
-        "Introductory Latin II, and"
-    ],
-    "CLA07-934": [
-        "Capstone Seminar,"
-    ],
-    "CLA07-954": [
-        "Independent Study, taken as Capstone"
-    ],
-    "COM75-424": [
-        "Latina/o/x Communication Studies",
-        "Latina/o/x Communication Studies",
-        "Latina/o/x Communication Studies",
-        "Latina/o/x Communication Studies"
-    ],
-    "FST04-314": [
-        "Latina Lesbian Literature",
-        "Latina Lesbian Literature",
-        "Latina Lesbian Literature",
-        "Latina Lesbian Literature"
-    ],
-    "THE72-524": [
-        "Latinx Drama",
-        "Latinx Drama",
-        "Latinx Drama",
-        "Latinx Drama",
-        "Latinx Drama"
-    ],
-    "LAS06-964": [
-        "Capstone",
-        "Capstone",
-        "Capstone"
-    ],
-    "SPA15-164": [
-        "Spanish III, if taken for college level credit, may also count.",
-        "Spanish III and majors must take two additional courses above",
-        "Spanish III. See the Spanish"
-    ],
-    "ENG10-174": [
-        "Topics in American Literature: Borderlands",
-        "Topics in American Literature: Borderlands",
-        "Topics in American Literature: Borderlands",
-        "Topics in American Literature"
-    ],
-    "SPA15-214": [
-        "Written and Oral Expression"
-    ],
-    "SPA15-334": [
-        "Conversation Through Hispanic Cinema"
-    ],
-    "SPA15-344": [
-        "Introduction to Literary Studies"
-    ],
-    "SPA15-444": [
-        "Hispano-American Literature Abroad"
-    ],
-    "SPA15-454": [
-        "Hispano-American Culture Abroad"
-    ],
-    "SPA15-504": [
-        "Selected Topics in Hispano-American Literature"
-    ],
-    "SPA15-534": [
-        "Cultural Memory in Latin America",
-        "Cultural Memory in Latin America"
-    ],
-    "SPA15-614": [
-        "Topics in Hispanic Film"
-    ],
-    "SPA15-624": [
-        "Topics in Hispanic Literature"
-    ],
-    "SPA15-634": [
-        "Topics in Hispanic Culture"
-    ],
-    "SPA15-654": [
-        "Citizenship and Conflict in Colombian Cinema",
-        "Citizenship and Conflict in Colombian Cinema"
-    ],
-    "SPA15-674": [
-        "Leisure and Play in Latin America",
-        "Leisure and Play in Latin America"
-    ],
-    "SPA15-734": [
-        "Spanish in the United States",
-        "Spanish in the United States"
-    ],
-    "MAT52-684": [
-        "Algebraic Structures",
-        "Algebraic Structures"
-    ],
-    "MAT52-854": [
-        "Real Analysis",
-        "Real Analysis"
-    ],
-    "MAT52-894": [
-        "Senior Seminar in Mathematics (Capstone, to be taken in the fall of the senior year)",
-        "Senior Seminar in Mathematics (Capstone, to be taken in the fall of the senior year)",
-        "Senior Seminar in Mathematics (Capstone, to be taken in the fall of the senior year),",
-        "Senior Seminar in Mathematics (Capstone, to be taken in the fall of the senior year),"
-    ],
-    "PHY53-454": [
-        "Math Methods in Physical Science",
-        "Math Methods in Physical Science",
-        "Math Methods in Physical Science",
-        "Math Methods in Physical Science",
-        "Math Methods in Physical Science",
-        "Math Methods in Physical Science",
-        "Math Methods in Physical Science",
-        "Math Methods in Physical Science",
-        "Math Methods in Physical Science",
-        "Math Methods in Physical Science"
-    ],
-    "MAT52-754": [
-        "Differential Equations",
-        "Differential Equations",
-        "Differential Equations",
-        "Differential Equations",
-        "Differential Equations",
-        "Differential Equations"
-    ],
-    "CSC54-384": [
-        "Discrete Mathematics",
-        "Discrete Mathematics",
-        "Discrete Mathematics",
-        "Discrete Mathematics"
-    ],
-    "CSC54-394": [
-        "Computer Organization",
-        "Computer Organization",
-        "Computer Organization",
-        "Computer Organization",
-        "Computer Organization"
-    ],
-    "CSC54-474": [
-        "Programming Languages",
-        "Programming Languages",
-        "Programming Languages"
-    ],
-    "CSC54-644": [
-        "Computer Systems",
-        "Computer Systems",
-        "Computer Systems"
-    ],
-    "CSC54-894": [
-        "Senior Seminar in Software Engineering (Capstone, to be taken in the spring of the senior year)",
-        "Senior Seminar in Software Engineering (Capstone, to be taken in the spring of the senior year)",
-        "Senior Seminar in Software Engineering (Capstone, to be taken in the spring of the senior year)",
-        "Senior Seminar in Software Engineering (Capstone, to be taken in the spring of the senior year)"
-    ],
-    "CSC54-424": [
-        "Artificial Intelligence",
-        "Artificial Intelligence"
-    ],
-    "CSC54-684": [
-        "Theory of Computation"
-    ],
-    "MAT52-524": [
-        "Introduction to Numerical Analysis",
-        "Introduction to Numerical Analysis"
-    ],
-    "MUT76-101": [
-        "and",
-        "Aural Skills I",
-        "Aural Skills I",
-        "Aural Skills I",
-        "Aural Skills I",
-        "Music Theory I: Fundamentals",
-        "Aural Skills I",
-        "Aural Skills I",
-        "Aural Skills I",
-        "Aural Skills I",
-        "Aural Skills I",
-        "Aural Skills I, and"
-    ],
-    "MUT76-103": [
-        "through a Music Theory Placement Exam or by",
-        "Music Theory I: Fundamentals",
-        "Music Theory I: Fundamentals",
-        "Music Theory I: Fundamentals",
-        "Music Theory I: Fundamentals",
-        "Aural Skills I",
-        "Music Theory I: Fundamentals",
-        "Music Theory I: Fundamentals",
-        "Music Theory I: Fundamentals",
-        "Music Theory I: Fundamentals",
-        "Music Theory I: Fundamentals",
-        "Music Theory I: Fundamentals"
-    ],
-    "MUL80-100": [
-        "Music Colloquium",
-        "Music Colloquium (four semesters for transfer students)",
-        "Music Colloquium (four semesters for transfer students)",
-        "Music Colloquium (four semesters for transfer students)",
-        "Music Colloquium (four semesters for transfer students)",
-        "Music Colloquium (four semesters for transfer students)",
-        "Music Colloquium (four semesters for transfer students)",
-        "Music Colloquium (four semesters for transfer students)",
-        "Music Colloquium (four semesters for transfer students)",
-        "Music Colloquium (four semesters for transfer students)"
-    ],
-    "MUL80-124": [
-        "World Music",
-        "World Music"
-    ],
-    "MUL80-134": [
-        "Music in the United States",
-        "Music in the United States",
-        "Music in the United States"
-    ],
-    "MUT76-111": [
-        "Aural Skills II",
-        "Aural Skills II",
-        "Aural Skills II",
-        "Aural Skills II",
-        "Aural Skills II",
-        "Aural Skills II",
-        "Aural Skills II",
-        "Aural Skills II",
-        "Aural Skills II",
-        "Aural Skills II",
-        "Aural Skills II, and"
-    ],
-    "MUT76-113": [
-        "Music Theory II -: Harmony in Practice",
-        "Music Theory II: Harmony in Practice",
-        "Music Theory II: Harmony in Practice",
-        "Music Theory II: Harmony in Practice",
-        "Music Theory II: Harmony in Practice",
-        "Music Theory II: Harmony in Practice",
-        "Music Theory II: Harmony in Practice",
-        "Music Theory II: Harmony in Practice",
-        "Music Theory II: Harmony in Practice",
-        "Music Theory II: Harmony in Practice",
-        "Music Theory II: Harmony in Practice"
-    ],
-    "MUT76-211": [
-        "Aural Skills III",
-        "Aural Skills III",
-        "Aural Skills III",
-        "Aural Skills III",
-        "Aural Skills III",
-        "Aural Skills III",
-        "Aural Skills III",
-        "Aural Skills III",
-        "Aural Skills III",
-        "Aural Skills III"
-    ],
-    "MUT76-213": [
-        "Music Theory III: Form and Analysis",
-        "Music Theory III: Form and Analysis",
-        "Music Theory III: Form and Analysis",
-        "Music Theory III: Form and Analysis",
-        "Music Theory III Form and Analysis",
-        "Music Theory III: Form and Analysis",
-        "Music Theory III: Form and Analysis",
-        "Music Theory III: Form and Analysis",
-        "Music Theory III: Form and Analysis",
-        "Music Theory III: Form and Analysis"
-    ],
-    "ENS78-101": [
-        "Southwestern University Wind Ensemble",
-        "Southwestern University Wind Ensemble",
-        "Southwestern University Wind Ensemble",
-        "Southwestern University Wind Ensemble",
-        "Southwestern University Wind Ensemble",
-        "Southwestern University Wind Ensemble",
-        "Southwestern University Wind Ensemble"
-    ],
-    "ENS78-111": [
-        "Southwestern University Jazz Band",
-        "Southwestern University Jazz Band",
-        "Southwestern University Jazz Band",
-        "Southwestern University Jazz Band",
-        "Southwestern University Jazz Band"
-    ],
-    "ENS78-121": [
-        "Southwestern University Singers",
-        "Southwestern University Singers",
-        "Southwestern University Singers",
-        "Southwestern University Singers",
-        "Southwestern University Singers",
-        "Southwestern University Singers (with approval of department chair)",
-        "Southwestern University Singers",
-        "Southwestern University Singers"
-    ],
-    "ENS78-131": [
-        "Southwestern University Chorale",
-        "Southwestern University Chorale",
-        "Southwestern University Chorale",
-        "Southwestern University Chorale",
-        "Southwestern University Chorale",
-        "Southwestern University Chorale (with approval of department chair)",
-        "Southwestern University Chorale",
-        "Southwestern University Chorale"
-    ],
-    "ENS78-141": [
-        "Opera Theatre",
-        "Opera Theatre",
-        "Opera Theatre",
-        "Opera Theatre",
-        "Opera Theatre"
-    ],
-    "ENS78-171": [
-        "Southwestern University Orchestra",
-        "Southwestern University Orchestra",
-        "Southwestern University Orchestra",
-        "Southwestern University Orchestra",
-        "Southwestern University Orchestra",
-        "Southwestern University Orchestra",
-        "Southwestern University Orchestra"
-    ],
-    "MUL80-702": [
-        "Diction in Vocal Music",
-        "Diction in Vocal Music",
-        "Diction in Vocal Music"
-    ],
-    "MUT76-343": [
-        "Orchestration",
-        "Orchestration",
-        "Orchestration",
-        "Orchestration",
-        "Orchestration"
-    ],
-    "MUT76-411": [
-        "Aural Skills IV",
-        "Aural Skills IV",
-        "Aural Skills IV",
-        "Aural Skills IV",
-        "Aural Skills IV",
-        "Aural Skills IV",
-        "Aural Skills IV",
-        "Aural Skills IV",
-        "Aural Skills IV"
-    ],
-    "MUT76-413": [
-        "Music Theory IV: 20th-Century Music",
-        "Music Theory IV: 20th-Century Music",
-        "Music Theory IV: 20th-Century Music",
-        "Music Theory IV: 20th-Century Music",
-        "Music Theory IV: 20th-Century Music",
-        "Music Theory IV: 20th-Century Music",
-        "Music Theory IV: 20th-Century Music",
-        "Music Theory IV: 20th-Century Music",
-        "Music Theory IV: 20th-Century Music"
-    ],
-    "MUE77-423": [
-        "Methods of Music in the Elementary School",
-        "Methods of Music in the Elementary School",
-        "Methods of Music in the Elementary School",
-        "Methods of Music in the Elementary School"
-    ],
-    "MUE77-443": [
-        "Choral Music Education",
-        "Choral Music Education"
-    ],
-    "MUE77-603": [
-        "Introductory Conducting",
-        "Introductory Conducting",
-        "Introductory Conducting",
-        "Introductory Conducting",
-        "Introductory Conducting",
-        "Introductory Conducting",
-        "Introductory Conducting",
-        "Introductory Conducting",
-        "Introductory Conducting"
-    ],
-    "MUE77-633": [
-        "Advanced Choral Conducting",
-        "Advanced Choral Conducting"
-    ],
-    "MUE77-943": [
-        "Academic Internship",
-        "Academic Internship"
-    ],
-    "MUE77-311": [
-        "String Methods",
-        "String Methods"
-    ],
-    "MUE77-321": [
-        "Woodwind Methods",
-        "Woodwind Methods"
-    ],
-    "MUE77-331": [
-        "Brass Methods",
-        "Brass Methods"
-    ],
-    "MUE77-341": [
-        "Percussion Methods",
-        "Percussion Methods"
-    ],
-    "MUE77-351": [
-        "Vocal Methods",
-        "Vocal Methods"
-    ],
-    "MUE77-473": [
-        "Methods of Marching Band Performance",
-        "Methods of Marching Band Performance"
-    ],
-    "MUE77-623": [
-        "Advanced Instrumental Conducting",
-        "Advanced Instrumental Conducting"
-    ],
-    "MUL80-712": [
-        "Song Literature and Performance"
-    ],
-    "MUE77-522": [
-        "Vocal Pedagogy"
-    ],
-    "MUL80-602": [
-        "Piano Solo Repertoire A"
-    ],
-    "MUL80-612": [
-        "Piano Solo Repertoire B"
-    ],
-    "MUE77-532": [
-        "Piano Pedagogy"
-    ],
-    "ENS78-151": [
-        "Chamber Music (Instrumental)",
-        "Chamber Music (Instrumental)"
-    ],
-    "MUL80-622": [
-        "Instrumental Pedagogy and Literature"
-    ],
-    "MUL80-953": [
-        "Independent Study (Capstone)"
-    ],
-    "MUT76-313": [
-        "Counterpoint",
-        "Counterpoint"
-    ],
-    "MUT76-544": [
-        "Applied Composition (Capstone)"
-    ],
-    "NEU55-104": [
-        "Explorations in Neuroscience",
-        "Explorations in Neuroscience",
-        "Explorations in Neuroscience"
-    ],
-    "PSY33-834": [
-        "Research in Behavioral Neuroscience",
-        "Research in Behavioral Neuroscience",
-        "Research in Behavioral Neuroscience",
-        "Research in Behavioral Neuroscience"
-    ],
-    "BIO50-524": [
-        "Endocrinology"
-    ],
-    "MUL80-104": [
-        "Introduction to Music"
-    ],
-    "PSY33-384": [
-        "Learning and Cognition",
-        "Learning and Cognition",
-        "Learning and Cognition"
-    ],
-    "PSY32-524": [
-        "Psychopathology and Clinical Sciences"
-    ],
-    "PHI18-614": [
-        "Ethos, Identities, Differences"
-    ],
-    "PHI18-624": [
-        "Being, Structure, Change"
-    ],
-    "PHI18-634": [
-        "Experience, Language, Knowledge"
-    ],
-    "PHI18-644": [
-        "Peoples, Power, Organization",
-        "Peoples, Power, Organization"
-    ],
-    "PHI18-914": [
-        "Colloquium in Philosophy (Capstone, to be taken fall of the senior year)"
-    ],
-    "PHY53-324": [
-        "Electromagnetism I",
-        "Electromagnetism I",
-        "Electromagnetism I",
-        "Electromagnetism I"
-    ],
-    "PHY53-334": [
-        "Classical Mechanics I",
-        "Classical Mechanics I",
-        "Classical Mechanics I",
-        "Classical Mechanics I"
-    ],
-    "PHY53-872": [
-        "Capstone Course",
-        "Capstone Course",
-        "Capstone Course"
-    ],
-    "PHY53-254": [
-        "Observing the Universe",
-        "Observing the Universe",
-        "Observing the Universe"
-    ],
-    "PHY53-413": [
-        "Classical Mechanics II",
-        "Classical Mechanics II",
-        "Classical Mechanics II"
-    ],
-    "PHY53-424": [
-        "Quantum Mechanics",
-        "Quantum Mechanics",
-        "Quantum Mechanics"
-    ],
-    "PHY53-433": [
-        "Electromagnetism II",
-        "Electromagnetism II",
-        "Electromagnetism II"
-    ],
-    "PHY53-463": [
-        "Dynamics",
-        "Dynamics",
-        "Dynamics",
-        "Dynamics"
-    ],
-    "PHY53-473": [
-        "Thermodynamics",
-        "Thermodynamics",
-        "Thermodynamics",
-        "Thermodynamics."
-    ],
-    "PSC32-964": [
-        "Senior Seminar (Capstone, to be taken in the senior year)"
-    ],
-    "PSY33-211": [
-        "Lab for Inquiry-Based Research Methods; required for all 800 courses (i.e., a research capstone)",
-        "Lab for Inquiry-Based Research Methods; required for all 800 courses (i.e., a research capstone)"
-    ],
-    "PSY33-221": [
-        "Lab for Inquiry-Based Research Methods (with Animals); required for all 800 courses (i.e., a research",
-        "Lab for Inquiry-Based Research Methods (with Animals); required for all 800 courses (i.e., a research"
-    ],
-    "PSY33-334": [
-        "Personality Theory and Research",
-        "Personality Theory and Research"
-    ],
-    "PSY33-374": [
-        "Evolutionary Psychology",
-        "Evolutionary Psychology"
-    ],
-    "PSY33-564": [
-        "Social Psychology",
-        "Social Psychology"
-    ],
-    "PSY33-574": [
-        "Close Relationships",
-        "Close Relationships"
-    ],
-    "PSY33-353": [
-        "Cross-Cultural Psychology",
-        "Cross-Cultural Psychology"
-    ],
-    "PSY33-364": [
-        "Sexuality and Culture",
-        "Sexuality and Culture"
-    ],
-    "PSY33-412": [
-        "Careers in Psychology I, and",
-        "Careers in Psychology I, and",
-        "Careers in Psychology I is limited to First Year and Sophomore level students. Exceptions to this restriction",
-        "Careers in",
-        "Careers in Psychology I and"
-    ],
-    "PSY33-422": [
-        "Careers in Psychology II",
-        "Careers in Psychology II",
-        "Careers in Psychology II may not be taken concurrently in the same semester.",
-        "Careers in Psychology II is limited to Junior and Senior level students who have completed one of the",
-        "Careers in Psychology II may not be taken concurrently in the same semester."
-    ],
-    "PSY33-474": [
-        "Forensic Psychology",
-        "Forensic Psychology",
-        "Forensic Psychology"
-    ],
-    "PSY33-824": [
-        "Research in Applied Psychology",
-        "Research in Applied Psychology"
-    ],
-    "PSY33-844": [
-        "Research in Clinical Psychology",
-        "Research in Clinical Psychology"
-    ],
-    "PSY33-864": [
-        "Research in Developmental Psychology",
-        "Research in Developmental Psychology"
-    ],
-    "PSY33-874": [
-        "Research in Social Psychology",
-        "Research in Social Psychology"
-    ],
-    "PSY33-884": [
-        "Research in Cognitive Evolutionary Psychology",
-        "Research in Cognitive Evolutionary Psychology"
-    ],
-    "PSY33-948": [
-        "Academic Internship",
-        "Academic Internship"
-    ],
-    "BIO50-364": [
-        "Comparative Vertebrate Morphology",
-        "Comparative Vertebrate Morphology"
-    ],
-    "ANT35-234": [
-        "Anthropology of Race: Shifting the Gaze"
-    ],
-    "COM75-454": [
-        "Race, Ethnicity, and Communication"
-    ],
-    "FST04-324": [
-        "Radical Women of Color"
-    ],
-    "ANT35-274": [
-        "Cultural Heritage, Criminal Justice, and Race in the American South",
-        "Cultural Heritage, Criminal Justice, and Race in the American South"
-    ],
-    "ANT35-524": [
-        "Southwestern University Racial History Project"
-    ],
-    "FRE11-344": [
-        "Francophone Literature from Africa: Colonization & Independence"
-    ],
-    "FRE11-604": [
-        "Topics in Literature and Culture: Plural France - Diversity, Social Justice and Multicultural Identities."
-    ],
-    "PSC32-354": [
-        "Hip Hop and Mass Incarceration"
-    ],
-    "PSC32-564": [
-        "Black Politics"
-    ],
-    "COM75-234": [
-        "Rhetorics of Resistance"
-    ],
-    "ENG10-834": [
-        "Postcolonial Literature"
-    ],
-    "SPA15-714": [
-        "Spanish Sociolinguistics"
-    ],
-    "THE72-504": [
-        "Theatre History",
-        "Theatre History",
-        "Theatre History",
-        "Theatre History"
-    ],
-    "REL19-424": [
-        "Indigenous TV and Film"
-    ],
-    "SOC34-314": [
-        "Research Methods,",
-        "Research Methods (recommended for sophomores; must be taken prior to the Sociological Research"
-    ],
-    "SOC34-344": [
-        "Sociological Theory, and",
-        "Sociological Theory (recommended for juniors but may be taken by sophomores to facilitate study abroad"
-    ],
-    "SOC34-964": [
-        "Senior Research",
-        "Senior Research Seminar (fall of senior year)"
-    ],
-    "SOC34-114": [
-        "Introduction to Sociology",
-        "Introduction to Sociology",
-        "Introduction to Sociology",
-        "Introduction to Sociology",
-        "Introduction to Sociology"
-    ],
-    "ANT35-424": [
-        "Theory and Method in Cultural Anthropology (offered every fall, recommended for sophomore or junior"
-    ],
-    "ANT35-964": [
-        "Senior Seminar (Capstone, to be taken in the spring of the senior year)"
-    ],
-    "THE72-183": [
-        "Fundamentals of Acting",
-        "Fundamentals of Acting",
-        "Fundamentals of Acting"
-    ],
-    "THE72-211": [
-        "Theatre Laboratory (six semesters)",
-        "Theatre Laboratory (six semesters)"
-    ],
-    "THE72-921": [
-        "Theatre Capstone: Portfolio",
-        "Theatre Capstone: Portfolio"
-    ],
-    "THE72-923": [
-        "Theatre Capstone Research Methods",
-        "Theatre Capstone Research Methods"
-    ],
-    "THE72-193": [
-        "Movement and Voice"
-    ],
-    "THE72-423": [
-        "Theatre Dance"
-    ],
-    "THE72-434": [
-        "Acting Realism"
-    ],
-    "THE72-444": [
-        "Acting: Heightened Language"
-    ],
-    "THE72-514": [
-        "Topics in Costume History"
-    ],
-    "THE72-534": [
-        "Playwriting"
-    ],
-    "THE72-124": [
-        "Introduction to Play Analysis"
-    ],
-    "THE72-674": [
-        "Stage Management for the Theatre"
-    ],
-    "THE72-684": [
-        "Directing"
-    ],
-    "THE72-604": [
-        "Devising Theatre"
-    ],
-    "PHI18-124": [
-        "Critical Thinking"
-    ],
-    "PSC32-204": [
-        "American Political Thought"
-    ],
-    "BUS30-254": [
-        "Business Law"
-    ],
-    "COM75-154": [
-        "Public Speaking"
-    ],
-    "PHI18-164": [
-        "Self, Ethics, Society",
-        "Self, Ethics, Society"
-    ],
-    "SPA15-943": [
-        "or"
-    ],
-    "SPA15-944": [
-        "Study Abroad: an approved Health Studies-related study abroad program in a Spanish-speaking country"
-    ]
+    "ART68-104": "Drawing I",
+    "ART68-204": "Drawing II",
+    "ART68-114": "Design I",
+    "ART68-224": "Ceramics I",
+    "ART68-244": "Painting I",
+    "ART68-234": "Sculpture I",
+    "ART68-314": "Ceramics II",
+    "ART68-334": "Painting II",
+    "ART68-254": "Printmaking I",
+    "ART68-344": "Printmaking II",
+    "ART68-324": "Sculpture II",
+    "ART68-404": "Seminar",
+    "ART68-504": "Capstone",
+    "ART68-354": "Design II",
+    "ART68-374": "Drawing III",
+    "ART68-512": "Exhibition Practicum",
+    "ART68-414": "Topics in Ceramics",
+    "ART68-424": "Topics in Painting",
+    "ART68-434": "Topics in Printmaking",
+    "ART68-444": "Topics in Sculpture",
+    "ARH71-614": "Annual Topics in Art History",
+    "ARH71-824": "Capstone Research Seminar",
+    "ECO31-104": "Principles of Economics",
+    "BUS30-114": "Fundamentals of Accounting",
+    "BUS30-214": "Foundations of Business",
+    "BUS30-474": "Finance",
+    "BUS30-964": "Capstone in Business",
+    "HIS16-014": "Disease, Health, and Medicine in World History",
+    "HIS16-024": "Empires and Empires of the Mind in World History",
+    "HIS16-034": "Nations and Nationalism in World History",
+    "HIS16-044": "Silk Roads in World History",
+    "HIS16-054": "Food and Culture in World History",
+    "HIS16-094": "Topics in World History",
+    "HIS16-114": "History of Modern Africa",
+    "HIS16-204": "African Environmental History",
+    "HIS16-504": "Topics in African History",
+    "HIS16-124": "History of East Asia to",
+    "HIS16-134": "History of East Asia since",
+    "HIS16-234": "Nomadic Empires: The \u201cBarbarians\u201d of the East Eurasian World",
+    "HIS16-244": "Docile or Deviant: Women, Gender, and Sexuality in China",
+    "HIS16-514": "Topics in Asian History",
+    "HIS16-184": "History of Early Modern Europe",
+    "HIS16-194": "History of Modern Europe",
+    "HIS16-404": "History of the British Isles since",
+    "HIS16-414": "Modern France and Empire",
+    "HIS16-424": "The Real Game of Thrones: The Medieval Era in History and Legend",
+    "HIS16-434": "History of Europe\u2019s Muslims",
+    "HIS16-444": "The Tudors: Politics & Culture, 1485-",
+    "HIS16-454": "Histories of Race in Europe",
+    "HIS16-464": "History of Human Rights",
+    "HIS16-554": "Topics in European History",
+    "HIS16-144": "History of Colonial Latin America",
+    "HIS16-154": "History of Modern Latin America",
+    "HIS16-264": "Latin American History in Film and Literature",
+    "HIS16-274": "Reproductive Histories in Latin America",
+    "HIS16-284": "The Mexican Revolution",
+    "HIS16-524": "Topics in Latin American History",
+    "HIS16-164": "History of the U.S.: From Colonies to Nation",
+    "HIS16-174": "History of the U.S.: From Nation to World Power",
+    "HIS16-294": "Texas History",
+    "HIS16-314": "History of the Civil Rights Movement",
+    "HIS16-324": "Rise of the Right: History of the U.S. Conservative Movement",
+    "HIS16-334": "Sport and Society in Modern America",
+    "HIS16-344": "The History of the U.S. West",
+    "HIS16-534": "Topics in U.S. History",
+    "HIS16-364": "Slavery and Freedom in the Atlantic World",
+    "HIS16-374": "History of the Islamic World",
+    "HIS16-394": "Witches, Nuns, Prostitutes, Wives, and Queens",
+    "HIS16-544": "Topics in Transregional History",
+    "HIS16-604": "Historiography",
+    "HIS16-864": "Research Seminar (Capstone)",
+    "ANT35-104": "Introduction to Cultural Anthropology",
+    "PSC32-144": "Comparative Politics",
+    "INS38-894": "Capstone",
+    "BIO50-173": "Molecular and Cellular Foundations of Biology",
+    "BIO50-183": "Evolutionary and Ecological Foundations of Biology",
+    "BIO50-171": "Inquiries in Biology",
+    "BIO50-181": "Investigations in Biology",
+    "BIO50-222": "Methods in Ecology and Evolution",
+    "BIO50-232": "Methods in Cellular/Molecular Biology",
+    "BIO50-304": "Special Topics",
+    "BIO50-354": "Neurobiology",
+    "BIO50-394": "Developmental Biology",
+    "BIO50-404": "Cancer Biology",
+    "BIO50-464": "Molecular Biology",
+    "BIO50-484": "Microbiology",
+    "BIO50-494": "Biology of Reproduction",
+    "BIO50-514": "Cellular Physiology",
+    "BIO50-534": "Fundamentals of Immunology",
+    "BIO50-604": "Principles of Biochemistry,",
+    "CHE51-604": "Principles of Biochemistry",
+    "BIO50-624": "General Biochemistry II,",
+    "CHE51-624": "General Biochemistry II",
+    "BIO50-314": "Genetics",
+    "BIO50-334": "Evolutionary Biology",
+    "BIO50-374": "Human Genetics and Evolution",
+    "BIO50-384": "Conservation Biology",
+    "BIO50-414": "Plant Ecology",
+    "BIO50-434": "Ecology",
+    "BIO50-444": "Invertebrate Ecology",
+    "BIO50-474": "Genetics, Genomics and Medicine",
+    "BIO50-991": "Biology Capstone Seminar",
+    "BIO50-994": "Biology Capstone Seminar",
+    "CHE51-103": "General Chemistry I",
+    "CHE51-101": "Chemical Methods and Techniques Laboratory I",
+    "CHE51-203": "General Chemistry II",
+    "CHE51-201": "Chemical Methods and Techniques Laboratory II",
+    "MAT52-114": "Introduction to Statistics",
+    "CHE51-313": "Organic Chemistry I",
+    "CHE51-311": "Organic Chemistry Laboratory Techniques",
+    "CHE51-322": "Organic Chemistry Laboratory",
+    "MAT52-164": "Modern Calculus I",
+    "PHY53-154": "Fundamentals of Physics I",
+    "PHY53-164": "Fundamentals of Physics II",
+    "CHE51-323": "Organic Chemistry II",
+    "CHE51-321": "Organic Chemistry Laboratory Applications",
+    "CHE51-332": "Organic Chemistry Lab Intermediate",
+    "CHE51-932": "Senior Chemistry Capstone",
+    "CHE51-922": "Senior Biochemistry Capstone",
+    "CHE51-514": "Quantitative Chemical Analysis",
+    "CHE51-704": "Physical Chemistry: Thermodynamics and Kinetics",
+    "CHE51-714": "Quantum Mechanics",
+    "CHE51-934": "Senior Chemistry Capstone",
+    "MAT52-264": "Modern Calculus II",
+    "CSC54-184": "Computer Science I",
+    "MAT52-364": "Modern Calculus III",
+    "MAT52-674": "Linear Algebra",
+    "PHY53-214": "Modern Physics",
+    "PHY53-404": "Electronics",
+    "CHE51-614": "General Biochemistry I",
+    "CHE51-404": "Inorganic Chemistry and Biological Systems",
+    "CHE51-424": "Fundamentals of Material Science and Engineering",
+    "CHE51-504": "Instrumentation in Environmental and Biological Analysis",
+    "CHE51-862": "Advanced Lab in Biochemistry",
+    "CHE51-924": "Senior Biochemistry Capstone",
+    "COM75-134": "Critical/Cultural Communication Studies",
+    "COM75-204": "Rhetorical Theory",
+    "COM75-604": "Critical Media Theory",
+    "COM75-804": "Critical/Cultural Research Methods",
+    "COM75-964": "Capstone Research Seminar",
+    "MAT52-574": "Probability and Mathematical Statistics",
+    "CSC54-144": "Explorations in Computing",
+    "DTA25-214": "Introduction to Data Analytics",
+    "BUS30-414": "Operations Research",
+    "CHE51-852": "Advanced Lab in Analytical Chemistry",
+    "CSC54-414": "Operations Research",
+    "CSC54-514": "Database Management",
+    "ECO31-314": "Econometrics",
+    "ENV49-204": "Environmental GIS",
+    "ENV49-474": "Advanced GIS",
+    "KIN48-214": "Research Methods in Kinesiology",
+    "MAT52-414": "Operations Research",
+    "PHY53-364": "Fundamentals of Materials Science and Engineering",
+    "PSY33-204": "Survey of Research Methods",
+    "PSY33-214": "Inquiry-Based Research Methods",
+    "PSY33-224": "Inquiry-Based Research Methods with Animals",
+    "COM75-474": "Visual/Material Communication",
+    "COM75-674": "Film Studies",
+    "ENG10-184": "Introduction to Film Studies",
+    "BUS30-394": "Consumer Behavior",
+    "EDU40-144": "Survey of Exceptionalities",
+    "EDU40-204": "Innovative Schools",
+    "EDU40-344": "Strategies for Life Skills and Transition",
+    "EDU40-444": "Differentiated Instruction Strategies",
+    "CSC54-284": "Computer Science II",
+    "CSC54-454": "Algorithms",
+    "PHY53-104": "Introduction to Engineering",
+    "PHY53-112": "Application of CAD",
+    "PHY53-434": "Statics",
+    "PHY53-314": "Engineering Design",
+    "ART68-164": "Architectural Studio I: Introduction to Drafting and Programmatic Design",
+    "ART68-264": "Architecture Studio II: Historical Design",
+    "ART68-364": "Architecture Studio III: Modern Structures",
+    "MUT76-223": "Music Technology",
+    "MUT76-532": "Applied Composition",
+    "THE72-164": "Design Fundamentals",
+    "THE72-704": "Makeup Design",
+    "THE72-714": "Costume Design",
+    "THE72-724": "Scenic Design",
+    "THE72-734": "Lighting Design",
+    "THE72-744": "Audio Technology and Design",
+    "THE72-754": "Scenic Elements and Stage Properties",
+    "THE72-764": "Scene Painting",
+    "ARH71-024": "Introduction to Art History: East Asian Art & Architecture",
+    "ARH71-214": "Arts of China",
+    "ENG10-154": "Topics in British Literature I",
+    "ENG10-604": "Topics in Medieval Literature",
+    "ENG10-624": "Shakespeare",
+    "MUL80-214": "Music History 900-",
+    "CHI22-144": "Chinese I",
+    "ARH71-234": "Ancient Chinese Art and Civilization",
+    "ARH71-254": "Topics in East Asian Art",
+    "ARH71-264": "Art in China since",
+    "ENG10-464": "Speaking Across Languages",
+    "PSC32-284": "Japanese Politics, Culture and Society",
+    "PSC32-444": "The Chinese Cultural Revolution",
+    "PSC32-624": "Germany and Japan: Losers of World War II?",
+    "PSC32-654": "Women and Politics in Europe and East Asia",
+    "REL19-284": "Buddhist Traditions",
+    "ECO31-224": "Intermediate Microeconomic Theory",
+    "ECO31-234": "Intermediate Macroeconomic Theory",
+    "ECO31-964": "Capstone in Economics",
+    "MAT52-064": "Modern Quantitative Methods",
+    "EDU40-124": "Foundations and Curriculum of American Schools",
+    "EDU40-234": "Schools, Society and Diversity",
+    "EDU40-944": "Internship",
+    "EDU40-964": "Senior Seminar (Capstone)",
+    "EDU40-114": "Educational Technology",
+    "EDU40-264": "Teaching Culturally and Linguistically Diverse Learners",
+    "EDU40-274": "Multicultural Children\u2019s Literature",
+    "EDU40-294": "The Child and the Curriculum in Early Childhood Education",
+    "EDU40-504": "Teaching Social Studies in the Elementary and Middle School",
+    "EDU40-514": "Teaching Science in the Elementary and Middle School",
+    "EDU40-524": "Teaching Mathematics in the Elementary and Middle School",
+    "EDU40-534": "Reading Methods in the Elementary and Middle School I",
+    "EDU40-714": "Instructional Strategies",
+    "EDU40-734": "Reading Methods in the Elementary and Middle School II",
+    "EDU40-744": "Positive Behavior Support",
+    "EDU40-814": "Classroom Organization and Management",
+    "EDU40-804": "Student Teaching in the Elementary and Middle School",
+    "EDU40-844": "Student Teaching in Generic Special Education",
+    "PSY33-104": "Principles of Psychology",
+    "PSY33-344": "Lifespan Development",
+    "MAT52-104": "Explorations in Mathematics",
+    "PHY53-034": "Introduction to Earth Science",
+    "PHY53-064": "Exploring the Universe: The Solar System,",
+    "PHY53-074": "Exploring the Universe: Stars, Galaxies, and Cosmology",
+    "EDU40-674": "Teaching Praxis",
+    "EDU40-808": "Student Teaching in the Elementary and Middle School",
+    "ENV49-144": "Environmental Science",
+    "ENV49-374": "The Soil Ecosystem",
+    "EDU40-664": "Literacy in the Content Area",
+    "EDU40-764": "The Secondary Teacher",
+    "EDU40-828": "Student Teaching in the Secondary School",
+    "EDU40-824": "Student Teaching in the Secondary School",
+    "PSY33-484": "Human Sexuality",
+    "PSY33-544": "Health Psychology",
+    "KIN48-324": "Motor Learning and Motor Control",
+    "ENG10-404": "Literary Theory and Criticism",
+    "ENG10-444": "Topics in Theory",
+    "ENG10-454": "Feminist Film Theory",
+    "ENG10-934": "Seminar (Capstone)",
+    "FST04-104": "Introduction to Feminist Studies",
+    "ENG10-244": "Literary Methods",
+    "FST04-204": "Feminist Theories and Methods",
+    "FST04-934": "Senior Seminar (Capstone)",
+    "HIS16-384": "Sciences and Its Publics",
+    "ENV49-104": "Introduction to Environmental Studies",
+    "ENV49-364": "U.S. Environmental Policy",
+    "ENV49-964": "Capstone in Environmental Studies",
+    "ENV49-224": "Ecolab",
+    "BIO50-154": "Climate Change",
+    "BIO50-194": "Science of Chocolate",
+    "CHE51-024": "Chemistry of the Environment",
+    "CHE51-034": "Chemistry of Food",
+    "ANT35-334": "Global Environmental Justice",
+    "ENG10-724": "American Environmental Literature",
+    "PSC32-214": "Race and Ethnic Politics",
+    "REL19-334": "Apocalypse and Dystopia",
+    "REL19-344": "Animals and Religion",
+    "REL19-374": "Sacred Space and the Environment",
+    "COM75-464": "Environmental Communication",
+    "GER12-354": "German Culture",
+    "GER12-714": "Transnational Identity Narratives: Gender/Nature/Culture",
+    "PHI18-234": "Environmental Philosophy",
+    "REL19-364": "Pilgrimage",
+    "SPA15-664": "Nature and Culture",
+    "ENV49-214": "Texas Our Texas",
+    "ENV49-344": "Remote Sensing of the Environment",
+    "ENV49-464": "Sustainable Cities",
+    "CHI22-334": "Intermediate/Advanced Modern Chinese",
+    "REL19-814": "Doing Religion",
+    "REL19-204": "Christian Traditions",
+    "REL19-214": "Native American Traditions",
+    "REL19-224": "Jewish Traditions",
+    "REL19-244": "Islamic Traditions",
+    "REL19-274": "Hindu Traditions",
+    "REL19-304": "Selected Topics",
+    "REL19-324": "Women, Goddesses and Religion",
+    "REL19-354": "Gender and Sexuality in Native America",
+    "REL19-384": "Rastas, Saints and Virgins",
+    "REL19-394": "Indigenous Myth and Narrative",
+    "REL19-404": "Religion and Animation",
+    "REL19-414": "The Body in Religion",
+    "REL19-714": "Topics in Religion",
+    "REL19-894": "Religion Capstone",
+    "FST04-944": "Academic Internship",
+    "FST04-954": "Independent Study",
+    "FST04-984": "Honors",
+    "ENG10-264": "Chicana Literary Methods",
+    "ANT35-244": "Race, Class and Gender in the Caribbean",
+    "COM75-254": "Understanding Power in Culture",
+    "COM75-264": "Feminist Rhetoric",
+    "COM75-284": "The Rhetoric of Surveillance",
+    "COM75-564": "Gender and Communication",
+    "COM75-654": "Muslims in the Media",
+    "ENG10-644": "Victorian Mystery",
+    "ENG10-664": "Topics in Romanticism",
+    "ENG10-674": "Topics in Victorian Literature and Culture",
+    "ENG10-684": "Topics in 20th Century British Literature",
+    "ENG10-694": "Austen/Bronte/Woolf",
+    "ENG10-854": "Topics in Literature, Gender and Sexuality",
+    "ENG10-864": "Topics in Contemporary Literature",
+    "ENG10-874": "Topics in American Ethnic Literature",
+    "ENG10-884": "African-American Literature",
+    "ENG10-894": "Latinx Literature",
+    "GER12-454": "Feminist Studies in German",
+    "PHI18-144": "Philosophy of Love and Sex",
+    "PHI18-194": "Introduction to Feminist Philosophies",
+    "PHI18-324": "The Embodied Self",
+    "PHI18-354": "Critical Philosophy of Race",
+    "PHI18-374": "Feminist Ethics",
+    "PSC32-234": "Sex, Power and Politics",
+    "PSC32-324": "Sex and the State",
+    "PSC32-644": "Radical Democracy, Radical Activism",
+    "SOC34-214": "Christianity & Identity in U.S. Society",
+    "SOC34-234": "Sociology of Gender",
+    "SOC34-264": "Racial and Ethnic Perspectives",
+    "SOC34-284": "Sociology of the Family",
+    "SPA15-644": "Gender, Race, and Nationalism: Spanish Cinema",
+    "SPA15-854": "Race and Immigration in Spanish Literature",
+    "BIO50-114": "Explorations in Biology",
+    "BIO50-253": "Human Anatomy and Physiology I",
+    "BIO50-251": "Integrative Approach to Human Anatomy & Physiology I",
+    "KIN48-253": "Human Anatomy and Physiology I",
+    "KIN48-251": "Integrative Approach to Human Anatomy & Physiology I",
+    "BIO50-263": "Human Anatomy and Physiology II",
+    "BIO50-261": "Integrative Approach to Human Anatomy & Physiology II,",
+    "KIN48-263": "Human Anatomy and Physiology II",
+    "KIN48-261": "Integrative Approach to Human Anatomy & Physiology II",
+    "BIO50-424": "Organ Physiology",
+    "CHE51-014": "Chemistry Appreciation",
+    "KIN48-123": "Human Structure and Function",
+    "KIN48-121": "Structural Kinesiology",
+    "KIN48-234": "Health and Fitness Concepts",
+    "KIN48-244": "Stress Management",
+    "KIN48-374": "Nutritional Sciences",
+    "KIN48-424": "Health Promotion and Programming",
+    "KIN48-454": "Tissue Mechanics,",
+    "BIO50-454": "Tissue Mechanics",
+    "CLA07-434": "Greek and Latin in Scientific Terminology",
+    "ECO31-434": "Public Economics",
+    "GER12-332": "Speak German!,",
+    "GER12-334": "Speak German!",
+    "GER12-912": "Tutorial for Transnational Identity Narratives",
+    "HIS16-564": "Topics in the History of Science, Technology, and Medicine",
+    "LAT14-164": "Latin III",
+    "PSY33-524": "Psychopathology and Clinical Science",
+    "PSY33-534": "Behavioral Neuroscience",
+    "BIO50-324": "Behavioral Neuroscience",
+    "SPA15-274": "Spanish for Healthcare Professions",
+    "SPA15-284": "Culture and Health in Hispanic Communities",
+    "SPA15-724": "Spanish Phonetics and Phonology",
+    "FRE11-204": "Conversation and Culture",
+    "FRE11-934": "Capstone Seminar",
+    "GER12-314": "Reading German: Text in Context",
+    "GER12-344": "Topics in German Literature and Film",
+    "GER12-934": "Capstone Seminar",
+    "SPA15-354": "Cultures and Communities of Latin America",
+    "SPA15-364": "Cultures and Communities of Spain",
+    "SPA15-934": "Research Seminar for Seniors (Capstone)",
+    "BUS30-584": "International Business",
+    "ECO31-564": "International Economics",
+    "ENV49-334": "Theories and Practices of Sustainable Development",
+    "GER12-734": "Global Leadership and Intercultural Communication",
+    "PHI18-214": "Politics & Economics",
+    "PHI18-244": "Native American Philosophies",
+    "PHI18-254": "Philosophy, Race and Revolution",
+    "PHI18-284": "Latin American Philosophy",
+    "PHI18-314": "Marxisms",
+    "PSC32-184": "Politics of Latin America and the Caribbean",
+    "PSC32-224": "Middle East Politics",
+    "PSC32-384": "International Politics",
+    "PSC32-114": "American Politics",
+    "PSC32-414": "European Politics",
+    "PSC32-544": "International Conflict",
+    "PSC32-634": "Resistance, Rebellion & Revolution",
+    "ARH71-054": "Introduction to Art History: Modern",
+    "ARH71-354": "Topics in Non-Western Art",
+    "ARH71-454": "Topics in Pre- or Early Modern European Art",
+    "ARH71-484": "World Architecture: A Comparative Cultural History",
+    "ARH71-494": "Modern Architecture",
+    "ARH71-534": "Modernism and the 20th c. Avant-Gardes",
+    "ENG10-164": "From Romanticism to Modernism",
+    "ENG10-514": "World Cinema",
+    "ENG10-654": "Topics in 18th-Century British Literature",
+    "MUL80-114": "Introduction to Music Literature",
+    "MUL80-314": "Music History since",
+    "MUL80-414": "Advanced Topics in Music History and Literature",
+    "MUL80-424": "Music in the Cultures of Print and Performance",
+    "MUL80-434": "Music, Gender, and Sexuality",
+    "MUL80-444": "Music, Race, and Nationality",
+    "MUL80-454": "Studies in Musical Genre and Repertoire",
+    "KIN48-334": "Physiology of Exercise",
+    "KIN48-344": "Biomechanics",
+    "KIN48-444": "Exercise Prescription",
+    "KIN48-481": "Introduction to Capstone",
+    "KIN48-483": "Experiential Capstone in Kinesiology,",
+    "KIN48-493": "Experimental Capstone in Kinesiology",
+    "KIN48-112": "Explorations in Kinesiology",
+    "KIN48-182": "Methods of Coaching",
+    "KIN48-192": "Philosophy of Coaching",
+    "KIN48-224": "Care and Prevention of Athletic Injuries",
+    "KIN48-274": "Fundamentals of Movement Analysis",
+    "KIN48-434": "Theory and Practice in Strength and Conditioning",
+    "CHI22-164": "Chinese III: Intermediate Language and Culture",
+    "LAT14-204": "Cicero in Context",
+    "LAT14-244": "Vergil Aeneid",
+    "LAT14-344": "Livy and Exemplary History",
+    "LAT14-354": "Petronius Satyricon: Dinner at Trimalchio\u2019s, and other Adventures in Campania",
+    "LAT14-404": "Love is a Battlefield: Latin Elegiac Poetry",
+    "LAT14-444": "Vices and Virtues in the Early Roman Empire",
+    "LAT14-454": "Rome and the Epigraphic Habit",
+    "GRK13-144": "Greek I",
+    "GRK13-154": "Greek II",
+    "GRK13-164": "Greek III",
+    "ARH71-064": "Introduction to Art History: Topics focused on Greek and Italian Renaissance",
+    "CLA07-204": "Greek and Roman Mythology",
+    "CLA07-234": "The Marble Cinematic Universe: Classics in the Cinema",
+    "CLA07-244": "Sweaty Antiquity: Sport and Spectacle in Ancient Greece and Rome",
+    "CLA07-324": "Invisible Romans: Sub-Elite and Marginalized Populations in the Roman World",
+    "CLA07-334": "Emperors Behaving Badly: A History of Roman Imperial Power",
+    "CLA07-344": "War and Society in Ancient Greece and Rome",
+    "CLA07-404": "An Empire of Cities: Urban Life in the Roman World",
+    "CLA07-444": "Classical Sites and Monuments",
+    "GRK13-934": "Capstone Seminar,",
+    "GRK13-954": "Independent Study taken as Capstone",
+    "LAT14-934": "Capstone Seminar,",
+    "LAT14-954": "Independent Study taken as Capstone",
+    "LAT14-154": "Introductory Latin II",
+    "CLA07-934": "Capstone Seminar,",
+    "CLA07-954": "Independent Study, taken as Capstone",
+    "COM75-424": "Latina/o/x Communication Studies",
+    "FST04-314": "Latina Lesbian Literature",
+    "THE72-524": "Latinx Drama",
+    "LAS06-964": "Capstone",
+    "SPA15-164": "Spanish III",
+    "ENG10-174": "Topics in American Literature: Borderlands",
+    "SPA15-214": "Written and Oral Expression",
+    "SPA15-334": "Conversation Through Hispanic Cinema",
+    "SPA15-344": "Introduction to Literary Studies",
+    "SPA15-444": "Hispano-American Literature Abroad",
+    "SPA15-454": "Hispano-American Culture Abroad",
+    "SPA15-504": "Selected Topics in Hispano-American Literature",
+    "SPA15-534": "Cultural Memory in Latin America",
+    "SPA15-614": "Topics in Hispanic Film",
+    "SPA15-624": "Topics in Hispanic Literature",
+    "SPA15-634": "Topics in Hispanic Culture",
+    "SPA15-654": "Citizenship and Conflict in Colombian Cinema",
+    "SPA15-674": "Leisure and Play in Latin America",
+    "SPA15-734": "Spanish in the United States",
+    "MAT52-684": "Algebraic Structures",
+    "MAT52-854": "Real Analysis",
+    "MAT52-894": "Senior Seminar in Mathematics",
+    "PHY53-454": "Math Methods in Physical Science",
+    "MAT52-754": "Differential Equations",
+    "CSC54-384": "Discrete Mathematics",
+    "CSC54-394": "Computer Organization",
+    "CSC54-474": "Programming Languages",
+    "CSC54-644": "Computer Systems",
+    "CSC54-894": "Senior Seminar in Software Engineering",
+    "CSC54-424": "Artificial Intelligence",
+    "CSC54-684": "Theory of Computation",
+    "MAT52-524": "Introduction to Numerical Analysis",
+    "MUL80-100": "Music Colloquium",
+    "MUL80-124": "World Music",
+    "MUL80-134": "Music in the United States",
+    "MUT76-101": "Aural Skills I",
+    "MUT76-103": "Music Theory I: Fundamentals",
+    "MUT76-111": "Aural Skills II",
+    "MUT76-113": "Music Theory II: Harmony in Practice",
+    "MUT76-211": "Aural Skills III",
+    "MUT76-213": "Music Theory III: Form and Analysis",
+    "ENS78-101": "Southwestern University Wind Ensemble",
+    "ENS78-111": "Southwestern University Jazz Band",
+    "ENS78-121": "Southwestern University Singers",
+    "ENS78-131": "Southwestern University Chorale",
+    "ENS78-141": "Opera Theatre",
+    "ENS78-171": "Southwestern University Orchestra",
+    "MUL80-702": "Diction in Vocal Music",
+    "MUT76-343": "Orchestration",
+    "MUT76-411": "Aural Skills IV",
+    "MUT76-413": "Music Theory IV: 20th-Century Music",
+    "MUE77-423": "Methods of Music in the Elementary School",
+    "MUE77-443": "Choral Music Education",
+    "MUE77-603": "Introductory Conducting",
+    "MUE77-633": "Advanced Choral Conducting",
+    "MUE77-943": "Academic Internship",
+    "MUE77-311": "String Methods",
+    "MUE77-321": "Woodwind Methods",
+    "MUE77-331": "Brass Methods",
+    "MUE77-341": "Percussion Methods",
+    "MUE77-351": "Vocal Methods",
+    "MUE77-473": "Methods of Marching Band Performance",
+    "MUE77-623": "Advanced Instrumental Conducting",
+    "MUL80-712": "Song Literature and Performance",
+    "MUE77-522": "Vocal Pedagogy",
+    "MUL80-602": "Piano Solo Repertoire A",
+    "MUL80-612": "Piano Solo Repertoire B",
+    "MUE77-532": "Piano Pedagogy",
+    "ENS78-151": "Chamber Music (Instrumental)",
+    "MUL80-622": "Instrumental Pedagogy and Literature",
+    "MUL80-953": "Independent Study (Capstone)",
+    "MUT76-313": "Counterpoint",
+    "MUT76-544": "Applied Composition (Capstone)",
+    "NEU55-104": "Explorations in Neuroscience",
+    "PSY33-834": "Research in Behavioral Neuroscience",
+    "BIO50-524": "Endocrinology",
+    "MUL80-104": "Introduction to Music",
+    "PSY33-384": "Learning and Cognition",
+    "PSY32-524": "Psychopathology and Clinical Sciences",
+    "PHI18-614": "Ethos, Identities, Differences",
+    "PHI18-624": "Being, Structure, Change",
+    "PHI18-634": "Experience, Language, Knowledge",
+    "PHI18-644": "Peoples, Power, Organization",
+    "PHI18-914": "Colloquium in Philosophy",
+    "PHY53-324": "Electromagnetism I",
+    "PHY53-334": "Classical Mechanics I",
+    "PHY53-872": "Capstone Course",
+    "PHY53-254": "Observing the Universe",
+    "PHY53-413": "Classical Mechanics II",
+    "PHY53-424": "Quantum Mechanics",
+    "PHY53-433": "Electromagnetism II",
+    "PHY53-463": "Dynamics",
+    "PHY53-473": "Thermodynamics",
+    "PSC32-364": "Introduction to Political Theory",
+    "PSC32-964": "Senior Seminar (Capstone)",
+    "PSY33-211": "Lab for Inquiry-Based Research Methods",
+    "PSY33-221": "Lab for Inquiry-Based Research Methods",
+    "PSY33-334": "Personality Theory and Research",
+    "PSY33-374": "Evolutionary Psychology",
+    "PSY33-564": "Social Psychology",
+    "PSY33-574": "Close Relationships",
+    "PSY33-353": "Cross-Cultural Psychology",
+    "PSY33-364": "Sexuality and Culture",
+    "PSY33-412": "Careers in Psychology I",
+    "PSY33-422": "Careers in Psychology II",
+    "PSY33-474": "Forensic Psychology",
+    "PSY33-824": "Research in Applied Psychology",
+    "PSY33-844": "Research in Clinical Psychology",
+    "PSY33-864": "Research in Developmental Psychology",
+    "PSY33-874": "Research in Social Psychology",
+    "PSY33-884": "Research in Cognitive Evolutionary Psychology",
+    "PSY33-948": "Academic Internship",
+    "BIO50-364": "Comparative Vertebrate Morphology",
+    "ANT35-234": "Anthropology of Race: Shifting the Gaze",
+    "COM75-454": "Race, Ethnicity, and Communication",
+    "FST04-324": "Radical Women of Color",
+    "ANT35-274": "Cultural Heritage, Criminal Justice, and Race in the American South",
+    "ANT35-524": "Southwestern University Racial History Project",
+    "FRE11-344": "Francophone Literature from Africa: Colonization & Independence",
+    "FRE11-604": "Topics in Literature and Culture",
+    "PSC32-354": "Hip Hop and Mass Incarceration",
+    "PSC32-564": "Black Politics",
+    "COM75-234": "Rhetorics of Resistance",
+    "ENG10-834": "Postcolonial Literature",
+    "SPA15-714": "Spanish Sociolinguistics",
+    "THE72-504": "Theatre History",
+    "REL19-424": "Indigenous TV and Film",
+    "SOC34-314": "Research Methods,",
+    "SOC34-344": "Sociological Theory",
+    "SOC34-964": "Senior Research",
+    "SOC34-114": "Introduction to Sociology",
+    "ANT35-424": "Theory and Method in Cultural Anthropology",
+    "ANT35-964": "Senior Seminar",
+    "THE72-183": "Fundamentals of Acting",
+    "THE72-211": "Theatre Laboratory",
+    "THE72-921": "Theatre Capstone: Portfolio",
+    "THE72-923": "Theatre Capstone Research Methods",
+    "THE72-193": "Movement and Voice",
+    "THE72-423": "Theatre Dance",
+    "THE72-434": "Acting Realism",
+    "THE72-444": "Acting: Heightened Language",
+    "THE72-514": "Topics in Costume History",
+    "THE72-534": "Playwriting",
+    "THE72-124": "Introduction to Play Analysis",
+    "THE72-674": "Stage Management for the Theatre",
+    "THE72-684": "Directing",
+    "THE72-604": "Devising Theatre",
+    "PHI18-124": "Critical Thinking",
+    "PSC32-204": "American Political Thought",
+    "BUS30-254": "Business Law",
+    "COM75-154": "Public Speaking",
+    "PHI18-164": "Self, Ethics, Society",
+    "SPA15-943": "Academic Internship",
+    "SPA15-944": "Academic Internship"
 }
