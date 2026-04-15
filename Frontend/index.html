@@ -790,6 +790,38 @@
         background: var(--accent-hover);
     }
 
+    .profile-card details summary {
+        font-size: 1.1rem;
+        font-weight: 600;
+        margin-bottom: 20px;
+        color: var(--accent);
+        cursor: pointer;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        user-select: none;
+        outline: none;
+    }
+
+    .profile-card details summary::-webkit-details-marker {
+        display: none;
+    }
+
+    .profile-card details summary::before {
+        content: '▶';
+        font-size: 0.8rem;
+        transition: transform 0.2s;
+    }
+
+    .profile-card details[open] summary::before {
+        transform: rotate(90deg);
+    }
+
+    .profile-card details:not([open]) summary {
+        margin-bottom: 0;
+    }
+
     .selected-course-pill {
         border: 2px solid #000000;
         border-radius: 8px;
@@ -839,9 +871,7 @@
                     </button>
                     <!-- Add future nav buttons here -->
 
-                    <button class="nav-btn" hx-post="/sign-out" hx-trigger="click" hx-swap="none">
-                        ⬅️ Sign Out
-                    </button>
+                    <!-- Sign Out moved to Profile > Account tab -->
 
                     <!--
                         Profile button — pinned to the bottom of the nav via
@@ -983,10 +1013,11 @@
     >
 
         <div class="profile-card">
-            <h2>Academic Info</h2>
+            <details open>
+                <summary>Academic Info</summary>
 
-            <div class="profile-field">
-                <label for="major">Major</label>
+                <div class="profile-field">
+                    <label for="major">Major</label>
                 <select id="major" name="major" required>
                     <option value="">Select a major</option>
                     <option>Anthropology</option>
@@ -1207,13 +1238,15 @@
                 </select>
                 <input id="grad_year_custom" name="grad_year_custom" type="text" placeholder="Enter graduation year" style="display:none;">
             </div>
+            </details>
         </div>
 
         <div class="profile-card">
-            <h2>Advisor</h2>
+            <details open>
+                <summary>Advisor</summary>
 
-            <div class="profile-field">
-                <label for="advisor_name">Advisor Name</label>
+                <div class="profile-field">
+                    <label for="advisor_name">Advisor Name</label>
                 <input id="advisor_name" name="advisor_name" type="text" placeholder="Enter advisor name">
             </div>
 
@@ -1221,12 +1254,14 @@
                 <label for="advisor_email">Advisor Email</label>
                 <input id="advisor_email" name="advisor_email" type="email" placeholder="Enter advisor email">
             </div>
+            </details>
         </div>
 
         <div class="profile-card">
-            <h2>Courses</h2>
+            <details open>
+                <summary>Courses</summary>
 
-            <div class="profile-field">
+                <div class="profile-field">
                 <label>Courses Taken</label>
                 
                 <div id="selected-courses-list" style="margin-bottom: 16px; display: flex; flex-direction: column;">
@@ -1238,7 +1273,7 @@
                 <div id="search-results-list" style="max-height: 300px; overflow-y: auto; display: flex; flex-direction: column;">
                     <!-- Search results here -->
                 </div>
-            </div>
+            </details>
         </div>
 
         <div class="profile-card">
@@ -1253,18 +1288,30 @@
                 <!-- ── Sub-tab: Account ────────────────────────── -->
                 <!-- TODO: Populate from /profile GET response (user_db: User table) -->
                 <div class="profile-tab-panel" id="ptab-account" role="tabpanel">
-
-                    <div class="profile-card">
-                        <h2>Account</h2>
-
-                        <div class="profile-field">
-                            <label>Name</label>
+ 
+                     <div class="profile-card">
+                         <details open>
+                             <summary>Account</summary>
+ 
+                             <div class="profile-field">
+                                 <label>Name</label>
                                 <input id="name" name="name" type="text" readonly>
                         </div>
                         <div class="profile-field">
                             <label>Email</label>
                                 <input id="email" name="email" type="text" readonly>
                         </div>
+
+                        <div style="margin-top: 24px; border-top: 1px solid var(--border); padding-top: 24px;">
+                            <button class="profile-save-btn" style="background: var(--error); color: white;" 
+                                hx-post="/sign-out" hx-trigger="click" hx-swap="none">
+                                ⬅️ Sign Out
+                            </button>
+                            <p style="font-size: 0.8rem; color: var(--muted); margin-top: 8px;">
+                                Securely end your current session.
+                            </p>
+                        </div>
+                    </details>
                     </div>
 
                 </div><!-- /#ptab-account -->
@@ -1273,16 +1320,18 @@
                 <div class="profile-tab-panel" id="ptab-settings" role="tabpanel">
 
                     <div class="profile-card">
-                        <h2>Appearance</h2>
+                        <details open>
+                            <summary>Appearance</summary>
 
-                        <div class="setting-row">
-                            <span>Light mode</span>
+                            <div class="setting-row">
+                                <span>Light mode</span>
                             <label class="theme-toggle" title="Toggle light / dark mode">
                                 <input type="checkbox" id="theme-toggle-input" aria-label="Toggle light mode">
                                 <div class="theme-toggle-track"></div>
                                 <div class="theme-toggle-thumb"></div>
                             </label>
                         </div>
+                    </details>
                     </div>
 
                     <!-- Add more settings cards here -->
