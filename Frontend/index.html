@@ -790,6 +790,28 @@
         background: var(--accent-hover);
     }
 
+    .selected-course-pill {
+        border: 2px solid #000000;
+        border-radius: 8px;
+        padding: 8px 12px;
+        margin-bottom: 6px;
+        background: var(--surface-raised);
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .search-result-item {
+        padding: 6px 12px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        border-bottom: 1px solid var(--border);
+    }
+    .search-result-item:last-child {
+        border-bottom: none;
+    }
+
     </style>
 </head>
 
@@ -1205,14 +1227,17 @@
             <h2>Courses</h2>
 
             <div class="profile-field">
-                <label for="course-search">Courses Taken</label>
-                <input type="text" id="course-search" placeholder="Search for courses (e.g. CSC 184)..." style="margin-bottom: 12px;">
+                <label>Courses Taken</label>
                 
-                <div id="course-list" style="max-height: 400px; overflow-y: auto; display: flex; flex-direction: column; gap: 8px;">
-                    <!-- Filtered/Selected courses will appear here -->
+                <div id="selected-courses-list" style="margin-bottom: 16px; display: flex; flex-direction: column;">
+                    <!-- Selected courses will appear here -->
                 </div>
 
-                <input name="courses_custom" type="text" placeholder="Additional courses, comma-separated" style="margin-top: 16px;">
+                <input type="text" id="course-search" placeholder="Search for more courses..." style="margin-bottom: 12px;">
+
+                <div id="search-results-list" style="max-height: 300px; overflow-y: auto; display: flex; flex-direction: column;">
+                    <!-- Search results here -->
+                </div>
             </div>
         </div>
 
@@ -1515,41 +1540,43 @@
     }
 
     const courseSearchInput = document.getElementById("course-search");
-    const courseListContainer = document.getElementById("course-list");
+    const selectedListContainer = document.getElementById("selected-courses-list");
+    const searchResultsContainer = document.getElementById("search-results-list");
 
     courseSearchInput.addEventListener("input", () => {
         renderCourseList(courseSearchInput.value.toLowerCase());
     });
 
     function renderCourseList(searchTerm = "") {
-        courseListContainer.innerHTML = "";
+        selectedListContainer.innerHTML = "";
+        searchResultsContainer.innerHTML = "";
         
-        const shownVals = new Set();
+        const shownInSelected = new Set();
 
-        // 1. Always show selected courses
+        // 1. Render all selected courses at the top
         allCourses.filter(c => selectedCourses.has(`${c.code} ${c.title}`)).forEach(course => {
             const courseVal = `${course.code} ${course.title}`;
-            renderItem(courseVal, true);
-            shownVals.add(courseVal);
+            renderItem(selectedListContainer, courseVal, true, "selected-course-pill");
+            shownInSelected.add(courseVal);
         });
 
-        // 2. If searching, show additional matches
+        // 2. Render search results below
         if (searchTerm) {
             allCourses.filter(c => 
                 (c.code.toLowerCase().includes(searchTerm) || 
                  c.title.toLowerCase().includes(searchTerm)) &&
-                !shownVals.has(`${c.code} ${c.title}`)
-            ).forEach(course => {
+                !shownInSelected.has(`${c.code} ${c.title}`)
+            ).slice(0, 50).forEach(course => { // Limit for performance
                 const courseVal = `${course.code} ${course.title}`;
-                renderItem(courseVal, false);
-                shownVals.add(courseVal);
+                renderItem(searchResultsContainer, courseVal, false, "search-result-item");
             });
         }
     }
 
-    function renderItem(courseVal, isChecked) {
+    function renderItem(container, courseVal, isChecked, className) {
         const label = document.createElement("label");
-        label.innerHTML = `<input type="checkbox" name="courses" value="${courseVal}" ${isChecked ? 'checked' : ''}> ${courseVal}`;
+        label.className = className;
+        label.innerHTML = `<input type="checkbox" name="courses" value="${courseVal}" ${isChecked ? 'checked' : ''}> <span>${courseVal}</span>`;
         
         const cb = label.querySelector('input');
         cb.addEventListener("change", () => {
@@ -1557,14 +1584,12 @@
                 selectedCourses.add(courseVal);
             } else {
                 selectedCourses.delete(courseVal);
-                // Re-render to clear the unselected item if not searching
-                if (!courseSearchInput.value.trim()) {
-                    renderCourseList();
-                }
             }
+            // Always re-render to move items between lists
+            renderCourseList(courseSearchInput.value.toLowerCase());
         });
         
-        courseListContainer.appendChild(label);
+        container.appendChild(label);
     }
 
     async function loadProfile() {
