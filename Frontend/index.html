@@ -1061,6 +1061,16 @@
             </div>
 
             <div class="profile-field">
+                <label for="major_degree_type">Major Degree Type</label>
+                <select id="major_degree_type" name="major_degree_type" required>
+                    <option value="">Select a degree type</option>
+                    <option>Bachelor of Arts (B.A.)</option>
+                    <option>Bachelor of Science (B.S.)</option>
+                    <option>Bachelor of Music</option>
+                </select>
+            </div>
+
+            <div class="profile-field">
                 <label for="second_major">Second Major</label>
                 <select id="second_major" name="second_major">
                     <option value="">No second major</option>
@@ -1101,6 +1111,16 @@
                     <option>Sociology</option>
                     <option>Spanish</option>
                     <option>Theatre</option>
+                </select>
+            </div>
+
+            <div class="profile-field">
+                <label for="second_major_degree_type">Second Major Degree Type</label>
+                <select id="second_major_degree_type" name="second_major_degree_type" required>
+                    <option value="">Select a degree type</option>
+                    <option>Bachelor of Arts (B.A.)</option>
+                    <option>Bachelor of Science (B.S.)</option>
+                    <option>Bachelor of Music</option>
                 </select>
             </div>
 
@@ -1224,7 +1244,7 @@
 
             <div class="profile-field">
                 <label for="grad_year">Expected Graduation</label>
-                <select id="grad_year" name="grad_year">
+                <select id="grad_year" name="grad_year" required>
                     <option value="">Select a graduation year</option>
                     <option>2026</option>
                     <option>2027</option>
@@ -1252,7 +1272,7 @@
 
             <div class="profile-field">
                 <label for="advisor_email">Advisor Email</label>
-                <input id="advisor_email" name="advisor_email" type="email" placeholder="Enter advisor email">
+                <input id="advisor_email" name="advisor_email" type="email" placeholder="Enter advisor email" required>
             </div>
             </details>
         </div>
@@ -1554,7 +1574,6 @@
             }
         });
 
-
     function wireCustomField(selectId, inputId) {
     const select = document.getElementById(selectId);
     const input = document.getElementById(inputId);
@@ -1574,6 +1593,7 @@
 
     wireCustomField("gpa", "gpa_custom");
     wireCustomField("grad_year", "grad_year_custom");
+    wireDependentSelect("second_major", "second_major_degree_type");
 
     let allCourses = [];
     let selectedCourses = new Set();
@@ -1664,7 +1684,9 @@
 
         // Fill selects
         setValue("major", data.major);
+        setValue("major_degree_type", data.major_degree_type);
         setValue("second_major", data.second_major);
+        setValue("second_major_degree_type", data.second_major_degree_type);
         setValue("minor", data.minor);
         setValue("second_minor", data.second_minor);
         setValue("gpa", data.gpa);
@@ -1722,15 +1744,81 @@
         }
     }
 
-    loadProfile();
-
     document.getElementById("profile-form")?.addEventListener("submit", (e) => {
     setTimeout(() => {
         document.getElementById("profile-warning")?.remove();
     }, 300);
 });
+
+    function preventDuplicateAcademicSelections() {
+        const ids = ["major", "second_major", "minor", "second_minor"];
+        const selects = ids
+            .map(id => document.getElementById(id))
+            .filter(Boolean);
+
+        function syncOptions() {
+            // currently selected non-empty values
+            const selectedValues = new Map();
+            selects.forEach(select => {
+                if (select.value) {
+                    selectedValues.set(select.id, select.value);
+                }
+            });
+
+            selects.forEach(select => {
+                Array.from(select.options).forEach(option => {
+                    const value = option.value;
+
+                    // never disable blank option
+                    if (!value) {
+                        option.disabled = false;
+                        return;
+                    }
+
+                    // keep this select's own current value enabled
+                    const chosenSomewhereElse = Array.from(selectedValues.entries()).some(
+                        ([id, selected]) => id !== select.id && selected === value
+                    );
+
+                    option.disabled = chosenSomewhereElse;
+                });
+            });
+    }
+
+    selects.forEach(select => {
+        select.addEventListener("change", syncOptions);
+    });
+
+    syncOptions();
+}
+
+function wireDependentSelect(parentId, childId) {
+    const parent = document.getElementById(parentId);
+    const child = document.getElementById(childId);
+    const field = child?.closest(".profile-field");
+
+    if (!parent || !child || !field) return;
+
+    function sync() {
+        const show = parent.value !== "";
+        field.style.display = show ? "flex" : "none";
+        child.required = show;
+
+        if (!show) {
+            child.value = "";
+        }
+    }
+
+    parent.addEventListener("change", sync);
+    sync();
+}
+
+
+loadProfile().then(() => {
+        preventDuplicateAcademicSelections();
+    });
     
-    </script>
+</script>
 </body>
 
 </html>

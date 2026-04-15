@@ -13,6 +13,8 @@ from pathlib import Path
 from pipeline.gemini_client import generate, extract_json, MODEL_ROUTER
 from pipeline.prompts import router_prompt
 
+from Backend.user_db import get_user_by_id, get_user_info, get_formatted_user_info
+
 log = logging.getLogger(__name__)
 
 # ── Named constants ───────────────────────────────────────────────────────────
@@ -58,7 +60,7 @@ def load_registry(base_path: str) -> dict:
 
 # ── Core routing ──────────────────────────────────────────────────────────────
 
-def route(question: str, base_path: str) -> list[str]:
+def route(question: str, base_path: str, google_id: str) -> list[str]:
     """Identify which major folder(s) are relevant to a student's question.
 
     Args:
@@ -75,7 +77,10 @@ def route(question: str, base_path: str) -> list[str]:
     registry_path = Path(base_path) / REGISTRY_FILENAME
     registry_json = registry_path.read_text(encoding="utf-8")
 
-    prompt = router_prompt(question, registry_json)
+    # Get formatted user profile information
+    user_info = get_formatted_user_info(google_id)
+
+    prompt = router_prompt(question, registry_json, user_info)
     raw_response = generate(prompt, model=MODEL_ROUTER)
     clean_json_str = extract_json(raw_response)
 

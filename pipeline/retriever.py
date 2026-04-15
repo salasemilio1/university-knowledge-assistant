@@ -16,6 +16,9 @@ from pipeline.gemini_client import generate, extract_json, MODEL_RETRIEVER
 from pipeline.prompts import retriever_prompt
 from pipeline.router import load_registry
 
+from Backend.user_db import get_user_by_id, get_user_info, get_formatted_user_info
+
+
 log = logging.getLogger(__name__)
 
 # ── Named constants ───────────────────────────────────────────────────────────
@@ -121,7 +124,7 @@ def load_skills_index(major_slug: str, base_path: str) -> str:
 
 # ── Core retrieval ────────────────────────────────────────────────────────────
 
-def retrieve(question: str, major_slugs: list[str], base_path: str) -> list[dict]:
+def retrieve(question: str, major_slugs: list[str], base_path: str, google_id: str) -> list[dict]:
     """Select which .txt documents to load for a student's question.
 
     Makes one Gemini call per major to pick the right documents from that
@@ -138,6 +141,9 @@ def retrieve(question: str, major_slugs: list[str], base_path: str) -> list[dict
     registry = load_registry(base_path)
     all_docs = []
 
+    # Get formatted user profile information
+    user_info = get_formatted_user_info(google_id)
+
     for slug in major_slugs:
         # Load the skills index for this major
         try:
@@ -147,7 +153,7 @@ def retrieve(question: str, major_slugs: list[str], base_path: str) -> list[dict
             continue
 
         # Ask Gemini which docs to load
-        prompt = retriever_prompt(question, skills_text)
+        prompt = retriever_prompt(question, skills_text, user_info)
         raw_response = generate(prompt, model=MODEL_RETRIEVER)
         clean_json_str = extract_json(raw_response)
 

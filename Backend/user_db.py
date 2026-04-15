@@ -40,7 +40,9 @@ class User(Base):
 
     # initial form data. pulled in when user fills out setup form
     major:Mapped[str | None] = mapped_column(String(200), nullable=True)
+    major_degree_type:Mapped[str | None] = mapped_column(String(200), nullable=True)
     second_major:Mapped[str | None] = mapped_column(String(200), nullable=True)
+    second_major_degree_type:Mapped[str | None] = mapped_column(String(200), nullable=True)
     minor:Mapped[str | None] = mapped_column(String(200), nullable=True)
     second_minor:Mapped[str | None] = mapped_column(String(200), nullable=True)
     gpa:Mapped[str | None] = mapped_column(String(200), nullable=True)
@@ -161,3 +163,37 @@ def get_user_info(google_id:str):
         "grad_year": user.grad_year,
         "courses": user.courses,
     }
+
+def get_formatted_user_info(google_id: str):
+    """Returns a specific user's info
+    which is formatted to make it easily readable by an LLM.
+
+    Args:
+        google_id(str): The Google ID of the user.
+    Returns:
+        str: Formatted user info.
+    """
+    user_info = get_user_info(google_id)
+
+    second_major_text = ""
+    if user_info.get("second_major"):
+        second_major_text = f"""\nSecond Major: {user_info["second_major"]}"""
+
+    minor_text = ""
+    if user_info.get("minor"):
+        minor_text = f"""\nMinor: {user_info["minor"]}"""
+
+    second_minor_text = ""
+    if user_info.get("second_minor"):
+        second_minor_text = f"""\nSecond Minor: {user_info["second_minor"]}"""
+
+
+    return f"""\
+Name: {user_info["name"]}
+Major: {user_info["major"]}{second_major_text}{minor_text}{second_minor_text}
+GPA: {user_info["gpa"]}
+Advisor Name: {user_info["advisor_name"]}
+Advisor Email: {user_info["advisor_email"]}
+Graduation Year: {user_info["grad_year"]}
+Courses Taken: {user_info["courses"]}
+"""
