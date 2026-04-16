@@ -1,0 +1,40 @@
+--- Page 1 of 1On-Ramps Course Equivalencies
+Effective for students enrolling at SU beginning with Fall 2026. Updated January 2026.
+Published by the Office of the Registrar. Questions may be directed to registrar@southwestern.edu
+Course Name OnRamps TCCNS Credits SU SU Equivalent General Additional Information
+Course Equivalent Equivalent Course Course Title Education
+Number Course Number Requirement
+Foundations of Arts and Entertainment Technologies AET 304 n/a 3 ART68-003 Selected Topics in Art Fine Arts
+Biology I, and BIO 311C, and BIOL 1306, and 3 BIO50-173, and Molecular & Cellular Foundations of Biology, and Natural Sciences
+Biology I lab BIO 106M BIOL 1106 BIO50-171 Inquiries in Biology
+Principles of Chemistry I, and CH 301, and CHEM 1311, and 4 CHE51-103, and General Chemistry I (lecture), and Natural Sciences
+Introduction to Chemical Practices I lab CH 104M CHEM 1111 CHE51-101 General Chemistry I (lab)
+College Chemistry II, and CH 302, and CHEM 1312, and 4 CHE51-203, and General Chemistry II (lecture), and Natural Sciences
+Introduction to Chemical Practices II lab CH 104N CHEM 1112 CHE51-201 General Chemistry II (lab)
+Elements of Computer Programming C S 303E n/a 3 CSC54-003 Selected Topics in Computer Science Natural Sciences
+Economics ECO 304K ECON 2302 3 ECO31-003 Selected Topics in Economics Social Sciences This course by itself does not fulfill
+Business or Economics major or minor
+requirements. You must also take
+Macroeconomics. Course may be
+combined with Macroeconomics AP
+credit by exam to receive ECO31-104
+credit.
+Earth, Wind, and Fire: An Introduction to Geoscience GEO 302E n/a 3 PHY53-003 Selected Topics in Physics Natural Sciences
+Issues and Policies in American Government GOV 312L GOVT 2302 3 PSC32-003 Selected Topics in Political Science Social Sciences
+The United States, 1492-1865 HIS 315K HIST 1301 3 HIS16-003 Selected Topics in History Humanities
+The United States Since 1865 HIS 315L HIST 1302 3 HIS16-003 Selected Topics in History Humanities
+Discovery Pre-Calculus: Preparation for Calculus M 305G MATH 2312 3 MAT52-004 Selected Topics in Mathematics Natural Sciences
+Mechanics, Heat, and Sound, and PHY 302K, and PHYS 1301, and 4 PHY53-004 Selected Topics in Physics Natural Sciences This algebra-based course does not
+Mechanics, Heat, and Sound lab PHY 102M PHYS 1101 fulfill degree requirements in the BS, or
+Physics major or minor requirements.
+Electromagnetism, Optics, and Nuclear Physics PHY 302L PHYS 1302 3 PHY53-003 Selected Topics in Physics Natural Sciences This algebra-based course does not
+fulfill degree requirements in the BS, or
+Physics major or minor requirements.
+Introduction to Quantum Technologies PHY 309L PHYS 1307 3 PHY53-003 Selected Topics in Physics Natural Sciences
+Introduction to Rhetoric: Reading, Writing and Research RHE 306 ENGL 1301 3 ENG10-114 College Writing --- This course does not fulfill general
+education, or English major or minor
+requirements.
+Reading and Writing the Rhetoric of American Identities RHE 309K ENGL 1302 3 ENG10-003 Selected Topics in English --- This course does not fulfill general
+education, or English major or minor
+requirements.
+Elementary Statistical Methods SDS 301 MATH 1342 3 MAT52-114 Introduction to Statistics Natural Sciences
