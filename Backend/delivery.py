@@ -145,7 +145,7 @@ async def profile(request:Request):
         "advisor_name": user.advisor_name,
         "advisor_email": user.advisor_email,
         "grad_year": user.grad_year,
-        "courses": user.courses
+        "courses_json": user.courses_json
     }
 
 @app.post("/sign-out")
@@ -175,7 +175,7 @@ async def users(request:Request):
     "gpa_custom",
     "advisor_name",
     "advisor_email",
-    "courses",
+    "courses", # From user profile
     "courses_custom",
     "grad_year",
     "grad_year_custom"
