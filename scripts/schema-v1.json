@@ -23,6 +23,15 @@
             ],
             "type": "string"
           },
+          "code": {
+            "description": "The unique identifier or code for the course, often including department and number (e.g., CSC54-184).",
+            "x-alternativeNames": [
+              "Course Code",
+              "Subject Code",
+              "Class ID"
+            ],
+            "type": "string"
+          },
           "credits": {
             "description": "The number of academic credits or units awarded for successfully completing the course.",
             "x-alternativeNames": [
@@ -53,6 +62,7 @@
         },
         "required": [
           "name",
+          "code",
           "credits",
           "grade",
           "semester"
