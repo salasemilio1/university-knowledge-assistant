@@ -279,6 +279,7 @@
             display: flex;
             flex-direction: column;
             overflow: hidden;
+            min-height: 0;
             /* scroll lives inside #response, not here */
         }
 
@@ -308,6 +309,7 @@
             flex-direction: column;
             gap: 16px;
             overflow: hidden;
+            min-height: 0;
             padding: 24px 24px 0;
             max-width: var(--chat-max-width);
             width: 100%;
@@ -436,6 +438,8 @@
             flex-direction: column;
             gap: 12px;
             padding-bottom: 8px;
+            min-height: 0;
+            overscroll-behavior: contain;
         }
 
         /* Every answer or error is wrapped in .response-block */
@@ -445,6 +449,7 @@
             border-radius: var(--radius);
             line-height: 1.65;
             overflow: hidden;
+            flex-shrink: 0;
             /* keep rounded corners when details is open */
         }
 
@@ -481,8 +486,7 @@
             padding: 14px 20px 16px;
             font-size: 0.95rem;
             border-top: 1px solid var(--border);
-            max-height: 400px;
-            overflow-y: auto;
+            overflow-y: visible;
             /* Styles for rendered markdown content */
             line-height: 1.7;
         }
@@ -741,6 +745,7 @@
             flex: 1;
             flex-direction: column;
             overflow: hidden;
+            min-height: 0;
         }
 
         .page.active {
@@ -1490,6 +1495,17 @@
         themeInput.addEventListener('change', function () { setTheme(themeInput.checked); });
 
         // ── Markdown rendering ────────────────────────────────────────
+        function scrollResponsesToBottom() {
+            const responseDiv = document.getElementById('response');
+            if (!responseDiv) return;
+
+            requestAnimationFrame(function () {
+                requestAnimationFrame(function () {
+                    responseDiv.scrollTop = responseDiv.scrollHeight;
+                });
+            });
+        }
+
         document.body.addEventListener('htmx:afterSwap', function (evt) {
             evt.detail.target.querySelectorAll('.response-answer').forEach(function (el) {
                 if (!el.dataset.rendered) {
@@ -1530,7 +1546,7 @@
                     responseDiv.insertAdjacentHTML('beforeend', tempHTML);
 
                     // Auto-scroll to the newly appended thinking block so it's in view
-                    responseDiv.scrollTop = responseDiv.scrollHeight;
+                    scrollResponsesToBottom();
                 }
 
                 // Clear the input box and reset size immediately
@@ -1548,10 +1564,15 @@
         // ── Scroll to bottom when real answer is fully rendered ──
         document.body.addEventListener('htmx:afterSwap', function (evt) {
             if (evt.detail.target.id === 'response') {
-                const responseDiv = document.getElementById('response');
-                responseDiv.scrollTop = responseDiv.scrollHeight;
+                scrollResponsesToBottom();
             }
         });
+
+        document.getElementById('response')?.addEventListener('toggle', function (evt) {
+            if (evt.target.tagName === 'DETAILS' && evt.target.open) {
+                scrollResponsesToBottom();
+            }
+        }, true);
 
         // ── Submit on Enter & Auto-resize ─────────────────────────────
         const textarea = document.getElementById('query');
@@ -1817,7 +1838,7 @@ function wireDependentSelect(parentId, childId) {
 loadProfile().then(() => {
         preventDuplicateAcademicSelections();
     });
-    
+
 </script>
 </body>
 
