@@ -4,8 +4,9 @@ This script serves to manage most things related to user configuration with SQLA
 
 
 from sqlalchemy.orm import DeclarativeBase
-from sqlalchemy.orm import Mapped, mapped_column, sessionmaker, Session
-from sqlalchemy import create_engine, select, exists, String, Boolean, JSON
+from sqlalchemy.orm import Mapped, mapped_column, relationship, sessionmaker, Session
+from sqlalchemy import create_engine, select, exists, String, Boolean, JSON, Integer, ForeignKey
+from typing import Optional
 
 from dotenv import load_dotenv
 import os
@@ -49,8 +50,29 @@ class User(Base):
     advisor_name:Mapped[str | None] = mapped_column(String(200), nullable=True)
     advisor_email:Mapped[str | None] = mapped_column(String(200), nullable=True)
     grad_year:Mapped[str | None] = mapped_column(String(200), nullable=True)
-    courses:Mapped[list | None] = mapped_column(JSON, nullable=True)
+    courses_json:Mapped[list | None] = mapped_column(JSON, nullable=True)
+    courses = relationship(
+        "Course",
+        back_populates="user",
+        cascade="all, delete-orphan"
+    )
 
+class Course(Base):
+    __tablename__ = "courses"
+
+    # Auto-incrementing primary key
+    id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)
+
+    # Foreign key to users table (assuming users.id is UUID stored as CHAR(36))
+    google_id: Mapped[str] = mapped_column(ForeignKey("users.google_id"), nullable=False, index=True)
+
+    course_name: Mapped[str] = mapped_column(String(255), nullable=False)
+    course_code: Mapped[str] = mapped_column(String(50))
+    grade: Mapped[Optional[str]] = mapped_column(String(5))
+    semester: Mapped[Optional[str]] = mapped_column(String(50))
+
+    # Relationship back to user
+    user = relationship("User", back_populates="courses")
 
 # create engine and session to interact with DB
 engine = create_engine(DATABASE_URL, echo=False)

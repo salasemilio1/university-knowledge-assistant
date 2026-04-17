@@ -206,7 +206,7 @@ async def users(request:Request):
     user_data["advisor_email"] = form_data["advisor_email"]
     user_data["grad_year"] = form_data["grad_year_custom"] if form_data["grad_year"] == "custom" else form_data["grad_year"]
     
-    courses = list(form_data["courses"]) # get courses listed in checkbox
+    courses_json = list(form_data["courses"]) # get courses listed in checkbox
 
     # get courses listed in custom and extend list
     custom_courses_raw = form_data["courses_custom"]
@@ -216,10 +216,10 @@ async def users(request:Request):
             for course in custom_courses_raw.split(",")
             if course.strip()
         ]
-        courses.extend(custom_courses)
+        courses_json.extend(custom_courses)
 
     # update user data field
-    user_data["courses"] = courses if courses else None
+    user_data["courses_json"] = courses_json if courses_json else None
 
     # retrieve currently authed user
     google_id = request.session.get("user_id")
