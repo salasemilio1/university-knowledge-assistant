@@ -1593,7 +1593,13 @@
 
     wireCustomField("gpa", "gpa_custom");
     wireCustomField("grad_year", "grad_year_custom");
-    wireDependentSelect("second_major", "second_major_degree_type");
+    
+    const academicDependencies = {
+        "major": ["major_degree_type", "second_major", "minor"],
+        "second_major": ["second_major_degree_type"],
+        "minor": ["second_minor"]
+    };
+    initDependencies(academicDependencies);
 
     let allCourses = [];
     let selectedCourses = new Set();
@@ -1742,6 +1748,7 @@
                 custom.value = value;
             }
         }
+        el.dispatchEvent(new Event("change"));
     }
 
     document.getElementById("profile-form")?.addEventListener("submit", (e) => {
@@ -1792,25 +1799,37 @@
     syncOptions();
 }
 
-function wireDependentSelect(parentId, childId) {
-    const parent = document.getElementById(parentId);
-    const child = document.getElementById(childId);
-    const field = child?.closest(".profile-field");
+function initDependencies(config) {
+    Object.entries(config).forEach(([parentId, childIds]) => {
+        const parent = document.getElementById(parentId);
+        if (!parent) return;
 
-    if (!parent || !child || !field) return;
+        const children = childIds.map(id => {
+            const el = document.getElementById(id);
+            return {
+                el,
+                field: el?.closest(".profile-field"),
+                originallyRequired: el?.hasAttribute("required")
+            };
+        }).filter(c => c.el && c.field);
 
-    function sync() {
-        const show = parent.value !== "";
-        field.style.display = show ? "flex" : "none";
-        child.required = show;
-
-        if (!show) {
-            child.value = "";
+        function sync() {
+            const show = parent.value && parent.value !== "";
+            children.forEach(c => {
+                c.field.style.display = show ? "flex" : "none";
+                if (c.originallyRequired) {
+                    c.el.required = !!show;
+                }
+                if (!show && c.el.value !== "") {
+                    c.el.value = "";
+                    c.el.dispatchEvent(new Event("change"));
+                }
+            });
         }
-    }
 
-    parent.addEventListener("change", sync);
-    sync();
+        parent.addEventListener("change", sync);
+        sync();
+    });
 }
 
 

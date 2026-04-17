@@ -66,6 +66,7 @@ app.add_middleware(SessionMiddleware, SECRET_KEY)
 # ── Routes ────────────────────────────────────────────────────────────────────
 
 @app.get("/", response_class=FileResponse)
+@app.get("/chat", response_class=FileResponse)
 def index(request: Request):
     """Serve the main chat page."""
     if(request.session.get("user_id")):
