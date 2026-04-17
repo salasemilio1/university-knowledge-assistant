@@ -221,3 +221,32 @@ Advisor Email: {user_info["advisor_email"]}
 Graduation Year: {user_info["grad_year"]}
 Courses Taken: {user_info["courses_json"]}
 """
+
+def get_user_courses(google_id: str):
+    """Returns a specific user's courses taken (pulled from transcript)
+    in a list with a dictionary for each course 
+
+    Args:
+        google_id: The Google ID of the user.
+    Returns:
+        List[Dict[str,Any]]: Course information for each course the user has taken.
+    """
+    with SessionLocal() as session:
+        courses = (
+            session.query(Course)
+            .filter(Course.google_id == google_id)
+            .all()
+        )
+
+        return [
+            {
+                "id": course.id,
+                "google_id": course.id,
+                "course_name": course.course_name,
+                "course_code": course.course_code,
+                "grade": course.grade,
+                "semester": course.semester
+
+            }
+            for course in courses
+        ]
