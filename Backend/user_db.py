@@ -6,7 +6,7 @@ This script serves to manage most things related to user configuration with SQLA
 from sqlalchemy.orm import DeclarativeBase
 from sqlalchemy.orm import Mapped, mapped_column, relationship, sessionmaker, Session
 from sqlalchemy import create_engine, select, exists, String, Boolean, JSON, Integer, ForeignKey
-from typing import Optional
+from typing import Optional, List, Any
 
 from dotenv import load_dotenv
 import os
@@ -250,3 +250,39 @@ def get_user_courses(google_id: str):
             }
             for course in courses
         ]
+    
+
+def add_courses(google_id:str, courses:List[dict[str,Any]]) -> bool:
+    """
+    Adds courses from JSON to the courses table.
+
+    Args:
+        google_id(str): The Google ID of the account to add courses for.
+        courses(List[dict[str,Any]]): List of courses in JSON format.
+    Returns:
+        bool: True if successful
+    """
+
+    with SessionLocal() as session:
+        for c in courses:
+            course = Course(
+                google_id=google_id,
+                course_name=c["course_name"],
+                course_code=c["course_code"],
+                grade=c["grade"],
+                semester=c["semester"]
+            )
+            session.add(course)
+            session.commit()
+            session.refresh(course)
+    return True
+
+# id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)
+
+#     # Foreign key to users table (assuming users.id is UUID stored as CHAR(36))
+#     google_id: Mapped[str] = mapped_column(ForeignKey("users.google_id"), nullable=False, index=True)
+
+#     course_name: Mapped[str] = mapped_column(String(255), nullable=False)
+#     course_code: Mapped[str] = mapped_column(String(50))
+#     grade: Mapped[Optional[str]] = mapped_column(String(5))
+#     semester: Mapped[Optional[str]] = mapped_column(String(50))
