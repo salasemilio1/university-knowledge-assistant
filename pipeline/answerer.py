@@ -10,7 +10,7 @@ conversational context.
 import logging
 from pathlib import Path
 
-from pipeline.gemini_client import generate, MODEL_ANSWERER
+from pipeline.gemini_client import generate, generate_stream, MODEL_ANSWERER
 from pipeline.prompts import answerer_prompt
 
 from Backend.user_db import get_user_by_id, get_user_info, get_formatted_user_info
@@ -104,3 +104,20 @@ def answer(question: str, doc_list: list[dict], history: list[dict], google_id) 
 
     # TODO: Add response quality checks here (e.g. verify citations exist)
     return response
+
+
+def stream_answer(question: str, doc_list: list[dict], history: list[dict], google_id):
+    """Yield answer chunks for the student's question (streaming variant of answer).
+
+    Args:
+        question: The student's question.
+        doc_list: Documents selected by the retriever.
+        history:  The last N Q&A pairs for conversational context.
+
+    Yields:
+        Raw text chunks as they are produced by the model.
+    """
+    context = load_documents(doc_list)
+    history_block = format_history(history)
+    prompt = answerer_prompt(question, context, history_block)
+    yield from generate_stream(prompt, model=MODEL_ANSWERER)

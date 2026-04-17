@@ -98,6 +98,29 @@ def generate(prompt: str, model: str | None = None) -> str:
     return "[ERROR] LLM call failed after retries."
 
 
+def generate_stream(prompt: str, model: str | None = None):
+    """Send a prompt to Gemini and yield response text chunks as they arrive.
+
+    Args:
+        prompt: The full prompt string to send.
+        model:  Model name override. Defaults to DEFAULT_MODEL.
+
+    Yields:
+        Text chunks as they are produced by the model.
+    """
+    model_name = model or DEFAULT_MODEL
+    try:
+        for chunk in _client.models.generate_content_stream(
+            model=model_name,
+            contents=prompt,
+        ):
+            if chunk.text:
+                yield chunk.text
+    except Exception as exc:
+        log.error("Gemini streaming failed (model=%s): %s", model_name, exc)
+        yield f"\n\n[ERROR] Streaming failed: {exc}"
+
+
 def extract_json(text: str) -> str:
     """Extract JSON from an LLM response, stripping markdown code blocks.
 

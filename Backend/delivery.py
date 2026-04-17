@@ -19,9 +19,9 @@ import os
 from dotenv import load_dotenv
 
 from fastapi import FastAPI, Form, Request, Response, HTTPException
-from fastapi.responses import FileResponse, HTMLResponse, RedirectResponse
+from fastapi.responses import FileResponse, HTMLResponse, RedirectResponse, StreamingResponse
 from fastapi.staticfiles import StaticFiles
-
+from starlette.concurrency import run_in_threadpool
 from starlette.middleware.sessions import SessionMiddleware
 
 from google.oauth2 import id_token
@@ -29,7 +29,7 @@ from google.auth.transport import requests
 
 from pipeline.router import route
 from pipeline.retriever import retrieve
-from pipeline.answerer import answer
+from pipeline.answerer import answer, stream_answer
 
 from Backend.user_db import create_user, update_user, get_user_by_id
 
@@ -308,6 +308,65 @@ async def ask(request: Request, query: str = Form(...)):
     )
 
     return _answer_html(query, answer_text)
+
+
+@app.post("/ask/stream")
+async def ask_stream(request: Request, query: str = Form(...)):
+    """
+    Streaming variant of /ask.
+
+    Steps 1 (route) and 2 (retrieve) run synchronously — identical to /ask.
+    Step 3 (answer) streams tokens to the browser via StreamingResponse so
+    the user sees text as it is generated rather than waiting for completion.
+    The frontend reads the plain-text stream and renders Markdown once done.
+    """
+    query = query.strip()
+    if not query:
+        return Response(content="Please enter a question.", status_code=400)
+
+    google_id = request.session.get("user_id")
+    start_time = time.time()
+
+    try:
+        routed_majors = route(query, KNOWLEDGE_BASE_PATH, google_id)
+    except Exception as exc:
+        logging.error("Routing failed: %s", exc)
+        return Response(content="Routing error.", status_code=500)
+
+    try:
+        doc_list = retrieve(query, routed_majors, KNOWLEDGE_BASE_PATH, google_id)
+    except Exception as exc:
+        logging.error("Retrieval failed: %s", exc)
+        return Response(content="Retrieval error.", status_code=500)
+
+    if not doc_list:
+        return Response(content="No relevant documents found.", status_code=404)
+
+    async def token_generator():
+        """Drive the blocking stream_answer generator inside a thread pool."""
+        full_chunks: list[str] = []
+        sentinel = object()
+        gen = stream_answer(query, doc_list, history=[], google_id=google_id)
+        try:
+            while True:
+                chunk = await run_in_threadpool(next, gen, sentinel)
+                if chunk is sentinel:
+                    break
+                full_chunks.append(chunk)
+                yield chunk
+        except Exception as exc:
+            logging.error("Token streaming failed: %s", exc)
+            yield f"\n\n[ERROR] {exc}"
+        finally:
+            _log_query(
+                question=query,
+                routed_majors=routed_majors,
+                selected_docs=[d["filename"] for d in doc_list],
+                answer_text="".join(full_chunks),
+                duration_seconds=time.time() - start_time,
+            )
+
+    return StreamingResponse(token_generator(), media_type="text/plain")
 
 
 # ── HTML snippet builders ──────────────────────────────────────────────────────
