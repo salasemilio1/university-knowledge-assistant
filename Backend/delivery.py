@@ -124,6 +124,18 @@ async def get_courses():
     # Convert dict {code: title} to list [{code, title}]
     return [{"code": code, "title": title} for code, title in courses_dict.items()]
 
+@app.get("/api/departments")
+def get_departments():
+    departments_file = _PROJECT_ROOT / "knowledge_base" / "departments.json"
+    if not departments_file.exists():
+        return []
+    
+    with open(departments_file, "r") as f:
+        try:
+            return json.load(f)
+        except json.JSONDecodeError:
+            return []
+
 
 @app.get("/profile")
 async def profile(request:Request):
