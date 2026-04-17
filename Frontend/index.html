@@ -48,6 +48,26 @@
             --error: #dc2626;
         }
 
+        .btn-add-major-minor {
+            background: none;
+            border: 1px dashed var(--accent);
+            color: var(--accent);
+            padding: 8px 12px;
+            border-radius: var(--radius);
+            cursor: pointer;
+            font-size: 0.9rem;
+            margin-top: 10px;
+            transition: background 0.2s, color 0.2s;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-weight: 500;
+        }
+
+        .btn-add-major-minor:hover {
+            background: rgba(248, 201, 35, 0.1);
+        }
+
         /* ── Base ───────────────────────────────────────────────────── */
         *,
         *::before,
@@ -1030,6 +1050,11 @@
                 </select>
             </div>
 
+            <div id="academic-actions" style="display: none; gap: 10px; margin: 10px 0 20px 0; flex-wrap: wrap;">
+                <button type="button" id="btn-add-major" class="btn-add-major-minor">+ Add Second Major</button>
+                <button type="button" id="btn-add-minor" class="btn-add-major-minor">+ Add Minor</button>
+            </div>
+
             <div class="profile-field">
                 <label for="second_major">Second Major</label>
                 <select id="second_major" name="second_major">
@@ -1118,7 +1143,7 @@
 
             <div class="profile-field">
                 <label for="advisor_email">Advisor Email</label>
-                <input id="advisor_email" name="advisor_email" type="email" placeholder="Enter advisor email" required>
+                <input id="advisor_email" name="advisor_email" type="email" placeholder="Enter advisor email">
             </div>
             </details>
         </div>
@@ -1441,12 +1466,111 @@
     wireCustomField("grad_year", "grad_year_custom");
     
     const academicDependencies = {
-        "major": ["major_degree_type", "second_major", "minor"],
-        "second_major": ["second_major_degree_type"],
-        "minor": ["second_minor"]
+        "major": ["major_degree_type"],
+        "second_major": ["second_major_degree_type"]
     };
     initDependencies(academicDependencies);
 
+    function syncAcademicVisibility() {
+        const majorDegEl = document.getElementById("major_degree_type");
+        const secondMajorEl = document.getElementById("second_major");
+        const minorEl = document.getElementById("minor");
+        const secondMinorEl = document.getElementById("second_minor");
+
+        if (!majorDegEl || !secondMajorEl || !minorEl || !secondMinorEl) return;
+
+        const hasMajorDeg = !!majorDegEl.value;
+
+        // Action buttons container
+        const actionsContainer = document.getElementById("academic-actions");
+        if (actionsContainer) {
+            actionsContainer.style.display = hasMajorDeg ? "flex" : "none";
+        }
+
+        // Second Major Visibility
+        const secondMajorField = secondMajorEl.closest(".profile-field");
+        const showSecondMajor = !!secondMajorEl.value || secondMajorEl.dataset.forcedVisible === "true";
+        if (secondMajorField) {
+            secondMajorField.style.display = (hasMajorDeg && showSecondMajor) ? "flex" : "none";
+        }
+        const btnAddMajor = document.getElementById("btn-add-major");
+        if (btnAddMajor) {
+            btnAddMajor.style.display = (hasMajorDeg && !showSecondMajor) ? "inline-flex" : "none";
+        }
+
+        // Minor Visibility
+        const minorField = minorEl.closest(".profile-field");
+        const showMinor = !!minorEl.value || minorEl.dataset.forcedVisible === "true";
+        if (minorField) {
+            minorField.style.display = (hasMajorDeg && showMinor) ? "flex" : "none";
+        }
+
+        // Second Minor Visibility
+        const secondMinorField = secondMinorEl.closest(".profile-field");
+        const showSecondMinor = !!secondMinorEl.value || secondMinorEl.dataset.forcedVisible === "true";
+        if (secondMinorField) {
+            secondMinorField.style.display = (hasMajorDeg && showMinor && showSecondMinor) ? "flex" : "none";
+        }
+
+        // Add Minor Button Label/Visibility
+        const btnAddMinor = document.getElementById("btn-add-minor");
+        if (btnAddMinor) {
+            if (!showMinor) {
+                btnAddMinor.textContent = "+ Add Minor";
+                btnAddMinor.style.display = hasMajorDeg ? "inline-flex" : "none";
+            } else if (minorEl.value && !showSecondMinor) {
+                btnAddMinor.textContent = "+ Add Second Minor";
+                btnAddMinor.style.display = hasMajorDeg ? "inline-flex" : "none";
+            } else {
+                btnAddMinor.style.display = "none";
+            }
+        }
+    }
+
+    // Attach listeners
+    document.getElementById("major_degree_type")?.addEventListener("change", syncAcademicVisibility);
+    
+    document.getElementById("second_major")?.addEventListener("change", (e) => {
+        if (!e.target.value) e.target.dataset.forcedVisible = "false";
+        syncAcademicVisibility();
+    });
+
+    document.getElementById("minor")?.addEventListener("change", (e) => {
+        if (!e.target.value) e.target.dataset.forcedVisible = "false";
+        syncAcademicVisibility();
+    });
+
+    document.getElementById("second_minor")?.addEventListener("change", (e) => {
+        if (!e.target.value) e.target.dataset.forcedVisible = "false";
+        syncAcademicVisibility();
+    });
+
+    document.getElementById("btn-add-major")?.addEventListener("click", () => {
+        const el = document.getElementById("second_major");
+        if (el) {
+            el.dataset.forcedVisible = "true";
+            syncAcademicVisibility();
+        }
+    });
+
+    document.getElementById("btn-add-minor")?.addEventListener("click", () => {
+        const minorEl = document.getElementById("minor");
+        const secondMinorEl = document.getElementById("second_minor");
+        if (!minorEl.value && minorEl.dataset.forcedVisible !== "true") {
+            minorEl.dataset.forcedVisible = "true";
+        } else {
+            secondMinorEl.dataset.forcedVisible = "true";
+        }
+        syncAcademicVisibility();
+    });
+
+    // Run initial sync after profile loads
+    loadDepartments().then(() => {
+        loadProfile().then(() => {
+            preventDuplicateAcademicSelections();
+            syncAcademicVisibility();
+        });
+    });
     let allCourses = [];
     let selectedCourses = new Set();
 
@@ -1766,12 +1890,6 @@ async function loadDepartments() {
         console.error("Failed to load departments or options list", e);
     }
 }
-
-loadDepartments().then(() => {
-    loadProfile().then(() => {
-        preventDuplicateAcademicSelections();
-    });
-});
 
     
 </script>
