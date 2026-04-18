@@ -92,6 +92,29 @@
     ]
   },
   {
+    "slug": "business_&_economics",
+    "display_name": "Business & Economics",
+    "folder": "Business & Economics",
+    "description": "This context covers degree requirements, course listings, and faculty information for the Economics and Business majors and minors at Southwestern University. It includes details on paired major options, the student-led Financial Analyst Program, and graduate school partnerships with Rice University and Texas A&M.",
+    "keywords": [
+      "what are the requirements for the business major",
+      "what is the Financial Analyst Program",
+      "how do I apply for FAP",
+      "what are the prerequisites for the economics major",
+      "can I double major in business and art history",
+      "what graduate school partnerships are available for business students",
+      "when is the economics capstone offered",
+      "do I need calculus for a business degree",
+      "who is the chair of the economics and business department",
+      "how many courses are required for the economics minor",
+      "what jobs do business majors get",
+      "is an internship required for business or economics",
+      "how do I get into the Rice MAcc program",
+      "what courses count toward the business major",
+      "what is the difference between the business and economics majors"
+    ]
+  },
+  {
     "slug": "chemistry_&_biochemistry",
     "display_name": "Chemistry & Biochemistry",
     "folder": "Chemistry & Biochemistry",
@@ -161,6 +184,29 @@
     ]
   },
   {
+    "slug": "computational_mathematics",
+    "display_name": "Computational Mathematics",
+    "folder": "Computational Mathematics",
+    "description": "This context covers the Computational Mathematics major at Southwestern University, detailing the requirements for both B.A. and B.S. degree paths. It includes information on core courses, elective options, capstone requirements, and supporting science credits for the B.S. Students can also find guidance on AP/transfer credit placement, faculty contacts, and departmental resources like the ACM club.",
+    "keywords": [
+      "how many courses do I need for the computational mathematics major",
+      "what is the difference between the BA and BS in computational mathematics",
+      "what are the core required courses for computational mathematics",
+      "what are the supporting science requirements for the BS",
+      "what is the capstone for computational mathematics",
+      "does my AP computer science credit count",
+      "how do my community college CS credits transfer",
+      "who do I contact for computer science placement",
+      "what is the minimum grade for a course to be a prerequisite",
+      "do I need to pass a major field test",
+      "what electives can I take for computational mathematics",
+      "how do I join the ACM club or UPE honor society",
+      "what research opportunities are available for CS students",
+      "who are the faculty in the MAT/CSC department",
+      "what awards are available for computational mathematics students"
+    ]
+  },
+  {
     "slug": "computer_science",
     "display_name": "Computer Science",
     "folder": "Computer Science",
@@ -177,6 +223,75 @@
       "computation",
       "discrete math",
       "database"
+    ]
+  },
+  {
+    "slug": "education",
+    "display_name": "Education",
+    "folder": "Education",
+    "description": "This context covers degree requirements and certification paths for the Education Department, including the B.A., B.S.Ed., and education minors. It provides detailed information on Texas teacher certification tracks for various grade levels, credit hour requirements, and the student teaching capstone process.",
+    "keywords": [
+      "What is the difference between the BA and BSEd in Education?",
+      "How do I get a Texas teaching certificate?",
+      "What are the requirements for the EC-6 certification?",
+      "What courses do I need for the Education minor?",
+      "When is the deadline to apply for teacher certification?",
+      "What is the common core for all education majors?",
+      "Do I need a content area for grades 4-8?",
+      "How many content hours are required for secondary certification?",
+      "Does the special education minor lead to certification?",
+      "What is student teaching and when does it happen?",
+      "What courses are required for the B.S.Ed.?",
+      "Can I major in both Education and Music?",
+      "What is the S.O.S. program for graduates?",
+      "What history course is required for students who didn't go to high school in Texas?",
+      "What are the requirements for a minor in Generic Special Education?"
+    ]
+  },
+  {
+    "slug": "environmental_studies",
+    "display_name": "Environmental Studies",
+    "folder": "Environmental Studies",
+    "description": "This context provides detailed academic requirements for the Bachelor of Arts major and the minor in Environmental Studies. It includes core course lists, elective pools for natural sciences and humanities, and information on how the minor contributes to Paideia Distinction.",
+    "keywords": [
+      "What courses do I need for an Environmental Studies major?",
+      "How many courses are required for the Environmental Studies minor?",
+      "Do I need to take statistics for Environmental Studies?",
+      "What is the Environmental Studies capstone course?",
+      "Which courses satisfy the Environmental Justice requirement?",
+      "What are the natural science options for Environmental Studies?",
+      "How does the Environmental Studies minor help with Paideia Distinction?",
+      "Do I need to take GIS for the major?",
+      "Can one course count for two different requirements in the major?",
+      "What are the Environmental Humanities course options?",
+      "What is the minimum GPA for the Environmental Studies major?",
+      "Are internships or study abroad required for Environmental Studies?",
+      "What are the residency requirements for this major?",
+      "Which courses are in natural science Pool A?",
+      "What are the universal graduation requirements at SU?"
+    ]
+  },
+  {
+    "slug": "feminist_studies",
+    "display_name": "Feminist Studies",
+    "folder": "Feminist Studies",
+    "description": "This context provides comprehensive information about the Feminist Studies (FST) program, including degree requirements for the major, minor, and paired majors with English and History. It details core course requirements, faculty contacts, career outcomes, and the program's integration into the Paideia framework. Additionally, it covers interdisciplinary course contributions and special opportunities like the guest speaker series.",
+    "keywords": [
+      "how many courses do I need for an FST major",
+      "what are the requirements for the feminist studies minor",
+      "can I do a paired major in feminist studies and english",
+      "can I do a paired major in feminist studies and history",
+      "what are the core courses for feminist studies",
+      "does feminist studies count as a paideia minor",
+      "how do I earn paideia with distinction",
+      "what can I do with a feminist studies degree",
+      "does fst prepare me for law or medical school",
+      "who is the feminist studies department chair",
+      "what courses count toward the fst major",
+      "what is the fst senior seminar",
+      "are there prerequisites for fst courses",
+      "what guest speakers does the fst program host",
+      "which methods courses are recommended for fst grad school"
     ]
   },
   {
@@ -203,6 +318,29 @@
     ]
   },
   {
+    "slug": "french",
+    "display_name": "French",
+    "folder": "French",
+    "description": "This context provides detailed information on the French major and minor requirements, including specific course sequences and the senior capstone research project. It also outlines opportunities for study abroad, professional funding for teaching in France, and interdisciplinary connections with other fields of study.",
+    "keywords": [
+      "What are the requirements for a French major?",
+      "How many courses do I need for a French minor?",
+      "What is the French capstone project?",
+      "How do I study abroad in France?",
+      "What are the requirements for the paired major in International Studies and French?",
+      "How can I become a teaching assistant in France after graduation?",
+      "What are the prerequisites for French III?",
+      "How do I join the Pi Delta Phi honor society?",
+      "Are there Fulbright opportunities for French students?",
+      "What is the 500-level course requirement for the major?",
+      "How do I get teacher certification in French?",
+      "What online resources are available for learning French?",
+      "What is the oral defense for the French capstone?",
+      "What courses are offered for French language and culture?",
+      "How does the French program support global citizenship?"
+    ]
+  },
+  {
     "slug": "general",
     "display_name": "general",
     "folder": "general",
@@ -226,6 +364,190 @@
     ]
   },
   {
+    "slug": "german",
+    "display_name": "German",
+    "folder": "German",
+    "description": "This context provides comprehensive information on the German program, including degree requirements for the B.A., Minor, and Paired Major with International Studies. It covers course listings, prerequisites, and faculty contact details. Additionally, it outlines opportunities for study abroad, research grants, and professional development for current and prospective students.",
+    "keywords": [
+      "how many courses do I need for a German major",
+      "what are the requirements for a German minor",
+      "what is the paired major in International Studies and German",
+      "when is German I offered",
+      "what are the prerequisites for 300 level German courses",
+      "who is the faculty contact for the German program",
+      "how do I apply for a Fulbright or DAAD scholarship",
+      "what is the German capstone seminar",
+      "are there German courses taught in English",
+      "how can I study abroad in Germany",
+      "what careers can I pursue with a German major",
+      "is there a German Club on campus",
+      "what research opportunities are available for German students",
+      "what is the Perry Rhodan collection",
+      "which German courses satisfy the social justice requirement"
+    ]
+  },
+  {
+    "slug": "greek",
+    "display_name": "Greek",
+    "folder": "Greek",
+    "description": "This folder contains the degree requirements for the Greek major and minor, as well as parallel information for the Latin and Classics majors. It details course counts, capstone requirements, and interdisciplinary options for students studying classical languages. It also includes general university graduation and curriculum policies.",
+    "keywords": [
+      "how many courses do I need to major in Greek",
+      "what are the Greek major requirements",
+      "what is the Greek minor",
+      "how many upper level Greek courses do I need",
+      "what is the Greek capstone",
+      "can I minor in Greek",
+      "what is the difference between the Greek and Classics majors",
+      "how many courses is the Classics major",
+      "do I need Latin for the Classics major",
+      "what is the College Year in Athens",
+      "can I get credit for Greek I already know",
+      "what are the Latin major requirements",
+      "what is Greek 13-954",
+      "how many credits do I need to graduate",
+      "what is the major GPA requirement"
+    ]
+  },
+  {
+    "slug": "history",
+    "display_name": "History",
+    "folder": "History",
+    "description": "This context provides the academic requirements and course sequences for the Bachelor of Arts in History and the History minor. It includes details on geographic breadth, the mandatory historiography and capstone courses, and general university graduation and Paideia curriculum policies.",
+    "keywords": [
+      "What are the requirements for a history major?",
+      "How many courses do I need for a history minor?",
+      "What is the history capstone research seminar?",
+      "When should I take historiography?",
+      "Which courses satisfy the world history requirement?",
+      "What is the geographic breadth requirement for history?",
+      "Do I need to take a pre-modern history course?",
+      "What are the prerequisites for the history capstone?",
+      "How many total credits do I need to graduate?",
+      "What are the SU residency requirements?",
+      "Do history courses count toward Paideia?",
+      "What is the recommended sequence for history classes?",
+      "What GPA do I need for a history degree?",
+      "How many upper-level electives are required for history?",
+      "What are the universal graduation requirements at SU?"
+    ]
+  },
+  {
+    "slug": "independent_major",
+    "display_name": "Independent Major",
+    "folder": "Independent Major",
+    "description": "This context provides guidelines for designing and completing an Independent Major (Area of Concentration) for the B.A. degree, including the 56-credit block structure and the three-step approval process. It also outlines universal SU graduation requirements and the Paideia curriculum framework.",
+    "keywords": [
+      "how do I start an independent major?",
+      "how many credits are required for an independent major?",
+      "what is the approval process for a custom major?",
+      "do I need a minor if I have an independent major?",
+      "can I get a BS in an independent major?",
+      "what are the block 1 and block 2 requirements?",
+      "how do I complete the independent major capstone?",
+      "how many total credits do I need to graduate?",
+      "what are the Paideia curriculum requirements?",
+      "can I transfer credit for the Power and Justice course?",
+      "what is the minimum GPA to graduate?",
+      "how many residency credits are required?",
+      "what counts as outside the major for exploration and breadth?",
+      "how do I apply for my diploma?",
+      "what is the language proficiency requirement?"
+    ]
+  },
+  {
+    "slug": "international_studies",
+    "display_name": "International Studies",
+    "folder": "International Studies",
+    "description": "This folder contains detailed degree requirements for the International Studies major and minor, including language proficiency and track selection. It outlines the mandatory study abroad requirements for majors, capstone course details, and the program's relationship to the Paideia Framework and university graduation standards.",
+    "keywords": [
+      "How many courses do I need for an international studies major?",
+      "Is study abroad required for the international studies major?",
+      "What are the language requirements for international studies?",
+      "Can I use ASL for my international studies language requirement?",
+      "What are the different tracks for international studies?",
+      "How do I get a non-approved study abroad program approved?",
+      "What is the capstone course for international studies?",
+      "How many courses are required for an international studies minor?",
+      "Does the international studies minor count toward Paideia Distinction?",
+      "What are the GPA requirements for the international studies major?",
+      "How many transfer credits count toward the international studies major?",
+      "When is the international studies capstone offered?",
+      "What introductory courses can I take for international studies?",
+      "What is the difference between the international studies major and minor?",
+      "How many credits do I need to graduate from SU?"
+    ]
+  },
+  {
+    "slug": "kinesiology",
+    "display_name": "Kinesiology",
+    "folder": "Kinesiology",
+    "description": "This folder provides comprehensive requirements for the Bachelor of Arts and Bachelor of Science degrees in Kinesiology, as well as minors in Kinesiology and Applied Movement and Sport Studies. It details the specific course sequences, prerequisite chains, and the scientific supporting courses required for the B.S. track. Additionally, it covers general university graduation and Paideia curriculum requirements.",
+    "keywords": [
+      "What is the difference between the BA and BS in Kinesiology?",
+      "What are the requirements for the Kinesiology major?",
+      "Which science courses do I need for the Kinesiology BS?",
+      "What is the capstone requirement for Kinesiology?",
+      "How do I get a minor in Kinesiology?",
+      "What courses are in the Applied Movement and Sport Studies minor?",
+      "What are the prerequisites for Kinesiology courses?",
+      "Do I need calculus for a Kinesiology degree?",
+      "How many credits do I need to graduate from SU?",
+      "What is the residency requirement for the Kinesiology major?",
+      "Which courses count towards the Paideia requirements?",
+      "What is the minimum GPA for the Kinesiology major?",
+      "Do I need to take anatomy and physiology for the BS?",
+      "How many electives do I need for the Kinesiology minor?",
+      "What are the general graduation requirements?"
+    ]
+  },
+  {
+    "slug": "latin",
+    "display_name": "Latin",
+    "folder": "Latin",
+    "description": "This folder contains the degree requirements and academic paths for the Bachelor of Arts in Latin and the Minor in Latin. It includes details on required upper-level coursework, the Latin capstone, and how Latin studies integrate with the Classics major and university-wide language requirements.",
+    "keywords": [
+      "How many courses do I need for a Latin major?",
+      "What is the capstone course for the Latin BA?",
+      "How many classes are required for a Latin minor?",
+      "Can I get a teacher certification in Latin?",
+      "How many upper-level courses do I need for a Latin minor?",
+      "Does the Latin major satisfy the language requirement?",
+      "What is the difference between a Latin major and a Classics major?",
+      "When should I start the Latin language sequence?",
+      "Do I need a capstone for a Latin minor?",
+      "How many Latin courses are required for a Classics degree?",
+      "What GPA do I need to graduate with a Latin major?",
+      "Are lower-level Latin courses counted toward the major?",
+      "What are the residency requirements for the Latin minor?",
+      "Which course is the Latin capstone?",
+      "How many credits do I need to graduate from SU?"
+    ]
+  },
+  {
+    "slug": "latin_&_border_studies",
+    "display_name": "Latin & Border Studies",
+    "folder": "Latin & Border Studies",
+    "description": "This context provides detailed requirements for the Latin American and Border Studies (LABS) major, minor, and paired major with Spanish. It covers course distribution, capstone options, and the mandatory Spanish exit exam. General university graduation policies and Paideia curriculum requirements are also included.",
+    "keywords": [
+      "What are the requirements for the LABS major?",
+      "How many courses do I need for a Latin American and Border Studies minor?",
+      "What is the paired major in LABS and Spanish?",
+      "Do I need to take a Spanish exit exam?",
+      "What are the capstone requirements for the LABS major?",
+      "Which introductory course should I take for the LABS minor?",
+      "What is the difference between the LABS major and the paired major?",
+      "Can I use LABS as a Paideia minor?",
+      "What are the Writing Attentive requirements for LABS?",
+      "Which courses count toward the LABS area requirements?",
+      "How many credits do I need to graduate from SU?",
+      "What is the minimum GPA for the LABS major?",
+      "Do I have to study abroad for the LABS major?",
+      "What are the Paideia curriculum requirements?",
+      "How do I apply for graduation?"
+    ]
+  },
+  {
     "slug": "math",
     "display_name": "Math",
     "folder": "Math",
@@ -242,6 +564,29 @@
       "proofs",
       "modeling",
       "number theory"
+    ]
+  },
+  {
+    "slug": "music",
+    "display_name": "Music",
+    "folder": "Music",
+    "description": "This context provides detailed degree requirements for the Bachelor of Arts and Bachelor of Music degrees, including specializations in performance, education, literature, and composition. It covers universal department mandates such as auditions and keyboard proficiency, as well as specific course tracks and capstone requirements for majors and minors.",
+    "keywords": [
+      "How many credits do I need to graduate?",
+      "What are the music major audition requirements?",
+      "Do I have to pass a keyboard proficiency exam?",
+      "What is the sophomore barrier exam?",
+      "How many recital attendances are required?",
+      "What is the difference between a BA and a BM in music?",
+      "What courses do I need for a music minor?",
+      "Which foreign languages are required for vocal performance?",
+      "What are the requirements for music education certification?",
+      "When does student teaching happen for music education?",
+      "What is the capstone for a music performance degree?",
+      "How many credits are required for the music composition major?",
+      "Do I have to take piano if I am not a pianist?",
+      "What are the residency credit requirements for graduation?",
+      "Which period literature courses are required for the BM in Literature?"
     ]
   },
   {
@@ -443,6 +788,29 @@
       "what is the theatre production practicum",
       "are tickets free for students",
       "what is the theatre curriculum"
+    ]
+  },
+  {
+    "slug": "transfer_student_information",
+    "display_name": "Transfer Student Information",
+    "folder": "Transfer Student Information",
+    "description": "This context provides comprehensive guidelines on graduation requirements and transfer credit policies at SU. It details minimum GPA and credit thresholds, residency rules, and specific criteria for transferring credits from AP, IB, and other external institutions.",
+    "keywords": [
+      "how many credits do I need to graduate",
+      "what is the minimum GPA to graduate",
+      "how many credits must I take at SU",
+      "will my transfer credits count",
+      "what is the minimum grade for transfer credits",
+      "how do I get AP credit",
+      "how do I get IB credit",
+      "do you accept CAPE scores",
+      "can I transfer credits from a community college",
+      "what happens to upper-level credits from a 2-year school",
+      "can I transfer credits in my last 32 hours",
+      "do you accept CLEP exams",
+      "when are the degree conferral dates",
+      "how much of my major must be completed at SU",
+      "do you accept Verto or OnRamps credits"
     ]
   }
 ]

@@ -1,0 +1,124 @@
+{
+  "description": "Root object",
+  "type": "object",
+  "properties": {
+    "courses": {
+      "description": "A list of academic courses taken by the student, including details for each course.",
+      "x-alternativeNames": [
+        "Courses",
+        "Class List",
+        "Academic Records"
+      ],
+      "type": "array",
+      "items": {
+        "description": "Item in courses",
+        "type": "object",
+        "properties": {
+          "name": {
+            "description": "The official name or title of the academic course.",
+            "x-alternativeNames": [
+              "Course Name",
+              "Class Title",
+              "Subject"
+            ],
+            "type": "string"
+          },
+          "code": {
+            "description": "The unique identifier or code for the course, often including department and number (e.g., CSC54-184).",
+            "x-alternativeNames": [
+              "Course Code",
+              "Subject Code",
+              "Class ID"
+            ],
+            "type": "string"
+          },
+          "credits": {
+            "description": "The number of academic credits or units awarded for successfully completing the course.",
+            "x-alternativeNames": [
+              "Course Credits",
+              "Credit Hours",
+              "Units"
+            ],
+            "type": "number"
+          },
+          "grade": {
+            "description": "The final grade received by the student for the course.",
+            "x-alternativeNames": [
+              "Course Grade",
+              "Final Grade",
+              "Mark"
+            ],
+            "type": "string"
+          },
+          "semester": {
+            "description": "The academic semester or term in which the course was taken.",
+            "x-alternativeNames": [
+              "Course Semester",
+              "Term Taken",
+              "Academic Period"
+            ],
+            "type": "string"
+          }
+        },
+        "required": [
+          "name",
+          "code",
+          "credits",
+          "grade",
+          "semester"
+        ]
+      }
+    },
+    "transfer_credits": {
+      "description": "A list of academic credits transferred from another institution.",
+      "x-alternativeNames": [
+        "Transfer Credits",
+        "External Credits",
+        "Prior Learning"
+      ],
+      "type": "array",
+      "items": {
+        "description": "Item in transfer_credits",
+        "type": "object",
+        "properties": {
+          "semester": {
+            "description": "The academic semester or term when the transfer credit was awarded or recognized.",
+            "x-alternativeNames": [
+              "Transfer Semester",
+              "Term of Transfer",
+              "Enrollment Period"
+            ],
+            "type": "string"
+          },
+          "institution": {
+            "description": "The name of the educational institution from which the credits were transferred.",
+            "x-alternativeNames": [
+              "Transfer Institution",
+              "Originating School",
+              "Previous College"
+            ],
+            "type": "string"
+          },
+          "credits": {
+            "description": "The number of credits awarded for a course transferred from another institution.",
+            "x-alternativeNames": [
+              "Transfer Credits",
+              "Credits Transferred",
+              "Number of Transfer Credits"
+            ],
+            "type": "number"
+          }
+        },
+        "required": [
+          "semester",
+          "institution",
+          "credits"
+        ]
+      }
+    }
+  },
+  "required": [
+    "courses",
+    "transfer_credits"
+  ]
+}
