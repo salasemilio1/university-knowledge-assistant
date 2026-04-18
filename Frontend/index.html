@@ -1675,8 +1675,8 @@
     const profilePdfInput = document.getElementById("profile_pdf");
     const profilePdfStatus = document.getElementById("profile-pdf-status");
     const profileSaveButton = profileForm?.querySelector('button[type="submit"]');
-    const REQUIRED_PDF_WIDTH_IN = 11.33;
-    const REQUIRED_PDF_HEIGHT_IN = 14.67;
+    const REQUIRED_PDF_WIDTH_IN = 8.5;
+    const REQUIRED_PDF_HEIGHT_IN = 11;
     const PDF_POINTS_PER_INCH = 72;
     const PDF_POINT_TOLERANCE = 2;
     const pdfValidationState = {
@@ -1823,7 +1823,7 @@
 
         if (profilePdfInput?.files?.length && pdfValidationState.status !== "valid") {
             evt.preventDefault();
-            setPdfStatus("error", "Upload a valid portrait PDF sized 11.33 x 14.67 inches before saving.");
+            setPdfStatus("error", "Upload a valid portrait PDF sized 8.5 x 11 inches before saving.");
         }
     });
 
