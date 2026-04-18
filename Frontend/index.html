@@ -769,6 +769,42 @@
     margin-right: 8px;
 }
 
+.profile-field input[type="file"] {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.profile-field small {
+    display: block;
+    margin-top: 8px;
+    color: var(--muted);
+    line-height: 1.45;
+    text-transform: none;
+    letter-spacing: 0;
+    font-size: 0.84rem;
+}
+
+.profile-file-status {
+    margin-top: 10px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 10px 12px;
+    background: var(--surface-raised);
+    color: var(--muted);
+    font-size: 0.9rem;
+    line-height: 1.45;
+}
+
+.profile-file-status.is-valid {
+    border-color: rgba(74, 222, 128, 0.35);
+    color: #86efac;
+}
+
+.profile-file-status.is-error {
+    border-color: rgba(248, 113, 113, 0.35);
+    color: var(--error);
+}
+
     .profile-field label:has(input[type="checkbox"]) {
         text-transform: none;
         letter-spacing: 0;
@@ -1015,6 +1051,8 @@
         hx-post="/users"
         hx-target="#profile-save-status"
         hx-swap="innerHTML"
+        hx-encoding="multipart/form-data"
+        enctype="multipart/form-data"
     >
 
         <div class="profile-card">
@@ -1297,6 +1335,23 @@
 
                 <div id="search-results-list" style="max-height: 300px; overflow-y: auto; display: flex; flex-direction: column;">
                     <!-- Search results here -->
+                </div>
+            </details>
+        </div>
+
+        <div class="profile-card">
+            <details open>
+                <summary>Document Upload</summary>
+
+                <div class="profile-field">
+                    <label for="profile_pdf"> (OPTIONAL) Upload an unofficial transcript. </label>
+                    <input id="profile_pdf" name="profile_pdf" type="file" accept=".pdf,application/pdf">
+                    <small>
+                        This option can be used to autofill your course history and academic info. <br><br><b>Note</b>: Personally identifiable information located at the top of the PDF will be not be used. You may upload an edited PDF with only the relevant academic information if you prefer. 
+                    </small>
+                    <div id="profile-pdf-status" class="profile-file-status" aria-live="polite">
+                        No PDF selected.
+                    </div>
                 </div>
             </details>
         </div>
@@ -1615,6 +1670,162 @@
     wireCustomField("gpa", "gpa_custom");
     wireCustomField("grad_year", "grad_year_custom");
     wireDependentSelect("second_major", "second_major_degree_type");
+
+    const profileForm = document.getElementById("profile-form");
+    const profilePdfInput = document.getElementById("profile_pdf");
+    const profilePdfStatus = document.getElementById("profile-pdf-status");
+    const profileSaveButton = profileForm?.querySelector('button[type="submit"]');
+    const REQUIRED_PDF_WIDTH_IN = 11.33;
+    const REQUIRED_PDF_HEIGHT_IN = 14.67;
+    const PDF_POINTS_PER_INCH = 72;
+    const PDF_POINT_TOLERANCE = 2;
+    const pdfValidationState = {
+        status: "empty",
+        message: "No PDF selected."
+    };
+
+    function setPdfStatus(type, message) {
+        if (!profilePdfStatus) return;
+
+        profilePdfStatus.textContent = message;
+        profilePdfStatus.classList.remove("is-valid", "is-error");
+
+        if (type === "valid") {
+            profilePdfStatus.classList.add("is-valid");
+        } else if (type === "error") {
+            profilePdfStatus.classList.add("is-error");
+        }
+    }
+
+    function setPdfValidationPending(isPending) {
+        if (profileSaveButton) {
+            profileSaveButton.disabled = isPending;
+            profileSaveButton.style.opacity = isPending ? "0.65" : "";
+            profileSaveButton.style.pointerEvents = isPending ? "none" : "";
+        }
+    }
+
+    function extractPageBoxes(text) {
+        const mediaBoxMatches = Array.from(text.matchAll(/\/MediaBox\s*\[\s*([-\d.]+)\s+([-\d.]+)\s+([-\d.]+)\s+([-\d.]+)\s*\]/g));
+        const cropBoxMatches = Array.from(text.matchAll(/\/CropBox\s*\[\s*([-\d.]+)\s+([-\d.]+)\s+([-\d.]+)\s+([-\d.]+)\s*\]/g));
+        const matches = mediaBoxMatches.length ? mediaBoxMatches : cropBoxMatches;
+
+        return matches.map(function (match) {
+            return {
+                left: parseFloat(match[1]),
+                bottom: parseFloat(match[2]),
+                right: parseFloat(match[3]),
+                top: parseFloat(match[4])
+            };
+        });
+    }
+
+    async function validateProfilePdf(file) {
+        if (!file) {
+            pdfValidationState.status = "empty";
+            pdfValidationState.message = "No PDF selected.";
+            setPdfValidationPending(false);
+            setPdfStatus("idle", pdfValidationState.message);
+            return true;
+        }
+
+        if (file.type && file.type !== "application/pdf") {
+            pdfValidationState.status = "invalid";
+            pdfValidationState.message = "Only PDF files are allowed.";
+            setPdfValidationPending(false);
+            setPdfStatus("error", pdfValidationState.message);
+            return false;
+        }
+
+        pdfValidationState.status = "checking";
+        pdfValidationState.message = "Checking PDF page dimensions...";
+        setPdfValidationPending(true);
+        setPdfStatus("idle", pdfValidationState.message);
+
+        try {
+            const buffer = await file.arrayBuffer();
+            const text = new TextDecoder("latin1").decode(new Uint8Array(buffer));
+            const pageBoxes = extractPageBoxes(text);
+
+            if (!pageBoxes.length) {
+                pdfValidationState.status = "invalid";
+                pdfValidationState.message = "Could not read the PDF page size. Please upload a standard portrait PDF.";
+                setPdfValidationPending(false);
+                setPdfStatus("error", pdfValidationState.message);
+                return false;
+            }
+
+            const targetWidthPoints = REQUIRED_PDF_WIDTH_IN * PDF_POINTS_PER_INCH;
+            const targetHeightPoints = REQUIRED_PDF_HEIGHT_IN * PDF_POINTS_PER_INCH;
+            const invalidPage = pageBoxes.find(function (pageBox) {
+                const widthPoints = Math.abs(pageBox.right - pageBox.left);
+                const heightPoints = Math.abs(pageBox.top - pageBox.bottom);
+                const isPortrait = heightPoints > widthPoints;
+                const matchesRequiredSize =
+                    Math.abs(widthPoints - targetWidthPoints) <= PDF_POINT_TOLERANCE &&
+                    Math.abs(heightPoints - targetHeightPoints) <= PDF_POINT_TOLERANCE;
+
+                return !isPortrait || !matchesRequiredSize;
+            });
+
+            if (invalidPage) {
+                const widthPoints = Math.abs(invalidPage.right - invalidPage.left);
+                const heightPoints = Math.abs(invalidPage.top - invalidPage.bottom);
+                const widthInches = (widthPoints / PDF_POINTS_PER_INCH).toFixed(2);
+                const heightInches = (heightPoints / PDF_POINTS_PER_INCH).toFixed(2);
+
+                pdfValidationState.status = "invalid";
+                pdfValidationState.message =
+                    `Invalid file. PDF must ${REQUIRED_PDF_WIDTH_IN.toFixed(2)} x ${REQUIRED_PDF_HEIGHT_IN.toFixed(2)} inches. ` +
+                    `Detected ${widthInches} x ${heightInches} inches on at least one page.`;
+                setPdfValidationPending(false);
+                setPdfStatus("error", pdfValidationState.message);
+                return false;
+            }
+
+            const firstPageBox = pageBoxes[0];
+            const firstPageWidth = Math.abs(firstPageBox.right - firstPageBox.left);
+            const firstPageHeight = Math.abs(firstPageBox.top - firstPageBox.bottom);
+            pdfValidationState.status = "valid";
+            pdfValidationState.message = 'Valid PDF uploaded.';
+                //`${file.name} is valid for upload (${(firstPageWidth / PDF_POINTS_PER_INCH).toFixed(2)} x `// +
+                //`${(firstPageHeight / PDF_POINTS_PER_INCH).toFixed(2)} in, portrait).`;
+            setPdfValidationPending(false);
+            setPdfStatus("valid", pdfValidationState.message);
+            return true;
+        } catch (err) {
+            console.error("Failed to validate PDF:", err);
+            pdfValidationState.status = "invalid";
+            pdfValidationState.message = "Could not validate this PDF. Please upload a readable PDF with the required dimensions.";
+            setPdfValidationPending(false);
+            setPdfStatus("error", pdfValidationState.message);
+            return false;
+        }
+    }
+
+    profilePdfInput?.addEventListener("change", async function () {
+        const file = profilePdfInput.files?.[0];
+        const isValid = await validateProfilePdf(file);
+
+        if (!isValid) {
+            profilePdfInput.value = "";
+        }
+    });
+
+    document.body.addEventListener("htmx:beforeRequest", function (evt) {
+        if (evt.detail.elt?.id !== "profile-form") return;
+
+        if (pdfValidationState.status === "checking") {
+            evt.preventDefault();
+            setPdfStatus("error", "Please wait until the PDF validation finishes before saving.");
+            return;
+        }
+
+        if (profilePdfInput?.files?.length && pdfValidationState.status !== "valid") {
+            evt.preventDefault();
+            setPdfStatus("error", "Upload a valid portrait PDF sized 11.33 x 14.67 inches before saving.");
+        }
+    });
 
     let allCourses = [];
     let selectedCourses = new Set();
