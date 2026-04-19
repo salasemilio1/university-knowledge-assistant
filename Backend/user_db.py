@@ -56,6 +56,11 @@ class User(Base):
         back_populates="user",
         cascade="all, delete-orphan"
     )
+    transfer_credits = relationship(
+        "TransferCredit",
+        back_populates="user",
+        cascade="all, delete-orphan"
+    )
 
 class Course(Base):
     __tablename__ = "courses"
@@ -74,6 +79,24 @@ class Course(Base):
 
     # Relationship back to user
     user = relationship("User", back_populates="courses")
+
+class TransferCredit(Base):
+    __tablename__ = "transfer_credits"
+
+    # Auto-incrementing primary key
+    id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)
+
+    # Foreign key to users table (assuming users.id is UUID stored as CHAR(36))
+    google_id: Mapped[str] = mapped_column(ForeignKey("users.google_id"), nullable=False, index=True)
+
+    course_name: Mapped[str] = mapped_column(String(255), nullable=False)
+    course_code: Mapped[str] = mapped_column(String(50))
+    semester: Mapped[Optional[str]] = mapped_column(String(50))
+    institution: Mapped[Optional[str]] = mapped_column(String(50))
+    credits: Mapped[Optional[str]] = mapped_column(String(5))
+
+    # Relationship back to user
+    user = relationship("User", back_populates="transfer_credits")
 
 
 
