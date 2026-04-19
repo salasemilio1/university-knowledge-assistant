@@ -3,6 +3,7 @@ Requires dependency: pip install pymupdf
 """
 
 import fitz  # PyMuPDF
+import os 
 
 
 def crop(input_path: str, output_path: str, page: int, rect: tuple) -> None:
@@ -63,11 +64,10 @@ if __name__ == "__main__":
 
     # --- Redact ---------------------------------------------------------------
     redact (
-        input_path  = "ignore.pdf",
+        input_path  = "straight_from.pdf",
         output_path = "redacted.pdf",
         regions     = [
-            {"page": 0, "rect": (100, 140, 400, 170)},   # name
-            {"page": 0, "rect": (100, 200, 400, 230)},   # other info
+            {"page": 0, "rect": (10, 10, 600, 100)}
         ],
     )
 
