@@ -1906,9 +1906,10 @@
 
             warning.innerHTML = `
                 <div class="response-answer">
-                    ⚠️ <strong>Complete your profile</strong><br>
-                    Please fill out your academic information so I can give you personalized responses.
-                </div>
+                    ⚠️ <strong>Welcome to the University Knowledge Assistant. Please complete your academic profile to receive personalized responses.</strong><br><br><br>
+                    <em><strong>Data Usage & Privacy:</strong> <br><br>Your information, including chat inputs and profile data (form inputs and/or transcript uploads) will be sent to Google Gemini to generate responses. <br><br> Your information is stored and may be viewed by the development team for system functionality and improvement. Conversation history is logged. <br><br> Information retrieved from your Google Account include Google Account ID, email address, first name, and last name.
+                    </em>
+                    </div>
             `;
 
             responseDiv.prepend(warning);
