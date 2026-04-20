@@ -57,6 +57,7 @@ log = logging.getLogger(__name__)
 
 # The registry file consumed by pipeline/router.py
 REGISTRY_FILENAME = "context_registry.json"
+DEPARTMENTS_FILENAME = "departments.json"
 
 # Valid context folders must contain this subdirectory
 EXTRACTED_DOCS_SUBDIR = Path("docs") / "extracted"
@@ -111,11 +112,13 @@ INSTRUCTIONS:
 - description: 2-3 sentences summarizing what this context covers.
 - keywords: up to {MAX_KEYWORDS} strings phrased like student questions
   (e.g. "how many credits to graduate"), not catalog entries.
+- degree_types: A JSON array of strings listing the degree types this department offers based on the documents, such as ["B.S.", "B.A.", "Minor"], or ["Minor"] if it only offers a minor.
 
 Return this exact shape:
 {{
   "description": "...",
-  "keywords": ["...", "..."]
+  "keywords": ["...", "..."],
+  "degree_types": ["...", "..."]
 }}
 """
 
@@ -285,8 +288,13 @@ def generate_metadata(slug: str, content: str) -> dict | None:
         data = json.loads(clean)
         if not isinstance(data, dict):
             raise ValueError(f"Expected JSON object, got {type(data)}")
-        if "description" not in data or "keywords" not in data:
+        if "description" not in data or "keywords" not in data or "degree_types" not in data:
             raise ValueError(f"Missing required keys in: {list(data.keys())}")
+        
+        # Enforce degree_types is a list
+        if not isinstance(data.get("degree_types"), list):
+            data["degree_types"] = [data.get("degree_types")]
+        
         # Enforce the keyword cap — the LLM occasionally ignores it
         data["keywords"] = data["keywords"][:MAX_KEYWORDS]
         return data
@@ -324,6 +332,19 @@ def load_registry(registry_path: Path) -> dict[str, dict]:
         return raw
     except (json.JSONDecodeError, KeyError) as exc:
         log.error("Failed to parse existing registry: %s", exc)
+        raise SystemExit(1)
+
+def load_departments(departments_path: Path) -> dict[str, dict]:
+    if not departments_path.exists():
+        return {}
+
+    try:
+        raw = json.loads(departments_path.read_text(encoding="utf-8"))
+        if isinstance(raw, list):
+            return {entry["department"]: entry for entry in raw}
+        return raw
+    except (json.JSONDecodeError, KeyError) as exc:
+        log.error("Failed to parse existing departments: %s", exc)
         raise SystemExit(1)
 
 
@@ -375,6 +396,10 @@ def sync(
     """
     # ── Step 1: Load what already exists ──────────────────────────────────────
     existing = load_registry(registry_path)
+    
+    departments_path = registry_path.parent / DEPARTMENTS_FILENAME
+    existing_departments = load_departments(departments_path)
+    
     on_disk = discover_contexts(kb_path)
 
     # Convert folder names on disk to slug → folder_name mapping
@@ -400,6 +425,7 @@ def sync(
     # ── Step 3: Build the merged entries list ─────────────────────────────────
     # Start from the existing registry, then add/update from disk discoveries.
     merged: dict[str, dict] = dict(existing)
+    merged_departments: dict[str, dict] = dict(existing_departments)
 
     for slug, folder_name in disk_slug_to_folder.items():
         # If --context was specified, skip everything else
@@ -415,6 +441,16 @@ def sync(
             merged[slug].pop("missing_from_disk", None)
 
         if not needs_regen:
+            # Handle migration if degree_types stuck in merged dictionary
+            if "degree_types" in merged[slug]:
+                dt = merged[slug].pop("degree_types", [])
+                if isinstance(dt, str):
+                    dt = [d.strip() for d in dt.split(",")]
+                merged_departments[folder_name] = {
+                    "department": folder_name,
+                    "degree_types": dt
+                }
+                
             log.info("[%s] Already current — skipping (use --force to regenerate)", slug)
             summary["skipped"] += 1
             continue
@@ -459,20 +495,31 @@ def sync(
             # This preserves any hand-edited 'display_name', 'folder', etc.
             merged[slug]["description"] = metadata["description"]
             merged[slug]["keywords"] = metadata["keywords"]
+            merged[slug].pop("degree_types", None)
             log.info("[%s] Updated description and keywords", slug)
             summary["updated"] += 1
+            
+        merged_departments[folder_name] = {
+            "department": folder_name,
+            "degree_types": metadata["degree_types"]
+        }
 
     # ── Step 4: Write the final registry ─────────────────────────────────────
     # Convert back to the list-of-objects schema that router.py expects.
     # Sorted by slug for deterministic diffs.
     final_list = [merged[slug] for slug in sorted(merged)]
+    final_dept_list = [merged_departments[dept] for dept in sorted(merged_departments)]
 
     if dry_run:
         log.info("--dry-run: the following would be written to %s:", registry_path)
         print(json.dumps(final_list, indent=2, ensure_ascii=False))
+        log.info("--dry-run: the following would be written to %s:", departments_path)
+        print(json.dumps(final_dept_list, indent=2, ensure_ascii=False))
     else:
         write_registry_atomic(registry_path, final_list)
+        write_registry_atomic(departments_path, final_dept_list)
         log.info("Registry written to %s (%d entries)", registry_path, len(final_list))
+        log.info("Departments written to %s (%d entries)", departments_path, len(final_dept_list))
 
     return summary
 

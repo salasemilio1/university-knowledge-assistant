@@ -7,19 +7,32 @@ only text assembly. This makes prompts easy to read, diff, and iterate on.
 
 
 def router_prompt(question: str, registry_json: str, profile: str | None = None) -> str:
-    """Build the Call 1 prompt: route a question to the right major folder(s).
+    """Build the Call 1 prompt: route a question AND classify its complexity.
+
+    The router does two jobs in a single LLM call:
+      1. Route — decide which department slug(s) are relevant.
+      2. Classify — decide whether the question is simple or complex.
+
+    Complexity drives how much context the answerer receives (Call 2):
+      - simple  → skills_index.md only (fast; covers most advising questions)
+      - complex → skills_index.md + all .txt files (thorough; for broad or
+                  multi-faceted questions)
+
+    When in doubt, return "complex" — it is safer to over-fetch than to
+    give an incomplete answer.
 
     Args:
-        question:       The student's question.
-        registry_json:  The raw JSON string from majors_registry.json.
+        question:      The student's question.
+        registry_json: Raw JSON string from context_registry.json.
+        profile:       Optional formatted student profile string.
 
     Returns:
-        A prompt string instructing the LLM to return a JSON array of major slugs.
+        A prompt that instructs the LLM to return exactly this JSON shape:
+        {"departments": ["slug_a"], "complexity": "simple"}
     """
-
-    profile_block = ""      
+    profile_block = ""
     if profile:
-      profile_block = f"""\
+        profile_block = f"""\
 === STUDENT PROFILE ===
 {profile}
 === END STUDENT PROFILE ===
@@ -28,83 +41,38 @@ Do NOT assume the student is restricted to these departments.
 """
 
     return f"""\
-You are a university advising router. Your ONLY job is to decide which
-academic department(s) are relevant to a student's question.
+You are a university advising router. Given a student's question, you must:
 
-Below is a JSON registry of available departments. Each key is a "slug"
-that identifies the department.
+  1. ROUTE — Identify which department(s) from the registry are relevant.
+  2. CLASSIFY — Decide if the question is simple or complex.
 
 === DEPARTMENT REGISTRY ===
 {registry_json}
 === END REGISTRY ===
 
 {profile_block}
-
 STUDENT QUESTION:
 {question}
 
-INSTRUCTIONS:
-- Return a JSON array of slug strings for the department(s) that are
-  relevant to this question.
-- If unsure, include all departments rather than omitting a potentially
-  relevant one.
-- Return ONLY the JSON array, no other text. Example: ["computer_science"]
-"""
+=== COMPLEXITY GUIDE ===
+simple  — A focused question answerable from a department's summary index
+          (e.g. "does anthropology have a BS?", "who is the CS department chair?",
+          "what courses are required for the biology major?").
 
+complex — A broad, multi-part, or cross-cutting question that likely needs the
+          full document set to answer accurately
+          (e.g. "what are all my graduation options given my completed courses?",
+          "how do I plan a 4-year schedule for a CS/Math double major?").
 
-def retriever_prompt(question: str, skills_index_text: str, profile: str | None = None) -> str:
-    """Build the Call 2 prompt: select which documents to load for a given major.
-
-    Args:
-        question:          The student's question.
-        skills_index_text: The full contents of skills_index.md for one major.
-
-    Returns:
-        A prompt string instructing the LLM to return a JSON array of filenames.
-    """
-
-    profile_block = ""      
-    if profile:
-      profile_block = f"""\
-=== STUDENT PROFILE ===
-{profile}
-=== END STUDENT PROFILE ===
-Use this to prioritize which documents are most relevant.
-For example:
-- Prefer requirement docs for the student's major(s)
-- Consider completed courses when selecting documents
-"""
-
-    return f"""\
-You are a document selector for a university advising system. Your job is
-to decide which knowledge base documents are needed to answer a student's
-question.
-
-Below is a skills index for one academic department. Pay special attention to:
-- SECTION 5 (Topic Index): maps topics to document filenames
-- SECTION 6 (Query Pattern Map): maps example questions to documents
-- SECTION 9 (Routing Decision Guide): rules for when to retrieve multiple docs
-
-Use these sections to make your selection.
-
-=== SKILLS INDEX ===
-{skills_index_text}
-=== END SKILLS INDEX ===
-
-{profile_block}
-
-STUDENT QUESTION:
-{question}
+When uncertain, choose complex.
+=== END GUIDE ===
 
 INSTRUCTIONS:
-- Return a JSON array of filenames (strings) that should be loaded to
-  answer this question. Use the exact filenames from the skills index.
-- Prefer retrieving fewer documents when the question is specific.
-- If the question is broad, retrieve all relevant documents.
-- If a Cross-Reference Flag or Known Gap applies, still return whatever
-  documents are relevant — the answerer will handle the escalation note.
-- Return ONLY the JSON array, no other text.
-  Example: ["Courses.txt", "majoring_and_minoring.txt"]
+- Return ONLY a JSON object — no other text, no markdown.
+- "departments" must be a JSON array of slug strings from the registry.
+- "complexity" must be exactly "simple" or "complex".
+
+Example: {{"departments": ["computer_science"], "complexity": "simple"}}
 """
 
 

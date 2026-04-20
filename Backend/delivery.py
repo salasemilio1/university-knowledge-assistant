@@ -19,17 +19,16 @@ import os
 from dotenv import load_dotenv
 
 from fastapi import FastAPI, Form, Request, Response, HTTPException
-from fastapi.responses import FileResponse, HTMLResponse, RedirectResponse
+from fastapi.responses import FileResponse, HTMLResponse, RedirectResponse, StreamingResponse
 from fastapi.staticfiles import StaticFiles
-
+from starlette.concurrency import run_in_threadpool
 from starlette.middleware.sessions import SessionMiddleware
 
 from google.oauth2 import id_token
 from google.auth.transport import requests
 
 from pipeline.router import route
-from pipeline.retriever import retrieve
-from pipeline.answerer import answer
+from pipeline.answerer import answer, stream_answer
 
 from Backend.user_db import create_user, update_user, get_user_by_id
 
@@ -50,7 +49,7 @@ LOG_DIR = _PROJECT_ROOT / "logs"
 LOG_FILE = LOG_DIR / "queries.jsonl"
 
 logging.basicConfig(
-    level=logging.WARNING,
+    level=logging.INFO,
     format="%(asctime)s  %(levelname)-8s  %(name)s  %(message)s",
     datefmt="%H:%M:%S",
 )
@@ -66,6 +65,7 @@ app.add_middleware(SessionMiddleware, SECRET_KEY)
 # ── Routes ────────────────────────────────────────────────────────────────────
 
 @app.get("/", response_class=FileResponse)
+@app.get("/chat", response_class=FileResponse)
 def index(request: Request):
     """Serve the main chat page."""
     if(request.session.get("user_id")):
@@ -122,6 +122,18 @@ async def get_courses():
     
     # Convert dict {code: title} to list [{code, title}]
     return [{"code": code, "title": title} for code, title in courses_dict.items()]
+
+@app.get("/api/departments")
+def get_departments():
+    departments_file = _PROJECT_ROOT / "knowledge_base" / "departments.json"
+    if not departments_file.exists():
+        return []
+    
+    with open(departments_file, "r") as f:
+        try:
+            return json.load(f)
+        except json.JSONDecodeError:
+            return []
 
 
 @app.get("/profile")
@@ -256,31 +268,26 @@ async def ask(request: Request, query: str = Form(...)):
     # Get google id so the router can get user profile
     google_id = request.session.get("user_id")
 
-    # Step 1 — Route to the right department(s)
+    # Step 1 — Route to the right department(s) and classify complexity
     try:
-        routed_majors = route(query, KNOWLEDGE_BASE_PATH, google_id)
+        route_result = route(query, KNOWLEDGE_BASE_PATH, google_id)
+        logging.info("Complexity for query '%s': %s", query[:50], route_result.complexity)
     except Exception as exc:
         logging.error("Routing failed: %s", exc)
         return _error_html("Something went wrong while routing your question. Please try again.")
 
-    # Step 2 — Select which documents to load
-    try:
-        doc_list = retrieve(query, routed_majors, KNOWLEDGE_BASE_PATH, google_id)
-    except Exception as exc:
-        logging.error("Retrieval failed: %s", exc)
-        return _error_html("Something went wrong while retrieving documents. Please try again.")
-
-    if not doc_list:
-        return _error_html(
-            "I couldn't find any relevant documents for that question. "
-            "Try rephrasing, or contact your academic advisor directly."
-        )
-
-    # Step 3 — Generate the answer
+    # Step 2 — Generate the answer
     # Note: history is not passed here (stateless for now).
     # To add conversation memory later, store history in a session or pass it from the client.
     try:
-        answer_text = answer(query, doc_list, history=[], google_id=google_id)
+        answer_text = answer(
+            question=query,
+            departments=route_result.departments,
+            complexity=route_result.complexity,
+            base_path=KNOWLEDGE_BASE_PATH,
+            history=[],
+            google_id=google_id
+        )
     except Exception as exc:
         logging.error("Answer generation failed: %s", exc)
         return _error_html("Something went wrong while generating your answer. Please try again.")
@@ -288,13 +295,71 @@ async def ask(request: Request, query: str = Form(...)):
     # Log the query for review
     _log_query(
         question=query,
-        routed_majors=routed_majors,
-        selected_docs=[d["filename"] for d in doc_list],
+        routed_majors=route_result.departments,
+        selected_docs=[f"{route_result.complexity} context"],
         answer_text=answer_text,
         duration_seconds=time.time() - start_time,
     )
 
     return _answer_html(query, answer_text)
+
+
+@app.post("/ask/stream")
+async def ask_stream(request: Request, query: str = Form(...)):
+    """
+    Streaming variant of /ask.
+
+    Steps 1 (route) and 2 (retrieve) run synchronously — identical to /ask.
+    Step 3 (answer) streams tokens to the browser via StreamingResponse so
+    the user sees text as it is generated rather than waiting for completion.
+    The frontend reads the plain-text stream and renders Markdown once done.
+    """
+    query = query.strip()
+    if not query:
+        return Response(content="Please enter a question.", status_code=400)
+
+    google_id = request.session.get("user_id")
+    start_time = time.time()
+
+    try:
+        route_result = route(query, KNOWLEDGE_BASE_PATH, google_id)
+        logging.info("Complexity for query '%s': %s", query[:50], route_result.complexity)
+    except Exception as exc:
+        logging.error("Routing failed: %s", exc)
+        return Response(content="Routing error.", status_code=500)
+
+    async def token_generator():
+        """Drive the blocking stream_answer generator inside a thread pool."""
+        full_chunks: list[str] = []
+        sentinel = object()
+        gen = stream_answer(
+            question=query,
+            departments=route_result.departments,
+            complexity=route_result.complexity,
+            base_path=KNOWLEDGE_BASE_PATH,
+            history=[],
+            google_id=google_id
+        )
+        try:
+            while True:
+                chunk = await run_in_threadpool(next, gen, sentinel)
+                if chunk is sentinel:
+                    break
+                full_chunks.append(chunk)
+                yield chunk
+        except Exception as exc:
+            logging.error("Token streaming failed: %s", exc)
+            yield f"\n\n[ERROR] {exc}"
+        finally:
+            _log_query(
+                question=query,
+                routed_majors=route_result.departments,
+                selected_docs=[f"{route_result.complexity} context"],
+                answer_text="".join(full_chunks),
+                duration_seconds=time.time() - start_time,
+            )
+
+    return StreamingResponse(token_generator(), media_type="text/plain")
 
 
 # ── HTML snippet builders ──────────────────────────────────────────────────────

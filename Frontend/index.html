@@ -48,6 +48,26 @@
             --error: #dc2626;
         }
 
+        .btn-add-major-minor {
+            background: none;
+            border: 1px dashed var(--accent);
+            color: var(--accent);
+            padding: 8px 12px;
+            border-radius: var(--radius);
+            cursor: pointer;
+            font-size: 0.9rem;
+            margin-top: 10px;
+            transition: background 0.2s, color 0.2s;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-weight: 500;
+        }
+
+        .btn-add-major-minor:hover {
+            background: rgba(248, 201, 35, 0.1);
+        }
+
         /* ── Base ───────────────────────────────────────────────────── */
         *,
         *::before,
@@ -960,7 +980,7 @@
                       hx-swap="beforeend"    — append new answers (latest at bottom)
                 -->
                 <div class="input-bar">
-                    <form class="ask-form" hx-post="/ask" hx-target="#response" hx-swap="beforeend">
+                    <form class="ask-form">
 
                         <div class="input-wrapper">
                             <textarea id="query" name="query" placeholder="Ask about courses, requirements, or general university information."
@@ -1063,43 +1083,6 @@
                     <label for="major">Major</label>
                 <select id="major" name="major" required>
                     <option value="">Select a major</option>
-                    <option>Anthropology</option>
-                    <option>Applied Physics</option>
-                    <option>Art Studio</option>
-                    <option>Art History</option>
-                    <option>Biochemistry</option>
-                    <option>Biology</option>
-                    <option>Business</option>
-                    <option>Chemistry</option>
-                    <option>Classics</option>
-                    <option>Communication Studies</option>
-                    <option>Computational Mathematics</option>
-                    <option>Computer Science</option>
-                    <option>Economics</option>
-                    <option>Education</option>
-                    <option>English</option>
-                    <option>Environmental Studies</option>
-                    <option>Feminist Studies</option>
-                    <option>French</option>
-                    <option>German</option>
-                    <option>Greek</option>
-                    <option>History</option>
-                    <option>Independent Major</option>
-                    <option>International Studies</option>
-                    <option>Kinesiology</option>
-                    <option>Latin</option>
-                    <option>Latin American &amp; Border Studies</option>
-                    <option>Mathematics</option>
-                    <option>Music</option>
-                    <option>Philosophy</option>
-                    <option>Physics</option>
-                    <option>Political Science</option>
-                    <option>Pre-Engineering</option>
-                    <option>Psychology</option>
-                    <option>Religion</option>
-                    <option>Sociology</option>
-                    <option>Spanish</option>
-                    <option>Theatre</option>
                 </select>
             </div>
 
@@ -1107,53 +1090,18 @@
                 <label for="major_degree_type">Major Degree Type</label>
                 <select id="major_degree_type" name="major_degree_type" required>
                     <option value="">Select a degree type</option>
-                    <option>Bachelor of Arts (B.A.)</option>
-                    <option>Bachelor of Science (B.S.)</option>
-                    <option>Bachelor of Music</option>
                 </select>
+            </div>
+
+            <div id="academic-actions" style="display: none; gap: 10px; margin: 10px 0 20px 0; flex-wrap: wrap;">
+                <button type="button" id="btn-add-major" class="btn-add-major-minor">+ Add Second Major</button>
+                <button type="button" id="btn-add-minor" class="btn-add-major-minor">+ Add Minor</button>
             </div>
 
             <div class="profile-field">
                 <label for="second_major">Second Major</label>
                 <select id="second_major" name="second_major">
                     <option value="">No second major</option>
-                    <option>Anthropology</option>
-                    <option>Applied Physics</option>
-                    <option>Art Studio</option>
-                    <option>Art History</option>
-                    <option>Biochemistry</option>
-                    <option>Biology</option>
-                    <option>Business</option>
-                    <option>Chemistry</option>
-                    <option>Classics</option>
-                    <option>Communication Studies</option>
-                    <option>Computational Mathematics</option>
-                    <option>Computer Science</option>
-                    <option>Economics</option>
-                    <option>Education</option>
-                    <option>English</option>
-                    <option>Environmental Studies</option>
-                    <option>Feminist Studies</option>
-                    <option>French</option>
-                    <option>German</option>
-                    <option>Greek</option>
-                    <option>History</option>
-                    <option>Independent Major</option>
-                    <option>International Studies</option>
-                    <option>Kinesiology</option>
-                    <option>Latin</option>
-                    <option>Latin American &amp; Border Studies</option>
-                    <option>Mathematics</option>
-                    <option>Music</option>
-                    <option>Philosophy</option>
-                    <option>Physics</option>
-                    <option>Political Science</option>
-                    <option>Pre-Engineering</option>
-                    <option>Psychology</option>
-                    <option>Religion</option>
-                    <option>Sociology</option>
-                    <option>Spanish</option>
-                    <option>Theatre</option>
                 </select>
             </div>
 
@@ -1161,9 +1109,6 @@
                 <label for="second_major_degree_type">Second Major Degree Type</label>
                 <select id="second_major_degree_type" name="second_major_degree_type" required>
                     <option value="">Select a degree type</option>
-                    <option>Bachelor of Arts (B.A.)</option>
-                    <option>Bachelor of Science (B.S.)</option>
-                    <option>Bachelor of Music</option>
                 </select>
             </div>
 
@@ -1171,43 +1116,6 @@
                 <label for="minor">Minor</label>
                 <select id="minor" name="minor">
                     <option value="">No minor</option>
-                    <option>Anthropology</option>
-                    <option>Applied Physics</option>
-                    <option>Art Studio</option>
-                    <option>Art History</option>
-                    <option>Biochemistry</option>
-                    <option>Biology</option>
-                    <option>Business</option>
-                    <option>Chemistry</option>
-                    <option>Classics</option>
-                    <option>Communication Studies</option>
-                    <option>Computational Mathematics</option>
-                    <option>Computer Science</option>
-                    <option>Economics</option>
-                    <option>Education</option>
-                    <option>English</option>
-                    <option>Environmental Studies</option>
-                    <option>Feminist Studies</option>
-                    <option>French</option>
-                    <option>German</option>
-                    <option>Greek</option>
-                    <option>History</option>
-                    <option>Independent Major</option>
-                    <option>International Studies</option>
-                    <option>Kinesiology</option>
-                    <option>Latin</option>
-                    <option>Latin American &amp; Border Studies</option>
-                    <option>Mathematics</option>
-                    <option>Music</option>
-                    <option>Philosophy</option>
-                    <option>Physics</option>
-                    <option>Political Science</option>
-                    <option>Pre-Engineering</option>
-                    <option>Psychology</option>
-                    <option>Religion</option>
-                    <option>Sociology</option>
-                    <option>Spanish</option>
-                    <option>Theatre</option>
                 </select>
             </div>
 
@@ -1215,43 +1123,6 @@
                 <label for="second_minor">Second Minor</label>
                 <select id="second_minor" name="second_minor">
                     <option value="">No second minor</option>
-                    <option>Anthropology</option>
-                    <option>Applied Physics</option>
-                    <option>Art Studio</option>
-                    <option>Art History</option>
-                    <option>Biochemistry</option>
-                    <option>Biology</option>
-                    <option>Business</option>
-                    <option>Chemistry</option>
-                    <option>Classics</option>
-                    <option>Communication Studies</option>
-                    <option>Computational Mathematics</option>
-                    <option>Computer Science</option>
-                    <option>Economics</option>
-                    <option>Education</option>
-                    <option>English</option>
-                    <option>Environmental Studies</option>
-                    <option>Feminist Studies</option>
-                    <option>French</option>
-                    <option>German</option>
-                    <option>Greek</option>
-                    <option>History</option>
-                    <option>Independent Major</option>
-                    <option>International Studies</option>
-                    <option>Kinesiology</option>
-                    <option>Latin</option>
-                    <option>Latin American &amp; Border Studies</option>
-                    <option>Mathematics</option>
-                    <option>Music</option>
-                    <option>Philosophy</option>
-                    <option>Physics</option>
-                    <option>Political Science</option>
-                    <option>Pre-Engineering</option>
-                    <option>Psychology</option>
-                    <option>Religion</option>
-                    <option>Sociology</option>
-                    <option>Spanish</option>
-                    <option>Theatre</option>
                 </select>
             </div>
 
@@ -1315,7 +1186,7 @@
 
             <div class="profile-field">
                 <label for="advisor_email">Advisor Email</label>
-                <input id="advisor_email" name="advisor_email" type="email" placeholder="Enter advisor email" required>
+                <input id="advisor_email" name="advisor_email" type="email" placeholder="Enter advisor email">
             </div>
             </details>
         </div>
@@ -1549,77 +1420,107 @@
         setTheme(localStorage.getItem(THEME_KEY) === 'light');
         themeInput.addEventListener('change', function () { setTheme(themeInput.checked); });
 
-        // ── Markdown rendering ────────────────────────────────────────
-        function scrollResponsesToBottom() {
+        // ── Chat: stream tokens from /ask/stream ────────────────────
+        //
+        // Flow:
+        //   1. Submit → "Thinking..." block appears immediately.
+        //   2. Route+Retrieve run on the server; first network chunk arrives.
+        //   3. Characters are pushed into a queue and drained one-by-one via
+        //      a setInterval, producing a smooth typewriter effect regardless
+        //      of how the API batches its output.
+        //   4. When the stream AND the queue are both done, render Markdown.
+        //
+        document.querySelector('.ask-form').addEventListener('submit', async function (evt) {
+            evt.preventDefault();
+
+            const ta = evt.target.querySelector('textarea');
+            const queryText = ta.value.trim();
+            if (!queryText) return;
+
+            // -- Inject the response block with "Thinking..." immediately --
+            const safe = queryText.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+            const blockId = 'resp-' + Date.now();
             const responseDiv = document.getElementById('response');
-            if (!responseDiv) return;
-
-            requestAnimationFrame(function () {
-                requestAnimationFrame(function () {
-                    responseDiv.scrollTop = responseDiv.scrollHeight;
-                });
-            });
-        }
-
-        document.body.addEventListener('htmx:afterSwap', function (evt) {
-            evt.detail.target.querySelectorAll('.response-answer').forEach(function (el) {
-                if (!el.dataset.rendered) {
-                    el.innerHTML = marked.parse(el.textContent);
-                    el.dataset.rendered = 'true';
-                }
-            });
-        });
-
-        // ── Move query to chat immediately on submit ──────────────────
-        document.body.addEventListener('htmx:beforeRequest', function (evt) {
-            if (evt.detail.elt.classList.contains('ask-form')) {
-                const ta = evt.detail.elt.querySelector('textarea');
-                const queryText = ta.value.trim();
-
-                if (queryText) {
-                    // Escape HTML to prevent XSS in the temporary UI
-                    const escapedQuery = queryText
-                        .replace(/&/g, "&amp;")
-                        .replace(/</g, "&lt;")
-                        .replace(/>/g, "&gt;");
-
-                    // Construct temporary "Thinking..." block mimicking the backend HTML
-                    const tempHTML = `
-                        <div class="response-block" id="temp-thinking">
-                            <details open>
-                                <summary>${escapedQuery}</summary>
-                                <div class="response-answer">
-                                    <span style="color: var(--muted); font-style: italic;">
-                                        Thinking<span class="blinking-dots"><span>.</span><span>.</span><span>.</span></span>
-                                    </span>
-                                </div>
-                            </details>
+            responseDiv.insertAdjacentHTML('beforeend', `
+                <div class="response-block" id="${blockId}">
+                    <details open>
+                        <summary>${safe}</summary>
+                        <div class="response-answer" id="${blockId}-body">
+                            <span style="color:var(--muted);font-style:italic;">
+                                Thinking<span class="blinking-dots"><span>.</span><span>.</span><span>.</span></span>
+                            </span>
                         </div>
-                    `;
+                    </details>
+                </div>
+            `);
+            responseDiv.scrollTop = responseDiv.scrollHeight;
 
-                    const responseDiv = document.getElementById('response');
-                    responseDiv.insertAdjacentHTML('beforeend', tempHTML);
+            // -- Reset input --
+            ta.value = '';
+            ta.style.height = 'auto';
 
-                    // Auto-scroll to the newly appended thinking block so it's in view
-                    scrollResponsesToBottom();
+            const bodyEl = document.getElementById(blockId + '-body');
+
+            // Character queue — chunks from the network are split into individual
+            // characters and pushed here; the interval drains them one-by-one.
+            const charQueue = [];
+            let streamDone = false;    // true once fetch reader is exhausted
+            let textEl = null;         // created on first character
+            let fullText = '';         // accumulates everything for Markdown render
+
+            // Drain one character per tick — adjust interval for speed vs. smoothness.
+            // 12ms ≈ 80 chars/sec, which feels natural without being sluggish.
+            const CHAR_INTERVAL_MS = 12;
+            const drainTimer = setInterval(function () {
+                if (charQueue.length === 0) {
+                    if (streamDone) {
+                        // All characters displayed — render Markdown and clean up
+                        clearInterval(drainTimer);
+                        bodyEl.innerHTML = marked.parse(fullText);
+                    }
+                    return;
                 }
 
-                // Clear the input box and reset size immediately
-                ta.value = '';
-                ta.style.height = 'auto';
-            }
-        });
+                // On the very first character, swap out "Thinking..." for the text box
+                if (!textEl) {
+                    bodyEl.innerHTML = '<span class="stream-text" style="white-space:pre-wrap;"></span>';
+                    textEl = bodyEl.querySelector('.stream-text');
+                }
 
-        // ── Remove temporary "Thinking..." block when real answer arrives ──
-        document.body.addEventListener('htmx:beforeSwap', function (evt) {
-            const temp = document.getElementById('temp-thinking');
-            if (temp) temp.remove();
-        });
+                textEl.textContent += charQueue.shift();
+                responseDiv.scrollTop = responseDiv.scrollHeight;
+            }, CHAR_INTERVAL_MS);
 
-        // ── Scroll to bottom when real answer is fully rendered ──
-        document.body.addEventListener('htmx:afterSwap', function (evt) {
-            if (evt.detail.target.id === 'response') {
-                scrollResponsesToBottom();
+            try {
+                const res = await fetch('/ask/stream', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                    body: new URLSearchParams({ query: queryText })
+                });
+
+                if (!res.ok) {
+                    clearInterval(drainTimer);
+                    throw new Error(await res.text());
+                }
+
+                const reader = res.body.getReader();
+                const decoder = new TextDecoder();
+
+                while (true) {
+                    const { done, value } = await reader.read();
+                    if (done) break;
+                    const chunk = decoder.decode(value, { stream: true });
+                    fullText += chunk;
+                    // Push each character individually into the queue
+                    for (const ch of chunk) charQueue.push(ch);
+                }
+
+                // Signal the drain timer that no more characters are coming
+                streamDone = true;
+
+            } catch (err) {
+                clearInterval(drainTimer);
+                bodyEl.innerHTML = '<span style="color:var(--error);">Error: ' + err.message + '</span>';
             }
         });
 
@@ -1669,164 +1570,113 @@
 
     wireCustomField("gpa", "gpa_custom");
     wireCustomField("grad_year", "grad_year_custom");
-    wireDependentSelect("second_major", "second_major_degree_type");
-
-    const profileForm = document.getElementById("profile-form");
-    const profilePdfInput = document.getElementById("profile_pdf");
-    const profilePdfStatus = document.getElementById("profile-pdf-status");
-    const profileSaveButton = profileForm?.querySelector('button[type="submit"]');
-    const REQUIRED_PDF_WIDTH_IN = 8.5;
-    const REQUIRED_PDF_HEIGHT_IN = 11;
-    const PDF_POINTS_PER_INCH = 72;
-    const PDF_POINT_TOLERANCE = 2;
-    const pdfValidationState = {
-        status: "empty",
-        message: "No PDF selected."
+    
+    const academicDependencies = {
+        "major": ["major_degree_type"],
+        "second_major": ["second_major_degree_type"]
     };
+    initDependencies(academicDependencies);
 
-    function setPdfStatus(type, message) {
-        if (!profilePdfStatus) return;
+    function syncAcademicVisibility() {
+        const majorDegEl = document.getElementById("major_degree_type");
+        const secondMajorEl = document.getElementById("second_major");
+        const minorEl = document.getElementById("minor");
+        const secondMinorEl = document.getElementById("second_minor");
 
-        profilePdfStatus.textContent = message;
-        profilePdfStatus.classList.remove("is-valid", "is-error");
+        if (!majorDegEl || !secondMajorEl || !minorEl || !secondMinorEl) return;
 
-        if (type === "valid") {
-            profilePdfStatus.classList.add("is-valid");
-        } else if (type === "error") {
-            profilePdfStatus.classList.add("is-error");
+        const hasMajorDeg = !!majorDegEl.value;
+
+        // Action buttons container
+        const actionsContainer = document.getElementById("academic-actions");
+        if (actionsContainer) {
+            actionsContainer.style.display = hasMajorDeg ? "flex" : "none";
+        }
+
+        // Second Major Visibility
+        const secondMajorField = secondMajorEl.closest(".profile-field");
+        const showSecondMajor = !!secondMajorEl.value || secondMajorEl.dataset.forcedVisible === "true";
+        if (secondMajorField) {
+            secondMajorField.style.display = (hasMajorDeg && showSecondMajor) ? "flex" : "none";
+        }
+        const btnAddMajor = document.getElementById("btn-add-major");
+        if (btnAddMajor) {
+            btnAddMajor.style.display = (hasMajorDeg && !showSecondMajor) ? "inline-flex" : "none";
+        }
+
+        // Minor Visibility
+        const minorField = minorEl.closest(".profile-field");
+        const showMinor = !!minorEl.value || minorEl.dataset.forcedVisible === "true";
+        if (minorField) {
+            minorField.style.display = (hasMajorDeg && showMinor) ? "flex" : "none";
+        }
+
+        // Second Minor Visibility
+        const secondMinorField = secondMinorEl.closest(".profile-field");
+        const showSecondMinor = !!secondMinorEl.value || secondMinorEl.dataset.forcedVisible === "true";
+        if (secondMinorField) {
+            secondMinorField.style.display = (hasMajorDeg && showMinor && showSecondMinor) ? "flex" : "none";
+        }
+
+        // Add Minor Button Label/Visibility
+        const btnAddMinor = document.getElementById("btn-add-minor");
+        if (btnAddMinor) {
+            if (!showMinor) {
+                btnAddMinor.textContent = "+ Add Minor";
+                btnAddMinor.style.display = hasMajorDeg ? "inline-flex" : "none";
+            } else if (minorEl.value && !showSecondMinor) {
+                btnAddMinor.textContent = "+ Add Second Minor";
+                btnAddMinor.style.display = hasMajorDeg ? "inline-flex" : "none";
+            } else {
+                btnAddMinor.style.display = "none";
+            }
         }
     }
 
-    function setPdfValidationPending(isPending) {
-        if (profileSaveButton) {
-            profileSaveButton.disabled = isPending;
-            profileSaveButton.style.opacity = isPending ? "0.65" : "";
-            profileSaveButton.style.pointerEvents = isPending ? "none" : "";
+    // Attach listeners
+    document.getElementById("major_degree_type")?.addEventListener("change", syncAcademicVisibility);
+    
+    document.getElementById("second_major")?.addEventListener("change", (e) => {
+        if (!e.target.value) e.target.dataset.forcedVisible = "false";
+        syncAcademicVisibility();
+    });
+
+    document.getElementById("minor")?.addEventListener("change", (e) => {
+        if (!e.target.value) e.target.dataset.forcedVisible = "false";
+        syncAcademicVisibility();
+    });
+
+    document.getElementById("second_minor")?.addEventListener("change", (e) => {
+        if (!e.target.value) e.target.dataset.forcedVisible = "false";
+        syncAcademicVisibility();
+    });
+
+    document.getElementById("btn-add-major")?.addEventListener("click", () => {
+        const el = document.getElementById("second_major");
+        if (el) {
+            el.dataset.forcedVisible = "true";
+            syncAcademicVisibility();
         }
-    }
+    });
 
-    function extractPageBoxes(text) {
-        const mediaBoxMatches = Array.from(text.matchAll(/\/MediaBox\s*\[\s*([-\d.]+)\s+([-\d.]+)\s+([-\d.]+)\s+([-\d.]+)\s*\]/g));
-        const cropBoxMatches = Array.from(text.matchAll(/\/CropBox\s*\[\s*([-\d.]+)\s+([-\d.]+)\s+([-\d.]+)\s+([-\d.]+)\s*\]/g));
-        const matches = mediaBoxMatches.length ? mediaBoxMatches : cropBoxMatches;
+    document.getElementById("btn-add-minor")?.addEventListener("click", () => {
+        const minorEl = document.getElementById("minor");
+        const secondMinorEl = document.getElementById("second_minor");
+        if (!minorEl.value && minorEl.dataset.forcedVisible !== "true") {
+            minorEl.dataset.forcedVisible = "true";
+        } else {
+            secondMinorEl.dataset.forcedVisible = "true";
+        }
+        syncAcademicVisibility();
+    });
 
-        return matches.map(function (match) {
-            return {
-                left: parseFloat(match[1]),
-                bottom: parseFloat(match[2]),
-                right: parseFloat(match[3]),
-                top: parseFloat(match[4])
-            };
+    // Run initial sync after profile loads
+    loadDepartments().then(() => {
+        loadProfile().then(() => {
+            preventDuplicateAcademicSelections();
+            syncAcademicVisibility();
         });
-    }
-
-    async function validateProfilePdf(file) {
-        if (!file) {
-            pdfValidationState.status = "empty";
-            pdfValidationState.message = "No PDF selected.";
-            setPdfValidationPending(false);
-            setPdfStatus("idle", pdfValidationState.message);
-            return true;
-        }
-
-        if (file.type && file.type !== "application/pdf") {
-            pdfValidationState.status = "invalid";
-            pdfValidationState.message = "Only PDF files are allowed.";
-            setPdfValidationPending(false);
-            setPdfStatus("error", pdfValidationState.message);
-            return false;
-        }
-
-        pdfValidationState.status = "checking";
-        pdfValidationState.message = "Checking PDF page dimensions...";
-        setPdfValidationPending(true);
-        setPdfStatus("idle", pdfValidationState.message);
-
-        try {
-            const buffer = await file.arrayBuffer();
-            const text = new TextDecoder("latin1").decode(new Uint8Array(buffer));
-            const pageBoxes = extractPageBoxes(text);
-
-            if (!pageBoxes.length) {
-                pdfValidationState.status = "invalid";
-                pdfValidationState.message = "Could not read the PDF page size. Please upload a standard portrait PDF.";
-                setPdfValidationPending(false);
-                setPdfStatus("error", pdfValidationState.message);
-                return false;
-            }
-
-            const targetWidthPoints = REQUIRED_PDF_WIDTH_IN * PDF_POINTS_PER_INCH;
-            const targetHeightPoints = REQUIRED_PDF_HEIGHT_IN * PDF_POINTS_PER_INCH;
-            const invalidPage = pageBoxes.find(function (pageBox) {
-                const widthPoints = Math.abs(pageBox.right - pageBox.left);
-                const heightPoints = Math.abs(pageBox.top - pageBox.bottom);
-                const isPortrait = heightPoints > widthPoints;
-                const matchesRequiredSize =
-                    Math.abs(widthPoints - targetWidthPoints) <= PDF_POINT_TOLERANCE &&
-                    Math.abs(heightPoints - targetHeightPoints) <= PDF_POINT_TOLERANCE;
-
-                return !isPortrait || !matchesRequiredSize;
-            });
-
-            if (invalidPage) {
-                const widthPoints = Math.abs(invalidPage.right - invalidPage.left);
-                const heightPoints = Math.abs(invalidPage.top - invalidPage.bottom);
-                const widthInches = (widthPoints / PDF_POINTS_PER_INCH).toFixed(2);
-                const heightInches = (heightPoints / PDF_POINTS_PER_INCH).toFixed(2);
-
-                pdfValidationState.status = "invalid";
-                pdfValidationState.message =
-                    `Invalid file. PDF must ${REQUIRED_PDF_WIDTH_IN.toFixed(2)} x ${REQUIRED_PDF_HEIGHT_IN.toFixed(2)} inches. ` +
-                    `Detected ${widthInches} x ${heightInches} inches on at least one page.`;
-                setPdfValidationPending(false);
-                setPdfStatus("error", pdfValidationState.message);
-                return false;
-            }
-
-            const firstPageBox = pageBoxes[0];
-            const firstPageWidth = Math.abs(firstPageBox.right - firstPageBox.left);
-            const firstPageHeight = Math.abs(firstPageBox.top - firstPageBox.bottom);
-            pdfValidationState.status = "valid";
-            pdfValidationState.message = 'Valid PDF uploaded.';
-                //`${file.name} is valid for upload (${(firstPageWidth / PDF_POINTS_PER_INCH).toFixed(2)} x `// +
-                //`${(firstPageHeight / PDF_POINTS_PER_INCH).toFixed(2)} in, portrait).`;
-            setPdfValidationPending(false);
-            setPdfStatus("valid", pdfValidationState.message);
-            return true;
-        } catch (err) {
-            console.error("Failed to validate PDF:", err);
-            pdfValidationState.status = "invalid";
-            pdfValidationState.message = "Could not validate this PDF. Please upload a readable PDF with the required dimensions.";
-            setPdfValidationPending(false);
-            setPdfStatus("error", pdfValidationState.message);
-            return false;
-        }
-    }
-
-    profilePdfInput?.addEventListener("change", async function () {
-        const file = profilePdfInput.files?.[0];
-        const isValid = await validateProfilePdf(file);
-
-        if (!isValid) {
-            profilePdfInput.value = "";
-        }
     });
-
-    document.body.addEventListener("htmx:beforeRequest", function (evt) {
-        if (evt.detail.elt?.id !== "profile-form") return;
-
-        if (pdfValidationState.status === "checking") {
-            evt.preventDefault();
-            setPdfStatus("error", "Please wait until the PDF validation finishes before saving.");
-            return;
-        }
-
-        if (profilePdfInput?.files?.length && pdfValidationState.status !== "valid") {
-            evt.preventDefault();
-            setPdfStatus("error", "Upload a valid portrait PDF sized 8.5 x 11 inches before saving.");
-        }
-    });
-
     let allCourses = [];
     let selectedCourses = new Set();
 
@@ -1975,6 +1825,7 @@
                 custom.value = value;
             }
         }
+        el.dispatchEvent(new Event("change"));
     }
 
     document.getElementById("profile-form")?.addEventListener("submit", (e) => {
@@ -2025,27 +1876,127 @@
     syncOptions();
 }
 
-function wireDependentSelect(parentId, childId) {
-    const parent = document.getElementById(parentId);
-    const child = document.getElementById(childId);
-    const field = child?.closest(".profile-field");
+function initDependencies(config) {
+    Object.entries(config).forEach(([parentId, childIds]) => {
+        const parent = document.getElementById(parentId);
+        if (!parent) return;
 
-    if (!parent || !child || !field) return;
+        const children = childIds.map(id => {
+            const el = document.getElementById(id);
+            return {
+                el,
+                field: el?.closest(".profile-field"),
+                originallyRequired: el?.hasAttribute("required")
+            };
+        }).filter(c => c.el && c.field);
 
-    function sync() {
-        const show = parent.value !== "";
-        field.style.display = show ? "flex" : "none";
-        child.required = show;
-
-        if (!show) {
-            child.value = "";
+        function sync() {
+            const show = parent.value && parent.value !== "";
+            children.forEach(c => {
+                c.field.style.display = show ? "flex" : "none";
+                if (c.originallyRequired) {
+                    c.el.required = !!show;
+                }
+                if (!show && c.el.value !== "") {
+                    c.el.value = "";
+                    c.el.dispatchEvent(new Event("change"));
+                }
+            });
         }
-    }
 
-    parent.addEventListener("change", sync);
-    sync();
+        parent.addEventListener("change", sync);
+        sync();
+    });
 }
 
+
+async function loadDepartments() {
+    try {
+        const response = await fetch('/api/departments');
+        const data = await response.json();
+        
+        const majors = data.filter(d => d.degree_types && d.degree_types.some(t => t !== "Minor")).map(d => d.department).sort();
+        const minors = data.filter(d => d.degree_types && d.degree_types.includes("Minor")).map(d => d.department).sort();
+
+        const degreeMap = {
+            "B.A.": "Bachelor of Arts (B.A.)",
+            "B.S.": "Bachelor of Science (B.S.)",
+            "B.M.": "Bachelor of Music"
+        };
+
+        function populate(selectId, optionsList, defaultText, independentLabel) {
+            const select = document.getElementById(selectId);
+            if (!select) return;
+            select.innerHTML = `<option value="">${defaultText}</option>`;
+            optionsList.forEach(opt => {
+                const el = document.createElement("option");
+                el.value = opt;
+                el.textContent = opt;
+                select.appendChild(el);
+            });
+            const customEl = document.createElement("option");
+            customEl.value = independentLabel;
+            customEl.textContent = independentLabel;
+            select.appendChild(customEl);
+        }
+
+        function syncDegreeTypes(majorId, degreeTypeId) {
+            const majorEl = document.getElementById(majorId);
+            const degreeEl = document.getElementById(degreeTypeId);
+            if (!majorEl || !degreeEl) return;
+
+            const selectedValue = majorEl.value;
+            const originalDegreeValue = degreeEl.value;
+            
+            degreeEl.innerHTML = '<option value="">Select a degree type</option>';
+
+            if (!selectedValue) return;
+
+            const selectedDept = data.find(d => d.department === selectedValue);
+            
+            if (selectedDept && selectedDept.degree_types) {
+                selectedDept.degree_types.forEach(type => {
+                    if (degreeMap[type]) {
+                        const opt = document.createElement("option");
+                        opt.value = degreeMap[type];
+                        opt.textContent = degreeMap[type];
+                        degreeEl.appendChild(opt);
+                    }
+                });
+            } else if (selectedValue.includes("Independent")) {
+                // For independent majors, allow all bachelor types
+                Object.values(degreeMap).forEach(val => {
+                    const opt = document.createElement("option");
+                    opt.value = val;
+                    opt.textContent = val;
+                    degreeEl.appendChild(opt);
+                });
+            }
+
+            // Attempt to restore value if it still exists in new options
+            if (Array.from(degreeEl.options).some(o => o.value === originalDegreeValue)) {
+                degreeEl.value = originalDegreeValue;
+            }
+        }
+
+        populate("major", majors, "Select a major", "Independent Major");
+        populate("second_major", majors, "No second major", "Independent Major");
+        populate("minor", minors, "No minor", "Independent Minor");
+        populate("second_minor", minors, "No second minor", "Independent Minor");
+
+        const majorEl = document.getElementById("major");
+        const secondMajorEl = document.getElementById("second_major");
+
+        if (majorEl) {
+            majorEl.addEventListener("change", () => syncDegreeTypes("major", "major_degree_type"));
+        }
+        if (secondMajorEl) {
+            secondMajorEl.addEventListener("change", () => syncDegreeTypes("second_major", "second_major_degree_type"));
+        }
+    } catch (e) {
+        console.error("Failed to load departments or options list", e);
+    }
+}
 
 loadProfile().then(() => {
         preventDuplicateAcademicSelections();

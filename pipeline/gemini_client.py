@@ -25,23 +25,20 @@ load_dotenv(_PROJECT_ROOT / ".env")
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
 
 # ── Model Tiers ───────────────────────────────────────────────────────────────
-# We use separate model tiers for each pipeline stage to optimize for cost
-# and performance. Utility calls (routing/retrieval) use cheaper models.
+# Two tiers now that the pipeline is 2 calls instead of 3:
+#
+#   Call 1 — Router + Complexity Classifier
+#     Uses a fast, cheap model. Its only job is structured JSON output
+#     (department slugs + simple/complex flag), so quality is secondary.
+#
+#   Call 2 — Answerer (Synthesis)
+#     Uses a larger model that reads the skills_index (and optionally all
+#     .txt files) and writes a cited, student-facing answer.
+#
+# Both can be overridden via environment variables in .env without code changes.
 
-# Call 1: Router
-# Gemma 3 4b works for this, as we stress test the system, it wouldn't be a bad idea to upgrade to 12b or even 27b
-# MODEL_ROUTER = os.getenv("MODEL_ROUTER", "gemma-3-12b-it")
-MODEL_ROUTER = os.getenv("MODEL_ROUTER", "gemma-4-31b-it")
-
-
-# Call 2: Retriever
-# MODEL_RETRIEVER = os.getenv("MODEL_RETRIEVER", "gemini-3.1-flash-lite-preview")
-MODEL_RETRIEVER = os.getenv("MODEL_RETRIEVER", "gemma-4-31b-it")
-
-
-# Call 3: Answerer (Synthesis)
-# MODEL_ANSWERER = os.getenv("MODEL_ANSWERER", "gemini-3.1-flash-lite-preview")
-MODEL_ANSWERER = os.getenv("MODEL_ANSWERER", "gemma-4-31b-it")
+MODEL_ROUTER   = os.getenv("MODEL_ROUTER",   "gemini-3.1-flash-lite-preview")
+MODEL_ANSWERER = os.getenv("MODEL_ANSWERER", "gemini-3.1-flash-lite-preview")
 
 # Default fallback if no model is specified
 DEFAULT_MODEL = os.getenv("GEMINI_MODEL", MODEL_ANSWERER)
@@ -96,6 +93,29 @@ def generate(prompt: str, model: str | None = None) -> str:
             return f"[ERROR] LLM call failed: {exc}"
     
     return "[ERROR] LLM call failed after retries."
+
+
+def generate_stream(prompt: str, model: str | None = None):
+    """Send a prompt to Gemini and yield response text chunks as they arrive.
+
+    Args:
+        prompt: The full prompt string to send.
+        model:  Model name override. Defaults to DEFAULT_MODEL.
+
+    Yields:
+        Text chunks as they are produced by the model.
+    """
+    model_name = model or DEFAULT_MODEL
+    try:
+        for chunk in _client.models.generate_content_stream(
+            model=model_name,
+            contents=prompt,
+        ):
+            if chunk.text:
+                yield chunk.text
+    except Exception as exc:
+        log.error("Gemini streaming failed (model=%s): %s", model_name, exc)
+        yield f"\n\n[ERROR] Streaming failed: {exc}"
 
 
 def extract_json(text: str) -> str:
