@@ -130,7 +130,7 @@ async def profile(request:Request):
     if not google_id:
         raise HTTPException(status_code=401, detail="Not authenticated")
     user = get_user_by_id(google_id)
-    # courses = get_user_courses(google_id)
+    courses = get_user_courses(google_id)
 
     return {
         "name": user.first_name + " " + user.last_name,
@@ -146,7 +146,7 @@ async def profile(request:Request):
         "advisor_name": user.advisor_name,
         "advisor_email": user.advisor_email,
         "grad_year": user.grad_year,
-        "courses_json": user.courses_json
+        "courses": courses
     }
 
 @app.post("/sign-out")
@@ -209,20 +209,21 @@ async def users(request:Request):
     
     courses_list = list(form_data["courses"]) # get courses listed in checkbox
     courses = []
-    # Get course list into dictionary
+    # Get course list into list of dictionaries
     for c in courses_list:
         course_code, name = c.split(" ", 1)
         course = {}
         course["name"] = name
         course["course_code"] = course_code
         course["credits"] = course_code[-1] # Last digit of course code indicates credits
+        course["semester"] = "NA"
+        course["grade"] = "NA"
         courses.append(course)
 
   
     # update user data field
-    user_data["courses_json"] = courses if courses else None
+    # user_data["courses_json"] = courses if courses else None
     
-
     # retrieve currently authed user
     google_id = request.session.get("user_id")
     if not google_id:
@@ -231,7 +232,7 @@ async def users(request:Request):
     update_user(google_id, user_data)
 
     # TODO: Add manually added course data
-    # add_courses(google_id,courses)
+    add_courses(google_id,courses)
 
 
     return HTMLResponse("<div style='color:#808080;'>Profile saved.</div>")
