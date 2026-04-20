@@ -28,7 +28,6 @@ from google.oauth2 import id_token
 from google.auth.transport import requests
 
 from pipeline.router import route
-from pipeline.retriever import retrieve
 from pipeline.answerer import answer, stream_answer
 
 from Backend.user_db import create_user, update_user, get_user_by_id
@@ -50,7 +49,7 @@ LOG_DIR = _PROJECT_ROOT / "logs"
 LOG_FILE = LOG_DIR / "queries.jsonl"
 
 logging.basicConfig(
-    level=logging.WARNING,
+    level=logging.INFO,
     format="%(asctime)s  %(levelname)-8s  %(name)s  %(message)s",
     datefmt="%H:%M:%S",
 )
@@ -269,31 +268,26 @@ async def ask(request: Request, query: str = Form(...)):
     # Get google id so the router can get user profile
     google_id = request.session.get("user_id")
 
-    # Step 1 — Route to the right department(s)
+    # Step 1 — Route to the right department(s) and classify complexity
     try:
-        routed_majors = route(query, KNOWLEDGE_BASE_PATH, google_id)
+        route_result = route(query, KNOWLEDGE_BASE_PATH, google_id)
+        logging.info("Complexity for query '%s': %s", query[:50], route_result.complexity)
     except Exception as exc:
         logging.error("Routing failed: %s", exc)
         return _error_html("Something went wrong while routing your question. Please try again.")
 
-    # Step 2 — Select which documents to load
-    try:
-        doc_list = retrieve(query, routed_majors, KNOWLEDGE_BASE_PATH, google_id)
-    except Exception as exc:
-        logging.error("Retrieval failed: %s", exc)
-        return _error_html("Something went wrong while retrieving documents. Please try again.")
-
-    if not doc_list:
-        return _error_html(
-            "I couldn't find any relevant documents for that question. "
-            "Try rephrasing, or contact your academic advisor directly."
-        )
-
-    # Step 3 — Generate the answer
+    # Step 2 — Generate the answer
     # Note: history is not passed here (stateless for now).
     # To add conversation memory later, store history in a session or pass it from the client.
     try:
-        answer_text = answer(query, doc_list, history=[], google_id=google_id)
+        answer_text = answer(
+            question=query,
+            departments=route_result.departments,
+            complexity=route_result.complexity,
+            base_path=KNOWLEDGE_BASE_PATH,
+            history=[],
+            google_id=google_id
+        )
     except Exception as exc:
         logging.error("Answer generation failed: %s", exc)
         return _error_html("Something went wrong while generating your answer. Please try again.")
@@ -301,8 +295,8 @@ async def ask(request: Request, query: str = Form(...)):
     # Log the query for review
     _log_query(
         question=query,
-        routed_majors=routed_majors,
-        selected_docs=[d["filename"] for d in doc_list],
+        routed_majors=route_result.departments,
+        selected_docs=[f"{route_result.complexity} context"],
         answer_text=answer_text,
         duration_seconds=time.time() - start_time,
     )
@@ -328,25 +322,24 @@ async def ask_stream(request: Request, query: str = Form(...)):
     start_time = time.time()
 
     try:
-        routed_majors = route(query, KNOWLEDGE_BASE_PATH, google_id)
+        route_result = route(query, KNOWLEDGE_BASE_PATH, google_id)
+        logging.info("Complexity for query '%s': %s", query[:50], route_result.complexity)
     except Exception as exc:
         logging.error("Routing failed: %s", exc)
         return Response(content="Routing error.", status_code=500)
-
-    try:
-        doc_list = retrieve(query, routed_majors, KNOWLEDGE_BASE_PATH, google_id)
-    except Exception as exc:
-        logging.error("Retrieval failed: %s", exc)
-        return Response(content="Retrieval error.", status_code=500)
-
-    if not doc_list:
-        return Response(content="No relevant documents found.", status_code=404)
 
     async def token_generator():
         """Drive the blocking stream_answer generator inside a thread pool."""
         full_chunks: list[str] = []
         sentinel = object()
-        gen = stream_answer(query, doc_list, history=[], google_id=google_id)
+        gen = stream_answer(
+            question=query,
+            departments=route_result.departments,
+            complexity=route_result.complexity,
+            base_path=KNOWLEDGE_BASE_PATH,
+            history=[],
+            google_id=google_id
+        )
         try:
             while True:
                 chunk = await run_in_threadpool(next, gen, sentinel)
@@ -360,8 +353,8 @@ async def ask_stream(request: Request, query: str = Form(...)):
         finally:
             _log_query(
                 question=query,
-                routed_majors=routed_majors,
-                selected_docs=[d["filename"] for d in doc_list],
+                routed_majors=route_result.departments,
+                selected_docs=[f"{route_result.complexity} context"],
                 answer_text="".join(full_chunks),
                 duration_seconds=time.time() - start_time,
             )

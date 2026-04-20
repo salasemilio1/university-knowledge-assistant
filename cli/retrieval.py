@@ -5,7 +5,6 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from pipeline.router import route
-from pipeline.retriever import retrieve
 from pipeline.answerer import answer
 
 # ── Configuration ─────────────────────────────────────────────────────────────
@@ -30,7 +29,7 @@ logging.basicConfig(
 def _log_query(
     question: str,
     routed_majors: list[str],
-    selected_docs: list[str],
+    complexity: str,
     answer_text: str,
     duration_seconds: float,
 ) -> None:
@@ -39,7 +38,7 @@ def _log_query(
     Args:
         question:         The student's question.
         routed_majors:    Major slugs from the router.
-        selected_docs:    Filenames from the retriever.
+        complexity:       Complexity flag from the router.
         answer_text:      The generated answer.
         duration_seconds: Wall-clock time for the full pipeline.
     """
@@ -47,7 +46,7 @@ def _log_query(
         "timestamp": datetime.now(timezone.utc).isoformat(),
         "question": question,
         "routed_majors": routed_majors,
-        "selected_docs": selected_docs,
+        "selected_docs": [f"{complexity} context"],
         "answer": answer_text,
         "duration_seconds": round(duration_seconds, 2),
     }
@@ -82,7 +81,7 @@ def _print_history(history: list[dict]) -> None:
 
 # ── Main loop ─────────────────────────────────────────────────────────────────
 
-def retrieve_response(query:str) -> str:
+def retrieve_response(query: str = None) -> str:
     """Run the interactive advising CLI."""
     print(
         "\n"
@@ -98,10 +97,13 @@ def retrieve_response(query:str) -> str:
     )
 
     history: list[dict] = []
+    
+    # Mock google_id for CLI usage
+    MOCK_GOOGLE_ID = "cli-user"
 
     while True:
-
-        if not query: # if query passed in via frontend, will be set. otherwise, running as CLI
+        user_input = query
+        if not user_input: # if query passed in via frontend, will be set. otherwise, running as CLI
             try:
                 user_input = input("You: ").strip()
             except (EOFError, KeyboardInterrupt):
@@ -120,42 +122,34 @@ def retrieve_response(query:str) -> str:
             _print_history(history)
             continue
 
-        # ── Run the three-call pipeline ───────────────────────────────────────
+        # ── Run the two-call pipeline ───────────────────────────────────────
         start_time = time.time()
 
-        # Phase 1 — Route to the right department(s)
-        print("\n  [1/3] Identifying relevant department...")
+        # Phase 1 — Route and Classify
+        print("\n  [1/2] Routing and classifying query...")
         try:
-            routed_majors = route(user_input, KNOWLEDGE_BASE_PATH)
-            major_names = ", ".join(routed_majors)
-            print(f"        → Routed to: {major_names}")
+            route_result = route(user_input, KNOWLEDGE_BASE_PATH, MOCK_GOOGLE_ID)
+            major_names = ", ".join(route_result.departments)
+            print(f"        → Routed to: {major_names} (Complexity: {route_result.complexity})")
         except Exception as exc:
             print(f"\n  ✖ Routing failed: {exc}\n")
+            if query: return f"Error: {exc}"
             continue
 
-        # Phase 2 — Select documents
-        print("  [2/3] Selecting documents...")
+        # Phase 2 — Generate answer
+        print("  [2/2] Generating answer...\n")
         try:
-            doc_list = retrieve(user_input, routed_majors, KNOWLEDGE_BASE_PATH)
-            doc_names = ", ".join(d["filename"] for d in doc_list)
-            print(f"        → Loading: {doc_names}")
-        except Exception as exc:
-            print(f"\n  ✖ Document selection failed: {exc}\n")
-            continue
-
-        if not doc_list:
-            print(
-                "\n  I couldn't find any relevant documents for that question."
-                "\n  Try rephrasing, or contact your academic advisor.\n"
+            answer_text = answer(
+                question=user_input,
+                departments=route_result.departments,
+                complexity=route_result.complexity,
+                base_path=KNOWLEDGE_BASE_PATH,
+                history=history,
+                google_id=MOCK_GOOGLE_ID
             )
-            continue
-
-        # Phase 3 — Generate answer
-        print("  [3/3] Generating answer...\n")
-        try:
-            answer_text = answer(user_input, doc_list, history)
         except Exception as exc:
             print(f"\n  ✖ Answer generation failed: {exc}\n")
+            if query: return f"Error: {exc}"
             continue
 
         # ── Display the answer ────────────────────────────────────────────────
@@ -170,10 +164,14 @@ def retrieve_response(query:str) -> str:
         duration = time.time() - start_time
         _log_query(
             question=user_input,
-            routed_majors=routed_majors,
-            selected_docs=[d["filename"] for d in doc_list],
+            routed_majors=route_result.departments,
+            complexity=route_result.complexity,
             answer_text=answer_text,
             duration_seconds=duration,
         )
 
-        return answer_text
+        if query:
+            return answer_text
+
+if __name__ == "__main__":
+    retrieve_response()
