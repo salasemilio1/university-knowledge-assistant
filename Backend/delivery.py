@@ -208,13 +208,15 @@ async def users(request:Request):
     user_data["grad_year"] = form_data["grad_year_custom"] if form_data["grad_year"] == "custom" else form_data["grad_year"]
     
     courses_list = list(form_data["courses"]) # get courses listed in checkbox
-    courses = {}
+    courses = []
     # Get course list into dictionary
-    for course in courses_list:
-        course_code, name = course.split(" ", 1)
-        courses["name"] = name
-        courses["course_code"] = course_code
-        courses["credits"] = course_code[-1] # Last digit of course code indicates credits
+    for c in courses_list:
+        course_code, name = c.split(" ", 1)
+        course = {}
+        course["name"] = name
+        course["course_code"] = course_code
+        course["credits"] = course_code[-1] # Last digit of course code indicates credits
+        courses.append(course)
 
   
     # update user data field
