@@ -264,7 +264,7 @@ def get_user_courses(google_id: str):
         return [
             {
                 "id": course.id,
-                "google_id": course.id,
+                "google_id": course.google_id,
                 "name": course.name,
                 "course_code": course.course_code,
                 "credits": course.credits,
