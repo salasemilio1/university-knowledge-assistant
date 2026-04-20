@@ -1,0 +1,270 @@
+[
+  {
+    "department": "Anthropology",
+    "degree_types": [
+      "B.A.",
+      "Minor"
+    ]
+  },
+  {
+    "department": "Art (Studio)",
+    "degree_types": [
+      "B.A.",
+      "B.F.A.",
+      "Minor"
+    ]
+  },
+  {
+    "department": "Art History",
+    "degree_types": [
+      "B.A.",
+      "Minor"
+    ]
+  },
+  {
+    "department": "Biology",
+    "degree_types": [
+      "B.A.",
+      "B.S.",
+      "Minor"
+    ]
+  },
+  {
+    "department": "Business & Economics",
+    "degree_types": [
+      "B.A.",
+      "Minor"
+    ]
+  },
+  {
+    "department": "Chemistry & Biochemistry",
+    "degree_types": [
+      "B.A.",
+      "B.S.",
+      "Minor"
+    ]
+  },
+  {
+    "department": "Classics",
+    "degree_types": [
+      "B.A.",
+      "Minor"
+    ]
+  },
+  {
+    "department": "Communication Studies",
+    "degree_types": [
+      "B.A.",
+      "Minor"
+    ]
+  },
+  {
+    "department": "Computational Mathematics",
+    "degree_types": [
+      "B.A.",
+      "B.S.",
+      "Minor"
+    ]
+  },
+  {
+    "department": "Computer Science",
+    "degree_types": [
+      "B.A.",
+      "B.S.",
+      "Minor"
+    ]
+  },
+  {
+    "department": "Education",
+    "degree_types": [
+      "B.A.",
+      "B.S.Ed.",
+      "Minor"
+    ]
+  },
+  {
+    "department": "Environmental Studies",
+    "degree_types": [
+      "B.A.",
+      "Minor"
+    ]
+  },
+  {
+    "department": "Feminist Studies",
+    "degree_types": [
+      "B.A.",
+      "Minor",
+      "Paired Major"
+    ]
+  },
+  {
+    "department": "Financial",
+    "degree_types": []
+  },
+  {
+    "department": "French",
+    "degree_types": [
+      "Major",
+      "Minor",
+      "Paired Major"
+    ]
+  },
+  {
+    "department": "General",
+    "degree_types": [
+      "B.A.",
+      "B.S.",
+      "B.F.A.",
+      "B.Mus.",
+      "B.S.Ed.",
+      "Minor",
+      "Certificate"
+    ]
+  },
+  {
+    "department": "German",
+    "degree_types": [
+      "B.A.",
+      "Minor",
+      "Paired Major"
+    ]
+  },
+  {
+    "department": "Greek",
+    "degree_types": [
+      "Major",
+      "Minor"
+    ]
+  },
+  {
+    "department": "History",
+    "degree_types": [
+      "Major",
+      "Minor"
+    ]
+  },
+  {
+    "department": "Independent Major",
+    "degree_types": [
+      "B.A."
+    ]
+  },
+  {
+    "department": "International Studies",
+    "degree_types": [
+      "Major",
+      "Minor"
+    ]
+  },
+  {
+    "department": "Kinesiology",
+    "degree_types": [
+      "B.A.",
+      "B.S.",
+      "Minor"
+    ]
+  },
+  {
+    "department": "Latin",
+    "degree_types": [
+      "Major",
+      "Minor"
+    ]
+  },
+  {
+    "department": "Latin & Border Studies",
+    "degree_types": [
+      "Major",
+      "Minor"
+    ]
+  },
+  {
+    "department": "Math",
+    "degree_types": [
+      "B.A.",
+      "B.S.",
+      "Minor"
+    ]
+  },
+  {
+    "department": "Music",
+    "degree_types": [
+      "B.A.",
+      "B.M.",
+      "Minor"
+    ]
+  },
+  {
+    "department": "Philosophy",
+    "degree_types": [
+      "B.A.",
+      "Minor"
+    ]
+  },
+  {
+    "department": "Physics",
+    "degree_types": [
+      "B.A.",
+      "B.S.",
+      "Minor"
+    ]
+  },
+  {
+    "department": "Political Science",
+    "degree_types": [
+      "B.A.",
+      "Minor"
+    ]
+  },
+  {
+    "department": "Pre-Engineering",
+    "degree_types": [
+      "B.A."
+    ]
+  },
+  {
+    "department": "Psychology",
+    "degree_types": [
+      "B.A.",
+      "B.S.",
+      "Minor"
+    ]
+  },
+  {
+    "department": "Religion",
+    "degree_types": [
+      "B.A.",
+      "Minor"
+    ]
+  },
+  {
+    "department": "Sociology",
+    "degree_types": [
+      "B.A.",
+      "Minor"
+    ]
+  },
+  {
+    "department": "Spanish",
+    "degree_types": [
+      "B.A.",
+      "Minor",
+      "Certificate"
+    ]
+  },
+  {
+    "department": "Theatre",
+    "degree_types": [
+      "B.A.",
+      "Minor"
+    ]
+  },
+  {
+    "department": "Transfer Student Information",
+    "degree_types": [
+      "B.S.",
+      "B.A.",
+      "Minor"
+    ]
+  }
+]
