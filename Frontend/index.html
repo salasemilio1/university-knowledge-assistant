@@ -1587,12 +1587,6 @@
 
         const hasMajorDeg = !!majorDegEl.value;
 
-        // Action buttons container
-        const actionsContainer = document.getElementById("academic-actions");
-        if (actionsContainer) {
-            actionsContainer.style.display = hasMajorDeg ? "flex" : "none";
-        }
-
         // Second Major Visibility
         const secondMajorField = secondMajorEl.closest(".profile-field");
         const showSecondMajor = !!secondMajorEl.value || secondMajorEl.dataset.forcedVisible === "true";
@@ -1630,6 +1624,19 @@
             } else {
                 btnAddMinor.style.display = "none";
             }
+        }
+
+        // Action buttons container
+        const actionsContainer = document.getElementById("academic-actions");
+        if (actionsContainer) {
+            const btnAddMajor = document.getElementById("btn-add-major");
+            const btnAddMinor = document.getElementById("btn-add-minor");
+
+            const show =
+                (btnAddMajor && btnAddMajor.style.display !== "none") ||
+                (btnAddMinor && btnAddMinor.style.display !== "none");
+
+            actionsContainer.style.display = show ? "flex" : "none";
         }
     }
 
