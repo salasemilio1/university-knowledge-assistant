@@ -71,7 +71,7 @@ class Course(Base):
     # Foreign key to users table (assuming users.id is UUID stored as CHAR(36))
     google_id: Mapped[str] = mapped_column(ForeignKey("users.google_id"), nullable=False, index=True)
 
-    course_name: Mapped[str] = mapped_column(String(255), nullable=False)
+    name: Mapped[str] = mapped_column(String(255), nullable=False)
     course_code: Mapped[str] = mapped_column(String(50))
     credits: Mapped[str] = mapped_column(String(5))
     grade: Mapped[Optional[str]] = mapped_column(String(5))
@@ -265,7 +265,7 @@ def get_user_courses(google_id: str):
             {
                 "id": course.id,
                 "google_id": course.id,
-                "course_name": course.course_name,
+                "name": course.name,
                 "course_code": course.course_code,
                 "credits": course.credits,
                 "grade": course.grade,
@@ -290,7 +290,7 @@ def add_courses(google_id:str, courses:List[dict[str,Any]]) -> bool:
         for c in courses:
             course = Course(
                 google_id=google_id,
-                course_name=c["course_name"],
+                name=c["name"],
                 course_code=c["course_code"],
                 credits=c["credits"],
                 grade=c["grade"],
