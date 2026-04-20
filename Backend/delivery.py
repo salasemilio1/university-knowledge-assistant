@@ -30,7 +30,7 @@ from google.auth.transport import requests
 from pipeline.router import route
 from pipeline.answerer import answer, stream_answer
 
-from Backend.user_db import create_user, update_user, get_user_by_id
+from Backend.user_db import create_user, update_user, get_user_by_id, get_user_courses, add_courses
 
 # ── Setup ─────────────────────────────────────────────────────────────────────
 
@@ -142,6 +142,7 @@ async def profile(request:Request):
     if not google_id:
         raise HTTPException(status_code=401, detail="Not authenticated")
     user = get_user_by_id(google_id)
+    courses = get_user_courses(google_id)
 
     return {
         "name": user.first_name + " " + user.last_name,
@@ -157,7 +158,7 @@ async def profile(request:Request):
         "advisor_name": user.advisor_name,
         "advisor_email": user.advisor_email,
         "grad_year": user.grad_year,
-        "courses": user.courses
+        "courses": courses
     }
 
 @app.post("/sign-out")
@@ -187,7 +188,7 @@ async def users(request:Request):
     "gpa_custom",
     "advisor_name",
     "advisor_email",
-    "courses",
+    "courses", # From user profile
     "courses_custom",
     "grad_year",
     "grad_year_custom"
@@ -218,20 +219,18 @@ async def users(request:Request):
     user_data["advisor_email"] = form_data["advisor_email"]
     user_data["grad_year"] = form_data["grad_year_custom"] if form_data["grad_year"] == "custom" else form_data["grad_year"]
     
-    courses = list(form_data["courses"]) # get courses listed in checkbox
-
-    # get courses listed in custom and extend list
-    custom_courses_raw = form_data["courses_custom"]
-    if custom_courses_raw:
-        custom_courses = [
-            course.strip()
-            for course in custom_courses_raw.split(",")
-            if course.strip()
-        ]
-        courses.extend(custom_courses)
-
-    # update user data field
-    user_data["courses"] = courses if courses else None
+    courses_list = list(form_data["courses"]) # get courses listed in checkbox
+    courses = []
+    # Get course list into list of dictionaries
+    for c in courses_list:
+        course_code, name = c.split(" ", 1)
+        course = {}
+        course["name"] = name
+        course["course_code"] = course_code
+        course["credits"] = course_code[-1] # Last digit of course code indicates credits
+        course["semester"] = "NA"
+        course["grade"] = "NA"
+        courses.append(course)
 
     # retrieve currently authed user
     google_id = request.session.get("user_id")
@@ -239,6 +238,8 @@ async def users(request:Request):
         raise HTTPException(status_code=401, detail="Not authenticated.")
     
     update_user(google_id, user_data)
+    add_courses(google_id,courses)
+
 
     return HTMLResponse("<div style='color:#808080;'>Profile saved.</div>")
 

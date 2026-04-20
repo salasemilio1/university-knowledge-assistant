@@ -3,9 +3,12 @@ This script serves to manage most things related to user configuration with SQLA
 """
 
 
+
 from sqlalchemy.orm import DeclarativeBase
-from sqlalchemy.orm import Mapped, mapped_column, sessionmaker, Session
-from sqlalchemy import create_engine, select, exists, String, Boolean, JSON
+from sqlalchemy.orm import Mapped, mapped_column, relationship, sessionmaker, Session
+from sqlalchemy import create_engine, select, exists, String, Boolean, JSON, Integer, ForeignKey, UniqueConstraint
+from sqlalchemy.exc import IntegrityError
+from typing import Optional, List, Any
 
 from dotenv import load_dotenv
 import os
@@ -49,7 +52,57 @@ class User(Base):
     advisor_name:Mapped[str | None] = mapped_column(String(200), nullable=True)
     advisor_email:Mapped[str | None] = mapped_column(String(200), nullable=True)
     grad_year:Mapped[str | None] = mapped_column(String(200), nullable=True)
-    courses:Mapped[list | None] = mapped_column(JSON, nullable=True)
+    courses = relationship(
+        "Course",
+        back_populates="user",
+        cascade="all, delete-orphan"
+    )
+    transfer_credits = relationship(
+        "TransferCredit",
+        back_populates="user",
+        cascade="all, delete-orphan"
+    )
+
+class Course(Base):
+    __tablename__ = "courses"
+
+    # Auto-incrementing primary key
+    id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)
+
+    # Foreign key to users table
+    google_id: Mapped[str] = mapped_column(ForeignKey("users.google_id"), nullable=False, index=True)
+
+    name: Mapped[str] = mapped_column(String(255), nullable=False)
+    course_code: Mapped[str] = mapped_column(String(50))
+    credits: Mapped[str] = mapped_column(String(5))
+    grade: Mapped[Optional[str]] = mapped_column(String(5))
+    semester: Mapped[Optional[str]] = mapped_column(String(50))
+
+    # Don't allow same course in same semester
+    __table_args__ = (UniqueConstraint("google_id","course_code","semester",),)
+
+    # Relationship back to user
+    user = relationship("User", back_populates="courses")
+
+class TransferCredit(Base):
+    __tablename__ = "transfer_credits"
+
+    # Auto-incrementing primary key
+    id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)
+
+    # Foreign key to users table
+    google_id: Mapped[str] = mapped_column(ForeignKey("users.google_id"), nullable=False, index=True)
+
+    semester: Mapped[Optional[str]] = mapped_column(String(50))
+    institution: Mapped[Optional[str]] = mapped_column(String(50))
+    credits: Mapped[Optional[str]] = mapped_column(String(5))
+
+    # Don't allow separate record for same institution in same semester
+    __table_args__ = (UniqueConstraint("google_id","institution","semester",),)
+
+    # Relationship back to user
+    user = relationship("User", back_populates="transfer_credits")
+
 
 
 # create engine and session to interact with DB
@@ -161,7 +214,6 @@ def get_user_info(google_id:str):
         "advisor_name": user.advisor_name,
         "advisor_email": user.advisor_email,
         "grad_year": user.grad_year,
-        "courses": user.courses,
     }
 
 def get_formatted_user_info(google_id: str):
@@ -174,6 +226,8 @@ def get_formatted_user_info(google_id: str):
         str: Formatted user info.
     """
     user_info = get_user_info(google_id)
+    su_courses = get_user_courses(google_id)
+    transfer_credits = get_user_transfer_credits(google_id)
 
     second_major_text = ""
     if user_info.get("second_major"):
@@ -195,5 +249,124 @@ GPA: {user_info["gpa"]}
 Advisor Name: {user_info["advisor_name"]}
 Advisor Email: {user_info["advisor_email"]}
 Graduation Year: {user_info["grad_year"]}
-Courses Taken: {user_info["courses"]}
+Courses Taken: {su_courses}
+Transfer Credits: {transfer_credits}
 """
+
+def get_user_courses(google_id: str):
+    """
+    Returns a specific user's courses taken (pulled from transcript)
+    in a list with a dictionary for each course 
+
+    Args:
+        google_id: The Google ID of the user.
+    Returns:
+        List[Dict[str,Any]]: Course information for each course the user has taken.
+    """
+    with SessionLocal() as session:
+        courses = (
+            session.query(Course)
+            .filter(Course.google_id == google_id)
+            .all()
+        )
+
+        return [
+            {
+                "name": course.name,
+                "course_code": course.course_code,
+                "credits": course.credits,
+                "grade": course.grade,
+                "semester": course.semester
+            }
+            for course in courses
+        ]
+    
+
+def add_courses(google_id:str, courses:List[dict[str,Any]]) -> bool:
+    """
+    Adds courses from JSON to the courses table.
+
+    Args:
+        google_id(str): The Google ID of the account to add courses for.
+        courses(List[dict[str,Any]]): List of courses in JSON format.
+    Returns:
+        bool: True if successful
+    """
+
+    with SessionLocal() as session:
+        for c in courses:
+            # Check if a record for the same course and semester already exists
+            stmt = select(exists().where(Course.google_id == google_id, Course.course_code == c["course_code"], Course.semester == c["semester"]))
+            if not session.scalar(stmt):
+                course = Course(
+                    google_id=google_id,
+                    name=c["name"],
+                    course_code=c["course_code"],
+                    credits=c["credits"],
+                    grade=c["grade"],
+                    semester=c["semester"]
+                )
+                try:
+                    session.add(course)
+                    session.commit()
+                    session.refresh(course)
+                except IntegrityError:
+                    session.rollback()
+    return True
+
+def add_transfer_credits(google_id:str, transfer_credits:List[dict[str,Any]]) -> bool:
+    """
+    Adds transfer credits from JSON to the courses table.
+
+    Args:
+        google_id(str): The Google ID of the account to add transfer credits for.
+        transfer_credits(List[dict[str,Any]]): List of transfer credits in JSON format.
+    Returns:
+        bool: True if successful
+    """
+
+    with SessionLocal() as session:
+        for t in transfer_credits:
+            # Check if a record for the same institution and semester already exists
+            stmt = select(exists().where(TransferCredit.google_id == google_id, TransferCredit.institution == t["institution"], TransferCredit.semester == t["semester"]))
+            if not session.scalar(stmt):
+                transfer_credit = TransferCredit(
+                    google_id=google_id,
+                    semester=t["semester"],
+                    institution=t["institution"],
+                    credits=t["credits"]
+                )
+                try:
+                    session.add(transfer_credit)
+                    session.commit()
+                    session.refresh(transfer_credit)
+                except IntegrityError:
+                    session.rollback()
+    return True
+
+def get_user_transfer_credits(google_id: str):
+    """
+    Returns a specific user's transfer credits (pulled from transcript)
+    in a list with a dictionary for each semester/institution transfer credits were earned.
+
+    Args:
+        google_id: The Google ID of the user.
+    Returns:
+        List[Dict[str,Any]]: Transfer credits earned by semester/institution.
+    """
+    with SessionLocal() as session:
+        transfer_credits = (
+            session.query(TransferCredit)
+            .filter(TransferCredit.google_id == google_id)
+            .all()
+        )
+
+        return [
+            {
+                "semester": transfer_credit.semester,
+                "institution": transfer_credit.institution,
+                "credits": transfer_credit.credits
+            }
+            for transfer_credit in transfer_credits
+        ]
+    
