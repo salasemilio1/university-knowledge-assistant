@@ -8,6 +8,7 @@ from sqlalchemy.orm import DeclarativeBase
 from sqlalchemy.orm import Mapped, mapped_column, relationship, sessionmaker, Session
 from sqlalchemy import create_engine, select, exists, String, Boolean, JSON, Integer, ForeignKey, UniqueConstraint
 from sqlalchemy.exc import IntegrityError
+import json
 from typing import Optional, List, Any
 
 from dotenv import load_dotenv
@@ -369,4 +370,20 @@ def get_user_transfer_credits(google_id: str):
             }
             for transfer_credit in transfer_credits
         ]
-    
+
+def add_transcript_info(google_id:str, transcript_json:JSON):
+    """
+    Adds transcript information including courses
+    and transfer credits from JSON to the courses table.
+
+    Args:
+        google_id(str): The Google ID of the account to add transcript information for.
+        transcript(JSON): List of courses and transfer credits in JSON format.
+    """
+    with open(transcript_json) as f:
+        transcript = json.load(f)
+        courses = transcript["courses"]
+        transfer_credits = transcript["transfer_credits"]
+
+        add_courses(google_id, courses)
+        add_transfer_credits(google_id, transfer_credits)
