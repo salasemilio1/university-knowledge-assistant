@@ -31,7 +31,7 @@ from pipeline.router import route
 from pipeline.retriever import retrieve
 from pipeline.answerer import answer
 
-from Backend.user_db import create_user, update_user, get_user_by_id
+from Backend.user_db import create_user, update_user, get_user_by_id, get_user_courses, add_courses
 
 # ── Setup ─────────────────────────────────────────────────────────────────────
 
@@ -130,6 +130,7 @@ async def profile(request:Request):
     if not google_id:
         raise HTTPException(status_code=401, detail="Not authenticated")
     user = get_user_by_id(google_id)
+    # courses = get_user_courses(google_id)
 
     return {
         "name": user.first_name + " " + user.last_name,
@@ -206,20 +207,19 @@ async def users(request:Request):
     user_data["advisor_email"] = form_data["advisor_email"]
     user_data["grad_year"] = form_data["grad_year_custom"] if form_data["grad_year"] == "custom" else form_data["grad_year"]
     
-    courses_json = list(form_data["courses"]) # get courses listed in checkbox
+    courses_list = list(form_data["courses"]) # get courses listed in checkbox
+    courses = {}
+    # Get course list into dictionary
+    for course in courses_list:
+        course_code, name = course.split(" ", 1)
+        courses["name"] = name
+        courses["course_code"] = course_code
+        courses["credits"] = course_code[-1] # Last digit of course code indicates credits
 
-    # get courses listed in custom and extend list
-    custom_courses_raw = form_data["courses_custom"]
-    if custom_courses_raw:
-        custom_courses = [
-            course.strip()
-            for course in custom_courses_raw.split(",")
-            if course.strip()
-        ]
-        courses_json.extend(custom_courses)
-
+  
     # update user data field
-    user_data["courses_json"] = courses_json if courses_json else None
+    user_data["courses_json"] = courses if courses else None
+    
 
     # retrieve currently authed user
     google_id = request.session.get("user_id")
@@ -227,6 +227,10 @@ async def users(request:Request):
         raise HTTPException(status_code=401, detail="Not authenticated.")
     
     update_user(google_id, user_data)
+
+    # TODO: Add manually added course data
+    # add_courses(google_id,courses)
+
 
     return HTMLResponse("<div style='color:#808080;'>Profile saved.</div>")
 
