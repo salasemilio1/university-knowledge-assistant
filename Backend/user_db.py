@@ -245,7 +245,8 @@ Courses Taken: {user_info["courses_json"]}
 """
 
 def get_user_courses(google_id: str):
-    """Returns a specific user's courses taken (pulled from transcript)
+    """
+    Returns a specific user's courses taken (pulled from transcript)
     in a list with a dictionary for each course 
 
     Args:
@@ -324,3 +325,31 @@ def add_transfer_credits(google_id:str, transfer_credits:List[dict[str,Any]]) ->
             session.refresh(transfer_credit)
     return True
 
+def get_user_transfer_credits(google_id: str):
+    """
+    Returns a specific user's transfer credits (pulled from transcript)
+    in a list with a dictionary for each semester/institution transfer credits were earned.
+
+    Args:
+        google_id: The Google ID of the user.
+    Returns:
+        List[Dict[str,Any]]: Transfer credits earned by semester/institution.
+    """
+    with SessionLocal() as session:
+        transfer_credits = (
+            session.query(TransferCredit)
+            .filter(TransferCredit.google_id == google_id)
+            .all()
+        )
+
+        return [
+            {
+                "id": transfer_credit.id,
+                "google_id": transfer_credit.google_id,
+                "semester": transfer_credit.semester,
+                "institution": transfer_credit.institution,
+                "credits": transfer_credit.credits
+            }
+            for transfer_credit in transfer_credits
+        ]
+    
