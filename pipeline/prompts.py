@@ -142,8 +142,7 @@ INSTRUCTIONS:
     * GPA / graduation policy → Registrar's office
     * Financial aid → Financial Aid office
     * Disability accommodations → Student Accessibility Services
-    * Course substitutions / exceptions → Department Chair (Dr. Anthony,
-      anthonyb@southwestern.edu)
+    * Course substitutions / exceptions → Department Chair 
 - If the question involves choosing between B.A. and B.S. and the student
   hasn't specified which, ask them to clarify.
 - Do NOT invent information that is not in the source documents.
