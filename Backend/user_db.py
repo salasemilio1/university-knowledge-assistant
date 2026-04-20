@@ -89,8 +89,6 @@ class TransferCredit(Base):
     # Foreign key to users table (assuming users.id is UUID stored as CHAR(36))
     google_id: Mapped[str] = mapped_column(ForeignKey("users.google_id"), nullable=False, index=True)
 
-    course_name: Mapped[str] = mapped_column(String(255), nullable=False)
-    course_code: Mapped[str] = mapped_column(String(50))
     semester: Mapped[Optional[str]] = mapped_column(String(50))
     institution: Mapped[Optional[str]] = mapped_column(String(50))
     credits: Mapped[Optional[str]] = mapped_column(String(5))
@@ -300,5 +298,29 @@ def add_courses(google_id:str, courses:List[dict[str,Any]]) -> bool:
             session.add(course)
             session.commit()
             session.refresh(course)
+    return True
+
+def add_transfer_credits(google_id:str, transfer_credits:List[dict[str,Any]]) -> bool:
+    """
+    Adds transfer credits from JSON to the courses table.
+
+    Args:
+        google_id(str): The Google ID of the account to add transfer credits for.
+        transfer_credits(List[dict[str,Any]]): List of transfer credits in JSON format.
+    Returns:
+        bool: True if successful
+    """
+
+    with SessionLocal() as session:
+        for t in transfer_credits:
+            transfer_credit = TransferCredit(
+                google_id=google_id,
+                semester=t["semester"],
+                institution=t["institution"],
+                credits=t["credits"]
+            )
+            session.add(transfer_credit)
+            session.commit()
+            session.refresh(transfer_credit)
     return True
 
