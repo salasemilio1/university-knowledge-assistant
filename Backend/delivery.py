@@ -220,18 +220,12 @@ async def users(request:Request):
         course["grade"] = "NA"
         courses.append(course)
 
-  
-    # update user data field
-    # user_data["courses_json"] = courses if courses else None
-    
     # retrieve currently authed user
     google_id = request.session.get("user_id")
     if not google_id:
         raise HTTPException(status_code=401, detail="Not authenticated.")
     
     update_user(google_id, user_data)
-
-    # TODO: Add manually added course data
     add_courses(google_id,courses)
 
 

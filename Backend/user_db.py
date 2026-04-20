@@ -52,7 +52,6 @@ class User(Base):
     advisor_name:Mapped[str | None] = mapped_column(String(200), nullable=True)
     advisor_email:Mapped[str | None] = mapped_column(String(200), nullable=True)
     grad_year:Mapped[str | None] = mapped_column(String(200), nullable=True)
-    courses_json:Mapped[list | None] = mapped_column(JSON, nullable=True)
     courses = relationship(
         "Course",
         back_populates="user",
@@ -215,7 +214,6 @@ def get_user_info(google_id:str):
         "advisor_name": user.advisor_name,
         "advisor_email": user.advisor_email,
         "grad_year": user.grad_year,
-        "courses_json": user.courses_json,
     }
 
 def get_formatted_user_info(google_id: str):
@@ -251,7 +249,7 @@ GPA: {user_info["gpa"]}
 Advisor Name: {user_info["advisor_name"]}
 Advisor Email: {user_info["advisor_email"]}
 Graduation Year: {user_info["grad_year"]}
-Courses Taken: {user_info["courses_json"], su_courses}
+Courses Taken: {su_courses}
 Transfer Credits: {transfer_credits}
 """
 
