@@ -154,6 +154,7 @@ def answer(
     base_path:   str,
     history:     list[dict],
     google_id:   str,
+    llm_client=None
 ) -> str:
     """Generate a cited answer to the student's question.
 
@@ -173,7 +174,7 @@ def answer(
     user_info     = get_formatted_user_info(google_id)
 
     prompt   = answerer_prompt(question, context, history_block)
-    response = generate(prompt, model=MODEL_ANSWERER)
+    response = generate(prompt, model=MODEL_ANSWERER, llm_client=llm_client)
 
     # TODO: Add response quality checks here (e.g. verify citations exist)
     return response
@@ -186,6 +187,7 @@ def stream_answer(
     base_path:   str,
     history:     list[dict],
     google_id:   str,
+    llm_client=None
 ):
     """Yield answer chunks for the student's question (streaming variant of answer).
 
@@ -208,4 +210,4 @@ def stream_answer(
     history_block = format_history(history)
 
     prompt = answerer_prompt(question, context, history_block)
-    yield from generate_stream(prompt, model=MODEL_ANSWERER)
+    yield from generate_stream(prompt, model=MODEL_ANSWERER, llm_client=llm_client)

@@ -74,7 +74,7 @@ def load_registry(base_path: str) -> dict:
 
 # ── Core routing ──────────────────────────────────────────────────────────────
 
-def route(question: str, base_path: str, google_id: str) -> RouteResult:
+def route(question: str, base_path: str, google_id: str, llm_client=None) -> RouteResult:
     """Route a student's question to the right department(s) and classify complexity.
 
     Makes a single LLM call that returns both the relevant department slugs
@@ -100,7 +100,7 @@ def route(question: str, base_path: str, google_id: str) -> RouteResult:
     user_info = get_formatted_user_info(google_id)
 
     prompt = router_prompt(question, registry_json, user_info)
-    raw_response = generate(prompt, model=MODEL_ROUTER)
+    raw_response = generate(prompt, model=MODEL_ROUTER, llm_client=llm_client)
     clean_json_str = extract_json(raw_response)
 
     # Parse the router's JSON response: {"departments": [...], "complexity": "..."}
