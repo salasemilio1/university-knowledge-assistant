@@ -299,6 +299,7 @@
             display: flex;
             flex-direction: column;
             overflow: hidden;
+            min-height: 0;
             /* scroll lives inside #response, not here */
         }
 
@@ -328,6 +329,7 @@
             flex-direction: column;
             gap: 16px;
             overflow: hidden;
+            min-height: 0;
             padding: 24px 24px 0;
             max-width: var(--chat-max-width);
             width: 100%;
@@ -456,6 +458,8 @@
             flex-direction: column;
             gap: 12px;
             padding-bottom: 8px;
+            min-height: 0;
+            overscroll-behavior: contain;
         }
 
         /* Every answer or error is wrapped in .response-block */
@@ -465,6 +469,7 @@
             border-radius: var(--radius);
             line-height: 1.65;
             overflow: hidden;
+            flex-shrink: 0;
             /* keep rounded corners when details is open */
         }
 
@@ -501,8 +506,7 @@
             padding: 14px 20px 16px;
             font-size: 0.95rem;
             border-top: 1px solid var(--border);
-            max-height: 400px;
-            overflow-y: auto;
+            overflow-y: visible;
             /* Styles for rendered markdown content */
             line-height: 1.7;
         }
@@ -761,6 +765,7 @@
             flex: 1;
             flex-direction: column;
             overflow: hidden;
+            min-height: 0;
         }
 
         .page.active {
@@ -782,6 +787,42 @@
 .profile-field input[type="checkbox"] {
     width: auto;
     margin-right: 8px;
+}
+
+.profile-field input[type="file"] {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.profile-field small {
+    display: block;
+    margin-top: 8px;
+    color: var(--muted);
+    line-height: 1.45;
+    text-transform: none;
+    letter-spacing: 0;
+    font-size: 0.84rem;
+}
+
+.profile-file-status {
+    margin-top: 10px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 10px 12px;
+    background: var(--surface-raised);
+    color: var(--muted);
+    font-size: 0.9rem;
+    line-height: 1.45;
+}
+
+.profile-file-status.is-valid {
+    border-color: rgba(74, 222, 128, 0.35);
+    color: #86efac;
+}
+
+.profile-file-status.is-error {
+    border-color: rgba(248, 113, 113, 0.35);
+    color: var(--error);
 }
 
     .profile-field label:has(input[type="checkbox"]) {
@@ -942,7 +983,7 @@
                     <form class="ask-form">
 
                         <div class="input-wrapper">
-                            <textarea id="query" name="query" placeholder="Ask about courses, requirements, faculty…"
+                            <textarea id="query" name="query" placeholder="Ask about courses, requirements, or general university information."
                                 required></textarea>
 
                             <button class="submit-btn" type="submit" title="Send (Enter)">
@@ -1030,6 +1071,8 @@
         hx-post="/users"
         hx-target="#profile-save-status"
         hx-swap="innerHTML"
+        hx-encoding="multipart/form-data"
+        enctype="multipart/form-data"
     >
 
         <div class="profile-card">
@@ -1163,6 +1206,23 @@
 
                 <div id="search-results-list" style="max-height: 300px; overflow-y: auto; display: flex; flex-direction: column;">
                     <!-- Search results here -->
+                </div>
+            </details>
+        </div>
+
+        <div class="profile-card">
+            <details open>
+                <summary>Document Upload</summary>
+
+                <div class="profile-field">
+                    <label for="profile_pdf"> (OPTIONAL) Upload an unofficial transcript. </label>
+                    <input id="profile_pdf" name="profile_pdf" type="file" accept=".pdf,application/pdf">
+                    <small>
+                        This option can be used to autofill your course history and academic info. <br><br><b>Note</b>: Personally identifiable information located at the top of the PDF will be not be used. You may upload an edited PDF with only the relevant academic information if you prefer. 
+                    </small>
+                    <div id="profile-pdf-status" class="profile-file-status" aria-live="polite">
+                        No PDF selected.
+                    </div>
                 </div>
             </details>
         </div>
@@ -1464,6 +1524,12 @@
             }
         });
 
+        document.getElementById('response')?.addEventListener('toggle', function (evt) {
+            if (evt.target.tagName === 'DETAILS' && evt.target.open) {
+                scrollResponsesToBottom();
+            }
+        }, true);
+
         // ── Submit on Enter & Auto-resize ─────────────────────────────
         const textarea = document.getElementById('query');
 
@@ -1690,9 +1756,10 @@
 
             warning.innerHTML = `
                 <div class="response-answer">
-                    ⚠️ <strong>Complete your profile</strong><br>
-                    Please fill out your academic information so I can give you personalized responses.
-                </div>
+                    ⚠️ <strong>Welcome to the University Knowledge Assistant. Please complete your academic profile to receive personalized responses.</strong><br><br><br>
+                    <em><strong>Data Usage & Privacy:</strong> <br><br>Your information, including chat inputs and profile data (form inputs and/or transcript uploads) will be sent to Google Gemini to generate responses. <br><br> Your information is stored and may be viewed by the development team for system functionality and improvement. Conversation history is logged. <br><br> Information retrieved from your Google Account include Google Account ID, email address, first name, and last name.
+                    </em>
+                    </div>
             `;
 
             responseDiv.prepend(warning);
@@ -1931,7 +1998,10 @@ async function loadDepartments() {
     }
 }
 
-    
+loadProfile().then(() => {
+        preventDuplicateAcademicSelections();
+    });
+
 </script>
 </body>
 
