@@ -73,13 +73,13 @@ class Course(Base):
     google_id: Mapped[str] = mapped_column(ForeignKey("users.google_id"), nullable=False, index=True)
 
     name: Mapped[str] = mapped_column(String(255), nullable=False)
-    course_code: Mapped[str] = mapped_column(String(50))
+    code: Mapped[str] = mapped_column(String(50))
     credits: Mapped[str] = mapped_column(String(5))
     grade: Mapped[Optional[str]] = mapped_column(String(5))
     semester: Mapped[Optional[str]] = mapped_column(String(50))
 
     # Don't allow same course in same semester
-    __table_args__ = (UniqueConstraint("google_id","course_code","semester",),)
+    __table_args__ = (UniqueConstraint("google_id","code","semester",),)
 
     # Relationship back to user
     user = relationship("User", back_populates="courses")
@@ -273,7 +273,7 @@ def get_user_courses(google_id: str):
         return [
             {
                 "name": course.name,
-                "course_code": course.course_code,
+                "code": course.code,
                 "credits": course.credits,
                 "grade": course.grade,
                 "semester": course.semester
@@ -296,12 +296,12 @@ def add_courses(google_id:str, courses:List[dict[str,Any]]) -> bool:
     with SessionLocal() as session:
         for c in courses:
             # Check if a record for the same course and semester already exists
-            stmt = select(exists().where(Course.google_id == google_id, Course.course_code == c["course_code"], Course.semester == c["semester"]))
+            stmt = select(exists().where(Course.google_id == google_id, Course.code == c["code"], Course.semester == c["semester"]))
             if not session.scalar(stmt):
                 course = Course(
                     google_id=google_id,
                     name=c["name"],
-                    course_code=c["course_code"],
+                    code=c["code"],
                     credits=c["credits"],
                     grade=c["grade"],
                     semester=c["semester"]
