@@ -7,7 +7,16 @@ from pathlib import Path
 from pipeline.router import route
 from pipeline.answerer import answer
 
+import os
+from dotenv import load_dotenv
+from google import genai
+from google.genai.types import HttpOptions
+from google.oauth2 import service_account
+from pipeline.gemini_client import create_vertex_client
+
 # ── Configuration ─────────────────────────────────────────────────────────────
+
+load_dotenv()
 
 # All paths are relative to the project root (parent of cli/)
 _PROJECT_ROOT = Path(__file__).resolve().parent.parent
@@ -22,7 +31,6 @@ logging.basicConfig(
     format="%(asctime)s  %(levelname)-8s  %(name)s  %(message)s",
     datefmt="%H:%M:%S",
 )
-
 
 # ── Logging ───────────────────────────────────────────────────────────────────
 
@@ -101,6 +109,8 @@ def retrieve_response(query: str = None) -> str:
     # Mock google_id for CLI usage
     MOCK_GOOGLE_ID = "cli-user"
 
+    llm_client = create_vertex_client()
+
     while True:
         user_input = query
         if not user_input: # if query passed in via frontend, will be set. otherwise, running as CLI
@@ -128,7 +138,7 @@ def retrieve_response(query: str = None) -> str:
         # Phase 1 — Route and Classify
         print("\n  [1/2] Routing and classifying query...")
         try:
-            route_result = route(user_input, KNOWLEDGE_BASE_PATH, MOCK_GOOGLE_ID)
+            route_result = route(user_input, KNOWLEDGE_BASE_PATH, MOCK_GOOGLE_ID, llm_client=llm_client)
             major_names = ", ".join(route_result.departments)
             print(f"        → Routed to: {major_names} (Complexity: {route_result.complexity})")
         except Exception as exc:
@@ -145,7 +155,8 @@ def retrieve_response(query: str = None) -> str:
                 complexity=route_result.complexity,
                 base_path=KNOWLEDGE_BASE_PATH,
                 history=history,
-                google_id=MOCK_GOOGLE_ID
+                google_id=MOCK_GOOGLE_ID,
+                llm_client=llm_client
             )
         except Exception as exc:
             print(f"\n  ✖ Answer generation failed: {exc}\n")
