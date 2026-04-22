@@ -1453,7 +1453,6 @@
                     </details>
                 </div>
             `);
-            responseDiv.scrollTop = responseDiv.scrollHeight;
 
             // -- Reset input --
             ta.value = '';
@@ -1488,7 +1487,6 @@
                 }
 
                 textEl.textContent += charQueue.shift();
-                responseDiv.scrollTop = responseDiv.scrollHeight;
             }, CHAR_INTERVAL_MS);
 
             try {
