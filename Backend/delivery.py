@@ -223,11 +223,11 @@ async def users(request:Request):
     courses = []
     # Get course list into list of dictionaries
     for c in courses_list:
-        course_code, name = c.split(" ", 1)
+        code, name = c.split(" ", 1)
         course = {}
         course["name"] = name
-        course["course_code"] = course_code
-        course["credits"] = course_code[-1] # Last digit of course code indicates credits
+        course["code"] = code
+        course["credits"] = code[-1] # Last digit of course code indicates credits
         course["semester"] = "NA"
         course["grade"] = "NA"
         courses.append(course)
