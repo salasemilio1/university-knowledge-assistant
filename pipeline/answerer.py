@@ -172,8 +172,7 @@ def answer(
     context       = load_context(departments, complexity, base_path)
     history_block = format_history(history)
     user_info     = get_formatted_user_info(google_id)
-
-    prompt   = answerer_prompt(question, context, history_block)
+    prompt        = answerer_prompt(question, context, history_block, profile=user_info)
     response = generate(prompt, model=MODEL_ANSWERER, llm_client=llm_client)
 
     # TODO: Add response quality checks here (e.g. verify citations exist)
@@ -208,6 +207,6 @@ def stream_answer(
     """
     context       = load_context(departments, complexity, base_path)
     history_block = format_history(history)
-
-    prompt = answerer_prompt(question, context, history_block)
+    user_info     = get_formatted_user_info(google_id)
+    prompt        = answerer_prompt(question, context, history_block, profile=user_info)
     yield from generate_stream(prompt, model=MODEL_ANSWERER, llm_client=llm_client)

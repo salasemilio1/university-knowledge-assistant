@@ -32,7 +32,7 @@ from google.auth.transport import requests
 from pipeline.router import route
 from pipeline.answerer import answer, stream_answer
 
-from Backend.user_db import create_user, update_user, get_user_by_id, get_user_courses, add_courses
+from Backend.user_db import create_user, update_user, get_user_by_id, get_user_courses, get_user_transfer_credits, add_courses, add_transcript_info
 
 # ── Setup ─────────────────────────────────────────────────────────────────────
 
@@ -145,6 +145,7 @@ async def profile(request:Request):
         raise HTTPException(status_code=401, detail="Not authenticated")
     user = get_user_by_id(google_id)
     courses = get_user_courses(google_id)
+    transfer = get_user_transfer_credits(google_id)
 
     return {
         "name": user.first_name + " " + user.last_name,
@@ -160,7 +161,8 @@ async def profile(request:Request):
         "advisor_name": user.advisor_name,
         "advisor_email": user.advisor_email,
         "grad_year": user.grad_year,
-        "courses": courses
+        "courses": courses,
+        "transfer_credits": transfer
     }
 
 @app.post("/sign-out")
@@ -251,7 +253,9 @@ async def upload_transcript(request: Request, file: UploadFile = File(...)):
     Handles a single cropped transcript page image upload, processes it using
     LandingAI's extraction, and stores the results.
     """
-    google_id = request.session.get("user_id", "guest")
+    google_id = request.session.get("user_id")
+    if not google_id:
+        raise HTTPException(status_code=401, detail="Authentication required.")
     
     # 1. Validate file
     if not file.content_type.startswith("image/"):
@@ -325,13 +329,35 @@ async def upload_transcript(request: Request, file: UploadFile = File(...)):
         missing_keys = schema_keys - extracted_keys
         extra_keys = extracted_keys - schema_keys
         if missing_keys or extra_keys:
-            logging.warning(f"Extraction mismatch: Missing {missing_keys}, Extra {extra_keys}")
-            
-        return {"message": "Processing complete", "result_file": str(result_path.name)}
-        
+            logging.warning(f"Extraction mismatch for user {google_id}: Missing {missing_keys}, Extra {extra_keys}")
+
+        # 7. Store in Database
+        db_success = False
+        try:
+            # add_transcript_info is synchronous, so we run it in a threadpool
+            await run_in_threadpool(add_transcript_info, google_id, extracted)
+            db_success = True
+        except Exception as db_exc:
+            logging.error("Database storage failed for user %s: %s", google_id, db_exc)
+
+        if not db_success:
+            return HTMLResponse(
+                content="<div style='color: #FFA500;'>Transcript processed successfully, but database update failed. Results saved to extraction directory.</div>",
+                status_code=200
+            )
+
+        return HTMLResponse(
+            content="<div style='color: #4CAF50;'>Transcript upload complete!</div>", 
+            status_code=200,
+            headers={"HX-Trigger": "transcriptUploaded"}
+        )
+
     except Exception as exc:
         logging.error("Transcript processing failed: %s", exc)
-        raise HTTPException(status_code=500, detail=f"Processing failed: {str(exc)}")
+        return HTMLResponse(
+            content=f"<div style='color: #F44336;'>Processing failed: {str(exc)}</div>",
+            status_code=500
+        )
 
 @app.post("/ask", response_class=HTMLResponse)
 async def ask(request: Request, query: str = Form(...)):

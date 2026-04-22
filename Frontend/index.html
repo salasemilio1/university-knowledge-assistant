@@ -1217,6 +1217,19 @@
 
         <div class="profile-card">
             <details open>
+                <summary>Transfer Credits</summary>
+
+                <div class="profile-field">
+                    <label>Recognized Transfer Credits</label>
+                    <div id="transfer-credits-list" style="margin-bottom: 16px; display: flex; flex-direction: column;">
+                        <!-- Transfer credits will appear here -->
+                    </div>
+                </div>
+            </details>
+        </div>
+
+        <div class="profile-card">
+            <details open>
                 <summary>Document Upload</summary>
 
                 <div class="profile-field">
@@ -1682,6 +1695,12 @@
         syncAcademicVisibility();
     });
 
+    // ── HTMX Event Listeners ──────────────────────────────────────────
+    document.body.addEventListener('transcriptUploaded', function() {
+        console.log("Transcript upload detected via HTMX trigger. Refreshing profile...");
+        loadProfile();
+    });
+
     // Run initial sync after profile loads
     loadDepartments().then(() => {
         loadProfile().then(() => {
@@ -1793,6 +1812,22 @@
 
         // Courses logic
         selectedCourses = new Set(data.courses || []);
+        
+        // Transfer Credits logic
+        const transferList = document.getElementById("transfer-credits-list");
+        if (transferList) {
+            transferList.innerHTML = "";
+            (data.transfer_credits || []).forEach(t => {
+                const item = document.createElement("div");
+                item.className = "selected-course-pill";
+                item.style.marginBottom = "4px";
+                item.innerHTML = `<span>${t.semester}: ${t.institution} (${t.credits} credits)</span>`;
+                transferList.appendChild(item);
+            });
+            if (transferList.innerHTML === "") {
+                transferList.innerHTML = '<span style="color:var(--muted);font-style:italic;">No transfer credits recorded.</span>';
+            }
+        }
         
         // If we haven't loaded courses yet, do it now
         if (allCourses.length === 0) {
