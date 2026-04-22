@@ -10,6 +10,11 @@
     <script src="https://unpkg.com/htmx.org@1.9.10"></script>
     <!-- marked.js renders markdown in LLM responses -->
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    
+    <!-- pdf.js for client-side transcript parsing and cropping -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+    <!-- Our custom script for transcript cropping & upload -->
+    <script src="/static/js/transcript-upload.js" defer></script>
 
     <style>
         /* ── Design tokens — Southwestern University brand ─────────── */
@@ -1216,7 +1221,7 @@
 
                 <div class="profile-field">
                     <label for="profile_pdf"> (OPTIONAL) Upload an unofficial transcript. </label>
-                    <input id="profile_pdf" name="profile_pdf" type="file" accept=".pdf,application/pdf">
+                    <input id="profile_pdf" type="file" accept=".pdf,application/pdf">
                     <small>
                         This option can be used to autofill your course history and academic info. <br><br><b>Note</b>: Personally identifiable information located at the top of the PDF will be not be used. You may upload an edited PDF with only the relevant academic information if you prefer. 
                     </small>

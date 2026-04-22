@@ -18,11 +18,13 @@ from pathlib import Path
 import os
 from dotenv import load_dotenv
 
-from fastapi import FastAPI, Form, Request, Response, HTTPException
+from fastapi import FastAPI, Form, Request, Response, HTTPException, UploadFile, File
 from fastapi.responses import FileResponse, HTMLResponse, RedirectResponse, StreamingResponse
 from fastapi.staticfiles import StaticFiles
 from starlette.concurrency import run_in_threadpool
 from starlette.middleware.sessions import SessionMiddleware
+
+import shutil
 
 from google.oauth2 import id_token
 from google.auth.transport import requests
@@ -242,6 +244,94 @@ async def users(request:Request):
 
 
     return HTMLResponse("<div style='color:#808080;'>Profile saved.</div>")
+
+@app.post("/api/transcript/upload")
+async def upload_transcript(request: Request, file: UploadFile = File(...)):
+    """
+    Handles a single cropped transcript page image upload, processes it using
+    LandingAI's extraction, and stores the results.
+    """
+    google_id = request.session.get("user_id", "guest")
+    
+    # 1. Validate file
+    if not file.content_type.startswith("image/"):
+        raise HTTPException(status_code=400, detail="Uploaded file must be an image.")
+
+    try:
+        # Create extraction_results directory if it doesn't exist
+        extraction_dir = _PROJECT_ROOT / "extraction_results"
+        extraction_dir.mkdir(exist_ok=True)
+        
+        # Save temp image
+        timestamp = int(time.time())
+        temp_img_path = extraction_dir / f"temp_{google_id}_{timestamp}.jpg"
+        with open(temp_img_path, "wb") as buffer:
+            shutil.copyfileobj(file.file, buffer)
+            
+        # 2. Instantiate LandingAIADE
+        if not os.environ.get("VISION_AGENT_API_KEY"):
+            from dotenv import load_dotenv
+            load_dotenv(override=True)
+            if not os.environ.get("VISION_AGENT_API_KEY"):
+                raise Exception("VISION_AGENT_API_KEY is not set.")
+            
+        from landingai_ade import LandingAIADE
+        client = LandingAIADE()
+        
+        # 3. Load schema
+        schema_path = _PROJECT_ROOT / "knowledge_base" / "schema-v1.json"
+        if not schema_path.exists():
+            raise Exception("Schema file not found.")
+            
+        with open(schema_path, "r", encoding="utf-8") as f:
+            schema_data = json.load(f)
+            
+        # 4. Parse document
+        parse_response = await run_in_threadpool(
+            client.parse,
+            document=temp_img_path,
+            model="dpt-2-mini"
+        )
+        
+        # Save markdown to temp file for extract method
+        temp_md_path = extraction_dir / f"temp_{google_id}_{timestamp}.md"
+        with open(temp_md_path, "w", encoding="utf-8") as f:
+            f.write(parse_response.markdown)
+            
+        # 5. Extract using schema
+        extract_response = await run_in_threadpool(
+            client.extract,
+            markdown=temp_md_path,
+            schema=json.dumps(schema_data),
+            model="extract-20260314"
+        )
+        extracted = extract_response.extraction
+        
+        # 6. Save final JSON result
+        result_path = extraction_dir / f"result_{google_id}_{timestamp}.json"
+        with open(result_path, "w", encoding="utf-8") as f:
+            json.dump(extracted, f, indent=2)
+            
+        # Clean up temp files
+        if temp_img_path.exists():
+            temp_img_path.unlink()
+        if temp_md_path.exists():
+            temp_md_path.unlink()
+            
+        # Verification Step: Assert keys match schema top-level keys
+        # The schema uses "properties" for its top-level fields
+        schema_keys = set(schema_data.get("properties", {}).keys())
+        extracted_keys = set(extracted.keys())
+        missing_keys = schema_keys - extracted_keys
+        extra_keys = extracted_keys - schema_keys
+        if missing_keys or extra_keys:
+            logging.warning(f"Extraction mismatch: Missing {missing_keys}, Extra {extra_keys}")
+            
+        return {"message": "Processing complete", "result_file": str(result_path.name)}
+        
+    except Exception as exc:
+        logging.error("Transcript processing failed: %s", exc)
+        raise HTTPException(status_code=500, detail=f"Processing failed: {str(exc)}")
 
 @app.post("/ask", response_class=HTMLResponse)
 async def ask(request: Request, query: str = Form(...)):
