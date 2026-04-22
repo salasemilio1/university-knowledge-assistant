@@ -262,16 +262,13 @@ async def upload_transcript(request: Request, file: UploadFile = File(...)):
         raise HTTPException(status_code=400, detail="Uploaded file must be an image.")
 
     try:
-        # Create extraction_results directory if it doesn't exist
-        extraction_dir = _PROJECT_ROOT / "extraction_results"
-        extraction_dir.mkdir(exist_ok=True)
-        
-        # Save temp image
+        import tempfile
+        import time
+        import shutil
+
         timestamp = int(time.time())
-        temp_img_path = extraction_dir / f"temp_{google_id}_{timestamp}.jpg"
-        with open(temp_img_path, "wb") as buffer:
-            shutil.copyfileobj(file.file, buffer)
-            
+        debug_save = os.environ.get("DEBUG_SAVE_EXTRACTIONS", "").lower() == "true"
+
         # 2. Instantiate LandingAIADE
         if not os.environ.get("VISION_AGENT_API_KEY"):
             from dotenv import load_dotenv
@@ -289,39 +286,46 @@ async def upload_transcript(request: Request, file: UploadFile = File(...)):
             
         with open(schema_path, "r", encoding="utf-8") as f:
             schema_data = json.load(f)
+
+        # Use tempfile.TemporaryDirectory to ensure automatic cleanup of temp files
+        with tempfile.TemporaryDirectory() as tmpdirname:
+            temp_img_path = Path(tmpdirname) / f"temp_{google_id}_{timestamp}.jpg"
             
-        # 4. Parse document
-        parse_response = await run_in_threadpool(
-            client.parse,
-            document=temp_img_path,
-            model="dpt-2-mini"
-        )
-        
-        # Save markdown to temp file for extract method
-        temp_md_path = extraction_dir / f"temp_{google_id}_{timestamp}.md"
-        with open(temp_md_path, "w", encoding="utf-8") as f:
-            f.write(parse_response.markdown)
+            # Save temp image
+            with open(temp_img_path, "wb") as buffer:
+                shutil.copyfileobj(file.file, buffer)
+                
+            # 4. Parse document
+            parse_response = await run_in_threadpool(
+                client.parse,
+                document=str(temp_img_path),
+                model="dpt-2-mini"
+            )
             
-        # 5. Extract using schema
-        extract_response = await run_in_threadpool(
-            client.extract,
-            markdown=temp_md_path,
-            schema=json.dumps(schema_data),
-            model="extract-20260314"
-        )
-        extracted = extract_response.extraction
-        
-        # 6. Save final JSON result
-        result_path = extraction_dir / f"result_{google_id}_{timestamp}.json"
-        with open(result_path, "w", encoding="utf-8") as f:
-            json.dump(extracted, f, indent=2)
+            # Save markdown to temp file for extract method
+            temp_md_path = Path(tmpdirname) / f"temp_{google_id}_{timestamp}.md"
+            with open(temp_md_path, "w", encoding="utf-8") as f:
+                f.write(parse_response.markdown)
+                
+            # 5. Extract using schema
+            extract_response = await run_in_threadpool(
+                client.extract,
+                markdown=str(temp_md_path),
+                schema=json.dumps(schema_data),
+                model="extract-20260314"
+            )
+            extracted = extract_response.extraction
             
-        # Clean up temp files
-        if temp_img_path.exists():
-            temp_img_path.unlink()
-        if temp_md_path.exists():
-            temp_md_path.unlink()
-            
+            # If debug mode is enabled, save everything to extraction_results/
+            if debug_save:
+                extraction_dir = _PROJECT_ROOT / "extraction_results"
+                extraction_dir.mkdir(exist_ok=True)
+                shutil.copy(temp_img_path, extraction_dir)
+                shutil.copy(temp_md_path, extraction_dir)
+                result_path = extraction_dir / f"result_{google_id}_{timestamp}.json"
+                with open(result_path, "w", encoding="utf-8") as f:
+                    json.dump(extracted, f, indent=2)
+                    
         # Verification Step: Assert keys match schema top-level keys
         # The schema uses "properties" for its top-level fields
         schema_keys = set(schema_data.get("properties", {}).keys())
@@ -342,7 +346,7 @@ async def upload_transcript(request: Request, file: UploadFile = File(...)):
 
         if not db_success:
             return HTMLResponse(
-                content="<div style='color: #FFA500;'>Transcript processed successfully, but database update failed. Results saved to extraction directory.</div>",
+                content="<div style='color: #FFA500;'>Transcript processed successfully, but database update failed.</div>",
                 status_code=200
             )
 
