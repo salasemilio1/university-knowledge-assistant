@@ -208,7 +208,9 @@ def get_user_info(google_id:str):
     return {
         "name": user.first_name + " " + user.last_name,
         "major": user.major,
+        "major_degree_type": user.major_degree_type,
         "second_major": user.second_major,
+        "second_major_degree_type": user.second_major_degree_type,
         "minor": user.minor,
         "second_minor": user.second_minor,
         "gpa": user.gpa,
@@ -232,7 +234,7 @@ def get_formatted_user_info(google_id: str):
 
     second_major_text = ""
     if user_info.get("second_major"):
-        second_major_text = f"""\nSecond Major: {user_info["second_major"]}"""
+        second_major_text = f"""\nSecond Major: {user_info["second_major"]} ({user_info["second_major_degree_type"]})"""
 
     minor_text = ""
     if user_info.get("minor"):
@@ -257,7 +259,7 @@ def get_formatted_user_info(google_id: str):
 
     return f"""\
 Name: {user_info["name"]}
-Major: {user_info["major"]}{second_major_text}{minor_text}{second_minor_text}
+Major: {user_info["major"]} ({user_info["major_degree_type"]}){second_major_text}{minor_text}{second_minor_text}
 GPA: {user_info["gpa"]}
 Advisor Name: {user_info["advisor_name"]}
 Advisor Email: {user_info["advisor_email"]}
@@ -405,3 +407,9 @@ def add_transcript_info(google_id: str, transcript: dict):
 
     add_courses(google_id, courses)
     add_transfer_credits(google_id, transfer_credits)
+
+def main():
+    print(get_formatted_user_info("105756527656204148979"))
+
+if __name__ == "__main__":
+    main()
