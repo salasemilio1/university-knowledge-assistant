@@ -248,7 +248,7 @@ def get_formatted_user_info(google_id: str):
     # Format courses as a bulleted list for the LLM
     courses_lines = []
     for c in su_courses:
-        courses_lines.append(f"- {c['semester']}: {c['code']} {c['name']} ({c['credits']} credits, Grade: {c['grade']})")
+        courses_lines.append(f"- {(c['semester'] + ': ') if c['semester'] != 'NA' else ''}{c['code']} {c['name']} ({c['credits']} credits, Grade: {c['grade']})")
     courses_text = "\n".join(courses_lines) if courses_lines else "None recorded."
 
     # Format transfer credits as a bulleted list
