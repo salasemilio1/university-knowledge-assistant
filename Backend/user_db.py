@@ -6,7 +6,7 @@ This script serves to manage most things related to user configuration with SQLA
 
 from sqlalchemy.orm import DeclarativeBase
 from sqlalchemy.orm import Mapped, mapped_column, relationship, sessionmaker, Session
-from sqlalchemy import create_engine, select, exists, String, Boolean, JSON, Integer, ForeignKey, UniqueConstraint
+from sqlalchemy import create_engine, select, exists, delete, String, Boolean, JSON, Integer, ForeignKey, UniqueConstraint
 from sqlalchemy.exc import IntegrityError
 import json
 from typing import Optional, List, Any
@@ -303,7 +303,7 @@ def get_user_courses(google_id: str):
         ]
     
 
-def add_courses(google_id:str, courses:List[dict[str,Any]]) -> bool:
+def add_courses(google_id:str, courses:List[dict[str,Any]], is_from_transcript=False) -> bool:
     """
     Adds courses from JSON to the courses table.
 
@@ -315,6 +315,10 @@ def add_courses(google_id:str, courses:List[dict[str,Any]]) -> bool:
     """
 
     with SessionLocal() as session:
+        if not is_from_transcript:
+            stmt = delete(Course).where(Course.semester == "NA")
+            session.execute(stmt)
+            
         for c in courses:
             # Check if a record for the same course and semester already exists
             stmt = select(exists().where(Course.google_id == google_id, Course.code == c["code"], Course.semester == c["semester"]))
@@ -330,10 +334,11 @@ def add_courses(google_id:str, courses:List[dict[str,Any]]) -> bool:
                 )
                 try:
                     session.add(course)
-                    session.commit()
-                    session.refresh(course)
                 except IntegrityError:
                     session.rollback()
+                    
+        session.commit()
+        session.refresh(course)
     return True
 
 def add_transfer_credits(google_id:str, transfer_credits:List[dict[str,Any]]) -> bool:
@@ -407,3 +412,8 @@ def add_transcript_info(google_id: str, transcript: dict):
 
     add_courses(google_id, courses)
     add_transfer_credits(google_id, transfer_credits)
+
+def main():
+    add_courses("105756527656204148979", [{"code": "ABC123", "name": "placeholder", "credits": "4", "grade": "A", "semester": "placeholder"}])
+if __name__ == "__main__":
+    main()

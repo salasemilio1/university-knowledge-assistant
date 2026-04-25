@@ -339,7 +339,7 @@ async def upload_transcript(request: Request, file: UploadFile = File(...)):
         db_success = False
         try:
             # add_transcript_info is synchronous, so we run it in a threadpool
-            await run_in_threadpool(add_transcript_info, google_id, extracted)
+            await run_in_threadpool(add_transcript_info, google_id, extracted, is_from_transcript=True)
             db_success = True
         except Exception as db_exc:
             logging.error("Database storage failed for user %s: %s", google_id, db_exc)
