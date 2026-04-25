@@ -407,9 +407,3 @@ def add_transcript_info(google_id: str, transcript: dict):
 
     add_courses(google_id, courses)
     add_transfer_credits(google_id, transfer_credits)
-
-def main():
-    print(get_formatted_user_info("105756527656204148979"))
-
-if __name__ == "__main__":
-    main()
