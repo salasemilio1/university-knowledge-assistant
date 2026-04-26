@@ -86,8 +86,9 @@
             font-family: system-ui, -apple-system, sans-serif;
             background: var(--bg);
             color: var(--text);
-            height: 100vh;
-            overflow: hidden;
+            min-height: 100dvh;
+            overflow-x: hidden;
+            overflow-y: auto;
         }
 
         /* ── App shell — the top-level grid ─────────────────────────── */
@@ -581,7 +582,7 @@
             max-width: var(--chat-max-width);
             margin: 0 auto;
             /* centre to match <main> above */
-            padding: 16px 24px;
+            padding: 16px 24px calc(16px + env(safe-area-inset-bottom));
             border-top: 1px solid var(--border);
         }
 
@@ -769,7 +770,7 @@
             display: none;
             flex: 1;
             flex-direction: column;
-            overflow: hidden;
+            overflow-y: auto;
             min-height: 0;
         }
 
@@ -982,6 +983,19 @@
             padding-left: 14px;
             padding-right: 14px;
         }
+        }
+
+        #page-profile {
+            overflow-y: auto;
+        }
+
+        .profile-tab-panel {
+            overflow-y: auto;
+            min-height: 0;
+        }
+
+        .profile-card:last-child {
+            margin-bottom: 80px;
         }
 
     </style>
