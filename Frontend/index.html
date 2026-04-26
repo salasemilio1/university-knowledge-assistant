@@ -1449,6 +1449,10 @@
         document.querySelectorAll('.nav-btn[data-page]').forEach(function (btn) {
             btn.addEventListener('click', function () {
                 navigateTo(btn.dataset.page);
+                const isMobile = window.matchMedia("(max-width: 768px)").matches;
+                if (isMobile) {
+                    setSidebar(true);
+                }
             });
         });
 
