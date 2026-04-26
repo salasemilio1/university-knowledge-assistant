@@ -905,6 +905,80 @@
         border-bottom: none;
     }
 
+    @media (max-width: 768px) {
+        body {
+            height: 100dvh;
+            overflow: hidden;
+        }
+
+        #app-shell {
+            grid-template-columns: 1fr;
+        }
+
+        #sidebar {
+            position: fixed;
+            inset: 0 auto 0 0;
+            width: var(--sidebar-width);
+            max-width: 85vw;
+            z-index: 50;
+            transform: translateX(0);
+            transition: transform 0.25s ease;
+        }
+
+        #app-shell.sidebar-collapsed #sidebar {
+            transform: translateX(-100%);
+        }
+
+        #app-shell.sidebar-collapsed {
+            grid-template-columns: 1fr;
+        }
+
+        #chat-column {
+            width: 100%;
+            min-width: 0;
+        }
+
+        header {
+            padding: 24px 16px 0;
+        }
+
+        header h1 {
+            font-size: 1.35rem;
+        }
+
+        main {
+            padding: 16px 12px 0;
+        }
+
+        .input-bar {
+            padding: 12px;
+        }
+
+        .profile-tab-bar {
+            overflow-x: auto;
+            padding: 8px 12px 0;
+        }
+
+        .profile-tab-btn {
+            white-space: nowrap;
+        }
+
+        .profile-tab-panel {
+            padding: 16px 12px;
+        }
+
+        .profile-card {
+            padding: 16px;
+            max-width: 100%;
+        }
+
+        .response-block summary,
+        .response-answer {
+            padding-left: 14px;
+            padding-right: 14px;
+        }
+        }
+
     </style>
 </head>
 
@@ -1360,7 +1434,9 @@
         }
 
         // Restore preference on load
-        setSidebar(localStorage.getItem(STORAGE_KEY) === '1');
+        const isMobile = window.matchMedia("(max-width: 768px)").matches;
+        const savedSidebarState = localStorage.getItem(STORAGE_KEY);
+        setSidebar(savedSidebarState === '1' || (savedSidebarState === null && isMobile));
 
         btnClose.addEventListener('click', () => setSidebar(true));
         btnOpen.addEventListener('click', () => setSidebar(false));
