@@ -6,7 +6,7 @@ This script serves to manage most things related to user configuration with SQLA
 
 from sqlalchemy.orm import DeclarativeBase
 from sqlalchemy.orm import Mapped, mapped_column, relationship, sessionmaker, Session
-from sqlalchemy import create_engine, select, exists, String, Boolean, JSON, Integer, ForeignKey, UniqueConstraint
+from sqlalchemy import create_engine, select, exists, delete, String, Boolean, JSON, Integer, ForeignKey, UniqueConstraint
 from sqlalchemy.exc import IntegrityError
 import json
 from typing import Optional, List, Any
@@ -208,7 +208,9 @@ def get_user_info(google_id:str):
     return {
         "name": user.first_name + " " + user.last_name,
         "major": user.major,
+        "major_degree_type": user.major_degree_type,
         "second_major": user.second_major,
+        "second_major_degree_type": user.second_major_degree_type,
         "minor": user.minor,
         "second_minor": user.second_minor,
         "gpa": user.gpa,
@@ -232,7 +234,7 @@ def get_formatted_user_info(google_id: str):
 
     second_major_text = ""
     if user_info.get("second_major"):
-        second_major_text = f"""\nSecond Major: {user_info["second_major"]}"""
+        second_major_text = f"""\nSecond Major: {user_info["second_major"]} ({user_info["second_major_degree_type"]})"""
 
     minor_text = ""
     if user_info.get("minor"):
@@ -243,15 +245,33 @@ def get_formatted_user_info(google_id: str):
         second_minor_text = f"""\nSecond Minor: {user_info["second_minor"]}"""
 
 
+    # Format courses as a bulleted list for the LLM
+    courses_lines = []
+    for c in su_courses:
+        courses_lines.append(f"- {(c['semester'] + ': ') if c['semester'] != 'NA' else ''}{c['code']} {c['name']} ({c['credits']} credits, Grade: {c['grade']})")
+    courses_text = "\n".join(courses_lines) if courses_lines else "None recorded."
+
+    # Format transfer credits as a bulleted list
+    transfer_lines = []
+    for t in transfer_credits:
+        transfer_lines.append(f"- {t['semester']}: {t['institution']} ({t['credits']} credits)")
+    transfer_text = "\n".join(transfer_lines) if transfer_lines else "None recorded."
+
     return f"""\
 Name: {user_info["name"]}
-Major: {user_info["major"]}{second_major_text}{minor_text}{second_minor_text}
+Major: {user_info["major"]} ({user_info["major_degree_type"]}){second_major_text}{minor_text}{second_minor_text}
 GPA: {user_info["gpa"]}
 Advisor Name: {user_info["advisor_name"]}
 Advisor Email: {user_info["advisor_email"]}
 Graduation Year: {user_info["grad_year"]}
-Courses Taken: {su_courses}
-Transfer Credits: {transfer_credits}
+
+=== ACADEMIC RECORD ===
+COURSES TAKEN:
+{courses_text}
+
+TRANSFER CREDITS:
+{transfer_text}
+=== END ACADEMIC RECORD ===
 """
 
 def get_user_courses(google_id: str):
@@ -283,7 +303,7 @@ def get_user_courses(google_id: str):
         ]
     
 
-def add_courses(google_id:str, courses:List[dict[str,Any]]) -> bool:
+def add_courses(google_id:str, courses:List[dict[str,Any]], is_from_transcript=False) -> bool:
     """
     Adds courses from JSON to the courses table.
 
@@ -295,6 +315,10 @@ def add_courses(google_id:str, courses:List[dict[str,Any]]) -> bool:
     """
 
     with SessionLocal() as session:
+        if not is_from_transcript:
+            stmt = delete(Course).where(Course.semester == "NA")
+            session.execute(stmt)
+            
         for c in courses:
             # Check if a record for the same course and semester already exists
             stmt = select(exists().where(Course.google_id == google_id, Course.code == c["code"], Course.semester == c["semester"]))
@@ -303,16 +327,18 @@ def add_courses(google_id:str, courses:List[dict[str,Any]]) -> bool:
                     google_id=google_id,
                     name=c["name"],
                     code=c["code"],
-                    credits=c["credits"],
+                    # Explicitly cast credits to string for DB compatibility.
+                    credits=str(c["credits"]),
                     grade=c["grade"],
                     semester=c["semester"]
                 )
                 try:
                     session.add(course)
-                    session.commit()
-                    session.refresh(course)
                 except IntegrityError:
                     session.rollback()
+                    
+        session.commit()
+        session.refresh(course)
     return True
 
 def add_transfer_credits(google_id:str, transfer_credits:List[dict[str,Any]]) -> bool:
@@ -335,7 +361,8 @@ def add_transfer_credits(google_id:str, transfer_credits:List[dict[str,Any]]) ->
                     google_id=google_id,
                     semester=t["semester"],
                     institution=t["institution"],
-                    credits=t["credits"]
+                    # Explicitly cast credits to string for DB compatibility.
+                    credits=str(t["credits"])
                 )
                 try:
                     session.add(transfer_credit)
@@ -371,19 +398,22 @@ def get_user_transfer_credits(google_id: str):
             for transfer_credit in transfer_credits
         ]
 
-def add_transcript_info(google_id:str, transcript_json:JSON):
+def add_transcript_info(google_id: str, transcript: dict):
     """
     Adds transcript information including courses
-    and transfer credits from JSON to the courses table.
+    and transfer credits from a JSON-derived dictionary.
 
     Args:
         google_id(str): The Google ID of the account to add transcript information for.
-        transcript(JSON): List of courses and transfer credits in JSON format.
+        transcript(dict): Dictionary containing 'courses' and 'transfer_credits'.
     """
-    with open(transcript_json) as f:
-        transcript = json.load(f)
-        courses = transcript["courses"]
-        transfer_credits = transcript["transfer_credits"]
+    courses = transcript.get("courses", [])
+    transfer_credits = transcript.get("transfer_credits", [])
 
-        add_courses(google_id, courses)
-        add_transfer_credits(google_id, transfer_credits)
+    add_courses(google_id, courses)
+    add_transfer_credits(google_id, transfer_credits)
+
+def main():
+    add_courses("105756527656204148979", [{"code": "ABC123", "name": "placeholder", "credits": "4", "grade": "A", "semester": "placeholder"}])
+if __name__ == "__main__":
+    main()

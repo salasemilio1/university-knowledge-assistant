@@ -18,11 +18,13 @@ from pathlib import Path
 import os
 from dotenv import load_dotenv
 
-from fastapi import FastAPI, Form, Request, Response, HTTPException
+from fastapi import FastAPI, Form, Request, Response, HTTPException, UploadFile, File
 from fastapi.responses import FileResponse, HTMLResponse, RedirectResponse, StreamingResponse
 from fastapi.staticfiles import StaticFiles
 from starlette.concurrency import run_in_threadpool
 from starlette.middleware.sessions import SessionMiddleware
+
+import shutil
 
 from google.oauth2 import id_token
 from google.auth.transport import requests
@@ -30,7 +32,7 @@ from google.auth.transport import requests
 from pipeline.router import route
 from pipeline.answerer import answer, stream_answer
 
-from Backend.user_db import create_user, update_user, get_user_by_id, get_user_courses, add_courses
+from Backend.user_db import create_user, update_user, get_user_by_id, get_user_courses, get_user_transfer_credits, add_courses, add_transcript_info
 
 # ── Setup ─────────────────────────────────────────────────────────────────────
 
@@ -143,6 +145,7 @@ async def profile(request:Request):
         raise HTTPException(status_code=401, detail="Not authenticated")
     user = get_user_by_id(google_id)
     courses = get_user_courses(google_id)
+    transfer = get_user_transfer_credits(google_id)
 
     return {
         "name": user.first_name + " " + user.last_name,
@@ -158,7 +161,8 @@ async def profile(request:Request):
         "advisor_name": user.advisor_name,
         "advisor_email": user.advisor_email,
         "grad_year": user.grad_year,
-        "courses": courses
+        "courses": courses,
+        "transfer_credits": transfer
     }
 
 @app.post("/sign-out")
@@ -242,6 +246,122 @@ async def users(request:Request):
 
 
     return HTMLResponse("<div style='color:#808080;'>Profile saved.</div>")
+
+@app.post("/api/transcript/upload")
+async def upload_transcript(request: Request, file: UploadFile = File(...)):
+    """
+    Handles a single cropped transcript page image upload, processes it using
+    LandingAI's extraction, and stores the results.
+    """
+    google_id = request.session.get("user_id")
+    if not google_id:
+        raise HTTPException(status_code=401, detail="Authentication required.")
+    
+    # 1. Validate file
+    if not file.content_type.startswith("image/"):
+        raise HTTPException(status_code=400, detail="Uploaded file must be an image.")
+
+    try:
+        import tempfile
+        import time
+        import shutil
+
+        timestamp = int(time.time())
+        debug_save = os.environ.get("DEBUG_SAVE_EXTRACTIONS", "").lower() == "true"
+
+        # 2. Instantiate LandingAIADE
+        if not os.environ.get("VISION_AGENT_API_KEY"):
+            from dotenv import load_dotenv
+            load_dotenv(override=True)
+            if not os.environ.get("VISION_AGENT_API_KEY"):
+                raise Exception("VISION_AGENT_API_KEY is not set.")
+            
+        from landingai_ade import LandingAIADE
+        client = LandingAIADE()
+        
+        # 3. Load schema
+        schema_path = _PROJECT_ROOT / "knowledge_base" / "schema-v1.json"
+        if not schema_path.exists():
+            raise Exception("Schema file not found.")
+            
+        with open(schema_path, "r", encoding="utf-8") as f:
+            schema_data = json.load(f)
+
+        # Use tempfile.TemporaryDirectory to ensure automatic cleanup of temp files
+        with tempfile.TemporaryDirectory() as tmpdirname:
+            temp_img_path = Path(tmpdirname) / f"temp_{google_id}_{timestamp}.jpg"
+            
+            # Save temp image
+            with open(temp_img_path, "wb") as buffer:
+                shutil.copyfileobj(file.file, buffer)
+                
+            # 4. Parse document
+            parse_response = await run_in_threadpool(
+                client.parse,
+                document=str(temp_img_path),
+                model="dpt-2-mini"
+            )
+            
+            # Save markdown to temp file for extract method
+            temp_md_path = Path(tmpdirname) / f"temp_{google_id}_{timestamp}.md"
+            with open(temp_md_path, "w", encoding="utf-8") as f:
+                f.write(parse_response.markdown)
+                
+            # 5. Extract using schema
+            extract_response = await run_in_threadpool(
+                client.extract,
+                markdown=str(temp_md_path),
+                schema=json.dumps(schema_data),
+                model="extract-20260314"
+            )
+            extracted = extract_response.extraction
+            
+            # If debug mode is enabled, save everything to extraction_results/
+            if debug_save:
+                extraction_dir = _PROJECT_ROOT / "extraction_results"
+                extraction_dir.mkdir(exist_ok=True)
+                shutil.copy(temp_img_path, extraction_dir)
+                shutil.copy(temp_md_path, extraction_dir)
+                result_path = extraction_dir / f"result_{google_id}_{timestamp}.json"
+                with open(result_path, "w", encoding="utf-8") as f:
+                    json.dump(extracted, f, indent=2)
+                    
+        # Verification Step: Assert keys match schema top-level keys
+        # The schema uses "properties" for its top-level fields
+        schema_keys = set(schema_data.get("properties", {}).keys())
+        extracted_keys = set(extracted.keys())
+        missing_keys = schema_keys - extracted_keys
+        extra_keys = extracted_keys - schema_keys
+        if missing_keys or extra_keys:
+            logging.warning(f"Extraction mismatch for user {google_id}: Missing {missing_keys}, Extra {extra_keys}")
+
+        # 7. Store in Database
+        db_success = False
+        try:
+            # add_transcript_info is synchronous, so we run it in a threadpool
+            await run_in_threadpool(add_transcript_info, google_id, extracted, is_from_transcript=True)
+            db_success = True
+        except Exception as db_exc:
+            logging.error("Database storage failed for user %s: %s", google_id, db_exc)
+
+        if not db_success:
+            return HTMLResponse(
+                content="<div style='color: #FFA500;'>Transcript processed successfully, but database update failed.</div>",
+                status_code=200
+            )
+
+        return HTMLResponse(
+            content="<div style='color: #4CAF50;'>Transcript upload complete!</div>", 
+            status_code=200,
+            headers={"HX-Trigger": "transcriptUploaded"}
+        )
+
+    except Exception as exc:
+        logging.error("Transcript processing failed: %s", exc)
+        return HTMLResponse(
+            content=f"<div style='color: #F44336;'>Processing failed: {str(exc)}</div>",
+            status_code=500
+        )
 
 @app.post("/ask", response_class=HTMLResponse)
 async def ask(request: Request, query: str = Form(...)):
