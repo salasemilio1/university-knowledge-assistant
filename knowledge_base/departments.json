@@ -110,18 +110,6 @@
     ]
   },
   {
-    "department": "General",
-    "degree_types": [
-      "B.A.",
-      "B.S.",
-      "B.F.A.",
-      "B.Mus.",
-      "B.S.Ed.",
-      "Minor",
-      "Certificate"
-    ]
-  },
-  {
     "department": "German",
     "degree_types": [
       "B.A.",
@@ -255,14 +243,6 @@
   {
     "department": "Theatre",
     "degree_types": [
-      "B.A.",
-      "Minor"
-    ]
-  },
-  {
-    "department": "Transfer Student Information",
-    "degree_types": [
-      "B.S.",
       "B.A.",
       "Minor"
     ]
