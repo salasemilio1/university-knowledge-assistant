@@ -336,9 +336,9 @@ def add_courses(google_id:str, courses:List[dict[str,Any]], is_from_transcript=F
                     session.add(course)
                 except IntegrityError:
                     session.rollback()
-                    
-        session.commit()
-        session.refresh(course)
+        if courses:   
+            session.commit()
+            session.refresh(course)
     return True
 
 def add_transfer_credits(google_id:str, transfer_credits:List[dict[str,Any]]) -> bool:
