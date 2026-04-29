@@ -1019,7 +1019,8 @@
         #dashboard-content {
             display: grid;
             grid-template-columns: repeat(2, minmax(0, 1fr));
-            gap: 20px;
+            column-gap: 20px;
+            row-gap: 20px;
             width: 100%;
         }
 
@@ -1029,8 +1030,36 @@
         }
 
         #dashboard-content .profile-card:last-child {
-            margin-bottom: 120px;
+            margin-bottom: 20px;
         }
+
+        .dashboard-top-row {
+            grid-column: 1 / -1;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+            align-items: start; /* 👈 THIS FIXES IT */
+        }
+
+.dashboard-small-card {
+    padding: 16px;
+}
+
+.dashboard-small-card .mini-stat {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--accent);
+}
+
+.dashboard-top-row {
+    grid-column: 1 / -1;
+}
+
+.notes p {
+    font-size: 0.85rem;
+    color: var(--muted);
+    margin: 2px 0;
+}
 
     </style>
 </head>
@@ -2317,6 +2346,36 @@ function progressCard(title, data) {
     const requiredCourses = data.requiredCourses || [];
     const electiveGroups = data.electiveGroups || [];
 
+    const electiveProgress = electiveGroups.map(group => {
+    const options = group.options || [];
+
+    const taken = options.filter(opt =>
+        completedCodes.has(normalizeCode(opt.code))
+    );
+
+    const notTaken = options.filter(opt =>
+        !completedCodes.has(normalizeCode(opt.code))
+    );
+
+    const completedCredits = taken.reduce(
+        (sum, c) => sum + (parseFloat(c.credits) || 0),
+        0
+    );
+
+    const creditsRequired = parseFloat(group.creditsRequired) || 0;
+    const coursesRequired = parseFloat(group.coursesRequired) || 0;
+
+    return {
+        ...group,
+        taken,
+        notTaken,
+        completedCount: taken.length,
+        remainingCount: Math.max(coursesRequired - taken.length, 0),
+        completedCredits: Math.min(completedCredits, creditsRequired),
+        creditsRequired
+    };
+});
+
     const completedRequiredCourses = requiredCourses.filter(req =>
         completedCodes.has(normalizeCode(req.code))
     );
@@ -2325,10 +2384,17 @@ function progressCard(title, data) {
         !completedCodes.has(normalizeCode(req.code))
     );
 
-    const completedCredits = completedRequiredCourses.reduce(
-        (sum, c) => sum + (parseFloat(c.credits) || 0),
-        0
-    );
+    const requiredCourseCreditsCompleted = completedRequiredCourses.reduce(
+    (sum, c) => sum + (parseFloat(c.credits) || 0),
+    0
+);
+
+const electiveCreditsCompleted = electiveProgress.reduce(
+    (sum, group) => sum + group.completedCredits,
+    0
+);
+
+const completedCredits = requiredCourseCreditsCompleted + electiveCreditsCompleted;
 
     const requiredCredits = parseFloat(data.requiredCredits) || 0;
 
@@ -2344,7 +2410,7 @@ function progressCard(title, data) {
 
             <p><strong>${completedCredits}</strong> / ${requiredCredits} credits completed</p>
 
-            <h3 style="margin-top:16px;">Remaining Courses</h3>
+            <h3 style="margin-top:16px;"><u>Remaining Courses</h3></u> <br>
             ${
                 remainingCourses.length
                     ? remainingCourses.map(c => `<p>${c.code} ${c.name}</p>`).join("")
@@ -2352,29 +2418,37 @@ function progressCard(title, data) {
             }
 
             ${
-                electiveGroups.length
-                    ? `
-                        <h3 style="margin-top:16px;">Electives</h3>
-                        ${electiveGroups.map(group => `
-                            <div style="margin-bottom:12px;">
-                                <p><strong>${group.name}</strong></p>
-                                <p>
-                                    Required: ${group.coursesRequired || "?"} course(s) /
-                                    ${group.creditsRequired || "?"} credits
-                                </p>
-                            </div>
-                        `).join("")}
-                    `
-                    : ""
-            }
+    electiveProgress.length
+        ? `
+            <h3 style="margin-top:16px;"><u>Electives</u></h3><br>
+            ${electiveProgress.map(group => `
+                <div style="margin-bottom:12px;">
+                    <p><strong>${group.name}</strong></p>
+                    <p>Completed: ${group.completedCount} / ${group.coursesRequired || "?"} course(s)</p>
+                    <p>Credits: ${group.completedCredits} / ${group.creditsRequired || "?"}</p>
+                    <p>Remaining: ${group.remainingCount} course(s)</p>
+
+                    ${
+                        group.notTaken.length
+                            ? `
+                                <p style="margin-top:6px;"><strong>Options not yet taken:</strong></p>
+                                ${group.notTaken.map(c => `<p>${c.code} ${c.name}</p>`).join("")}
+                            `
+                            : `<p>No remaining listed elective options.</p>`
+                    }
+                </div>
+            `).join("")}
+        `
+        : ""
+}
 
             ${
                 data.notes?.length
                     ? `
-                        <h3 style="margin-top:16px;">Notes</h3>
-                        ${data.notes.map(n => `
-                            <p style="color:var(--muted);">• ${n}</p>
-                        `).join("")}
+                        <br><h3 style="margin-top:16px;"><u>Planning Tips</u></h3> <br>
+                            <div class="notes">
+                                ${data.notes.map(n => `<p>• ${n}</p>`).join("")}
+                            </div>
                     `
                     : ""
             }
@@ -2407,50 +2481,62 @@ const secondMinorData = getRequirementData(
     const flags = getDashboardFlags(currentProfile, completedCredits);
 
     container.innerHTML = `
-        <div class="profile-card">
-            <h2>Total Credit Progress</h2>
+    <!-- TOP SMALL CARDS -->
+    <div class="dashboard-top-row">
+
+        <div class="profile-card dashboard-small-card">
+            <h2>Total Credits</h2>
+
             ${pieChart(totalPercent, `${totalPercent}%`)}
-            <p><strong>${completedCredits}</strong> credits completed</p>
-            <p><strong>${remainingCredits}</strong> credits remaining</p>
-            <p><strong>${TOTAL_REQUIRED_CREDITS}</strong> credits required</p>
+
+            <p><strong>${completedCredits}</strong> / ${TOTAL_REQUIRED_CREDITS}</p>
+            <p>${remainingCredits} remaining</p>
         </div>
 
-        ${progressCard(`${currentProfile.major} Progress`, majorData)}
+    <div class="profile-card dashboard-small-card">
+    <h2>Graduation Timeline</h2>
 
-        ${currentProfile.second_major ? progressCard(`${currentProfile.second_major} Progress`, secondMajorData) : ""}
+    <p><strong>Expected graduation:</strong> ${currentProfile.grad_year || "Not set"}</p>
 
-        ${currentProfile.minor ? progressCard(`${currentProfile.minor} Minor Progress`, minorData) : ""}
+    <p><strong>Major:</strong> ${currentProfile.major || "Not set"}</p>
+    <p><strong>Degree:</strong> ${currentProfile.major_degree_type || "Not set"}</p>
 
-        ${currentProfile.second_minor ? progressCard(`${currentProfile.second_minor} Minor Progress`, secondMinorData) : ""}
+    ${currentProfile.second_major ? `
+        <p><strong>Second major:</strong> ${currentProfile.second_major}</p>
+        <p><strong>Second degree:</strong> ${currentProfile.second_major_degree_type || "Not set"}</p>
+    ` : ""}
 
-        <div class="profile-card">
-            <h2>Graduation Timeline</h2>
-            <p><strong>Expected graduation:</strong> ${currentProfile.grad_year || "Not set"}</p><br>
-            <p><strong>Major:</strong> ${currentProfile.major || "Not set"}</p>
-            <p><strong>Major degree type:</strong> ${currentProfile.major_degree_type || "Not set"}</p><br>
-            ${currentProfile.second_major ? `
-            <p><strong>Second major:</strong> ${currentProfile.second_major}</p>
-            <p><strong>Second major degree type:</strong> ${currentProfile.second_major_degree_type || ""}</p><br>
-            ` : ""}
+    ${currentProfile.minor ? `
+        <p><strong>Minor:</strong> ${currentProfile.minor}</p>
+    ` : ""}
 
-            ${currentProfile.minor ? `
-                <p><strong>Minor:</strong> ${currentProfile.minor}</p>
-            ` : ""}
+    ${currentProfile.second_minor ? `
+        <p><strong>Second minor:</strong> ${currentProfile.second_minor}</p>
+    ` : ""}
+</div>
 
-            ${currentProfile.second_minor ? `
-                <p><strong>Second minor:</strong> ${currentProfile.second_minor}</p>
-            ` : ""}
-        </div>
 
-        <div class="profile-card">
-            <h2>Flags / Suggested Attention</h2>
-            ${
-                flags.length
-                    ? flags.map(f => `<p>${f}</p>`).join("")
-                    : `<p>No obvious issues detected.</p>`
-            }
-        </div>
-    `;
+    </div>
+
+    <!-- MAJORS / MINORS -->
+    ${progressCard(`${currentProfile.major} Progress`, majorData)}
+
+    ${currentProfile.second_major ? progressCard(`${currentProfile.second_major} Progress`, secondMajorData) : ""}
+
+    ${currentProfile.minor ? progressCard(`${currentProfile.minor} Minor Progress`, minorData) : ""}
+
+    ${currentProfile.second_minor ? progressCard(`${currentProfile.second_minor} Minor Progress`, secondMinorData) : ""}
+
+    <!-- FLAGS -->
+    <div class="profile-card">
+        <h2>Flags / Suggested Attention</h2>
+        ${
+            flags.length
+                ? flags.map(f => `<p>${f}</p>`).join("")
+                : `<p>No obvious issues detected.</p>`
+        }
+    </div>
+`;
 }
 
 </script>
