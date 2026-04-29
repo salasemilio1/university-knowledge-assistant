@@ -984,7 +984,11 @@
             padding-left: 14px;
             padding-right: 14px;
         }
+
+        #dashboard-content {
+            grid-template-columns: 1fr;
         }
+    }
 
         #page-profile {
             overflow-y: auto;
@@ -1001,6 +1005,31 @@
 
         #app-shell.sidebar-collapsed header {
             padding-top: 64px;
+        }
+
+        #page-dashboard main {
+            overflow-y: auto;
+            padding-bottom: 140px;
+        }  
+
+        #page-dashboard {
+            overflow-y: auto;
+        }
+
+        #dashboard-content {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 20px;
+            width: 100%;
+        }
+
+        #dashboard-content .profile-card {
+            max-width: none;
+            margin: 0;
+        }
+
+        #dashboard-content .profile-card:last-child {
+            margin-bottom: 120px;
         }
 
     </style>
@@ -1107,7 +1136,7 @@
             -->
             <section class="page" id="page-dashboard">
 
-                <header>
+                <header style="margin-bottom: 16px;">
                     <h1>Dashboard</h1>
                     <p>Your academic progress overview.</p>
                 </header>
@@ -1158,6 +1187,7 @@
         hx-swap="innerHTML"
         hx-encoding="multipart/form-data"
         enctype="multipart/form-data"
+        hx-on::after-request="loadProfile()"
     >
 
         <div class="profile-card">
@@ -1859,10 +1889,14 @@
         container.appendChild(label);
     }
 
+    let currentProfile = null;
+    const TOTAL_REQUIRED_CREDITS = 127;
+
     async function loadProfile() {
     try {
         const res = await fetch("/profile");
         const data = await res.json();
+        currentProfile = data;
 
         if (!data.is_profile_complete) {
             const responseDiv = document.getElementById("response");
@@ -2139,32 +2173,146 @@ async function loadDepartments() {
             return !selectedCourses.has(val);
         });
     }
+    
+    function sumCredits(courses) {
+    return (courses || []).reduce((sum, c) => {
+        return sum + (parseFloat(c.credits) || 0);
+    }, 0);
+}
 
-    function renderDashboard() {
-    const container = document.getElementById("dashboard-content");
-    if (!container) return;
+function getMajorCredits(courses, majorPrefix) {
+    if (!majorPrefix) return 0;
 
-    const notTaken = getCoursesNotTaken();
+    return (courses || []).reduce((sum, c) => {
+        if ((c.code || "").startsWith(majorPrefix)) {
+            return sum + (parseFloat(c.credits) || 0);
+        }
+        return sum;
+    }, 0);
+}
 
-    container.innerHTML = `
-        <div class="profile-card">
-            <h2>Course Progress</h2>
-            <p><strong>${selectedCourses.size}</strong> courses taken</p>
-            <p><strong>${notTaken.length}</strong> courses remaining</p>
-        </div>
+function pieChart(percent, label) {
+    const safePercent = Math.max(0, Math.min(percent, 100));
 
-        <div class="profile-card">
-            <h2>Courses Not Taken</h2>
-            <div style="max-height:300px; overflow-y:auto;">
-                ${notTaken.map(c => `
-                    <div style="padding:6px 0; border-bottom:1px solid var(--border);">
-                        ${c.code} ${c.title}
-                    </div>
-                `).join("")}
+    return `
+        <div style="
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            background: conic-gradient(var(--accent) ${safePercent}%, var(--surface-raised) 0);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 16px auto;
+        ">
+            <div style="
+                width: 105px;
+                height: 105px;
+                border-radius: 50%;
+                background: var(--surface);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                font-weight: 700;
+            ">
+                ${label}
             </div>
         </div>
     `;
+}
+
+function getDashboardFlags(profile, totalCredits) {
+    const flags = [];
+    const gradYear = parseInt(profile?.grad_year);
+
+    if (gradYear && totalCredits < 40 && gradYear <= new Date().getFullYear() + 1) {
+        flags.push("⚠️ Low credit count for upcoming graduation year.");
     }
+
+    if (!profile?.major) {
+        flags.push("⚠️ No major selected.");
+    }
+
+    if ((profile?.courses || []).length === 0) {
+        flags.push("⚠️ No completed courses recorded yet.");
+    }
+
+    return flags;
+}
+
+function renderDashboard() {
+    const container = document.getElementById("dashboard-content");
+    if (!container || !currentProfile) return;
+
+    const courses = currentProfile.courses || [];
+    const transferCredits = currentProfile.transfer_credits || [];
+
+    const completedCredits = sumCredits(courses) + sumCredits(transferCredits);
+    const remainingCredits = Math.max(TOTAL_REQUIRED_CREDITS - completedCredits, 0);
+    const totalPercent = Math.round((completedCredits / TOTAL_REQUIRED_CREDITS) * 100);
+
+    // Temporary simple major prefix logic.
+    // For CS, this assumes major courses start with "CSC" or "CS".
+    const majorPrefix = currentProfile.major === "Computer Science" ? "CSC" : "";
+    const majorCredits = getMajorCredits(courses, majorPrefix);
+
+    const flags = getDashboardFlags(currentProfile, completedCredits);
+
+    container.innerHTML = `
+        <div class="profile-card">
+            <h2>Total Credit Progress</h2>
+            ${pieChart(totalPercent, `${totalPercent}%`)}
+            <p><strong>${completedCredits}</strong> credits completed</p>
+            <p><strong>${remainingCredits}</strong> credits remaining</p>
+            <p><strong>${TOTAL_REQUIRED_CREDITS}</strong> credits required</p>
+        </div>
+
+        <div class="profile-card">
+            <h2>Major Credit Progress</h2>
+            ${pieChart(Math.min(majorCredits * 3, 100), `${majorCredits} cr`)}
+            <p><strong>${majorCredits}</strong> credits counted toward major so far</p>
+            <p style="color:var(--muted);">
+                This is currently estimated from course prefix. Later, replace this with real major requirement matching.
+            </p>
+        </div>
+
+        <div class="profile-card">
+            <h2>Graduation Timeline</h2>
+            <p><strong>Expected graduation:</strong> ${currentProfile.grad_year || "Not set"}</p><br>
+            <p><strong>Major:</strong> ${currentProfile.major || "Not set"}</p>
+            <p><strong>Major degree type:</strong> ${currentProfile.major_degree_type || "Not set"}</p><br>
+            ${currentProfile.second_major ? `
+            <p><strong>Second major:</strong> ${currentProfile.second_major}</p>
+            <p><strong>Second major degree type:</strong> ${currentProfile.second_major_degree_type || ""}</p><br>
+            ` : ""}
+
+            ${currentProfile.minor ? `
+                <p><strong>Minor:</strong> ${currentProfile.minor}</p>
+            ` : ""}
+
+            ${currentProfile.second_minor ? `
+                <p><strong>Second minor:</strong> ${currentProfile.second_minor}</p>
+            ` : ""}
+        </div>
+
+        <div class="profile-card">
+            <h2>Flags / Suggested Attention</h2>
+            ${
+                flags.length
+                    ? flags.map(f => `<p>${f}</p>`).join("")
+                    : `<p>No obvious issues detected.</p>`
+            }
+        </div>
+
+        <div class="profile-card">
+            <h2>Suggested Courses for Next Semester</h2>
+            <p style="color:var(--muted);">
+                Next step: generate this from major requirements + courses not yet taken.
+            </p>
+        </div>
+    `;
+}
 
 </script>
 </body>
