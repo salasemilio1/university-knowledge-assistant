@@ -1896,7 +1896,9 @@
         setValue("email", data.email);
 
         // Courses logic
-        selectedCourses = new Set(data.courses || []);
+        selectedCourses = new Set(
+            (data.courses || []).map(c => `${c.code} ${c.name}`)
+        );
         
         // Transfer Credits logic
         const transferList = document.getElementById("transfer-credits-list");
