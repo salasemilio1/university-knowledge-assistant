@@ -31,6 +31,7 @@ from google.auth.transport import requests
 
 from pipeline.router import route
 from pipeline.answerer import answer, stream_answer
+from pipeline.gemini_client import CANNED_FALLBACK_HTML
 
 from Backend.user_db import create_user, update_user, get_user_by_id, get_user_courses, get_user_transfer_credits, add_courses, add_transcript_info
 
@@ -390,14 +391,15 @@ async def ask(request: Request, query: str = Form(...)):
     google_id = request.session.get("user_id")
 
     # Step 1 — Route to the right department(s) and classify complexity
-    try:
-        route_result = route(query, KNOWLEDGE_BASE_PATH, google_id)
-        logging.info("Complexity for query '%s': %s", query[:50], route_result.complexity)
-    except Exception as exc:
-        logging.error("Routing failed: %s", exc)
-        return _error_html("Something went wrong while routing your question. Please try again.")
+    # route() never raises — router failures default to the 'general' department.
+    route_result = route(query, KNOWLEDGE_BASE_PATH, google_id)
+    logging.info("Complexity for query '%s': %s", str(query)[:50], route_result.complexity)
 
-    # Step 2 — Generate the answer
+    # Step 2 — Reject off-topic questions before touching the answerer
+    if route_result.off_topic:
+        return _off_topic_html()
+
+    # Step 3 — Generate the answer
     # Note: history is not passed here (stateless for now).
     # To add conversation memory later, store history in a session or pass it from the client.
     try:
@@ -422,6 +424,10 @@ async def ask(request: Request, query: str = Form(...)):
         duration_seconds=time.time() - start_time,
     )
 
+    # If we hit the absolute last-resort fallback, return it as-is (no wrapper)
+    if answer_text == CANNED_FALLBACK_HTML:
+        return HTMLResponse(content=answer_text)
+
     return _answer_html(query, answer_text)
 
 
@@ -442,12 +448,12 @@ async def ask_stream(request: Request, query: str = Form(...)):
     google_id = request.session.get("user_id")
     start_time = time.time()
 
-    try:
-        route_result = route(query, KNOWLEDGE_BASE_PATH, google_id)
-        logging.info("Complexity for query '%s': %s", query[:50], route_result.complexity)
-    except Exception as exc:
-        logging.error("Routing failed: %s", exc)
-        return Response(content="Routing error.", status_code=500)
+    # route() never raises — router failures default to the 'general' department.
+    route_result = route(query, KNOWLEDGE_BASE_PATH, google_id)
+    logging.info("Complexity for query '%s': %s", str(query)[:50], route_result.complexity)
+
+    if route_result.off_topic:
+        return HTMLResponse(content=_off_topic_html())
 
     async def token_generator():
         """Drive the blocking stream_answer generator inside a thread pool."""
@@ -511,6 +517,18 @@ def _error_html(message: str) -> str:
     return f"""
     <div class="response-block response-error">
         <p>{message}</p>
+    </div>
+    """
+
+
+def _off_topic_html() -> str:
+    """Return a friendly HTML message for questions outside the advising scope."""
+    return """
+    <div class="response-block">
+        <p>That question is outside my area of expertise! I'm here to help with
+        university advising — things like course requirements, degree planning,
+        faculty information, or graduation requirements. Feel free to ask me
+        anything along those lines and I'd love to help. 🎓</p>
     </div>
     """
 

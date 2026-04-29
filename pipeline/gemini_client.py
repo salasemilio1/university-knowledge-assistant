@@ -2,44 +2,96 @@
 Gemini / Vertex client wrapper.
 
 All other modules call generate() / generate_stream() and receive plain text
-back. This file owns provider-specific auth and model invocation.
+back. This file owns provider-specific auth, model invocation, timeouts, and
+fallback logic so callers stay clean.
+
+Resilience model
+----------------
+Router calls:
+  - One attempt only — no retries.
+  - 5-second hard timeout. If the router hangs, fail fast and let the caller
+    fall back to a default department. Never double the worst-case latency
+    by retrying a timed-out router.
+
+Answerer calls:
+  - Up to MAX_RETRIES attempts on the primary model (gemini-3-flash-preview)
+    on transient 503/429 errors, bounded by ANSWERER_TIMEOUT_S.
+  - If the primary times out or exhausts retries, one attempt on the fallback
+    model (gemini-2.5-flash), bounded by FALLBACK_TIMEOUT_S.
+  - If the fallback also fails, return CANNED_FALLBACK_HTML — a user-facing
+    HTML message. A user must always get a response; never surface a
+    developer-facing error sentinel.
 """
 
 import json
 import logging
 import os
 import time
+from concurrent.futures import ThreadPoolExecutor, TimeoutError as FuturesTimeout
 from pathlib import Path
 
 from dotenv import load_dotenv
 from google import genai
+from google.genai import types
 from google.genai.types import HttpOptions
 from google.oauth2 import service_account
 
 log = logging.getLogger(__name__)
 
-# Walk up from this file to the project root to find .env
 _PROJECT_ROOT = Path(__file__).resolve().parent.parent
 load_dotenv(_PROJECT_ROOT / ".env")
 
-MODEL_ROUTER = os.getenv("MODEL_ROUTER", "gemini-2.5-flash")
-MODEL_ANSWERER = os.getenv("MODEL_ANSWERER", "gemini-2.5-flash")
-DEFAULT_MODEL = os.getenv("GEMINI_MODEL", MODEL_ANSWERER)
+# ── Model constants ───────────────────────────────────────────────────────────
+# Override via environment variables if needed.
 
+MODEL_ROUTER            = os.getenv("MODEL_ROUTER",            "gemini-3.1-flash-lite-preview")
+MODEL_ANSWERER          = os.getenv("MODEL_ANSWERER",          "gemini-3-flash-preview")
+MODEL_ANSWERER_FALLBACK = os.getenv("MODEL_ANSWERER_FALLBACK", "gemini-2.5-flash")
+
+DEFAULT_MODEL = MODEL_ANSWERER  # kept for backward compatibility with scripts
+
+# ── Timeout constants (seconds) ───────────────────────────────────────────────
+
+ROUTER_TIMEOUT_S   = 5    # hard limit for the router; fail fast, no retries
+ANSWERER_TIMEOUT_S = 10   # primary answerer timeout before attempting fallback
+FALLBACK_TIMEOUT_S = 8    # fallback answerer timeout before returning canned response
+
+# ── Retry policy ──────────────────────────────────────────────────────────────
+# Retries are applied to the answerer primary only, not the router or fallback.
+
+MAX_RETRIES  = 3
+RETRY_DELAY  = 3  # seconds before first retry; doubles on each subsequent attempt
+
+# ── Token ceilings ────────────────────────────────────────────────────────────
+
+ROUTER_MAX_OUTPUT_TOKENS   = 64
+ANSWERER_MAX_OUTPUT_TOKENS = 1536
+
+# ── Canned last-resort response ───────────────────────────────────────────────
+# Returned when both the primary and fallback answerer calls fail or time out.
+# Must always be a user-friendly HTML string — never a developer sentinel.
+
+CANNED_FALLBACK_HTML = (
+    "<div class='response-block response-error'>"
+    "<p>I'm having trouble reaching my knowledge base right now. "
+    "Please try again in a moment — I'll be back shortly.</p>"
+    "</div>"
+)
+
+
+# ── Client factory ────────────────────────────────────────────────────────────
 
 def create_vertex_client():
     project_id = os.environ["GOOGLE_CLOUD_PROJECT"]
-    location = os.environ.get("GOOGLE_CLOUD_LOCATION", "global")
+    location    = os.environ.get("GOOGLE_CLOUD_LOCATION", "global")
 
     credentials = None
-
-    # Local dev path: JSON stored directly in .env
     if "GOOGLE_SERVICE_ACCOUNT_JSON" in os.environ:
         service_account_info = json.loads(os.environ["GOOGLE_SERVICE_ACCOUNT_JSON"])
         credentials = service_account.Credentials.from_service_account_info(
-        service_account_info,
-        scopes=["https://www.googleapis.com/auth/cloud-platform"],
-    )
+            service_account_info,
+            scopes=["https://www.googleapis.com/auth/cloud-platform"],
+        )
 
     return genai.Client(
         vertexai=True,
@@ -52,65 +104,203 @@ def create_vertex_client():
 
 _client = create_vertex_client()
 
+# Shared executor for timeout-bounded API calls.
+# One thread per in-flight request is sufficient at this scale.
+_executor = ThreadPoolExecutor(max_workers=8, thread_name_prefix="gemini")
 
-def generate(prompt: str, model: str | None = None, llm_client=None) -> str:
-    """Send a prompt to Gemini on Vertex and return the response text."""
-    model_name = model or DEFAULT_MODEL
+
+# ── Low-level call helpers ────────────────────────────────────────────────────
+
+def _build_config(
+    model: str,
+    thinking_level: str,
+    max_output_tokens: int,
+) -> types.GenerateContentConfig:
+    """Build a GenerateContentConfig with model-specific thinking config.
+
+    Gemini 3.x models use semantic 'thinking_level' levels.
+    Gemini 2.x models use numeric 'thinking_budget' token counts.
+    """
+    if "gemini-3" in model:
+        # Gemini 3.x uses semantic levels (MINIMAL, LOW, MEDIUM, HIGH)
+        thinking_config = types.ThinkingConfig(thinking_level=thinking_level)
+    else:
+        # Gemini 2.x uses numeric token budgets
+        budget = {"MINIMAL": 0, "LOW": 512}.get(thinking_level.upper(), 0)
+        thinking_config = types.ThinkingConfig(thinking_budget=budget)
+
+    return types.GenerateContentConfig(
+        thinking_config=thinking_config,
+        max_output_tokens=max_output_tokens,
+    )
+
+
+def _call_api(
+    client,
+    model: str,
+    prompt: str,
+    config: types.GenerateContentConfig,
+    timeout: float,
+) -> str:
+    """Make a single blocking API call, bounded by *timeout* seconds.
+
+    Args:
+        client:  Initialized Vertex genai Client.
+        model:   Model name string.
+        prompt:  User prompt text.
+        config:  GenerateContentConfig (thinking, max tokens, etc.).
+        timeout: Hard wall-clock timeout in seconds.
+
+    Returns:
+        The stripped response text.
+
+    Raises:
+        FuturesTimeout: If the call exceeds *timeout* seconds.
+        Exception:      Any Vertex / network error from the SDK.
+    """
+    future = _executor.submit(
+        client.models.generate_content,
+        model=model,
+        contents=prompt,
+        config=config,
+    )
+    response = future.result(timeout=timeout)
+    return response.text.strip()
+
+
+# ── Public API ────────────────────────────────────────────────────────────────
+
+def generate(
+    prompt:         str,
+    model:          str | None  = None,
+    llm_client                  = None,
+    timeout:        float | None = None,
+    thinking_level: str          = "LOW",
+    max_output_tokens: int | None = None,
+    is_router:      bool         = False,
+) -> str:
+    """Send a prompt and return the response text.
+
+    For router calls (``is_router=True``) this function makes exactly ONE
+    attempt with a 5-second timeout and no retries — callers must handle the
+    failure themselves (typically by defaulting to a fallback department).
+
+    For answerer calls this function:
+      1. Retries the primary model up to MAX_RETRIES times on 503/429.
+      2. Falls back to MODEL_ANSWERER_FALLBACK if the primary times out or
+         exhausts its retries.
+      3. Returns CANNED_FALLBACK_HTML if the fallback also fails — ensuring
+         a user always receives a response.
+
+    Args:
+        prompt:            The prompt text to send.
+        model:             Override the default model name.
+        llm_client:        Override the module-level client (e.g. for tests).
+        timeout:           Hard timeout in seconds. Defaults per is_router flag.
+        thinking_level:    "MINIMAL" or "LOW" — maps to a token budget.
+        max_output_tokens: Token ceiling override.
+        is_router:         True → apply router call policy (single attempt, no fallback).
+
+    Returns:
+        Response text, or CANNED_FALLBACK_HTML on total failure.
+    """
     client = llm_client or _client
 
-    max_retries = 5
-    retry_delay = 5
+    if is_router:
+        # ── Router path: one shot, fast fail ─────────────────────────────────
+        effective_model   = model or MODEL_ROUTER
+        effective_timeout = timeout or ROUTER_TIMEOUT_S
+        effective_tokens  = max_output_tokens or ROUTER_MAX_OUTPUT_TOKENS
+        config = _build_config(effective_model, thinking_level or "MINIMAL", effective_tokens)
 
-    for attempt in range(max_retries):
         try:
-            response = client.models.generate_content(
-                model=model_name,
-                contents=prompt,
-            )
-            return response.text.strip()
+            return _call_api(client, effective_model, prompt, config, effective_timeout)
+        except FuturesTimeout:
+            log.warning("Router timed out after %ss (model=%s)", effective_timeout, effective_model)
+            raise
         except Exception as exc:
-            if ("503" in str(exc) or "429" in str(exc)) and attempt < max_retries - 1:
+            log.error("Router call failed (model=%s): %s", effective_model, exc)
+            raise
+
+    # ── Answerer path: retries + fallback ─────────────────────────────────────
+    primary_model     = model or MODEL_ANSWERER
+    effective_timeout = timeout or ANSWERER_TIMEOUT_S
+    effective_tokens  = max_output_tokens or ANSWERER_MAX_OUTPUT_TOKENS
+    config = _build_config(primary_model, thinking_level or "LOW", effective_tokens)
+
+    retry_delay = RETRY_DELAY
+    for attempt in range(MAX_RETRIES):
+        try:
+            return _call_api(client, primary_model, prompt, config, effective_timeout)
+        except FuturesTimeout:
+            log.warning(
+                "Answerer primary timed out after %ss on attempt %d/%d (model=%s) — trying fallback",
+                effective_timeout, attempt + 1, MAX_RETRIES, primary_model,
+            )
+            break  # timeout → don't retry; go straight to fallback
+        except Exception as exc:
+            is_transient = "503" in str(exc) or "429" in str(exc)
+            if is_transient and attempt < MAX_RETRIES - 1:
                 log.warning(
-                    "Vertex API error %s (attempt %d/%d). Retrying in %ds...",
-                    exc, attempt + 1, max_retries, retry_delay
+                    "Vertex API error %s (attempt %d/%d). Retrying in %ds…",
+                    exc, attempt + 1, MAX_RETRIES, retry_delay,
                 )
                 time.sleep(retry_delay)
                 retry_delay *= 2
                 continue
+            log.error("Answerer primary failed (model=%s): %s", primary_model, exc)
+            break
 
-            log.error("Vertex API call failed (model=%s): %s", model_name, exc)
-            return f"[ERROR] LLM call failed: {exc}"
+    # ── Fallback attempt ──────────────────────────────────────────────────────
+    fallback_model = MODEL_ANSWERER_FALLBACK
+    fallback_config = _build_config(fallback_model, "LOW", effective_tokens)
+    log.info("Attempting fallback model: %s", fallback_model)
+    try:
+        return _call_api(client, fallback_model, prompt, fallback_config, FALLBACK_TIMEOUT_S)
+    except FuturesTimeout:
+        log.error("Fallback model timed out after %ss (model=%s)", FALLBACK_TIMEOUT_S, fallback_model)
+    except Exception as exc:
+        log.error("Fallback model call failed (model=%s): %s", fallback_model, exc)
 
-    return "[ERROR] LLM call failed after retries."
+    # ── Last resort ───────────────────────────────────────────────────────────
+    log.error("Both primary and fallback answerer calls failed — returning canned response")
+    return CANNED_FALLBACK_HTML
 
 
 def generate_stream(prompt: str, model: str | None = None, llm_client=None):
-    """Send a prompt to Gemini on Vertex and yield response text chunks."""
-    model_name = model or DEFAULT_MODEL
-    client = llm_client or _client
+    """Send a prompt to Gemini and yield response text chunks as they arrive.
+
+    Tokens are yielded immediately on receipt so the client's perceived latency
+    reflects time-to-first-token, not time-to-complete-response.
+
+    No fallback is applied to streaming — if the stream breaks mid-response an
+    inline error notice is appended rather than starting over (which would
+    cause the already-streamed text to confusingly disappear).
+    """
+    effective_model  = model or MODEL_ANSWERER
+    client           = llm_client or _client
+    config = _build_config(effective_model, "LOW", ANSWERER_MAX_OUTPUT_TOKENS)
 
     try:
         for chunk in client.models.generate_content_stream(
-            model=model_name,
+            model=effective_model,
             contents=prompt,
+            config=config,
         ):
             if chunk.text:
                 yield chunk.text
     except Exception as exc:
-        log.error("Vertex streaming failed (model=%s): %s", model_name, exc)
-        yield f"\n\n[ERROR] Streaming failed: {exc}"
+        log.error("Vertex streaming failed (model=%s): %s", effective_model, exc)
+        yield f"\n\n[I ran into a problem generating that response. Please try again.]"
 
 
 def extract_json(text: str) -> str:
-    """Extract JSON from an LLM response, stripping markdown code blocks."""
+    """Strip markdown code fences from an LLM JSON response."""
     text = text.strip()
-
     if text.startswith("```json"):
         text = text[len("```json"):]
     elif text.startswith("```"):
         text = text[len("```"):]
-
     if text.endswith("```"):
-        text = text[:-len("```")]
-
+        text = text[: -len("```")]
     return text.strip()

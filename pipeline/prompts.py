@@ -12,6 +12,7 @@ def router_prompt(question: str, registry_json: str, profile: str | None = None)
     The router does two jobs in a single LLM call:
       1. Route — decide which department slug(s) are relevant.
       2. Classify — decide whether the question is simple or complex.
+      3. Off-topic — flag questions that are not university-advising related.
 
     Complexity drives how much context the answerer receives (Call 2):
       - simple  → skills_index.md only (fast; covers most advising questions)
@@ -28,7 +29,7 @@ def router_prompt(question: str, registry_json: str, profile: str | None = None)
 
     Returns:
         A prompt that instructs the LLM to return exactly this JSON shape:
-        {"departments": ["slug_a"], "complexity": "simple"}
+        {"departments": ["slug_a"], "complexity": "simple", "off_topic": false}
     """
     profile_block = ""
     if profile:
@@ -45,6 +46,7 @@ You are a university advising router. Given a student's question, you must:
 
   1. ROUTE — Identify which department(s) from the registry are relevant.
   2. CLASSIFY — Decide if the question is simple or complex.
+  3. OFF-TOPIC — Flag if the question is not related to university advising.
 
 === DEPARTMENT REGISTRY ===
 {registry_json}
@@ -67,13 +69,23 @@ complex — A broad, multi-part, or cross-cutting question that likely needs the
 When uncertain, choose complex.
 === END GUIDE ===
 
+=== OFF-TOPIC GUIDE ===
+Set "off_topic": true if the question has nothing to do with university
+advising, courses, degrees, or academic planning (e.g. weather, sports trivia,
+general coding help unrelated to a course).
+
+If off_topic is true, set departments to [] and complexity to "simple".
+=== END GUIDE ===
+
 INSTRUCTIONS:
 - Return ONLY a JSON object — no other text, no markdown.
 - "departments" must be a JSON array of slug strings from the registry.
 - "complexity" must be exactly "simple" or "complex".
+- "off_topic" must be exactly true or false.
 
-Example: {{"departments": ["computer_science"], "complexity": "simple"}}
+Example: {{"departments": ["computer_science"], "complexity": "simple", "off_topic": false}}
 """
+
 
 
 def answerer_prompt(
@@ -145,6 +157,8 @@ INSTRUCTIONS:
     * Course substitutions / exceptions → Department Chair 
 - If the question involves choosing between B.A. and B.S. and the student
   hasn't specified which, ask them to clarify.
+- Note that the final digit of a course number indicates the number of credits that the course is worth.
+  For example, a course numbered 'CSC54-184' is worth 4 credits.
 - Do NOT invent information that is not in the source documents.
 - Keep the tone friendly and supportive.
 """
