@@ -33,7 +33,7 @@ from pipeline.router import route
 from pipeline.answerer import answer, stream_answer
 from pipeline.gemini_client import CANNED_FALLBACK_HTML
 
-from Backend.user_db import create_user, update_user, get_user_by_id, get_user_courses, get_user_transfer_credits, add_courses, add_transcript_info
+from Backend.user_db import create_user, update_user, get_user_by_id, get_user_courses, get_user_transfer_credits, add_courses, add_transcript_info, get_chat_history, add_chat_message
 
 # ── Setup ─────────────────────────────────────────────────────────────────────
 
@@ -390,9 +390,12 @@ async def ask(request: Request, query: str = Form(...)):
     # Get google id so the router can get user profile
     google_id = request.session.get("user_id")
 
+    # Fetch history for context
+    history = get_chat_history(google_id) if google_id else []
+
     # Step 1 — Route to the right department(s) and classify complexity
     # route() never raises — router failures default to the 'general' department.
-    route_result = route(query, KNOWLEDGE_BASE_PATH, google_id)
+    route_result = route(query, KNOWLEDGE_BASE_PATH, google_id, history=history)
     logging.info("Complexity for query '%s': %s", str(query)[:50], route_result.complexity)
 
     # Step 2 — Reject off-topic questions before touching the answerer
@@ -400,22 +403,27 @@ async def ask(request: Request, query: str = Form(...)):
         return _off_topic_html()
 
     # Step 3 — Generate the answer
-    # Note: history is not passed here (stateless for now).
-    # To add conversation memory later, store history in a session or pass it from the client.
     try:
         answer_text = answer(
             question=query,
             departments=route_result.departments,
             complexity=route_result.complexity,
             base_path=KNOWLEDGE_BASE_PATH,
-            history=[],
+            history=history,
             google_id=google_id
         )
     except Exception as exc:
         logging.error("Answer generation failed: %s", exc)
         return _error_html("Something went wrong while generating your answer. Please try again.")
 
-    # Log the query for review
+    # Step 4 — Persist history (only if we have a user)
+    if google_id:
+        # User message
+        add_chat_message(google_id, "user", query)
+        # Assistant response
+        add_chat_message(google_id, "assistant", answer_text)
+
+    # Log the query for audit review
     _log_query(
         question=query,
         routed_majors=route_result.departments,
@@ -449,7 +457,8 @@ async def ask_stream(request: Request, query: str = Form(...)):
     start_time = time.time()
 
     # route() never raises — router failures default to the 'general' department.
-    route_result = route(query, KNOWLEDGE_BASE_PATH, google_id)
+    history = get_chat_history(google_id) if google_id else []
+    route_result = route(query, KNOWLEDGE_BASE_PATH, google_id, history=history)
     logging.info("Complexity for query '%s': %s", str(query)[:50], route_result.complexity)
 
     if route_result.off_topic:
@@ -459,18 +468,20 @@ async def ask_stream(request: Request, query: str = Form(...)):
         """Drive the blocking stream_answer generator inside a thread pool."""
         full_chunks: list[str] = []
         sentinel = object()
+        success = False
         gen = stream_answer(
             question=query,
             departments=route_result.departments,
             complexity=route_result.complexity,
             base_path=KNOWLEDGE_BASE_PATH,
-            history=[],
+            history=history,
             google_id=google_id
         )
         try:
             while True:
                 chunk = await run_in_threadpool(next, gen, sentinel)
                 if chunk is sentinel:
+                    success = True
                     break
                 full_chunks.append(chunk)
                 yield chunk
@@ -478,6 +489,12 @@ async def ask_stream(request: Request, query: str = Form(...)):
             logging.error("Token streaming failed: %s", exc)
             yield f"\n\n[ERROR] {exc}"
         finally:
+            # Persist history ONLY if completion reached to avoid poisoned context
+            if google_id and success and full_chunks:
+                final_answer = "".join(full_chunks)
+                add_chat_message(google_id, "user", query)
+                add_chat_message(google_id, "assistant", final_answer)
+
             _log_query(
                 question=query,
                 routed_majors=route_result.departments,

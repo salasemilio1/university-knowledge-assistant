@@ -6,9 +6,10 @@ This script serves to manage most things related to user configuration with SQLA
 
 from sqlalchemy.orm import DeclarativeBase
 from sqlalchemy.orm import Mapped, mapped_column, relationship, sessionmaker, Session
-from sqlalchemy import create_engine, select, exists, delete, String, Boolean, JSON, Integer, ForeignKey, UniqueConstraint
+from sqlalchemy import create_engine, select, exists, delete, String, Boolean, JSON, Integer, ForeignKey, UniqueConstraint, DateTime, func, desc
 from sqlalchemy.exc import IntegrityError
 import json
+from datetime import datetime, timezone
 from typing import Optional, List, Any
 
 from dotenv import load_dotenv
@@ -103,6 +104,18 @@ class TransferCredit(Base):
 
     # Relationship back to user
     user = relationship("User", back_populates="transfer_credits")
+
+class ChatHistory(Base):
+    __tablename__ = "chat_history"
+
+    id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)
+    google_id: Mapped[str] = mapped_column(ForeignKey("users.google_id"), nullable=False, index=True)
+    role: Mapped[str] = mapped_column(String(50), nullable=False) # 'user' or 'assistant'
+    content: Mapped[str] = mapped_column(String(4000), nullable=False)
+    timestamp: Mapped[datetime] = mapped_column(DateTime, server_default=func.now())
+
+    # Relationship back to user
+    user = relationship("User")
 
 
 
@@ -412,6 +425,52 @@ def add_transcript_info(google_id: str, transcript: dict):
 
     add_courses(google_id, courses)
     add_transfer_credits(google_id, transfer_credits)
+def add_chat_message(google_id: str, role: str, content: str):
+    """
+    Persists a chat message to the history and trims to the last 10 messages.
+
+    Args:
+        google_id: User's Google ID.
+        role: 'user' or 'assistant'.
+        content: The message text.
+    """
+    with SessionLocal() as session:
+        message = ChatHistory(google_id=google_id, role=role, content=content)
+        session.add(message)
+        session.commit()
+
+        # Trim history: keep only most recent 10 messages
+        ids = (
+            session.query(ChatHistory.id)
+            .filter(ChatHistory.google_id == google_id)
+            .order_by(desc(ChatHistory.timestamp), desc(ChatHistory.id))
+            .all()
+        )
+        if len(ids) > 10:
+            to_delete = [r.id for r in ids[10:]]
+            session.query(ChatHistory).filter(ChatHistory.id.in_(to_delete)).delete(synchronize_session=False)
+            session.commit()
+
+def get_chat_history(google_id: str, limit: int = 10) -> List[dict]:
+    """
+    Retrieves the last N messages for a user.
+
+    Args:
+        google_id: User's Google ID.
+        limit: Number of messages to retrieve.
+    Returns:
+        List[dict]: [{'role': ..., 'content': ...}, ...] in chronological order.
+    """
+    with SessionLocal() as session:
+        messages = (
+            session.query(ChatHistory)
+            .filter(ChatHistory.google_id == google_id)
+            .order_by(desc(ChatHistory.timestamp), desc(ChatHistory.id))
+            .limit(limit)
+            .all()
+        )
+        # Reverse to get chronological order
+        return [{"role": m.role, "content": m.content} for m in reversed(messages)]
 
 def main():
     add_courses("105756527656204148979", [{"code": "ABC123", "name": "placeholder", "credits": "4", "grade": "A", "semester": "placeholder"}])

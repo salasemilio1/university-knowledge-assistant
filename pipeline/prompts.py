@@ -6,26 +6,14 @@ only text assembly. This makes prompts easy to read, diff, and iterate on.
 """
 
 
-def router_prompt(question: str, registry_json: str, profile: str | None = None) -> str:
+def router_prompt(question: str, registry_json: str, profile: str | None = None, history: str | None = None) -> str:
     """Build the Call 1 prompt: route a question AND classify its complexity.
-
-    The router does two jobs in a single LLM call:
-      1. Route — decide which department slug(s) are relevant.
-      2. Classify — decide whether the question is simple or complex.
-      3. Off-topic — flag questions that are not university-advising related.
-
-    Complexity drives how much context the answerer receives (Call 2):
-      - simple  → skills_index.md only (fast; covers most advising questions)
-      - complex → skills_index.md + all .txt files (thorough; for broad or
-                  multi-faceted questions)
-
-    When in doubt, return "complex" — it is safer to over-fetch than to
-    give an incomplete answer.
 
     Args:
         question:      The student's question.
         registry_json: Raw JSON string from context_registry.json.
         profile:       Optional formatted student profile string.
+        history:       Optional plain-text conversation history (User: ... Assistant: ...).
 
     Returns:
         A prompt that instructs the LLM to return exactly this JSON shape:
@@ -41,6 +29,16 @@ Use this ONLY to help determine relevant departments.
 Do NOT assume the student is restricted to these departments.
 """
 
+    history_block = ""
+    if history:
+        history_block = f"""\
+[CONVERSATION HISTORY]
+{history}
+[END CONVERSATION HISTORY]
+Use the history above only to resolve coreferences (e.g. "What grade did I get?") 
+and ensure correct routing.
+"""
+
     return f"""\
 You are a university advising router. Given a student's question, you must:
 
@@ -53,7 +51,8 @@ You are a university advising router. Given a student's question, you must:
 === END REGISTRY ===
 
 {profile_block}
-STUDENT QUESTION:
+{history_block}
+[CURRENT QUESTION]
 {question}
 
 === COMPLEXITY GUIDE ===
@@ -108,13 +107,10 @@ def answerer_prompt(
     history_block = ""
     if history:
         history_block = f"""\
-
-=== RECENT CONVERSATION HISTORY ===
+[CONVERSATION HISTORY]
 {history}
-=== END HISTORY ===
-Note: Use the conversation history for context if the student's current
-question refers to something discussed earlier. Do not repeat previous
-answers verbatim.
+[END CONVERSATION HISTORY]
+Use history to resolve coreferences. If history and documents conflict, trust the documents.
 """
 
     profile_block = ""      
@@ -137,12 +133,11 @@ You may use conversation history and student profile information for context whe
 
 {profile_block}
 
-=== SOURCE DOCUMENTS ===
+[RELEVANT DOCUMENTS]
 {context}
-=== END SOURCE DOCUMENTS ===
+[END RELEVANT DOCUMENTS]
 
-
-STUDENT QUESTION:
+[CURRENT QUESTION]
 {question}
 
 INSTRUCTIONS:

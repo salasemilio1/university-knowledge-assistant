@@ -128,7 +128,7 @@ def format_history(history: list[dict]) -> str | None:
     """Format conversation history as a plaintext block for the prompt.
 
     Args:
-        history: A list of dicts with 'question' and 'answer' keys, oldest first.
+        history: A list of dicts with 'role' and 'content' keys, oldest first.
 
     Returns:
         A formatted string, or None if history is empty.
@@ -137,10 +137,9 @@ def format_history(history: list[dict]) -> str | None:
         return None
 
     lines = []
-    for i, entry in enumerate(history, start=1):
-        lines.append(f"Q{i}: {entry['question']}")
-        lines.append(f"A{i}: {entry['answer']}")
-        lines.append("")  # blank line between pairs
+    for msg in history:
+        role = "User" if msg["role"] == "user" else "Assistant"
+        lines.append(f"{role}: {msg['content']}")
 
     return "\n".join(lines).strip()
 

@@ -87,7 +87,7 @@ def load_registry(base_path: str) -> dict:
 
 # ── Core routing ──────────────────────────────────────────────────────────────
 
-def route(question: str, base_path: str, google_id: str, llm_client=None) -> RouteResult:
+def route(question: str, base_path: str, google_id: str, history: list[dict] | None = None, llm_client=None) -> RouteResult:
     """Route a student's question to the right department(s) and classify complexity.
 
     Makes a single LLM call with a hard 5-second timeout. On any failure the
@@ -108,7 +108,17 @@ def route(question: str, base_path: str, google_id: str, llm_client=None) -> Rou
     registry_json = registry_path.read_text(encoding="utf-8")
 
     user_info = get_formatted_user_info(google_id)
-    prompt = router_prompt(question, registry_json, user_info)
+
+    # Format history as plain text: "User: ... \nAssistant: ..."
+    history_text = ""
+    if history:
+        turns = []
+        for msg in history:
+            role = "User" if msg["role"] == "user" else "Assistant"
+            turns.append(f"{role}: {msg['content']}")
+        history_text = "\n".join(turns)
+
+    prompt = router_prompt(question, registry_json, user_info, history=history_text if history_text else None)
 
     # ── Single-attempt router call ────────────────────────────────────────────
     try:
