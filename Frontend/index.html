@@ -2280,79 +2280,129 @@ function renderDashboard() {
     const remainingCredits = Math.max(TOTAL_REQUIRED_CREDITS - completedCredits, 0);
     const totalPercent = Math.round((completedCredits / TOTAL_REQUIRED_CREDITS) * 100);
 
-    const majorKey = normalizeMajorKey(currentProfile.major);
-    const degreeKey = normalizeDegreeType(currentProfile.major_degree_type);
-
-    const degreeData =
-        DEGREE_REQUIREMENTS[majorKey]
-            ?.majors?.[currentProfile.major]
-            ?.[degreeKey];
-
     const completedCodes = new Set(
-        (currentProfile.courses || []).map(c => normalizeCode(c.code))
+    (currentProfile.courses || []).map(c => normalizeCode(c.code))
+);
+
+function getRequirementData(type, name, degreeType = null) {
+    if (!name) return null;
+
+    const key = normalizeMajorKey(name);
+    const block = DEGREE_REQUIREMENTS[key];
+
+    if (!block) return null;
+
+    if (type === "major") {
+        const degreeKey = normalizeDegreeType(degreeType);
+        return block.majors?.[name]?.[degreeKey] || null;
+    }
+
+    if (type === "minor") {
+        return block.minors?.[name] || null;
+    }
+
+    return null;
+}
+
+function progressCard(title, data) {
+    if (!data) {
+        return `
+            <div class="profile-card">
+                <h2>${title}</h2>
+                <p style="color:var(--error);">No requirement data found.</p>
+            </div>
+        `;
+    }
+
+    const requiredCourses = data.requiredCourses || [];
+    const electiveGroups = data.electiveGroups || [];
+
+    const completedRequiredCourses = requiredCourses.filter(req =>
+        completedCodes.has(normalizeCode(req.code))
     );
 
-    const electiveGroups = degreeData?.electiveGroups || [];
-
-const electiveProgress = electiveGroups.map(group => {
-    const taken = (group.options || []).filter(opt =>
-        completedCodes.has(normalizeCode(opt.code))
+    const remainingCourses = requiredCourses.filter(req =>
+        !completedCodes.has(normalizeCode(req.code))
     );
 
-    const completedCount = taken.length;
-    const requiredCount = group.coursesRequired || 0;
-
-    const completedCredits = taken.reduce(
+    const completedCredits = completedRequiredCourses.reduce(
         (sum, c) => sum + (parseFloat(c.credits) || 0),
         0
     );
 
-    const requiredCredits = group.creditsRequired || 0;
+    const requiredCredits = parseFloat(data.requiredCredits) || 0;
 
-    return {
-        ...group,
-        taken,
-        completedCount,
-        remainingCount: Math.max(requiredCount - completedCount, 0),
-        completedCredits,
-        remainingCredits: Math.max(requiredCredits - completedCredits, 0)
-    };
-});
+    const percent = requiredCredits
+        ? Math.round((completedCredits / requiredCredits) * 100)
+        : 0;
 
-    let completedMajorCourses = [];
-    let remainingMajorCourses = [];
-    let majorCreditsCompleted = 0;
-    let majorCreditsRequired = 0;
+    return `
+        <div class="profile-card">
+            <h2>${title}</h2>
 
-    if (degreeData) {
-        const requiredCourses = degreeData.requiredCourses || [];
+            ${pieChart(percent, `${percent}%`)}
 
-        completedMajorCourses = requiredCourses.filter(req =>
-            completedCodes.has(normalizeCode(req.code))
-        );
+            <p><strong>${completedCredits}</strong> / ${requiredCredits} credits completed</p>
 
-        remainingMajorCourses = requiredCourses.filter(req =>
-            !completedCodes.has(normalizeCode(req.code))
-        );
+            <h3 style="margin-top:16px;">Remaining Courses</h3>
+            ${
+                remainingCourses.length
+                    ? remainingCourses.map(c => `<p>${c.code} ${c.name}</p>`).join("")
+                    : `<p>No remaining required courses detected.</p>`
+            }
 
-        const fixedCreditsCompleted = completedMajorCourses.reduce(
-    (sum, c) => sum + (parseFloat(c.credits) || 0),
-    0
+            ${
+                electiveGroups.length
+                    ? `
+                        <h3 style="margin-top:16px;">Electives</h3>
+                        ${electiveGroups.map(group => `
+                            <div style="margin-bottom:12px;">
+                                <p><strong>${group.name}</strong></p>
+                                <p>
+                                    Required: ${group.coursesRequired || "?"} course(s) /
+                                    ${group.creditsRequired || "?"} credits
+                                </p>
+                            </div>
+                        `).join("")}
+                    `
+                    : ""
+            }
+
+            ${
+                data.notes?.length
+                    ? `
+                        <h3 style="margin-top:16px;">Notes</h3>
+                        ${data.notes.map(n => `
+                            <p style="color:var(--muted);">• ${n}</p>
+                        `).join("")}
+                    `
+                    : ""
+            }
+        </div>
+    `;
+}
+
+const majorData = getRequirementData(
+    "major",
+    currentProfile.major,
+    currentProfile.major_degree_type
 );
 
-const electiveCreditsCompleted = electiveProgress.reduce(
-    (sum, group) => sum + group.completedCredits,
-    0
+const secondMajorData = getRequirementData(
+    "major",
+    currentProfile.second_major,
+    currentProfile.second_major_degree_type
 );
 
-majorCreditsCompleted = fixedCreditsCompleted + electiveCreditsCompleted;
+const minorData = getRequirementData(
+    "minor",
+    currentProfile.minor
+);
 
-majorCreditsRequired = parseFloat(degreeData.requiredCredits) || 0;
-    }
-
-    const majorPercent = majorCreditsRequired
-    ? Math.round((majorCreditsCompleted / majorCreditsRequired) * 100)
-    : 0;
+const secondMinorData = getRequirementData(
+    "minor",
+    currentProfile.second_minor
+);
 
     const flags = getDashboardFlags(currentProfile, completedCredits);
 
@@ -2365,16 +2415,13 @@ majorCreditsRequired = parseFloat(degreeData.requiredCredits) || 0;
             <p><strong>${TOTAL_REQUIRED_CREDITS}</strong> credits required</p>
         </div>
 
-        <div class="profile-card">
-            <h2>Major Credit Progress</h2>
-            ${pieChart(majorPercent, `${majorPercent}%`)}
-            <p><strong>${majorCreditsCompleted}</strong> / ${majorCreditsRequired} major credits completed</p>
-            ${
-                degreeData
-                    ? `<p style="color:var(--muted);">Based on saved degree requirements.</p>`
-                    : `<p style="color:var(--error);">No degree requirement data found for this major/degree type.</p>`
-            }
-        </div>
+        ${progressCard(`${currentProfile.major} Progress`, majorData)}
+
+        ${currentProfile.second_major ? progressCard(`${currentProfile.second_major} Progress`, secondMajorData) : ""}
+
+        ${currentProfile.minor ? progressCard(`${currentProfile.minor} Minor Progress`, minorData) : ""}
+
+        ${currentProfile.second_minor ? progressCard(`${currentProfile.second_minor} Minor Progress`, secondMinorData) : ""}
 
         <div class="profile-card">
             <h2>Graduation Timeline</h2>
@@ -2403,49 +2450,6 @@ majorCreditsRequired = parseFloat(degreeData.requiredCredits) || 0;
                     : `<p>No obvious issues detected.</p>`
             }
         </div>
-
-        <div class="profile-card">
-            <h2>Remaining Major Courses</h2>
-            ${
-                remainingMajorCourses.length
-                    ? remainingMajorCourses.map(c => `<p>${c.code} ${c.name}</p>`).join("")
-                    : degreeData
-                        ? `<p>No remaining required major courses detected.</p>`
-                        : `<p style="color:var(--muted);">No requirement data loaded.</p>`
-            }
-        </div>
-
-        <div class="profile-card">
-    <h2>Elective Requirements</h2>
-    ${
-        electiveProgress.length
-            ? electiveProgress.map(group => `
-                <div style="margin-bottom: 16px;">
-                    <p><strong>${group.name}</strong></p>
-                    <p>Completed: ${group.completedCount} / ${group.coursesRequired || "?"} courses</p>
-                    <p>Remaining: ${group.remainingCount} courses</p>
-                    <p>Credits: ${group.completedCredits} / ${group.creditsRequired || "?"}</p>
-
-                    ${
-                        group.taken.length
-                            ? `<p style="color:var(--muted);">Taken: ${group.taken.map(c => c.code).join(", ")}</p>`
-                            : ""
-                    }
-                </div>
-            `).join("")
-            : `<p>No elective requirements listed.</p>`
-    }
-    </div>
-
-    <div class="profile-card">
-            <h2>Additional Requirements</h2>
-            ${degreeData?.notes?.length ? `
-        <div class="profile-card">
-            <h2>Additional Requirements</h2>
-            ${degreeData.notes.map(n => `<p>• ${n}</p>`).join("")}
-        </div>
-        ` : ""}
-</div>
     `;
 }
 
