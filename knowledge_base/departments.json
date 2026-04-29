@@ -22,6 +22,12 @@
     ]
   },
   {
+    "department": "Art History and Business",
+    "degree_types": [
+      "B.A."
+    ]
+  },
+  {
     "department": "Biochemistry",
     "degree_types": [
       "B.S."
@@ -36,10 +42,16 @@
     ]
   },
   {
-    "department": "Business & Economics",
+    "department": "Business",
     "degree_types": [
       "B.A.",
       "Minor"
+    ]
+  },
+  {
+    "department": "Business & Economics",
+    "degree_types": [
+      "B.A."
     ]
   },
   {
@@ -78,6 +90,13 @@
     "degree_types": [
       "B.A.",
       "B.S.",
+      "Minor"
+    ]
+  },
+  {
+    "department": "Economics",
+    "degree_types": [
+      "B.A.",
       "Minor"
     ]
   },
