@@ -2421,7 +2421,7 @@ const completedCredits = requiredCourseCreditsCompleted + electiveCreditsComplet
 
             <p><strong>${completedCredits}</strong> / ${requiredCredits} credits completed</p>
 
-            <h3 style="margin-top:16px;"><u>Remaining Courses</h3></u> <br>
+            <h3 style="margin-top:16px;"><u>Remaining Required Courses</h3></u> <br>
             ${
                 remainingCourses.length
                     ? remainingCourses.map(c => `<p>${c.code} ${c.name}</p>`).join("")
@@ -2524,6 +2524,14 @@ const secondMinorData = getRequirementData(
     ${currentProfile.second_minor ? `
         <p><strong>Second minor:</strong> ${currentProfile.second_minor}</p>
     ` : ""}
+
+    <div style="margin-top:20px;">
+    ${
+        flags.length
+            ? flags.map(f => `<p>${f}</p>`).join("")
+            : `<p style="color:var(--muted);">No obvious issues detected.</p>`
+    }
+</div>
 </div>
 
 
@@ -2538,15 +2546,6 @@ const secondMinorData = getRequirementData(
 
     ${currentProfile.second_minor ? progressCard(`${currentProfile.second_minor} Minor Progress`, secondMinorData) : ""}
 
-    <!-- FLAGS -->
-    <div class="profile-card">
-        <h2>Flags / Suggested Attention</h2>
-        ${
-            flags.length
-                ? flags.map(f => `<p>${f}</p>`).join("")
-                : `<p>No obvious issues detected.</p>`
-        }
-    </div>
 `;
 }
 
