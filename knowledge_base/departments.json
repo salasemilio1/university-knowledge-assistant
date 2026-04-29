@@ -22,6 +22,18 @@
     ]
   },
   {
+    "department": "Art History and Business",
+    "degree_types": [
+      "B.A."
+    ]
+  },
+  {
+    "department": "Biochemistry",
+    "degree_types": [
+      "B.S."
+    ]
+  },
+  {
     "department": "Biology",
     "degree_types": [
       "B.A.",
@@ -30,17 +42,24 @@
     ]
   },
   {
-    "department": "Business & Economics",
+    "department": "Business",
     "degree_types": [
       "B.A.",
       "Minor"
     ]
   },
   {
-    "department": "Chemistry & Biochemistry",
+    "department": "Business & Economics",
+    "degree_types": [
+      "B.A."
+    ]
+  },
+  {
+    "department": "Chemistry",
     "degree_types": [
       "B.A.",
       "B.S.",
+      "B.S. ACS-Certified",
       "Minor"
     ]
   },
@@ -71,6 +90,13 @@
     "degree_types": [
       "B.A.",
       "B.S.",
+      "Minor"
+    ]
+  },
+  {
+    "department": "Economics",
+    "degree_types": [
+      "B.A.",
       "Minor"
     ]
   },

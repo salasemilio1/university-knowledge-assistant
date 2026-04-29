@@ -1719,6 +1719,12 @@
 
         const hasMajorDeg = !!majorDegEl.value;
 
+        // Remove second major if first major is unselected
+        if (!hasMajorDeg) {
+            setValue("second_major", "No second major");
+            setValue("second_major_degree_type", "Select a degree type")
+        }
+
         // Second Major Visibility
         const secondMajorField = secondMajorEl.closest(".profile-field");
         const showSecondMajor = !!secondMajorEl.value || secondMajorEl.dataset.forcedVisible === "true";
@@ -1735,6 +1741,11 @@
         const showMinor = !!minorEl.value || minorEl.dataset.forcedVisible === "true";
         if (minorField) {
             minorField.style.display = (hasMajorDeg && showMinor) ? "flex" : "none";
+        }
+
+        // Remove second minor if first minor is unselected
+        if (!showMinor) {
+            setValue("second_minor", "No second minor");
         }
 
         // Second Minor Visibility
