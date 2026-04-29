@@ -22,6 +22,12 @@
     ]
   },
   {
+    "department": "Biochemistry",
+    "degree_types": [
+      "B.S."
+    ]
+  },
+  {
     "department": "Biology",
     "degree_types": [
       "B.A.",
@@ -37,10 +43,11 @@
     ]
   },
   {
-    "department": "Chemistry & Biochemistry",
+    "department": "Chemistry",
     "degree_types": [
       "B.A.",
       "B.S.",
+      "B.S. ACS-Certified",
       "Minor"
     ]
   },
