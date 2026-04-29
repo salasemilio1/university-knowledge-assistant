@@ -1707,6 +1707,11 @@
             minorField.style.display = (hasMajorDeg && showMinor) ? "flex" : "none";
         }
 
+        // Remove second minor if first minor is unselected
+        if (!showMinor) {
+            setValue("second_minor", "No second minor");
+        }
+
         // Second Minor Visibility
         const secondMinorField = secondMinorEl.closest(".profile-field");
         const showSecondMinor = !!secondMinorEl.value || secondMinorEl.dataset.forcedVisible === "true";
