@@ -1689,6 +1689,12 @@
 
         const hasMajorDeg = !!majorDegEl.value;
 
+        // Remove second major if first major is unselected
+        if (!hasMajorDeg) {
+            setValue("second_major", "No second major");
+            setValue("second_major_degree_type", "Select a degree type")
+        }
+
         // Second Major Visibility
         const secondMajorField = secondMajorEl.closest(".profile-field");
         const showSecondMajor = !!secondMajorEl.value || secondMajorEl.dataset.forcedVisible === "true";
