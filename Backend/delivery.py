@@ -60,9 +60,11 @@ app = FastAPI()
 
 # Serve all files inside Frontend/ as static assets (CSS, JS, images, etc.)
 app.mount("/static", StaticFiles(directory=str(FRONTEND_DIR)), name="static")
+app.mount("/kb", StaticFiles(directory="knowledge_base"), name="kb")
 
 # Add middleware (used for user sessions)
 app.add_middleware(SessionMiddleware, SECRET_KEY)
+
 
 # ── Routes ────────────────────────────────────────────────────────────────────
 
