@@ -19,7 +19,7 @@ import logging
 from pathlib import Path
 
 from pipeline.gemini_client import generate, generate_stream, MODEL_ANSWERER
-from pipeline.prompts import answerer_prompt
+from pipeline.prompts import answerer_prompt, initial_chat_prompt
 from pipeline.router import load_registry
 from Backend.user_db import get_formatted_user_info
 
@@ -122,3 +122,24 @@ def stream_answer(
     user_info     = get_formatted_user_info(google_id)
     prompt        = answerer_prompt(question, context, history_block, profile=user_info)
     yield from generate_stream(prompt, model=MODEL_ANSWERER, llm_client=llm_client)
+
+
+def initial_chat_response(google_id: str | None = None, llm_client=None) -> str:
+    """
+    Tailors a default message to the user each time a conversation starts. 
+    """
+    user_info = get_formatted_user_info(google_id) if google_id else None
+    prompt = initial_chat_prompt(profile=user_info)
+    return generate(prompt, model=MODEL_ANSWERER, llm_client=llm_client)
+
+
+def initial_chat_response_alt() -> str:
+    """
+    This can be used if we want to avoid calling the LLM each time the default message is provided. 
+    """
+    return (
+        "You can ask me about majors, minors, degree requirements, courses, "
+        "graduation planning, professors, academic policies, and campus resources. "
+        "If you’ve filled out your profile, I can also give more personalized guidance. "
+        "Try asking something like: 'What courses should I take next semester?'"
+    )

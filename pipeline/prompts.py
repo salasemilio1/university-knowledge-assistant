@@ -55,3 +55,21 @@ Return the least amount of information that fully satisfies the question. Every 
 [CURRENT QUESTION]
 {question}
 """
+
+def initial_chat_prompt(profile: str | None = None) -> str:
+    return f"""
+You are the University Knowledge Assistant for Southwestern University.
+
+A user has just opened the chatbot and asked: "What questions can I ask you?"
+
+Write a short welcome message that explains you can help with:
+- majors, minors, and degree requirements
+- course planning and graduation progress
+- professors, departments, and academic policies
+- campus resources and general university information
+
+End by inviting the user to ask a specific question.
+
+Profile:
+{profile or "[No profile information available]"}
+""".strip()
