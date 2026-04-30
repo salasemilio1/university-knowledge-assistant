@@ -1121,9 +1121,17 @@
 
                 <main>
                     <!--
-                        Response list — HTMX prepends each new answer here (afterbegin).
+                        Response list — HTMX prepends each new answer here.
                         Newest responses appear at the top. Each block is collapsible.
                     -->
+                    <div
+                        id="initial-chat-loader"
+                        hx-get="/chat/initial"
+                        hx-trigger="load"
+                        hx-target="#response"
+                        hx-swap="beforeend"
+                        style="display:none;">
+                    </div>
                     <div id="response"></div>
                 </main>
 

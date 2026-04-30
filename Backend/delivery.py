@@ -30,7 +30,7 @@ from google.oauth2 import id_token
 from google.auth.transport import requests
 
 from pipeline.router import route
-from pipeline.answerer import answer, stream_answer
+from pipeline.answerer import answer, stream_answer, initial_chat_response
 from pipeline.gemini_client import CANNED_FALLBACK_HTML
 
 from Backend.user_db import create_user, update_user, get_user_by_id, get_user_courses, get_user_transfer_credits, add_courses, add_transcript_info, get_chat_history, add_chat_message
@@ -70,6 +70,7 @@ app.add_middleware(SessionMiddleware, SECRET_KEY)
 # ── Routes ────────────────────────────────────────────────────────────────────
 
 @app.get("/", response_class=FileResponse)
+
 @app.get("/chat", response_class=FileResponse)
 def index(request: Request):
     """Serve the main chat page."""
@@ -78,6 +79,8 @@ def index(request: Request):
     else:
         # Route to sign-in page if user is not signed in
         return RedirectResponse(url="/sign-in", status_code=302)
+
+
 
 @app.get("/sign-in", response_class=FileResponse)
 def sign_in(request: Request):
@@ -440,6 +443,19 @@ async def ask(request: Request, query: str = Form(...)):
         return HTMLResponse(content=answer_text)
 
     return _answer_html(query, answer_text)
+
+@app.get("/chat/initial", response_class=HTMLResponse)
+async def chat_initial(request: Request):
+    google_id = request.session.get("user_id")
+    if not google_id:
+        raise HTTPException(status_code=401, detail="Authentication required.")
+
+    try:
+        welcome_text = await run_in_threadpool(initial_chat_response, google_id)
+        return _answer_html("What questions can I ask you?", welcome_text)
+    except Exception as exc:
+        logging.error("Initial chat response failed: %s", exc)
+        return _error_html("Something went wrong while loading the welcome message.")
 
 
 @app.post("/ask/stream")
