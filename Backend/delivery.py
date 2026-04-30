@@ -97,11 +97,13 @@ async def google_auth(request: Request, response: Response, token: str = Form(..
         google_id= idinfo.get("sub")
         email = idinfo.get("email")
 
-        name = idinfo.get("name")
-        first_name, last_name = name.split(" ", 1)
+        name = idinfo.get("name", "User")
+        parts = name.split(" ", 1)
+        first_name = parts[0]
+        last_name = parts[1] if len(parts) > 1 else ""
 
         # Add user to database, if not already in the database
-        create_user(google_id,email,first_name,last_name)
+        create_user(google_id, email, first_name, last_name)
 
         # Create user session
         request.session["user_id"] = google_id
@@ -393,10 +395,9 @@ async def ask(request: Request, query: str = Form(...)):
     # Fetch history for context
     history = get_chat_history(google_id) if google_id else []
 
-    # Step 1 — Route to the right department(s) and classify complexity
-    # route() never raises — router failures default to the 'general' department.
-    route_result = route(query, KNOWLEDGE_BASE_PATH, google_id, history=history)
-    logging.info("Complexity for query '%s': %s", str(query)[:50], route_result.complexity)
+    # Step 1 — Route to the right department(s)
+    # route() never raises RegistryError or direct LLM errors — it defaults gracefully.
+    route_result = await run_in_threadpool(route, query, KNOWLEDGE_BASE_PATH, google_id, history=history)
 
     # Step 2 — Reject off-topic questions before touching the answerer
     if route_result.off_topic:
@@ -404,10 +405,10 @@ async def ask(request: Request, query: str = Form(...)):
 
     # Step 3 — Generate the answer
     try:
-        answer_text = answer(
+        answer_text = await run_in_threadpool(
+            answer,
             question=query,
             departments=route_result.departments,
-            complexity=route_result.complexity,
             base_path=KNOWLEDGE_BASE_PATH,
             history=history,
             google_id=google_id
@@ -427,7 +428,7 @@ async def ask(request: Request, query: str = Form(...)):
     _log_query(
         question=query,
         routed_majors=route_result.departments,
-        selected_docs=[f"{route_result.complexity} context"],
+        selected_docs=["skills_index"],
         answer_text=answer_text,
         duration_seconds=time.time() - start_time,
     )
@@ -458,8 +459,7 @@ async def ask_stream(request: Request, query: str = Form(...)):
 
     # route() never raises — router failures default to the 'general' department.
     history = get_chat_history(google_id) if google_id else []
-    route_result = route(query, KNOWLEDGE_BASE_PATH, google_id, history=history)
-    logging.info("Complexity for query '%s': %s", str(query)[:50], route_result.complexity)
+    route_result = await run_in_threadpool(route, query, KNOWLEDGE_BASE_PATH, google_id, history=history)
 
     if route_result.off_topic:
         return HTMLResponse(content=_off_topic_html())
@@ -472,7 +472,6 @@ async def ask_stream(request: Request, query: str = Form(...)):
         gen = stream_answer(
             question=query,
             departments=route_result.departments,
-            complexity=route_result.complexity,
             base_path=KNOWLEDGE_BASE_PATH,
             history=history,
             google_id=google_id
@@ -491,14 +490,17 @@ async def ask_stream(request: Request, query: str = Form(...)):
         finally:
             # Persist history ONLY if completion reached to avoid poisoned context
             if google_id and success and full_chunks:
-                final_answer = "".join(full_chunks)
-                add_chat_message(google_id, "user", query)
-                add_chat_message(google_id, "assistant", final_answer)
+                try:
+                    final_answer = "".join(full_chunks)
+                    add_chat_message(google_id, "user", query)
+                    add_chat_message(google_id, "assistant", final_answer)
+                except Exception as db_exc:
+                    logging.error("Failed to persist stream history to DB: %s", db_exc)
 
             _log_query(
                 question=query,
                 routed_majors=route_result.departments,
-                selected_docs=[f"{route_result.complexity} context"],
+                selected_docs=["skills_index"],
                 answer_text="".join(full_chunks),
                 duration_seconds=time.time() - start_time,
             )

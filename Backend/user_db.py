@@ -242,6 +242,9 @@ def get_formatted_user_info(google_id: str):
         str: Formatted user info.
     """
     user_info = get_user_info(google_id)
+    if not user_info:
+        return "No profile information available."
+
     su_courses = get_user_courses(google_id)
     transfer_credits = get_user_transfer_credits(google_id)
 
@@ -428,6 +431,7 @@ def add_transcript_info(google_id: str, transcript: dict):
 def add_chat_message(google_id: str, role: str, content: str):
     """
     Persists a chat message to the history and trims to the last 10 messages.
+    Uses a single transaction to ensure atomicity.
 
     Args:
         google_id: User's Google ID.
@@ -435,21 +439,22 @@ def add_chat_message(google_id: str, role: str, content: str):
         content: The message text.
     """
     with SessionLocal() as session:
-        message = ChatHistory(google_id=google_id, role=role, content=content)
-        session.add(message)
-        session.commit()
+        with session.begin():
+            # 1. Add new message
+            message = ChatHistory(google_id=google_id, role=role, content=content)
+            session.add(message)
+            session.flush() # Ensure ID and timestamp exist for the trim subquery
 
-        # Trim history: keep only most recent 10 messages
-        ids = (
-            session.query(ChatHistory.id)
-            .filter(ChatHistory.google_id == google_id)
-            .order_by(desc(ChatHistory.timestamp), desc(ChatHistory.id))
-            .all()
-        )
-        if len(ids) > 10:
-            to_delete = [r.id for r in ids[10:]]
-            session.query(ChatHistory).filter(ChatHistory.id.in_(to_delete)).delete(synchronize_session=False)
-            session.commit()
+            # 2. Trim history: keep only most recent 10 messages for this user
+            ids = (
+                session.query(ChatHistory.id)
+                .filter(ChatHistory.google_id == google_id)
+                .order_by(desc(ChatHistory.timestamp), desc(ChatHistory.id))
+                .all()
+            )
+            if len(ids) > 10:
+                to_delete = [r.id for r in ids[10:]]
+                session.query(ChatHistory).filter(ChatHistory.id.in_(to_delete)).delete(synchronize_session=False)
 
 def get_chat_history(google_id: str, limit: int = 10) -> List[dict]:
     """

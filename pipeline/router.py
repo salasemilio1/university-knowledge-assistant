@@ -27,28 +27,30 @@ from pipeline.gemini_client import generate, extract_json, MODEL_ROUTER, ROUTER_
 from pipeline.prompts import router_prompt
 from Backend.user_db import get_formatted_user_info
 
+
+class RegistryError(Exception):
+    """Raised when the department registry cannot be loaded or parsed."""
+    pass
+
+
 log = logging.getLogger(__name__)
 
 REGISTRY_FILENAME = "context_registry.json"
 
 # Default department used when routing fails entirely.
 # "general" covers broad university policy, financial info, and cross-cutting
-# advising questions — a safe fallback for any query we can't classify.
+# Registry mapping department slugs -> folder names. If the router
+# picks a slice that isn't here, it's ignored.
 DEFAULT_FALLBACK_DEPARTMENTS = ["general"]
-
-# Valid complexity values returned by the LLM. Anything else defaults to complex
-# so we never silently under-fetch context.
-_VALID_COMPLEXITY = {"simple", "complex"}
-
 
 # ── Result type ───────────────────────────────────────────────────────────────
 
 @dataclass
 class RouteResult:
-    """The output of the router — what to fetch and how much context to load."""
-    departments: list[str]       # validated department slugs from the registry
-    complexity:  str             # "simple" or "complex"
-    off_topic:   bool = False    # True → skip the answerer; return a canned reply
+    """The validated output of the router."""
+    departments: list[str] = field(default_factory=list)
+    off_topic:   bool      = False
+    # True → skip the answerer; return a canned reply
 
 
 # ── Registry loading ──────────────────────────────────────────────────────────
@@ -69,10 +71,7 @@ def load_registry(base_path: str) -> dict:
 
     if not registry_path.exists():
         log.error("Registry not found: %s", registry_path)
-        raise SystemExit(
-            f"\n✖  Could not find {REGISTRY_FILENAME} at:\n"
-            f"   {registry_path.resolve()}\n"
-        )
+        raise RegistryError(f"Registry not found: {registry_path}")
 
     try:
         data = json.loads(registry_path.read_text(encoding="utf-8"))
@@ -82,7 +81,7 @@ def load_registry(base_path: str) -> dict:
         return data
     except (json.JSONDecodeError, KeyError) as exc:
         log.error("Failed to parse registry file: %s", exc)
-        raise SystemExit(1) from exc
+        raise RegistryError(f"Failed to parse registry: {exc}") from exc
 
 
 # ── Core routing ──────────────────────────────────────────────────────────────
@@ -103,25 +102,25 @@ def route(question: str, base_path: str, google_id: str, history: list[dict] | N
         A RouteResult with validated department slugs, a complexity string, and
         an off_topic flag. Never raises — router failures default gracefully.
     """
-    registry = load_registry(base_path)
-    registry_path = Path(base_path) / REGISTRY_FILENAME
-    registry_json = registry_path.read_text(encoding="utf-8")
-
-    user_info = get_formatted_user_info(google_id)
-
-    # Format history as plain text: "User: ... \nAssistant: ..."
-    history_text = ""
-    if history:
-        turns = []
-        for msg in history:
-            role = "User" if msg["role"] == "user" else "Assistant"
-            turns.append(f"{role}: {msg['content']}")
-        history_text = "\n".join(turns)
-
-    prompt = router_prompt(question, registry_json, user_info, history=history_text if history_text else None)
-
-    # ── Single-attempt router call ────────────────────────────────────────────
+    # ── Registry loading and Router call ──────────────────────────────────────
     try:
+        registry = load_registry(base_path)
+        registry_path = Path(base_path) / REGISTRY_FILENAME
+        registry_json = registry_path.read_text(encoding="utf-8")
+
+        user_info = get_formatted_user_info(google_id)
+
+        # Format history as plain text: "User: ... \nAssistant: ..."
+        history_text = ""
+        if history:
+            turns = []
+            for msg in history:
+                role = "User" if msg["role"] == "user" else "Assistant"
+                turns.append(f"{role}: {msg['content']}")
+            history_text = "\n".join(turns)
+
+        prompt = router_prompt(question, registry_json, user_info, history=history_text if history_text else None)
+
         raw_response = generate(
             prompt,
             model=MODEL_ROUTER,
@@ -130,14 +129,13 @@ def route(question: str, base_path: str, google_id: str, history: list[dict] | N
             thinking_level="MINIMAL",
             is_router=True,
         )
-    except (FuturesTimeout, Exception) as exc:
+    except (RegistryError, FuturesTimeout, Exception) as exc:
         log.warning(
-            "Router call failed (%s) — defaulting to %s",
+            "Router call or registry load failed (%s) — defaulting to %s",
             exc, DEFAULT_FALLBACK_DEPARTMENTS,
         )
         return RouteResult(
             departments=DEFAULT_FALLBACK_DEPARTMENTS,
-            complexity="complex",
         )
 
     # ── Parse and validate response ───────────────────────────────────────────
@@ -149,7 +147,6 @@ def route(question: str, base_path: str, google_id: str, history: list[dict] | N
             raise ValueError(f"Expected a JSON object, got: {type(parsed)}")
 
         raw_departments = parsed.get("departments", [])
-        raw_complexity  = parsed.get("complexity", "complex")
         off_topic       = bool(parsed.get("off_topic", False))
 
         if not isinstance(raw_departments, list):
@@ -162,13 +159,12 @@ def route(question: str, base_path: str, google_id: str, history: list[dict] | N
         )
         return RouteResult(
             departments=DEFAULT_FALLBACK_DEPARTMENTS,
-            complexity="complex",
         )
 
     # ── Off-topic fast exit ───────────────────────────────────────────────────
     if off_topic:
         log.info("Question flagged as off-topic by router")
-        return RouteResult(departments=[], complexity="simple", off_topic=True)
+        return RouteResult(departments=[], off_topic=True)
 
     # ── Validate slugs ────────────────────────────────────────────────────────
     valid_departments = [s for s in raw_departments if s in registry]
@@ -179,13 +175,5 @@ def route(question: str, base_path: str, google_id: str, history: list[dict] | N
         )
         valid_departments = DEFAULT_FALLBACK_DEPARTMENTS
 
-    # ── Normalise complexity ──────────────────────────────────────────────────
-    complexity = raw_complexity if raw_complexity in _VALID_COMPLEXITY else "complex"
-    if complexity != raw_complexity:
-        log.warning(
-            "Router returned unrecognised complexity '%s'; defaulting to 'complex'.",
-            raw_complexity,
-        )
-
-    log.info("Routed to %s (complexity=%s)", valid_departments, complexity)
-    return RouteResult(departments=valid_departments, complexity=complexity)
+    log.info("Routed to %s", valid_departments)
+    return RouteResult(departments=valid_departments)
