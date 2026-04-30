@@ -26,7 +26,6 @@ from Backend.user_db import get_formatted_user_info
 log = logging.getLogger(__name__)
 
 SKILLS_INDEX_FILENAME = "skills_index.md"
-EXTRACTED_DOCS_DIR    = "docs/extracted"
 
 
 # ── Document loading ──────────────────────────────────────────────────────────
@@ -57,64 +56,17 @@ def _load_skills_index(department_slug: str, base_path: str) -> str | None:
     return index_path.read_text(encoding="utf-8")
 
 
-def _load_all_txt_files(department_slug: str, base_path: str) -> list[tuple[str, str]]:
-    """Read all .txt source files from a department's docs/extracted/ directory.
-
-    Used for complex questions that need the full document set.
-
-    Returns:
-        A list of (filename, content) tuples, one per discovered .txt file.
-    """
-    registry    = load_registry(base_path)
-    folder      = registry.get(department_slug, {}).get("folder")
-
-    if not folder:
-        return []
-
-    extracted_dir = Path(base_path) / folder / EXTRACTED_DOCS_DIR
-
-    if not extracted_dir.exists():
-        log.warning("Extracted docs directory not found: %s", extracted_dir)
-        return []
-
-    files = []
-    for txt_path in sorted(extracted_dir.glob("*.txt")):
-        try:
-            files.append((txt_path.name, txt_path.read_text(encoding="utf-8")))
-        except Exception as exc:
-            log.warning("Failed to read %s: %s", txt_path, exc)
-
-    return files
-
-
-def load_context(departments: list[str], complexity: str, base_path: str) -> str:
+def load_context(departments: list[str], base_path: str) -> str:
     """Assemble the context string to pass to the answerer prompt.
-
-    Combines context from all routed departments. Each source block is
-    labelled so the model can cite its sources in the response.
-
-    Args:
-        departments: Validated department slugs from the router.
-        complexity:  "simple" → skills_index only; "complex" → index + all txts.
-        base_path:   Path to the knowledge_base directory.
-
-    Returns:
-        A single string with all relevant content, ready for the prompt.
+    Always loads only the skills_index.md files for provided departments.
     """
     parts = []
-
     for slug in departments:
-        # Always include the skills index — it is the backbone of every response
         index_text = _load_skills_index(slug, base_path)
         if index_text:
-            parts.append(f"--- Source: {slug}/skills_index.md ---\n\n{index_text}")
+            parts.append(index_text)
         else:
             log.warning("Skipping skills index for '%s' — file not found", slug)
-
-        # For complex questions, also include the full source documents
-        if complexity == "complex":
-            for filename, content in _load_all_txt_files(slug, base_path):
-                parts.append(f"--- Source: {slug}/{filename} ---\n\n{content}")
 
     if not parts:
         return "[No context could be loaded for this question.]"
@@ -125,22 +77,14 @@ def load_context(departments: list[str], complexity: str, base_path: str) -> str
 # ── History formatting ────────────────────────────────────────────────────────
 
 def format_history(history: list[dict]) -> str | None:
-    """Format conversation history as a plaintext block for the prompt.
-
-    Args:
-        history: A list of dicts with 'question' and 'answer' keys, oldest first.
-
-    Returns:
-        A formatted string, or None if history is empty.
-    """
+    """Format conversation history as a plaintext block for the prompt."""
     if not history:
         return None
 
     lines = []
-    for i, entry in enumerate(history, start=1):
-        lines.append(f"Q{i}: {entry['question']}")
-        lines.append(f"A{i}: {entry['answer']}")
-        lines.append("")  # blank line between pairs
+    for msg in history:
+        role = "User" if msg["role"] == "user" else "Assistant"
+        lines.append(f"{role}: {msg['content']}")
 
     return "\n".join(lines).strip()
 
@@ -150,62 +94,30 @@ def format_history(history: list[dict]) -> str | None:
 def answer(
     question:    str,
     departments: list[str],
-    complexity:  str,
     base_path:   str,
     history:     list[dict],
     google_id:   str,
     llm_client=None
 ) -> str:
-    """Generate a cited answer to the student's question.
-
-    Args:
-        question:    The student's question.
-        departments: Department slugs from the router.
-        complexity:  "simple" or "complex" — determines how much context to load.
-        base_path:   Path to the knowledge_base directory.
-        history:     The last N Q&A pairs for conversational context.
-        google_id:   The student's Google ID (for profile personalisation).
-
-    Returns:
-        The model's answer string with inline source citations.
-    """
-    context       = load_context(departments, complexity, base_path)
+    """Generate an answer using ONLY the skills_index.md files."""
+    context       = load_context(departments, base_path)
     history_block = format_history(history)
     user_info     = get_formatted_user_info(google_id)
     prompt        = answerer_prompt(question, context, history_block, profile=user_info)
     response = generate(prompt, model=MODEL_ANSWERER, llm_client=llm_client)
-
-    # TODO: Add response quality checks here (e.g. verify citations exist)
     return response
 
 
 def stream_answer(
     question:    str,
     departments: list[str],
-    complexity:  str,
     base_path:   str,
     history:     list[dict],
     google_id:   str,
     llm_client=None
 ):
-    """Yield answer chunks for the student's question (streaming variant of answer).
-
-    Signature mirrors answer() exactly — the only difference is that this
-    function yields text chunks as they arrive from the model rather than
-    returning a single completed string.
-
-    Args:
-        question:    The student's question.
-        departments: Department slugs from the router.
-        complexity:  "simple" or "complex" — determines how much context to load.
-        base_path:   Path to the knowledge_base directory.
-        history:     The last N Q&A pairs for conversational context.
-        google_id:   The student's Google ID (for profile personalisation).
-
-    Yields:
-        Raw text chunks as they are produced by the model.
-    """
-    context       = load_context(departments, complexity, base_path)
+    """Streaming variant of answer."""
+    context       = load_context(departments, base_path)
     history_block = format_history(history)
     user_info     = get_formatted_user_info(google_id)
     prompt        = answerer_prompt(question, context, history_block, profile=user_info)

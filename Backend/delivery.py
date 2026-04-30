@@ -31,8 +31,9 @@ from google.auth.transport import requests
 
 from pipeline.router import route
 from pipeline.answerer import answer, stream_answer
+from pipeline.gemini_client import CANNED_FALLBACK_HTML
 
-from Backend.user_db import create_user, update_user, get_user_by_id, get_user_courses, get_user_transfer_credits, add_courses, add_transcript_info
+from Backend.user_db import create_user, update_user, get_user_by_id, get_user_courses, get_user_transfer_credits, add_courses, add_transcript_info, get_chat_history, add_chat_message
 
 # ── Setup ─────────────────────────────────────────────────────────────────────
 
@@ -98,11 +99,13 @@ async def google_auth(request: Request, response: Response, token: str = Form(..
         google_id= idinfo.get("sub")
         email = idinfo.get("email")
 
-        name = idinfo.get("name")
-        first_name, last_name = name.split(" ", 1)
+        name = idinfo.get("name", "User")
+        parts = name.split(" ", 1)
+        first_name = parts[0]
+        last_name = parts[1] if len(parts) > 1 else ""
 
         # Add user to database, if not already in the database
-        create_user(google_id,email,first_name,last_name)
+        create_user(google_id, email, first_name, last_name)
 
         # Create user session
         request.session["user_id"] = google_id
@@ -391,38 +394,50 @@ async def ask(request: Request, query: str = Form(...)):
     # Get google id so the router can get user profile
     google_id = request.session.get("user_id")
 
-    # Step 1 — Route to the right department(s) and classify complexity
-    try:
-        route_result = route(query, KNOWLEDGE_BASE_PATH, google_id)
-        logging.info("Complexity for query '%s': %s", query[:50], route_result.complexity)
-    except Exception as exc:
-        logging.error("Routing failed: %s", exc)
-        return _error_html("Something went wrong while routing your question. Please try again.")
+    # Fetch history for context
+    history = get_chat_history(google_id) if google_id else []
 
-    # Step 2 — Generate the answer
-    # Note: history is not passed here (stateless for now).
-    # To add conversation memory later, store history in a session or pass it from the client.
+    # Step 1 — Route to the right department(s)
+    # route() never raises RegistryError or direct LLM errors — it defaults gracefully.
+    route_result = await run_in_threadpool(route, query, KNOWLEDGE_BASE_PATH, google_id, history=history)
+
+    # Step 2 — Reject off-topic questions before touching the answerer
+    if route_result.off_topic:
+        return _off_topic_html()
+
+    # Step 3 — Generate the answer
     try:
-        answer_text = answer(
+        answer_text = await run_in_threadpool(
+            answer,
             question=query,
             departments=route_result.departments,
-            complexity=route_result.complexity,
             base_path=KNOWLEDGE_BASE_PATH,
-            history=[],
+            history=history,
             google_id=google_id
         )
     except Exception as exc:
         logging.error("Answer generation failed: %s", exc)
         return _error_html("Something went wrong while generating your answer. Please try again.")
 
-    # Log the query for review
+    # Step 4 — Persist history (only if we have a user)
+    if google_id:
+        # User message
+        add_chat_message(google_id, "user", query)
+        # Assistant response
+        add_chat_message(google_id, "assistant", answer_text)
+
+    # Log the query for audit review
     _log_query(
         question=query,
         routed_majors=route_result.departments,
-        selected_docs=[f"{route_result.complexity} context"],
+        selected_docs=["skills_index"],
         answer_text=answer_text,
         duration_seconds=time.time() - start_time,
     )
+
+    # If we hit the absolute last-resort fallback, return it as-is (no wrapper)
+    if answer_text == CANNED_FALLBACK_HTML:
+        return HTMLResponse(content=answer_text)
 
     return _answer_html(query, answer_text)
 
@@ -444,29 +459,30 @@ async def ask_stream(request: Request, query: str = Form(...)):
     google_id = request.session.get("user_id")
     start_time = time.time()
 
-    try:
-        route_result = route(query, KNOWLEDGE_BASE_PATH, google_id)
-        logging.info("Complexity for query '%s': %s", query[:50], route_result.complexity)
-    except Exception as exc:
-        logging.error("Routing failed: %s", exc)
-        return Response(content="Routing error.", status_code=500)
+    # route() never raises — router failures default to the 'general' department.
+    history = get_chat_history(google_id) if google_id else []
+    route_result = await run_in_threadpool(route, query, KNOWLEDGE_BASE_PATH, google_id, history=history)
+
+    if route_result.off_topic:
+        return HTMLResponse(content=_off_topic_html())
 
     async def token_generator():
         """Drive the blocking stream_answer generator inside a thread pool."""
         full_chunks: list[str] = []
         sentinel = object()
+        success = False
         gen = stream_answer(
             question=query,
             departments=route_result.departments,
-            complexity=route_result.complexity,
             base_path=KNOWLEDGE_BASE_PATH,
-            history=[],
+            history=history,
             google_id=google_id
         )
         try:
             while True:
                 chunk = await run_in_threadpool(next, gen, sentinel)
                 if chunk is sentinel:
+                    success = True
                     break
                 full_chunks.append(chunk)
                 yield chunk
@@ -474,10 +490,19 @@ async def ask_stream(request: Request, query: str = Form(...)):
             logging.error("Token streaming failed: %s", exc)
             yield f"\n\n[ERROR] {exc}"
         finally:
+            # Persist history ONLY if completion reached to avoid poisoned context
+            if google_id and success and full_chunks:
+                try:
+                    final_answer = "".join(full_chunks)
+                    add_chat_message(google_id, "user", query)
+                    add_chat_message(google_id, "assistant", final_answer)
+                except Exception as db_exc:
+                    logging.error("Failed to persist stream history to DB: %s", db_exc)
+
             _log_query(
                 question=query,
                 routed_majors=route_result.departments,
-                selected_docs=[f"{route_result.complexity} context"],
+                selected_docs=["skills_index"],
                 answer_text="".join(full_chunks),
                 duration_seconds=time.time() - start_time,
             )
@@ -513,6 +538,18 @@ def _error_html(message: str) -> str:
     return f"""
     <div class="response-block response-error">
         <p>{message}</p>
+    </div>
+    """
+
+
+def _off_topic_html() -> str:
+    """Return a friendly HTML message for questions outside the advising scope."""
+    return """
+    <div class="response-block">
+        <p>That question is outside my area of expertise! I'm here to help with
+        university advising — things like course requirements, degree planning,
+        faculty information, or graduation requirements. Feel free to ask me
+        anything along those lines and I'd love to help. 🎓</p>
     </div>
     """
 
