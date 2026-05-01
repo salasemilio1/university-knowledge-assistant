@@ -584,3 +584,13 @@ def _log_query(
             f.write(json.dumps(entry) + "\n")
     except Exception as exc:
         logging.warning("Failed to write query log: %s", exc)
+
+def _get_current_semester() -> str:
+    """Returns the current semester based on the current month.
+    Jan-June -> "Spring", otherwise -> "Fall"
+    """
+    current_month = datetime.now().month
+    if current_month >= 1 and current_month <= 6:
+        return "Spring"
+    else:
+        return "Fall"
