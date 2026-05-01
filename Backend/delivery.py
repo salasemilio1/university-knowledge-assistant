@@ -474,7 +474,7 @@ async def ask_stream(request: Request, query: str = Form(...)):
     route_result = await run_in_threadpool(route, query, KNOWLEDGE_BASE_PATH, google_id, history=history)
 
     if route_result.off_topic:
-        return HTMLResponse(content=_off_topic_html())
+        return Response(content=_off_topic_message(), media_type="text/plain")
 
     async def token_generator():
         """Drive the blocking stream_answer generator inside a thread pool."""
@@ -552,14 +552,16 @@ def _error_html(message: str) -> str:
     """
 
 
+def _off_topic_message() -> str:
+    """Return a concise off-topic message."""
+    return "That's outside my area of expertise! I'm here to help with university advising like course requirements, degree planning, and faculty info. 🎓"
+
+
 def _off_topic_html() -> str:
     """Return a friendly HTML message for questions outside the advising scope."""
-    return """
+    return f"""
     <div class="response-block">
-        <p>That question is outside my area of expertise! I'm here to help with
-        university advising — things like course requirements, degree planning,
-        faculty information, or graduation requirements. Feel free to ask me
-        anything along those lines and I'd love to help. 🎓</p>
+        <p>{_off_topic_message()}</p>
     </div>
     """
 
