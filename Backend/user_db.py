@@ -352,9 +352,7 @@ def add_courses(google_id:str, courses:List[dict[str,Any]], is_from_transcript=F
                     session.add(course)
                 except IntegrityError:
                     session.rollback()
-        if courses:   
-            session.commit()
-            session.refresh(course)
+        session.commit()
     return True
 
 def add_transfer_credits(google_id:str, transfer_credits:List[dict[str,Any]]) -> bool:
@@ -414,7 +412,7 @@ def get_user_transfer_credits(google_id: str):
             for transfer_credit in transfer_credits
         ]
 
-def add_transcript_info(google_id: str, transcript: dict):
+def add_transcript_info(google_id: str, transcript: dict, is_from_transcript: bool = False):
     """
     Adds transcript information including courses
     and transfer credits from a JSON-derived dictionary.
@@ -422,11 +420,12 @@ def add_transcript_info(google_id: str, transcript: dict):
     Args:
         google_id(str): The Google ID of the account to add transcript information for.
         transcript(dict): Dictionary containing 'courses' and 'transfer_credits'.
+        is_from_transcript(bool): Whether the data comes from a transcript (affects course cleanup).
     """
     courses = transcript.get("courses", [])
     transfer_credits = transcript.get("transfer_credits", [])
 
-    add_courses(google_id, courses)
+    add_courses(google_id, courses, is_from_transcript=is_from_transcript)
     add_transfer_credits(google_id, transfer_credits)
 def add_chat_message(google_id: str, role: str, content: str):
     """

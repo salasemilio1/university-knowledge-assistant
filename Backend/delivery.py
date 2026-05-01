@@ -19,7 +19,7 @@ import os
 from dotenv import load_dotenv
 
 from fastapi import FastAPI, Form, Request, Response, HTTPException, UploadFile, File
-from fastapi.responses import FileResponse, HTMLResponse, RedirectResponse, StreamingResponse
+from fastapi.responses import FileResponse, HTMLResponse, RedirectResponse, StreamingResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 from starlette.concurrency import run_in_threadpool
 from starlette.middleware.sessions import SessionMiddleware
@@ -297,13 +297,17 @@ async def upload_transcript(request: Request, file: UploadFile = File(...)):
             temp_img_path = Path(tmpdirname) / f"temp_{google_id}_{timestamp}.jpg"
             
             # Save temp image
+            file.file.seek(0)
             with open(temp_img_path, "wb") as buffer:
                 shutil.copyfileobj(file.file, buffer)
+            
+            file_size = temp_img_path.stat().st_size
+            logging.info(f"Saved temp image to {temp_img_path}, size: {file_size} bytes")
                 
             # 4. Parse document
             parse_response = await run_in_threadpool(
                 client.parse,
-                document=str(temp_img_path),
+                document=temp_img_path,
                 model="dpt-2-mini"
             )
             
@@ -315,11 +319,16 @@ async def upload_transcript(request: Request, file: UploadFile = File(...)):
             # 5. Extract using schema
             extract_response = await run_in_threadpool(
                 client.extract,
-                markdown=str(temp_md_path),
+                markdown=temp_md_path,
                 schema=json.dumps(schema_data),
                 model="extract-20260314"
             )
             extracted = extract_response.extraction
+            
+            # Log any schema violations (common with 206 Partial Content)
+            if hasattr(extract_response, 'metadata') and hasattr(extract_response.metadata, 'schema_violation_error'):
+                if extract_response.metadata.schema_violation_error:
+                    logging.warning(f"Landing AI Schema Violation for user {google_id}: {extract_response.metadata.schema_violation_error}")
             
             # If debug mode is enabled, save everything to extraction_results/
             if debug_save:
@@ -347,24 +356,25 @@ async def upload_transcript(request: Request, file: UploadFile = File(...)):
             await run_in_threadpool(add_transcript_info, google_id, extracted, is_from_transcript=True)
             db_success = True
         except Exception as db_exc:
-            logging.error("Database storage failed for user %s: %s", google_id, db_exc)
+            import traceback
+            logging.error("Database storage failed for user %s:\n%s", google_id, traceback.format_exc())
 
         if not db_success:
-            return HTMLResponse(
-                content="<div style='color: #FFA500;'>Transcript processed successfully, but database update failed.</div>",
-                status_code=200
+            return JSONResponse(
+                content={"detail": "Transcript processed successfully, but database update failed."},
+                status_code=500
             )
 
-        return HTMLResponse(
-            content="<div style='color: #4CAF50;'>Transcript upload complete!</div>", 
+        return JSONResponse(
+            content={"status": "success"}, 
             status_code=200,
             headers={"HX-Trigger": "transcriptUploaded"}
         )
 
     except Exception as exc:
         logging.error("Transcript processing failed: %s", exc)
-        return HTMLResponse(
-            content=f"<div style='color: #F44336;'>Processing failed: {str(exc)}</div>",
+        return JSONResponse(
+            content={"detail": str(exc)},
             status_code=500
         )
 
