@@ -97,13 +97,14 @@ def answer(
     base_path:   str,
     history:     list[dict],
     google_id:   str,
+    current_semester: str,
     llm_client=None
 ) -> str:
     """Generate an answer using ONLY the skills_index.md files."""
     context       = load_context(departments, base_path)
     history_block = format_history(history)
     user_info     = get_formatted_user_info(google_id)
-    prompt        = answerer_prompt(question, context, history_block, profile=user_info)
+    prompt        = answerer_prompt(question, context, history_block, profile=user_info, current_semester=current_semester)
     response = generate(prompt, model=MODEL_ANSWERER, llm_client=llm_client)
     return response
 
@@ -114,11 +115,12 @@ def stream_answer(
     base_path:   str,
     history:     list[dict],
     google_id:   str,
+    current_semester: str,
     llm_client=None
 ):
     """Streaming variant of answer."""
     context       = load_context(departments, base_path)
     history_block = format_history(history)
     user_info     = get_formatted_user_info(google_id)
-    prompt        = answerer_prompt(question, context, history_block, profile=user_info)
+    prompt        = answerer_prompt(question, context, history_block, profile=user_info, current_semester=current_semester)
     yield from generate_stream(prompt, model=MODEL_ANSWERER, llm_client=llm_client)

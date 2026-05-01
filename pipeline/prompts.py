@@ -28,10 +28,13 @@ Return ONLY the JSON. No preamble, no explanation.
 """
 
 
-def answerer_prompt(question: str, context: str, history: str | None = None, profile: str | None = None) -> str:
+def answerer_prompt(question: str, context: str, history: str | None = None, profile: str | None = None, current_semester: str | None = None) -> str:
     """Build the prompt for the answering model to generate a response."""
     history_block = f"\n[CONVERSATION HISTORY]\n{history}\n" if history else ""
     profile_block = f"\n[STUDENT PROFILE]\n{profile}\n" if profile else ""
+
+    if current_semester:
+        profile_block += f"\nCurrent Semester: {current_semester}"
 
     return f"""\
 You are the Southwestern University (SU) Advising Assistant. You provide helpful, precise, and concise advising information based ONLY on the provided relevant documents.

@@ -413,7 +413,8 @@ async def ask(request: Request, query: str = Form(...)):
             departments=route_result.departments,
             base_path=KNOWLEDGE_BASE_PATH,
             history=history,
-            google_id=google_id
+            google_id=google_id,
+            current_semester=_get_current_semester()
         )
     except Exception as exc:
         logging.error("Answer generation failed: %s", exc)
@@ -476,7 +477,8 @@ async def ask_stream(request: Request, query: str = Form(...)):
             departments=route_result.departments,
             base_path=KNOWLEDGE_BASE_PATH,
             history=history,
-            google_id=google_id
+            google_id=google_id,
+            current_semester=_get_current_semester()
         )
         try:
             while True:
@@ -592,6 +594,6 @@ def _get_current_semester() -> str:
     current_month = datetime.now().month
     current_year = datetime.now().year
     if current_month >= 1 and current_month <= 6:
-        return "Spring " + current_year 
+        return "Spring " + str(current_year) 
     else:
-        return "Fall " + current_year
+        return "Fall " + str(current_year)
