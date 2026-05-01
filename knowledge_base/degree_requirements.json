@@ -9943,409 +9943,6 @@
       }
     }
   },
-  "math": {
-    "majors": {
-      "Mathematics": {
-        "BA": {
-          "requiredCredits": 48,
-          "requiredCourses": [
-            {
-              "code": "MAT52-164",
-              "name": "Modern Calculus I",
-              "credits": 4
-            },
-            {
-              "code": "MAT52-264",
-              "name": "Modern Calculus II",
-              "credits": 4
-            },
-            {
-              "code": "MAT52-364",
-              "name": "Modern Calculus III",
-              "credits": 4
-            },
-            {
-              "code": "MAT52-674",
-              "name": "Linear Algebra",
-              "credits": 4
-            },
-            {
-              "code": "MAT52-684",
-              "name": "Algebraic Structures",
-              "credits": 4
-            },
-            {
-              "code": "MAT52-854",
-              "name": "Real Analysis",
-              "credits": 4
-            },
-            {
-              "code": "MAT52-894",
-              "name": "Senior Seminar in Mathematics",
-              "credits": 4
-            },
-            {
-              "code": "CSC54-184",
-              "name": "Computer Science I",
-              "credits": 4
-            }
-          ],
-          "electiveGroups": [
-            {
-              "name": "Approved Upper-Level Electives",
-              "coursesRequired": 3,
-              "creditsRequired": 12,
-              "options": [
-                {
-                  "code": "PHY53-454",
-                  "name": "Math Methods in Physical Science",
-                  "credits": 4
-                },
-                {
-                  "code": "MAT52-984",
-                  "name": "Honors credit",
-                  "credits": 4
-                },
-                {
-                  "code": "MAT52-304",
-                  "name": "Selected Topics",
-                  "credits": 4
-                },
-                {
-                  "code": "MAT52-384",
-                  "name": "Discrete Mathematics",
-                  "credits": 4
-                },
-                {
-                  "code": "MAT52-404",
-                  "name": "Geometry",
-                  "credits": 4
-                },
-                {
-                  "code": "MAT52-414",
-                  "name": "Operations Research",
-                  "credits": 4
-                },
-                {
-                  "code": "MAT52-524",
-                  "name": "Introduction to Numerical Analysis",
-                  "credits": 4
-                },
-                {
-                  "code": "MAT52-574",
-                  "name": "Probability and Mathematical Statistics",
-                  "credits": 4
-                },
-                {
-                  "code": "MAT52-754",
-                  "name": "Differential Equations",
-                  "credits": 4
-                },
-                {
-                  "code": "MAT52-834",
-                  "name": "Complex Analysis",
-                  "credits": 4
-                },
-                {
-                  "code": "MAT52-844",
-                  "name": "Seminar in Special Topics",
-                  "credits": 4
-                }
-              ]
-            }
-          ],
-          "notes": [
-            "MAT52-894 (Senior Seminar) is the capstone, to be taken in the Fall of senior year, and results in a written paper and oral presentation.",
-            "All majors must successfully pass the Major Field Test in Mathematics.",
-            "CSC54-184 must be completed no later than the sophomore year.",
-            "A minimum grade of C- must be earned in any course if it is to count as a prerequisite for a subsequent Mathematics or Computer Science course.",
-            "Computer Science 54-184, 54-284, and 54-454 cannot be taken out of sequence without departmental approval.",
-            "Any three-credit or four-credit course at the 300 level or above in Mathematics will serve as an approved elective unless explicitly excluded.",
-            "Approved upper-level electives should begin no later than the junior year.",
-            "Honors credit (MAT52-984) counts at most once as an approved upper-level elective.",
-            "MAT52-064, MAT52-104, MAT52-114, and MAT52-291 do not count toward the major."
-          ]
-        },
-        "BS": {
-          "requiredCredits": 68,
-          "requiredCourses": [
-            {
-              "code": "MAT52-164",
-              "name": "Modern Calculus I",
-              "credits": 4
-            },
-            {
-              "code": "MAT52-264",
-              "name": "Modern Calculus II",
-              "credits": 4
-            },
-            {
-              "code": "MAT52-364",
-              "name": "Modern Calculus III",
-              "credits": 4
-            },
-            {
-              "code": "MAT52-574",
-              "name": "Probability and Mathematical Statistics",
-              "credits": 4
-            },
-            {
-              "code": "MAT52-674",
-              "name": "Linear Algebra",
-              "credits": 4
-            },
-            {
-              "code": "MAT52-684",
-              "name": "Algebraic Structures",
-              "credits": 4
-            },
-            {
-              "code": "MAT52-754",
-              "name": "Differential Equations",
-              "credits": 4
-            },
-            {
-              "code": "MAT52-854",
-              "name": "Real Analysis",
-              "credits": 4
-            },
-            {
-              "code": "MAT52-894",
-              "name": "Senior Seminar in Mathematics",
-              "credits": 4
-            },
-            {
-              "code": "CSC54-184",
-              "name": "Computer Science I",
-              "credits": 4
-            },
-            {
-              "code": "CHE51-103/101",
-              "name": "General Chemistry I / Chemical Methods and Techniques Laboratory I",
-              "credits": 4
-            },
-            {
-              "code": "PHY53-154",
-              "name": "Fundamentals of Physics I",
-              "credits": 4
-            }
-          ],
-          "electiveGroups": [
-            {
-              "name": "Approved Upper-Level Electives",
-              "coursesRequired": 2,
-              "creditsRequired": 8,
-              "options": [
-                {
-                  "code": "PHY53-454",
-                  "name": "Math Methods in Physical Science",
-                  "credits": 4
-                },
-                {
-                  "code": "MAT52-984",
-                  "name": "Honors credit",
-                  "credits": 4
-                },
-                {
-                  "code": "MAT52-304",
-                  "name": "Selected Topics",
-                  "credits": 4
-                },
-                {
-                  "code": "MAT52-384",
-                  "name": "Discrete Mathematics",
-                  "credits": 4
-                },
-                {
-                  "code": "MAT52-404",
-                  "name": "Geometry",
-                  "credits": 4
-                },
-                {
-                  "code": "MAT52-414",
-                  "name": "Operations Research",
-                  "credits": 4
-                },
-                {
-                  "code": "MAT52-524",
-                  "name": "Introduction to Numerical Analysis",
-                  "credits": 4
-                },
-                {
-                  "code": "MAT52-834",
-                  "name": "Complex Analysis",
-                  "credits": 4
-                },
-                {
-                  "code": "MAT52-844",
-                  "name": "Seminar in Special Topics",
-                  "credits": 4
-                }
-              ]
-            },
-            {
-              "name": "Biology Supporting Course",
-              "coursesRequired": 1,
-              "creditsRequired": 4,
-              "options": [
-                {
-                  "code": "BIO50-123/121",
-                  "name": "Living Systems",
-                  "credits": 4
-                },
-                {
-                  "code": "BIO50-133/131",
-                  "name": "Molecular and Population Genetics/Lab",
-                  "credits": 4
-                }
-              ]
-            },
-            {
-              "name": "Additional Supporting Science/CS Course",
-              "coursesRequired": 1,
-              "creditsRequired": 4,
-              "options": [
-                {
-                  "code": "BIO50-133/131",
-                  "name": "Molecular and Population Genetics/Lab",
-                  "credits": 4
-                },
-                {
-                  "code": "BIO50-123/121",
-                  "name": "Living Systems",
-                  "credits": 4
-                },
-                {
-                  "code": "CHE51-203/201",
-                  "name": "General Chemistry II/Chemical Methods and Techniques Laboratory II",
-                  "credits": 4
-                },
-                {
-                  "code": "CSC54-284",
-                  "name": "Computer Science II",
-                  "credits": 4
-                },
-                {
-                  "code": "PHY53-164",
-                  "name": "Fundamentals of Physics II",
-                  "credits": 4
-                },
-                {
-                  "code": "PHY53-404",
-                  "name": "Electronics",
-                  "credits": 4
-                }
-              ]
-            }
-          ],
-          "notes": [
-            "MAT52-894 (Senior Seminar) is the capstone, to be taken in the Fall of senior year, and results in a written paper and oral presentation.",
-            "All majors must successfully pass the Major Field Test in Mathematics.",
-            "CSC54-184 must be completed no later than the sophomore year.",
-            "A minimum grade of C- must be earned in any course if it is to count as a prerequisite for a subsequent Mathematics or Computer Science course.",
-            "Computer Science 54-184, 54-284, and 54-454 cannot be taken out of sequence without departmental approval.",
-            "Any three-credit or four-credit course at the 300 level or above in Mathematics will serve as an approved elective unless explicitly excluded.",
-            "Approved upper-level electives should begin no later than the junior year.",
-            "Honors credit (MAT52-984) counts at most once as an approved upper-level elective.",
-            "MAT52-064, MAT52-104, MAT52-114, and MAT52-291 do not count toward the major.",
-            "Requires science and CS courses not required in the B.A."
-          ]
-        }
-      }
-    },
-    "minors": {
-      "Mathematics": {
-        "requiredCredits": 24,
-        "requiredCourses": [
-          {
-            "code": "MAT52-164",
-            "name": "Modern Calculus I",
-            "credits": 4
-          },
-          {
-            "code": "MAT52-264",
-            "name": "Modern Calculus II",
-            "credits": 4
-          },
-          {
-            "code": "MAT52-674",
-            "name": "Linear Algebra",
-            "credits": 4
-          }
-        ],
-        "electiveGroups": [
-          {
-            "name": "Approved Upper-Level Electives",
-            "coursesRequired": 3,
-            "creditsRequired": 12,
-            "options": [
-              {
-                "code": "PHY53-454",
-                "name": "Math Methods in Physical Science",
-                "credits": 4
-              },
-              {
-                "code": "MAT52-984",
-                "name": "Honors credit",
-                "credits": 4
-              },
-              {
-                "code": "MAT52-304",
-                "name": "Selected Topics",
-                "credits": 4
-              },
-              {
-                "code": "MAT52-384",
-                "name": "Discrete Mathematics",
-                "credits": 4
-              },
-              {
-                "code": "MAT52-404",
-                "name": "Geometry",
-                "credits": 4
-              },
-              {
-                "code": "MAT52-414",
-                "name": "Operations Research",
-                "credits": 4
-              },
-              {
-                "code": "MAT52-524",
-                "name": "Introduction to Numerical Analysis",
-                "credits": 4
-              },
-              {
-                "code": "MAT52-574",
-                "name": "Probability and Mathematical Statistics",
-                "credits": 4
-              },
-              {
-                "code": "MAT52-754",
-                "name": "Differential Equations",
-                "credits": 4
-              },
-              {
-                "code": "MAT52-834",
-                "name": "Complex Analysis",
-                "credits": 4
-              },
-              {
-                "code": "MAT52-844",
-                "name": "Seminar in Special Topics",
-                "credits": 4
-              }
-            ]
-          }
-        ],
-        "notes": [
-          "A minimum grade of C- must be earned in any course if it is to count as a prerequisite for a subsequent Mathematics or Computer Science course.",
-          "Any three-credit or four-credit course at the 300 level or above in Mathematics will serve as an approved elective unless explicitly excluded.",
-          "MAT52-064, MAT52-104, MAT52-114, and MAT52-291 do not count toward the minor.",
-          "No Senior Seminar capstone or Major Field Test is required for the minor."
-        ]
-      }
-    }
-  },
   "music": {
     "majors": {
       "Bachelor of Arts in Music": {
@@ -13006,6 +12603,1496 @@
         ],
         "notes": [
           "SOC34-004 (from AP African American Studies) is approved as a substitution for use in the Race and Ethnicity Studies minor, implying it functions as an elective option for a 4-credit slot. This is an incomplete list of requirements for a full minor."
+        ]
+      }
+    }
+  },
+  "history": {
+    "majors": {
+      "History": {
+        "BA": {
+          "requiredCredits": 36,
+          "requiredCourses": [
+            {
+              "code": "HIS16-604",
+              "name": "Historiography",
+              "credits": 4
+            },
+            {
+              "code": "HIS16-864",
+              "name": "Capstone Research Seminar",
+              "credits": 4
+            }
+          ],
+          "electiveGroups": [
+            {
+              "name": "World History",
+              "coursesRequired": 1,
+              "creditsRequired": 4,
+              "options": [
+                {
+                  "code": "HIS16-014",
+                  "name": "Disease, Health & Medicine in World History",
+                  "credits": 4
+                },
+                {
+                  "code": "HIS16-024",
+                  "name": "Empires & Empires of Mind in World History",
+                  "credits": 4
+                },
+                {
+                  "code": "HIS16-034",
+                  "name": "Nations and Nationalism in World History",
+                  "credits": 4
+                },
+                {
+                  "code": "HIS16-044",
+                  "name": "Silk Roads in World History",
+                  "credits": 4
+                },
+                {
+                  "code": "HIS16-094",
+                  "name": "Topics in World History",
+                  "credits": 4
+                }
+              ]
+            },
+            {
+              "name": "Geographic Breadth (one each from 4 of 6 areas)",
+              "coursesRequired": 4,
+              "creditsRequired": 16,
+              "options": [
+                {
+                  "code": "Africa",
+                  "name": "Africa Area Course",
+                  "credits": 4
+                },
+                {
+                  "code": "East Asia",
+                  "name": "East Asia Area Course",
+                  "credits": 4
+                },
+                {
+                  "code": "Europe",
+                  "name": "Europe Area Course",
+                  "credits": 4
+                },
+                {
+                  "code": "Latin America",
+                  "name": "Latin America Area Course",
+                  "credits": 4
+                },
+                {
+                  "code": "US",
+                  "name": "US Area Course",
+                  "credits": 4
+                },
+                {
+                  "code": "Transregional",
+                  "name": "Transregional Area Course",
+                  "credits": 4
+                }
+              ]
+            },
+            {
+              "name": "Additional Upper-Level Electives",
+              "coursesRequired": 2,
+              "creditsRequired": 8,
+              "options": []
+            }
+          ],
+          "notes": [
+            "Total major requires 9 courses.",
+            "World History course should be completed within the first two years.",
+            "At least one course must satisfy the pre-/early modern content requirement. Qualifying courses include: 16-024, 16-044, 16-204, 16-214, 16-234, 16-254, 16-274, 16-434, 16-524, 16-534, 16-614, 16-624.",
+            "Historiography prerequisite: World History course and junior status.",
+            "Capstone prerequisite: HIS16-604.",
+            "Upper-level electives must be at least 3 credits each.",
+            "HIS16-054 is listed as a Historiography prerequisite but its status as a World History requirement option is unverified."
+          ]
+        }
+      }
+    },
+    "minors": {
+      "History": {
+        "requiredCredits": 20,
+        "requiredCourses": [],
+        "electiveGroups": [
+          {
+            "name": "World History",
+            "coursesRequired": 1,
+            "creditsRequired": 4,
+            "options": [
+              {
+                "code": "HIS16-014",
+                "name": "Disease, Health & Medicine in World History",
+                "credits": 4
+              },
+              {
+                "code": "HIS16-024",
+                "name": "Empires & Empires of Mind in World History",
+                "credits": 4
+              },
+              {
+                "code": "HIS16-034",
+                "name": "Nations and Nationalism in World History",
+                "credits": 4
+              },
+              {
+                "code": "HIS16-044",
+                "name": "Silk Roads in World History",
+                "credits": 4
+              },
+              {
+                "code": "HIS16-094",
+                "name": "Topics in World History",
+                "credits": 4
+              }
+            ]
+          },
+          {
+            "name": "Upper-Level History Electives",
+            "coursesRequired": 4,
+            "creditsRequired": 16,
+            "options": []
+          }
+        ],
+        "notes": [
+          "Minor requires 5 courses total.",
+          "At least 12 credits for the minor must be completed at SU."
+        ]
+      }
+    }
+  },
+  "spanish": {
+    "majors": {
+      "Spanish": {
+        "BA": {
+          "requiredCredits": 32,
+          "requiredCourses": [
+            {
+              "code": "SPA15-934",
+              "name": "Research Seminar for Seniors",
+              "credits": 4
+            }
+          ],
+          "electiveGroups": [
+            {
+              "name": "Required Core Group 1",
+              "coursesRequired": 1,
+              "creditsRequired": 4,
+              "options": [
+                {
+                  "code": "SPA15-214",
+                  "name": "Written and Oral Expression",
+                  "credits": 4
+                },
+                {
+                  "code": "SPA15-334",
+                  "name": "Conversation Through Hispanic Cinema",
+                  "credits": 4
+                },
+                {
+                  "code": "SPA15-344",
+                  "name": "Introduction to Literary Studies",
+                  "credits": 4
+                }
+              ]
+            },
+            {
+              "name": "Required Core Group 2",
+              "coursesRequired": 1,
+              "creditsRequired": 4,
+              "options": [
+                {
+                  "code": "SPA15-354",
+                  "name": "Cultures and Communities of Latin America",
+                  "credits": 4
+                },
+                {
+                  "code": "SPA15-364",
+                  "name": "Cultures and Communities of Spain",
+                  "credits": 4
+                }
+              ]
+            },
+            {
+              "name": "Additional Intermediate/Advanced Electives",
+              "coursesRequired": 2,
+              "creditsRequired": 8,
+              "options": [
+                {
+                  "code": "Levels 200-800",
+                  "name": "Any course level 200 through 800",
+                  "credits": 4
+                }
+              ]
+            },
+            {
+              "name": "Advanced Electives",
+              "coursesRequired": 3,
+              "creditsRequired": 12,
+              "options": [
+                {
+                  "code": "Levels 400-800",
+                  "name": "Any course level 400 through 800",
+                  "credits": 4
+                }
+              ]
+            }
+          ],
+          "notes": [
+            "8 courses total required for the major.",
+            "Language assessment exam required during the semester of the capstone experience.",
+            "All Spanish majors are strongly urged to plan for study abroad.",
+            "Capstone SPA15-934 is offered in the spring only.",
+            "No grade below C- counts toward the major.",
+            "At least 60% of major credits must be completed at SU.",
+            "Paired major available with Latin American and Border Studies (LABS) where two courses may count toward both majors."
+          ]
+        }
+      }
+    },
+    "minors": {
+      "Spanish": {
+        "requiredCredits": 20,
+        "requiredCourses": [],
+        "electiveGroups": [
+          {
+            "name": "Required Core Group 1",
+            "coursesRequired": 1,
+            "creditsRequired": 4,
+            "options": [
+              {
+                "code": "SPA15-214",
+                "name": "Written and Oral Expression",
+                "credits": 4
+              },
+              {
+                "code": "SPA15-334",
+                "name": "Conversation Through Hispanic Cinema",
+                "credits": 4
+              },
+              {
+                "code": "SPA15-344",
+                "name": "Introduction to Literary Studies",
+                "credits": 4
+              }
+            ]
+          },
+          {
+            "name": "Required Core Group 2",
+            "coursesRequired": 1,
+            "creditsRequired": 4,
+            "options": [
+              {
+                "code": "SPA15-354",
+                "name": "Cultures and Communities of Latin America",
+                "credits": 4
+              },
+              {
+                "code": "SPA15-364",
+                "name": "Cultures and Communities of Spain",
+                "credits": 4
+              }
+            ]
+          },
+          {
+            "name": "Minor Electives",
+            "coursesRequired": 2,
+            "creditsRequired": 8,
+            "options": [
+              {
+                "code": "Levels 200-800",
+                "name": "Two additional courses from levels 200-800 (SPA15-164 may count if taken for college credit)",
+                "credits": 4
+              }
+            ]
+          },
+          {
+            "name": "Advanced Minor Elective",
+            "coursesRequired": 1,
+            "creditsRequired": 4,
+            "options": [
+              {
+                "code": "Levels 400-800",
+                "name": "One course from levels 400-800",
+                "credits": 4
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "5 courses total required for the minor.",
+          "Language assessment exam required upon completion of minor coursework.",
+          "At least 12 credits must be completed at SU.",
+          "SPA15-164 counts only if taken for college-level credit."
+        ]
+      }
+    }
+  },
+  "communication_studies": {
+    "majors": {
+      "Communication Studies": {
+        "BA": {
+          "requiredCredits": 32,
+          "requiredCourses": [
+            {
+              "code": "COM75-134",
+              "name": "Critical/Cultural Communication Studies",
+              "credits": 4
+            },
+            {
+              "code": "COM75-204",
+              "name": "Rhetorical Theory",
+              "credits": 4
+            },
+            {
+              "code": "COM75-604",
+              "name": "Critical Media Theory",
+              "credits": 4
+            },
+            {
+              "code": "COM75-804",
+              "name": "Critical/Cultural Research Methods",
+              "credits": 4
+            },
+            {
+              "code": "COM75-964",
+              "name": "Capstone Research Seminar",
+              "credits": 4
+            }
+          ],
+          "electiveGroups": [
+            {
+              "name": "Additional Communication Studies Electives",
+              "coursesRequired": 3,
+              "creditsRequired": 12,
+              "options": []
+            }
+          ],
+          "notes": [
+            "Major requires 8 courses total.",
+            "At least two of the three elective courses must be upper level (200-level and above are generally considered upper level, with 400-500 bridge and 600-700 cognate courses being upper level).",
+            "Only one internship (max 4 credits) may count toward the three electives.",
+            "Only one independent study (4 credits) may count toward the three electives.",
+            "Additional internship or independent study credits count toward the degree but not toward major requirements.",
+            "COM75-154 and COM75-594 Public Speaking do NOT count toward the major or minor.",
+            "Capstone application must be submitted in the spring prior to the capstone year \u2014 missing this deadline delays graduation by a full year.",
+            "All major courses involve significant writing, analysis, research, and creative work.",
+            "COM75-204 is offered Spring only \u2014 failure to take it on schedule delays COM75-804 and COM75-964 by one year.",
+            "COM75-604 is offered Fall only \u2014 failure to take it on schedule delays COM75-804 and COM75-964 by one year.",
+            "COM75-804 requires all three prerequisites (134, 204, 604) to be complete.",
+            "COM75-964 requires all four prerequisites (134, 204, 604, 804) to be complete.",
+            "Minimum GPA for Major is 2.000 average (no grade below C- counts toward major).",
+            "At least 60% of major credits must be taken at SU."
+          ]
+        }
+      }
+    },
+    "minors": {
+      "Communication Studies": {
+        "requiredCredits": 20,
+        "requiredCourses": [
+          {
+            "code": "COM75-134",
+            "name": "Critical/Cultural Communication Studies",
+            "credits": 4
+          }
+        ],
+        "electiveGroups": [
+          {
+            "name": "Additional Communication Studies Electives",
+            "coursesRequired": 4,
+            "creditsRequired": 16,
+            "options": []
+          }
+        ],
+        "notes": [
+          "Minor requires 5 courses total.",
+          "Four additional Communication Studies courses (3\u20134 credits each) are required.",
+          "At least three of the four additional courses must be upper level (200-level and above are generally considered upper level, with 400-500 bridge and 600-700 cognate courses being upper level).",
+          "One internship (max 4 credits) may count.",
+          "One independent study (4 credits) may count.",
+          "Additional internship or independent study credits beyond one each count toward degree only.",
+          "COM75-154 and COM75-594 Public Speaking do NOT count toward the minor.",
+          "At least 12 credits must be completed at SU."
+        ]
+      }
+    }
+  },
+  "general": {
+    "majors": {},
+    "minors": {}
+  },
+  "math": {
+    "majors": {
+      "Mathematics": {
+        "BA": {
+          "requiredCredits": 44,
+          "requiredCourses": [
+            {
+              "code": "MAT52-164",
+              "name": "Modern Calculus I",
+              "credits": 4
+            },
+            {
+              "code": "MAT52-264",
+              "name": "Modern Calculus II",
+              "credits": 4
+            },
+            {
+              "code": "MAT52-364",
+              "name": "Modern Calculus III",
+              "credits": 4
+            },
+            {
+              "code": "MAT52-674",
+              "name": "Linear Algebra",
+              "credits": 4
+            },
+            {
+              "code": "MAT52-684",
+              "name": "Algebraic Structures",
+              "credits": 4
+            },
+            {
+              "code": "MAT52-854",
+              "name": "Real Analysis",
+              "credits": 4
+            },
+            {
+              "code": "MAT52-894",
+              "name": "Senior Seminar in Mathematics",
+              "credits": 4
+            },
+            {
+              "code": "CSC54-184",
+              "name": "Computer Science I",
+              "credits": 4
+            }
+          ],
+          "electiveGroups": [
+            {
+              "name": "Upper-level Electives",
+              "coursesRequired": 3,
+              "creditsRequired": 12,
+              "options": [
+                {
+                  "code": "PHY53-454",
+                  "name": "Math Methods in Physical Science",
+                  "credits": 4
+                }
+              ]
+            }
+          ],
+          "notes": [
+            "Minimum C- required in any course used as a prerequisite",
+            "Major Field Test in Mathematics is required",
+            "Senior Seminar (MAT52-894) involves a written paper and oral presentation",
+            "CSC54-184 should be completed no later than sophomore year",
+            "Honors credit (MAT52-984) counts at most once as an upper-level elective",
+            "MAT52-064, MAT52-104, MAT52-114, and MAT52-291 do not count toward the major"
+          ]
+        },
+        "BS": {
+          "requiredCredits": 64,
+          "requiredCourses": [
+            {
+              "code": "MAT52-164",
+              "name": "Modern Calculus I",
+              "credits": 4
+            },
+            {
+              "code": "MAT52-264",
+              "name": "Modern Calculus II",
+              "credits": 4
+            },
+            {
+              "code": "MAT52-364",
+              "name": "Modern Calculus III",
+              "credits": 4
+            },
+            {
+              "code": "MAT52-574",
+              "name": "Probability and Mathematical Statistics",
+              "credits": 4
+            },
+            {
+              "code": "MAT52-674",
+              "name": "Linear Algebra",
+              "credits": 4
+            },
+            {
+              "code": "MAT52-684",
+              "name": "Algebraic Structures",
+              "credits": 4
+            },
+            {
+              "code": "MAT52-754",
+              "name": "Differential Equations",
+              "credits": 4
+            },
+            {
+              "code": "MAT52-854",
+              "name": "Real Analysis",
+              "credits": 4
+            },
+            {
+              "code": "MAT52-894",
+              "name": "Senior Seminar in Mathematics",
+              "credits": 4
+            },
+            {
+              "code": "CSC54-184",
+              "name": "Computer Science I",
+              "credits": 4
+            },
+            {
+              "code": "PHY53-154",
+              "name": "Fundamentals of Physics I",
+              "credits": 4
+            },
+            {
+              "code": "CHE51-103/101",
+              "name": "General Chemistry I / Chemical Methods and Techniques Lab I",
+              "credits": 4
+            }
+          ],
+          "electiveGroups": [
+            {
+              "name": "Upper-level Electives",
+              "coursesRequired": 2,
+              "creditsRequired": 8,
+              "options": [
+                {
+                  "code": "PHY53-454",
+                  "name": "Math Methods in Physical Science",
+                  "credits": 4
+                }
+              ]
+            },
+            {
+              "name": "Biology Requirement",
+              "coursesRequired": 1,
+              "creditsRequired": 4,
+              "options": [
+                {
+                  "code": "BIO50-123/121",
+                  "name": "Living Systems/Lab",
+                  "credits": 4
+                },
+                {
+                  "code": "BIO50-133/131",
+                  "name": "Molecular and Population Genetics/Lab",
+                  "credits": 4
+                }
+              ]
+            },
+            {
+              "name": "BS Supporting Course Choice",
+              "coursesRequired": 1,
+              "creditsRequired": 4,
+              "options": [
+                {
+                  "code": "BIO50-123/121",
+                  "name": "Living Systems/Lab",
+                  "credits": 4
+                },
+                {
+                  "code": "BIO50-133/131",
+                  "name": "Molecular and Population Genetics/Lab",
+                  "credits": 4
+                },
+                {
+                  "code": "CHE51-203/201",
+                  "name": "General Chemistry II/Lab",
+                  "credits": 4
+                },
+                {
+                  "code": "CSC54-284",
+                  "name": "Computer Science II",
+                  "credits": 4
+                },
+                {
+                  "code": "PHY53-164",
+                  "name": "Fundamentals of Physics II",
+                  "credits": 4
+                },
+                {
+                  "code": "PHY53-404",
+                  "name": "Electronics",
+                  "credits": 4
+                }
+              ]
+            }
+          ],
+          "notes": [
+            "Minimum C- required in any course used as a prerequisite",
+            "Major Field Test in Mathematics is required",
+            "CSC54-184 should be completed by sophomore year",
+            "Honors credit (MAT52-984) counts at most once as an upper-level elective"
+          ]
+        }
+      }
+    },
+    "minors": {
+      "Mathematics": {
+        "requiredCredits": 24,
+        "requiredCourses": [
+          {
+            "code": "MAT52-164",
+            "name": "Modern Calculus I",
+            "credits": 4
+          },
+          {
+            "code": "MAT52-264",
+            "name": "Modern Calculus II",
+            "credits": 4
+          },
+          {
+            "code": "MAT52-674",
+            "name": "Linear Algebra",
+            "credits": 4
+          }
+        ],
+        "electiveGroups": [
+          {
+            "name": "Upper-level Electives",
+            "coursesRequired": 3,
+            "creditsRequired": 12,
+            "options": [
+              {
+                "code": "PHY53-454",
+                "name": "Math Methods in Physical Science",
+                "credits": 4
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "Minimum C- required in any course used as a prerequisite",
+          "MAT52-104, MAT52-114, MAT52-064, and MAT52-291 do not count toward the minor"
+        ]
+      }
+    }
+  },
+  "kinesiology": {
+    "majors": {
+      "Kinesiology": {
+        "BA": {
+          "requiredCredits": 48,
+          "requiredCourses": [
+            {
+              "code": "KIN48-121",
+              "name": "Structural Kinesiology",
+              "credits": 1
+            },
+            {
+              "code": "KIN48-123",
+              "name": "Intro to Human Anatomy & Physiology",
+              "credits": 3
+            },
+            {
+              "code": "KIN48-214",
+              "name": "Research Methods in Kinesiology",
+              "credits": 4
+            },
+            {
+              "code": "KIN48-234",
+              "name": "Health and Fitness Concepts",
+              "credits": 4
+            },
+            {
+              "code": "KIN48-334",
+              "name": "Physiology of Exercise",
+              "credits": 4
+            },
+            {
+              "code": "KIN48-344",
+              "name": "Biomechanics",
+              "credits": 4
+            },
+            {
+              "code": "KIN48-444",
+              "name": "Exercise Prescription",
+              "credits": 4
+            },
+            {
+              "code": "KIN48-481",
+              "name": "Introduction to Capstone",
+              "credits": 1
+            },
+            {
+              "code": "MAT52-114",
+              "name": "Introduction to Statistics",
+              "credits": 4
+            }
+          ],
+          "electiveGroups": [
+            {
+              "name": "Capstone Completion",
+              "coursesRequired": 1,
+              "creditsRequired": 3,
+              "options": [
+                {
+                  "code": "KIN48-483",
+                  "name": "Experiential Capstone in Kinesiology",
+                  "credits": 3
+                },
+                {
+                  "code": "KIN48-493",
+                  "name": "Experimental Capstone in Kinesiology",
+                  "credits": 3
+                }
+              ]
+            },
+            {
+              "name": "Kinesiology Electives",
+              "coursesRequired": 2,
+              "creditsRequired": 8,
+              "options": [
+                {
+                  "code": "KIN48-200+",
+                  "name": "Kinesiology courses at 200-level or above",
+                  "credits": 4
+                }
+              ]
+            }
+          ],
+          "notes": [
+            "KIN48-954 independent study may substitute for capstone with department chair approval and advance proposal.",
+            "Teaching certification students may use student teaching to fulfill the capstone requirement."
+          ]
+        },
+        "BS": {
+          "requiredCredits": 80,
+          "requiredCourses": [
+            {
+              "code": "KIN48-121",
+              "name": "Structural Kinesiology",
+              "credits": 1
+            },
+            {
+              "code": "KIN48-123",
+              "name": "Intro to Human Anatomy & Physiology",
+              "credits": 3
+            },
+            {
+              "code": "KIN48-214",
+              "name": "Research Methods in Kinesiology",
+              "credits": 4
+            },
+            {
+              "code": "KIN48-251",
+              "name": "Integrative Approach to Human A&P I (lab)",
+              "credits": 1
+            },
+            {
+              "code": "KIN48-253",
+              "name": "Human Anatomy & Physiology I",
+              "credits": 3
+            },
+            {
+              "code": "KIN48-261",
+              "name": "Integrative Approach to Human A&P II (lab)",
+              "credits": 1
+            },
+            {
+              "code": "KIN48-263",
+              "name": "Human Anatomy & Physiology II",
+              "credits": 3
+            },
+            {
+              "code": "KIN48-334",
+              "name": "Physiology of Exercise",
+              "credits": 4
+            },
+            {
+              "code": "KIN48-344",
+              "name": "Biomechanics",
+              "credits": 4
+            },
+            {
+              "code": "KIN48-481",
+              "name": "Introduction to Capstone",
+              "credits": 1
+            },
+            {
+              "code": "BIO50-173",
+              "name": "Molecular and Cellular Foundations of Biology (plus lab)",
+              "credits": 4
+            },
+            {
+              "code": "CHE51-103/101",
+              "name": "General Chemistry I / Chemical Methods and Techniques Laboratory",
+              "credits": 4
+            },
+            {
+              "code": "MAT52-114",
+              "name": "Introduction to Statistics",
+              "credits": 4
+            },
+            {
+              "code": "MAT52-164",
+              "name": "Modern Calculus I",
+              "credits": 4
+            },
+            {
+              "code": "PHY53-154",
+              "name": "Fundamentals of Physics I",
+              "credits": 4
+            }
+          ],
+          "electiveGroups": [
+            {
+              "name": "Capstone Completion",
+              "coursesRequired": 1,
+              "creditsRequired": 3,
+              "options": [
+                {
+                  "code": "KIN48-483",
+                  "name": "Experiential Capstone in Kinesiology",
+                  "credits": 3
+                },
+                {
+                  "code": "KIN48-493",
+                  "name": "Experimental Capstone in Kinesiology",
+                  "credits": 3
+                }
+              ]
+            },
+            {
+              "name": "Kinesiology Electives",
+              "coursesRequired": 2,
+              "creditsRequired": 8,
+              "options": [
+                {
+                  "code": "KIN48-200+",
+                  "name": "Kinesiology courses at 200-level or above",
+                  "credits": 4
+                }
+              ]
+            },
+            {
+              "name": "Supporting Course Electives",
+              "coursesRequired": 2,
+              "creditsRequired": 8,
+              "options": [
+                {
+                  "code": "BIO50-183",
+                  "name": "Evolutionary and Ecological Foundations of Biology (plus lab)",
+                  "credits": 4
+                },
+                {
+                  "code": "CHE51-203/201",
+                  "name": "General Chemistry II / Chemical Methods and Techniques Laboratory II",
+                  "credits": 4
+                },
+                {
+                  "code": "CSC54-184",
+                  "name": "Computer Science I",
+                  "credits": 4
+                },
+                {
+                  "code": "CSC54-284",
+                  "name": "Computer Science II",
+                  "credits": 4
+                },
+                {
+                  "code": "PHY53-164",
+                  "name": "Fundamentals of Physics II",
+                  "credits": 4
+                }
+              ]
+            }
+          ],
+          "notes": [
+            "KIN48-954 independent study may substitute for capstone with department chair approval.",
+            "KIN48-251/253 and KIN48-261/263 are cross-listed as BIO50-251/253 and BIO50-261/263."
+          ]
+        }
+      }
+    },
+    "minors": {
+      "Kinesiology": {
+        "requiredCredits": 20,
+        "requiredCourses": [
+          {
+            "code": "KIN48-121",
+            "name": "Structural Kinesiology",
+            "credits": 1
+          },
+          {
+            "code": "KIN48-123",
+            "name": "Intro to Human Anatomy & Physiology",
+            "credits": 3
+          },
+          {
+            "code": "KIN48-214",
+            "name": "Research Methods in Kinesiology",
+            "credits": 4
+          },
+          {
+            "code": "KIN48-234",
+            "name": "Health and Fitness Concepts",
+            "credits": 4
+          }
+        ],
+        "electiveGroups": [
+          {
+            "name": "Minor Electives",
+            "coursesRequired": 2,
+            "creditsRequired": 8,
+            "options": [
+              {
+                "code": "KIN48-200+",
+                "name": "Kinesiology courses at 200-level or above",
+                "credits": 4
+              }
+            ]
+          }
+        ],
+        "notes": []
+      },
+      "Applied Movement and Sport Studies": {
+        "requiredCredits": 21,
+        "requiredCourses": [
+          {
+            "code": "KIN48-112",
+            "name": "Explorations in Kinesiology",
+            "credits": 2
+          },
+          {
+            "code": "KIN48-121",
+            "name": "Structural Kinesiology",
+            "credits": 1
+          },
+          {
+            "code": "KIN48-234",
+            "name": "Health and Fitness Concepts",
+            "credits": 4
+          }
+        ],
+        "electiveGroups": [
+          {
+            "name": "Minor Electives",
+            "coursesRequired": 3,
+            "creditsRequired": 12,
+            "options": [
+              {
+                "code": "KIN48-123",
+                "name": "Intro to Human Anatomy & Physiology",
+                "credits": 3
+              },
+              {
+                "code": "KIN48-202",
+                "name": "Methods of Coaching",
+                "credits": 2
+              },
+              {
+                "code": "KIN48-212",
+                "name": "Philosophy of Coaching",
+                "credits": 2
+              },
+              {
+                "code": "KIN48-224",
+                "name": "Care and Prevention of Athletic Injuries",
+                "credits": 4
+              },
+              {
+                "code": "KIN48-274",
+                "name": "Fundamentals of Movement Analysis",
+                "credits": 4
+              },
+              {
+                "code": "KIN48-374",
+                "name": "Nutritional Sciences",
+                "credits": 4
+              },
+              {
+                "code": "KIN48-424",
+                "name": "Health Promotion and Programming",
+                "credits": 4
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "Course numbers 48-202 and 48-212 in requirements doc may correspond to 48-182 and 48-192 in course catalog."
+        ]
+      }
+    }
+  },
+  "psychology": {
+    "majors": {
+      "Psychology": {
+        "BA": {
+          "requiredCredits": 36,
+          "requiredCourses": [
+            {
+              "code": "PSY33-104",
+              "name": "Principles of Psychology",
+              "credits": 4
+            },
+            {
+              "code": "MAT52-114",
+              "name": "Introduction to Statistics",
+              "credits": 4
+            }
+          ],
+          "electiveGroups": [
+            {
+              "name": "Research Methods",
+              "coursesRequired": 1,
+              "creditsRequired": 4,
+              "options": [
+                {
+                  "code": "PSY33-204",
+                  "name": "Survey of Research Methods",
+                  "credits": 4
+                },
+                {
+                  "code": "PSY33-214/211",
+                  "name": "Inquiry-Based Research Methods and Lab",
+                  "credits": 4
+                },
+                {
+                  "code": "PSY33-224/221",
+                  "name": "Inquiry-Based Research Methods w/ Animals and Lab",
+                  "credits": 4
+                }
+              ]
+            },
+            {
+              "name": "Core Courses",
+              "coursesRequired": 4,
+              "creditsRequired": 16,
+              "options": [
+                {
+                  "code": "PSY33-334",
+                  "name": "Personality Theory and Research",
+                  "credits": 4
+                },
+                {
+                  "code": "PSY33-344",
+                  "name": "Lifespan Development",
+                  "credits": 4
+                },
+                {
+                  "code": "PSY33-374",
+                  "name": "Evolutionary Psychology",
+                  "credits": 4
+                },
+                {
+                  "code": "PSY33-384",
+                  "name": "Learning and Cognition",
+                  "credits": 4
+                },
+                {
+                  "code": "PSY33-524",
+                  "name": "Psychopathology and Clinical Science",
+                  "credits": 4
+                },
+                {
+                  "code": "PSY33-534",
+                  "name": "Behavioral Neuroscience",
+                  "credits": 4
+                },
+                {
+                  "code": "PSY33-544",
+                  "name": "Health Psychology",
+                  "credits": 4
+                },
+                {
+                  "code": "PSY33-564",
+                  "name": "Social Psychology",
+                  "credits": 4
+                },
+                {
+                  "code": "PSY33-574",
+                  "name": "Close Relationships",
+                  "credits": 4
+                }
+              ]
+            },
+            {
+              "name": "Additional Psychology Elective",
+              "coursesRequired": 1,
+              "creditsRequired": 4,
+              "options": [
+                {
+                  "code": "PSC32-444",
+                  "name": "Political Psychology",
+                  "credits": 4
+                },
+                {
+                  "code": "PSY33-354",
+                  "name": "Cross-Cultural Psychology",
+                  "credits": 4
+                },
+                {
+                  "code": "PSY33-364",
+                  "name": "Sexuality and Culture",
+                  "credits": 4
+                },
+                {
+                  "code": "PSY33-412/422",
+                  "name": "Careers in Psychology I & II",
+                  "credits": 4
+                },
+                {
+                  "code": "PSY33-474",
+                  "name": "Forensic Psychology",
+                  "credits": 4
+                },
+                {
+                  "code": "PSY33-484",
+                  "name": "Human Sexuality",
+                  "credits": 4
+                }
+              ]
+            },
+            {
+              "name": "Capstone",
+              "coursesRequired": 1,
+              "creditsRequired": 8,
+              "options": [
+                {
+                  "code": "PSY33-824",
+                  "name": "Research in Applied Psychology",
+                  "credits": 8
+                },
+                {
+                  "code": "PSY33-834",
+                  "name": "Research in Behavioral Neuroscience",
+                  "credits": 8
+                },
+                {
+                  "code": "PSY33-844",
+                  "name": "Research in Clinical Psychology",
+                  "credits": 8
+                },
+                {
+                  "code": "PSY33-864",
+                  "name": "Research in Developmental Psychology",
+                  "credits": 8
+                },
+                {
+                  "code": "PSY33-874",
+                  "name": "Research in Social Psychology",
+                  "credits": 8
+                },
+                {
+                  "code": "PSY33-884",
+                  "name": "Research in Cognitive Evolutionary Psychology",
+                  "credits": 8
+                },
+                {
+                  "code": "PSY33-948",
+                  "name": "Academic Internship",
+                  "credits": 8
+                }
+              ]
+            }
+          ],
+          "notes": [
+            "8-9 courses total in Psychology.",
+            "At least two core courses must be at the 500-level.",
+            "PSY33-204 does not qualify for the Research Capstone track.",
+            "A minimum grade of C is required for a course to serve as a prerequisite."
+          ]
+        },
+        "BS": {
+          "requiredCredits": 68,
+          "requiredCourses": [
+            {
+              "code": "PSY33-104",
+              "name": "Principles of Psychology",
+              "credits": 4
+            },
+            {
+              "code": "MAT52-114",
+              "name": "Introduction to Statistics",
+              "credits": 4
+            },
+            {
+              "code": "MAT52-164",
+              "name": "Modern Calculus I",
+              "credits": 4
+            },
+            {
+              "code": "BIO50-173/171",
+              "name": "Molecular and Cellular Foundations of Biology and Lab",
+              "credits": 4
+            },
+            {
+              "code": "BIO50-183/181",
+              "name": "Evolutionary and Ecological Foundations of Biology and Lab",
+              "credits": 4
+            },
+            {
+              "code": "CHE51-103/101",
+              "name": "General Chemistry I and Lab",
+              "credits": 4
+            },
+            {
+              "code": "PHY53-154",
+              "name": "Fundamentals of Physics I",
+              "credits": 4
+            }
+          ],
+          "electiveGroups": [
+            {
+              "name": "Research Methods",
+              "coursesRequired": 1,
+              "creditsRequired": 4,
+              "options": [
+                {
+                  "code": "PSY33-204",
+                  "name": "Survey of Research Methods",
+                  "credits": 4
+                },
+                {
+                  "code": "PSY33-214/211",
+                  "name": "Inquiry-Based Research Methods and Lab",
+                  "credits": 4
+                },
+                {
+                  "code": "PSY33-224/221",
+                  "name": "Inquiry-Based Research Methods w/ Animals and Lab",
+                  "credits": 4
+                }
+              ]
+            },
+            {
+              "name": "Core Courses",
+              "coursesRequired": 4,
+              "creditsRequired": 16,
+              "options": [
+                {
+                  "code": "PSY33-334",
+                  "name": "Personality Theory and Research",
+                  "credits": 4
+                },
+                {
+                  "code": "PSY33-344",
+                  "name": "Lifespan Development",
+                  "credits": 4
+                },
+                {
+                  "code": "PSY33-374",
+                  "name": "Evolutionary Psychology",
+                  "credits": 4
+                },
+                {
+                  "code": "PSY33-384",
+                  "name": "Learning and Cognition",
+                  "credits": 4
+                },
+                {
+                  "code": "PSY33-524",
+                  "name": "Psychopathology and Clinical Science",
+                  "credits": 4
+                },
+                {
+                  "code": "PSY33-534",
+                  "name": "Behavioral Neuroscience",
+                  "credits": 4
+                },
+                {
+                  "code": "PSY33-544",
+                  "name": "Health Psychology",
+                  "credits": 4
+                },
+                {
+                  "code": "PSY33-564",
+                  "name": "Social Psychology",
+                  "credits": 4
+                },
+                {
+                  "code": "PSY33-574",
+                  "name": "Close Relationships",
+                  "credits": 4
+                }
+              ]
+            },
+            {
+              "name": "Additional Psychology Elective",
+              "coursesRequired": 1,
+              "creditsRequired": 4,
+              "options": [
+                {
+                  "code": "PSC32-444",
+                  "name": "Political Psychology",
+                  "credits": 4
+                },
+                {
+                  "code": "PSY33-354",
+                  "name": "Cross-Cultural Psychology",
+                  "credits": 4
+                },
+                {
+                  "code": "PSY33-364",
+                  "name": "Sexuality and Culture",
+                  "credits": 4
+                },
+                {
+                  "code": "PSY33-412/422",
+                  "name": "Careers in Psychology I & II",
+                  "credits": 4
+                },
+                {
+                  "code": "PSY33-474",
+                  "name": "Forensic Psychology",
+                  "credits": 4
+                },
+                {
+                  "code": "PSY33-484",
+                  "name": "Human Sexuality",
+                  "credits": 4
+                }
+              ]
+            },
+            {
+              "name": "Capstone",
+              "coursesRequired": 1,
+              "creditsRequired": 8,
+              "options": [
+                {
+                  "code": "PSY33-824",
+                  "name": "Research in Applied Psychology",
+                  "credits": 8
+                },
+                {
+                  "code": "PSY33-834",
+                  "name": "Research in Behavioral Neuroscience",
+                  "credits": 8
+                },
+                {
+                  "code": "PSY33-844",
+                  "name": "Research in Clinical Psychology",
+                  "credits": 8
+                },
+                {
+                  "code": "PSY33-864",
+                  "name": "Research in Developmental Psychology",
+                  "credits": 8
+                },
+                {
+                  "code": "PSY33-874",
+                  "name": "Research in Social Psychology",
+                  "credits": 8
+                },
+                {
+                  "code": "PSY33-884",
+                  "name": "Research in Cognitive Evolutionary Psychology",
+                  "credits": 8
+                },
+                {
+                  "code": "PSY33-948",
+                  "name": "Academic Internship",
+                  "credits": 8
+                }
+              ]
+            },
+            {
+              "name": "Additional B.S. Supporting Science/Math",
+              "coursesRequired": 2,
+              "creditsRequired": 8,
+              "options": [
+                {
+                  "code": "BIO50-314",
+                  "name": "Genetics",
+                  "credits": 4
+                },
+                {
+                  "code": "BIO50-334",
+                  "name": "Evolutionary Biology",
+                  "credits": 4
+                },
+                {
+                  "code": "BIO50-364",
+                  "name": "Comparative Vertebrate Morphology",
+                  "credits": 4
+                },
+                {
+                  "code": "BIO50-374",
+                  "name": "Human Genetics and Evolution",
+                  "credits": 4
+                },
+                {
+                  "code": "CHE51-203/201",
+                  "name": "General Chemistry II and Lab",
+                  "credits": 4
+                },
+                {
+                  "code": "CSC54-184",
+                  "name": "Computer Science I",
+                  "credits": 4
+                },
+                {
+                  "code": "CSC54-284",
+                  "name": "Computer Science II",
+                  "credits": 4
+                },
+                {
+                  "code": "PHY53-164",
+                  "name": "Fundamentals of Physics II",
+                  "credits": 4
+                },
+                {
+                  "code": "PSY33-534",
+                  "name": "Behavioral Neuroscience",
+                  "credits": 4
+                }
+              ]
+            }
+          ],
+          "notes": [
+            "Includes all B.A. requirements plus 8 additional science/math courses.",
+            "Behavioral Neuroscience (PSY33-534) cannot count in both the major and the B.S. supporting courses.",
+            "PSY33-204 does not qualify for the Research Capstone track.",
+            "A minimum grade of C is required for a course to serve as a prerequisite."
+          ]
+        }
+      }
+    },
+    "minors": {
+      "Psychology": {
+        "requiredCredits": 20,
+        "requiredCourses": [
+          {
+            "code": "PSY33-104",
+            "name": "Principles of Psychology",
+            "credits": 4
+          }
+        ],
+        "electiveGroups": [
+          {
+            "name": "Upper-level Psychology Courses",
+            "coursesRequired": 4,
+            "creditsRequired": 16,
+            "options": []
+          }
+        ],
+        "notes": [
+          "Academic internships (PSY33-948) cannot be used to satisfy minor requirements."
+        ]
+      },
+      "Neuroscience": {
+        "requiredCredits": 20,
+        "requiredCourses": [],
+        "electiveGroups": [
+          {
+            "name": "Neuroscience Courses",
+            "coursesRequired": 5,
+            "creditsRequired": 20,
+            "options": []
+          }
+        ],
+        "notes": [
+          "Specific course list not fully detailed in provided source text."
         ]
       }
     }

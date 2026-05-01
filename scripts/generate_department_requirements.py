@@ -87,15 +87,14 @@ def main():
         department_name = meta.get("name", slug)
 
         if slug in all_requirements:
-            print(f"Skipping {department_name} — already processed.")
-            continue
-
+          print(f"Skipping {department_name} — already processed.")
+          continue
+        
         print(f"\n--- Processing {department_name} ({slug}) ---")
 
         try:
             context = load_context(
                 departments=[slug],
-                complexity="complex",
                 base_path=BASE_PATH
             )
 
