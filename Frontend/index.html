@@ -2346,7 +2346,12 @@ function getRequirementData(type, name, degreeType = null) {
     }
 
     if (type === "minor") {
-        return block.minors?.[name] || null;
+    if (!block.minors) return null;
+
+    return block.minors[name]
+            || block.minors[name.replace(" Minor", "").trim()]
+            || Object.values(block.minors)[0]
+            || null;
     }
 
     return null;
