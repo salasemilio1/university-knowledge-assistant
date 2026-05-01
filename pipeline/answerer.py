@@ -22,10 +22,11 @@ from pipeline.gemini_client import generate, generate_stream, MODEL_ANSWERER
 from pipeline.prompts import answerer_prompt
 from pipeline.router import load_registry
 from Backend.user_db import get_formatted_user_info
+import pipeline.config as config
 
 log = logging.getLogger(__name__)
 
-SKILLS_INDEX_FILENAME = "skills_index.md"
+SKILLS_INDEX_FILENAME = config.SKILLS_INDEX_FILENAME
 
 
 # ── Document loading ──────────────────────────────────────────────────────────

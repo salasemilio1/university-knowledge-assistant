@@ -19,6 +19,7 @@ Resilience
 
 import json
 import logging
+import pipeline.config as config
 from concurrent.futures import TimeoutError as FuturesTimeout
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -35,13 +36,13 @@ class RegistryError(Exception):
 
 log = logging.getLogger(__name__)
 
-REGISTRY_FILENAME = "context_registry.json"
+REGISTRY_FILENAME = config.REGISTRY_FILENAME
 
 # Default department used when routing fails entirely.
 # "general" covers broad university policy, financial info, and cross-cutting
 # Registry mapping department slugs -> folder names. If the router
 # picks a slice that isn't here, it's ignored.
-DEFAULT_FALLBACK_DEPARTMENTS = ["general"]
+DEFAULT_FALLBACK_DEPARTMENTS = config.DEFAULT_FALLBACK_DEPARTMENTS
 
 # ── Result type ───────────────────────────────────────────────────────────────
 
