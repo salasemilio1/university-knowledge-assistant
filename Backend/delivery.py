@@ -586,11 +586,12 @@ def _log_query(
         logging.warning("Failed to write query log: %s", exc)
 
 def _get_current_semester() -> str:
-    """Returns the current semester based on the current month.
+    """Returns the current semester and year based on the current month and year.
     Jan-June -> "Spring", otherwise -> "Fall"
     """
     current_month = datetime.now().month
+    current_year = datetime.now().year
     if current_month >= 1 and current_month <= 6:
-        return "Spring"
+        return "Spring " + current_year 
     else:
-        return "Fall"
+        return "Fall " + current_year
