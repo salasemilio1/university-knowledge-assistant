@@ -15,7 +15,9 @@ if project_root not in sys.path:
 try:
     from pipeline.gemini_client import generate, extract_json, MODEL_ROUTER
 except ImportError:
-    print("Warning: pipeline.gemini_client not found. LLM reconciliation will be skipped.")
+    print(
+        "Warning: pipeline.gemini_client not found. LLM reconciliation will be skipped."
+    )
     generate = None
     extract_json = None
     MODEL_ROUTER = None
@@ -25,27 +27,67 @@ except ImportError:
 # CONFIG & EXTRACTION
 # -----------------------------
 
-# Refined regex from user: requires first letter of title to be capital [A-Z]
-COURSE_PATTERN = r'([A-Z]{2,4}\d{2})-(\d{3})\s+([A-Z].+?)(?=\s*(?:●|\bor\b\s+[A-Z]{2,4}\d{2}-\d{3}|[A-Z]{2,4}\d{2}-\d{3})|$)'
+# Updated regex to be less restrictive with the lookahead,
+# ensuring we capture the full title on the line
+COURSE_PATTERN = r"([A-Z]{0,4}\d{2})-(\d{3})\s+([A-Z].+?)(?=\s*(?:●|\bor\b\s+(?:[A-Z]{0,4}\d{2}-\d{3})|(?:[A-Z]{0,4}\d{2}-\d{3})|$))"
+
 
 def extract_courses_from_pdf(catalog_path: str, output_path: str) -> dict:
     courses = defaultdict(list)
+    dept_map = {}
     print(f"Reading {catalog_path}...")
+
     with pdfplumber.open(catalog_path) as pdf:
+        pages_content = []
+
+        # Pass 1: Build dept_map (Numeric code -> Letter prefix) and collect text
+        print("Pass 1: Building department prefix map...")
         for page in pdf.pages:
             text = page.extract_text()
             if text:
-                for match in re.finditer(COURSE_PATTERN, text, re.MULTILINE):
-                    dept_code = match.group(1)
-                    course_num = match.group(2)
-                    raw_title = match.group(3).strip()
-                    
-                    key = f"{dept_code}-{course_num}"
-                    courses[key].append(raw_title)
-                    
+                pages_content.append(text)
+                # Find full codes to build map: e.g., BUS30-114 -> {"30": "BUS"}
+                for match in re.finditer(r"([A-Z]{2,4})(\d{2})-\d{3}", text):
+                    letters = match.group(1)
+                    num2 = match.group(2)
+                    if num2 not in dept_map:
+                        dept_map[num2] = letters
+
+        print(f"Discovered {len(dept_map)} department prefixes.")
+        if "30" in dept_map:
+            print(f"Confirmed: '30' maps to '{dept_map['30']}'")
+
+        # Pass 2: Extract courses and titles using flexible regex
+        print("Pass 2: Extracting courses and titles...")
+        for text in pages_content:
+            for match in re.finditer(COURSE_PATTERN, text, re.MULTILINE):
+                raw_prefix = match.group(1)  # e.g., "BUS30" or "30"
+                course_num = match.group(2)
+                raw_title = match.group(3).strip()
+
+                # Decompose raw_prefix
+                prefix_match = re.match(r"([A-Z]*)(\d{2})", raw_prefix)
+                if not prefix_match:
+                    continue
+
+                letters = prefix_match.group(1)
+                num2 = prefix_match.group(2)
+
+                # Normalize: if letters missing, use map
+                if not letters and num2 in dept_map:
+                    letters = dept_map[num2]
+
+                # Skip if we still have no letter prefix — these are
+                # foreign/study-abroad catalog codes not belonging to SU
+                if not letters:
+                    continue
+
+                key = f"{letters}{num2}-{course_num}"
+                courses[key].append(raw_title)
+
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(courses, f, indent=4)
-        
+
     print(f"Extracted {len(courses)} unique course codes to {output_path}")
     return courses
 
@@ -68,10 +110,10 @@ MAX_TITLE_LENGTH = 120  # beyond this is suspicious
 def clean_title(title: str) -> str:
     """Basic normalization + cleanup"""
     # Remove trailing footnote numbers (e.g., "Business1", "I2", "Politics3")
-    title = re.sub(r'([A-Za-z])(\d+)$', r'\1', title)
+    title = re.sub(r"([A-Za-z])(\d+)$", r"\1", title)
 
     # Remove standalone trailing numbers
-    title = re.sub(r'\b\d+$', '', title)
+    title = re.sub(r"\b\d{1,2}$", "", title)
 
     # Remove weird "(?)"
     title = title.replace("(?)", "")
@@ -80,13 +122,19 @@ def clean_title(title: str) -> str:
     if ";" in title:
         title = title.split(";")[0].strip()
 
-    # Rule: Remove parentheticals starting with lowercase letter
-    # e.g. "Biology (offered in spring only)" -> "Biology"
-    # but keep "Biology (Capstone)"
-    title = re.sub(r'\s*\([a-z].*?\)', '', title).strip()
+    # Rule: If period followed by space and capital letter exists, drop it and anything follows,
+    # unless it is "U.S."
+    # Use negative lookbehind to avoid splitting on "U.S. "
+    match = re.search(r"(?<!U\.S)\.\s+[A-Z]", title)
+    if match:
+        title = title[: match.start()].strip()
+
+    # Rule: Remove parentheticals, e.g. "(3-0)", "(Capstone)", "(offered in spring)"
+    # We want to remove all parenthetical content
+    title = re.sub(r"\s*\(.*?\)", "", title).strip()
 
     # Remove extra whitespace
-    title = re.sub(r'\s+', ' ', title).strip()
+    title = re.sub(r"\s+", " ", title).strip()
 
     return title
 
@@ -94,11 +142,11 @@ def clean_title(title: str) -> str:
 def is_truncated(title: str) -> bool:
     """Detect likely truncated entries"""
     return (
-        title.endswith("of") or
-        title.endswith("and") or
-        title.endswith("for") or
-        title.endswith("with") or
-        len(title.split()) < 2
+        title.endswith("of")
+        or title.endswith("and")
+        or title.endswith("for")
+        or title.endswith("with")
+        or len(title.split()) < 2
     )
 
 
@@ -134,14 +182,15 @@ def needs_flagging(code: str, title: str, original_title: str) -> list:
 def normalize_for_matching(title: str) -> str:
     """Normalize title for cross-list detection"""
     title = title.lower()
-    title = re.sub(r'[^a-z0-9\s]', '', title)
-    title = re.sub(r'\s+', ' ', title).strip()
+    title = re.sub(r"[^a-z0-9\s]", "", title)
+    title = re.sub(r"\s+", " ", title).strip()
     return title
 
 
 # -----------------------------
 # CROSS-LIST DETECTION
 # -----------------------------
+
 
 def find_cross_listings(cleaned_courses):
     """
@@ -165,6 +214,7 @@ def find_cross_listings(cleaned_courses):
 # -----------------------------
 # MAIN PIPELINE & VOTING LOGIC
 # -----------------------------
+
 
 def score_candidate(title: str, original_title: str) -> float:
     """Assigns a score to a single observation of a title"""
@@ -221,7 +271,9 @@ def clean_course_data(raw_courses: dict):
             continue
 
         # Sort candidates by total score descending
-        sorted_candidates = sorted(candidates.items(), key=lambda x: x[1].score, reverse=True)
+        sorted_candidates = sorted(
+            candidates.items(), key=lambda x: x[1].score, reverse=True
+        )
         winning_title, winner_data = sorted_candidates[0]
 
         total_occurrences = len(raw_titles)
@@ -239,7 +291,9 @@ def clean_course_data(raw_courses: dict):
             "title": winning_title,
             "confidence": round(float(confidence), 3),
             "occurrences": total_occurrences,
-            "candidate_scores": {k: round(float(v.score), 2) for k, v in sorted_candidates}
+            "candidate_scores": {
+                k: round(float(v.score), 2) for k, v in sorted_candidates
+            },
         }
 
         if reasons:
@@ -268,6 +322,7 @@ def clean_course_data(raw_courses: dict):
 # OPTIONAL: FUZZY MATCH GROUPING
 # -----------------------------
 
+
 def fuzzy_group_courses(courses, threshold=0.9):
     groups = []
     used = set()
@@ -279,15 +334,11 @@ def fuzzy_group_courses(courses, threshold=0.9):
         group = [c1["code"]]
         used.add(c1["code"])
 
-        for j, c2 in enumerate(courses[i+1:], i+1):
+        for j, c2 in enumerate(courses[i + 1 :], i + 1):
             if c2["code"] in used:
                 continue
 
-            ratio = SequenceMatcher(
-                None,
-                c1["title"],
-                c2["title"]
-            ).ratio()
+            ratio = SequenceMatcher(None, c1["title"], c2["title"]).ratio()
 
             if ratio >= threshold:
                 group.append(c2["code"])
@@ -300,18 +351,77 @@ def fuzzy_group_courses(courses, threshold=0.9):
 
 
 # -----------------------------
+# LOCAL GEMINI CALL (SDK v1.47 compatible)
+# -----------------------------
+
+
+def _call_gemini_direct(prompt: str) -> str:
+    """
+    Make a direct Gemini API call using thinking_budget (SDK 1.47 compatible).
+    Falls back gracefully if the client cannot be created.
+    """
+    try:
+        from dotenv import load_dotenv
+
+        load_dotenv(os.path.join(project_root, ".env"))
+    except ImportError:
+        pass
+
+    try:
+        from google import genai
+        from google.genai import types
+        from google.genai.types import HttpOptions
+        from google.oauth2 import service_account
+
+        gcp_project = os.environ.get("GOOGLE_CLOUD_PROJECT")
+        location = os.environ.get("GOOGLE_CLOUD_LOCATION", "global")
+
+        credentials = None
+        if "GOOGLE_SERVICE_ACCOUNT_JSON" in os.environ:
+            service_account_info = json.loads(os.environ["GOOGLE_SERVICE_ACCOUNT_JSON"])
+            credentials = service_account.Credentials.from_service_account_info(
+                service_account_info,
+                scopes=["https://www.googleapis.com/auth/cloud-platform"],
+            )
+
+        client = genai.Client(
+            vertexai=True,
+            project=gcp_project,
+            location=location,
+            credentials=credentials,
+            http_options=HttpOptions(api_version="v1"),
+        )
+
+        # Use thinking_budget=0 — compatible with SDK 1.47 (avoids thinking_level)
+        thinking_config = types.ThinkingConfig(thinking_budget=0)
+        gen_config = types.GenerateContentConfig(
+            thinking_config=thinking_config,
+            max_output_tokens=8192,
+        )
+
+        model = os.getenv("MODEL_ROUTER", "gemini-3.1-flash-lite-preview")
+        response = client.models.generate_content(
+            model=model,
+            contents=prompt,
+            config=gen_config,
+        )
+        return response.text.strip()
+
+    except Exception as exc:
+        print(f"Direct Gemini call failed: {exc}")
+        return ""
+
+
+# -----------------------------
 # LLM RECONCILIATION
 # -----------------------------
+
 
 def reconcile_courses_with_llm(result_data: dict) -> dict:
     """
     Groups flagged courses and sends them to Gemini for reconciliation.
     Returns a clean mapping of code -> reconciled_title.
     """
-    if not generate:
-        print("Skipping LLM reconciliation (gemini_client not available).")
-        return {c["code"]: c["title"] for c in result_data["cleaned_courses"]}
-
     flagged = result_data["flagged_courses"]
     if not flagged:
         print("No courses flagged for reconciliation.")
@@ -319,14 +429,15 @@ def reconcile_courses_with_llm(result_data: dict) -> dict:
 
     print(f"Sending {len(flagged)} flagged courses to Gemini for reconciliation...")
 
-    # Prepare input for LLM
     llm_input = []
     for c in flagged:
-        llm_input.append({
-            "code": c["code"],
-            "current_title": c["title"],
-            "candidates": c["candidate_scores"]
-        })
+        llm_input.append(
+            {
+                "code": c["code"],
+                "current_title": c["title"],
+                "candidates": c["candidate_scores"],
+            }
+        )
 
     prompt = f"""
 You are a university course catalog expert. Your task is to reconcile course titles that were flagged during extraction.
@@ -347,9 +458,13 @@ COURSE DATA:
 RECONCILED JSON:
 """
 
-    response_text = generate(prompt, model=MODEL_ROUTER)
+    response_text = _call_gemini_direct(prompt)
+    if not response_text:
+        print("LLM call returned empty response. Falling back to voting winners.")
+        return {c["code"]: c["title"] for c in result_data["cleaned_courses"]}
+
     json_text = extract_json(response_text)
-    
+
     try:
         reconciled_flagged = json.loads(json_text)
         print(f"Successfully reconciled {len(reconciled_flagged)} courses with LLM.")
@@ -375,9 +490,13 @@ RECONCILED JSON:
 
 if __name__ == "__main__":
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    catalog_path = os.path.join(script_dir, "../knowledge_base/2025-2027-southwestern-university-catalogpdf.pdf")
+    catalog_path = os.path.join(
+        script_dir, "../knowledge_base/2025-2027-southwestern-university-catalogpdf.pdf"
+    )
     courses_json_path = os.path.join(script_dir, "../knowledge_base/courses.json")
-    cleaned_courses_path = os.path.join(script_dir, "../knowledge_base/cleaned_courses.json")
+    cleaned_courses_path = os.path.join(
+        script_dir, "../knowledge_base/cleaned_courses.json"
+    )
 
     # 1. Load or Extract courses
     # If the file is missing or contains old format mapping, re-extract
@@ -385,19 +504,21 @@ if __name__ == "__main__":
     if os.path.exists(courses_json_path):
         with open(courses_json_path, "r", encoding="utf-8") as f:
             data_load = json.load(f)
-            
+
         # Check if it is the raw (dict of lists) or final (dict of strings)
         is_list_format = False
         for v in data_load.values():
             if isinstance(v, list):
                 is_list_format = True
                 break
-        
+
         if is_list_format:
             print(f"Loading existing raw occurrences from {courses_json_path}")
             raw_courses = data_load
         else:
-            print("courses.json is in final format. Forcing re-extraction to get raw candidates.")
+            print(
+                "courses.json is in final format. Forcing re-extraction to get raw candidates."
+            )
             raw_courses = extract_courses_from_pdf(catalog_path, courses_json_path)
     else:
         raw_courses = extract_courses_from_pdf(catalog_path, courses_json_path)
