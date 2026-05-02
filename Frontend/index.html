@@ -2094,10 +2094,10 @@
             const shownInSelected = new Set();
 
             // 1. Render all selected courses at the top
-            allCourses.filter(c => selectedCourses.has(`${c.code} ${c.title}`)).forEach(course => {
+            allCourses.filter(c => selectedCourses.has(normalizeCode(c.code))).forEach(course => {
                 const courseVal = `${course.code} ${course.title}`;
-                renderItem(selectedListContainer, courseVal, true, "selected-course-pill");
-                shownInSelected.add(courseVal);
+                renderItem(selectedListContainer, courseVal, course, true, "selected-course-pill");
+                shownInSelected.add(normalizeCode(course.code));
             });
 
             // 2. Render search results below
@@ -2105,10 +2105,10 @@
                 allCourses.filter(c =>
                     (c.code.toLowerCase().includes(searchTerm) ||
                         c.title.toLowerCase().includes(searchTerm)) &&
-                    !shownInSelected.has(`${c.code} ${c.title}`)
+                    !shownInSelected.has(normalizeCode(c.code))
                 ).slice(0, 50).forEach(course => { // Limit for performance
                     const courseVal = `${course.code} ${course.title}`;
-                    renderItem(searchResultsContainer, courseVal, false, "search-result-item");
+                    renderItem(searchResultsContainer, courseVal, course, false, "search-result-item");
                 });
             }
         }
@@ -2121,17 +2121,18 @@
          * @param {boolean} isChecked - Whether the course should start checked.
          * @param {string} className - CSS class applied to the course label.
          */
-        function renderItem(container, courseVal, isChecked, className) {
+        function renderItem(container, courseVal, course, isChecked, className) {
             const label = document.createElement("label");
             label.className = className;
             label.innerHTML = `<input type="checkbox" name="courses" value="${courseVal}" ${isChecked ? 'checked' : ''}> <span>${courseVal}</span>`;
 
             const cb = label.querySelector('input');
+            const normCode = normalizeCode(course.code);
             cb.addEventListener("change", () => {
                 if (cb.checked) {
-                    selectedCourses.add(courseVal);
+                    selectedCourses.add(normCode);
                 } else {
-                    selectedCourses.delete(courseVal);
+                    selectedCourses.delete(normCode);
                 }
                 // Always re-render to move items between lists
                 renderCourseList(courseSearchInput.value.toLowerCase());
@@ -2203,7 +2204,7 @@
 
                 // Courses logic
                 selectedCourses = new Set(
-                    (data.courses || []).map(c => `${c.code} ${c.name}`)
+                    (data.courses || []).map(c => normalizeCode(c.code))
                 );
 
                 // Transfer Credits logic
@@ -2231,13 +2232,19 @@
                 renderDashboard();
 
                 // Handle custom courses not in the list
-                const knownCourseVals = new Set(allCourses.map(c => `${c.code} ${c.title}`));
-                const customCourses = (data.courses || []).filter(c => !knownCourseVals.has(c));
+                const knownCourseCodes = new Set(allCourses.map(c => normalizeCode(c.code)));
+                const customCourses = (data.courses || [])
+                    .filter(c => !knownCourseCodes.has(normalizeCode(c.code)))
+                    .map(c => `${c.code} ${c.name}`);
 
-                const customInput = document.querySelector('input[name="courses_custom"]');
-                if (customInput) {
-                    customInput.value = customCourses.join(", ");
+                let customInput = document.querySelector('input[name="courses_custom"]');
+                if (!customInput) {
+                    customInput = document.createElement("input");
+                    customInput.type = "hidden";
+                    customInput.name = "courses_custom";
+                    document.getElementById("profile-form").appendChild(customInput);
                 }
+                customInput.value = customCourses.join(", ");
 
             } catch (err) {
                 console.error("Failed to load profile:", err);

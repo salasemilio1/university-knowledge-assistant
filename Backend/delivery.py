@@ -33,7 +33,7 @@ from pipeline.router import route
 from pipeline.answerer import answer, stream_answer
 from pipeline.gemini_client import CANNED_FALLBACK_HTML
 
-from Backend.user_db import create_user, update_user, get_user_by_id, get_user_courses, get_user_transfer_credits, add_courses, add_transcript_info, get_chat_history, add_chat_message
+from Backend.user_db import create_user, update_user, get_user_by_id, get_user_courses, get_user_transfer_credits, add_courses, add_unmatched_courses, add_transcript_info, get_chat_history, add_chat_message
 
 # ── Setup ─────────────────────────────────────────────────────────────────────
 
@@ -250,7 +250,13 @@ async def users(request:Request):
         raise HTTPException(status_code=401, detail="Not authenticated.")
     
     update_user(google_id, user_data)
-    add_courses(google_id,courses)
+    add_courses(google_id, courses, is_from_transcript=False)
+    
+    courses_custom_str = form_data.get("courses_custom")
+    if courses_custom_str:
+        custom_names = [n.strip() for n in courses_custom_str.split(",") if n.strip()]
+        if custom_names:
+            add_unmatched_courses(google_id, custom_names)
 
 
     return HTMLResponse("<div style='color:#808080;'>Profile saved.</div>")
