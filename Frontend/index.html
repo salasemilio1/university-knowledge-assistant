@@ -2650,17 +2650,33 @@
          *   Course objects currently selected in the UI.
          */
         function getSelectedCourseObjects() {
+            const profileCoursesByCode = new Map(
+                (currentProfile?.courses || []).map(c => [
+                    normalizeCode(c.code),
+                    c
+                ])
+            );
+
             return allCourses
                 .filter(c => {
                     const titleValue = `${c.code} ${c.title}`;
                     const nameValue = `${c.code} ${c.name}`;
                     return selectedCourses.has(titleValue) || selectedCourses.has(nameValue);
                 })
-                .map(c => ({
-                    code: c.code,
-                    name: c.title || c.name,
-                    credits: c.credits
-                }));
+                .map(c => {
+                    const profileCourse = profileCoursesByCode.get(normalizeCode(c.code));
+
+                    return {
+                        code: c.code,
+                        name: c.title || c.name || profileCourse?.name || "",
+                        credits:
+                            profileCourse?.credits ??
+                            c.credits ??
+                            c.credit_hours ??
+                            c.hours ??
+                            0
+                    };
+                });
         }
 
         /**
