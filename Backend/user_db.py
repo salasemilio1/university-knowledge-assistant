@@ -43,7 +43,7 @@ class User(Base):
     last_name:Mapped[str] = mapped_column(String(100), nullable=False)
     is_profile_complete:Mapped[bool] = mapped_column(Boolean, nullable=False, default=False)
 
-    # initial form data. pulled in when user fills out setup form
+    # initial form data. populated when user fills out setup form
     major:Mapped[str | None] = mapped_column(String(200), nullable=True)
     major_degree_type:Mapped[str | None] = mapped_column(String(200), nullable=True)
     second_major:Mapped[str | None] = mapped_column(String(200), nullable=True)

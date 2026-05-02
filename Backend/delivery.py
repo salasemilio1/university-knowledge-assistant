@@ -145,6 +145,10 @@ def get_departments():
 
 @app.get("/profile")
 async def profile(request:Request):
+    """
+    Retrieves the currently authenticated user's profile information from the database.
+    """
+
     google_id = request.session.get("user_id")
     if not google_id:
         raise HTTPException(status_code=401, detail="Not authenticated")
@@ -179,9 +183,10 @@ def sign_out(request: Request, response: Response):
 
 @app.post("/users")
 async def users(request:Request):
-
-# TODO
-#   validate input
+    """
+    Updates the currently authenticated user's profile information in the database with form
+    data.
+    """
 
     form = await request.form() # get form data. Form object is accessible like a dictionary
 
@@ -211,8 +216,6 @@ async def users(request:Request):
             form_data[field] = form.getlist(field)
         else:
             form_data[field] = form.get(field)
-
-    # TODO validate that all fields are present and are the correct type and specifications for DB (string length, etc)
 
     user_data = {} # user data to update requesting (currently authorized) user with
 

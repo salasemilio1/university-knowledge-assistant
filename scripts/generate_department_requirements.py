@@ -1,3 +1,8 @@
+"""
+Generates degree_requirements.json for use in displaying relevant degree infomation in the dashboard.
+The file is generated via an LLM call for each department in the knowledge base.
+"""
+
 import json
 import signal
 from pathlib import Path
