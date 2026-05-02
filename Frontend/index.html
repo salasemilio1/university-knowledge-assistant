@@ -2714,8 +2714,13 @@
                         completedCodes.has(normalizeCode(opt.code))
                     );
 
+                    const takenOptionNames = new Set(
+                        taken.map(opt => opt.name)
+                    );
+
                     const notTaken = options.filter(opt =>
-                        !completedCodes.has(normalizeCode(opt.code))
+                        !completedCodes.has(normalizeCode(opt.code)) &&
+                        !takenOptionNames.has(opt.name)
                     );
 
                     const completedCredits = taken.reduce(
