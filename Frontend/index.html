@@ -2581,31 +2581,31 @@
             const safePercent = Math.max(0, Math.min(percent, 100));
 
             return `
-        <div style="
-            width: 160px;
-            height: 160px;
-            border-radius: 50%;
-            background: conic-gradient(var(--accent) ${safePercent}%, var(--surface-raised) 0);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 16px auto;
-        ">
-            <div style="
-                width: 105px;
-                height: 105px;
-                border-radius: 50%;
-                background: var(--surface);
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                text-align: center;
-                font-weight: 700;
-            ">
-                ${label}
-            </div>
-        </div>
-    `;
+                <div style="
+                    width: 160px;
+                    height: 160px;
+                    border-radius: 50%;
+                    background: conic-gradient(var(--accent) ${safePercent}%, var(--surface-raised) 0);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 16px auto;
+                ">
+                    <div style="
+                        width: 105px;
+                        height: 105px;
+                        border-radius: 50%;
+                        background: var(--surface);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        text-align: center;
+                        font-weight: 700;
+                    ">
+                        ${safePercent}%
+                    </div>
+                </div>
+            `;
         }
 
         /**
@@ -2642,15 +2642,23 @@
          * because `selectedCourses` reflects live add/remove checkbox changes
          * before the profile is saved or reloaded.
          *
+         * This supports both:
+         *   - catalog courses using `title`
+         *   - saved profile courses using `name`
+         *
          * @returns {Array<{code: string, name: string, credits: string|number}>}
          *   Course objects currently selected in the UI.
          */
         function getSelectedCourseObjects() {
             return allCourses
-                .filter(c => selectedCourses.has(`${c.code} ${c.title}`))
+                .filter(c => {
+                    const titleValue = `${c.code} ${c.title}`;
+                    const nameValue = `${c.code} ${c.name}`;
+                    return selectedCourses.has(titleValue) || selectedCourses.has(nameValue);
+                })
                 .map(c => ({
                     code: c.code,
-                    name: c.title,
+                    name: c.title || c.name,
                     credits: c.credits
                 }));
         }
