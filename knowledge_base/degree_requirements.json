@@ -4750,7 +4750,17 @@
               "creditsRequired": 8,
               "options": [
                 {
+                  "code": "BUS30-414",
+                  "name": "Operations Research",
+                  "credits": 4
+                },
+                {
                   "code": "CSC54-414",
+                  "name": "Operations Research",
+                  "credits": 4
+                },
+                {
+                  "code": "MAT52-414",
                   "name": "Operations Research",
                   "credits": 4
                 },
@@ -4927,7 +4937,17 @@
               "creditsRequired": 8,
               "options": [
                 {
+                  "code": "BUS30-414",
+                  "name": "Operations Research",
+                  "credits": 4
+                },
+                {
                   "code": "CSC54-414",
+                  "name": "Operations Research",
+                  "credits": 4
+                },
+                {
+                  "code": "MAT52-414",
                   "name": "Operations Research",
                   "credits": 4
                 },
@@ -5119,7 +5139,17 @@
               "creditsRequired": 8,
               "options": [
                 {
+                  "code": "BUS30-414",
+                  "name": "Operations Research",
+                  "credits": 4
+                },
+                {
                   "code": "CSC54-414",
+                  "name": "Operations Research",
+                  "credits": 4
+                },
+                {
+                  "code": "MAT52-414",
                   "name": "Operations Research",
                   "credits": 4
                 },
@@ -5250,7 +5280,17 @@
               "creditsRequired": 8,
               "options": [
                 {
+                  "code": "BUS30-414",
+                  "name": "Operations Research",
+                  "credits": 4
+                },
+                {
                   "code": "CSC54-414",
+                  "name": "Operations Research",
+                  "credits": 4
+                },
+                {
+                  "code": "MAT52-414",
                   "name": "Operations Research",
                   "credits": 4
                 },
@@ -5398,7 +5438,17 @@
               "creditsRequired": 8,
               "options": [
                 {
+                  "code": "BUS30-414",
+                  "name": "Operations Research",
+                  "credits": 4
+                },
+                {
                   "code": "CSC54-414",
+                  "name": "Operations Research",
+                  "credits": 4
+                },
+                {
+                  "code": "MAT52-414",
                   "name": "Operations Research",
                   "credits": 4
                 },
@@ -5559,7 +5609,17 @@
               "creditsRequired": 8,
               "options": [
                 {
+                  "code": "BUS30-414",
+                  "name": "Operations Research",
+                  "credits": 4
+                },
+                {
                   "code": "CSC54-414",
+                  "name": "Operations Research",
+                  "credits": 4
+                },
+                {
+                  "code": "MAT52-414",
                   "name": "Operations Research",
                   "credits": 4
                 },
@@ -5705,7 +5765,17 @@
             "creditsRequired": 8,
             "options": [
               {
+                "code": "BUS30-414",
+                "name": "Operations Research",
+                "credits": 4
+              },
+              {
                 "code": "CSC54-414",
+                "name": "Operations Research",
+                "credits": 4
+              },
+              {
+                "code": "MAT52-414",
                 "name": "Operations Research",
                 "credits": 4
               },
