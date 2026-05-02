@@ -2636,50 +2636,6 @@
         }
 
         /**
-         * Converts the currently selected course values into course objects.
-         *
-         * The dashboard should use this instead of `currentProfile.courses`
-         * because `selectedCourses` reflects live add/remove checkbox changes
-         * before the profile is saved or reloaded.
-         *
-         * This supports both:
-         *   - catalog courses using `title`
-         *   - saved profile courses using `name`
-         *
-         * @returns {Array<{code: string, name: string, credits: string|number}>}
-         *   Course objects currently selected in the UI.
-         */
-        function getSelectedCourseObjects() {
-            const profileCoursesByCode = new Map(
-                (currentProfile?.courses || []).map(c => [
-                    normalizeCode(c.code),
-                    c
-                ])
-            );
-
-            return allCourses
-                .filter(c => {
-                    const titleValue = `${c.code} ${c.title}`;
-                    const nameValue = `${c.code} ${c.name}`;
-                    return selectedCourses.has(titleValue) || selectedCourses.has(nameValue);
-                })
-                .map(c => {
-                    const profileCourse = profileCoursesByCode.get(normalizeCode(c.code));
-
-                    return {
-                        code: c.code,
-                        name: c.title || c.name || profileCourse?.name || "",
-                        credits:
-                            profileCourse?.credits ??
-                            c.credits ??
-                            c.credit_hours ??
-                            c.hours ??
-                            0
-                    };
-                });
-        }
-
-        /**
          * Renders the academic dashboard using the current profile,
          * completed courses, transfer credits, and degree requirement data.
          */
@@ -2687,7 +2643,7 @@
             const container = document.getElementById("dashboard-content");
             if (!container || !currentProfile) return;
 
-            const courses = getSelectedCourseObjects();
+            const courses = currentProfile.courses || [];
             const transferCredits = currentProfile.transfer_credits || [];
 
             const completedCredits = sumCredits(courses) + sumCredits(transferCredits);
@@ -2695,7 +2651,7 @@
             const totalPercent = Math.round((completedCredits / TOTAL_REQUIRED_CREDITS) * 100);
 
             const completedCodes = new Set(
-                courses.map(c => normalizeCode(c.code))
+                (currentProfile.courses || []).map(c => normalizeCode(c.code))
             );
 
             /**
