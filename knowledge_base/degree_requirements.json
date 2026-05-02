@@ -13266,6 +13266,66 @@
                 "code": "PHY53-454",
                 "name": "Math Methods in Physical Science",
                 "credits": 4
+              },
+              {
+                "code": "52-364",
+                "name": "Modern Calculus III",
+                "credits": 4
+              },
+              {
+                "code": "52-384",
+                "name": "Discrete Mathematics",
+                "credits": 4
+              },
+              {
+                "code": "52-404",
+                "name": "Geometry",
+                "credits": 4
+              },
+              {
+                "code": "30-414",
+                "name": "Operations Research",
+                "credits": 4
+              },
+              {
+                "code": "54-414",
+                "name": "Operations Research",
+                "credits": 4
+              },
+              {
+                "code": "52-414",
+                "name": "Operations Research",
+                "credits": 4
+              },
+              {
+                "code": "52-524",
+                "name": "Introduction to Numerical Analysis",
+                "credits": 4
+              },
+              {
+                "code": "52-574",
+                "name": "Probability and Mathematical Statistics",
+                "credits": 4
+              },
+              {
+                "code": "52-684",
+                "name": "Algebraic Structures",
+                "credits": 4
+              },
+              {
+                "code": "52-754",
+                "name": "Differential Equations",
+                "credits": 4
+              },
+              {
+                "code": "52-834",
+                "name": "Complex Analysis",
+                "credits": 4
+              },
+              {
+                "code": "52-854",
+                "name": "Real Analysis",
+                "credits": 4
               }
             ]
           }
