@@ -1086,6 +1086,9 @@
                     <button class="nav-btn" data-page="dashboard" title="Dashboard">
                         📊 Dashboard
                     </button>
+                    <button class="nav-btn" data-page="instructions" title="Instructions">
+                        📝 Instructions
+                    </button>
                     <!-- Add future nav buttons here -->
 
                     <!-- Sign Out moved to Profile > Account tab -->
@@ -1121,9 +1124,17 @@
 
                 <main>
                     <!--
-                        Response list — HTMX prepends each new answer here (afterbegin).
+                        Response list — HTMX prepends each new answer here.
                         Newest responses appear at the top. Each block is collapsible.
                     -->
+                    <div
+                        id="initial-chat-loader"
+                        hx-get="/chat/initial"
+                        hx-trigger="load"
+                        hx-target="#response"
+                        hx-swap="beforeend"
+                        style="display:none;">
+                    </div>
                     <div id="response"></div>
                 </main>
 
@@ -1176,6 +1187,22 @@
 
             </section>
 
+            <!-- ── Page: Instructions ───────────────────────────────── -->
+            <section class="page" id="page-instructions">
+                <main>
+                    <header style="margin-bottom: 16px;">
+                        <h1>University Knowledge Assistant Instructions</h1>
+                        <p>Welcome to the University Knowledge Assistant! </p>
+                    </header>
+                    <div class="profile-card">
+                        <p>You can ask me about majors, minors, degree requirements, courses, "
+        "graduation planning, professors, academic policies, and campus resources. "
+        "If you’ve filled out your profile, I can also give more personalized guidance. "
+        "Try asking something like: 'What courses should I take next semester?'"</p>
+                    </div>
+                </main>
+
+            </section>
             <!-- ── Page: Profile ───────────────────────────────── -->
             <!--
                 TODO: Wire each .field-value up to the user_db API once available.
@@ -1207,6 +1234,10 @@
                 <!-- ── Sub-tab: Academic Info ────────────────────── -->
                 <!-- TODO: Populate from /profile GET response (student profile columns) -->
                 <!-- ── Sub-tab: Academic Info ────────────────────── -->
+            
+            
+            
+            
 <div class="profile-tab-panel" id="ptab-academic" role="tabpanel">
 
     <form
@@ -1303,26 +1334,18 @@
             <div class="profile-field">
                 <label for="grad_year">Expected Graduation</label>
                 <select id="grad_year" name="grad_year" required>
-                    <option value="">Select a graduation semester</option>
-                    <option>Spring 2026</option>
-                    <option>Fall 2026</option>
-                    <option>Spring 2027</option>
-                    <option>Fall 2027</option>
-                    <option>Spring 2028</option>
-                    <option>Fall 2028</option>
-                    <option>Spring 2029</option>
-                    <option>Fall 2029</option>
-                    <option>Spring 2030</option>
-                    <option>Fall 2030</option>
-                    <option>Spring 2031</option>
-                    <option>Fall 2031</option>
-                    <option>Spring 2032</option>
-                    <option>Fall 2032</option>
-                    <option>Spring 2033</option>
-                    <option>Fall 2033</option>
-                    <option value="custom">Enter a custom semester</option>
+                    <option value="">Select a graduation year</option>
+                    <option>2026</option>
+                    <option>2027</option>
+                    <option>2028</option>
+                    <option>2029</option>
+                    <option>2030</option>
+                    <option>2031</option>
+                    <option>2032</option>
+                    <option>2033</option>
+                    <option value="custom">Enter a custom year</option>
                 </select>
-                <input id="grad_year_custom" name="grad_year_custom" type="text" placeholder="Enter graduation semester" style="display:none;">
+                <input id="grad_year_custom" name="grad_year_custom" type="text" placeholder="Enter graduation year" style="display:none;">
             </div>
             </details>
         </div>
@@ -2346,12 +2369,7 @@ function getRequirementData(type, name, degreeType = null) {
     }
 
     if (type === "minor") {
-    if (!block.minors) return null;
-
-    return block.minors[name]
-            || block.minors[name.replace(" Minor", "").trim()]
-            || Object.values(block.minors)[0]
-            || null;
+        return block.minors?.[name] || null;
     }
 
     return null;
