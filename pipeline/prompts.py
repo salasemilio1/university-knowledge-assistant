@@ -68,7 +68,7 @@ Write a short welcome message that explains you can help with:
 - professors, departments, and academic policies
 - campus resources and general university information
 
-End by inviting the user to ask a specific question.
+End by inviting the user to ask a specific question. Omit any markdown characters in your response.
 
 Profile:
 {profile or "[No profile information available]"}

@@ -30,7 +30,7 @@ from google.oauth2 import id_token
 from google.auth.transport import requests
 
 from pipeline.router import route
-from pipeline.answerer import answer, stream_answer, initial_chat_response
+from pipeline.answerer import answer, stream_answer, initial_chat_response, initial_chat_response_alt
 from pipeline.gemini_client import CANNED_FALLBACK_HTML
 
 from Backend.user_db import create_user, update_user, get_user_by_id, get_user_courses, get_user_transfer_credits, add_courses, add_transcript_info, get_chat_history, add_chat_message
