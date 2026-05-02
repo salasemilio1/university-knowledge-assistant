@@ -2280,10 +2280,83 @@
         }
 
         /**
-         * Removes the profile warning shortly after profile form submission.
-         * The delay gives form/HTMX behavior time to complete first.
+         * Validates max length for editable profile text fields.
+         *
+         * @returns {boolean} true if all text fields are valid.
+         */
+        function validateProfileTextLengths() {
+            const errors = [];
+
+            const textFields = [
+                { id: "advisor_name", label: "Advisor name", max: 200 },
+                { id: "advisor_email", label: "Advisor email", max: 200 }
+            ];
+
+            const customFields = [
+                { selectId: "gpa", inputId: "gpa_custom", label: "Custom GPA", max: 200 },
+                { selectId: "grad_year", inputId: "grad_year_custom", label: "Custom graduation semester", max: 200 }
+            ];
+
+            textFields.forEach(field => {
+                const el = document.getElementById(field.id);
+                if (!el) return;
+
+                if (el.value.length > field.max) {
+                    errors.push(`${field.label} must be ${field.max} characters or fewer.`);
+                }
+            });
+
+            customFields.forEach(field => {
+                const select = document.getElementById(field.selectId);
+                const input = document.getElementById(field.inputId);
+
+                if (!select || !input) return;
+
+                if (select.value === "custom" && input.value.length > field.max) {
+                    errors.push(`${field.label} must be ${field.max} characters or fewer.`);
+                }
+            });
+
+            const status = document.getElementById("profile-save-status");
+
+            if (errors.length > 0) {
+                if (status) {
+                    status.innerHTML = `
+                        <div style="color:var(--error); line-height:1.6;">
+                            <strong>Please fix the following:</strong>
+                            <ul style="margin-left:20px; margin-top:8px;">
+                                ${errors.map(err => `<li>${err}</li>`).join("")}
+                            </ul>
+                        </div>
+                    `;
+                }
+
+                return false;
+            }
+
+            if (status) {
+                status.innerHTML = "";
+            }
+
+            return true;
+        }
+
+        /**
+         * Validates editable profile text field lengths before profile form submission.
+         * If validation succeeds, removes the profile warning shortly after submission.
          */
         document.getElementById("profile-form")?.addEventListener("submit", (e) => {
+            if (!validateProfileTextLengths()) {
+                e.preventDefault();
+                e.stopPropagation();
+
+                if (e.stopImmediatePropagation) {
+                    e.stopImmediatePropagation();
+                }
+
+                return;
+            }
+
             setTimeout(() => {
                 document.getElementById("profile-warning")?.remove();
             }, 300);
