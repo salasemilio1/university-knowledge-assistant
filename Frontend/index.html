@@ -10,7 +10,7 @@
     <script src="https://unpkg.com/htmx.org@1.9.10"></script>
     <!-- marked.js renders markdown in LLM responses -->
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    
+
     <!-- pdf.js for client-side transcript parsing and cropping -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
     <!-- Our custom script for transcript cropping & upload -->
@@ -779,216 +779,217 @@
         }
 
         .profile-field input,
-.profile-field select,
-.profile-field textarea {
-    width: 100%;
-    font-size: 0.95rem;
-    color: var(--text);
-    background: var(--bg);
-    border: 1px solid var(--border);
-    border-radius: 6px;
-    padding: 9px 12px;
-}
-
-.profile-field input[type="checkbox"] {
-    width: auto;
-    margin-right: 8px;
-}
-
-.profile-field input[type="file"] {
-    padding: 10px;
-    cursor: pointer;
-}
-
-.profile-field small {
-    display: block;
-    margin-top: 8px;
-    color: var(--muted);
-    line-height: 1.45;
-    text-transform: none;
-    letter-spacing: 0;
-    font-size: 0.84rem;
-}
-
-.profile-file-status {
-    margin-top: 10px;
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 10px 12px;
-    background: var(--surface-raised);
-    color: var(--muted);
-    font-size: 0.9rem;
-    line-height: 1.45;
-}
-
-.profile-file-status.is-valid {
-    border-color: rgba(74, 222, 128, 0.35);
-    color: #86efac;
-}
-
-.profile-file-status.is-error {
-    border-color: rgba(248, 113, 113, 0.35);
-    color: var(--error);
-}
-
-    .profile-field label:has(input[type="checkbox"]) {
-        text-transform: none;
-        letter-spacing: 0;
-        font-size: 0.95rem;
-        color: var(--text);
-        font-weight: 400;
-        display: flex;
-        align-items: center;
-        gap: 8px;
-    }
-
-    .profile-save-btn {
-        background: var(--accent);
-        color: var(--accent-fg);
-        border: none;
-        border-radius: 8px;
-        padding: 10px 14px;
-        font: inherit;
-        font-weight: 700;
-        cursor: pointer;
-    }
-
-    .profile-save-btn:hover {
-        background: var(--accent-hover);
-    }
-
-    .profile-card details summary {
-        font-size: 1.1rem;
-        font-weight: 600;
-        margin-bottom: 20px;
-        color: var(--accent);
-        cursor: pointer;
-        list-style: none;
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        user-select: none;
-        outline: none;
-    }
-
-    .profile-card details summary::-webkit-details-marker {
-        display: none;
-    }
-
-    .profile-card details summary::before {
-        content: '▶';
-        font-size: 0.8rem;
-        transition: transform 0.2s;
-    }
-
-    .profile-card details[open] summary::before {
-        transform: rotate(90deg);
-    }
-
-    .profile-card details:not([open]) summary {
-        margin-bottom: 0;
-    }
-
-    .selected-course-pill {
-        border: 2px solid #000000;
-        border-radius: 8px;
-        padding: 8px 12px;
-        margin-bottom: 6px;
-        background: var(--surface-raised);
-        display: flex;
-        align-items: center;
-        gap: 10px;
-    }
-
-    .search-result-item {
-        padding: 6px 12px;
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        border-bottom: 1px solid var(--border);
-    }
-    .search-result-item:last-child {
-        border-bottom: none;
-    }
-
-    @media (max-width: 768px) {
-        body {
-            min-height: 100dvh;
-            overflow-x: hidden;
-            overflow-y: auto;
-        }
-
-        #app-shell {
-            grid-template-columns: 1fr;
-        }
-
-        #sidebar {
-            position: fixed;
-            inset: 0 auto 0 0;
-            width: var(--sidebar-width);
-            max-width: 85vw;
-            z-index: 50;
-            transform: translateX(0);
-            transition: transform 0.25s ease;
-        }
-
-        #app-shell.sidebar-collapsed #sidebar {
-            transform: translateX(-100%);
-        }
-
-        #app-shell.sidebar-collapsed {
-            grid-template-columns: 1fr;
-        }
-
-        #chat-column {
+        .profile-field select,
+        .profile-field textarea {
             width: 100%;
-            min-width: 0;
+            font-size: 0.95rem;
+            color: var(--text);
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            padding: 9px 12px;
         }
 
-        header {
-            padding: 24px 16px 0;
+        .profile-field input[type="checkbox"] {
+            width: auto;
+            margin-right: 8px;
         }
 
-        header h1 {
-            font-size: 1.35rem;
+        .profile-field input[type="file"] {
+            padding: 10px;
+            cursor: pointer;
         }
 
-        main {
-            padding: 16px 12px 0;
+        .profile-field small {
+            display: block;
+            margin-top: 8px;
+            color: var(--muted);
+            line-height: 1.45;
+            text-transform: none;
+            letter-spacing: 0;
+            font-size: 0.84rem;
         }
 
-        .input-bar {
-            padding: 12px 12px calc(28px + env(safe-area-inset-bottom));
+        .profile-file-status {
+            margin-top: 10px;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 10px 12px;
+            background: var(--surface-raised);
+            color: var(--muted);
+            font-size: 0.9rem;
+            line-height: 1.45;
         }
 
-        .profile-tab-bar {
-            overflow-x: auto;
-            padding: 8px 12px 0;
+        .profile-file-status.is-valid {
+            border-color: rgba(74, 222, 128, 0.35);
+            color: #86efac;
         }
 
-        .profile-tab-btn {
-            white-space: nowrap;
+        .profile-file-status.is-error {
+            border-color: rgba(248, 113, 113, 0.35);
+            color: var(--error);
         }
 
-        .profile-tab-panel {
-            padding: 16px 12px;
+        .profile-field label:has(input[type="checkbox"]) {
+            text-transform: none;
+            letter-spacing: 0;
+            font-size: 0.95rem;
+            color: var(--text);
+            font-weight: 400;
+            display: flex;
+            align-items: center;
+            gap: 8px;
         }
 
-        .profile-card {
-            padding: 16px;
-            max-width: 100%;
+        .profile-save-btn {
+            background: var(--accent);
+            color: var(--accent-fg);
+            border: none;
+            border-radius: 8px;
+            padding: 10px 14px;
+            font: inherit;
+            font-weight: 700;
+            cursor: pointer;
         }
 
-        .response-block summary,
-        .response-answer {
-            padding-left: 14px;
-            padding-right: 14px;
+        .profile-save-btn:hover {
+            background: var(--accent-hover);
         }
 
-        #dashboard-content {
-            grid-template-columns: 1fr;
+        .profile-card details summary {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+            color: var(--accent);
+            cursor: pointer;
+            list-style: none;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            user-select: none;
+            outline: none;
         }
-    }
+
+        .profile-card details summary::-webkit-details-marker {
+            display: none;
+        }
+
+        .profile-card details summary::before {
+            content: '▶';
+            font-size: 0.8rem;
+            transition: transform 0.2s;
+        }
+
+        .profile-card details[open] summary::before {
+            transform: rotate(90deg);
+        }
+
+        .profile-card details:not([open]) summary {
+            margin-bottom: 0;
+        }
+
+        .selected-course-pill {
+            border: 2px solid #000000;
+            border-radius: 8px;
+            padding: 8px 12px;
+            margin-bottom: 6px;
+            background: var(--surface-raised);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .search-result-item {
+            padding: 6px 12px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .search-result-item:last-child {
+            border-bottom: none;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                min-height: 100dvh;
+                overflow-x: hidden;
+                overflow-y: auto;
+            }
+
+            #app-shell {
+                grid-template-columns: 1fr;
+            }
+
+            #sidebar {
+                position: fixed;
+                inset: 0 auto 0 0;
+                width: var(--sidebar-width);
+                max-width: 85vw;
+                z-index: 50;
+                transform: translateX(0);
+                transition: transform 0.25s ease;
+            }
+
+            #app-shell.sidebar-collapsed #sidebar {
+                transform: translateX(-100%);
+            }
+
+            #app-shell.sidebar-collapsed {
+                grid-template-columns: 1fr;
+            }
+
+            #chat-column {
+                width: 100%;
+                min-width: 0;
+            }
+
+            header {
+                padding: 24px 16px 0;
+            }
+
+            header h1 {
+                font-size: 1.35rem;
+            }
+
+            main {
+                padding: 16px 12px 0;
+            }
+
+            .input-bar {
+                padding: 12px 12px calc(28px + env(safe-area-inset-bottom));
+            }
+
+            .profile-tab-bar {
+                overflow-x: auto;
+                padding: 8px 12px 0;
+            }
+
+            .profile-tab-btn {
+                white-space: nowrap;
+            }
+
+            .profile-tab-panel {
+                padding: 16px 12px;
+            }
+
+            .profile-card {
+                padding: 16px;
+                max-width: 100%;
+            }
+
+            .response-block summary,
+            .response-answer {
+                padding-left: 14px;
+                padding-right: 14px;
+            }
+
+            #dashboard-content {
+                grid-template-columns: 1fr;
+            }
+        }
 
         #page-profile {
             overflow-y: auto;
@@ -1010,7 +1011,7 @@
         #page-dashboard main {
             overflow-y: auto;
             padding-bottom: 140px;
-        }  
+        }
 
         #page-dashboard {
             overflow-y: auto;
@@ -1038,29 +1039,29 @@
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 16px;
-            align-items: start; /* 👈 THIS FIXES IT */
+            align-items: start;
+            /* 👈 THIS FIXES IT */
         }
 
-.dashboard-small-card {
-    padding: 16px;
-}
+        .dashboard-small-card {
+            padding: 16px;
+        }
 
-.dashboard-small-card .mini-stat {
-    font-size: 1.6rem;
-    font-weight: 700;
-    color: var(--accent);
-}
+        .dashboard-small-card .mini-stat {
+            font-size: 1.6rem;
+            font-weight: 700;
+            color: var(--accent);
+        }
 
-.dashboard-top-row {
-    grid-column: 1 / -1;
-}
+        .dashboard-top-row {
+            grid-column: 1 / -1;
+        }
 
-.notes p {
-    font-size: 0.85rem;
-    color: var(--muted);
-    margin: 2px 0;
-}
-
+        .notes p {
+            font-size: 0.85rem;
+            color: var(--muted);
+            margin: 2px 0;
+        }
     </style>
 </head>
 
@@ -1089,7 +1090,7 @@
                     <button class="nav-btn" data-page="dashboard" title="Dashboard">
                         📊 Dashboard
                     </button>
-                    
+
                     <!-- Add future nav buttons here -->
 
                     <!-- Sign Out moved to Profile > Account tab -->
@@ -1128,13 +1129,8 @@
                         Response list — HTMX prepends each new answer here.
                         Newest responses appear at the top. Each block is collapsible.
                     -->
-                    <div
-                        id="initial-chat-loader"
-                        hx-get="/chat/initial"
-                        hx-trigger="load"
-                        hx-target="#response"
-                        hx-swap="beforeend"
-                        style="display:none;">
+                    <div id="initial-chat-loader" hx-get="/chat/initial" hx-trigger="load" hx-target="#response"
+                        hx-swap="beforeend" style="display:none;">
                     </div>
                     <div id="response"></div>
                 </main>
@@ -1151,7 +1147,8 @@
                     <form class="ask-form">
 
                         <div class="input-wrapper">
-                            <textarea id="query" name="query" placeholder="Ask about courses, requirements, or general university information."
+                            <textarea id="query" name="query"
+                                placeholder="Ask about courses, requirements, or general university information."
                                 required></textarea>
 
                             <button class="submit-btn" type="submit" title="Send (Enter)">
@@ -1196,19 +1193,26 @@
                         <p>Hello! 👋 Welcome to the Southwestern University Knowledge Assistant.</p>
                     </header>
                     <div class="profile-card">
-                        <p style="text-align: center;"> This tool is designed to help students navigate their academic journey and make the most of their time on campus. Questions can be asked about specific majors and/or minors, as well as overall degree requirements. Assistance is also available for course planning, tracking graduation progress, and providing information about professors, departments, and academic policies. Additionally, guidance is offered for locating campus resources and general university information.</p>
+                        <p style="text-align: center;"> This tool is designed to help students navigate their academic
+                            journey and make the most of their time on campus. Questions can be asked about specific
+                            majors and/or minors, as well as overall degree requirements. Assistance is also available
+                            for course planning, tracking graduation progress, and providing information about
+                            professors, departments, and academic policies. Additionally, guidance is offered for
+                            locating campus resources and general university information.</p>
                     </div>
-                     <div class="profile-card">
+                    <div class="profile-card">
                         <p> If you navigate to the side panel, you will see the following options: </p>
                     </div>
                     <div class="profile-card">
                         <p><b>1. Chat</b>: Start a conversation with the chatbot here!</p>
                     </div>
                     <div class="profile-card">
-                        <p><b>2. Dashboard</b>: View your academic progress. This information is based on what you have filled out in the profile tab.</p>
+                        <p><b>2. Dashboard</b>: View your academic progress. This information is based on what you have
+                            filled out in the profile tab.</p>
                     </div>
                     <div class="profile-card">
-                        <b>3. Profile</b>: Here you can fill out general academic information so that you can personalize your experience with the chatbot. Filling out a profile is optional.
+                        <b>3. Profile</b>: Here you can fill out general academic information so that you can
+                        personalize your experience with the chatbot. Filling out a profile is optional.
                     </div>
                 </main>
 
@@ -1244,232 +1248,240 @@
                 <!-- ── Sub-tab: Academic Info ────────────────────── -->
                 <!-- TODO: Populate from /profile GET response (student profile columns) -->
                 <!-- ── Sub-tab: Academic Info ────────────────────── -->
-            
-            
-            
-            
-<div class="profile-tab-panel" id="ptab-academic" role="tabpanel">
 
-    <form
-        id="profile-form"
-        hx-post="/users"
-        hx-target="#profile-save-status"
-        hx-swap="innerHTML"
-        hx-encoding="multipart/form-data"
-        enctype="multipart/form-data"
-        hx-on::after-request="loadProfile()"
-    >
 
-        <div class="profile-card">
-            <details open>
-                <summary>Academic Info</summary>
 
-                <div class="profile-field">
-                    <label for="major">Major</label>
-                <select id="major" name="major" required>
-                    <option value="">Select a major</option>
-                </select>
-            </div>
 
-            <div class="profile-field">
-                <label for="major_degree_type">Major Degree Type</label>
-                <select id="major_degree_type" name="major_degree_type" required>
-                    <option value="">Select a degree type</option>
-                </select>
-            </div>
+                <div class="profile-tab-panel" id="ptab-academic" role="tabpanel">
 
-            <div id="academic-actions" style="display: none; gap: 10px; margin: 10px 0 20px 0; flex-wrap: wrap;">
-                <button type="button" id="btn-add-major" class="btn-add-major-minor">+ Add Second Major</button>
-                <button type="button" id="btn-add-minor" class="btn-add-major-minor">+ Add Minor</button>
-            </div>
+                    <form id="profile-form" hx-post="/users" hx-target="#profile-save-status" hx-swap="innerHTML"
+                        hx-encoding="multipart/form-data" enctype="multipart/form-data"
+                        hx-on::after-request="loadProfile()">
 
-            <div class="profile-field">
-                <label for="second_major">Second Major</label>
-                <select id="second_major" name="second_major">
-                    <option value="">No second major</option>
-                </select>
-            </div>
+                        <div class="profile-card">
+                            <details open>
+                                <summary>Academic Info</summary>
 
-            <div class="profile-field">
-                <label for="second_major_degree_type">Second Major Degree Type</label>
-                <select id="second_major_degree_type" name="second_major_degree_type" required>
-                    <option value="">Select a degree type</option>
-                </select>
-            </div>
+                                <div class="profile-field">
+                                    <label for="major">Major</label>
+                                    <select id="major" name="major" required>
+                                        <option value="">Select a major</option>
+                                    </select>
+                                </div>
 
-            <div class="profile-field">
-                <label for="minor">Minor</label>
-                <select id="minor" name="minor">
-                    <option value="">No minor</option>
-                </select>
-            </div>
+                                <div class="profile-field">
+                                    <label for="major_degree_type">Major Degree Type</label>
+                                    <select id="major_degree_type" name="major_degree_type" required>
+                                        <option value="">Select a degree type</option>
+                                    </select>
+                                </div>
 
-            <div class="profile-field">
-                <label for="second_minor">Second Minor</label>
-                <select id="second_minor" name="second_minor">
-                    <option value="">No second minor</option>
-                </select>
-            </div>
+                                <div id="academic-actions"
+                                    style="display: none; gap: 10px; margin: 10px 0 20px 0; flex-wrap: wrap;">
+                                    <button type="button" id="btn-add-major" class="btn-add-major-minor">+ Add Second
+                                        Major</button>
+                                    <button type="button" id="btn-add-minor" class="btn-add-major-minor">+ Add
+                                        Minor</button>
+                                </div>
 
-            <div class="profile-field">
-                <label for="gpa">GPA</label>
-                <select id="gpa" name="gpa">
-                    <option value="">Select a GPA</option>
-                    <option>4.0</option>
-                    <option>3.9</option>
-                    <option>3.8</option>
-                    <option>3.7</option>
-                    <option>3.6</option>
-                    <option>3.5</option>
-                    <option>3.4</option>
-                    <option>3.3</option>
-                    <option>3.2</option>
-                    <option>3.1</option>
-                    <option>3.0</option>
-                    <option>2.9</option>
-                    <option>2.8</option>
-                    <option>2.7</option>
-                    <option>2.6</option>
-                    <option>2.5</option>
-                    <option>2.4</option>
-                    <option>2.3</option>
-                    <option>2.2</option>
-                    <option>2.1</option>
-                    <option>2.0</option>
-                    <option value="custom">Enter a custom GPA</option>
-                </select>
-                <input id="gpa_custom" name="gpa_custom" type="text" placeholder="Enter GPA manually" style="display:none;">
-            </div>
+                                <div class="profile-field">
+                                    <label for="second_major">Second Major</label>
+                                    <select id="second_major" name="second_major">
+                                        <option value="">No second major</option>
+                                    </select>
+                                </div>
 
-            <div class="profile-field">
-                <label for="grad_year">Expected Graduation</label>
-                <select id="grad_year" name="grad_year" required>
-                    <option value="">Select a graduation year</option>
-                    <option value="">Select a graduation semester</option>
-                    <option>Spring 2026</option>
-                    <option>Fall 2026</option>
-                    <option>Spring 2027</option>
-                    <option>Fall 2027</option>
-                    <option>Spring 2028</option>
-                    <option>Fall 2028</option>
-                    <option>Spring 2029</option>
-                    <option>Fall 2029</option>
-                    <option>Spring 2030</option>
-                    <option>Fall 2030</option>
-                    <option>Spring 2031</option>
-                    <option>Fall 2031</option>
-                    <option>Spring 2032</option>
-                    <option>Fall 2032</option>
-                    <option>Spring 2033</option>
-                    <option>Fall 2033</option>
-                    <option value="custom">Enter a custom semester</option>
-                </select>
-                <input id="grad_year_custom" name="grad_year_custom" type="text" placeholder="Enter graduation semester" style="display:none;">
-            </div>
-            </details>
-        </div>
+                                <div class="profile-field">
+                                    <label for="second_major_degree_type">Second Major Degree Type</label>
+                                    <select id="second_major_degree_type" name="second_major_degree_type" required>
+                                        <option value="">Select a degree type</option>
+                                    </select>
+                                </div>
 
-        <div class="profile-card">
-            <details open>
-                <summary>Advisor</summary>
+                                <div class="profile-field">
+                                    <label for="minor">Minor</label>
+                                    <select id="minor" name="minor">
+                                        <option value="">No minor</option>
+                                    </select>
+                                </div>
 
-                <div class="profile-field">
-                    <label for="advisor_name">Advisor Name</label>
-                <input id="advisor_name" name="advisor_name" type="text" placeholder="Enter advisor name">
-            </div>
+                                <div class="profile-field">
+                                    <label for="second_minor">Second Minor</label>
+                                    <select id="second_minor" name="second_minor">
+                                        <option value="">No second minor</option>
+                                    </select>
+                                </div>
 
-            <div class="profile-field">
-                <label for="advisor_email">Advisor Email</label>
-                <input id="advisor_email" name="advisor_email" type="email" placeholder="Enter advisor email">
-            </div>
-            </details>
-        </div>
+                                <div class="profile-field">
+                                    <label for="gpa">GPA</label>
+                                    <select id="gpa" name="gpa">
+                                        <option value="">Select a GPA</option>
+                                        <option>4.0</option>
+                                        <option>3.9</option>
+                                        <option>3.8</option>
+                                        <option>3.7</option>
+                                        <option>3.6</option>
+                                        <option>3.5</option>
+                                        <option>3.4</option>
+                                        <option>3.3</option>
+                                        <option>3.2</option>
+                                        <option>3.1</option>
+                                        <option>3.0</option>
+                                        <option>2.9</option>
+                                        <option>2.8</option>
+                                        <option>2.7</option>
+                                        <option>2.6</option>
+                                        <option>2.5</option>
+                                        <option>2.4</option>
+                                        <option>2.3</option>
+                                        <option>2.2</option>
+                                        <option>2.1</option>
+                                        <option>2.0</option>
+                                        <option value="custom">Enter a custom GPA</option>
+                                    </select>
+                                    <input id="gpa_custom" name="gpa_custom" type="text"
+                                        placeholder="Enter GPA manually" style="display:none;">
+                                </div>
 
-        <div class="profile-card">
-            <details open>
-                <summary>Courses</summary>
+                                <div class="profile-field">
+                                    <label for="grad_year">Expected Graduation</label>
+                                    <select id="grad_year" name="grad_year" required>
+                                        <option value="">Select a graduation year</option>
+                                        <option value="">Select a graduation semester</option>
+                                        <option>Spring 2026</option>
+                                        <option>Fall 2026</option>
+                                        <option>Spring 2027</option>
+                                        <option>Fall 2027</option>
+                                        <option>Spring 2028</option>
+                                        <option>Fall 2028</option>
+                                        <option>Spring 2029</option>
+                                        <option>Fall 2029</option>
+                                        <option>Spring 2030</option>
+                                        <option>Fall 2030</option>
+                                        <option>Spring 2031</option>
+                                        <option>Fall 2031</option>
+                                        <option>Spring 2032</option>
+                                        <option>Fall 2032</option>
+                                        <option>Spring 2033</option>
+                                        <option>Fall 2033</option>
+                                        <option value="custom">Enter a custom semester</option>
+                                    </select>
+                                    <input id="grad_year_custom" name="grad_year_custom" type="text"
+                                        placeholder="Enter graduation semester" style="display:none;">
+                                </div>
+                            </details>
+                        </div>
 
-                <div class="profile-field">
-                <label>Courses Taken</label>
-                
-                <div id="selected-courses-list" style="margin-bottom: 16px; display: flex; flex-direction: column;">
-                    <!-- Selected courses will appear here -->
+                        <div class="profile-card">
+                            <details open>
+                                <summary>Advisor</summary>
+
+                                <div class="profile-field">
+                                    <label for="advisor_name">Advisor Name</label>
+                                    <input id="advisor_name" name="advisor_name" type="text"
+                                        placeholder="Enter advisor name">
+                                </div>
+
+                                <div class="profile-field">
+                                    <label for="advisor_email">Advisor Email</label>
+                                    <input id="advisor_email" name="advisor_email" type="email"
+                                        placeholder="Enter advisor email">
+                                </div>
+                            </details>
+                        </div>
+
+                        <div class="profile-card">
+                            <details open>
+                                <summary>Courses</summary>
+
+                                <div class="profile-field">
+                                    <label>Courses Taken</label>
+
+                                    <div id="selected-courses-list"
+                                        style="margin-bottom: 16px; display: flex; flex-direction: column;">
+                                        <!-- Selected courses will appear here -->
+                                    </div>
+
+                                    <input type="text" id="course-search" placeholder="Search for more courses..."
+                                        style="margin-bottom: 12px;">
+
+                                    <div id="search-results-list"
+                                        style="max-height: 300px; overflow-y: auto; display: flex; flex-direction: column;">
+                                        <!-- Search results here -->
+                                    </div>
+                            </details>
+                        </div>
+
+                        <div class="profile-card">
+                            <details open>
+                                <summary>Transfer Credits</summary>
+
+                                <div class="profile-field">
+                                    <label>Recognized Transfer Credits</label>
+                                    <div id="transfer-credits-list"
+                                        style="margin-bottom: 16px; display: flex; flex-direction: column;">
+                                        <!-- Transfer credits will appear here -->
+                                    </div>
+                                </div>
+                            </details>
+                        </div>
+
+                        <div class="profile-card">
+                            <details open>
+                                <summary>Document Upload</summary>
+
+                                <div class="profile-field">
+                                    <label for="profile_pdf"> (OPTIONAL) Upload an unofficial transcript. </label>
+                                    <input id="profile_pdf" type="file" accept=".pdf,application/pdf">
+                                    <small>
+                                        This option can be used to autofill your course history and academic info.
+                                        <br><br><b>Note</b>: Personally identifiable information located at the top of
+                                        the PDF will be not be used. You may upload an edited PDF with only the relevant
+                                        academic information if you prefer.
+                                    </small>
+                                    <div id="profile-pdf-status" class="profile-file-status" aria-live="polite">
+                                        No PDF selected.
+                                    </div>
+                                </div>
+                            </details>
+                        </div>
+
+                        <div class="profile-card">
+                            <button type="submit" class="profile-save-btn">Save Profile</button>
+                            <div id="profile-save-status" style="margin-top:12px;"></div>
+                        </div>
+
+                    </form>
+
                 </div>
-
-                <input type="text" id="course-search" placeholder="Search for more courses..." style="margin-bottom: 12px;">
-
-                <div id="search-results-list" style="max-height: 300px; overflow-y: auto; display: flex; flex-direction: column;">
-                    <!-- Search results here -->
-                </div>
-            </details>
-        </div>
-
-        <div class="profile-card">
-            <details open>
-                <summary>Transfer Credits</summary>
-
-                <div class="profile-field">
-                    <label>Recognized Transfer Credits</label>
-                    <div id="transfer-credits-list" style="margin-bottom: 16px; display: flex; flex-direction: column;">
-                        <!-- Transfer credits will appear here -->
-                    </div>
-                </div>
-            </details>
-        </div>
-
-        <div class="profile-card">
-            <details open>
-                <summary>Document Upload</summary>
-
-                <div class="profile-field">
-                    <label for="profile_pdf"> (OPTIONAL) Upload an unofficial transcript. </label>
-                    <input id="profile_pdf" type="file" accept=".pdf,application/pdf">
-                    <small>
-                        This option can be used to autofill your course history and academic info. <br><br><b>Note</b>: Personally identifiable information located at the top of the PDF will be not be used. You may upload an edited PDF with only the relevant academic information if you prefer. 
-                    </small>
-                    <div id="profile-pdf-status" class="profile-file-status" aria-live="polite">
-                        No PDF selected.
-                    </div>
-                </div>
-            </details>
-        </div>
-
-        <div class="profile-card">
-            <button type="submit" class="profile-save-btn">Save Profile</button>
-            <div id="profile-save-status" style="margin-top:12px;"></div>
-        </div>
-
-            </form>
-
-        </div>
 
                 <!-- ── Sub-tab: Account ────────────────────────── -->
                 <!-- TODO: Populate from /profile GET response (user_db: User table) -->
                 <div class="profile-tab-panel" id="ptab-account" role="tabpanel">
- 
-                     <div class="profile-card">
-                         <details open>
-                             <summary>Account</summary>
- 
-                             <div class="profile-field">
-                                 <label>Name</label>
-                                <input id="name" name="name" type="text" readonly>
-                        </div>
-                        <div class="profile-field">
-                            <label>Email</label>
-                                <input id="email" name="email" type="text" readonly>
-                        </div>
 
-                        <div style="margin-top: 24px; border-top: 1px solid var(--border); padding-top: 24px;">
-                            <button class="profile-save-btn" style="background: var(--error); color: white;" 
-                                hx-post="/sign-out" hx-trigger="click" hx-swap="none">
-                                ⬅️ Sign Out
-                            </button>
-                            <p style="font-size: 0.8rem; color: var(--muted); margin-top: 8px;">
-                                Securely end your current session.
-                            </p>
-                        </div>
-                    </details>
+                    <div class="profile-card">
+                        <details open>
+                            <summary>Account</summary>
+
+                            <div class="profile-field">
+                                <label>Name</label>
+                                <input id="name" name="name" type="text" readonly>
+                            </div>
+                            <div class="profile-field">
+                                <label>Email</label>
+                                <input id="email" name="email" type="text" readonly>
+                            </div>
+
+                            <div style="margin-top: 24px; border-top: 1px solid var(--border); padding-top: 24px;">
+                                <button class="profile-save-btn" style="background: var(--error); color: white;"
+                                    hx-post="/sign-out" hx-trigger="click" hx-swap="none">
+                                    ⬅️ Sign Out
+                                </button>
+                                <p style="font-size: 0.8rem; color: var(--muted); margin-top: 8px;">
+                                    Securely end your current session.
+                                </p>
+                            </div>
+                        </details>
                     </div>
 
                 </div><!-- /#ptab-account -->
@@ -1483,13 +1495,13 @@
 
                             <div class="setting-row">
                                 <span>Light mode</span>
-                            <label class="theme-toggle" title="Toggle light / dark mode">
-                                <input type="checkbox" id="theme-toggle-input" aria-label="Toggle light mode">
-                                <div class="theme-toggle-track"></div>
-                                <div class="theme-toggle-thumb"></div>
-                            </label>
-                        </div>
-                    </details>
+                                <label class="theme-toggle" title="Toggle light / dark mode">
+                                    <input type="checkbox" id="theme-toggle-input" aria-label="Toggle light mode">
+                                    <div class="theme-toggle-track"></div>
+                                    <div class="theme-toggle-thumb"></div>
+                                </label>
+                            </div>
+                        </details>
                     </div>
 
                     <!-- Add more settings cards here -->
@@ -1516,9 +1528,22 @@
         //   2. Add a <section class="page" id="page-NAME"> in #chat-column.
         //   3. That's it — navigateTo() will handle activation automatically.
 
+        /**
+         * localStorage key used to remember the user's last active top-level page.
+         */
         const PAGE_KEY = 'su-active-page';
+        /**
+         * Default page shown when no previous page has been saved.
+         */
         const DEFAULT_PAGE = 'chat';
-
+        
+        /**
+         * Activates a top-level page and its matching navigation button.
+         *
+         * @param {string} pageId - Logical page name. Must match both:
+         *   - `.nav-btn[data-page="{pageId}"]`
+         *   - `#page-{pageId}`
+         */
         function navigateTo(pageId) {
             // Deactivate all pages and nav buttons
             document.querySelectorAll('.page').forEach(function (sec) {
@@ -1545,10 +1570,15 @@
             localStorage.setItem(PAGE_KEY, pageId);
         }
 
-        // Wire up all nav buttons to the router
+        /**
+         * Wires all sidebar navigation buttons into the client-side router.
+         * On mobile, the sidebar is collapsed after choosing a page.
+         */
         document.querySelectorAll('.nav-btn[data-page]').forEach(function (btn) {
             btn.addEventListener('click', function () {
                 navigateTo(btn.dataset.page);
+
+                // collapse sidebar on mobile after page selection
                 const isMobile = window.matchMedia("(max-width: 768px)").matches;
                 if (isMobile) {
                     setSidebar(true);
@@ -1559,22 +1589,34 @@
         // Restore the last active page (or default to chat)
         navigateTo(localStorage.getItem(PAGE_KEY) || DEFAULT_PAGE);
 
-        // ── Sidebar toggle ────────────────────────────────────────────
+        /**
+         * DOM references used for sidebar collapse/reopen behavior.
+         */
         const shell = document.getElementById('app-shell');
         const btnClose = document.getElementById('sidebar-toggle');
         const btnOpen = document.getElementById('sidebar-reopen');
+        /**
+         * localStorage key used to remember sidebar collapsed state.
+         */
         const STORAGE_KEY = 'su-sidebar-collapsed';
 
+        /**
+         * Applies collapsed/expanded state to the sidebar.
+         *
+         * @param {boolean} collapsed - true collapses the sidebar; false expands it.
+         */
         function setSidebar(collapsed) {
             shell.classList.toggle('sidebar-collapsed', collapsed);
             localStorage.setItem(STORAGE_KEY, collapsed ? '1' : '0');
         }
 
-        // Restore preference on load
+        // Determine mobile layout for default sidebar behavior.
         const isMobile = window.matchMedia("(max-width: 768px)").matches;
+        // Restore saved sidebar state. If none exists, default mobile to collapsed.
         const savedSidebarState = localStorage.getItem(STORAGE_KEY);
         setSidebar(savedSidebarState === '1' || (savedSidebarState === null && isMobile));
 
+        // Attach sidebar collapse and reopen controls.
         btnClose.addEventListener('click', () => setSidebar(true));
         btnOpen.addEventListener('click', () => setSidebar(false));
 
@@ -1586,74 +1628,113 @@
         //   1. Add a <button class="profile-tab-btn" data-tab="NAME"> in .profile-tab-bar.
         //   2. Add a <div class="profile-tab-panel" id="ptab-NAME"> in #page-profile.
 
+        /**
+         * localStorage key used to remember the selected profile sub-tab.
+         */
         const PROFILE_TAB_KEY = 'su-profile-tab';
+        /**
+         * Default profile sub-tab used when no saved sub-tab exists.
+         */
         const DEFAULT_PROFILE_TAB = 'academic';
 
+        /**
+         * Activates a profile sub-tab and updates its matching tab button.
+         *
+         * @param {string} tabId - Logical tab name. Must match both:
+         *   - `.profile-tab-btn[data-tab="{tabId}"]`
+         *   - `#ptab-{tabId}`
+         */
         function switchProfileTab(tabId) {
+            // Hide all profile tab panels.
             document.querySelectorAll('.profile-tab-panel').forEach(function (p) {
                 p.classList.remove('active');
             });
+            // Reset all tab buttons and ARIA state.
             document.querySelectorAll('.profile-tab-btn').forEach(function (b) {
                 b.classList.remove('active');
                 b.setAttribute('aria-selected', 'false');
             });
 
+            // Show the requested panel if present.
             const panel = document.getElementById('ptab-' + tabId);
             if (panel) panel.classList.add('active');
 
+            // Mark the matching tab button as selected if present.
             const btn = document.querySelector('.profile-tab-btn[data-tab="' + tabId + '"]');
             if (btn) {
                 btn.classList.add('active');
                 btn.setAttribute('aria-selected', 'true');
             }
 
+            // Persist the selected profile tab.
             localStorage.setItem(PROFILE_TAB_KEY, tabId);
         }
 
+        /**
+         * Wires each profile sub-tab button to the profile tab switcher.
+         */
         document.querySelectorAll('.profile-tab-btn[data-tab]').forEach(function (btn) {
             btn.addEventListener('click', function () {
                 switchProfileTab(btn.dataset.tab);
             });
         });
 
-        // Activate the last-used sub-tab (or the default)
+        // Restore the previously selected profile tab, or use the default.
         switchProfileTab(localStorage.getItem(PROFILE_TAB_KEY) || DEFAULT_PROFILE_TAB);
 
-        // ── Theme toggle ──────────────────────────────────────────────
+        /**
+         * DOM references and storage key for theme switching.
+         */
         const htmlEl = document.documentElement;
         const themeInput = document.getElementById('theme-toggle-input');
         const THEME_KEY = 'su-theme';
 
+        /**
+         * Applies the selected visual theme.
+         *
+         * @param {boolean} light - true applies light mode; false applies dark mode.
+         */
         function setTheme(light) {
             htmlEl.setAttribute('data-theme', light ? 'light' : 'dark');
             themeInput.checked = light;
             localStorage.setItem(THEME_KEY, light ? 'light' : 'dark');
         }
 
+        // Restore saved theme. Defaults to dark mode unless "light" is saved.
         setTheme(localStorage.getItem(THEME_KEY) === 'light');
+        // Apply theme changes whenever the toggle changes
         themeInput.addEventListener('change', function () { setTheme(themeInput.checked); });
 
-        // ── Chat: stream tokens from /ask/stream ────────────────────
-        //
-        // Flow:
-        //   1. Submit → "Thinking..." block appears immediately.
-        //   2. Route+Retrieve run on the server; first network chunk arrives.
-        //   3. Characters are pushed into a queue and drained one-by-one via
-        //      a setInterval, producing a smooth typewriter effect regardless
-        //      of how the API batches its output.
-        //   4. When the stream AND the queue are both done, render Markdown.
-        //
+        /**
+         * Handles chat form submission and streamed response rendering.
+         *
+         * Flow:
+         *   1. Prevent normal form submission.
+         *   2. Validate textarea input.
+         *   3. Insert a response block immediately with a "Thinking..." placeholder.
+         *   4. POST the query to `/ask/stream`.
+         *   5. Read streamed response chunks from the backend.
+         *   6. Push streamed characters into a queue.
+         *   7. Drain the queue at a fixed interval for a typewriter effect.
+         *   8. Render the final response as Markdown once streaming finishes.
+         */
         document.querySelector('.ask-form').addEventListener('submit', async function (evt) {
+            // Prevent full page reload.
             evt.preventDefault();
 
+            // Read the submitted query from the form textarea.
             const ta = evt.target.querySelector('textarea');
             const queryText = ta.value.trim();
+            // Ignore empty submissions.
             if (!queryText) return;
 
-            // -- Inject the response block with "Thinking..." immediately --
+            // Escape user-provided query before inserting it into HTML.
             const safe = queryText.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+            // Generate a unique ID for this response block.
             const blockId = 'resp-' + Date.now();
             const responseDiv = document.getElementById('response');
+
+            // Insert the response block immediately so the UI gives feedback while the server works.
             responseDiv.insertAdjacentHTML('beforeend', `
                 <div class="response-block" id="${blockId}">
                     <details open>
@@ -1667,14 +1748,14 @@
                 </div>
             `);
 
-            // -- Reset input --
+            // Clear and reset the textarea after submitting.
             ta.value = '';
             ta.style.height = 'auto';
 
+            // Body element where streamed text will appear.
             const bodyEl = document.getElementById(blockId + '-body');
 
-            // Character queue — chunks from the network are split into individual
-            // characters and pushed here; the interval drains them one-by-one.
+            // Queue used to decouple network chunk timing from UI render timing.
             const charQueue = [];
             let streamDone = false;    // true once fetch reader is exhausted
             let textEl = null;         // created on first character
@@ -1713,7 +1794,6 @@
                     clearInterval(drainTimer);
                     throw new Error(await res.text());
                 }
-
                 const reader = res.body.getReader();
                 const decoder = new TextDecoder();
 
@@ -1735,23 +1815,38 @@
             }
         });
 
+        /**
+         * Scrolls response content when a details block is opened.
+         * This keeps newly expanded answers visible to the user.
+         */
         document.getElementById('response')?.addEventListener('toggle', function (evt) {
             if (evt.target.tagName === 'DETAILS' && evt.target.open) {
                 scrollResponsesToBottom();
             }
         }, true);
 
-        // ── Submit on Enter & Auto-resize ─────────────────────────────
+        /**
+         * Textarea used for chat input.
+         */
         const textarea = document.getElementById('query');
 
+        /**
+         * Resizes the chat textarea to fit its contents.
+         * Resetting to `auto` first allows it to shrink when text is deleted.
+         */
         function autoResizeTextarea() {
             // Reset height to 'auto' to correctly shrink if text is deleted
             textarea.style.height = 'auto';
             textarea.style.height = textarea.scrollHeight + 'px';
         }
 
+        // Resize the textarea whenever its content changes.
         textarea.addEventListener('input', autoResizeTextarea);
 
+        /**
+         * Submits the chat form when Enter is pressed without Shift.
+         * Shift+Enter still inserts a newline.
+         */
         textarea.addEventListener('keydown', function (evt) {
             if (evt.key === 'Enter' && !evt.shiftKey) {
                 evt.preventDefault(); // prevent adding a new line
@@ -1762,246 +1857,331 @@
             }
         });
 
-    function wireCustomField(selectId, inputId) {
-    const select = document.getElementById(selectId);
-    const input = document.getElementById(inputId);
+        /**
+         * Connects a select field to a related custom text input.
+         * 
+         * Behavior:
+         *   - Shows the custom input when the select value is `"custom"`.
+         *   - Makes the custom input required only while visible.
+         *   - Clears the custom input when a predefined option is selected.
+         *
+         * @param {string} selectId - ID of the select element.
+         * @param {string} inputId - ID of the custom input element.
+         * 
+         */
+        function wireCustomField(selectId, inputId) {
+            const select = document.getElementById(selectId);
+            const input = document.getElementById(inputId);
 
-    if (!select || !input) return;
+            if (!select || !input) return;
 
-    function sync() {
-        const show = select.value === "custom";
-        input.style.display = show ? "block" : "none";
-        input.required = show;
-        if (!show) input.value = "";
-    }
+            function sync() {
+                const show = select.value === "custom";
+                input.style.display = show ? "block" : "none";
+                input.required = show;
+                if (!show) input.value = "";
+            }
 
-    select.addEventListener("change", sync);
-    sync();
-}
-
-    wireCustomField("gpa", "gpa_custom");
-    wireCustomField("grad_year", "grad_year_custom");
-    
-    const academicDependencies = {
-        "major": ["major_degree_type"],
-        "second_major": ["second_major_degree_type"]
-    };
-    initDependencies(academicDependencies);
-
-    function syncAcademicVisibility() {
-        const majorDegEl = document.getElementById("major_degree_type");
-        const secondMajorEl = document.getElementById("second_major");
-        const minorEl = document.getElementById("minor");
-        const secondMinorEl = document.getElementById("second_minor");
-
-        if (!majorDegEl || !secondMajorEl || !minorEl || !secondMinorEl) return;
-
-        const hasMajorDeg = !!majorDegEl.value;
-
-        // Remove second major if first major is unselected
-        if (!hasMajorDeg) {
-            setValue("second_major", "No second major");
-            setValue("second_major_degree_type", "Select a degree type")
+            select.addEventListener("change", sync);
+            sync();
         }
 
-        // Second Major Visibility
-        const secondMajorField = secondMajorEl.closest(".profile-field");
-        const showSecondMajor = !!secondMajorEl.value || secondMajorEl.dataset.forcedVisible === "true";
-        if (secondMajorField) {
-            secondMajorField.style.display = (hasMajorDeg && showSecondMajor) ? "flex" : "none";
-        }
-        const btnAddMajor = document.getElementById("btn-add-major");
-        if (btnAddMajor) {
-            btnAddMajor.style.display = (hasMajorDeg && !showSecondMajor) ? "inline-flex" : "none";
-        }
+        // Enable custom inputs for GPA and graduation year.
+        wireCustomField("gpa", "gpa_custom");
+        wireCustomField("grad_year", "grad_year_custom");
 
-        // Minor Visibility
-        const minorField = minorEl.closest(".profile-field");
-        const showMinor = !!minorEl.value || minorEl.dataset.forcedVisible === "true";
-        if (minorField) {
-            minorField.style.display = (hasMajorDeg && showMinor) ? "flex" : "none";
-        }
+        /**
+         * Parent-to-child academic field dependencies.
+         * Child fields are only visible when the parent has a selected value.
+         */
+        const academicDependencies = {
+            "major": ["major_degree_type"],
+            "second_major": ["second_major_degree_type"]
+        };
+        initDependencies(academicDependencies);
 
-        // Remove second minor if first minor is unselected
-        if (!showMinor) {
-            setValue("second_minor", "No second minor");
-        }
+        /**
+         * Synchronizes visibility and state of major/minor profile fields.
+         *
+         * Rules:
+         *   - Second major is only available after a primary major degree type exists.
+         *   - Minor fields are only available after a primary major degree type exists.
+         *   - Second minor is only available after a first minor exists or is forced visible.
+         *   - Add buttons appear only when another academic field can still be revealed.
+         */
+        function syncAcademicVisibility() {
+            const majorDegEl = document.getElementById("major_degree_type");
+            const secondMajorEl = document.getElementById("second_major");
+            const minorEl = document.getElementById("minor");
+            const secondMinorEl = document.getElementById("second_minor");
 
-        // Second Minor Visibility
-        const secondMinorField = secondMinorEl.closest(".profile-field");
-        const showSecondMinor = !!secondMinorEl.value || secondMinorEl.dataset.forcedVisible === "true";
-        if (secondMinorField) {
-            secondMinorField.style.display = (hasMajorDeg && showMinor && showSecondMinor) ? "flex" : "none";
-        }
+            if (!majorDegEl || !secondMajorEl || !minorEl || !secondMinorEl) return;
 
-        // Add Minor Button Label/Visibility
-        const btnAddMinor = document.getElementById("btn-add-minor");
-        if (btnAddMinor) {
+            const hasMajorDeg = !!majorDegEl.value;
+
+            // Remove second major if first major is unselected
+            if (!hasMajorDeg) {
+                setValue("second_major", "No second major");
+                setValue("second_major_degree_type", "Select a degree type")
+            }
+
+            // Second Major Visibility
+            const secondMajorField = secondMajorEl.closest(".profile-field");
+            const showSecondMajor = !!secondMajorEl.value || secondMajorEl.dataset.forcedVisible === "true";
+            if (secondMajorField) {
+                secondMajorField.style.display = (hasMajorDeg && showSecondMajor) ? "flex" : "none";
+            }
+            const btnAddMajor = document.getElementById("btn-add-major");
+            if (btnAddMajor) {
+                btnAddMajor.style.display = (hasMajorDeg && !showSecondMajor) ? "inline-flex" : "none";
+            }
+
+            // Minor Visibility
+            const minorField = minorEl.closest(".profile-field");
+            const showMinor = !!minorEl.value || minorEl.dataset.forcedVisible === "true";
+            if (minorField) {
+                minorField.style.display = (hasMajorDeg && showMinor) ? "flex" : "none";
+            }
+
+            // Remove second minor if first minor is unselected
             if (!showMinor) {
-                btnAddMinor.textContent = "+ Add Minor";
-                btnAddMinor.style.display = hasMajorDeg ? "inline-flex" : "none";
-            } else if (minorEl.value && !showSecondMinor) {
-                btnAddMinor.textContent = "+ Add Second Minor";
-                btnAddMinor.style.display = hasMajorDeg ? "inline-flex" : "none";
-            } else {
-                btnAddMinor.style.display = "none";
+                setValue("second_minor", "No second minor");
+            }
+
+            // Second Minor Visibility
+            const secondMinorField = secondMinorEl.closest(".profile-field");
+            const showSecondMinor = !!secondMinorEl.value || secondMinorEl.dataset.forcedVisible === "true";
+            if (secondMinorField) {
+                secondMinorField.style.display = (hasMajorDeg && showMinor && showSecondMinor) ? "flex" : "none";
+            }
+
+            // Add Minor Button Label/Visibility
+            const btnAddMinor = document.getElementById("btn-add-minor");
+            if (btnAddMinor) {
+                if (!showMinor) {
+                    btnAddMinor.textContent = "+ Add Minor";
+                    btnAddMinor.style.display = hasMajorDeg ? "inline-flex" : "none";
+                } else if (minorEl.value && !showSecondMinor) {
+                    btnAddMinor.textContent = "+ Add Second Minor";
+                    btnAddMinor.style.display = hasMajorDeg ? "inline-flex" : "none";
+                } else {
+                    btnAddMinor.style.display = "none";
+                }
+            }
+
+            // Action buttons container
+            const actionsContainer = document.getElementById("academic-actions");
+            if (actionsContainer) {
+                const btnAddMajor = document.getElementById("btn-add-major");
+                const btnAddMinor = document.getElementById("btn-add-minor");
+
+                const show =
+                    (btnAddMajor && btnAddMajor.style.display !== "none") ||
+                    (btnAddMinor && btnAddMinor.style.display !== "none");
+
+                actionsContainer.style.display = show ? "flex" : "none";
             }
         }
 
-        // Action buttons container
-        const actionsContainer = document.getElementById("academic-actions");
-        if (actionsContainer) {
-            const btnAddMajor = document.getElementById("btn-add-major");
-            const btnAddMinor = document.getElementById("btn-add-minor");
-
-            const show =
-                (btnAddMajor && btnAddMajor.style.display !== "none") ||
-                (btnAddMinor && btnAddMinor.style.display !== "none");
-
-            actionsContainer.style.display = show ? "flex" : "none";
-        }
-    }
-
-    // Attach listeners
-    document.getElementById("major_degree_type")?.addEventListener("change", syncAcademicVisibility);
-    
-    document.getElementById("second_major")?.addEventListener("change", (e) => {
-        if (!e.target.value) e.target.dataset.forcedVisible = "false";
-        syncAcademicVisibility();
-    });
-
-    document.getElementById("minor")?.addEventListener("change", (e) => {
-        if (!e.target.value) e.target.dataset.forcedVisible = "false";
-        syncAcademicVisibility();
-    });
-
-    document.getElementById("second_minor")?.addEventListener("change", (e) => {
-        if (!e.target.value) e.target.dataset.forcedVisible = "false";
-        syncAcademicVisibility();
-    });
-
-    document.getElementById("btn-add-major")?.addEventListener("click", () => {
-        const el = document.getElementById("second_major");
-        if (el) {
-            el.dataset.forcedVisible = "true";
+        // Attach listeners
+        document.getElementById("major_degree_type")?.addEventListener("change", syncAcademicVisibility);
+        document.getElementById("second_major")?.addEventListener("change", (e) => {
+            if (!e.target.value) e.target.dataset.forcedVisible = "false";
             syncAcademicVisibility();
-        }
-    });
+        });
+        document.getElementById("minor")?.addEventListener("change", (e) => {
+            if (!e.target.value) e.target.dataset.forcedVisible = "false";
+            syncAcademicVisibility();
+        });
+        document.getElementById("second_minor")?.addEventListener("change", (e) => {
+            if (!e.target.value) e.target.dataset.forcedVisible = "false";
+            syncAcademicVisibility();
+        });
+        document.getElementById("btn-add-major")?.addEventListener("click", () => {
+            const el = document.getElementById("second_major");
+            if (el) {
+                el.dataset.forcedVisible = "true";
+                syncAcademicVisibility();
+            }
+        });
+        document.getElementById("btn-add-minor")?.addEventListener("click", () => {
+            const minorEl = document.getElementById("minor");
+            const secondMinorEl = document.getElementById("second_minor");
+            if (!minorEl.value && minorEl.dataset.forcedVisible !== "true") {
+                minorEl.dataset.forcedVisible = "true";
+            } else {
+                secondMinorEl.dataset.forcedVisible = "true";
+            }
+            syncAcademicVisibility();
+        });
+        document.body.addEventListener('transcriptUploaded', function () {
+            console.log("Transcript upload detected via HTMX trigger. Refreshing profile...");
+            loadProfile();
+        });
 
-    document.getElementById("btn-add-minor")?.addEventListener("click", () => {
-        const minorEl = document.getElementById("minor");
-        const secondMinorEl = document.getElementById("second_minor");
-        if (!minorEl.value && minorEl.dataset.forcedVisible !== "true") {
-            minorEl.dataset.forcedVisible = "true";
-        } else {
-            secondMinorEl.dataset.forcedVisible = "true";
-        }
-        syncAcademicVisibility();
-    });
+        /**
+         * In-memory degree requirements loaded from static JSON.
+         * Used by the dashboard to calculate major/minor progress.
+         */
+        let DEGREE_REQUIREMENTS = {};
 
-    // ── HTMX Event Listeners ──────────────────────────────────────────
-    document.body.addEventListener('transcriptUploaded', function() {
-        console.log("Transcript upload detected via HTMX trigger. Refreshing profile...");
-        loadProfile();
-    });
-
-    let DEGREE_REQUIREMENTS = {};
+        /**
+         * Loads degree requirement data from the knowledge-base JSON file.
+         */
         async function loadRequirements() {
             const res = await fetch("/kb/degree_requirements.json");
             DEGREE_REQUIREMENTS = await res.json();
         }
 
-    // Run initial sync after profile loads
-    loadDepartments().then(async () => {
-        await loadRequirements();
-        await loadProfile();
-
-        preventDuplicateAcademicSelections();
-        syncAcademicVisibility();
-    });
-    let allCourses = [];
-    let selectedCourses = new Set();
-
-    async function fetchAllCourses() {
-        try {
-            const res = await fetch("/courses");
-            allCourses = await res.json();
-            renderCourseList();
-        } catch (err) {
-            console.error("Failed to fetch courses:", err);
-        }
-    }
-
-    const courseSearchInput = document.getElementById("course-search");
-    const selectedListContainer = document.getElementById("selected-courses-list");
-    const searchResultsContainer = document.getElementById("search-results-list");
-
-    courseSearchInput.addEventListener("input", () => {
-        renderCourseList(courseSearchInput.value.toLowerCase());
-    });
-
-    function renderCourseList(searchTerm = "") {
-        selectedListContainer.innerHTML = "";
-        searchResultsContainer.innerHTML = "";
-        
-        const shownInSelected = new Set();
-
-        // 1. Render all selected courses at the top
-        allCourses.filter(c => selectedCourses.has(`${c.code} ${c.title}`)).forEach(course => {
-            const courseVal = `${course.code} ${course.title}`;
-            renderItem(selectedListContainer, courseVal, true, "selected-course-pill");
-            shownInSelected.add(courseVal);
+        /**
+         * Initial data-loading sequence.
+         *
+         * Order matters:
+         *   1. Department options must load before profile values are assigned.
+         *   2. Requirement data must load before dashboard rendering.
+         *   3. Profile data populates form fields and selected courses.
+         *   4. Duplicate prevention and visibility sync run after population.
+         */
+        loadDepartments().then(async () => {
+            await loadRequirements();
+            await loadProfile();
+            preventDuplicateAcademicSelections();
+            syncAcademicVisibility();
         });
 
-        // 2. Render search results below
-        if (searchTerm) {
-            allCourses.filter(c => 
-                (c.code.toLowerCase().includes(searchTerm) || 
-                 c.title.toLowerCase().includes(searchTerm)) &&
-                !shownInSelected.has(`${c.code} ${c.title}`)
-            ).slice(0, 50).forEach(course => { // Limit for performance
-                const courseVal = `${course.code} ${course.title}`;
-                renderItem(searchResultsContainer, courseVal, false, "search-result-item");
-            });
-        }
-    }
+        /**
+         * Full course catalog loaded from the backend.
+         */
+        let allCourses = [];
+        let selectedCourses = new Set();
 
-    function renderItem(container, courseVal, isChecked, className) {
-        const label = document.createElement("label");
-        label.className = className;
-        label.innerHTML = `<input type="checkbox" name="courses" value="${courseVal}" ${isChecked ? 'checked' : ''}> <span>${courseVal}</span>`;
-        
-        const cb = label.querySelector('input');
-        cb.addEventListener("change", () => {
-            if (cb.checked) {
-                selectedCourses.add(courseVal);
-            } else {
-                selectedCourses.delete(courseVal);
+        /**
+         * Loads the course catalog and renders the course selection UI.
+         */
+        async function fetchAllCourses() {
+            try {
+                const res = await fetch("/courses");
+                allCourses = await res.json();
+                renderCourseList();
+            } catch (err) {
+                console.error("Failed to fetch courses:", err);
             }
-            // Always re-render to move items between lists
+        }
+
+        /**
+         * DOM references used for course search and rendering.
+         */
+        const courseSearchInput = document.getElementById("course-search");
+        const selectedListContainer = document.getElementById("selected-courses-list");
+        const searchResultsContainer = document.getElementById("search-results-list");
+
+        /**
+         * Re-renders search results when the user types in the course search box.
+         */
+        courseSearchInput.addEventListener("input", () => {
             renderCourseList(courseSearchInput.value.toLowerCase());
-            renderDashboard();
         });
-        
-        container.appendChild(label);
-    }
 
-    let currentProfile = null;
-    const TOTAL_REQUIRED_CREDITS = 127;
+        /**
+         * Renders selected courses and optional course search results.
+         * 
+         * Behavior:
+         *   - Selected courses are always rendered at the top.
+         *   - Search results appear below selected courses only when searching.
+         *   - Selected courses are excluded from search results to avoid duplicates.
+         *
+         * @param {string} searchTerm - Lowercase text used to filter course code/title.
+         */
+        function renderCourseList(searchTerm = "") {
+            selectedListContainer.innerHTML = "";
+            searchResultsContainer.innerHTML = "";
 
-    async function loadProfile() {
-    try {
-        const res = await fetch("/profile");
-        const data = await res.json();
-        currentProfile = data;
+            const shownInSelected = new Set();
 
-        if (!data.is_profile_complete) {
-            const responseDiv = document.getElementById("response");
-            const warning = document.createElement("div");
-            warning.id = "profile-warning";
-            warning.className = "response-block";
+            // 1. Render all selected courses at the top
+            allCourses.filter(c => selectedCourses.has(`${c.code} ${c.title}`)).forEach(course => {
+                const courseVal = `${course.code} ${course.title}`;
+                renderItem(selectedListContainer, courseVal, true, "selected-course-pill");
+                shownInSelected.add(courseVal);
+            });
 
-            warning.innerHTML = `
+            // 2. Render search results below
+            if (searchTerm) {
+                allCourses.filter(c =>
+                    (c.code.toLowerCase().includes(searchTerm) ||
+                        c.title.toLowerCase().includes(searchTerm)) &&
+                    !shownInSelected.has(`${c.code} ${c.title}`)
+                ).slice(0, 50).forEach(course => { // Limit for performance
+                    const courseVal = `${course.code} ${course.title}`;
+                    renderItem(searchResultsContainer, courseVal, false, "search-result-item");
+                });
+            }
+        }
+
+        /**
+         * Renders a single selectable course item.
+         *
+         * @param {HTMLElement} container - List container where the item should be appended.
+         * @param {string} courseVal - Course display/value string.
+         * @param {boolean} isChecked - Whether the course should start checked.
+         * @param {string} className - CSS class applied to the course label.
+         */
+        function renderItem(container, courseVal, isChecked, className) {
+            const label = document.createElement("label");
+            label.className = className;
+            label.innerHTML = `<input type="checkbox" name="courses" value="${courseVal}" ${isChecked ? 'checked' : ''}> <span>${courseVal}</span>`;
+
+            const cb = label.querySelector('input');
+            cb.addEventListener("change", () => {
+                if (cb.checked) {
+                    selectedCourses.add(courseVal);
+                } else {
+                    selectedCourses.delete(courseVal);
+                }
+                // Always re-render to move items between lists
+                renderCourseList(courseSearchInput.value.toLowerCase());
+                renderDashboard();
+            });
+
+            container.appendChild(label);
+        }
+
+        /**
+         * Most recently loaded profile object.
+         * Used by dashboard and profile UI functions.
+         */
+        let currentProfile = null;
+        /**
+         * Total required credits for graduation.
+         */
+        const TOTAL_REQUIRED_CREDITS = 127;
+
+        /**
+         * Loads the user's profile and populates the profile UI.
+         *
+         * Responsibilities:
+         *   - Fetch profile data from `/profile`.
+         *   - Store profile globally.
+         *   - Show onboarding/privacy warning when profile is incomplete.
+         *   - Populate form fields.
+         *   - Restore selected courses.
+         *   - Render transfer credits.
+         *   - Ensure catalog courses are loaded.
+         *   - Render dashboard progress.
+         */
+        async function loadProfile() {
+            try {
+                const res = await fetch("/profile");
+                const data = await res.json();
+                currentProfile = data;
+
+                if (!data.is_profile_complete) {
+                    const responseDiv = document.getElementById("response");
+                    const warning = document.createElement("div");
+                    warning.id = "profile-warning";
+                    warning.className = "response-block";
+
+                    warning.innerHTML = `
                 <div class="response-answer">
                     ⚠️ <strong>Welcome to the University Knowledge Assistant. Please complete your academic profile to receive personalized responses.</strong><br><br><br>
                     <em><strong>Data Usage & Privacy:</strong> <br><br>Your information, including chat inputs and profile data (form inputs and/or transcript uploads) will be sent to Google Gemini to generate responses. <br><br> Your information is stored and may be viewed by the development team for system functionality and improvement. Conversation history is logged. <br><br> Information retrieved from your Google Account include Google Account ID, email address, first name, and last name.
@@ -2009,310 +2189,403 @@
                     </div>
             `;
 
-            responseDiv.prepend(warning);
-        }
-
-        // Fill selects
-        setValue("major", data.major);
-        setValue("major_degree_type", data.major_degree_type);
-        setValue("second_major", data.second_major);
-        setValue("second_major_degree_type", data.second_major_degree_type);
-        setValue("minor", data.minor);
-        setValue("second_minor", data.second_minor);
-        setValue("gpa", data.gpa);
-        setValue("advisor_name", data.advisor_name);
-        setValue("advisor_email", data.advisor_email);
-        setValue("grad_year", data.grad_year);
-        setValue("name", data.name);
-        setValue("email", data.email);
-
-        // Courses logic
-        selectedCourses = new Set(
-            (data.courses || []).map(c => `${c.code} ${c.name}`)
-        );
-        
-        // Transfer Credits logic
-        const transferList = document.getElementById("transfer-credits-list");
-        if (transferList) {
-            transferList.innerHTML = "";
-            (data.transfer_credits || []).forEach(t => {
-                const item = document.createElement("div");
-                item.className = "selected-course-pill";
-                item.style.marginBottom = "4px";
-                item.innerHTML = `<span>${t.semester}: ${t.institution} (${t.credits} credits)</span>`;
-                transferList.appendChild(item);
-            });
-            if (transferList.innerHTML === "") {
-                transferList.innerHTML = '<span style="color:var(--muted);font-style:italic;">No transfer credits recorded.</span>';
-            }
-        }
-        
-        // If we haven't loaded courses yet, do it now
-        if (allCourses.length === 0) {
-            await fetchAllCourses();
-        } else {
-            renderCourseList();
-        }
-        renderDashboard();
-
-        // Handle custom courses not in the list
-        const knownCourseVals = new Set(allCourses.map(c => `${c.code} ${c.title}`));
-        const customCourses = (data.courses || []).filter(c => !knownCourseVals.has(c));
-        
-        const customInput = document.querySelector('input[name="courses_custom"]');
-        if (customInput) {
-            customInput.value = customCourses.join(", ");
-        }
-
-    } catch (err) {
-        console.error("Failed to load profile:", err);
-    }
-}
-
-    function setValue(id, value) {
-
-        const el = document.getElementById(id);
-        if (!el || value == null) return;
-
-        if (el.tagName === "INPUT" || el.tagName === "TEXTAREA") {
-            el.value = value;
-            return;
-        }
-        // if value exists in dropdown
-        const optionExists = Array.from(el.options).some(o => o.value === value);
-
-        if (optionExists) {
-            el.value = value;
-        } else {
-            el.value = "custom";
-            const custom = document.getElementById(id + "_custom");
-            if (custom) {
-                custom.style.display = "block";
-                custom.value = value;
-            }
-        }
-        el.dispatchEvent(new Event("change"));
-    }
-
-    document.getElementById("profile-form")?.addEventListener("submit", (e) => {
-    setTimeout(() => {
-        document.getElementById("profile-warning")?.remove();
-    }, 300);
-});
-
-    function preventDuplicateAcademicSelections() {
-        const ids = ["major", "second_major", "minor", "second_minor"];
-        const selects = ids
-            .map(id => document.getElementById(id))
-            .filter(Boolean);
-
-        function syncOptions() {
-            // currently selected non-empty values
-            const selectedValues = new Map();
-            selects.forEach(select => {
-                if (select.value) {
-                    selectedValues.set(select.id, select.value);
+                    responseDiv.prepend(warning);
                 }
-            });
 
-            selects.forEach(select => {
-                Array.from(select.options).forEach(option => {
-                    const value = option.value;
+                // Fill selects
+                setValue("major", data.major);
+                setValue("major_degree_type", data.major_degree_type);
+                setValue("second_major", data.second_major);
+                setValue("second_major_degree_type", data.second_major_degree_type);
+                setValue("minor", data.minor);
+                setValue("second_minor", data.second_minor);
+                setValue("gpa", data.gpa);
+                setValue("advisor_name", data.advisor_name);
+                setValue("advisor_email", data.advisor_email);
+                setValue("grad_year", data.grad_year);
+                setValue("name", data.name);
+                setValue("email", data.email);
 
-                    // never disable blank option
-                    if (!value) {
-                        option.disabled = false;
-                        return;
+                // Courses logic
+                selectedCourses = new Set(
+                    (data.courses || []).map(c => `${c.code} ${c.name}`)
+                );
+
+                // Transfer Credits logic
+                const transferList = document.getElementById("transfer-credits-list");
+                if (transferList) {
+                    transferList.innerHTML = "";
+                    (data.transfer_credits || []).forEach(t => {
+                        const item = document.createElement("div");
+                        item.className = "selected-course-pill";
+                        item.style.marginBottom = "4px";
+                        item.innerHTML = `<span>${t.semester}: ${t.institution} (${t.credits} credits)</span>`;
+                        transferList.appendChild(item);
+                    });
+                    if (transferList.innerHTML === "") {
+                        transferList.innerHTML = '<span style="color:var(--muted);font-style:italic;">No transfer credits recorded.</span>';
                     }
+                }
 
-                    // keep this select's own current value enabled
-                    const chosenSomewhereElse = Array.from(selectedValues.entries()).some(
-                        ([id, selected]) => id !== select.id && selected === value
-                    );
+                // If we haven't loaded courses yet, do it now
+                if (allCourses.length === 0) {
+                    await fetchAllCourses();
+                } else {
+                    renderCourseList();
+                }
+                renderDashboard();
 
-                    option.disabled = chosenSomewhereElse;
-                });
-            });
-    }
+                // Handle custom courses not in the list
+                const knownCourseVals = new Set(allCourses.map(c => `${c.code} ${c.title}`));
+                const customCourses = (data.courses || []).filter(c => !knownCourseVals.has(c));
 
-    selects.forEach(select => {
-        select.addEventListener("change", syncOptions);
-    });
+                const customInput = document.querySelector('input[name="courses_custom"]');
+                if (customInput) {
+                    customInput.value = customCourses.join(", ");
+                }
 
-    syncOptions();
-}
+            } catch (err) {
+                console.error("Failed to load profile:", err);
+            }
+        }
 
-function initDependencies(config) {
-    Object.entries(config).forEach(([parentId, childIds]) => {
-        const parent = document.getElementById(parentId);
-        if (!parent) return;
+        /**
+         * Sets the value of an input, textarea, or select field.
+         * 
+         *  Behavior:
+         *   - If the option exists, selects it.
+         *   - If not, selects `"custom"` and fills the matching `{id}_custom` input.
+         *
+         * @param {string} id - ID of the form element.
+         * @param {*} value - Value to assign.
+         */
+        function setValue(id, value) {
 
-        const children = childIds.map(id => {
             const el = document.getElementById(id);
-            return {
-                el,
-                field: el?.closest(".profile-field"),
-                originallyRequired: el?.hasAttribute("required")
-            };
-        }).filter(c => c.el && c.field);
+            if (!el || value == null) return;
 
-        function sync() {
-            const show = parent.value && parent.value !== "";
-            children.forEach(c => {
-                c.field.style.display = show ? "flex" : "none";
-                if (c.originallyRequired) {
-                    c.el.required = !!show;
+            if (el.tagName === "INPUT" || el.tagName === "TEXTAREA") {
+                el.value = value;
+                return;
+            }
+            // if value exists in dropdown
+            const optionExists = Array.from(el.options).some(o => o.value === value);
+
+            if (optionExists) {
+                el.value = value;
+            } else {
+                el.value = "custom";
+                const custom = document.getElementById(id + "_custom");
+                if (custom) {
+                    custom.style.display = "block";
+                    custom.value = value;
                 }
-                if (!show && c.el.value !== "") {
-                    c.el.value = "";
-                    c.el.dispatchEvent(new Event("change"));
-                }
-            });
+            }
+            el.dispatchEvent(new Event("change"));
         }
 
-        parent.addEventListener("change", sync);
-        sync();
-    });
-}
+        /**
+         * Removes the profile warning shortly after profile form submission.
+         * The delay gives form/HTMX behavior time to complete first.
+         */
+        document.getElementById("profile-form")?.addEventListener("submit", (e) => {
+            setTimeout(() => {
+                document.getElementById("profile-warning")?.remove();
+            }, 300);
+        });
 
+        /**
+         * Prevents duplicate academic selections across major/minor dropdowns.
+         */
+        function preventDuplicateAcademicSelections() {
+            const ids = ["major", "second_major", "minor", "second_minor"];
+            const selects = ids
+                .map(id => document.getElementById(id))
+                .filter(Boolean);
 
-async function loadDepartments() {
-    try {
-        const response = await fetch('/api/departments');
-        const data = await response.json();
-        
-        const majors = data.filter(d => d.degree_types && d.degree_types.some(t => t !== "Minor")).map(d => d.department).sort();
-        const minors = data.filter(d => d.degree_types && d.degree_types.includes("Minor")).map(d => d.department).sort();
-
-        const degreeMap = {
-            "B.A.": "Bachelor of Arts (B.A.)",
-            "B.S.": "Bachelor of Science (B.S.)",
-            "B.M.": "Bachelor of Music"
-        };
-
-        function populate(selectId, optionsList, defaultText, independentLabel) {
-            const select = document.getElementById(selectId);
-            if (!select) return;
-            select.innerHTML = `<option value="">${defaultText}</option>`;
-            optionsList.forEach(opt => {
-                const el = document.createElement("option");
-                el.value = opt;
-                el.textContent = opt;
-                select.appendChild(el);
-            });
-            const customEl = document.createElement("option");
-            customEl.value = independentLabel;
-            customEl.textContent = independentLabel;
-            select.appendChild(customEl);
-        }
-
-        function syncDegreeTypes(majorId, degreeTypeId) {
-            const majorEl = document.getElementById(majorId);
-            const degreeEl = document.getElementById(degreeTypeId);
-            if (!majorEl || !degreeEl) return;
-
-            const selectedValue = majorEl.value;
-            const originalDegreeValue = degreeEl.value;
-            
-            degreeEl.innerHTML = '<option value="">Select a degree type</option>';
-
-            if (!selectedValue) return;
-
-            const selectedDept = data.find(d => d.department === selectedValue);
-            
-            if (selectedDept && selectedDept.degree_types) {
-                selectedDept.degree_types.forEach(type => {
-                    if (degreeMap[type]) {
-                        const opt = document.createElement("option");
-                        opt.value = degreeMap[type];
-                        opt.textContent = degreeMap[type];
-                        degreeEl.appendChild(opt);
+            /**
+             * Disables options that are already selected in another academic dropdown.
+             * The current select's own selected value remains enabled so it does not
+             * accidentally invalidate itself.
+             */
+            function syncOptions() {
+                // currently selected non-empty values
+                const selectedValues = new Map();
+                selects.forEach(select => {
+                    if (select.value) {
+                        selectedValues.set(select.id, select.value);
                     }
                 });
-            } else if (selectedValue.includes("Independent")) {
-                // For independent majors, allow all bachelor types
-                Object.values(degreeMap).forEach(val => {
-                    const opt = document.createElement("option");
-                    opt.value = val;
-                    opt.textContent = val;
-                    degreeEl.appendChild(opt);
+
+                selects.forEach(select => {
+                    Array.from(select.options).forEach(option => {
+                        const value = option.value;
+
+                        // never disable blank option
+                        if (!value) {
+                            option.disabled = false;
+                            return;
+                        }
+
+                        // keep this select's own current value enabled
+                        const chosenSomewhereElse = Array.from(selectedValues.entries()).some(
+                            ([id, selected]) => id !== select.id && selected === value
+                        );
+
+                        option.disabled = chosenSomewhereElse;
+                    });
                 });
             }
 
-            // Attempt to restore value if it still exists in new options
-            if (Array.from(degreeEl.options).some(o => o.value === originalDegreeValue)) {
-                degreeEl.value = originalDegreeValue;
+            selects.forEach(select => {
+                select.addEventListener("change", syncOptions);
+            });
+
+            syncOptions();
+        }
+
+        /**
+         * Initializes parent-child field dependency behavior.
+         * 
+         * Behavior:
+         *  - Shows child fields only when parent has a selected value.
+         *  - Preserves original `required` behavior when visible.
+         *  - Clears child values when hidden.
+         *
+         * @param {Object<string, string[]>} config - Object mapping parent field IDs
+         *   to child field IDs.
+         */
+        function initDependencies(config) {
+            Object.entries(config).forEach(([parentId, childIds]) => {
+                const parent = document.getElementById(parentId);
+                if (!parent) return;
+
+                const children = childIds.map(id => {
+                    const el = document.getElementById(id);
+                    return {
+                        el,
+                        field: el?.closest(".profile-field"),
+                        originallyRequired: el?.hasAttribute("required")
+                    };
+                }).filter(c => c.el && c.field);
+
+                function sync() {
+                    const show = parent.value && parent.value !== "";
+                    children.forEach(c => {
+                        c.field.style.display = show ? "flex" : "none";
+                        if (c.originallyRequired) {
+                            c.el.required = !!show;
+                        }
+                        if (!show && c.el.value !== "") {
+                            c.el.value = "";
+                            c.el.dispatchEvent(new Event("change"));
+                        }
+                    });
+                }
+
+                parent.addEventListener("change", sync);
+                sync();
+            });
+        }
+
+        /**
+         * Loads department metadata and populates academic dropdowns.
+         */
+        async function loadDepartments() {
+            try {
+                const response = await fetch('/api/departments');
+                const data = await response.json();
+
+                const majors = data.filter(d => d.degree_types && d.degree_types.some(t => t !== "Minor")).map(d => d.department).sort();
+                const minors = data.filter(d => d.degree_types && d.degree_types.includes("Minor")).map(d => d.department).sort();
+
+                const degreeMap = {
+                    "B.A.": "Bachelor of Arts (B.A.)",
+                    "B.S.": "Bachelor of Science (B.S.)",
+                    "B.M.": "Bachelor of Music"
+                };
+
+                /**
+                 * Populates a select element with department options.
+                 *
+                 * @param {string} selectId - ID of the select element.
+                 * @param {string[]} optionsList - Option values to add.
+                 * @param {string} defaultText - Text for the first/default option.
+                 * @param {string} independentLabel - Label for independent major/minor option.
+                 */
+                function populate(selectId, optionsList, defaultText, independentLabel) {
+                    const select = document.getElementById(selectId);
+                    if (!select) return;
+                    select.innerHTML = `<option value="">${defaultText}</option>`;
+                    optionsList.forEach(opt => {
+                        const el = document.createElement("option");
+                        el.value = opt;
+                        el.textContent = opt;
+                        select.appendChild(el);
+                    });
+                    const customEl = document.createElement("option");
+                    customEl.value = independentLabel;
+                    customEl.textContent = independentLabel;
+                    select.appendChild(customEl);
+                }
+
+                /**
+                 * Updates degree type options based on the selected major.
+                 *
+                 * @param {string} majorId - ID of the major select.
+                 * @param {string} degreeTypeId - ID of the degree type select.
+                 */
+                function syncDegreeTypes(majorId, degreeTypeId) {
+                    const majorEl = document.getElementById(majorId);
+                    const degreeEl = document.getElementById(degreeTypeId);
+                    if (!majorEl || !degreeEl) return;
+
+                    const selectedValue = majorEl.value;
+                    const originalDegreeValue = degreeEl.value;
+
+                    degreeEl.innerHTML = '<option value="">Select a degree type</option>';
+
+                    if (!selectedValue) return;
+
+                    const selectedDept = data.find(d => d.department === selectedValue);
+
+                    if (selectedDept && selectedDept.degree_types) {
+                        selectedDept.degree_types.forEach(type => {
+                            if (degreeMap[type]) {
+                                const opt = document.createElement("option");
+                                opt.value = degreeMap[type];
+                                opt.textContent = degreeMap[type];
+                                degreeEl.appendChild(opt);
+                            }
+                        });
+                    } else if (selectedValue.includes("Independent")) {
+                        // For independent majors, allow all bachelor types
+                        Object.values(degreeMap).forEach(val => {
+                            const opt = document.createElement("option");
+                            opt.value = val;
+                            opt.textContent = val;
+                            degreeEl.appendChild(opt);
+                        });
+                    }
+
+                    // Attempt to restore value if it still exists in new options
+                    if (Array.from(degreeEl.options).some(o => o.value === originalDegreeValue)) {
+                        degreeEl.value = originalDegreeValue;
+                    }
+                }
+
+                // Populate academic program dropdowns.
+                populate("major", majors, "Select a major", "Independent Major");
+                populate("second_major", majors, "No second major", "Independent Major");
+                populate("minor", minors, "No minor", "Independent Minor");
+                populate("second_minor", minors, "No second minor", "Independent Minor");
+
+                const majorEl = document.getElementById("major");
+                const secondMajorEl = document.getElementById("second_major");
+
+                if (majorEl) {
+                    majorEl.addEventListener("change", () => syncDegreeTypes("major", "major_degree_type"));
+                }
+                if (secondMajorEl) {
+                    secondMajorEl.addEventListener("change", () => syncDegreeTypes("second_major", "second_major_degree_type"));
+                }
+            } catch (e) {
+                console.error("Failed to load departments or options list", e);
             }
         }
 
-        populate("major", majors, "Select a major", "Independent Major");
-        populate("second_major", majors, "No second major", "Independent Major");
-        populate("minor", minors, "No minor", "Independent Minor");
-        populate("second_minor", minors, "No second minor", "Independent Minor");
-
-        const majorEl = document.getElementById("major");
-        const secondMajorEl = document.getElementById("second_major");
-
-        if (majorEl) {
-            majorEl.addEventListener("change", () => syncDegreeTypes("major", "major_degree_type"));
+        /**
+         * Returns catalog courses that are not currently selected.
+         *
+         * @returns {Array} Courses from `allCourses` not present in `selectedCourses`.
+         */
+        function getCoursesNotTaken() {
+            return allCourses.filter(c => {
+                const val = `${c.code} ${c.title}`;
+                return !selectedCourses.has(val);
+            });
         }
-        if (secondMajorEl) {
-            secondMajorEl.addEventListener("change", () => syncDegreeTypes("second_major", "second_major_degree_type"));
+
+        /**
+         * Normalizes a course code for reliable comparison.
+         *
+         * @param {string} code - Raw course code.
+         * @returns {string} Uppercase course code with whitespace and dashes removed.
+         */
+        function normalizeCode(code) {
+            return (code || "").replace(/\s+/g, "").replace(/-/g, "").toUpperCase();
         }
-    } catch (e) {
-        console.error("Failed to load departments or options list", e);
-    }
-}
 
-    function getCoursesNotTaken() {
-        return allCourses.filter(c => {
-            const val = `${c.code} ${c.title}`;
-            return !selectedCourses.has(val);
-        });
-    }
+        /**
+         * Converts a display degree type into the compact key used by requirements data.
+         *
+         * @param {string} degreeType - Display degree type value.
+         * @returns {string} Normalized degree key such as "BA", "BS", or "BM".
+         */
+        function normalizeDegreeType(degreeType) {
+            if (!degreeType) return "";
 
-    function normalizeCode(code) {
-    return (code || "").replace(/\s+/g, "").replace(/-/g, "").toUpperCase();
-    }
+            if (degreeType.includes("B.A.")) return "BA";
+            if (degreeType.includes("B.S.")) return "BS";
+            if (degreeType.includes("B.M.")) return "BM";
 
-    function normalizeDegreeType(degreeType) {
-        if (!degreeType) return "";
-
-        if (degreeType.includes("B.A.")) return "BA";
-        if (degreeType.includes("B.S.")) return "BS";
-        if (degreeType.includes("B.M.")) return "BM";
-
-        return degreeType;
-    }
-
-    function normalizeMajorKey(major) {
-    return (major || "")
-        .toLowerCase()
-        .replace(/\s+/g, "_")
-        .replace(/[()]/g, "");
-    }
-    
-    function sumCredits(courses) {
-    return (courses || []).reduce((sum, c) => {
-        return sum + (parseFloat(c.credits) || 0);
-    }, 0);
-}
-
-function getMajorCredits(courses, majorPrefix) {
-    if (!majorPrefix) return 0;
-
-    return (courses || []).reduce((sum, c) => {
-        if ((c.code || "").startsWith(majorPrefix)) {
-            return sum + (parseFloat(c.credits) || 0);
+            return degreeType;
         }
-        return sum;
-    }, 0);
-}
 
-function pieChart(percent, label) {
-    const safePercent = Math.max(0, Math.min(percent, 100));
+        /**
+         * Converts a major/minor name into the key format used by `DEGREE_REQUIREMENTS`.
+         *
+         * @param {string} major - Major or minor display name.
+         * @returns {string} Lowercase underscore-separated requirement key.
+         */
+        function normalizeMajorKey(major) {
+            return (major || "")
+                .toLowerCase()
+                .replace(/\s+/g, "_")
+                .replace(/[()]/g, "");
+        }
 
-    return `
+        /**
+         * Sums credits from an array of course objects.
+         *
+         * @param {Array<{credits: string|number}>} courses - Courses or transfer credits.
+         * @returns {number} Total parsed credits.
+         */
+        function sumCredits(courses) {
+            return (courses || []).reduce((sum, c) => {
+                return sum + (parseFloat(c.credits) || 0);
+            }, 0);
+        }
+
+        /**
+         * Calculates completed credits for courses matching a major prefix.
+         *
+         * @param {Array<{code: string, credits: string|number}>} courses - Course objects.
+         * @param {string} majorPrefix - Prefix used to match course codes.
+         * @returns {number} Credits from courses whose code starts with `majorPrefix`.
+         */
+        function getMajorCredits(courses, majorPrefix) {
+            if (!majorPrefix) return 0;
+
+            return (courses || []).reduce((sum, c) => {
+                if ((c.code || "").startsWith(majorPrefix)) {
+                    return sum + (parseFloat(c.credits) || 0);
+                }
+                return sum;
+            }, 0);
+        }
+
+        /**
+         * Builds a circular progress chart as an HTML string.
+         *
+         * @param {number} percent - Progress percentage.
+         * @param {string} label - Text displayed in the chart center.
+         * @returns {string} HTML markup for the progress chart.
+         */
+        function pieChart(percent, label) {
+            const safePercent = Math.max(0, Math.min(percent, 100));
+
+            return `
         <div style="
             width: 160px;
             height: 160px;
@@ -2338,137 +2611,164 @@ function pieChart(percent, label) {
             </div>
         </div>
     `;
-}
+        }
 
-function getDashboardFlags(profile, totalCredits) {
-    const flags = [];
-    const gradYear = parseInt(profile?.grad_year);
+        /**
+         * Generates dashboard warning messages based on profile completeness
+         * and credit progress.
+         *
+         * @param {Object} profile - Current profile data.
+         * @param {number} totalCredits - Completed credit total.
+         * @returns {string[]} Warning messages to show in the dashboard.
+         */
+        function getDashboardFlags(profile, totalCredits) {
+            const flags = [];
+            const gradYear = parseInt(profile?.grad_year);
 
-    if (gradYear && totalCredits < 40 && gradYear <= new Date().getFullYear() + 1) {
-        flags.push("⚠️ Low credit count for upcoming graduation year.");
-    }
+            if (gradYear && totalCredits < 40 && gradYear <= new Date().getFullYear() + 1) {
+                flags.push("⚠️ Low credit count for upcoming graduation year.");
+            }
 
-    if (!profile?.major) {
-        flags.push("⚠️ No major selected.");
-    }
+            if (!profile?.major) {
+                flags.push("⚠️ No major selected.");
+            }
 
-    if ((profile?.courses || []).length === 0) {
-        flags.push("⚠️ No completed courses recorded yet.");
-    }
+            if ((profile?.courses || []).length === 0) {
+                flags.push("⚠️ No completed courses recorded yet.");
+            }
 
-    return flags;
-}
+            return flags;
+        }
 
-function renderDashboard() {
-    const container = document.getElementById("dashboard-content");
-    if (!container || !currentProfile) return;
+        /**
+         * Renders the academic dashboard using the current profile,
+         * completed courses, transfer credits, and degree requirement data.
+         */
+        function renderDashboard() {
+            const container = document.getElementById("dashboard-content");
+            if (!container || !currentProfile) return;
 
-    const courses = currentProfile.courses || [];
-    const transferCredits = currentProfile.transfer_credits || [];
+            const courses = currentProfile.courses || [];
+            const transferCredits = currentProfile.transfer_credits || [];
 
-    const completedCredits = sumCredits(courses) + sumCredits(transferCredits);
-    const remainingCredits = Math.max(TOTAL_REQUIRED_CREDITS - completedCredits, 0);
-    const totalPercent = Math.round((completedCredits / TOTAL_REQUIRED_CREDITS) * 100);
+            const completedCredits = sumCredits(courses) + sumCredits(transferCredits);
+            const remainingCredits = Math.max(TOTAL_REQUIRED_CREDITS - completedCredits, 0);
+            const totalPercent = Math.round((completedCredits / TOTAL_REQUIRED_CREDITS) * 100);
 
-    const completedCodes = new Set(
-    (currentProfile.courses || []).map(c => normalizeCode(c.code))
-);
+            const completedCodes = new Set(
+                (currentProfile.courses || []).map(c => normalizeCode(c.code))
+            );
 
-function getRequirementData(type, name, degreeType = null) {
-    if (!name) return null;
+            /**
+             * Looks up degree requirement data for a selected major or minor.
+             *
+             * @param {"major"|"minor"} type - Requirement type to retrieve.
+             * @param {string} name - Selected major/minor name.
+             * @param {string|null} degreeType - Degree type for majors.
+             * @returns {Object|null} Matching requirement data, or null if unavailable.
+             */
+            function getRequirementData(type, name, degreeType = null) {
+                if (!name) return null;
 
-    const key = normalizeMajorKey(name);
-    const block = DEGREE_REQUIREMENTS[key];
+                const key = normalizeMajorKey(name);
+                const block = DEGREE_REQUIREMENTS[key];
 
-    if (!block) return null;
+                if (!block) return null;
 
-    if (type === "major") {
-        const degreeKey = normalizeDegreeType(degreeType);
-        return block.majors?.[name]?.[degreeKey] || null;
-    }
+                if (type === "major") {
+                    const degreeKey = normalizeDegreeType(degreeType);
+                    return block.majors?.[name]?.[degreeKey] || null;
+                }
 
-    if (type === "minor") {
-    if (!block.minors) return null;
+                if (type === "minor") {
+                    if (!block.minors) return null;
 
-    return block.minors[name]
-            || block.minors[name.replace(" Minor", "").trim()]
-            || Object.values(block.minors)[0]
-            || null;
-    }
+                    return block.minors[name]
+                        || block.minors[name.replace(" Minor", "").trim()]
+                        || Object.values(block.minors)[0]
+                        || null;
+                }
 
-    return null;
-}
+                return null;
+            }
 
-function progressCard(title, data) {
-    if (!data) {
-        return `
+            /**
+             * Builds one progress card for a major or minor requirement block.
+             *
+             * @param {string} title - Card heading.
+             * @param {Object|null} data - Requirement block for the program.
+             * @returns {string} HTML markup for the progress card.
+             */
+            function progressCard(title, data) {
+                if (!data) {
+                    return `
             <div class="profile-card">
                 <h2>${title}</h2>
                 <p style="color:var(--error);">No requirement data found.</p>
             </div>
         `;
-    }
+                }
 
-    const requiredCourses = data.requiredCourses || [];
-    const electiveGroups = data.electiveGroups || [];
+                const requiredCourses = data.requiredCourses || [];
+                const electiveGroups = data.electiveGroups || [];
 
-    const electiveProgress = electiveGroups.map(group => {
-    const options = group.options || [];
+                const electiveProgress = electiveGroups.map(group => {
+                    const options = group.options || [];
 
-    const taken = options.filter(opt =>
-        completedCodes.has(normalizeCode(opt.code))
-    );
+                    const taken = options.filter(opt =>
+                        completedCodes.has(normalizeCode(opt.code))
+                    );
 
-    const notTaken = options.filter(opt =>
-        !completedCodes.has(normalizeCode(opt.code))
-    );
+                    const notTaken = options.filter(opt =>
+                        !completedCodes.has(normalizeCode(opt.code))
+                    );
 
-    const completedCredits = taken.reduce(
-        (sum, c) => sum + (parseFloat(c.credits) || 0),
-        0
-    );
+                    const completedCredits = taken.reduce(
+                        (sum, c) => sum + (parseFloat(c.credits) || 0),
+                        0
+                    );
 
-    const creditsRequired = parseFloat(group.creditsRequired) || 0;
-    const coursesRequired = parseFloat(group.coursesRequired) || 0;
+                    const creditsRequired = parseFloat(group.creditsRequired) || 0;
+                    const coursesRequired = parseFloat(group.coursesRequired) || 0;
 
-    return {
-        ...group,
-        taken,
-        notTaken,
-        completedCount: taken.length,
-        remainingCount: Math.max(coursesRequired - taken.length, 0),
-        completedCredits: Math.min(completedCredits, creditsRequired),
-        creditsRequired
-    };
-});
+                    return {
+                        ...group,
+                        taken,
+                        notTaken,
+                        completedCount: taken.length,
+                        remainingCount: Math.max(coursesRequired - taken.length, 0),
+                        completedCredits: Math.min(completedCredits, creditsRequired),
+                        creditsRequired
+                    };
+                });
 
-    const completedRequiredCourses = requiredCourses.filter(req =>
-        completedCodes.has(normalizeCode(req.code))
-    );
+                const completedRequiredCourses = requiredCourses.filter(req =>
+                    completedCodes.has(normalizeCode(req.code))
+                );
 
-    const remainingCourses = requiredCourses.filter(req =>
-        !completedCodes.has(normalizeCode(req.code))
-    );
+                const remainingCourses = requiredCourses.filter(req =>
+                    !completedCodes.has(normalizeCode(req.code))
+                );
 
-    const requiredCourseCreditsCompleted = completedRequiredCourses.reduce(
-    (sum, c) => sum + (parseFloat(c.credits) || 0),
-    0
-);
+                const requiredCourseCreditsCompleted = completedRequiredCourses.reduce(
+                    (sum, c) => sum + (parseFloat(c.credits) || 0),
+                    0
+                );
 
-const electiveCreditsCompleted = electiveProgress.reduce(
-    (sum, group) => sum + group.completedCredits,
-    0
-);
+                const electiveCreditsCompleted = electiveProgress.reduce(
+                    (sum, group) => sum + group.completedCredits,
+                    0
+                );
 
-const completedCredits = requiredCourseCreditsCompleted + electiveCreditsCompleted;
+                const completedCredits = requiredCourseCreditsCompleted + electiveCreditsCompleted;
 
-    const requiredCredits = parseFloat(data.requiredCredits) || 0;
+                const requiredCredits = parseFloat(data.requiredCredits) || 0;
 
-    const percent = requiredCredits
-        ? Math.round((completedCredits / requiredCredits) * 100)
-        : 0;
+                const percent = requiredCredits
+                    ? Math.round((completedCredits / requiredCredits) * 100)
+                    : 0;
 
-    return `
+                return `
         <div class="profile-card">
             <h2>${title}</h2>
 
@@ -2477,15 +2777,13 @@ const completedCredits = requiredCourseCreditsCompleted + electiveCreditsComplet
             <p><strong>${completedCredits}</strong> / ${requiredCredits} credits completed</p>
 
             <h3 style="margin-top:16px;"><u>Remaining Required Courses</h3></u> <br>
-            ${
-                remainingCourses.length
-                    ? remainingCourses.map(c => `<p>${c.code} ${c.name}</p>`).join("")
-                    : `<p>No remaining required courses detected.</p>`
-            }
+            ${remainingCourses.length
+                        ? remainingCourses.map(c => `<p>${c.code} ${c.name}</p>`).join("")
+                        : `<p>No remaining required courses detected.</p>`
+                    }
 
-            ${
-    electiveProgress.length
-        ? `
+            ${electiveProgress.length
+                        ? `
             <h3 style="margin-top:16px;"><u>Electives</u></h3><br>
             ${electiveProgress.map(group => `
                 <div style="margin-bottom:12px;">
@@ -2494,59 +2792,57 @@ const completedCredits = requiredCourseCreditsCompleted + electiveCreditsComplet
                     <p>Credits: ${group.completedCredits} / ${group.creditsRequired || "?"}</p>
                     <p>Remaining: ${group.remainingCount} course(s)</p>
 
-                    ${
-                        group.notTaken.length
-                            ? `
+                    ${group.notTaken.length
+                                ? `
                                 <p style="margin-top:6px;"><strong>Options not yet taken:</strong></p>
                                 ${group.notTaken.map(c => `<p>${c.code} ${c.name}</p>`).join("")}
                             `
-                            : `<p>No remaining listed elective options.</p>`
-                    }
+                                : `<p>No remaining listed elective options.</p>`
+                            }
                 </div>
             `).join("")}
         `
-        : ""
-}
+                        : ""
+                    }
 
-            ${
-                data.notes?.length
-                    ? `
+            ${data.notes?.length
+                        ? `
                         <br><h3 style="margin-top:16px;"><u>Planning Tips</u></h3> <br>
                             <div class="notes">
                                 ${data.notes.map(n => `<p>• ${n}</p>`).join("")}
                             </div>
                     `
-                    : ""
-            }
+                        : ""
+                    }
         </div>
     `;
-}
+            }
 
-const majorData = getRequirementData(
-    "major",
-    currentProfile.major,
-    currentProfile.major_degree_type
-);
+            const majorData = getRequirementData(
+                "major",
+                currentProfile.major,
+                currentProfile.major_degree_type
+            );
 
-const secondMajorData = getRequirementData(
-    "major",
-    currentProfile.second_major,
-    currentProfile.second_major_degree_type
-);
+            const secondMajorData = getRequirementData(
+                "major",
+                currentProfile.second_major,
+                currentProfile.second_major_degree_type
+            );
 
-const minorData = getRequirementData(
-    "minor",
-    currentProfile.minor
-);
+            const minorData = getRequirementData(
+                "minor",
+                currentProfile.minor
+            );
 
-const secondMinorData = getRequirementData(
-    "minor",
-    currentProfile.second_minor
-);
+            const secondMinorData = getRequirementData(
+                "minor",
+                currentProfile.second_minor
+            );
 
-    const flags = getDashboardFlags(currentProfile, completedCredits);
+            const flags = getDashboardFlags(currentProfile, completedCredits);
 
-    container.innerHTML = `
+            container.innerHTML = `
     <!-- TOP SMALL CARDS -->
     <div class="dashboard-top-row">
 
@@ -2581,11 +2877,10 @@ const secondMinorData = getRequirementData(
     ` : ""}
 
     <div style="margin-top:20px;">
-    ${
-        flags.length
-            ? flags.map(f => `<p>${f}</p>`).join("")
-            : `<p style="color:var(--muted);">No obvious issues detected.</p>`
-    }
+    ${flags.length
+                    ? flags.map(f => `<p>${f}</p>`).join("")
+                    : `<p style="color:var(--muted);">No obvious issues detected.</p>`
+                }
 </div>
 </div>
 
@@ -2602,9 +2897,9 @@ const secondMinorData = getRequirementData(
     ${currentProfile.second_minor ? progressCard(`${currentProfile.second_minor} Minor Progress`, secondMinorData) : ""}
 
 `;
-}
+        }
 
-</script>
+    </script>
 </body>
 
 </html>
