@@ -94,7 +94,7 @@ def retrieve_response(query: str = None) -> str:
     print(
         "\n"
         "  ╔══════════════════════════════════════════════════╗\n"
-        "  ║  Southwestern University Advising Assistant      ║\n"
+        "  ║  Southwestern University Knowledge Assistant     ║\n"
         "  ║                                                  ║\n"
         "  ║  Ask any question about courses, degrees,        ║\n"
         "  ║  faculty, clubs, or resources at Southwestern.   ║\n"

@@ -79,11 +79,15 @@ document.addEventListener('DOMContentLoaded', () => {
             if (!response.ok) {
                 let errorMsg = 'Server error during upload.';
                 try {
-                    const result = await response.json();
-                    if (result.detail) errorMsg = result.detail;
-                } catch (e) {
                     const text = await response.text();
-                    if (text) errorMsg = text;
+                    try {
+                        const result = JSON.parse(text);
+                        if (result.detail) errorMsg = result.detail;
+                    } catch (e) {
+                        if (text) errorMsg = text;
+                    }
+                } catch (e) {
+                    // Ignore if even text() fails
                 }
                 throw new Error(errorMsg);
             }
