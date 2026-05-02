@@ -11,6 +11,8 @@ from sqlalchemy.exc import IntegrityError
 import json
 from datetime import datetime, timezone
 from typing import Optional, List, Any
+import re
+from sqlalchemy.dialects.mysql import insert as mysql_insert
 
 from dotenv import load_dotenv
 import os
@@ -80,11 +82,23 @@ class Course(Base):
     grade: Mapped[Optional[str]] = mapped_column(String(5))
     semester: Mapped[Optional[str]] = mapped_column(String(50))
 
-    # Don't allow same course in same semester
-    __table_args__ = (UniqueConstraint("google_id","code","semester",),)
+    # Don't allow same course code multiple times for a user
+    __table_args__ = (UniqueConstraint("google_id","code",),)
 
     # Relationship back to user
     user = relationship("User", back_populates="courses")
+
+class UnmatchedCourse(Base):
+    __tablename__ = "unmatched_courses"
+
+    id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)
+    google_id: Mapped[str] = mapped_column(ForeignKey("users.google_id"), nullable=False, index=True)
+    raw_text: Mapped[str] = mapped_column(String(255), nullable=False)
+    status: Mapped[str] = mapped_column(String(50), default="pending") # pending, approved, rejected
+    timestamp: Mapped[datetime] = mapped_column(DateTime, server_default=func.now())
+
+    # Relationship back to user
+    user = relationship("User")
 
 class TransferCredit(Base):
     __tablename__ = "transfer_credits"
@@ -290,6 +304,12 @@ TRANSFER CREDITS:
 === END ACADEMIC RECORD ===
 """
 
+def normalize_code(code: str) -> str:
+    """Normalizes a course code by removing spaces and dashes, and upper-casing."""
+    if not code:
+        return ""
+    return re.sub(r'[\s\-]', '', code).upper()
+
 def get_user_courses(google_id: str):
     """
     Returns a specific user's courses taken (pulled from transcript)
@@ -301,16 +321,19 @@ def get_user_courses(google_id: str):
         List[Dict[str,Any]]: Course information for each course the user has taken.
     """
     with SessionLocal() as session:
+        # Group by code is natively handled by the DB UNIQUE constraint, 
+        # but we explicitly deduplicate just in case any legacy data sneaks through
         courses = (
             session.query(Course)
             .filter(Course.google_id == google_id)
+            .group_by(Course.code)
             .all()
         )
 
         return [
             {
                 "name": course.name,
-                "code": course.code,
+                "code": normalize_code(course.code),
                 "credits": course.credits,
                 "grade": course.grade,
                 "semester": course.semester
@@ -332,26 +355,49 @@ def add_courses(google_id:str, courses:List[dict[str,Any]], is_from_transcript=F
 
     with SessionLocal() as session:
         if not is_from_transcript:
-            stmt = delete(Course).where(Course.semester == "NA")
-            session.execute(stmt)
+            # Safely handle user deletions: only delete NA courses that are MISSING from the submitted list
+            submitted_codes = {normalize_code(c["code"]) for c in courses}
+            db_courses = session.query(Course).filter(Course.google_id == google_id, Course.semester == "NA").all()
+            for db_c in db_courses:
+                if normalize_code(db_c.code) not in submitted_codes:
+                    session.delete(db_c)
+            session.flush()
             
         for c in courses:
-            # Check if a record for the same course and semester already exists
-            stmt = select(exists().where(Course.google_id == google_id, Course.code == c["code"], Course.semester == c["semester"]))
-            if not session.scalar(stmt):
-                course = Course(
-                    google_id=google_id,
-                    name=c["name"],
-                    code=c["code"],
-                    # Explicitly cast credits to string for DB compatibility.
-                    credits=str(c["credits"]),
-                    grade=c["grade"],
-                    semester=c["semester"]
+            norm_code = normalize_code(c["code"])
+            stmt = mysql_insert(Course).values(
+                google_id=google_id,
+                name=c["name"],
+                code=norm_code,
+                credits=str(c["credits"]),
+                grade=c.get("grade", "NA"),
+                semester=c.get("semester", "NA")
+            )
+            
+            if is_from_transcript:
+                # Transcript is truth for semester/grade.
+                on_duplicate = stmt.on_duplicate_key_update(
+                    semester=stmt.inserted.semester,
+                    grade=stmt.inserted.grade
                 )
-                try:
-                    session.add(course)
-                except IntegrityError:
-                    session.rollback()
+            else:
+                # Manual is truth for name/credits. Don't overwrite existing semester with NA.
+                on_duplicate = stmt.on_duplicate_key_update(
+                    name=stmt.inserted.name,
+                    credits=stmt.inserted.credits
+                )
+            
+            session.execute(on_duplicate)
+            
+        session.commit()
+    return True
+
+def add_unmatched_courses(google_id: str, raw_texts: List[str]):
+    """Stores unrecognized courses for review."""
+    with SessionLocal() as session:
+        for txt in raw_texts:
+            uc = UnmatchedCourse(google_id=google_id, raw_text=txt)
+            session.add(uc)
         session.commit()
     return True
 
