@@ -28,6 +28,18 @@
     ]
   },
   {
+    "department": "Art History and History (Paired Major)",
+    "degree_types": [
+      "B.A."
+    ]
+  },
+  {
+    "department": "Art History and Studio Art (Paired Major)",
+    "degree_types": [
+      "B.A."
+    ]
+  },
+  {
     "department": "Biochemistry",
     "degree_types": [
       "B.S."
@@ -49,7 +61,7 @@
     ]
   },
   {
-    "department": "Business & Economics (Paired Major)",
+    "department": "Business and Economics (Paired Major)",
     "degree_types": [
       "B.A."
     ]
@@ -109,6 +121,25 @@
     ]
   },
   {
+    "department": "English",
+    "degree_types": [
+      "B.A.",
+      "Minor"
+    ]
+  },
+  {
+    "department": "English and Feminist Studies (Paired Major)",
+    "degree_types": [
+      "B.A."
+    ]
+  },
+  {
+    "department": "English and History (Paired Major)",
+    "degree_types": [
+      "B.A."
+    ]
+  },
+  {
     "department": "Environmental Studies",
     "degree_types": [
       "B.A.",
@@ -119,8 +150,13 @@
     "department": "Feminist Studies",
     "degree_types": [
       "B.A.",
-      "Minor",
-      "Paired Major"
+      "Minor"
+    ]
+  },
+  {
+    "department": "Feminist Studies and History (Paired Major)",
+    "degree_types": [
+      "B.A."
     ]
   },
   {
@@ -130,30 +166,28 @@
   {
     "department": "French",
     "degree_types": [
-      "Major",
-      "Minor",
-      "Paired Major"
+      "B.A",
+      "Minor"
     ]
   },
   {
     "department": "German",
     "degree_types": [
       "B.A.",
-      "Minor",
-      "Paired Major"
+      "Minor"
     ]
   },
   {
     "department": "Greek",
     "degree_types": [
-      "Major",
+      "B.A.",
       "Minor"
     ]
   },
   {
     "department": "History",
     "degree_types": [
-      "Major",
+      "B.A.",
       "Minor"
     ]
   },
@@ -166,8 +200,20 @@
   {
     "department": "International Studies",
     "degree_types": [
-      "Major",
+      "B.A.",
       "Minor"
+    ]
+  },
+  {
+    "department": "International Studies and French (Paired Major)",
+    "degree_types": [
+      "B.A."
+    ]
+  },
+  {
+    "department": "International Studies and German (Paired Major)",
+    "degree_types": [
+      "B.A."
     ]
   },
   {
@@ -181,14 +227,21 @@
   {
     "department": "Latin",
     "degree_types": [
-      "Major",
+      "B.A.",
       "Minor"
     ]
   },
   {
-    "department": "Latin & Border Studies",
+    "department": "Latin American and Border Studies",
     "degree_types": [
-      "Major",
+      "B.A.",
+      "Minor"
+    ]
+  },
+   {
+    "department": "Latin American and Border Studies and Spanish (Paired Major)",
+    "degree_types": [
+      "B.A.",
       "Minor"
     ]
   },
