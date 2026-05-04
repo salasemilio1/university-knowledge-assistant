@@ -82,7 +82,8 @@ def index(request: Request):
 @app.get("/sign-in", response_class=FileResponse)
 def sign_in(request: Request):
     """Serve the sign-in page."""
-    if(request.session.get("user_id")):
+    google_id = request.session.get("user_id")
+    if(google_id and get_user_by_id(google_id)):
         return RedirectResponse(url="/", status_code = 302)
     else:
         return FileResponse(FRONTEND_DIR / "sign_in_page.html")
@@ -150,8 +151,9 @@ async def profile(request:Request):
     """
 
     google_id = request.session.get("user_id")
-    if not google_id:
+    if not google_id or not get_user_by_id(google_id):
         raise HTTPException(status_code=401, detail="Not authenticated")
+   
     user = get_user_by_id(google_id)
     courses = get_user_courses(google_id)
     transfer = get_user_transfer_credits(google_id)
