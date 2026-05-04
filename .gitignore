@@ -206,8 +206,8 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
-# Files
-# *.pdf
-
 # Credentials
 credentials.env
+
+# DS_Store
+.DS_Store
