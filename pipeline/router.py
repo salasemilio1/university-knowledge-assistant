@@ -17,20 +17,31 @@ Resilience
   caller must NOT invoke the answerer — return a friendly canned message instead.
 """
 
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent.parent))
+import config as config
+
 import json
 import logging
-import pipeline.config as config
 from concurrent.futures import TimeoutError as FuturesTimeout
 from dataclasses import dataclass, field
 from pathlib import Path
 
-from pipeline.gemini_client import generate, extract_json, MODEL_ROUTER, ROUTER_TIMEOUT_S
+from pipeline.gemini_client import generate, extract_json
 from pipeline.prompts import router_prompt
 from Backend.user_db import get_formatted_user_info
+
+ROUTER_TIMEOUT_S = config.ROUTER_TIMEOUT_S
+MODEL_ROUTER = config.MODEL_ROUTER
+REGISTRY_FILENAME = config.REGISTRY_FILENAME
+DEFAULT_FALLBACK_DEPARTMENTS = config.DEFAULT_FALLBACK_DEPARTMENTS
 
 
 class RegistryError(Exception):
     """Raised when the department registry cannot be loaded or parsed."""
+
     pass
 
 
@@ -46,15 +57,18 @@ DEFAULT_FALLBACK_DEPARTMENTS = config.DEFAULT_FALLBACK_DEPARTMENTS
 
 # ── Result type ───────────────────────────────────────────────────────────────
 
+
 @dataclass
 class RouteResult:
     """The validated output of the router."""
+
     departments: list[str] = field(default_factory=list)
-    off_topic:   bool      = False
+    off_topic: bool = False
     # True → skip the answerer; return a canned reply
 
 
 # ── Registry loading ──────────────────────────────────────────────────────────
+
 
 def load_registry(base_path: str) -> dict:
     """Load the department registry from the knowledge base directory.
@@ -87,7 +101,14 @@ def load_registry(base_path: str) -> dict:
 
 # ── Core routing ──────────────────────────────────────────────────────────────
 
-def route(question: str, base_path: str, google_id: str, history: list[dict] | None = None, llm_client=None) -> RouteResult:
+
+def route(
+    question: str,
+    base_path: str,
+    google_id: str,
+    history: list[dict] | None = None,
+    llm_client=None,
+) -> RouteResult:
     """Route a student's question to the right department(s) and classify complexity.
 
     Makes a single LLM call with a hard 5-second timeout. On any failure the
@@ -120,7 +141,12 @@ def route(question: str, base_path: str, google_id: str, history: list[dict] | N
                 turns.append(f"{role}: {msg['content']}")
             history_text = "\n".join(turns)
 
-        prompt = router_prompt(question, registry_json, user_info, history=history_text if history_text else None)
+        prompt = router_prompt(
+            question,
+            registry_json,
+            user_info,
+            history=history_text if history_text else None,
+        )
 
         raw_response = generate(
             prompt,
@@ -133,7 +159,8 @@ def route(question: str, base_path: str, google_id: str, history: list[dict] | N
     except (RegistryError, FuturesTimeout, Exception) as exc:
         log.warning(
             "Router call or registry load failed (%s) — defaulting to %s",
-            exc, DEFAULT_FALLBACK_DEPARTMENTS,
+            exc,
+            DEFAULT_FALLBACK_DEPARTMENTS,
         )
         return RouteResult(
             departments=DEFAULT_FALLBACK_DEPARTMENTS,
@@ -148,15 +175,19 @@ def route(question: str, base_path: str, google_id: str, history: list[dict] | N
             raise ValueError(f"Expected a JSON object, got: {type(parsed)}")
 
         raw_departments = parsed.get("departments", [])
-        off_topic       = bool(parsed.get("off_topic", False))
+        off_topic = bool(parsed.get("off_topic", False))
 
         if not isinstance(raw_departments, list):
-            raise ValueError(f"'departments' must be a list, got: {type(raw_departments)}")
+            raise ValueError(
+                f"'departments' must be a list, got: {type(raw_departments)}"
+            )
 
     except (json.JSONDecodeError, ValueError) as exc:
         log.warning(
             "Router returned unparseable JSON (%s) — defaulting to %s. Raw: %s",
-            exc, DEFAULT_FALLBACK_DEPARTMENTS, raw_response[:200],
+            exc,
+            DEFAULT_FALLBACK_DEPARTMENTS,
+            raw_response[:200],
         )
         return RouteResult(
             departments=DEFAULT_FALLBACK_DEPARTMENTS,
@@ -172,7 +203,8 @@ def route(question: str, base_path: str, google_id: str, history: list[dict] | N
     if not valid_departments:
         log.warning(
             "Router returned no valid department slugs (got: %s) — defaulting to %s",
-            raw_departments, DEFAULT_FALLBACK_DEPARTMENTS,
+            raw_departments,
+            DEFAULT_FALLBACK_DEPARTMENTS,
         )
         valid_departments = DEFAULT_FALLBACK_DEPARTMENTS
 

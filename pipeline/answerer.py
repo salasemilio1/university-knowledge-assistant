@@ -15,21 +15,26 @@ The only difference is that stream_answer() yields chunks instead of
 returning a complete string.
 """
 
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent.parent))
+import config as config
+
 import logging
 from pathlib import Path
 
-from pipeline.gemini_client import generate, generate_stream, MODEL_ANSWERER
+from pipeline.gemini_client import generate, generate_stream
 from pipeline.prompts import answerer_prompt
 from pipeline.router import load_registry
 from Backend.user_db import get_formatted_user_info
-import pipeline.config as config
 
-log = logging.getLogger(__name__)
-
+MODEL_ANSWERER = config.MODEL_ANSWERER
 SKILLS_INDEX_FILENAME = config.SKILLS_INDEX_FILENAME
 
 
 # ── Document loading ──────────────────────────────────────────────────────────
+
 
 def _load_skills_index(department_slug: str, base_path: str) -> str | None:
     """Read the skills_index.md for a department.
@@ -42,7 +47,7 @@ def _load_skills_index(department_slug: str, base_path: str) -> str | None:
         The file contents as a string, or None if the file is not found.
     """
     registry = load_registry(base_path)
-    folder   = registry.get(department_slug, {}).get("folder")
+    folder = registry.get(department_slug, {}).get("folder")
 
     if not folder:
         log.warning("No folder mapping for department slug '%s'", department_slug)
@@ -77,6 +82,7 @@ def load_context(departments: list[str], base_path: str) -> str:
 
 # ── History formatting ────────────────────────────────────────────────────────
 
+
 def format_history(history: list[dict]) -> str | None:
     """Format conversation history as a plaintext block for the prompt."""
     if not history:
@@ -92,36 +98,49 @@ def format_history(history: list[dict]) -> str | None:
 
 # ── Core answering ────────────────────────────────────────────────────────────
 
+
 def answer(
-    question:    str,
+    question: str,
     departments: list[str],
-    base_path:   str,
-    history:     list[dict],
-    google_id:   str,
+    base_path: str,
+    history: list[dict],
+    google_id: str,
     current_semester: str,
-    llm_client=None
+    llm_client=None,
 ) -> str:
     """Generate an answer using ONLY the skills_index.md files."""
-    context       = load_context(departments, base_path)
+    context = load_context(departments, base_path)
     history_block = format_history(history)
-    user_info     = get_formatted_user_info(google_id)
-    prompt        = answerer_prompt(question, context, history_block, profile=user_info, current_semester=current_semester)
+    user_info = get_formatted_user_info(google_id)
+    prompt = answerer_prompt(
+        question,
+        context,
+        history_block,
+        profile=user_info,
+        current_semester=current_semester,
+    )
     response = generate(prompt, model=MODEL_ANSWERER, llm_client=llm_client)
     return response
 
 
 def stream_answer(
-    question:    str,
+    question: str,
     departments: list[str],
-    base_path:   str,
-    history:     list[dict],
-    google_id:   str,
+    base_path: str,
+    history: list[dict],
+    google_id: str,
     current_semester: str,
-    llm_client=None
+    llm_client=None,
 ):
     """Streaming variant of answer."""
-    context       = load_context(departments, base_path)
+    context = load_context(departments, base_path)
     history_block = format_history(history)
-    user_info     = get_formatted_user_info(google_id)
-    prompt        = answerer_prompt(question, context, history_block, profile=user_info, current_semester=current_semester)
+    user_info = get_formatted_user_info(google_id)
+    prompt = answerer_prompt(
+        question,
+        context,
+        history_block,
+        profile=user_info,
+        current_semester=current_semester,
+    )
     yield from generate_stream(prompt, model=MODEL_ANSWERER, llm_client=llm_client)

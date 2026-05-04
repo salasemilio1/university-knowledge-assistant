@@ -27,59 +27,44 @@ import json
 import logging
 import os
 import time
-import pipeline.config as config
+import sys
 from concurrent.futures import ThreadPoolExecutor, TimeoutError as FuturesTimeout
 from pathlib import Path
-
 from dotenv import load_dotenv
 from google import genai
 from google.genai import types
 from google.genai.types import HttpOptions
 from google.oauth2 import service_account
 
-log = logging.getLogger(__name__)
+sys.path.insert(0, str(Path(__file__).parent.parent))
+import config as config
 
 _PROJECT_ROOT = Path(__file__).resolve().parent.parent
 load_dotenv(_PROJECT_ROOT / ".env")
 
-# ── Model constants ───────────────────────────────────────────────────────────
-# Override via environment variables if needed.
-
-MODEL_ROUTER            = os.getenv("MODEL_ROUTER",            "gemini-3.1-flash-lite-preview")
-MODEL_ANSWERER          = os.getenv("MODEL_ANSWERER",          "gemini-3-flash-preview")
-MODEL_ANSWERER_FALLBACK = os.getenv("MODEL_ANSWERER_FALLBACK", "gemini-2.5-flash")
-
-DEFAULT_MODEL = MODEL_ANSWERER  # kept for backward compatibility with scripts
-
-# ── Timeout constants (seconds) ───────────────────────────────────────────────
-
-ROUTER_TIMEOUT_S   = config.ROUTER_TIMEOUT_S    # hard limit for the router; fail fast, no retries
-ANSWERER_TIMEOUT_S = config.ANSWERER_TIMEOUT_S   # primary answerer timeout before attempting fallback
-FALLBACK_TIMEOUT_S = config.FALLBACK_TIMEOUT_S    # fallback answerer timeout before returning canned response
-
-# ── Retry policy ──────────────────────────────────────────────────────────────
-# Retries are applied to the answerer primary only, not the router or fallback.
-
-MAX_RETRIES  = config.MAX_RETRIES
-RETRY_DELAY  = config.RETRY_DELAY  # seconds before first retry; doubles on each subsequent attempt
-
-# ── Token ceilings ────────────────────────────────────────────────────────────
-
-ROUTER_MAX_OUTPUT_TOKENS   = config.ROUTER_MAX_OUTPUT_TOKENS
+# --- Configs ---
+# Constants are now imported from the root config.py
+ROUTER_TIMEOUT_S = config.ROUTER_TIMEOUT_S
+ANSWERER_TIMEOUT_S = config.ANSWERER_TIMEOUT_S
+FALLBACK_TIMEOUT_S = config.FALLBACK_TIMEOUT_S
+MAX_RETRIES = config.MAX_RETRIES
+RETRY_DELAY = config.RETRY_DELAY
+ROUTER_MAX_OUTPUT_TOKENS = config.ROUTER_MAX_OUTPUT_TOKENS
 ANSWERER_MAX_OUTPUT_TOKENS = config.ANSWERER_MAX_OUTPUT_TOKENS
-
-# ── Canned last-resort response ───────────────────────────────────────────────
-# Returned when both the primary and fallback answerer calls fail or time out.
-# Must always be a user-friendly HTML string — never a developer sentinel.
-
 CANNED_FALLBACK_HTML = config.CANNED_FALLBACK_HTML
+
+MODEL_ROUTER = config.MODEL_ROUTER
+MODEL_ANSWERER = config.MODEL_ANSWERER
+MODEL_ANSWERER_FALLBACK = config.MODEL_ANSWERER_FALLBACK
+DEFAULT_MODEL = config.DEFAULT_MODEL
 
 
 # ── Client factory ────────────────────────────────────────────────────────────
 
+
 def create_vertex_client():
     project_id = os.environ["GOOGLE_CLOUD_PROJECT"]
-    location    = os.environ.get("GOOGLE_CLOUD_LOCATION", "global")
+    location = os.environ.get("GOOGLE_CLOUD_LOCATION", "global")
 
     credentials = None
     if "GOOGLE_SERVICE_ACCOUNT_JSON" in os.environ:
@@ -106,6 +91,7 @@ _executor = ThreadPoolExecutor(max_workers=8, thread_name_prefix="gemini")
 
 
 # ── Low-level call helpers ────────────────────────────────────────────────────
+
 
 def _build_config(
     model: str,
@@ -166,14 +152,15 @@ def _call_api(
 
 # ── Public API ────────────────────────────────────────────────────────────────
 
+
 def generate(
-    prompt:         str,
-    model:          str | None  = None,
-    llm_client                  = None,
-    timeout:        float | None = None,
-    thinking_level: str          = "LOW",
+    prompt: str,
+    model: str | None = None,
+    llm_client=None,
+    timeout: float | None = None,
+    thinking_level: str = "LOW",
     max_output_tokens: int | None = None,
-    is_router:      bool         = False,
+    is_router: bool = False,
 ) -> str:
     """Send a prompt and return the response text.
 
@@ -204,24 +191,30 @@ def generate(
 
     if is_router:
         # ── Router path: one shot, fast fail ─────────────────────────────────
-        effective_model   = model or MODEL_ROUTER
+        effective_model = model or MODEL_ROUTER
         effective_timeout = timeout or ROUTER_TIMEOUT_S
-        effective_tokens  = max_output_tokens or ROUTER_MAX_OUTPUT_TOKENS
-        config = _build_config(effective_model, thinking_level or "MINIMAL", effective_tokens)
+        effective_tokens = max_output_tokens or ROUTER_MAX_OUTPUT_TOKENS
+        config = _build_config(
+            effective_model, thinking_level or "MINIMAL", effective_tokens
+        )
 
         try:
             return _call_api(client, effective_model, prompt, config, effective_timeout)
         except FuturesTimeout:
-            log.warning("Router timed out after %ss (model=%s)", effective_timeout, effective_model)
+            log.warning(
+                "Router timed out after %ss (model=%s)",
+                effective_timeout,
+                effective_model,
+            )
             raise
         except Exception as exc:
             log.error("Router call failed (model=%s): %s", effective_model, exc)
             raise
 
     # ── Answerer path: retries + fallback ─────────────────────────────────────
-    primary_model     = model or MODEL_ANSWERER
+    primary_model = model or MODEL_ANSWERER
     effective_timeout = timeout or ANSWERER_TIMEOUT_S
-    effective_tokens  = max_output_tokens or ANSWERER_MAX_OUTPUT_TOKENS
+    effective_tokens = max_output_tokens or ANSWERER_MAX_OUTPUT_TOKENS
     config = _build_config(primary_model, thinking_level or "LOW", effective_tokens)
 
     retry_delay = RETRY_DELAY
@@ -231,7 +224,10 @@ def generate(
         except FuturesTimeout:
             log.warning(
                 "Answerer primary timed out after %ss on attempt %d/%d (model=%s) — trying fallback",
-                effective_timeout, attempt + 1, MAX_RETRIES, primary_model,
+                effective_timeout,
+                attempt + 1,
+                MAX_RETRIES,
+                primary_model,
             )
             break  # timeout → don't retry; go straight to fallback
         except Exception as exc:
@@ -239,7 +235,10 @@ def generate(
             if is_transient and attempt < MAX_RETRIES - 1:
                 log.warning(
                     "Vertex API error %s (attempt %d/%d). Retrying in %ds…",
-                    exc, attempt + 1, MAX_RETRIES, retry_delay,
+                    exc,
+                    attempt + 1,
+                    MAX_RETRIES,
+                    retry_delay,
                 )
                 time.sleep(retry_delay)
                 retry_delay *= 2
@@ -252,14 +251,22 @@ def generate(
     fallback_config = _build_config(fallback_model, "LOW", effective_tokens)
     log.info("Attempting fallback model: %s", fallback_model)
     try:
-        return _call_api(client, fallback_model, prompt, fallback_config, FALLBACK_TIMEOUT_S)
+        return _call_api(
+            client, fallback_model, prompt, fallback_config, FALLBACK_TIMEOUT_S
+        )
     except FuturesTimeout:
-        log.error("Fallback model timed out after %ss (model=%s)", FALLBACK_TIMEOUT_S, fallback_model)
+        log.error(
+            "Fallback model timed out after %ss (model=%s)",
+            FALLBACK_TIMEOUT_S,
+            fallback_model,
+        )
     except Exception as exc:
         log.error("Fallback model call failed (model=%s): %s", fallback_model, exc)
 
     # ── Last resort ───────────────────────────────────────────────────────────
-    log.error("Both primary and fallback answerer calls failed — returning canned response")
+    log.error(
+        "Both primary and fallback answerer calls failed — returning canned response"
+    )
     return CANNED_FALLBACK_HTML
 
 
@@ -273,8 +280,8 @@ def generate_stream(prompt: str, model: str | None = None, llm_client=None):
     inline error notice is appended rather than starting over (which would
     cause the already-streamed text to confusingly disappear).
     """
-    effective_model  = model or MODEL_ANSWERER
-    client           = llm_client or _client
+    effective_model = model or MODEL_ANSWERER
+    client = llm_client or _client
     config = _build_config(effective_model, "LOW", ANSWERER_MAX_OUTPUT_TOKENS)
 
     try:
@@ -294,9 +301,9 @@ def extract_json(text: str) -> str:
     """Strip markdown code fences from an LLM JSON response."""
     text = text.strip()
     if text.startswith("```json"):
-        text = text[len("```json"):]
+        text = text[len("```json") :]
     elif text.startswith("```"):
-        text = text[len("```"):]
+        text = text[len("```") :]
     if text.endswith("```"):
         text = text[: -len("```")]
     return text.strip()
