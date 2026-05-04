@@ -106,6 +106,12 @@
     ]
   },
   {
+    "department": "Data Analytics",
+    "degree_types": [
+      "Minor"
+    ]
+  },
+  {
     "department": "Economics",
     "degree_types": [
       "B.A.",
@@ -241,8 +247,7 @@
   {
     "department": "Latin American and Border Studies and Spanish (Paired Major)",
     "degree_types": [
-      "B.A.",
-      "Minor"
+      "B.A."
     ]
   },
   {
@@ -324,6 +329,12 @@
     "degree_types": [
       "B.A.",
       "Minor"
+    ]
+  },
+  {
+    "department": "Undeclared",
+    "degree_types": [
+      "B.A."
     ]
   }
 ]

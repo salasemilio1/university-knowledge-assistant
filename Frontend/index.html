@@ -3006,32 +3006,13 @@
     </div>
 
     <!-- MAJORS / MINORS -->
-    ${currentProfile.major
-        ? progressCard(`${currentProfile.major} Progress`, majorData)
-        : `
-            <div class="profile-card">
-                <h2>Degree Progress</h2>
-                <p style="color:var(--muted);">
-                    Select a major in your profile to view major requirement progress.
-                </p>
-            </div>
-        `
-    }
+    ${progressCard(`${currentProfile.major} Progress`, majorData)}
 
-    ${currentProfile.second_major
-        ? progressCard(`${currentProfile.second_major} Progress`, secondMajorData)
-        : ""
-    }
+    ${currentProfile.second_major ? progressCard(`${currentProfile.second_major} Progress`, secondMajorData) : ""}
 
-    ${currentProfile.minor
-        ? progressCard(`${currentProfile.minor} Minor Progress`, minorData)
-        : ""
-    }
+    ${currentProfile.minor ? progressCard(`${currentProfile.minor} Minor Progress`, minorData) : ""}
 
-    ${currentProfile.second_minor
-        ? progressCard(`${currentProfile.second_minor} Minor Progress`, secondMinorData)
-        : ""
-    }
+    ${currentProfile.second_minor ? progressCard(`${currentProfile.second_minor} Minor Progress`, secondMinorData) : ""}
 
 `;
         }
