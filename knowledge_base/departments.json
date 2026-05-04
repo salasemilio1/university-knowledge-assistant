@@ -330,5 +330,11 @@
       "B.A.",
       "Minor"
     ]
+  },
+  {
+    "department": "Undeclared",
+    "degree_types": [
+      "B.A."
+    ]
   }
 ]
