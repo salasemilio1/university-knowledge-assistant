@@ -14226,5 +14226,282 @@
         ]
       }
     }
+  },
+  "english": {
+    "majors": {
+      "English": {
+        "BA": {
+          "requiredCredits": 36,
+          "requiredCourses": [
+            {
+              "code": "ENG10-124",
+              "name": "Literary Worlds",
+              "credits": 4
+            },
+            {
+              "code": "ENG10-244",
+              "name": "Literary Methods",
+              "credits": 4
+            },
+            {
+              "code": "ENG10-934",
+              "name": "Seminar (Capstone)",
+              "credits": 4
+            }
+          ],
+          "electiveGroups": [
+            {
+              "name": "Critical Theory requirement",
+              "coursesRequired": 1,
+              "creditsRequired": 4,
+              "options": [
+                {
+                  "code": "ENG10-404",
+                  "name": "Literary Theory and Criticism",
+                  "credits": 4
+                },
+                {
+                  "code": "ENG10-444",
+                  "name": "Topics in Theory",
+                  "credits": 4
+                },
+                {
+                  "code": "ENG10-454",
+                  "name": "Feminist Film Theory",
+                  "credits": 4
+                },
+                {
+                  "code": "ENG10-464",
+                  "name": "Speaking Across Languages",
+                  "credits": 4
+                }
+              ]
+            },
+            {
+              "name": "Upper-Level English Electives",
+              "coursesRequired": 3,
+              "creditsRequired": 12,
+              "options": []
+            },
+            {
+              "name": "General English Electives",
+              "coursesRequired": 2,
+              "creditsRequired": 8,
+              "options": []
+            }
+          ],
+          "notes": [
+            "Total requirements: 9 courses.",
+            "At least three electives must be at the 300-level or above.",
+            "ENG10-114 (College Writing) does NOT count toward the major.",
+            "ENG10-934 is offered Fall only; prerequisite is any 400-level English course.",
+            "ENG10-244 is offered Spring only.",
+            "At least 60% of major credits must be completed at SU."
+          ]
+        }
+      },
+      "English and Feminist Studies (Paired Major)": {
+        "BA": {
+          "requiredCredits": 60,
+          "requiredCourses": [
+            {
+              "code": "ENG10-124",
+              "name": "Literary Worlds",
+              "credits": 4
+            },
+            {
+              "code": "FST04-104",
+              "name": "Introduction to Feminist Studies",
+              "credits": 4
+            },
+            {
+              "code": "ENG10-244",
+              "name": "Literary Methods",
+              "credits": 4
+            },
+            {
+              "code": "FST04-204",
+              "name": "Feminist Theories and Methods",
+              "credits": 4
+            },
+            {
+              "code": "ENG10-454",
+              "name": "Feminist Film Theory",
+              "credits": 4
+            },
+            {
+              "code": "ENG10-934",
+              "name": "Seminar (Capstone for English)",
+              "credits": 4
+            },
+            {
+              "code": "FST04-934",
+              "name": "Senior Seminar (Capstone for Feminist Studies)",
+              "credits": 4
+            }
+          ],
+          "electiveGroups": [
+            {
+              "name": "Dual-Contributing Courses",
+              "coursesRequired": 3,
+              "creditsRequired": 12,
+              "options": []
+            },
+            {
+              "name": "English Electives",
+              "coursesRequired": 2,
+              "creditsRequired": 8,
+              "options": []
+            },
+            {
+              "name": "Feminist Studies Electives",
+              "coursesRequired": 3,
+              "creditsRequired": 12,
+              "options": []
+            }
+          ],
+          "notes": [
+            "Total requirements: 15 courses.",
+            "One English elective must be upper level.",
+            "Two Feminist Studies electives must be upper level.",
+            "Paired major students cannot also minor in English or Feminist Studies."
+          ]
+        }
+      },
+      "English and History (Paired Major)": {
+        "BA": {
+          "requiredCredits": 64,
+          "requiredCourses": [
+            {
+              "code": "ENG10-124",
+              "name": "Literary Worlds",
+              "credits": 4
+            },
+            {
+              "code": "ENG10-244",
+              "name": "Literary Methods",
+              "credits": 4
+            },
+            {
+              "code": "HIS16-854",
+              "name": "Historiography",
+              "credits": 4
+            },
+            {
+              "code": "ENG10-934",
+              "name": "Seminar (Capstone for English)",
+              "credits": 4
+            },
+            {
+              "code": "HIS16-864",
+              "name": "Research Seminar Capstone (History)",
+              "credits": 4
+            }
+          ],
+          "electiveGroups": [
+            {
+              "name": "Critical Theory requirement",
+              "coursesRequired": 1,
+              "creditsRequired": 4,
+              "options": [
+                {
+                  "code": "ENG10-404",
+                  "name": "Literary Theory and Criticism",
+                  "credits": 4
+                },
+                {
+                  "code": "ENG10-444",
+                  "name": "Topics in Theory",
+                  "credits": 4
+                },
+                {
+                  "code": "ENG10-454",
+                  "name": "Feminist Film Theory",
+                  "credits": 4
+                },
+                {
+                  "code": "ENG10-464",
+                  "name": "Speaking Across Languages",
+                  "credits": 4
+                }
+              ]
+            },
+            {
+              "name": "World History",
+              "coursesRequired": 1,
+              "creditsRequired": 4,
+              "options": [
+                {
+                  "code": "HIS16-0X4",
+                  "name": "World History course",
+                  "credits": 4
+                }
+              ]
+            },
+            {
+              "name": "History World Regions (4 of 6)",
+              "coursesRequired": 4,
+              "creditsRequired": 16,
+              "options": []
+            },
+            {
+              "name": "English Electives",
+              "coursesRequired": 4,
+              "creditsRequired": 16,
+              "options": []
+            },
+            {
+              "name": "Additional Upper-Level History Elective",
+              "coursesRequired": 1,
+              "creditsRequired": 4,
+              "options": []
+            }
+          ],
+          "notes": [
+            "Total requirements: 16 courses.",
+            "History world region electives must be upper-level and chosen from 4 of 6 regions (Africa, East Asia, Europe, Latin America, United States, Transregional).",
+            "At least three English electives must be upper level.",
+            "Paired major students cannot also minor in English or History."
+          ]
+        }
+      }
+    },
+    "minors": {
+      "English": {
+        "requiredCredits": 20,
+        "requiredCourses": [
+          {
+            "code": "ENG10-124",
+            "name": "Literary Worlds",
+            "credits": 4
+          },
+          {
+            "code": "ENG10-244",
+            "name": "Literary Methods",
+            "credits": 4
+          }
+        ],
+        "electiveGroups": [
+          {
+            "name": "Upper-Level English Electives",
+            "coursesRequired": 2,
+            "creditsRequired": 8,
+            "options": []
+          },
+          {
+            "name": "General English Elective",
+            "coursesRequired": 1,
+            "creditsRequired": 4,
+            "options": []
+          }
+        ],
+        "notes": [
+          "Total requirements: 5 courses.",
+          "At least two electives must be at the 300-level or above.",
+          "ENG10-114 (College Writing) does NOT count toward the minor.",
+          "Requires at least 12 credits at SU."
+        ]
+      }
+    }
   }
 }
