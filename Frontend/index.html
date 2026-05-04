@@ -2171,49 +2171,77 @@
         async function loadProfile() {
             try {
                 const res = await fetch("/profile");
+
+                if (!res.ok) {
+                    throw new Error(`Profile request failed with status ${res.status}`);
+                }
+
                 const data = await res.json();
                 currentProfile = data;
 
-                if (!data.is_profile_complete) {
+                // Show profile warning only once.
+                if (!data.is_profile_complete && !document.getElementById("profile-warning")) {
                     const responseDiv = document.getElementById("response");
-                    const warning = document.createElement("div");
-                    warning.id = "profile-warning";
-                    warning.className = "response-block";
 
-                    warning.innerHTML = `
-                <div class="response-answer">
-                    ⚠️ <strong>Welcome to the University Knowledge Assistant. Please complete your academic profile to receive personalized responses.</strong><br><br><br>
-                    <em><strong>Data Usage & Privacy:</strong> <br><br>Your information, including chat inputs and profile data (form inputs and/or transcript uploads) will be sent to Google Gemini to generate responses. <br><br> Your information is stored and may be viewed by the development team for system functionality and improvement. Conversation history is logged. <br><br> Information retrieved from your Google Account include Google Account ID, email address, first name, and last name.
-                    </em>
-                    </div>
-            `;
+                    if (responseDiv) {
+                        const warning = document.createElement("div");
+                        warning.id = "profile-warning";
+                        warning.className = "response-block";
 
-                    responseDiv.prepend(warning);
+                        warning.innerHTML = `
+                            <div class="response-answer">
+                                ⚠️ <strong>Welcome to the University Knowledge Assistant. Please complete your academic profile to receive personalized responses.</strong><br><br><br>
+                                <em><strong>Data Usage & Privacy:</strong> <br><br>Your information, including chat inputs and profile data (form inputs and/or transcript uploads) will be sent to Google Gemini to generate responses. <br><br> Your information is stored and may be viewed by the development team for system functionality and improvement. Conversation history is logged. <br><br> Information retrieved from your Google Account include Google Account ID, email address, first name, and last name.
+                                </em>
+                            </div>
+                        `;
+
+                        responseDiv.prepend(warning);
+                    }
                 }
 
-                // Fill selects
-                setValue("major", data.major);
-                setValue("major_degree_type", data.major_degree_type);
-                setValue("second_major", data.second_major);
-                setValue("second_major_degree_type", data.second_major_degree_type);
-                setValue("minor", data.minor);
-                setValue("second_minor", data.second_minor);
-                setValue("gpa", data.gpa);
-                setValue("advisor_name", data.advisor_name);
-                setValue("advisor_email", data.advisor_email);
-                setValue("grad_year", data.grad_year);
-                setValue("name", data.name);
-                setValue("email", data.email);
+                // Account/text fields can be populated without triggering change handlers.
+                setValue("name", data.name, false);
+                setValue("email", data.email, false);
+                setValue("advisor_name", data.advisor_name, false);
+                setValue("advisor_email", data.advisor_email, false);
+                setValue("gpa", data.gpa, false);
+                setValue("grad_year", data.grad_year, false);
 
-                // Courses logic
+                // Main major must be set before major_degree_type.
+                // The true flag triggers the major change handler, which populates degree-type options.
+                setValue("major", data.major, true);
+
+                if (data.major) {
+                    setValue("major_degree_type", data.major_degree_type, false);
+                } else {
+                    setValue("major_degree_type", "", false);
+                }
+
+                // Second major must be set before second_major_degree_type.
+                // The true flag triggers the second-major change handler, which populates degree-type options.
+                setValue("second_major", data.second_major, true);
+
+                if (data.second_major) {
+                    setValue("second_major_degree_type", data.second_major_degree_type, false);
+                } else {
+                    setValue("second_major_degree_type", "", false);
+                }
+
+                // Minors do not control degree-type dropdowns.
+                setValue("minor", data.minor, false);
+                setValue("second_minor", data.second_minor, false);
+
+                // Restore selected courses.
                 selectedCourses = new Set(
                     (data.courses || []).map(c => normalizeCode(c.code))
                 );
 
-                // Transfer Credits logic
+                // Render transfer credits.
                 const transferList = document.getElementById("transfer-credits-list");
                 if (transferList) {
                     transferList.innerHTML = "";
+
                     (data.transfer_credits || []).forEach(t => {
                         const item = document.createElement("div");
                         item.className = "selected-course-pill";
@@ -2221,20 +2249,20 @@
                         item.innerHTML = `<span>${t.semester}: ${t.institution} (${t.credits} credits)</span>`;
                         transferList.appendChild(item);
                     });
+
                     if (transferList.innerHTML === "") {
                         transferList.innerHTML = '<span style="color:var(--muted);font-style:italic;">No transfer credits recorded.</span>';
                     }
                 }
 
-                // If we haven't loaded courses yet, do it now
+                // Ensure course catalog is loaded before calculating custom courses.
                 if (allCourses.length === 0) {
                     await fetchAllCourses();
                 } else {
                     renderCourseList();
                 }
-                renderDashboard();
 
-                // Handle custom courses not in the list
+                // Handle custom courses not in the catalog.
                 const knownCourseCodes = new Set(allCourses.map(c => normalizeCode(c.code)));
                 const customCourses = (data.courses || [])
                     .filter(c => !knownCourseCodes.has(normalizeCode(c.code)))
@@ -2245,9 +2273,18 @@
                     customInput = document.createElement("input");
                     customInput.type = "hidden";
                     customInput.name = "courses_custom";
-                    document.getElementById("profile-form").appendChild(customInput);
+
+                    const profileForm = document.getElementById("profile-form");
+                    if (profileForm) {
+                        profileForm.appendChild(customInput);
+                    }
                 }
-                customInput.value = customCourses.join(", ");
+
+                if (customInput) {
+                    customInput.value = customCourses.join(", ");
+                }
+
+                renderDashboard();
 
             } catch (err) {
                 console.error("Failed to load profile:", err);
@@ -2264,8 +2301,7 @@
          * @param {string} id - ID of the form element.
          * @param {*} value - Value to assign.
          */
-        function setValue(id, value) {
-
+        function setValue(id, value, triggerChange = false) {
             const el = document.getElementById(id);
             if (!el || value == null) return;
 
@@ -2273,7 +2309,7 @@
                 el.value = value;
                 return;
             }
-            // if value exists in dropdown
+
             const optionExists = Array.from(el.options).some(o => o.value === value);
 
             if (optionExists) {
@@ -2286,7 +2322,10 @@
                     custom.value = value;
                 }
             }
-            el.dispatchEvent(new Event("change"));
+
+            if (triggerChange) {
+                el.dispatchEvent(new Event("change"));
+            }
         }
 
         /**
