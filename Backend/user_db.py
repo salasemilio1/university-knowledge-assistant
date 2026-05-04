@@ -521,8 +521,3 @@ def get_chat_history(google_id: str, limit: int = 10) -> List[dict]:
         )
         # Reverse to get chronological order
         return [{"role": m.role, "content": m.content} for m in reversed(messages)]
-
-def main():
-    add_courses("105756527656204148979", [{"code": "ABC123", "name": "placeholder", "credits": "4", "grade": "A", "semester": "placeholder"}])
-if __name__ == "__main__":
-    main()
