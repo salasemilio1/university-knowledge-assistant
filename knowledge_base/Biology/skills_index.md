@@ -16,11 +16,7 @@ This index covers the Southwestern University Biology Department. It consolidate
 ## SECTION 2 — DOCUMENT REGISTRY
 
 ### Biology Department Overview
-- **filename:** `Biology.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Provides a high-level overview of the Biology major and minor at Southwestern University. Describes the breadth of the curriculum covering molecular processes, ecological diversity, genetics, the human body, and evolution. Lists specific faculty research topics students may participate in, including snail genetics, DNA repair, cancer biology, antibiotic resistance, coral reef ecology, and neural circuits. Notes that students may pursue a B.A. or B.S. degree and highlights interdisciplinary minors available (Health Studies, Data Analytics, Neuroscience). Mentions pre-professional pathways in pre-medicine, pre-dental, and pre-veterinary medicine. Notes the department's commitment to a safe and supportive environment for all students.
 - **critical_data:**
   - B.A. and B.S. degree paths both available
@@ -28,7 +24,6 @@ This index covers the Southwestern University Biology Department. It consolidate
   - Pre-professional pathways: pre-medicine, pre-dental, pre-veterinary
   - Research areas: snail genetics, DNA repair, cancer biology, antibiotic resistance, coral reef ecology, neural circuits, sygnathid reproductive biology
   - Alumni careers: dental, medical, nursing, optometry, pharmacy, veterinary, industry, government, nonprofit, public health, education
-- **retrieval_triggers:**
   - what can I do with a biology degree
   - what is the biology major like
   - does SU have pre-med
@@ -43,11 +38,7 @@ This index covers the Southwestern University Biology Department. It consolidate
 ---
 
 ### Majoring & Minoring in Biology
-- **filename:** `Majoring___Minoring.txt`
-- **document_type:** requirements
 - **degree_relevance:** B.A. | B.S. | Minor
-- **time_sensitive:** true
-- **catalog_year:** 2025-2026 (implied from source)
 - **description:** The primary degree requirements document for the Biology department. Details all required courses and credit hours for the B.A. (44 total credits: 32 biology, 8 chemistry, 4 statistics), the B.S. (64 total credits: 36 biology, 12 chemistry, 8 math/CS, 8 physics), and the Minor (minimum 18 credits). Lists all required core courses with course numbers for each path. Specifies the introductory sequence (BIO50-173/171 and BIO50-183/181) as a prerequisite for all upper-level work, with a C- or better required. Lists all eligible advanced cellular/molecular and ecology/evolutionary courses students may choose from as electives. Covers capstone options (research track vs. seminar-only track). Notes the department's course numbering convention and grade prerequisites.
 - **critical_data:**
   - B.A. total: 44 credits (32 bio + 8 chem + 4 stats)
@@ -60,7 +51,6 @@ This index covers the Southwestern University Biology Department. It consolidate
   - Capstone Option 1: BIO50-97X Research (3 credits) + BIO50-991 Capstone Seminar
   - Capstone Option 2: BIO50-994 Biology Capstone Seminar only
   - B.S. recommended for professional/graduate school; B.A. for flexibility
-- **retrieval_triggers:**
   - how many credits do I need for biology major
   - what courses are required for biology BS
   - what courses are required for biology BA
@@ -79,18 +69,13 @@ This index covers the Southwestern University Biology Department. It consolidate
 ---
 
 ### Biology Courses
-- **filename:** `Courses.txt`
-- **document_type:** course_info
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** 2025-2026 (implied)
 - **description:** Contains detailed course descriptions for all Biology department offerings. This is the primary source for individual course content, prerequisites, credit hours, and any restrictions on enrollment. Should be consulted for any question about what a specific course covers, when it is offered, or what is required to enroll in it. Includes introductory, intermediate, advanced, and 900-level courses (capstone, research, honors, internship, independent study).
 - **critical_data:**
   - Covers introductory, 200-level methods, 300–600 level advanced, and 900-level special courses
   - Source for specific prerequisites per course
   - Source for course content descriptions
   - Includes research, internship, capstone seminar, and honors course listings
-- **retrieval_triggers:**
   - what is covered in BIO50-354
   - prerequisites for neurobiology
   - what does ecology cover
@@ -105,11 +90,7 @@ This index covers the Southwestern University Biology Department. It consolidate
 ---
 
 ### Our Faculty
-- **filename:** `Our_Faculty.txt`
-- **document_type:** resources
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Lists all Biology department faculty with name, title, specialty, email, phone, and office location. Includes full-time faculty (Romi Lynn Burks, Erin Borbee, Stacie Brown, Martín González, Alex Klattenhoff, Kimberly McArthur, Sunny Scobell, Max Taub, Maria Catherine Todd), affiliated faculty (Eureka Joshi, Environmental Studies), and part-time faculty (Logan Becker, Lisa Maharaj, Shreya Saha). Notes that Dr. Burks is Department Chair and Garey Chair. Notes that Dr. Brown is Director of First Year Biology Laboratories. Contact information is current as of the document date.
 - **critical_data:**
   - Dr. Romi Lynn Burks: Department Chair, Garey Chair, aquatic/molecular ecology, burksr@southwestern.edu, 512.863.1280, Fondren-Jones 212
@@ -121,7 +102,6 @@ This index covers the Southwestern University Biology Department. It consolidate
   - Dr. Max Taub: human genetics, evolutionary biology, plant eco-physiology, taubm@southwestern.edu, 512.863.1583, Fondren-Jones 213
   - Dr. Maria Catherine Todd: cancer biology, molecular biology, toddm@southwestern.edu, 512.863.1983, Fondren-Jones 211
   - Dr. Alex Klattenhoff: Visiting Assistant Professor, klattenha@southwestern.edu, 512.863.1585
-- **retrieval_triggers:**
   - who is the biology department chair
   - who teaches neuroscience at SU
   - who does cancer biology research
@@ -136,11 +116,7 @@ This index covers the Southwestern University Biology Department. It consolidate
 ---
 
 ### Engagement Opportunities for Biologists
-- **filename:** `Engagement_Opportunities.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Describes co-curricular and experiential learning opportunities for Biology students at Southwestern. Covers Tri-Beta (Beta Beta Beta Biological Honors Society, Delta Alpha Chapter), mentored by Dr. González, with tracks for pre-health and graduate school. Details undergraduate research opportunities with specific faculty, including SURF (Summer Undergraduate Research with Faculty), and lists all faculty running active research programs. Describes off-campus REU (Research Experiences for Undergraduates) programs funded by the NSF. Covers the annual SU Research and Creative Works Symposium (SU-RCWS), study abroad (with pre-vetted Biology and Health Studies lists), internships for credit (contact Dr. Burks), Pre-Med and Allied Health programs (contact Dr. McArthur), King Creativity Grants, and civic engagement opportunities.
 - **critical_data:**
   - Tri-Beta honors society: first-year students can apply as Associate Members; Regular Membership requires GPA threshold and completion of first-year biology sequence; Dr. González is main mentor
@@ -152,7 +128,6 @@ This index covers the Southwestern University Biology Department. It consolidate
   - Internships for credit: inquire with Dr. Burks; also Center for Integrated Learning
   - Pre-Med/Allied Health programs: contact Dr. McArthur or pre-med/dental/vet/PA/PT/NP website
   - King Creativity Grants: available for interdisciplinary student projects
-- **retrieval_triggers:**
   - how do I get involved in research
   - biology honors society
   - how to join Tri-Beta
@@ -167,11 +142,7 @@ This index covers the Southwestern University Biology Department. It consolidate
 ---
 
 ### After Southwestern — Career Paths
-- **filename:** `After_Southwestern.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Advises Biology students on post-graduation directions. Covers the range of career sectors (academic, nonprofit, government, private, international) and health-related professional schools (MD, DO, PA, MD/PhD, DDS, DVM, MS, MPH). Recommends starting with the Pre-Health Committee for health professions. Outlines a three-step post-graduation preparation framework: (1) take advantage of high-impact experiences before graduation, (2) commit to networking using faculty, Pre-Health Advising, CCPD, Pirate Connect, SU Alumni Directory, LinkedIn, and job databases, and (3) narrow down a career path. Explains the distinction between MS and PhD graduate paths in biology, including funding, duration (MS: 1–3 years; PhD: 4–8 years with typical 5-year funding), and career implications (PhD leads to PI/team roles; MS leads to bench/field science roles). Notes that B.S. is recommended for professional and graduate school.
 - **critical_data:**
   - B.S. degree recommended for professional schools, graduate school, or industry technician positions
@@ -181,7 +152,6 @@ This index covers the Southwestern University Biology Department. It consolidate
   - Health-related grad programs (MD, DO, PA, etc.) generally require self-funded tuition
   - Career sectors: academic, nonprofit, government, private, international
   - Networking resources: Biology Faculty, Pre-Health Advising, CCPD, Pirate Connect, SU Alumni Directory, LinkedIn, Job Databases
-- **retrieval_triggers:**
   - what can I do after biology degree
   - should I get a BS or BA for med school
   - how long is a biology PhD program
@@ -196,11 +166,7 @@ This index covers the Southwestern University Biology Department. It consolidate
 ---
 
 ### Job Databases for Biology Students
-- **filename:** `Job_Databases.txt`
-- **document_type:** resources
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Lists external job and career databases organized by sector for Biology graduates. Industry databases include National Academy of Sciences (immunology, toxicology, biochemistry), SciJobs.org, and Biotech. Health and medical profession resources include the TAAHP Guide to Health Professions, American Association of Physician's Assistants, American Occupational Therapy Association, and American Physical Therapy Association. Environmental career resources include Center for Conservation Biology Network, EnviroLink, Marine Biology resources, AASHE, Renewable Energy and Sustainability Careers, Biospace, Nature Careers, and Conservation Biology Careers. Undergraduate research and work opportunities include the NSF REU listing and Smithsonian Institute fellowships/internships. Graduate school information includes Science Magazine's graduate program listings.
 - **critical_data:**
   - Industry: National Academy of Sciences, SciJobs.org, Biotech
@@ -208,7 +174,6 @@ This index covers the Southwestern University Biology Department. It consolidate
   - Environmental: EnviroLink, Marine Biology resources, AASHE, Nature Careers, Conservation Biology Careers
   - Undergraduate research: NSF REU listing (by field and location), Smithsonian Institute internships/fellowships
   - Graduate school: Science Magazine graduate program listings (by subject, with contact info)
-- **retrieval_triggers:**
   - job boards for biology majors
   - where to find biology internships
   - environmental career databases
@@ -223,11 +188,7 @@ This index covers the Southwestern University Biology Department. It consolidate
 ---
 
 ### Facilities
-- **filename:** `Facilities.txt`
-- **document_type:** resources
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Describes the Biology Department's physical facilities in the science building, including the 2016 addition. Lists the molecular biology floor containing: an 800 nsf cell culture lab, 2288 nsf shared cell and molecular biology research space for four faculty and students, the Keck molecular biology center (858 nsf), an imaging center with microscopes and darkroom (400 nsf), and support facilities (autoclave, glassware washing, laminar flow hoods). Lists key research equipment available: Hitachi table-top ultra centrifuge, Nanodrop, StepOne Plus RT-PCR, FluroChem-Protein Simple, Fluorimeter, BioRad plate reader, spectrophotometer, gel electrophoresis, Coulter Cell Counter, Qubit Fluorometer, and Accuri C6 Flow cytometer. Also describes the Collaborative Learning Studio for group study, research collaboration, and social gatherings, plus a smaller write-on-wall study space.
 - **critical_data:**
   - Science building addition completed spring 2016
@@ -237,7 +198,6 @@ This index covers the Southwestern University Biology Department. It consolidate
   - Imaging center with darkroom: 400 nsf
   - Equipment: RT-PCR, flow cytometer, Nanodrop, gel electrophoresis, spectrophotometer, Coulter counter, Qubit, BioRad plate reader
   - Collaborative Learning Studio: multi-use space with lounge, projection, food prep
-- **retrieval_triggers:**
   - what labs are available in biology
   - does SU have a flow cytometer
   - biology building facilities
@@ -251,11 +211,7 @@ This index covers the Southwestern University Biology Department. It consolidate
 ---
 
 ### DIBE Commitment
-- **filename:** `DIBE_Commitment.txt`
-- **document_type:** policy
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** Dept. initially approved 2/7/22; reaffirmed 2/17/25
 - **description:** Contains the Biology Department's formal Diversity, Inclusivity, Belonging, and Equity (DIBE) statement, developed collaboratively by students, staff, and faculty. Acknowledges historical injustices in STEM committed by biologists and their ongoing impact on underrepresented groups. Commits to providing a safe and supportive environment for students of color, sexual and gender minorities, all socioeconomic backgrounds, first-generation students, differently abled students, and those with chronic health conditions. Lists current departmental actions: Lavender Spaces training for all faculty, student discussions on belonging, gender-neutral bathrooms in the science building, a private breastfeeding room, and a wheelchair-accessible laboratory.
 - **critical_data:**
   - DIBE statement initially approved 2/7/22; reaffirmed 2/17/25
@@ -264,7 +220,6 @@ This index covers the Southwestern University Biology Department. It consolidate
   - Private breastfeeding room available
   - Wheelchair-accessible laboratory available
   - Commitment to students of color, LGBTQ+ students, low-income, first-gen, differently abled, and students with chronic health conditions
-- **retrieval_triggers:**
   - is the biology department inclusive
   - LGBTQ support in biology
   - accessible labs at SU biology
@@ -278,17 +233,12 @@ This index covers the Southwestern University Biology Department. It consolidate
 ---
 
 ### Notable Faculty and Student Achievements
-- **filename:** `Notable_Faculty___Student_Achievements.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Highlights notable achievements by Biology faculty and students at Southwestern University. Serves as evidence of the research culture, student mentorship, and recognition earned by department members. Useful context for prospective students evaluating the quality and outcomes of the biology program. May include awards, publications, conference presentations, or grants received by faculty or students.
 - **critical_data:**
   - Source for faculty awards and grants
   - Source for student research recognition and outcomes
   - Supports understanding of department research culture
-- **retrieval_triggers:**
   - what awards has the biology department won
   - notable biology student achievements
   - faculty research recognition

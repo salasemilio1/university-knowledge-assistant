@@ -10,11 +10,7 @@
 ## SECTION 2 — DOCUMENT REGISTRY
 
 ### Philosophy Department Overview
-- **filename:** `Philosophy.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Provides the Philosophy Department's overarching mission, curricular philosophy, and strengths. States the department offers a "distinctive, innovative, and interdisciplinary approach." Emphasizes grounding in western philosophy while enabling critical engagement with contemporary questions. Highlights interdisciplinary intersections with Latin American Studies, Feminist Studies, Race and Ethnicity Studies, Queer Theory, and Marxist thought. Notes the department's active commitment to departing from philosophy's historically white-male-dominated tendency. Also references the A–Z Philosophy BlackList project (launched 2025 as part of Black History Month programming, now featuring 158+ names) and includes a featured alumni story (Lily Rodriguez '19, History major, interning at USCIS in D.C.).
 - **critical_data:**
   - Department chair: Professor Michael Bray
@@ -22,26 +18,11 @@
   - A–Z Philosophy BlackList: launched 2025, 158 names as of 2026
   - Group advising available
   - Alumni pathways include archival research and public sector internships
-- **retrieval_triggers:**
-  - "what is the philosophy department like"
-  - "what makes philosophy at SU unique"
-  - "what are the department's strengths"
-  - "who chairs the philosophy department"
-  - "what can I do with a philosophy degree"
-  - "does philosophy connect to other majors"
-  - "what is the A-Z Philosophy BlackList"
-  - "philosophy department mission"
-  - "is philosophy interdisciplinary"
-  - "what kind of philosophy does SU focus on"
 
 ---
 
 ### Philosophy Courses
-- **filename:** `Courses.txt`
-- **document_type:** course_info
 - **degree_relevance:** B.A. | Minor
-- **time_sensitive:** false
-- **catalog_year:** N/A (current/recent offerings)
 - **description:** Lists all current or recent course offerings in the Philosophy department, with full course descriptions and Paideia designations. Introductory-level offerings (numbered 18-104 through 18-194) include: Selected Introductory Topics (18-104), What Is Philosophy? (18-114), Critical Thinking (18-124), Philosophy of Love & Sex (18-144), Self, Ethics, Society (18-164), and Introduction to Feminist Philosophies (18-194). Upper-level courses (18-214 through 18-374) include Politics and Economics, Environmental Philosophy, Native American Philosophies, Philosophy Race & Revolution, Latin American Philosophy, Marxisms, The Embodied Self, 19th/20th Century Philosophy, Critical Philosophy of Race, and Feminist Ethics. The four upper-level Core Humanities sequences (18-614 through 18-644) are: Ethos/Identities/Differences, Being/Structure/Change, Experience/Language/Knowledge, and Peoples/Power/Organization — each requiring one prior Philosophy course. The Colloquium (18-914) is the capstone, required for majors in their final year, offered every fall.
 - **critical_data:**
   - Course prefix: 18-XXX (Philosophy department = 18)
@@ -52,83 +33,33 @@
   - 18-194, 18-284 also carry (SJ) and (PJ) designations
   - 18-914 carries (WA) Writing-Attentive designation
   - 18-614 through 18-644 carry (CRITICAL HISTORIES) designation
-- **retrieval_triggers:**
-  - "what philosophy courses are offered"
-  - "what is 18-124"
-  - "tell me about Critical Thinking"
-  - "what is the philosophy capstone"
-  - "what is Colloquium"
-  - "what courses have prerequisites"
-  - "which philosophy courses count toward feminist studies"
-  - "which philosophy courses satisfy Paideia"
-  - "what upper-level philosophy courses are there"
-  - "does philosophy offer environmental courses"
-  - "what philosophy classes count for legal studies"
-  - "do any philosophy courses satisfy Power and Justice"
-  - "what is 18-914"
-  - "which courses count toward race and ethnicity studies"
-  - "what philosophy courses satisfy humanities Paideia"
 
 ---
 
 ### High-Impact Learning Experiences
-- **filename:** `High-Impact_Learning_Experiences.txt`
-- **document_type:** resources
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Describes immersive high-impact learning opportunities specific to Philosophy majors at Southwestern. Covers two primary opportunities beyond general university options: student research via the Colloquium capstone course and the Philosophy Club student organization. The Colloquium is described as a collaborative workshop in which each student pursues an independent research project guided by the full philosophy faculty, culminating in a public presentation and final thesis submission. The Philosophy Club is a student organization promoting discussion of current philosophical topics and their societal relevance.
 - **critical_data:**
   - Capstone (Colloquium) = independent research project + public presentation + final thesis
   - Philosophy faculty guide all capstone students collectively, not individually
   - Philosophy Club is an official student organization
   - Links to more detail on capstone projects and the Philosophy Club
-- **retrieval_triggers:**
-  - "what high-impact experiences does philosophy offer"
-  - "what is the capstone for philosophy"
-  - "how does the philosophy capstone work"
-  - "what is the philosophy colloquium"
-  - "do philosophy majors do research"
-  - "is there a philosophy club"
-  - "what student organizations are there for philosophy"
-  - "how do I get involved in philosophy research"
-  - "what does the philosophy thesis involve"
-  - "does SU have high-impact experiences for philosophy"
 
 ---
 
 ### Student Research (Capstone Projects)
-- **filename:** `Student_Research.txt`
-- **document_type:** resources
 - **degree_relevance:** B.A.
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Provides detailed description of the Colloquium capstone structure and six example student research projects. Each semester, capstone students pursue independent research under collective philosophy faculty guidance. All students present their developing research to the class throughout the semester for critique and refinement. The culminating requirement is a public presentation of a key section followed by final thesis submission. Example projects cover: gentrification and capitalism (Kevin Lentz, using Neil Smith, David Harvey, Henri Lefebvre), women in philosophy and patriarchal structures (Sadie Clarendon, feminist philosophy), the exclusionary nature of Western philosophy and Latin alternative traditions (Alan Ramos), behavioral genetics and Aristotelian philosophy (Joshua Page), Nietzsche's ethics (Hunter White), and American media framing of terrorism through capitalist ideology (Sarah Cook, using Marx, Barthes, Debord, Virilio).
 - **critical_data:**
   - Capstone structure: semester-long independent project + class critique throughout + public presentation of key section + final thesis
   - All faculty guide all students collectively
   - Research spans analytic and continental traditions, political philosophy, feminist philosophy, and philosophy of science
   - Six sample projects provided with specific texts used
-- **retrieval_triggers:**
-  - "what do philosophy capstone students research"
-  - "what are examples of philosophy thesis topics"
-  - "how does the colloquium class work"
-  - "do I have to present my research"
-  - "what happens at the end of the colloquium"
-  - "can I write my thesis on any topic"
-  - "do philosophy students write a thesis"
-  - "what's a typical capstone project like"
-  - "does philosophy have a senior thesis"
-  - "what books do capstone students use"
 
 ---
 
 ### Philosophy Club
-- **filename:** `Philosophy_Club.txt`
-- **document_type:** resources
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** N/A
 - **description:** Describes the Philosophy Club student organization in detail. Advised by Visiting Assistant Professor Katie Howard. Open to all students including non-philosophy majors and minors; the only requirement is an open mind and willingness to engage respectfully with difficult topics. Meetings feature a student-chosen topic or question written on the whiteboard, followed by open discussion about its significance and potential societal solutions. Often addresses controversial topics. Meets every Friday at 7 p.m. in Fondren–Jones Science Center, room 360. If the room is unavailable, students should text 940.536.7977 for the alternate location.
 - **critical_data:**
   - Advisor: Visiting Assistant Professor Katie Howard
@@ -137,52 +68,22 @@
   - Open to ALL students, not just philosophy majors
   - Format: topic/question on whiteboard → open discussion
   - No membership requirements except open mind
-- **retrieval_triggers:**
-  - "when does the philosophy club meet"
-  - "where is philosophy club held"
-  - "who advises the philosophy club"
-  - "can I join philosophy club if I'm not a philosophy major"
-  - "what happens at a philosophy club meeting"
-  - "how do I get involved in the philosophy club"
-  - "is there a philosophy student organization"
-  - "what is the philosophy club"
-  - "how often does philosophy club meet"
-  - "what room is philosophy club in"
 
 ---
 
 ### Our Faculty
-- **filename:** `Our_Faculty.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** N/A
 - **description:** Lists the current full-time philosophy faculty with names, titles, specialties, email addresses, phone numbers, and office locations. Three faculty members are listed: Professor Michael Bray (Department Chair, Political Philosophy & Critical Theory, Mood-Bridwell 142A, braym@southwestern.edu, 512.863.1131), Assistant Professor Jorge M. Lizarzaburu (Political Philosophy, Latin American Philosophy, Philosophy of Biology, Mood-Bridwell 143, lizarzaj@southwestern.edu, 512.863.1038), and Assistant Professor Zinhle ka'Nobuhlaluse (Critical Philosophy of Race, Feminist Philosophies focusing on South African and African American Black Feminisms, Decolonial Philosophies and Critical Apartheid Thought, kanobuhlaluse@southwestern.edu, 512.863.1133). Note: Philosophy Club advisor Katie Howard (Visiting Assistant Professor) is not listed in this document but appears in Philosophy_Club.txt.
 - **critical_data:**
   - Michael Bray: Professor & Chair, Political Philosophy/Critical Theory, braym@southwestern.edu, 512.863.1131, Mood-Bridwell 142A
   - Jorge M. Lizarzaburu: Assistant Professor, Political Philosophy/Latin American Philosophy/Philosophy of Biology, lizarzaj@southwestern.edu, 512.863.1038, Mood-Bridwell 143
   - Zinhle ka'Nobuhlaluse: Assistant Professor, Critical Philosophy of Race/Feminist Philosophies/Decolonial Philosophies, kanobuhlaluse@southwestern.edu, 512.863.1133
   - Katie Howard: Visiting Assistant Professor (Philosophy Club advisor; contact info in Philosophy_Club.txt only)
-- **retrieval_triggers:**
-  - "who are the philosophy professors"
-  - "how do I contact Professor Bray"
-  - "who teaches Latin American philosophy"
-  - "who teaches feminist philosophy"
-  - "what is Professor Lizarzaburu's specialty"
-  - "who is the philosophy department chair"
-  - "where is the philosophy department office"
-  - "how do I email a philosophy professor"
-  - "who should I talk to about advising"
-  - "what does Professor ka'Nobuhlaluse specialize in"
 
 ---
 
 ### Notable Faculty & Student Achievements
-- **filename:** `Notable_Faculty___Student_Achievements.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** N/A (covers 2020–2026)
 - **description:** Chronological log of faculty publications, presentations, awards, and public engagements from 2020 through March 2026. Primarily documents the work of Assistant Professor Zinhle ka'Nobuhlaluse, including a Kristeller-Popkin Travel Fellowship ($4,000) from the Journal of the History of Philosophy (March 2025), presentations at major conferences (SPEP, Spindel Conference, philoSOPHIA, LAWP), publications in Simone de Beauvoir Studies and Feminist Formations, an essay in the APA Blog, and a workshop at University of Witwatersrand. Also includes: Professor Michael Bray's Crisis Point podcast episode (Sheffield/SPERI, Feb 2025) on democracy and populism, his Jacobin essay on Laclau and Mouffe (Aug 2023), Professor Phil Hopkins's multi-year consulting work with Austin Police Department (2020–2022) and related media coverage including a 60 Minutes feature, and Assistant Professor Jorge Lizarzaburu's 2023 teaching award and paper at the International Society for History, Philosophy, and Social Studies of Biology.
 - **critical_data:**
   - ka'Nobuhlaluse: Kristeller-Popkin Fellowship ($4,000, March 2025); publications in Feminist Formations special issue, Simone de Beauvoir Studies, APA Blog, Caribbean Philosophical Association blog
@@ -190,17 +91,6 @@
   - Hopkins: APD consulting (2020–2022); featured in 60 Minutes; panelist for Austin Justice Coalition, I-AMM, National Association of Social Workers; guest on The Partially Examined Life podcast
   - Lizarzaburu: Teaching Award (2022-23); paper at ISHPSSB Toronto (2023)
   - Visiting Assistant Professor Gwen Daugs: paper at APA Eastern Division 2024
-- **retrieval_triggers:**
-  - "what has the philosophy faculty published"
-  - "has a philosophy professor won any awards"
-  - "what research does Professor ka'Nobuhlaluse do"
-  - "what does Professor Bray work on"
-  - "did any philosophy faculty win a grant"
-  - "what is the Kristeller-Popkin Fellowship"
-  - "has philosophy faculty been in the news"
-  - "what conferences have philosophy professors spoken at"
-  - "what is Professor Hopkins known for"
-  - "what does the philosophy department research"
 
 ---
 

@@ -11,11 +11,7 @@
 ## SECTION 2 — DOCUMENT REGISTRY
 
 ### Kinesiology — Department Overview
-- **filename:** `Kinesiology.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** This is the Kinesiology department's main landing page. It describes kinesiology as an interdisciplinary field drawing from biological, physical, psychological, and social sciences, covering anatomical, biomechanical, developmental, physiological, psychological, and sociological aspects of human movement. The department offers B.A. and B.S. degrees, a major and minor in Kinesiology, and Fitness and Recreational Activity (FRA) courses for all SU students. The major prepares students for graduate study, professional programs in clinical/health fields, and teaching certification. Career paths listed: Physical Therapy, Occupational Therapy, Cardiac Rehabilitation, Sports Medicine, Public Health, Health Promotion, Coaching/Teaching, and Clinical/Applied/Basic Research. The Department Chair is Ed Merritt (Garey Chair and Associate Professor). Alumni featured: Kathryn Smith '22, on track to become a Surgical Athletic Trainer four years after graduation.
 - **critical_data:**
   - Degree types: B.A. and B.S. in Kinesiology
@@ -25,26 +21,11 @@
   - FRA courses offered to all SU students
   - Alumni: Kathryn Smith '22 (Surgical Athletic Trainer track)
   - Department mission: discover/disseminate knowledge, educate public, provide service and outreach
-- **retrieval_triggers:**
-  - "what is the kinesiology major"
-  - "what can I do with a kinesiology degree"
-  - "what career paths does kinesiology lead to"
-  - "can kinesiology lead to physical therapy"
-  - "can kinesiology lead to occupational therapy"
-  - "who is the kinesiology department chair"
-  - "does kinesiology prepare me for graduate school"
-  - "can I get teacher certification with kinesiology"
-  - "what is the difference between BA and BS in kinesiology"
-  - "does kinesiology offer fitness classes"
 
 ---
 
 ### Majoring & Minoring
-- **filename:** `Majoring___Minoring.txt`
-- **document_type:** requirements
 - **degree_relevance:** B.A. | B.S. | Minor (Kinesiology) | Minor (Applied Movement and Sport Studies)
-- **time_sensitive:** true
-- **catalog_year:** N/A (check current catalog)
 - **description:** This document defines the complete requirements for all four Kinesiology degree paths. The B.A. requires 11 Kinesiology courses (8 required core + 2-course capstone sequence + at least 8 credit hours of 200-level+ electives) plus one supporting course (MAT52-114 Statistics). The B.S. requires 13 Kinesiology courses (the same 8 core minus Health and Fitness Concepts and Exercise Prescription, plus a 4-course Human Anatomy and Physiology sequence + capstone + electives) plus 7 supporting courses in Biology, Chemistry, Math, and Physics. The Kinesiology minor requires 6 courses (4 required + at least 8 credit hours of 200-level+ electives). The Applied Movement and Sport Studies minor requires 6-8 courses (3 required + at least 12 credit hours of electives from a specified list). Both capstone paths (B.A. and B.S.) consist of KIN48-481 plus either KIN48-483 (Experiential) or KIN48-493 (Experimental); KIN48-954 independent study may substitute with department chair approval and an advance proposal. Students seeking teaching certification may use student teaching to fulfill the capstone requirement.
 - **critical_data:**
   - B.A. = 11 KIN courses + MAT52-114 (1 supporting course)
@@ -60,33 +41,11 @@
   - Kinesiology minor: KIN48-121, 123, 214, 234 + 8 credit hours of 200-level+ electives
   - Applied Movement and Sport Studies minor: KIN48-112, 121, 234 + 12 credit hours from approved list
   - Teacher certification: see Education Department
-- **retrieval_triggers:**
-  - "how many courses does the kinesiology BA require"
-  - "how many courses does the kinesiology BS require"
-  - "what is the difference between the BA and BS in kinesiology"
-  - "what are the required courses for kinesiology"
-  - "what supporting courses does the BS require"
-  - "do I need chemistry for the kinesiology BS"
-  - "do I need calculus for the kinesiology BS"
-  - "do I need physics for the kinesiology BS"
-  - "what is the kinesiology capstone"
-  - "what is KIN48-481"
-  - "what is KIN48-483"
-  - "what is KIN48-493"
-  - "can I substitute the capstone with independent study"
-  - "what is the kinesiology minor"
-  - "what is the applied movement and sport studies minor"
-  - "how many elective credits do I need"
-  - "can I get teacher certification in kinesiology"
 
 ---
 
 ### Courses
-- **filename:** `Courses.txt`
-- **document_type:** course_info
 - **degree_relevance:** B.A. | B.S. | Minor (Kinesiology) | Minor (Applied Movement and Sport Studies)
-- **time_sensitive:** true
-- **catalog_year:** N/A
 - **description:** This document lists all current Kinesiology course offerings (prefix KIN48) with descriptions, prerequisites, Paideia designations, offering frequencies, and interdisciplinary contributions. Courses range from introductory (48-112, 48-121, 48-123) through upper-level (48-324 through 48-493). The two capstone courses (48-481, 48-483, 48-493) are described in detail. Most upper-level courses require KIN48-121/123 and/or KIN48-214 as prerequisites. Several courses carry the (NS) Paideia designation (Natural Sciences); the two capstone completion courses carry (WA). Notable prerequisites chain: 48-253/251 is required for 48-261/263 and 48-474; 48-334 or 48-344 is required for 48-444 and 48-481; 48-481 is required for 48-483 and 48-493. The document also notes that KIN48-251/253 and KIN48-261/263 are cross-listed as BIO50-251/253 and BIO50-261/263. A Selected Topics course (48-302 or 48-304) is available by department chair permission.
 - **critical_data:**
   - KIN48-121 and 48-123: strongly encouraged to take concurrently; both offered Fall and Spring
@@ -105,32 +64,11 @@
   - KIN48-434 (Strength & Conditioning): requires 48-123/121 or 48-253/251; prepares for CSCS certification exam
   - KIN48-474 (Muscle Physiology): requires 48-253/251, BIO50-253/251, or BIO50-424; NS
   - KIN48-454 (Tissue Mechanics): cross-listed as BIO50-454; requires 48-123/121 and either 48-344 or PHY53-154; NS
-- **retrieval_triggers:**
-  - "what kinesiology courses are offered"
-  - "what is KIN48-121"
-  - "what is KIN48-334"
-  - "what are the prerequisites for physiology of exercise"
-  - "what are the prerequisites for biomechanics"
-  - "what are the prerequisites for the capstone"
-  - "what is KIN48-214"
-  - "when is KIN48-334 offered"
-  - "when is KIN48-344 offered"
-  - "what is tissue mechanics"
-  - "what is muscle physiology"
-  - "does kinesiology have a strength and conditioning course"
-  - "what is the CSCS certification"
-  - "what is research methods in kinesiology"
-  - "does kinesiology have a nutrition course"
-  - "what is the psychosocial aspects course"
 
 ---
 
 ### Our Faculty
-- **filename:** `Our_Faculty.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** This document lists all current Kinesiology department faculty with name, title, specialty, email, phone, and office location. Edward Merritt (Garey Chair, Associate Professor, Department Chair; Exercise Physiology, Skeletal Muscle Physiology, Muscle Injury; merritte@southwestern.edu, 512.863.1651, FJS 314). Scott McLean (Interim Dean of the Faculty, Lillian Nelson Pratt Chair in Science, Professor; Exercise and Sport Biomechanics; mcleans@southwestern.edu, 512.863.1195, FJS 411). Diana Combs (PT, Adjunct Research and Teaching Associate; combs2@southwestern.edu). Brooke Measeles (Visiting Instructor; measelesb@southwestern.edu). Vanessa Mikan (Associate Professor of Instruction; mikanv@southwestern.edu, 512.863.1950, FJS 409). Jennifer Ann Stokes (Associate Professor; Respiratory Physiology; stokesj@southwestern.edu, 512.863.1594, FJS 315). Tatiana Zhuravleva (Assistant Professor; zhuravlet@southwestern.edu, 512.863.1361, FJS 313).
 - **critical_data:**
   - Department Chair: Edward Merritt (merritte@southwestern.edu, 512.863.1651, FJS 314)
@@ -138,24 +76,11 @@
   - 7 faculty total (2 full professor-level, 2 associate professors, 1 assistant professor, 1 adjunct, 1 visiting instructor)
   - Research specialties: Exercise Physiology/Muscle (Merritt), Biomechanics (McLean), Respiratory Physiology (Stokes)
   - All offices in FJS building
-- **retrieval_triggers:**
-  - "who is the kinesiology department chair"
-  - "who teaches biomechanics"
-  - "who teaches exercise physiology"
-  - "who teaches respiratory physiology"
-  - "what is Professor Merritt's email"
-  - "where is the kinesiology department"
-  - "who do I contact about the kinesiology major"
-  - "who is Scott McLean"
 
 ---
 
 ### Resources & Facilities
-- **filename:** `Resources___Facilities.txt`
-- **document_type:** resources
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** This document describes the Kinesiology department's laboratory facilities. The Human Performance Laboratory (3,200 sq ft, moved to the science building addition in Fall 2019) houses state-of-the-art equipment for studying human movement. An 800 sq ft applied kinesiology laboratory and a teaching laboratory are located in the Corbin J. Robertson Center. A wet lab in the science building supports molecular physiology research with tools for tissue dissection, histology, and cellular/molecular assays. Major equipment includes a DEXA scanner (GE Lunar Prodigy), 12-camera Vicon Motion Capture System, two Bertec Force Plates, EMG systems, metabolic carts, cycle ergometers, treadmills, a gel electrophoresis system, and hemoglobin and lactate analyzers.
 - **critical_data:**
   - Human Performance Laboratory: 3,200 sq ft, science building addition (moved Fall 2019)
@@ -163,15 +88,6 @@
   - Teaching laboratory: Corbin J. Robertson Center
   - Wet lab: science building (tissue dissection, histology, cellular/molecular assays)
   - Key equipment: DEXA (body composition), Vicon Motion Capture (12 cameras), Force Plates, EMG, metabolic carts, cycle ergometers, treadmills, gel electrophoresis, hemoglobin/lactate analyzers
-- **retrieval_triggers:**
-  - "what facilities does kinesiology have"
-  - "does kinesiology have a motion capture lab"
-  - "what equipment is in the kinesiology lab"
-  - "does kinesiology have a DEXA scanner"
-  - "where is the human performance laboratory"
-  - "does kinesiology have a wet lab"
-  - "what is the Corbin J. Robertson Center"
-  - "does kinesiology have research equipment"
 
 ---
 

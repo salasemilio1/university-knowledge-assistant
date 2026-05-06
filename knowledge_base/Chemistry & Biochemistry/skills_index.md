@@ -10,11 +10,7 @@
 ## SECTION 2 — DOCUMENT REGISTRY
 
 ### Chemistry and Biochemistry Department Overview
-- **filename:** `Chemistry_and_Biochemistry.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** This is the top-level department overview page. It describes the scope of chemistry (study of matter and energy) and biochemistry (chemical processes in living systems) as disciplines. It highlights the curriculum breadth from foundational courses (organic chemistry, quantum mechanics) to electives (food, environmental, medicinal chemistry). It mentions degree options (B.A. and B.S.), faculty grant funding sources (Welch Foundation, Merck, Dreyfus, ACS Petroleum Research Fund, Howard Hughes Medical Institute), state-of-the-art labs, and undergraduate research opportunities. It notes that graduates have been placed in top graduate and medical schools and that alumni have pursued careers in medicine, law, tech, pharmacy, and petrochemicals. It also mentions NSF graduate research fellowships awarded to recent graduates.
 - **critical_data:**
   - Degrees offered: B.A. and B.S. in Chemistry and Biochemistry
@@ -23,7 +19,6 @@
   - Alumni career outcomes: medicine, law, tech, pharmacy, petrochemical industries
   - Recent graduates awarded NSF graduate research fellowships
   - Students and faculty coauthor publications in peer-reviewed journals and present at ACS national meetings
-- **retrieval_triggers:**
   - what can I do with a chemistry degree
   - what's the difference between chemistry and biochemistry
   - is chemistry a good major for med school
@@ -38,11 +33,7 @@
 ---
 
 ### Majoring & Minoring in Chemistry and Biochemistry
-- **filename:** `Majoring___Minoring.txt`
-- **document_type:** requirements
 - **degree_relevance:** B.A. | B.S. | Minor
-- **time_sensitive:** true
-- **catalog_year:** 2025-2026 (current, based on retrieval date)
 - **description:** This is the primary degree requirements document for the department. It lists all required courses and supporting courses for five distinct tracks: Chemistry B.A. (15 courses), Chemistry B.S. (17–18 courses), Chemistry B.S. ACS-Certified (21 courses), Biochemistry B.S. (17–18 courses), and Chemistry Minor (11 courses). Each track specifies exact course codes from the CHE51 prefix series along with required supporting courses in math (MAT52), biology (BIO50), and physics (PHY53). The document notes ACS accreditation and alignment with ASBMB educational guidelines for the biochemistry major. It specifies capstone requirements for all tracks and includes important notes on C- minimum grade policy and course numbering conventions.
 - **critical_data:**
   - Chemistry B.A.: 15 major courses + 2 supporting (MAT52-164, PHY53-154)
@@ -54,7 +45,6 @@
   - All tracks require a senior capstone (CHE51-932 or CHE51-922)
   - At least one of CHE51-313 or CHE51-323 must be taken at SU for all tracks
   - Department is ACS-accredited
-- **retrieval_triggers:**
   - how many courses do I need to graduate
   - what's required for the chemistry major
   - what's the difference between BA and BS in chemistry
@@ -74,11 +64,7 @@
 ---
 
 ### Courses in Chemistry and Biochemistry
-- **filename:** `Courses.txt`
-- **document_type:** course_info
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** 2025-2026
 - **description:** This document provides descriptions, prerequisites, and offering schedules for all current or recent Chemistry and Biochemistry (CHE51) courses. It covers 000-level non-major courses (Chemistry Appreciation, Chemistry of the Environment, Chemistry of Food, Fundamentals of Chemistry), 100-level introductory courses (General Chemistry I & II with labs, Fundamentals of Organic Chemistry, Problem Solving in Chemistry), 200–700 level upper courses (Organic Chemistry I & II with labs, Inorganic Chemistry, Organometallic Chemistry, Materials Science, Analytical courses, Biochemistry I & II, Physical Chemistry, Quantum Mechanics), 800-level advanced labs (Organic, Inorganic, Analytical, Biochemistry, Physical Chemistry), and 900-level capstone and research courses. Semester offerings (Fall/Spring) and Paideia area designations (NS) are noted where available.
 - **critical_data:**
   - Non-major (000-level): CHE51-014 (Chemistry Appreciation), CHE51-024 (Chemistry of the Environment), CHE51-034 (Chemistry of Food), CHE51-083 (Fundamentals of Chemistry)
@@ -92,7 +78,6 @@
   - Capstones: CHE51-922/924 (Senior Biochemistry Capstone, 2 or 4 cr), CHE51-932/934 (Senior Chemistry Capstone, 2 or 4 cr)
   - CHE51-604 (Principles of Biochemistry) explicitly does NOT fulfill requirements for chemistry/biochemistry major or minor
   - CHE51-111 (Problem Solving in Chemistry) must be taken Pass/D/F
-- **retrieval_triggers:**
   - what are the prerequisites for organic chemistry
   - when is general chemistry offered
   - what is the difference between CHE51-604 and CHE51-614
@@ -112,11 +97,7 @@
 ---
 
 ### Our Faculty
-- **filename:** `Our_Faculty.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** N/A
 - **description:** This document lists all current faculty and staff in the Chemistry and Biochemistry department with their titles, email addresses, phone numbers, and office locations where available. Faculty include: Maha Zewail-Foote (Garey Chair and Professor, Department Chair; specialty: DNA structures, drug-DNA interactions, photoinduced DNA damage, genetic instability), Isaac Blythe (Assistant Professor), Paul Handali (Visiting Assistant Professor), Dilani Koswatta (Director of General Chemistry Labs), Chloe Litts (Visiting Assistant Professor of Chemistry and Biochemistry), Chelsea Massaro (Assistant Professor), Sara C. Massey (Assistant Professor; specialty: Physical Chemistry, Biophysical Chemistry, Electronic Spectroscopy), Emily Niemeyer (Professor; specialty: analytical chemistry, flavonoids, Lamiaceae herbs, mass spectrometry, flipped classrooms), Debamita Paul (Part-Time Assistant Professor), and Carmen Vélez (Director of Organic Chemistry Labs).
 - **critical_data:**
   - Department Chair: Maha Zewail-Foote (zewailfm@southwestern.edu, 512.863.1626, Fondren-Jones 340)
@@ -128,7 +109,6 @@
   - Isaac Blythe: blythei@southwestern.edu, 512.863.1883
   - Paul Handali: handalip@southwestern.edu, 512.863.1627
   - Capstone applications submitted to department chair at FJS 317 (Fondren-Jones 317)
-- **retrieval_triggers:**
   - who is the department chair
   - how do I contact a chemistry professor
   - who teaches organic chemistry
@@ -143,11 +123,7 @@
 ---
 
 ### Resources and Facilities
-- **filename:** `Resources_and_Facilities.txt`
-- **document_type:** resources
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** This document describes the research instruments and laboratory equipment available to faculty and students in the Chemistry and Biochemistry department laboratories. Instruments listed include NMR spectrometers at two field strengths (500 MHz and 300 MHz), a gas chromatograph-mass spectrometer (GC-MS), FTIR spectrophotometers, multiple HPLCs, UV-Visible spectrophotometers, a fluorescence spectrophotometer, an atomic absorption spectrometer, an electrochemical analyzer, multiple gas chromatographs, an ultracentrifuge, and a peptide synthesizer. These instruments are used by both faculty and students.
 - **critical_data:**
   - 500 MHz and 300 MHz NMR spectrometers (high-field research instruments)
@@ -162,7 +138,6 @@
   - Ultracentrifuge
   - Peptide synthesizer
   - All instruments shared between faculty and students
-- **retrieval_triggers:**
   - what instruments does the chemistry department have
   - does SU have NMR
   - is there mass spec equipment available
@@ -177,11 +152,7 @@
 ---
 
 ### Welch Summer Research Program
-- **filename:** `Welch_Summer_Research_Program.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** N/A
 - **description:** This document describes the department's Welch Summer Research Program, funded continuously since 1985 by the Robert A. Welch Foundation. The program provides equipment and student stipends for an 8-week summer research experience with a faculty mentor. Research areas include medicinal, organic, analytical, environmental, inorganic, and biochemistry. Approximately 10–12 students participate each year. Summer activities include scientific poster preparation training, oral presentation skills, and discussions on ethics in science. Students conclude with a technical report and present a poster at the campus Student Works Symposium the following spring. Applications are submitted to the department chair at FJS 317 and evaluated based on application strength, faculty interview, research interests, training, and coursework.
 - **critical_data:**
   - Funded since 1985 by the Robert A. Welch Foundation
@@ -194,7 +165,6 @@
   - Concludes with technical report
   - Students present at Student Works Symposium the following spring
   - Research may serve as basis for senior capstone
-- **retrieval_triggers:**
   - how do I apply for summer research
   - what is the Welch program
   - does SU have paid summer research opportunities
@@ -209,11 +179,7 @@
 ---
 
 ### Notable Faculty & Student Achievements
-- **filename:** `Notable_Faculty___Student_Achievements.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** N/A (ongoing log through March 2026)
 - **description:** This document is a chronological log of department accomplishments from approximately 2020 through March 2026. It covers student poster and oral presentations at ACS national and regional meetings, NSF-funded grant awards to faculty (Sara Massey's $250,000 LEAPS-MPS grant from NSF in 2025), peer-reviewed publications by faculty and student coauthors in major journals (PNAS, Nucleic Acids Research, Journal of Chemical Education, Journal of Food Measurement and Characterization, ACS Omega, Plant Foods for Human Nutrition), the first-ever Goldwater Scholarship awarded to an SU student (Brian Armijo '25, biochemistry/mathematics), faculty awards (teaching awards, scholarly works award, advising award), community outreach activities, and international conference presentations. Key faculty featured include Emily Niemeyer, Sara Massey, Maha Zewail-Foote, Carmen Vélez, Dilani Koswatta, and formerly Mike Gesinski.
 - **critical_data:**
   - Brian Armijo '25: first-ever SU Goldwater Scholar (biochemistry/mathematics double major)
@@ -224,7 +190,6 @@
   - ACS SURF Fellowship awarded to Sean Calvert '22 (gold catalysis research)
   - Students win Best Presentation Awards at UT Austin FURS symposium
   - Community-engaged learning (CEL) projects connecting chemistry students with local elementary schools
-- **retrieval_triggers:**
   - what awards have chemistry students won
   - has an SU chemistry student ever won a Goldwater Scholarship
   - what research does Dr. Massey do
@@ -239,17 +204,12 @@
 ---
 
 ### After Southwestern
-- **filename:** `After_Southwestern.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** This brief document provides post-graduation alumni engagement information for the Chemistry and Biochemistry department. It contains a link for alumni to make donations to the department, with instructions to select "Chemistry department" as the gift designation. It also provides the department chair email (zewailfm@southwestern.edu) for alumni wishing to update the department on their post-graduation activities. This document contains minimal information about career outcomes — career outcome details are found in the main Chemistry_and_Biochemistry.txt overview document.
 - **critical_data:**
   - Alumni donations: select "other" as gift designation, write "Chemistry department"
   - Alumni updates: email zewailfm@southwestern.edu
   - Contact for alumni engagement is the department chair
-- **retrieval_triggers:**
   - how do I donate to the chemistry department
   - how do I stay in touch with SU chemistry after graduating
   - where do I send alumni news

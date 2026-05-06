@@ -16,11 +16,7 @@ This index covers all available documents for the Computational Mathematics prog
 ## SECTION 2 — DOCUMENT REGISTRY
 
 ### Majoring and Minoring in Mathematics / Computer Science / Computational Mathematics
-- **filename:** `Majoring___Minoring.txt`
-- **document_type:** requirements
 - **degree_relevance:** B.A., B.S.
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Contains the complete degree requirements for all three majors in the MAT/CSC department: Mathematics, Computer Science, and Computational Mathematics (both B.A. and B.S.). For Computational Mathematics specifically, lists all 10 required core courses (CSC54-184, CSC54-284, CSC54-384, CSC54-394, CSC54-454, MAT52-164, MAT52-264, MAT52-364, MAT52-674, MAT52-754), two elective courses chosen from a pool of four (CSC54-414, CSC54-514, MAT52-524, MAT52-574), one additional approved upper-level elective for B.A. (or two for B.S.), and the capstone senior seminar. Details the B.S. supporting science requirement (4 additional courses in Biology, Chemistry, and Physics). Includes critical departmental notes on prerequisite grade minimums (C-), course sequencing restrictions, upper-level course definitions, and Honors credit counting rules. References teacher certification via the Education Department.
 - **critical_data:**
   - B.A. in Computational Mathematics: 14 courses total
@@ -36,7 +32,6 @@ This index covers all available documents for the Computational Mathematics prog
   - Honors credit (MAT52-984 or CSC54-984) counts at most once as an approved upper-level elective
   - B.S. supporting sciences: BIO50-173/171, CHE51-103/101, PHY53-154, plus one of: BIO50-183/181, CHE51-203/201, PHY53-164, or PHY53-404
   - Teacher certification: contact the Education Department
-- **retrieval_triggers:**
   - how many courses do I need for the computational mathematics major
   - what is required for the computational mathematics BA
   - what is required for the computational mathematics BS
@@ -54,11 +49,7 @@ This index covers all available documents for the Computational Mathematics prog
 ---
 
 ### Computer Science Courses
-- **filename:** `Courses.txt`
-- **document_type:** course_info
 - **degree_relevance:** B.A., B.S.
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Lists all current or recent Computer Science (CSC54-prefix) course offerings with full descriptions, prerequisites, offering terms, and Paideia designations. Covers CSC54-144 through CSC54-894, including all courses required or eligible for the Computational Mathematics major: CSC54-184 (Computer Science I, Fall/Spring), CSC54-284 (Computer Science II, Spring), CSC54-384 (Discrete Mathematics, Fall), CSC54-394 (Computer Organization, Fall), CSC54-454 (Algorithms, Spring), CSC54-414 (Operations Research), CSC54-514 (Database Management), and CSC54-894 (Senior Seminar in Software Engineering, Spring). Also describes elective and non-major courses: CSC54-144 (Explorations in Computing), CSC54-291 (Puzzling Programs), CSC54-424 (Artificial Intelligence), CSC54-474 (Programming Languages), CSC54-524 (Introduction to Numerical Analysis), CSC54-534 (Functional Programming), CSC54-644 (Computer Systems), CSC54-684 (Theory of Computation), and CSC54-844 (Seminar in Special Topics). Notes which courses contribute to Data Analytics and Data Science, Design Thinking, and Neuroscience Paideia tracks.
 - **critical_data:**
   - CSC54-144: Cannot count toward CS major or minor; for non-majors; (NS) designation
@@ -72,7 +63,6 @@ This index covers all available documents for the Computational Mathematics prog
   - CSC54-894: Offered Spring only; prerequisite: five CS courses at 300+ level AND permission AND one of CSC54-454, CSC54-514, or CSC54-474 completed; (NS)(WA)
   - CSC54-291: Must be taken Pass/D/F; cannot count toward major or minor; repeatable
   - CSC54-844: Repeatable; seminar on special topics not generally covered elsewhere
-- **retrieval_triggers:**
   - what is computer science I about
   - what is the prerequisite for algorithms
   - when is CSC54-284 offered
@@ -90,11 +80,7 @@ This index covers all available documents for the Computational Mathematics prog
 ---
 
 ### Placement Information
-- **filename:** `Placement_Information.txt`
-- **document_type:** advising
 - **degree_relevance:** B.A., B.S.
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Provides guidance for students entering the CS/Math department with prior programming experience or transfer credits. Explains AP exam credit policies: a score of 4 or 5 on AP Computer Science A earns credit for CSC54-184; a score of 4 or 5 on AP Computer Science Principles earns credit for CSC54-144 only (which does not count toward the major or minor). Advises students with AP CS A coursework but no credit, or with prior programming experience, to contact Dr. Anthony and Dr. Schrum for placement. Details three Texas Community College transfer equivalencies: COSC 1336 transfers as a selected topics course (not major-eligible), COSC 1337 transfers as CSC54-184, and COSC 2336 transfers as CSC54-284. Notes a Java-language caveat for COSC 1337 transfers.
 - **critical_data:**
   - AP CS A (score 4 or 5): credit for CSC54-184 (Computer Science I)
@@ -104,7 +90,6 @@ This index covers all available documents for the Computational Mathematics prog
   - COSC 1337 → CSC54-184; Java caveat applies
   - COSC 2336 → CSC54-284 (Computer Science II)
   - Non-majors: CSC54-144 Explorations in Computing is appropriate
-- **retrieval_triggers:**
   - does my AP computer science credit count
   - I got a 5 on AP CS A what credit do I get
   - I took AP computer science principles will it count for the major
@@ -121,11 +106,7 @@ This index covers all available documents for the Computational Mathematics prog
 ---
 
 ### Computer Science Resources
-- **filename:** `Resources.txt`
-- **document_type:** resources
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Compiles external and campus resources for CS/Math students across five categories. Conferences and meetings include SIGCSE (spring, February/March), Tapia Conference, and Grace Hopper Celebration. Contest and competition resources include ACM-ICPC, FIRST Robotics, and student research competitions. Campus opportunities include the King Creativity Fund (creative project funding for student groups) and SCOPE (summer research program at SU where CS faculty frequently participate). Summer programs list NSF REU sites. Career and internship resources include ACM jobs, IBM Research, Google Internships, RADIANT at Los Alamos, IBM Extreme Blue, and women-in-CS resources. Graduate school resources include guides to PhD programs in CS, links to research groups at Caltech, Columbia, CMU Robotics Institute, UT Austin, Michigan State, UC Berkeley, and University of Colorado Boulder. Professional organizations include ACM, IEEE, AnitaB.org, NCWIT, USENIX, and Computing Research Association.
 - **critical_data:**
   - King Creativity Fund: on-campus creative project funding available to student groups
@@ -135,7 +116,6 @@ This index covers all available documents for the Computational Mathematics prog
   - Key professional orgs: ACM, IEEE, UPE, AnitaB.org, NCWIT
   - Conferences: SIGCSE (Feb/March), Tapia, Grace Hopper
   - Graduate guides: ACM Crossroads PhD guide; "The 4 R's of Graduate School" by Manuel Blum
-- **retrieval_triggers:**
   - how do I find internships in computer science
   - what research opportunities are available for CS students
   - what is SCOPE
@@ -153,11 +133,7 @@ This index covers all available documents for the Computational Mathematics prog
 ---
 
 ### Computer Science Faculty
-- **filename:** `Faculty.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Lists all MAT/CSC department faculty with name, title, specialty, email, phone, and office location. Computer Science faculty: Barbara M. Anthony (Lord Chair, Professor of CS and Department Chair; Approximation Algorithms, Network Design, Operations Research, Graph Theory, Algorithmic Game Theory), Arjun Chandrasekhar (Assistant Professor; Computational Biology, Distributed Algorithms, Graph Theory), and Jacob Schrum (Associate Professor; AI and Computer Games, Evolutionary Computation, Neural Networks, Neuroevolution, Procedural Content Generation). Mathematics faculty: Alison Marr (Garey Chair and Professor; Graph Theory, Graph Labeling, Recreational Mathematics) and Kendall Richards (Professor; Special Functions, Inequalities, Complex Analysis). All faculty are located in the Fondren-Jones building.
 - **critical_data:**
   - Department Chair: Barbara M. Anthony — anthonyb@southwestern.edu — 512.863.1448 — Fondren-Jones 309
@@ -166,7 +142,6 @@ This index covers all available documents for the Computational Mathematics prog
   - Alison Marr (Math) — marra@southwestern.edu — 512.863.1496 — Fondren-Jones 305
   - Kendall Richards (Math) — richards@southwestern.edu — 512.863.1556 — Fondren-Jones 202
   - All faculty in Fondren-Jones building
-- **retrieval_triggers:**
   - who is the CS department chair
   - how do I contact Dr. Anthony
   - how do I contact Dr. Schrum
@@ -180,17 +155,12 @@ This index covers all available documents for the Computational Mathematics prog
 ---
 
 ### For Current Students
-- **filename:** `For_Current_Students.txt`
-- **document_type:** resources
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Brief page for current MAT/CSC students covering extracurricular involvement and departmental awards. Lists student organizations: Upsilon Pi Epsilon (UPE), ACM Chapter, and the ACM Programming Contest team. Points to a computer science resources link for national competitions, careers, graduate schools, internships, organizations, and conferences. Describes two annual departmental awards: the Atkin Memorial Scholarship (awarded to the top junior in mathematics, computer science, or computational mathematics) and the Grogan Lord Award in Computer Science (awarded to the top senior in computer science).
 - **critical_data:**
   - Atkin Memorial Scholarship: awarded annually to top junior in mathematics, computer science, OR computational mathematics
   - Grogan Lord Award in Computer Science: awarded annually to top senior in computer science
   - Student organizations: UPE, ACM Chapter, ACM Programming Contest
-- **retrieval_triggers:**
   - what awards can computational mathematics students win
   - what is the Atkin Memorial Scholarship
   - what is the Grogan Lord Award
@@ -202,11 +172,7 @@ This index covers all available documents for the Computational Mathematics prog
 ---
 
 ### Clubs and Honor Societies
-- **filename:** `Clubs_and_Honor_Societies.txt`
-- **document_type:** resources
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Describes three student organizations affiliated with the MAT/CSC department. The ACM Club is a student chapter of the Association for Computing Machinery meeting in the Chapman-Whitmore student lounge; activities include guest speakers, game nights, a Computing Museum in Mood-Bridwell Hall, and a campus retro game night; members join via the su-acm Google Group through an SU email account. Upsilon Pi Epsilon (UPE) is an international CS honor society founded in 1967; induction requires a minimum number of CS credit hours and minimum overall and major GPA; SU's chapter hosts an annual distinguished speaker and induction ceremony. The ACM Programming Contest team practices weekly for various programming contests; contact Dr. Schrum for information.
 - **critical_data:**
   - ACM Club: open to all; meets in Chapman-Whitmore student lounge; join via su-acm Google Group (SU email required)
@@ -214,7 +180,6 @@ This index covers all available documents for the Computational Mathematics prog
   - ACM Programming Contest: weekly practice; contact Dr. Jacob Schrum (schrum2@southwestern.edu)
   - UPE hosts annual distinguished speaker and induction ceremony
   - Computing Museum located in Mood-Bridwell Hall
-- **retrieval_triggers:**
   - how do I join the ACM club
   - what is UPE
   - how do I get into Upsilon Pi Epsilon

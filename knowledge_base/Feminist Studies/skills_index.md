@@ -16,18 +16,13 @@ This index covers all available documents for the Feminist Studies (FST) program
 ## SECTION 2 — DOCUMENT REGISTRY
 
 ### Feminist Studies Program Overview
-- **filename:** `Feminist_Studies.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Provides a high-level overview of the Feminist Studies curriculum and its goals. Explains that the program combines feminist theory with analyses of feminist activism, identifications, and practices. Covers the program's focus on categories of difference (gender, race, class, sexuality, disability, age, religion, nation). Describes the revision of traditional disciplines through feminist methodologies. Notes career preparation areas including non-profit, law, journalism, theology, public policy, healthcare, and cultural studies. Explains FST's status as a Paideia Minor and describes the broader Paideia framework including Paideia with Distinction and the Paideia Seminar.
 - **critical_data:**
   - FST is one of the Paideia Minors
   - Paideia with Distinction requires: one Paideia Minor (or two High-Impact Experiences) + a Paideia Seminar
   - Career preparation areas: non-profit, social services, law, journalism, theology, public policy, health care, cultural studies, education, and other academic disciplines
   - The program emphasizes interdisciplinary feminist methodologies
-- **retrieval_triggers:**
   - what is feminist studies
   - what is the FST program about
   - what can I do with a feminist studies degree
@@ -44,11 +39,7 @@ This index covers all available documents for the Feminist Studies (FST) program
 ---
 
 ### Courses in Feminist Studies
-- **filename:** `Courses.txt`
-- **document_type:** course_info
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Lists all current or recent FST course offerings with full descriptions. Includes the four primary FST-prefix courses: FST04-104 Introduction to Feminist Studies, FST04-204 Feminist Theories and Methods, FST04-284 Topics in Feminist Theory, FST04-304 Selected Topics, FST04-314 Latina Lesbian Literature, FST04-324 Radical Women of Color, and FST04-934 Senior Seminar. Each description details topics covered, intersectional frameworks, and prerequisite requirements. Notes which courses contribute to Race and Ethnicity Studies, and which carry Paideia designations (H, ScS, SJ, PJ, WA).
 - **critical_data:**
   - FST04-104: No prerequisites; Paideia designations (H)(ScS)(SJ)(PJ); contributes to Race and Ethnicity Studies/Allied Course
@@ -58,7 +49,6 @@ This index covers all available documents for the Feminist Studies (FST) program
   - FST04-314: Prerequisite FST04-104 or instructor-approved alternative; contributes to English, Latin American and Border Studies, and Race and Ethnicity Studies/Concepts Course; Paideia designation (H)
   - FST04-324: Prerequisite FST04-104 or instructor-approved alternative; contributes to Race and Ethnicity Studies/Concepts Course; Paideia designation (H)
   - FST04-934: Senior Seminar (Fall); Paideia designation (WA); serves as capstone
-- **retrieval_triggers:**
   - what courses does FST offer
   - what is FST 104
   - what is introduction to feminist studies
@@ -76,11 +66,7 @@ This index covers all available documents for the Feminist Studies (FST) program
 ---
 
 ### Majoring and Minoring in Feminist Studies
-- **filename:** `Majoring___Minoring.txt`
-- **document_type:** requirements
 - **degree_relevance:** B.A., Minor
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Contains the complete degree requirements for all FST degree paths. Specifies the 9-course FST major requirements including required core courses (FST04-104, FST04-204, FST04-934) and six additional electives (four must be upper level). Details the 5-course FST minor requirements (FST04-104, FST04-204, plus three additional courses, two must be upper level). Lists contributing courses from 15+ other departments including Anthropology, Art History, Communication Studies, English, German, History, Philosophy, Political Science, Religion, Sociology, and Spanish. Provides full requirements for the Paired Major in English and Feminist Studies (15 courses) and the Paired Major in Feminist Studies and History (15 courses). Includes graduate school preparation note recommending Mathematics 52-114 and methods courses.
 - **critical_data:**
   - Major: 9 courses total — FST04-104, FST04-204, FST04-934 (required) + 6 additional FST courses (4 must be upper level)
@@ -91,7 +77,6 @@ This index covers all available documents for the Feminist Studies (FST) program
   - Contributing courses span: ANT, ARH, COM, ENG, GER, HIS, PHI, PSC, REL, SOC, SPA
   - Graduate school note: take MATH 52-114 and at least one methods course (ANT35-214, ECO31-314, HIS16-854, PHI18-402, PSC32-794, PSY33-204, PSY33-214, REL19-314, SOC34-203/201)
   - Paired major restriction: cannot also minor in English or History if doing the respective paired major
-- **retrieval_triggers:**
   - how many courses do I need to major in FST
   - what are the requirements for the feminist studies major
   - what is required for the FST minor
@@ -114,18 +99,13 @@ This index covers all available documents for the Feminist Studies (FST) program
 ---
 
 ### Our Faculty
-- **filename:** `Our_Faculty.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Lists all primary FST faculty and affiliated faculty with contact information, titles, specialties, and office locations. Core FST faculty include Elaine Craddock (Professor of Religion and Department Chair), Ken Mello (Associate Professor of Religion), and Meagan Solomon (Assistant Professor of Feminist Studies). Affiliated faculty span 12+ departments including German, Philosophy, History, English, Anthropology, Environmental Studies, Sociology, French, Spanish, and Art History. Provides email addresses and phone numbers for all listed faculty. Office locations provided for some faculty members.
 - **critical_data:**
   - Department Chair: Elaine Craddock — craddoce@southwestern.edu — 512.863.1963
   - Core FST faculty: Elaine Craddock, Ken Mello, Meagan Solomon
   - Meagan Solomon (solomonm@southwestern.edu, 512.863.1343) specializes in Latina Lesbian Literature, Chicana Feminist Literature, Women of Color Feminisms, Queer and Lesbian Studies, Decolonial Feminist Theories
   - Affiliated faculty include: Erika Berroth (German), Michael Bray (Philosophy), Melissa K Byrnes (History), Eileen Cleere (English), Laura Hobgood (Religion), Jessica Hower (History), Joseph E. Hower (History), Melissa Johnson (Anthropology), Joshua Long (Environmental Studies), Maria R. Lowe (Sociology), Aaron Prevots (French), Katy Bourland Ross (Spanish), Kimberly Smith (Art History)
-- **retrieval_triggers:**
   - who teaches feminist studies
   - who is the FST department chair
   - how do I contact my feminist studies advisor
@@ -140,11 +120,7 @@ This index covers all available documents for the Feminist Studies (FST) program
 ---
 
 ### Special Opportunities in Feminist Studies
-- **filename:** `Special_Opportunities.txt`
-- **document_type:** resources
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Describes FST's speaker/event series, which invites prominent scholars, artists, and activists to campus. Notes collaboration with other departments and lectureships, most notably the Fleming Funds in Religious Studies. Describes varied event formats including live performance, student-speaker collaborations, panel discussions, and formal lectures. Lists past topics ranging from environmental causes of cancer to feminist disability studies and anti-racist feminist activism. Notes that lectures and performances are free, open to the public, and often followed by receptions or book signings. Highlights visiting scholar interactions with FST students and faculty.
 - **critical_data:**
   - Events are free and open to the public
@@ -152,7 +128,6 @@ This index covers all available documents for the Feminist Studies (FST) program
   - Past speakers include: Gloria Anzaldúa, Kate Bornstein, Eli Clare, Bonnie Thorton Dill, Donna Haraway, bell hooks, Chandra Talpede Mohanty, Cherríe Moraga, Minnie Bruce Pratt, Dorothy Roberts
   - Event formats: live performance, student-speaker collaborations, panel discussions, formal lectures
   - Visiting speakers interact with FST students both formally and informally
-- **retrieval_triggers:**
   - what events does FST host
   - does FST bring in guest speakers
   - feminist studies speaker series
@@ -167,18 +142,13 @@ This index covers all available documents for the Feminist Studies (FST) program
 ---
 
 ### After Southwestern — Feminist Studies
-- **filename:** `After_Southwestern.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Briefly describes career and graduate school outcomes for FST majors and minors. States that FST graduates are well-prepared for graduate study in any field as well as a range of professions. Lists examples of graduate programs: medical school, law school, and PhD programs in Philosophy, Political Science, and Women's and Gender Studies. Lists professional paths: social workers, librarians, activists, and artists. Provides the university's Georgetown, Texas contact information and phone number.
 - **critical_data:**
   - Graduate programs: medical school, law school, PhD in Philosophy, PhD in Political Science, PhD in Women's and Gender Studies
   - Professional paths: social workers, librarians, activists, artists
   - FST prepares students for graduate study in any field
   - SU contact: Georgetown, Texas, 512.863.6511
-- **retrieval_triggers:**
   - what can I do after a feminist studies degree
   - does FST prepare me for grad school
   - can I go to law school with a feminist studies degree
@@ -192,15 +162,10 @@ This index covers all available documents for the Feminist Studies (FST) program
 ---
 
 ### Notable Faculty and Student Achievements
-- **filename:** `Notable_Faculty___Student_Achievements.txt`
-- **document_type:** resources
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Contains information about notable achievements by FST faculty and students. (Full content requires retrieval — not fully previewed in context.) Likely covers awards, publications, research recognition, student honors, and other accomplishments by members of the FST program community.
 - **critical_data:**
   - Specific achievements require document retrieval for full detail
-- **retrieval_triggers:**
   - FST faculty awards
   - student achievements in feminist studies
   - notable FST alumni

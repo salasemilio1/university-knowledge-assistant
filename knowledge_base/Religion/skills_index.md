@@ -10,37 +10,18 @@
 ## SECTION 2 — DOCUMENT REGISTRY
 
 ### Religion Program Overview
-- **filename:** `Religion.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Provides a high-level introduction to the Religion program at Southwestern University. Describes the academic discipline of religious studies as inherently interdisciplinary, drawing on philosophy, art, history, sociology, anthropology, psychology, language studies, literature, politics, economics, cultural studies, gender studies, and ethnic studies. Identifies Elaine Craddock as Professor of Religion and Department Chair. Notes that the program introduces students to a variety of global religious traditions with the goal of creating empathetic understanding of differences. Briefly references alumni outcomes ("Cultivating a Global Perspective") and links to Religion News. Does not list specific degree requirements or course offerings.
 - **critical_data:**
   - Religion is an academic discipline at SU using critical analysis across many fields
   - Department Chair: Elaine Craddock, Professor of Religion
   - Program goal: empathetic understanding of global religious differences
   - Alumni pursue dual degree master's programs at world-renowned institutions
-- **retrieval_triggers:**
-  - "what is the religion major about"
-  - "why study religion at Southwestern"
-  - "who chairs the religion department"
-  - "what can I do with a religion degree"
-  - "is religion interdisciplinary"
-  - "overview of religion program"
-  - "religion department contact"
-  - "alumni outcomes religion major"
-  - "religion and global perspectives"
-  - "what fields does religion draw from"
 
 ---
 
 ### Majoring and Minoring in Religion
-- **filename:** `Majoring___Minoring.txt`
-- **document_type:** requirements
 - **degree_relevance:** B.A., Minor
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Specifies the complete course requirements for both the Religion major (9 courses) and the Religion minor (5 courses). For the major, students must complete REL19-814 Doing Religion, REL19-894 Religion Capstone (taken fall of senior year), three courses chosen from a world traditions group (Christian, Native American, Jewish, Islamic, Hindu, Buddhist), and four courses chosen from a thematic/upper-level elective pool. For the minor, students must complete REL19-814 Doing Religion plus four additional religion courses, at least two of which must be 300-level or higher. Notes that students may choose a paired major between Religion and Feminist Studies. Does not specify credit hour counts per course or GPA minimums beyond what is implied by SU policies.
 - **critical_data:**
   - Major requires 9 courses total
@@ -51,29 +32,11 @@
   - Minor requires 5 courses: REL19-814 + four religion courses (at least two at 300-level or higher)
   - Paired major option available: Religion and Feminist Studies
   - Paired major restriction: cannot be declared as a double major (see cross-reference flags)
-- **retrieval_triggers:**
-  - "how many courses for religion major"
-  - "what do I need to major in religion"
-  - "religion minor requirements"
-  - "what courses count toward the religion major"
-  - "can I minor in religion"
-  - "religion and feminist studies paired major"
-  - "do I need the capstone for the major"
-  - "when do I take the religion capstone"
-  - "what are the elective options for religion major"
-  - "how many 300-level courses for religion minor"
-  - "difference between religion major and minor"
-  - "what is REL19-814"
-  - "is Doing Religion required"
 
 ---
 
 ### Religion Courses
-- **filename:** `Courses.txt`
-- **document_type:** course_info
 - **degree_relevance:** B.A., Minor
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Lists all current or recent course offerings in the Religion department with full descriptions and Paideia designation codes. Covers 21 named courses plus one cross-listed course (Muslims in Europe, see History 16-514). World traditions survey courses include Christian Traditions (19-204), Native American Traditions (19-214), Jewish Traditions (19-224), Islamic Traditions (19-244), Hindu Traditions (19-274), and Buddhist Traditions (19-284). Thematic upper-level courses include Selected Topics (19-304), Women Goddesses and Religion (19-324), Apocalypse and Dystopia (19-334), Animals and Religion (19-344), Gender and Sexuality in Native America (19-354), Pilgrimage (19-364), Sacred Space and the Environment (19-374), Rastas Saints and Virgins (19-384), Indigenous Myth and Narrative (19-394), Religion and Animation (19-404), The Body in Religion (19-414), Indigenous TV and Film (19-424), Muslims in Europe (19-534), Topics in Religion (19-714), Doing Religion (19-814), and Religion Capstone (19-894). Notes which courses are offered in specific semesters (Doing Religion in Spring; Capstone in Fall) and which carry Paideia designations (H, SJ, PJ, WA). Notes interdisciplinary contributions to programs such as International Studies, Feminist Studies, Environmental Studies, Anthropology, Race and Ethnicity Studies, East Asian Studies, Legal Studies, and Animal Studies.
 - **critical_data:**
   - 21 courses listed plus one cross-listed (Muslims in Europe)
@@ -84,63 +47,22 @@
   - Courses with (PJ): 19-204, 19-214, 19-274, 19-284, 19-324, 19-334, 19-344, 19-384
   - 19-304 Selected Topics and 19-714 Topics in Religion may be repeated with change of topic
   - Muslims in Europe (19-534) cross-listed with History 16-514
-- **retrieval_triggers:**
-  - "what religion courses are offered"
-  - "what is Animals and Religion about"
-  - "what is the Pilgrimage course"
-  - "does religion have a writing course"
-  - "which religion courses count for Power and Justice"
-  - "religion courses that satisfy Paideia"
-  - "what is Topics in Religion"
-  - "can I take Selected Topics more than once"
-  - "what is 19-814"
-  - "what is the Body in Religion course"
-  - "which religion courses count for International Studies"
-  - "what is Indigenous TV and Film"
-  - "religion course on Islam"
-  - "religion course on Hinduism"
-  - "religion course on Buddhism"
-  - "gender and religion course"
-  - "environment and religion course"
-  - "when is Doing Religion offered"
-  - "when is the capstone offered"
 
 ---
 
 ### Our Faculty
-- **filename:** `Our_Faculty.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Lists the four faculty members in the Religion department with their titles, specialties, contact information, and office locations. Elaine Craddock is Professor of Religion and Department Chair, specializing in Hinduism, Feminism and Religion, Tamil literature, and Religion and the Body (craddoce@southwestern.edu, 512.863.1963). Laura Hobgood is Professor of Religion, specializing in animals in the Christian tradition, human-dog history, religion and ecology, ecofeminism, and human-animal studies (hobgood@southwestern.edu, 512.863.1669, Mood-Bridwell 136). Ken Mello is Associate Professor of Religion, specializing in Native American traditions, Contemporary Indigenous Identity, Sacred Space, Gender and Sexuality, and Indigenous Myth and Narratives (mellok@southwestern.edu, 512.863.1964, Mood-Bridwell 138). Sarah Summers is listed as Part-Time Instructor/Professor (summers3@southwestern.edu) with no listed specialty or office location.
 - **critical_data:**
   - Elaine Craddock: Department Chair; Hinduism, Feminism, Tamil literature, Religion and the Body; craddoce@southwestern.edu; 512.863.1963
   - Laura Hobgood: Animals and religion, ecofeminism, religion and ecology; hobgood@southwestern.edu; 512.863.1669; Mood-Bridwell 136
   - Ken Mello: Native American traditions, sacred space, gender/sexuality; mellok@southwestern.edu; 512.863.1964; Mood-Bridwell 138
   - Sarah Summers: Part-time instructor; summers3@southwestern.edu
-- **retrieval_triggers:**
-  - "who teaches religion at Southwestern"
-  - "religion department faculty"
-  - "who is the religion department chair"
-  - "how do I contact a religion professor"
-  - "who teaches Native American traditions"
-  - "who teaches Hinduism"
-  - "who teaches animals and religion"
-  - "religion professor email"
-  - "where is the religion department office"
-  - "who is Professor Hobgood"
-  - "who is Professor Craddock"
-  - "who is Professor Mello"
 
 ---
 
 ### Notable Faculty and Student Achievements
-- **filename:** `Notable_Faculty___Student_Achievements.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** 2020–2026
 - **description:** Chronicles faculty accomplishments from September 2020 through March 2026. Professor Laura Hobgood is the most frequently featured faculty member, with ongoing media appearances, publications, documentary filmmaking, board service, and invited lectures related to animals, religion, and ecology. Professor Elaine Craddock published peer-reviewed articles in the International Journal of Hindu Studies (March 2024) and Feminist Review (December 2023) and has expertise in Tamil Nadu communities and caste/class/religion intersections. Part-Time Assistant Professor Andrea Gutiérrez won the 2021 DK Award for Outstanding Doctoral Thesis on Sanskrit. Professor Hobgood contributed chapters to Animals and Religion (Routledge, 2024), Religion and Nature in North America (Bloomsbury, 2024), and other edited volumes, and was featured in The Atlantic (2021) and on NPR. The Animals and Religion Group at the American Academy of Religion, co-founded by Dr. Hobgood, celebrated 25 years of activity in 2025.
 - **critical_data:**
   - Laura Hobgood: featured on Relationscapes podcast (March 2026); AAR panel (December 2025); documentary interview "Immortality Key" (2024); chapters in Routledge and Bloomsbury volumes (2024); NPR appearances; Atlantic feature (2021)
@@ -148,17 +70,6 @@
   - Andrea Gutiérrez: 2021 DK Award for Outstanding Doctoral Thesis on Sanskrit (international prize, awarded once every 3 years)
   - Animals and Religion Group at AAR co-founded by Hobgood; 25 years active as of 2025
   - Hobgood joined Board of Directors of Education Congo (June 2023)
-- **retrieval_triggers:**
-  - "what has Professor Hobgood published"
-  - "religion faculty research"
-  - "awards won by religion faculty"
-  - "what is Professor Craddock researching"
-  - "religion department in the news"
-  - "faculty publications religion"
-  - "who won an award in religion"
-  - "animals and religion research"
-  - "Andrea Gutiérrez Sanskrit award"
-  - "religion professor documentary"
 
 ---
 

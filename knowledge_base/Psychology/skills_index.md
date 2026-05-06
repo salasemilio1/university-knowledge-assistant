@@ -10,11 +10,7 @@
 ## SECTION 2 — DOCUMENT REGISTRY
 
 ### Psychology Department Overview
-- **filename:** `Psychology.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Provides a broad introduction to the Psychology major and minor at Southwestern University. Describes the academic scope of the discipline including the study of brain, behavior, emotion, and cognition. Highlights student opportunities such as conducting scientific research, presenting at national and international conferences, and coauthoring publications with faculty. Lists specific research topics students have worked on (neural development of reproductive physiology, sexuality and relationships, evolutionary psychology). Notes that psychology prepares students for graduate programs and a wide range of careers including medicine, veterinary science, marketing, and business. Includes the department's Statement on Social Justice affirming equality of rights regardless of gender, sexual orientation, race, ethnicity, age, or religion.
 - **critical_data:**
   - Psychology offered as major (B.A. or B.S.) and minor
@@ -23,7 +19,6 @@
   - Career paths include medicine, veterinary science, marketing, and business
   - Department Chair: Carin Perilloux, Associate Professor of Psychology
   - Department social justice statement affirming equality of all students
-- **retrieval_triggers:**
   - what can I do with a psychology degree
   - why major in psychology at Southwestern
   - what is the psychology department like
@@ -38,11 +33,7 @@
 ---
 
 ### Majoring and Minoring in Psychology
-- **filename:** `Majoring___Minoring.txt`
-- **document_type:** requirements
 - **degree_relevance:** B.A. | B.S. | Minor
-- **time_sensitive:** true
-- **catalog_year:** 2024-2025 (assumed current)
 - **description:** The definitive source for Psychology degree and minor requirements at Southwestern. Details the B.A. (8–9 courses) and B.S. (8–9 major courses plus 8 required supporting science/math courses) degree paths, including all required core courses, elective options, research methods options, and capstone requirements. Specifies PSY33-104 Principles of Psychology as the gateway course for all paths. Describes two capstone tracks: 8 credits of research (in one of six named research labs) or 8 credits of academic internship. Lists supporting courses for the B.S. including biology, chemistry, physics, calculus, and computer science sequences. Covers the 5-course Minor in Psychology and 5-course Minor in Neuroscience. Notes that a minimum grade of C is required for a psychology course to serve as a prerequisite for the next.
 - **critical_data:**
   - B.A.: 8–9 courses in psychology; requires PSY33-104, one Research Methods course, four core courses (at least two at 500-level), one additional elective, and a capstone
@@ -55,7 +46,6 @@
   - Minor in Neuroscience: 5 courses (details implied; see document)
   - Minimum grade of C required for any psych course to count as prerequisite
   - Behavioral Neuroscience (PSY33-534) cannot count in both the major and B.S. supporting courses
-- **retrieval_triggers:**
   - psychology major requirements
   - BA vs BS in psychology
   - how many courses to major in psychology
@@ -75,18 +65,13 @@
 ---
 
 ### Psychology Courses
-- **filename:** `Courses.txt`
-- **document_type:** course_info
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** 2024-2025 (assumed current)
 - **description:** Contains course listings and descriptions for all Psychology department courses. This is the primary source for individual course content, prerequisites, credit hours, and offering schedules. Covers introductory, upper-level, and 500-level courses as well as research and capstone courses. Should be retrieved for any question about a specific course's content, prerequisites, or scheduling. Complements `Majoring___Minoring.txt` which lists course numbers without full descriptions.
 - **critical_data:**
   - Full descriptions of all PSY33-prefixed courses
   - Prerequisites listed per course
   - Offering schedules (Fall/Spring/May term indicated per course)
   - Research lab and capstone course details
-- **retrieval_triggers:**
   - what is PSY33-[number] about
   - what are the prerequisites for [course name]
   - when is [psychology course] offered
@@ -106,11 +91,7 @@
 ---
 
 ### Our Faculty
-- **filename:** `Our_Faculty.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Lists all current Psychology Department faculty members with name, title, specialty, email, phone, and office location. The department has 5 core faculty plus part-time/adjunct instructors. Specialties span social psychology, behavioral neuroscience, personality psychology, clinical psychology, lifespan psychology, health psychology, cognitive psychology, and evolutionary psychology. Faculty include Carin Perilloux (Department Chair, evolutionary psychology/human mating/ASMR), Erin Crockett (relationship sciences/health/human development), Traci Giuliano (social psychology/human sexuality/gender), Fay Guarraci (drugs of abuse/sexual motivation/fertility), Karen Hjortsvang Lara (developmental psychology/social cognition/theory of mind/emotions), and Bryan D. Neighbors (associate professor). Samuel Brock and Ashley Leon are listed as part-time/instructor positions.
 - **critical_data:**
   - Carin Perilloux: Department Chair, Olin 214, perilloc@southwestern.edu, 512.863.1571
@@ -121,7 +102,6 @@
   - Bryan D. Neighbors: Associate Professor, Olin 216, neighbob@southwestern.edu, 512.863.1495
   - Samuel Brock: PT Instructor (Mellon Grant), brocks@southwestern.edu
   - Ashley Leon: Part-Time Faculty, leona@southwestern.edu
-- **retrieval_triggers:**
   - who are the psychology professors
   - who is the psychology department chair
   - who teaches social psychology
@@ -136,11 +116,7 @@
 ---
 
 ### For Current Students
-- **filename:** `For_Current_Students.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** N/A
 - **description:** Advising resource hub for current Psychology students. Provides guidance on academic advising including navigating WebAdvisor for registration, a downloadable advising checklist created by Dr. Traci Giuliano, and recommendations for High Impact Experiences. Explains the two Research Methods options and how to choose between them. Describes the two Capstone options (research lab or internship) via a handout. Links to Informal Degree Plans for both B.A. and B.S. in Psychology, Minor in Psychology, and Minor in Neuroscience. Provides external resource links for career paths in psychology, a careers guide, and scholarship information.
 - **critical_data:**
   - WebAdvisor used for course registration
@@ -151,7 +127,6 @@
   - Capstone handout available describing research labs and internship options
   - Informal Degree Plans available for B.A., B.S., Minor in Psychology, and Minor in Neuroscience
   - External resources: Career Paths in Psychology, Careers in Psychology Guide, Psychology Scholarships
-- **retrieval_triggers:**
   - how do I register for classes as a psychology major
   - what is the junior audit
   - psychology advising tips
@@ -166,11 +141,7 @@
 ---
 
 ### Internship Program
-- **filename:** `Internship_Program.txt`
-- **document_type:** advising
 - **degree_relevance:** B.A. | B.S.
-- **time_sensitive:** true
-- **catalog_year:** N/A
 - **description:** Describes the Psychology Internship Program designed to provide real-world work experience and career exploration. Academic internships can fulfill the capstone requirement or count as elective credit. Covers the two-step application process: reserving a spot with a faculty mentor during prior-semester registration, then submitting a complete application by December 1 (Spring) or May 1 (Summer/Fall). Lists over 15 named past internship sites primarily in Central Texas including Austin State Hospital, Georgetown Child & Family Counseling Center, Williamson County Juvenile Services, LifeWorks, The Caring Place, and others. Includes resources for students including a guide, steps to securing internships, criteria for internship sites, and a supervisor memo.
 - **critical_data:**
   - Academic internships can fulfill the capstone OR count as elective credit
@@ -179,7 +150,6 @@
   - Step 2: Full application due December 1 (for Spring) or May 1 (for Summer/Fall)
   - Past sites include: Austin State Hospital, Georgetown Child & Family Counseling Center, Austin Fire Department Wellness Center, Williamson County Juvenile Services, LifeWorks (Austin), The Caring Place (Georgetown), Central Texas Treatment Center (Granger), Halcyon Home (Austin), The Christi Center (Austin), and others
   - Resources available: student guide, steps document, supervisor criteria memo
-- **retrieval_triggers:**
   - psychology internship program
   - how do I apply for a psychology internship
   - internship deadline psychology
@@ -194,11 +164,7 @@
 ---
 
 ### Letters of Recommendation
-- **filename:** `Letters_of_Recommendation.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Explains the process for requesting letters of recommendation from Psychology faculty. Faculty members require several pieces of information to write an appropriate and effective letter. This applies to letters for graduate school, on- or off-campus jobs, internships, study abroad programs, and honor societies. Students are strongly encouraged to provide faculty with a standardized information document after first discussing the possibility of a reference. Completing this document increases the likelihood of receiving a more informed and in-depth reference letter. A print-ready PDF version is available.
 - **critical_data:**
   - Applies to all letter types: grad school, jobs, internships, study abroad, honor societies
@@ -206,7 +172,6 @@
   - Second step: provide faculty with requested information via provided document
   - Providing the document increases quality and depth of the reference
   - PDF print instructions available
-- **retrieval_triggers:**
   - how do I ask a professor for a letter of recommendation
   - letter of recommendation psychology
   - what does a professor need to write a letter of rec
@@ -219,11 +184,7 @@
 ---
 
 ### Psi Chi Honor Society
-- **filename:** `Psi_Chi.txt`
-- **document_type:** resources
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Describes Psi Chi, the National Honor Society in Psychology, and its chapter at Southwestern University. Covers Psi Chi's purpose (advancing psychology, encouraging scholarship), historical background (founded 1929, affiliated with APA and APS, 840+ chapters nationally), membership criteria and induction process managed by student officers and faculty advisors, and national resources including conventions, research award competitions, and the quarterly Psi Chi Newsletter. Notes that Psi Chi's sister society is Psi Beta (for community/junior colleges). The national office preserves membership records and has over 270,000 in the first 65 years.
 - **critical_data:**
   - Psi Chi is the National Honor Society in Psychology
@@ -233,7 +194,6 @@
   - Hosts national and regional conventions, research award competitions, and certificate recognition programs
   - Publishes a quarterly newsletter
   - Sister society: Psi Beta (community/junior colleges)
-- **retrieval_triggers:**
   - Psi Chi honor society
   - how do I join Psi Chi
   - what is the psychology honor society
@@ -247,16 +207,11 @@
 ---
 
 ### Notable Faculty and Student Achievements
-- **filename:** `Notable_Faculty___Student_Achievements.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Documents notable achievements by faculty and students in the Psychology department at Southwestern University. Highlights the department's research productivity, student publication and conference records, and recognition received by faculty and students. Useful for prospective students evaluating departmental prestige and current students seeking context for the department's research culture and accomplishments.
 - **critical_data:**
   - Documents specific faculty and student achievements
   - Relevant for prospective students and current students seeking research mentors
-- **retrieval_triggers:**
   - psychology faculty achievements
   - notable psychology students SU
   - psychology department awards
@@ -267,18 +222,13 @@
 ---
 
 ### After Southwestern — Psychology Alumni
-- **filename:** `After_Southwestern.txt`
-- **document_type:** resources
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Describes outcomes for Psychology alumni and resources for exploring post-graduation paths. Features a slideshow and stories about recent graduate success. Highlights a featured alumni story about Camille Krumwiede '22, a theatre and psychology double major who secured internships at "And Just Like That…" and Atlantic Pictures through the New York Arts Program (NYAP). References a video by Traci Giuliano titled "What can you do with a psychology degree from Southwestern University." Serves as inspiration and evidence of what psychology graduates go on to accomplish.
 - **critical_data:**
   - Psychology alumni go on to a variety of careers
   - Featured alum: Camille Krumwiede '22 (theatre + psychology double major) — NYAP internships at And Just Like That… and Atlantic Pictures
   - Video resource: "What can you do with a psychology degree?" by Traci Giuliano
   - Demonstrates that double majoring with psychology is viable and career-relevant
-- **retrieval_triggers:**
   - what do psychology majors do after graduation
   - psychology alumni jobs
   - what can I do with a psychology degree

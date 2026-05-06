@@ -16,11 +16,7 @@ This index covers the Department of Economics and Business at Southwestern Unive
 ## SECTION 2 — DOCUMENT REGISTRY
 
 ### Economics and Business — Department Overview
-- **filename:** `Economics_and_Business.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Narrative overview of what students learn in Economics and Business at Southwestern University. Describes the problem-solving and decision-making focus of both majors, including systems-level views of organizations, macroeconomic and microeconomic policy analysis, and data analytics. Mentions curriculum innovations covering AI, blockchain, globalization, and cost-benefit analysis. Lists transformative experience opportunities including the London Program, internships with Federal Reserve Bank, Southwest Airlines, Accenture, and the Smithsonian. Highlights the Financial Analyst Program for portfolio management experience. Notes common double-major and minor pairings across campus (political science, environmental studies, math, CS, theatre, communication studies, psychology). Cites diverse career outcomes: social-media strategists, policy analysts, patent lawyers, financial economists, diversity specialists, cheese buyers.
 - **critical_data:**
   - Department emphasis: problem-solving, decision-making, multi-perspective analysis
@@ -28,7 +24,6 @@ This index covers the Department of Economics and Business at Southwestern Unive
   - Financial Analyst Program: manages portion of university endowment
   - Common pairings: political science, environmental studies, math, CS, theatre, communication, psychology
   - Award-winning faculty noted
-- **retrieval_triggers:**
   - what can I do with an economics degree
   - what jobs do business majors get
   - is economics or business better for me
@@ -43,11 +38,7 @@ This index covers the Department of Economics and Business at Southwestern Unive
 ---
 
 ### Business Courses — Full Catalog Listing
-- **filename:** `Business_Courses.txt`
-- **document_type:** course_info
 - **degree_relevance:** B.A., Minor
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Complete listing of all Business (BUS30-prefix) courses offered by the department. Includes introductory courses (BUS30-114 Fundamentals of Accounting, BUS30-154 Quantitative Methods), the gateway upper-level course BUS30-214 Foundations of Business, and upper-level courses in Finance (BUS30-474), Investments (BUS30-574), Intermediate Accounting (BUS30-204), Financial Statement Analysis (BUS30-594), Organizational Behavior (BUS30-554), Operations Research (BUS30-414), Digital Marketing (BUS30-434), Consumer Behavior (BUS30-394), Auditing (BUS30-454), Innovation and Strategy (BUS30-464), International Business (BUS30-584), and the capstone BUS30-964. Also includes the Financial Analyst Program course BUS30-912 and Independent Study options (BUS30-951 through BUS30-954). Notes prerequisite chains, Paideia ScS designations, and when courses are offered.
 - **critical_data:**
   - BUS30-114 Fundamentals of Accounting: no prerequisites, offered Fall/Spring, ScS
@@ -58,7 +49,6 @@ This index covers the Department of Economics and Business at Southwestern Unive
   - Operations Research (BUS30-414) also cross-listed as MAT52-414 and CS 54-414; contributes to Data Analytics and Data Science
   - BUS30-574 Investments also listed as ECO31-574; requires BUS30-474 or ECO31-474; offered Fall
   - Independent Study: 4 credits count as 1 upper-level course; max 4 credits toward major
-- **retrieval_triggers:**
   - what are the prereqs for Finance
   - when is Investments offered
   - what is Foundations of Business
@@ -73,11 +63,7 @@ This index covers the Department of Economics and Business at Southwestern Unive
 ---
 
 ### Economics Courses — Full Catalog Listing
-- **filename:** `Economics_Courses.txt`
-- **document_type:** course_info
 - **degree_relevance:** B.A., Minor
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Complete listing of all Economics (ECO31-prefix) courses. Includes the introductory ECO31-104 Principles of Economics (Fall/Spring, ScS), upper-level theory courses ECO31-224 Intermediate Microeconomic Theory and ECO31-234 Intermediate Macroeconomic Theory (required for Economics majors), and ECO31-314 Econometrics (required for Economics major; Writing Attentive, Data Analytics/Data Science contributor). Also covers ECO31-434 Public Economics, ECO31-454 Behavioral Economics, ECO31-474 Finance (cross-listed with BUS30-474), ECO31-564 International Economics (contributes to International Studies), ECO31-574 Investments (cross-listed with BUS30-574), and the Capstone ECO31-964 (spring of senior year; Writing Attentive). Money, Banking and Financial Markets (ECO31-214) and Independent Study options ECO31-951 through ECO31-954 also listed. Prerequisites for each course are specified.
 - **critical_data:**
   - ECO31-104 Principles of Economics: no prerequisites, Fall/Spring, ScS — gateway course for both majors and all minors
@@ -87,7 +73,6 @@ This index covers the Department of Economics and Business at Southwestern Unive
   - ECO31-964 Capstone in Economics: requires senior standing, ECO31-224, ECO31-234, ECO31-314; Spring only; WA + ScS
   - ECO31-454 Behavioral Economics: requires ECO31-104, MAT52-114, MAT52-164; sophomore standing; ECO31-224 recommended
   - All courses above ECO31-104 require sophomore standing
-- **retrieval_triggers:**
   - what are the prereqs for Econometrics
   - when is Intermediate Micro offered
   - do I need calculus for economics courses
@@ -102,11 +87,7 @@ This index covers the Department of Economics and Business at Southwestern Unive
 ---
 
 ### Business Majoring and Minoring Requirements
-- **filename:** `Business_Majoring___Minoring.txt`
-- **document_type:** requirements
 - **degree_relevance:** B.A., Minor
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Specifies all requirements for the B.A. in Business (10 courses) and the Minor in Business (6 courses). The major requires ECO31-104, BUS30-114, BUS30-214, BUS30-474, BUS30-964 (Capstone), five additional upper-level courses in or contributing to Business or Economics (3-4 credits each), and two supporting courses (MAT52-114 and MAT52-164). An internship (BUS30-944) is strongly recommended. The minor requires ECO31-104, BUS30-114, BUS30-214, MAT52-114, MAT52-164, and one additional upper-level Business course (4 credits). Notes that a minor in Economics, Business, or Art History is not allowed when pursuing the paired major in Economics and Business or Business and Art History. Clarifies that 100-level courses are introductory, 200-800 level are upper-level, and 900-level are capstones/tutorials/honors/internships/independent study.
 - **critical_data:**
   - Business Major: 10 total courses
@@ -116,7 +97,6 @@ This index covers the Department of Economics and Business at Southwestern Unive
   - Internship (BUS30-944) strongly recommended but not required
   - Business Minor: 6 courses — ECO31-104, BUS30-114, BUS30-214, MAT52-114, MAT52-164, plus 1 upper-level Business course (4 credits)
   - Restriction: Cannot minor in Economics or Business when in the paired Economics-Business or Business-Art History program
-- **retrieval_triggers:**
   - how many courses to major in business
   - what is required for the business major
   - what is required for the business minor
@@ -131,11 +111,7 @@ This index covers the Department of Economics and Business at Southwestern Unive
 ---
 
 ### Economics Majoring and Minoring Requirements
-- **filename:** `Economics_Majoring___Minoring.txt`
-- **document_type:** requirements
 - **degree_relevance:** B.A., Minor
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Specifies all requirements for the B.A. in Economics (9 courses) and the Minor in Economics (6 courses). The major requires ECO31-104, ECO31-224, ECO31-234, ECO31-314 (Econometrics), ECO31-964 (Capstone, taken spring of senior year), plus at least four additional upper-level courses in or contributing to Economics (3-4 credits each). All courses above ECO31-104 require sophomore standing. An internship (ECO31-944) is strongly recommended. Two supporting courses required: MAT52-114 and MAT52-164. The minor requires ECO31-104, either ECO31-224 or ECO31-234, three additional upper-level Economics courses (3-4 credits each), and MAT52-164. Notes that a minor in Economics is not allowed when pursuing the paired Economics-Business program.
 - **critical_data:**
   - Economics Major: 9 total courses
@@ -147,7 +123,6 @@ This index covers the Department of Economics and Business at Southwestern Unive
   - Economics Minor: ECO31-104 + (ECO31-224 OR ECO31-234) + 3 upper-level Econ courses + MAT52-164
   - Restriction: Cannot minor in Economics when pursuing paired Economics-Business major
   - All upper-level courses require sophomore standing
-- **retrieval_triggers:**
   - how many courses to major in economics
   - what is required for the economics major
   - what is required for the economics minor
@@ -162,11 +137,7 @@ This index covers the Department of Economics and Business at Southwestern Unive
 ---
 
 ### Paired Majors Requirements
-- **filename:** `Paired_Majors.txt`
-- **document_type:** requirements
 - **degree_relevance:** B.A.
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Specifies requirements for two paired major programs: (1) Business and Economics (18 courses) and (2) Art History and Business (17 courses). The Business-Economics paired major requires ECO31-104, BUS30-114, BUS30-214, ECO31-224, ECO31-234, ECO31-314, BUS30-474, five upper-level Business electives, four upper-level Economics electives, BUS30-964 Capstone, ECO31-964 Capstone, plus supporting courses MAT52-114 and MAT52-164. The Art History and Business paired major requires BUS30-114, ECO31-104, BUS30-214, BUS30-474, one introductory Art History course (-000 level), ARH71-614 Special Topics in Art History, four distribution courses in specific Art History areas (East Asian Art, Latin American Art, Pre/Early Modern Europe or Architectural History, Modern Art), four upper-level Business or Economics electives, one additional upper-level Art History course, plus capstones ARH71-824 and BUS30-964. Internship strongly recommended for both programs.
 - **critical_data:**
   - Business-Economics Paired Major: 18 courses + 2 supporting courses
@@ -176,7 +147,6 @@ This index covers the Department of Economics and Business at Southwestern Unive
   - Art History distribution: East Asian Art (-200), Latin American Art (-300), Pre/Early Modern Europe or Architectural History (-400), Modern Art (-500)
   - Paired major is distinct from a standard double major
   - Students planning graduate school should consult faculty for additional course recommendations
-- **retrieval_triggers:**
   - what is the paired major in business and economics
   - how many courses is the business economics paired major
   - can I do art history and business together
@@ -191,11 +161,7 @@ This index covers the Department of Economics and Business at Southwestern Unive
 ---
 
 ### Financial Analyst Program — About
-- **filename:** `Financial_Analyst_Program.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** N/A
 - **description:** Describes the history, structure, and application process for the Financial Analyst Program (FAP). The program was founded in the 1998-1999 academic year under Professor A.J. Senchack (Lucy King Brown Chair in Economics) and authorized by the Board of Trustees in 1999. The Student Investment Fund was created for students to actively manage as Portfolio Managers ("Analysts"). The Fund is authorized to operate under the same conditions as other Endowment Fund managers, with the Vice President for Fiscal Affairs providing oversight and transaction review authority. Students interested in applying should be sophomores or juniors; applications are due February 22nd at midnight. Contact for applications: Sam McClure (mcclures@southwestern.edu). Faculty Advisor: Dr. Hazel Nguyen (nguyen4@southwestern.edu), Office: Mood-Bridwell Hall 307.
 - **critical_data:**
   - FAP founded 1998-1999 academic year
@@ -206,7 +172,6 @@ This index covers the Department of Economics and Business at Southwestern Unive
   - Fund governed by same policies as University Endowment Fund
   - Vice President for Fiscal Affairs oversees Fund; can override student decisions
   - Application form available on Resources/Links page
-- **retrieval_triggers:**
   - how do I apply to the Financial Analyst Program
   - when is the FAP application due
   - who can apply to FAP
@@ -221,11 +186,7 @@ This index covers the Department of Economics and Business at Southwestern Unive
 ---
 
 ### FAP — Portfolio Holdings
-- **filename:** `The_Portfolio.txt`
-- **document_type:** resources
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** N/A
 - **description:** Real-time snapshot of the FAP investment portfolio as of March 12, 2026. Lists all individual stock holdings (21 positions), Broad Market ETFs (4 positions), and Fixed Income ETFs (3 positions), along with average price basis, portfolio weight percentage, and gain/loss percentage for each. Notable holdings include GOOG (105.26% gain), META (112.88% gain), CASY (204.55% gain), TPB (111.23% gain), QQQQQ (327.12% gain), and GDX (139.74% gain). Total portfolio value: $2,874,287.94. Portfolio YTD performance: 1.10% Gain. Stocks comprise 55.19%, Broad Market ETFs 13.34%, Fixed Income ETFs 26.51%, Cash 4.95%. The FAP follows a "growth" investment objective using a "price-momentum" approach.
 - **critical_data:**
   - Total Portfolio Value (as of March 12, 2026): $2,874,287.94
@@ -237,7 +198,6 @@ This index covers the Department of Economics and Business at Southwestern Unive
   - Investment strategy: "growth" objective + "price-momentum" approach
   - Top gainers: QQQQQ (+327.12%), CASY (+204.55%), GDX (+139.74%), META (+112.88%), TPB (+111.23%)
   - Notable losses: KEX (-49.26%), AIR (-11.20%), BKR (-8.73%)
-- **retrieval_triggers:**
   - what stocks does the FAP own
   - how much is the FAP portfolio worth
   - what is the FAP investment strategy
@@ -252,11 +212,7 @@ This index covers the Department of Economics and Business at Southwestern Unive
 ---
 
 ### FAP — Investment Objectives
-- **filename:** `Objectives.txt`
-- **document_type:** policy
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Describes the formal investment objectives and guidelines governing the FAP portfolio. The Fund follows the equity fund investment guidelines of SU's Endowment: to preserve and expand purchasing power relative to inflation. Since 2024, the portfolio benchmark is 30% Bloomberg Barclays U.S. Aggregate Bond Index + 70% S&P 500. Objectives include: achieving risk-adjusted return greater than the benchmark; maintaining beta less than 0.7; targeting highest return consistent with benchmark risk level; keeping turnover rate below 100% to support long-term appreciation and minimize transaction costs; achieving above-average risk-adjusted returns per Sharpe and Treynor ratios; helping managers develop financial analysis skills; and using buy/sell price-momentum thresholds to manage positions.
 - **critical_data:**
   - Benchmark (since 2024): 30% Bloomberg Barclays U.S. Aggregate Bond Index + 70% S&P 500
@@ -265,7 +221,6 @@ This index covers the Department of Economics and Business at Southwestern Unive
   - Performance measures: Sharpe ratio, Treynor ratio
   - Mission: preserve and expand purchasing power relative to inflation (SU Endowment guidelines)
   - Strategy note: excessive turnover diminishes returns via transaction costs
-- **retrieval_triggers:**
   - what is the FAP benchmark
   - what is the FAP's target beta
   - how does the FAP measure performance
@@ -280,17 +235,12 @@ This index covers the Department of Economics and Business at Southwestern Unive
 ---
 
 ### FAP — Annual Reports
-- **filename:** `Annual_Reports.txt`
-- **document_type:** resources
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Lists all downloadable FAP Annual Reports available from the program's website, covering every year from 2001 through 2024. The page provides direct download links for each year. No content from individual reports is extracted in this document — only the index of available years is present.
 - **critical_data:**
   - Annual reports available: 2001–2024 (24 years of reports)
   - Most recent report available: 2024
   - Access: via program website downloads page
-- **retrieval_triggers:**
   - where can I find the FAP annual report
   - does the FAP publish reports
   - how long has the FAP been around
@@ -300,11 +250,7 @@ This index covers the Department of Economics and Business at Southwestern Unive
 ---
 
 ### FAP — Meet the Analysts (Current Roster)
-- **filename:** `Meet_the_Analysts.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** 2025-2026
 - **description:** Profiles of the current 2025-2026 FAP student analysts and faculty advisor. Includes Co-Portfolio Managers Ashton Ellis (Business/Political Science minor, graduating May 2026) and Isabella Valenzuela (Financial Economics/Data Science minor, graduating May 2026, planning MS Finance at UT Austin). Other roles: Cecilia Banderob (Trader, Business/Economics minor), Ethan Bridges (Annual Report Editor, Economics, planning law school), Kimberly Duncan (Market Technician, Financial Economics/Data Analytics minor, attending Notre Dame Mendoza MS Finance), Rachel Engelbert (Accountant, Financial Economics/Data Analytics minor, attending Rice MAcc), Garrett Guinn (Webmaster, Business/Data Analytics minor), Sebastian Loder (Statistician, Business/Mathematics), Joseph Snyman (Secretary, Financial Economics/Data Analytics minor), Jackson Strauser (Economist, Business/Data Analytics minor), Sam McClure (Public Relations, Business and Economics, junior, graduating May 2027). Faculty Advisor: Dr. Hazel Nguyen (joined faculty 2014; expertise in Foundations of Business, Entrepreneurship, Investments, Financial Statement Analysis; Ph.D. Finance, U. Arkansas).
 - **critical_data:**
   - Faculty Advisor: Dr. Hazel Nguyen, nguyen4@southwestern.edu, MBH 307
@@ -313,7 +259,6 @@ This index covers the Department of Economics and Business at Southwestern Unive
   - Roles: Co-Portfolio Manager (2), Trader, Annual Report Editor, Market Technician, Accountant, Webmaster, Statistician, Secretary, Economist, Public Relations
   - Graduate plans of current members: MS Finance (UT Austin, Notre Dame), MAcc (Rice), law school, MS Financial Engineering
   - Dr. Nguyen's specialty: Corporate Finance, Textual Analysis, Gender Communications
-- **retrieval_triggers:**
   - who are the current FAP analysts
   - who is the FAP faculty advisor
   - how do I contact the FAP
@@ -328,11 +273,7 @@ This index covers the Department of Economics and Business at Southwestern Unive
 ---
 
 ### Graduate Business School Partnerships
-- **filename:** `Graduate_Business_School_Partnerships.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** N/A
 - **description:** Describes three graduate school partnership programs available to Southwestern students. Partnership 1 (Texas A&M Mays Business School — MS Programs): six eligible programs including MS in Business (non-business majors only), MS in Entrepreneurial Leadership, MS in Finance, MS in Human Resource Management, MS in Marketing, and MS in Real Estate. Benefits include seamless application pathways, personalized advising, campus visit opportunities, prerequisite planning support, and possible early decision or conditional admission. Partnership 2 (Texas A&M Mays Business School — MBA): open to any major; same partnership benefits as MS programs. Partnership 3 (Rice University — MAcc): Open to any major; requires BUS30-114 by end of junior year; no application fee, no work experience required, scholarship opportunities, and early recruiting access to Deloitte, EY, KPMG, and PwC. Contact for Mays programs: gradschool@mays.tamu.edu.
 - **critical_data:**
   - Texas A&M MS programs: Business (non-business majors only), Entrepreneurial Leadership, Finance, HRM, Marketing, Real Estate
@@ -340,7 +281,6 @@ This index covers the Department of Economics and Business at Southwestern Unive
   - Rice MAcc: open to all majors; requires BUS30-114 by end of junior year; no application fee for SU students; no work experience required
   - Rice MAcc early recruiting partners: Deloitte, EY, KPMG, PwC
   - Contact for Mays programs: gradschool@mays.tamu.edu
-- **retrieval_triggers:**
   - can I go to Texas A&M for graduate school
   - what grad school partnerships does SU have
   - how do I apply to the Rice MAcc
@@ -355,16 +295,11 @@ This index covers the Department of Economics and Business at Southwestern Unive
 ---
 
 ### FAP — Resources and Links
-- **filename:** `Resources_Links.txt`
-- **document_type:** resources
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Short reference page listing the FAP application link and research resources used by the program. Research tools listed include Dorsey Wright (technical analysis), Investor's Business Daily, Morningstar, Valueline, and Wall Street Journal. Also links to the Business and Economics Department page locally.
 - **critical_data:**
   - FAP application link available on this page
   - Research tools used by FAP: Dorsey Wright, Investor's Business Daily, Morningstar, Valueline, Wall Street Journal
-- **retrieval_triggers:**
   - where is the FAP application
   - what research tools does the FAP use
   - does FAP use Morningstar
@@ -373,16 +308,11 @@ This index covers the Department of Economics and Business at Southwestern Unive
 ---
 
 ### Notable Faculty and Student Achievements
-- **filename:** `Notable_Faculty___Student_Achievements.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** N/A
 - **description:** Lists awards, honors, publications, presentations, and other recognition earned by Economics and Business faculty and students. Likely includes research publications, conference presentations, grants, named chair appointments, and teaching awards. Useful for questions about faculty credentials, research activity, and departmental prestige or competitive standing.
 - **critical_data:**
   - Contains specific names, awards, and dates of faculty/student achievements
   - Useful for verifying faculty expertise and departmental research activity
-- **retrieval_triggers:**
   - what awards have econ faculty won
   - have SU business students won any competitions
   - what research do economics professors do
@@ -392,11 +322,7 @@ This index covers the Department of Economics and Business at Southwestern Unive
 ---
 
 ### Our Faculty — Department Directory
-- **filename:** `Our_Faculty.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** N/A
 - **description:** Complete faculty and staff directory for the Department of Economics and Business. Includes: Gabriela Flores (Associate Professor of Business and Chair, Organizational Behavior, Gender in Organizations, Leader Communication, MBH 306, 512.863.1588, floresg@southwestern.edu); Kristyn Brown (Part-Time Instructor of Economics); Chandrayee Chatterjee (Assistant Professor of Economics, Health Economics, Behavioral Economics, Experimental Economics, MBH 345, 512.863.1214); Jim Christianson (Part-Time Instructor of Business, MBH 340, 512.863.1351); Charles deWitt (Part-time Assistant Professor of Business); Dirk Early (Professor of Economics, MBH 334, 512.863.1592); Raji Kunapuli (Assistant Professor of Business, Strategy, Entrepreneurship, New Technologies, MBH 336, 512.863.1042); Hazel Thu-Hien Nguyen (Floyd and Annetta Jones Chair, Associate Professor and Department Chair, Corporate Finance, Textual Analysis, Gender Communications, MBH 307, 512.863.1363); Hieu Nguyen (Assistant Professor of Economics, 512.863.1372); Shelly Page (Staff Instructor in Accounting, MBH 333, 512.863.1010); Dinushka Paranavitana (Assistant Professor of Economics, Health Economics, Urban and Transportation Economics, Sports Economics, MBH 315, 512.863.1376); Andrew Ross (Director of Business Internships and Associate Professor of Business, Product Marketing, Consumer Behavior, International Marketing, MBH 324, 512.863.1420); Debika Sihi (John Shearn Chair and Professor of Business, Digital/Social Media Marketing, New Product Development, Online Privacy, Technology Integration, Marketing for Start-Ups, MBH 323, 512.863.1996); Di Wang (Assistant Professor of Business, 512.863.1887).
 - **critical_data:**
   - Department Chair: Hazel Thu-Hien Nguyen (nguyen4@southwestern.edu, MBH 307, 512.863.1363) — also FAP Advisor
@@ -405,7 +331,6 @@ This index covers the Department of Economics and Business at Southwestern Unive
   - Accounting instructor: Shelly Page (pages@southwestern.edu, MBH 333, 512.863.1010)
   - All offices in Mood-Bridwell Hall (MBH)
   - Named chairs: Floyd and Annetta Jones Chair (Hazel Nguyen), John Shearn Chair (Debika Sihi)
-- **retrieval_triggers:**
   - who is the department chair
   - who teaches behavioral economics
   - who advises business internships

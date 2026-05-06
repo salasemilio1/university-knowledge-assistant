@@ -10,11 +10,7 @@
 ## SECTION 2 — DOCUMENT REGISTRY
 
 ### Environmental Studies Program Overview
-- **filename:** `Environmental_Studies.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Provides a high-level overview of the Environmental Studies program's intellectual focus and its role within SU's Paideia framework. Frames the program around five foundational questions: humankind's relationship to the environment, how natural systems operate, today's most pressing environmental issues, how to address environmental justice, and key environmental issues on the SU campus and in Central Texas. States that Environmental Studies is one of SU's Paideia Minors, meaning completing it can satisfy the minor component of Paideia Distinction. Describes Paideia as structured pathways for integrating disciplines and developing versatile analytical abilities. States that Paideia Distinction requires completing a Paideia Minor (or two High-Impact Experiences) plus a Paideia Seminar. Notes that Paideia skills make graduates highly sought-after by recruiters, employers, and graduate programs.
 - **critical_data:**
   - Environmental Studies is one of SU's Paideia Minors
@@ -22,7 +18,6 @@
   - Paideia Distinction requires: one Paideia Minor (or two High-Impact Experiences) + a Paideia Seminar
   - Program focus areas: natural systems, environmental justice, pressing environmental issues, Central Texas/local environment, human-environment relationships
   - Paideia Distinction formally recognized on transcript; makes graduates competitive with employers and graduate programs
-- **retrieval_triggers:**
   - what is environmental studies
   - environmental studies program overview
   - Paideia minor environmental studies
@@ -37,11 +32,7 @@
 ---
 
 ### Majoring and Minoring in Environmental Studies
-- **filename:** `Majoring___Minoring.txt`
-- **document_type:** requirements
 - **degree_relevance:** B.A., Minor
-- **time_sensitive:** true
-- **catalog_year:** Current (no specific catalog year stated; reflects current department page)
 - **description:** Specifies the full requirements for the Environmental Studies major (nine courses plus one required supporting statistics course) and minor (five courses). The major requires four core courses (ENV49-104, ENV49-204, ENV49-364, ENV49-964), two natural science courses from defined pools, one Environmental Justice course from a defined list, one Environmental Humanities course from a defined list, and one additional upper-level elective. The required supporting course is MAT52-114 Introduction to Statistics, which does not count as one of the nine major courses. Explicitly states that no course may satisfy more than one requirement within the major. Notes that prerequisites for BIO50-434 Ecology and CHE51-504 Instrumentation do not count toward the Environmental Studies major. The minor requires five courses: ENV49-104, one natural science from Pool A, and three additional Environmental Studies courses with at least one from the Humanities or Environmental Justice area. Also includes advising guidance: capstone usually fall senior year, study abroad strongly recommended (SFS, SIT, ISEP, IES), internship strongly recommended (contact Career Services), and advising meetings with an ENV professor encouraged. Describes program as interdisciplinary with career paths in government, NGOs, sustainability, environmental law, and graduate school.
 - **critical_data:**
   - Major: 9 courses + MAT52-114 Introduction to Statistics (supporting; does NOT count as one of the 9)
@@ -59,7 +50,6 @@
   - Study abroad strongly recommended: SFS, SIT, ISEP, IES — contact Intercultural Learning Office
   - Internship strongly recommended: contact Career Services
   - Careers: government, NGOs, sustainability sector, environmental law, graduate school
-- **retrieval_triggers:**
   - environmental studies major requirements
   - how many courses for environmental studies major
   - environmental studies minor requirements
@@ -87,11 +77,7 @@
 ---
 
 ### Capstone in Environmental Studies
-- **filename:** `Capstone.txt`
-- **document_type:** course_info
 - **degree_relevance:** B.A.
-- **time_sensitive:** false
-- **catalog_year:** N/A (project archive spans 2012–2024)
 - **description:** Describes the purpose and format of the Environmental Studies Capstone (ENV 49-964) and archives past capstone research projects from 2012 through Fall 2024. The capstone integrates key learning objectives from the major, examines pressing environmental issues from multiple perspectives, and encourages environmental activism and community engagement. Past projects address Texas water and groundwater policy, housing affordability and sustainability, urban ecological infrastructure, recycling systems, cyanotoxins, oil and petrostate politics, sustainable building and residence halls, food systems, pollinator protection (Bee Campus USA), campus certifications (Tree Campus USA), community garden strengthening, and intersectional sustainability. One project (Fall 2017) was published in Education, Citizenship, and Social Justice and won a 2020 AASHE Campus Sustainability Research Award. Multiple projects have produced real campus changes including Tree Campus USA and Bee Campus USA certifications, LED lighting in Walzel Gym, and the SU Sustainability Campus Map.
 - **critical_data:**
   - Course number: ENV 49-964; required for all majors; usually fall senior year
@@ -110,7 +96,6 @@
   - 2014: SUstainability Strategic Plan
   - 2013: A Sustainable Austin study
   - 2012: Local Food Landscape in Central Texas
-- **retrieval_triggers:**
   - capstone environmental studies
   - ENV 49-964
   - capstone examples past projects
@@ -133,11 +118,7 @@
 ---
 
 ### Ecolab
-- **filename:** `Ecolab.txt`
-- **document_type:** resources
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Describes the Southwestern Ecological Laboratory (Ecolab), established fall 2014 as a field research and classroom site near campus, open to students of all academic backgrounds. Research themes include water quality analysis (pH, turbidity, conductivity, chloride, nitrate, dissolved oxygen, phosphorus) from four post-rain sampling locations; GameCam-based fauna census (deer, raccoons, armadillo, coyote, rabbit, bobcat) funded by King Creativity Fund; biannual vegetation survey categorizing invasive vs. noninvasive species; land use change history via GIS and historic aerial photography (1941–present); and ecological restoration (trail creation, invasive species removal, native species planting). Two courses are based in the Ecolab: ENV49-301-01&02 (Ecolab Practicum — 3 hrs/week fieldwork, blog, biweekly meetings, no stated prerequisite) and ENV49-301-03&04 (Ecolab II: Research — prerequisite Ecolab I, intensive research, literature review, hypothesis testing, public presentation, scholar report). Note: ENV49-224 is the course number used in the major requirements document for the Ecolab natural science credit; confirm equivalence with ENV49-301 with the department.
 - **critical_data:**
   - Ecolab established Fall 2014; near SU campus; open to all students
@@ -148,7 +129,6 @@
   - Course 2: ENV49-301-03&04 — Ecolab II: Research; prerequisite: Ecolab I; intensive research; public presentation; scholar report
   - ENV49-224 Ecolab (in major/minor requirements) may be the same course as ENV49-301 — confirm with department
   - Ecolab faculty: Romi Burks, Laura Hobgood, Joshua Long, John Ore, Willis Weigand
-- **retrieval_triggers:**
   - Ecolab
   - ENV49-224 Ecolab course
   - ENV49-301 Ecolab practicum
@@ -166,11 +146,7 @@
 ---
 
 ### GIS Lab
-- **filename:** `GIS.txt`
-- **document_type:** resources
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Describes the GIS (Geographic Information Systems) laboratory administered by the Environmental Studies Program, located in the Smith Library Center Rooms 202 and 204. Contains 22 state-of-the-art computers running GIS, GPS, remote sensing, computer-aided drafting, visual media production, software development, web mapping, and statistical analysis software. GPS units available for student checkout. Lab open daily for extended hours. Course offerings include Environmental GIS (= ENV49-204, a required major course), Advanced GIS, and Directed Research in GIS. Notes that while administered by Environmental Studies, other departments are developing courses and research with GIS components. Lab supports research across humanities, social sciences, and natural sciences.
 - **critical_data:**
   - Location: Smith Library Center Rooms 202 and 204
@@ -179,7 +155,6 @@
   - Courses: Environmental GIS (= ENV49-204), Advanced GIS, Directed Research in GIS
   - Administered by Environmental Studies Program; open to all departments
   - Open daily for extended hours
-- **retrieval_triggers:**
   - GIS lab location
   - Geographic Information Systems environmental studies
   - Environmental GIS ENV49-204
@@ -193,18 +168,13 @@
 ---
 
 ### Campus Ecological Audit
-- **filename:** `Campus_Ecological_Audit.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** 1999 (historical)
 - **description:** Documents a 1999 interdisciplinary campus ecological audit involving students from Dr. Hobgood-Oster's Religion and Ecology course, Dr. Johnson's Society Culture and Ecology course, and Dr. Niemeyer's Environmental Chemistry course. Students examined eleven campus sustainability parameters: Water Use, Energy Use, Purchasing Practices, Recycling Efforts, Student Lifestyles, Campus-Community Sustainability Issues, Campus Infrastructure, Landscaping, Non-Human Animals, Waste Practices, and Academic Curriculum. Noted as the first such audit at SU. Post-audit outcome included applying for an ACS grant to replace dormitory showerheads with water-saving models. Primarily of historical interest; illustrates the program's early interdisciplinary roots.
 - **critical_data:**
   - Date: Spring 1999 (historical document)
   - Eleven sustainability parameters audited
   - Interdisciplinary: Religion, Sociology/Anthropology, Chemistry students collaborating
   - Post-audit: ACS grant application for water-saving dormitory showerheads
-- **retrieval_triggers:**
   - campus ecological audit
   - history of environmental studies SU
   - sustainability audit campus history
@@ -214,11 +184,7 @@
 ---
 
 ### Environmental Activism on Campus
-- **filename:** `Environmental_Activism.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A (content dated approximately 2008–2010; verify currency)
 - **description:** Describes environmental activism initiatives at Southwestern including the S.E.A.K. student organization (Students for Environmental Activism and Knowledge, faculty advisor Laura Hobgood-Oster), the community garden (planted spring 2009), Earth Day events each fall and spring, compostable to-go containers and compost bins from dining, campus-wide recycling bins in all academic and administrative buildings, a Green Hall sustainable residence initiative, and two LEED-certified buildings — the Admissions building (opened fall 2008, SU's first LEED building) and the Charles & Elizabeth Prothro Center for Lifelong Learning (opened 2010). Some content is dated; current status should be verified.
 - **critical_data:**
   - S.E.A.K.: student environmental organization; Faculty Advisor: Laura Hobgood-Oster
@@ -229,7 +195,6 @@
   - LEED buildings: Admissions building (opened fall 2008); Charles & Elizabeth Prothro Center (opened 2010)
   - Green Hall: sustainably renovated residence
   - Note: content dated ~2008–2010; verify current program status
-- **retrieval_triggers:**
   - S.E.A.K. student organization
   - Students for Environmental Activism and Knowledge
   - environmental student organization SU
@@ -244,11 +209,7 @@
 ---
 
 ### Our Faculty
-- **filename:** `Our_Faculty.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** N/A
 - **description:** Lists all Environmental Studies–affiliated faculty with name, title, specialty, email, phone, and office location. Faculty include: Joshua Long (Professor of Environmental Studies and Department Chair, Climate Justice/Environmental Policy/Environmental Justice/Urban Studies/Sustainability Discourses, jlong@southwestern.edu, 512.863.1493, Mood-Bridwell 115); Romi Lynn Burks (Garey Chair and Professor of Biology and Department Chair, Aquatic ecology/molecular ecology/wetland science/invertebrate biology, burksr@southwestern.edu, 512.863.1280, Fondren-Jones 212); Laura Hobgood (Professor of Religion, Animals in Christian tradition/human-dog history/religion and ecology/Ecofeminism/human-animal studies, hobgood@southwestern.edu, 512.863.1669, Mood-Bridwell 136); Stephanie Insalaco-Wyner (Assistant Professor of Geographic Information Sciences, GIS/Remote Sensing/Machine Learning/Sustainability/Coastal Marine Ecosystems/Seagrass, insalacos@southwestern.edu, 512.863.1497, Mood-Bridwell Hall 118); Melissa Johnson (Professor of Anthropology, Nature/Race/Critical Race Theory/Conservation/Environmental History/Tourism/Gender — areas: Belize, Caribbean, U.S.-Mexico Borderlands, Central Texas, meljohn@southwestern.edu, 512.863.1406, 204 Mood Bridwell); Eureka Joshi (Assistant Professor of Environmental Studies, Soil biogeochemistry/nutrient cycling/forest ecology/biosolids and wastewater reuse, joshie@southwestern.edu, 512.863.1880, Mood-Bridwell 117); Emily Niemeyer (Professor of Chemistry, Analytical chemistry/flavonoids/polyphenolic compounds/mass spectrometry, niemeyee@southwestern.edu, 512.863.1721, Fondren-Jones 347). Faculty span multiple home departments, reflecting the interdisciplinary nature of the program.
 - **critical_data:**
   - Department Chair: Joshua Long — jlong@southwestern.edu — 512.863.1493 — Mood-Bridwell 115
@@ -259,7 +220,6 @@
   - Eureka Joshi — Soil biogeochemistry, forest ecology — joshie@southwestern.edu — 512.863.1880 — Mood-Bridwell 117
   - Emily Niemeyer — Analytical/environmental chemistry — niemeyee@southwestern.edu — 512.863.1721 — Fondren-Jones 347
   - Faculty home departments: Environmental Studies, Biology, Religion, GIS, Anthropology, Chemistry — confirms interdisciplinary structure
-- **retrieval_triggers:**
   - environmental studies faculty
   - who teaches environmental studies
   - department chair environmental studies contact

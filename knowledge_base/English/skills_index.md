@@ -10,11 +10,7 @@
 ## SECTION 2 — DOCUMENT REGISTRY
 
 ### English Department Overview
-- **filename:** `English.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** This is the main English department landing page for prospective and current students. It describes the value of studying English at Southwestern — emphasizing storytelling, critical thinking, interpretation, analysis, research, and writing. It names representative course topics (Shakespeare's tragedies, world cinema, gender in Restoration drama, fiction by Shelley, Brontë, Twain, Morrison, Achebe, Chabon). It lists alumni career paths: K–12 and higher education teaching, humanities research, social-media marketing, content writing, law, fundraising, instructional design, event planning, and project management. It features an alumni spotlight (Delilah Dylan Dominguez '09, now a physician assistant) and mentions English News and English Events sections, including a Documentary Film Screening event and a mention of the King Creativity Fund research symposium. The department chair is Professor Eileen Cleere, contactable by email or phone.
 - **critical_data:**
   - Department chair: Eileen Cleere, Professor of English
@@ -23,28 +19,11 @@
   - Alumni careers: teaching (K–12 and higher ed), humanities research, social-media marketing, content writing, law, fundraising, instructional design, event planning, project management
   - Alumni spotlight: Delilah Dylan Dominguez '09 — first-generation student, now physician assistant with three graduate degrees
   - Upcoming/recent event: Documentary Film Screenings; King Creativity Fund winners presenting at research symposium
-- **retrieval_triggers:**
-  - "what can I do with an English degree"
-  - "what jobs do English majors get after graduation"
-  - "who is the English department chair"
-  - "contact the English department"
-  - "what is the English major about"
-  - "why study English at Southwestern"
-  - "English alumni careers"
-  - "English department events"
-  - "what skills does an English degree give me"
-  - "is English a useful major"
-  - "can English majors go to law school"
-  - "English department news"
 
 ---
 
 ### English Majoring and Minoring Requirements
-- **filename:** `Majoring___Minoring.txt`
-- **document_type:** requirements
 - **degree_relevance:** B.A. | Minor
-- **time_sensitive:** true
-- **catalog_year:** 2025–2026 (inferred from current course listings)
 - **description:** This document specifies all course requirements for four English degree paths: the Major in English (9 courses), the Paired Major in English and Feminist Studies (15 courses), the Paired Major in English and History (16 courses), and the Minor in English (5 courses). It explains the department's course numbering logic by level: 100 = introductory, 200 = methods, 300 = creative writing/special topics, 400 = critical theory, 500 = film studies, 600 = British literature, 700 = American literature, 800 = emergent literatures, 900 = capstone/tutorials/honors/internships/independent study. The required core for the standard major includes ENG10-124, ENG10-244, one critical theory course (ENG10-404, ENG10-444, ENG10-454, or ENG10-464), ENG10-934 Seminar (Capstone), and five additional English electives (at least three at 300-level or above). The Paired Major with History lists specific History elective pools across six world regions from which students must choose four. The document directs students to the Education Department for teacher certification information.
 - **critical_data:**
   - **English Major (9 courses):** ENG10-124, ENG10-244, one critical theory course (ENG10-404/444/454/464), ENG10-934 Capstone, five electives (≥3 at 300-level or above)
@@ -54,31 +33,11 @@
   - Capstone ENG10-934 prerequisite: any 400-level English course; offered Fall only
   - Teacher certification: refer to Education Department
   - Paired major students cannot also minor in either discipline
-- **retrieval_triggers:**
-  - "how many courses do I need for the English major"
-  - "what are the requirements for the English major"
-  - "what is the English minor"
-  - "how many classes for the English minor"
-  - "paired major English and Feminist Studies"
-  - "paired major English and History"
-  - "what is the capstone for English"
-  - "do I need a critical theory course for the major"
-  - "what counts as upper level for the English major"
-  - "can I minor in English if I do a paired major"
-  - "how do I get teacher certification in English"
-  - "what is ENG10-934"
-  - "what does 300-level mean in English"
-  - "how many electives do I need for the English major"
-  - "what History courses count for the paired major"
 
 ---
 
 ### English Course Offerings
-- **filename:** `Courses.txt`
-- **document_type:** course_info
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** 2025–2026 (current or recent offerings)
 - **description:** This document lists all current and recent English course offerings with full descriptions, prerequisites, Paideia attributes, and interdisciplinary program contributions. Introductory (100-level) courses include ENG10-114 College Writing (not countable toward the major or minor), ENG10-124 Literary Worlds, ENG10-134 Intro to Creative Writing, ENG10-154 Topics in British Lit I, ENG10-164 From Romanticism to Modernism, ENG10-174 Topics in American Literature, ENG10-184 Introduction to Film Studies (offered Fall), ENG10-204 Topics in Literary Methods, and ENG10-244 Literary Methods (offered Spring). Methods-level (200) course ENG10-264 covers Chicana Literary Methods. Upper-division offerings span creative writing workshops (ENG10-334, 344, 354), literature and film courses spanning medieval through contemporary periods and multiple national traditions, and the capstone ENG10-934 Seminar (Fall, prerequisite: any 400-level course). Many courses note contributions to interdisciplinary programs including Feminist Studies, Early Modern Studies, Race and Ethnicity Studies, Latin American and Border Studies, Legal Studies Certificate, International Studies, and Design Thinking. Paideia attributes (H, WA, SJ, PJ, IP) are noted throughout.
 - **critical_data:**
   - ENG10-114: NOT countable toward English major or minor; NOT included in 56-credit subject-area limitation
@@ -96,85 +55,31 @@
   - ENG10-884 African-American Literature: contributes to Feminist Studies and Race and Ethnicity Studies; (H)(WA)
   - ENG10-894 Latinx Literature: contributes to Feminist Studies, Latin American and Border Studies, Race and Ethnicity Studies; (H)(WA)
   - ENG10-934 Seminar/Capstone: prerequisite = any 400-level English course; offered Fall; (WA)
-- **retrieval_triggers:**
-  - "what English courses are available"
-  - "what is ENG10-244"
-  - "does English have a film course"
-  - "what is the Shakespeare class"
-  - "is there a creative writing class"
-  - "what are the prerequisites for Literary Theory"
-  - "what English courses count toward Feminist Studies"
-  - "can I take Speaking Across Languages without knowing another language"
-  - "what is Chicana Literary Methods"
-  - "which English courses satisfy Power and Justice"
-  - "does College Writing count for the major"
-  - "what upper-level English courses are offered"
-  - "which courses are offered in fall vs spring"
-  - "what is Postcolonial Literature"
-  - "what English courses count toward Race and Ethnicity Studies"
 
 ---
 
 ### English Faculty Directory
-- **filename:** `Our_Faculty.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** N/A
 - **description:** This document lists the four full-time English faculty members with titles, specialties, email addresses, phone numbers, and office locations. Eileen Cleere is Professor of English and Department Chair, specializing in Victorian literature and culture, the novel, film studies, and feminist studies, located in Mood-Bridwell 209. Sonia Marie Del Hierro is Assistant Professor specializing in 19th–20th century U.S. literature, Mexican American literature, Chicane/x and Latine/x literature, Chicana feminisms, Digital Humanities, Fashion studies, and Literary theory and criticism. Michael Saenger is Professor specializing in Shakespeare, Renaissance Literature, Shakespeare through Performance, Shakespeare and Translation, and Antisemitism in Higher Education, located in Mood 318. Vallaire Wallace is Assistant Professor specializing in Black Studies, Black Feminisms, Queer Studies, 20th Century American Literature, Transnational and Global South Studies, and Disability Studies.
 - **critical_data:**
   - Eileen Cleere: Professor and Chair; cleeree@southwestern.edu; 512.863.1982; Mood-Bridwell 209
   - Sonia Marie Del Hierro: Assistant Professor; delhierrs@southwestern.edu; 512.863.1324 (office location not listed)
   - Michael Saenger: Professor; saengerm@southwestern.edu; 512.863.1787; Mood 318
   - Vallaire Wallace: Assistant Professor; wallacev@southwestern.edu; 512.863.1886 (office location not listed)
-- **retrieval_triggers:**
-  - "who teaches English at Southwestern"
-  - "who is the English department chair"
-  - "how do I contact Professor Cleere"
-  - "who teaches Shakespeare"
-  - "who teaches Chicana literature"
-  - "who teaches film studies in English"
-  - "who teaches Black literature"
-  - "what is Professor Saenger's email"
-  - "where is the English department office"
-  - "does anyone teach queer studies in English"
-  - "who teaches disability studies"
-  - "who should I ask about the English major"
 
 ---
 
 ### English Student Funding Opportunities
-- **filename:** `Student_Funding_Opportunities.txt`
-- **document_type:** financial
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** N/A
 - **description:** This document describes two student funding opportunities available through the English department. The Rose Award provides reimbursement of up to $600 per student, or three application fees (whichever is greater), for conference attendance; applications are due the last day of each month; awards are made as reimbursements so students must save receipts; recipients must submit a log of their conference time and a reflection on the experience; both English majors and minors are eligible; students should consult their Academic Adviser or the English Department Chair (noted here as Michael Saenger, though Eileen Cleere is the current chair per the faculty document). The Jason Magnon Writing Prize awards $1,000 to current Southwestern students for previously graded work submitted in English, Music, Spanish, or Theatre courses within the past calendar year; only one submission per student per year; applicants must name the course and instructor; for information, email Susie Bullock.
 - **critical_data:**
   - Rose Award: up to $600 (or 3 application fees, whichever is greater); reimbursement only — save receipts; due last day of each month; requires time log + experience reflection; eligible = English majors and minors; contact academic adviser or English Department Chair
   - Jason Magnon Writing Prize: $1,000; current SU students only; previously graded work in English, Music, Spanish, or Theatre; from past calendar year; one paper per year per student; must state course name and instructor; contact: Susie Bullock (email)
-- **retrieval_triggers:**
-  - "is there funding for conferences"
-  - "Rose Award English"
-  - "how do I apply for the Rose Award"
-  - "writing prize Southwestern"
-  - "Jason Magnon Writing Prize"
-  - "can English minors get conference funding"
-  - "how much is the Rose Award"
-  - "when is the Rose Award deadline"
-  - "can I submit a Music paper for the writing prize"
-  - "how do I enter the writing prize"
-  - "student funding English department"
-  - "who do I contact about the writing prize"
 
 ---
 
 ### Notable Faculty and Student Achievements
-- **filename:** `Notable_Faculty___Student_Achievements.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** This document is a chronological log of faculty and student achievements spanning from approximately 2020 through April 2026. It records conference presentations, publications, invited lectures, media appearances, book releases, and public engagement work by English faculty including Michael Saenger (prolific in Shakespeare scholarship and anti-antisemitism advocacy), Eileen Cleere (Victorian studies, past president of INCS), Sonia Del Hierro (Chicana/Latinx literature, Señora Power project, digital humanities), Vallaire Wallace (queer theory, Black literature), Helene Meyers (Professor Emerita, Jewish feminist film and literary criticism), Rebecca Evans (former faculty, environmental humanities), and David Gaines (Professor Emeritus, Bob Dylan studies). Notable student achievements include McKenzie Rentie '25 co-facilitating a workshop at SXSW EDU, Nick Baylor '25 presenting at an international Shakespeare conference at Waseda University in Tokyo, and alumni achievement: Lydia Gregovic '19 (Associate Editor at Penguin Random House) publishing her debut novel The Monstrous Kind (fall 2024).
 - **critical_data:**
   - Most recent entry: April 2026 — Vallaire Wallace presented at CLAGS Queer-Class Relations Conference, CUNY Graduate Center, New York City
@@ -186,17 +91,6 @@
   - Del Hierro: Señora Power project (podcast, website, community pamphlets on Chicana feminist history in LA and Houston); fashion as political/cultural tool
   - Meyers (Emerita): Jewish feminist film criticism; book Movie-Made Jews
   - Evans (former faculty): environmental humanities, climate fiction, African American infrastructure studies
-- **retrieval_triggers:**
-  - "what has the English faculty published recently"
-  - "faculty research interests English"
-  - "have English students presented at conferences"
-  - "what is the Señora Power project"
-  - "English department news and achievements"
-  - "notable English alumni"
-  - "did any English students go to SXSW"
-  - "Lydia Gregovic novel"
-  - "what has Professor Saenger published"
-  - "what conferences has the English faculty attended"
 
 ---
 

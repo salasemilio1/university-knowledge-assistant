@@ -10,18 +10,13 @@
 ## SECTION 2 — DOCUMENT REGISTRY
 
 ### After Southwestern
-- **filename:** `After_Southwestern.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Describes career outcomes for Classics majors after graduation. Notes that Classics provides a strong foundation for professional and graduate school, including law, business, medicine, and journalism. Mentions that Classics majors score especially well on standardized exams such as the GRE. References a specific alumni story (Trey Frye '12) illustrating how ancient Greek connects to financial analysis and graduate work in religion. Also mentions careers in teaching, museum and gallery work, and scholarly publication.
 - **critical_data:**
   - Classics majors score especially well on the GRE
   - Career paths include law, business, medicine, journalism, teaching, museum/gallery work, scholarly publication
   - Professional and business schools recognize Classics as strong graduate preparation
   - Alumni example: Trey Frye '12 (Greek, financial analysis, graduate school in religion)
-- **retrieval_triggers:**
   - what can I do with a Classics degree
   - jobs for Classics majors
   - does Classics prepare you for law school
@@ -36,11 +31,7 @@
 ---
 
 ### Classics Courses (Full Listing)
-- **filename:** `Classics_Courses.txt`
-- **document_type:** course_info
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Lists all courses offered under the Classics (CLA07) prefix, with descriptions. Courses span myth, cinema, sport, marginalized Romans, imperial history, war, urban life, scientific terminology, archaeological sites, and a capstone seminar. Includes an introductory note about the Classics curriculum covering Greek language and literature, Latin language and literature, and Classics in translation. Notes placement credit availability (AP, IB). All courses carry the (H) Humanities Paideia designation; the Capstone also carries (WA).
 - **critical_data:**
   - CLA07-204: Greek and Roman Mythology (H)
@@ -55,7 +46,6 @@
   - CLA07-934: Capstone Seminar (H) (WA) — fulfills capstone for Classical Civilizations
   - All courses are upper-level (20+ in SU numbering) except CLA07-204 and CLA07-234 and CLA07-244
   - Current course offering: CLA07-44-01 Classical Sites and Monuments, Tue/Thu 2:30–3:45pm, Dr. Jeffrey Easton
-- **retrieval_triggers:**
   - what Classics courses are offered
   - CLA07 courses
   - Classics in translation courses
@@ -73,11 +63,7 @@
 ---
 
 ### Classics Major Requirements
-- **filename:** `Classics_Major.txt`
-- **document_type:** requirements
 - **degree_relevance:** B.A.
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Specifies the requirements for the B.A. in Classics, which consists of 9 courses total. Requires four courses of college-level Greek (one upper-level), one upper-level Latin course, one Classics in Translation course from a specified list, two additional upper-level courses in Latin/Greek/Classics in Translation, and the Capstone (CLA07-964). Notes that Classics majors must take three semesters of Latin to satisfy the foreign language graduation requirement. Strongly advises study abroad participation and mentions placement credit for incoming students. Also notes that students may pursue the College Year in Athens or other programs.
 - **critical_data:**
   - Total courses required: 9
@@ -89,7 +75,6 @@
   - Foreign language: 3 semesters of Latin required to satisfy university language requirement
   - Study abroad: strongly advised; College Year in Athens available
   - Placement credit available for incoming students
-- **retrieval_triggers:**
   - how many courses for Classics major
   - Classics major requirements
   - how much Greek do I need for Classics
@@ -106,11 +91,7 @@
 ---
 
 ### Classics Department Overview
-- **filename:** `Classics.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Provides a broad overview of what Classics is as a field, covering Greco-Roman antiquity from prehistory through the dissolution of the Roman Empire. Describes the disciplines included (literature, language, anthropology, art history, religion, philosophy, history). Notes that students study primary materials in Latin and Greek (original or translation) and archaeological/art historical artifacts. Emphasizes that Classics builds critical thinking, bridges STEM and Humanities, fosters appreciation of social issues, and has influenced political institutions. Includes a Princeton Review quotation about intellectual rigor, communications skills, analytical skills, and breadth of view.
 - **critical_data:**
   - Classics covers prehistory through dissolution of the Roman Empire
@@ -118,7 +99,6 @@
   - Primary materials: Latin and Greek texts, archaeological and art historical artifacts
   - Builds critical thinking, STEM-Humanities bridge, contemporary social issues awareness
   - Princeton Review: Classics majors develop intellectual rigor, communications skills, analytical skills, complex information handling, breadth of view
-- **retrieval_triggers:**
   - what is Classics
   - what do Classics majors study
   - why study Classics
@@ -131,23 +111,14 @@
 ---
 
 ### All Classics-Area Courses (Combined Listing)
-- **filename:** `Courses.txt`
-- **document_type:** course_info
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Duplicate of the full course listing also found in Classics_Courses.txt. Contains identical course descriptions for all CLA07-prefix courses including mythology, cinema, sport, invisible Romans, emperors, war, urban life, scientific terminology, archaeological sites, and the capstone seminar. Also notes the current offering CLA07-44-01 (Dr. Jeffrey Easton, Tue/Thu 2:30–3:45pm). The Classics curriculum note and AP/IB placement credit reference are also present.
 - **critical_data:** (same as Classics_Courses.txt — see that entry)
-- **retrieval_triggers:** (same as Classics_Courses.txt — see that entry)
 
 ---
 
 ### For Current Students
-- **filename:** `For_Current_Students.txt`
-- **document_type:** resources
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Provides a list of helpful links for current Classics students. Includes links to a digital Latin textbook (Latin for Pirates: A Digital Textbook for Introductory Latin I–II), the Sunoikisis collaborative classics program, the Perseus digital library, the Texas Classical Association, Classics Writing Rubrics, the Haverford College Guide to Citing Resources in Classics, and a page for Fellowships & Scholarships. No policy details are included in the document itself; it is primarily a resource hub.
 - **critical_data:**
   - Latin for Pirates: digital textbook for Latin I–II
@@ -157,7 +128,6 @@
   - Classics Writing Rubrics available
   - Haverford Guide to citing Classics resources
   - Fellowships & Scholarships page linked
-- **retrieval_triggers:**
   - resources for Classics students
   - how to cite in Classics
   - Latin textbook
@@ -171,11 +141,7 @@
 ---
 
 ### Study Abroad in Greece
-- **filename:** `Greece.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Describes the College Year in Athens (CYA) study abroad program available to Southwestern students. CYA was named GoAbroad's Top Rated Study Abroad Program for 2018. Covers CYA's academic program, which spans history, art & archaeology, political science, Latin and Greek, philosophy, anthropology, sociology, business, religion, and environmental studies. Notes that the program fully integrates Greece's environment into coursework through field trips, site visits, and museum sessions. Modern Greek is taught and strongly encouraged. Faculty include over twenty distinguished international scholars. All courses taught in English; no prior Greek required. Contact for applications: Dr. Jeffrey Easton. Includes references to student stories (Jenna Gaska and Katy Nave).
 - **critical_data:**
   - Program: College Year in Athens (CYA)
@@ -187,7 +153,6 @@
   - Open to all majors, not just Classics
   - Contact: Dr. Jeffrey Easton (eastonj@southwestern.edu)
   - Application: visit CYA website for downloadable application
-- **retrieval_triggers:**
   - study abroad Greece
   - College Year in Athens
   - CYA program
@@ -202,11 +167,7 @@
 ---
 
 ### Greek Courses
-- **filename:** `Greek_Courses.txt`
-- **document_type:** course_info
 - **degree_relevance:** B.A. in Greek, B.A. in Classics, Minor in Greek
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Lists all Greek-language courses offered at Southwestern. Introductory sequence: Greek I (13-144, Fall), Greek II (13-154, Spring), Greek III (13-164, Fall). Upper-level courses: Readings in Greek Prose (13-204, may repeat with topic change; prerequisite Greek III) covering Herodotus, Thucydides, Lysias, Demosthenes, Greek historians, Presocratic philosophers; Readings in Greek Poetry (13-344; prerequisite Greek III) covering Homer, Greek tragedy, Archaic Lyric (Archilochus, Alcaeus, Sappho); and the Capstone Seminar (13-934, Fall or Spring, H, WA). All upper-level courses carry (H) designation. Capstone also carries (WA).
 - **critical_data:**
   - GRK13-144: Greek I (Fall) — grammar, composition, reading, vocabulary, Greek society/culture
@@ -216,7 +177,6 @@
   - GRK13-344: Readings in Greek Poetry (H) — prerequisite: Greek III; repeatable with topic change
   - GRK13-934: Capstone Seminar (H) (WA) — fulfills capstone for Classical Languages; Fall or Spring
   - Upper-level defined as 13-204 and above
-- **retrieval_triggers:**
   - Greek language courses
   - Greek I II III sequence
   - how do I start Greek
@@ -233,11 +193,7 @@
 ---
 
 ### Greek Major and Minor Requirements
-- **filename:** `Greek.txt`
-- **document_type:** requirements
 - **degree_relevance:** B.A. in Greek, Minor in Greek
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Specifies requirements for the B.A. in Greek (8 courses: Capstone GRK13-954 plus seven additional upper-level Greek courses) and the Minor in Greek (5 courses: five in Greek, three of which must be upper-level). No GPA minimums beyond university standards are specified in the document. No explicit credit hour counts per course are stated, though SU convention is typically 4 credits per course.
 - **critical_data:**
   - Greek Major: 8 courses total
@@ -246,7 +202,6 @@
   - Greek Minor: 5 courses total
     - 5 courses in Greek
     - At least 3 must be upper-level
-- **retrieval_triggers:**
   - Greek major requirements
   - how many courses for Greek major
   - Greek minor requirements
@@ -258,18 +213,13 @@
 ---
 
 ### Intellectual Joy and Enrichment
-- **filename:** `Intellectual_Joy___Enrichment.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** A curated collection of quotations about the intellectual and personal value of studying Classics, Latin, and Greek. Includes quotes from Thomas Jefferson (Homer in original Greek), A. Bartlett Giamatti (Latin and self-knowledge), an anonymous author (Classics as disinterested study), Princeton Review (intellectual rigor and life outcomes), and Winston Churchill (Greek as a "treat"). Primarily a recruitment/motivation document. Does not contain policy or requirement information.
 - **critical_data:**
   - Thomas Jefferson quotation on reading Homer in Greek
   - Giamatti: Latin connects us to history, heritage, and self-knowledge
   - Princeton Review: Classics majors develop intellectual rigor, communication, analytical skills, breadth of view
   - Churchill: Greek should be taught "as a treat"
-- **retrieval_triggers:**
   - why study Latin
   - why study Greek
   - famous people who studied Classics
@@ -281,11 +231,7 @@
 ---
 
 ### Study Abroad in Italy
-- **filename:** `Italy.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Describes the Intercollegiate Center for Classical Studies (ICCS) in Rome, located on the Janiculum Hill overlooking downtown Rome. The center offers courses in Latin, Greek, history, art history, and Italian. Southwestern students have priority admission and receive a tuition reduction through a consortial agreement with the Associated Colleges of the South (ACS). Contact: Dr. Jeffrey Easton. Includes a link to the ICCS website.
 - **critical_data:**
   - Program: Intercollegiate Center for Classical Studies (ICCS), Rome
@@ -293,7 +239,6 @@
   - Courses offered: Latin, Greek, history, art history, Italian
   - Priority admission and tuition reduction for SU students via ACS consortial agreement
   - Contact: Dr. Jeffrey Easton
-- **retrieval_triggers:**
   - study abroad Italy
   - study abroad Rome
   - Intercollegiate Center for Classical Studies
@@ -306,11 +251,7 @@
 ---
 
 ### Latin Courses
-- **filename:** `Latin_Courses.txt`
-- **document_type:** course_info
 - **degree_relevance:** B.A. in Latin, B.A. in Classics, Minor in Latin
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Lists all Latin-language courses offered at Southwestern. Introductory sequence: Latin I (14-144, Fall), Latin II (14-154, Spring), Latin III (14-164, Fall). Upper-level courses include: Cicero in Context (14-204, H), Vergil's Aeneid (14-244, H), Livy and Exemplary History (14-344, H), Petronius Satyricon (14-354, H), Love Is Battlefield — Latin Elegiac Poetry (14-404, H covering Catullus, Propertius, Ovid, Tibullus), Rome and the Epigraphic Heart (14-454, H), and the Capstone Seminar (14-934, H, WA). All upper-level courses require Latin III or equivalent as prerequisite. Capstone is for Classical Languages and runs Fall or Spring.
 - **critical_data:**
   - LAT14-144: Latin I (Fall) — grammar, composition, reading, Roman society/culture
@@ -323,7 +264,6 @@
   - LAT14-404: Love Is Battlefield — Latin Elegiac Poetry (H) — prerequisite: Latin III
   - LAT14-454: Rome and the Epigraphic Heart (H) — prerequisite: Latin III
   - LAT14-934: Capstone Seminar (H) (WA) — Classical Languages; Fall or Spring
-- **retrieval_triggers:**
   - Latin language courses
   - Latin I II III sequence
   - how do I start Latin
@@ -340,11 +280,7 @@
 ---
 
 ### Latin Major and Minor Requirements
-- **filename:** `Latin.txt`
-- **document_type:** requirements
 - **degree_relevance:** B.A. in Latin, Minor in Latin
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Specifies requirements for the B.A. in Latin (8 courses: Capstone LAT14-954 plus seven additional upper-level Latin courses) and the Minor in Latin (5 courses: five in Latin, three of which must be upper-level). Notes that teacher certification in Latin is covered in the Education Department section of the catalog. No additional GPA minimums beyond university standards are stated.
 - **critical_data:**
   - Latin Major: 8 courses total
@@ -354,7 +290,6 @@
     - 5 courses in Latin
     - At least 3 must be upper-level
   - Latin teacher certification: see Education Department section of catalog
-- **retrieval_triggers:**
   - Latin major requirements
   - how many courses for Latin major
   - Latin minor requirements
@@ -367,11 +302,7 @@
 ---
 
 ### Majoring and Minoring Overview
-- **filename:** `Majoring___Minoring.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Overview of degree and minor options in the Classics department. Students may major in Classics, Greek, or Latin, and minor in Greek or Latin. Describes each program's focus: Classics covers both ancient languages plus history, philosophy, culture, art, and archaeology; Latin covers Roman literature and culture from Republic through Empire; Greek covers Homeric epics through Hellenistic literature. Mentions study abroad options (College Year in Athens, semester and summer programs in Mediterranean countries). Notes that Classics majors can conduct advanced faculty-mentored research, citing examples of a published paper on Greeks on Crete and classified pottery sherds in Turkey. The Classics Program emphasizes cultural/social issues, critical thinking, language skills, and advanced research.
 - **critical_data:**
   - Degree paths: Major in Classics, Major in Greek, Major in Latin
@@ -379,7 +310,6 @@
   - No Major in Classics in Translation (translation courses support Classics major but are not a standalone major)
   - Study abroad: College Year in Athens, semester and summer Mediterranean programs
   - Research opportunities: faculty-mentored research; example publications and archaeological fieldwork
-- **retrieval_triggers:**
   - what majors are available in Classics
   - can I major in Latin
   - can I major in Greek
@@ -393,18 +323,13 @@
 ---
 
 ### Our Faculty
-- **filename:** `Our_Faculty.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** N/A
 - **description:** Lists current Classics department faculty. Francis Mathieu is Professor of French and Department Chair, specializing in Intercultural Skills, French Culture and Literature, History of French Civilization, Translation, Food & Health, World War Two France, Multi-Cultural France, and African Literature (Olin 309, mathieuf@southwestern.edu, 512.863.1509). Jeffrey Easton is Assistant Professor of Classics, specializing in Roman social history (mobility of enslaved people, freedmen/women, sub-elite communities), Roman imperial and municipal administration, Latin language and literature, Latin epigraphy, and material culture/topography (Olin 302, eastonj@southwestern.edu, 512.863.1554). Kristin Slonsky is a Part-Time Instructor (slonskyk@southwestern.edu).
 - **critical_data:**
   - Francis Mathieu: Professor of French, Department Chair; mathieuf@southwestern.edu; 512.863.1509; Olin 309
   - Jeffrey Easton: Assistant Professor of Classics; eastonj@southwestern.edu; 512.863.1554; Olin 302
   - Kristin Slonsky: Part-Time Instructor; slonskyk@southwestern.edu
   - Easton's specialties: Roman social history, epigraphy, material culture, topography
-- **retrieval_triggers:**
   - who teaches Classics
   - Classics faculty
   - how do I contact the Classics department
@@ -416,17 +341,12 @@
 ---
 
 ### Special Opportunities
-- **filename:** `Special_Opportunities.txt`
-- **document_type:** resources
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Brief overview page listing special opportunities in the Classics program. Notes two main categories: Study Abroad (Greece and Italy — open to all students, not just Classics majors) and Sunoikisis (a national Classics collaborative program that Southwestern helped establish, providing enhanced faculty and student opportunities). Serves as a navigation hub pointing to Greece.txt and Italy.txt for more detail.
 - **critical_data:**
   - Study Abroad options: Greece (CYA) and Italy (ICCS Rome)
   - Both programs open to all students, not only Classics majors
   - Sunoikisis: national collaborative Classics program; SU helped establish it
-- **retrieval_triggers:**
   - special programs in Classics
   - Classics opportunities beyond coursework
   - Sunoikisis
@@ -437,11 +357,7 @@
 ---
 
 ### What Others Are Saying
-- **filename:** `What_Others_Are_Saying.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Compilation of testimonials and statistics demonstrating the value of a Classics education. Covers Classics preparation for careers in business (Ryan Parks '01, CFO of a cycling team), journalism (Chris Hedges on reading the Classics after Kosovo), law (LSAT data showing Classics majors outscore all others; Harvard Magazine rankings; alumni testimonials from Elijah McLeod '07 and Aaron Blair '08), medicine (AAMC data showing Classics double-majors outperform biology majors for medical school admission), and words/writing (Eudora Welty, Dr. Seuss/Geisel on Latin). Also cites Princeton Review statistics on GRE performance and law school success.
 - **critical_data:**
   - Business: Latin helps with Romance language communication; Ryan Parks '01 (CFO)
@@ -450,7 +366,6 @@
   - GRE: Classics majors consistently score highest of all undergraduates (Princeton Review)
   - Writing: Eudora Welty and Dr. Seuss credit Latin for their relationship with language
   - Alumni: Elijah McLeod '07 (law), Aaron Blair '08 (law)
-- **retrieval_triggers:**
   - is Classics good for law school
   - Classics and LSAT scores
   - does Classics help with medical school
@@ -465,18 +380,13 @@
 ---
 
 ### Why Study Classics
-- **filename:** `Why_Study_Classics.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Summarizes the academic and career value of a Classics major. Includes an extended Princeton Review quotation citing AAMC data (Classics double-majors outperform biology-only students for medical school), Harvard Magazine data (Classics and math majors highest law school success rates), and GRE score rankings. Explains that Classics majors master grammar, which underlies medical and legal terminology and GRE vocabulary. Links to the Society for Classical Studies / Archaeological Institute of America joint statement on Classics in the 21st century, the Careers for Classicists publication (SCS), and the Center for Hellenic Studies study on Classics and liberal education.
 - **critical_data:**
   - Princeton Review: Classics majors outperform on GRE; outperform biology-only majors for medical school; Classics and math highest law school success
   - Core skills developed: mastery of grammar, critical thinking, communications, analytical skills, breadth of view
   - Careers supported: writing, law, life sciences, business, journalism
   - External references: SCS/AIA joint statement; SCS Careers for Classicists; Center for Hellenic Studies
-- **retrieval_triggers:**
   - why major in Classics
   - what is the value of Classics
   - Classics and pre-med

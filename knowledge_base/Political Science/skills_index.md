@@ -16,37 +16,18 @@ This index covers all documents provided for the Political Science department at
 ## SECTION 2 — DOCUMENT REGISTRY
 
 ### Political Science — Department Overview
-- **filename:** `Political_Science.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Provides a high-level introduction to the Political Science major and minor at Southwestern University. Explains why studying political science matters, the range of topics covered (campaigns and elections, domestic and foreign policy, international politics, civil discourse, media and politics, gender and politics, political leadership, revolution and conflict, ideologies), and the analytical and communication skills students develop. Notes career paths for graduates including law, government, K–12 and higher education, nonprofits, urban planning, business, and international affairs. Includes brief alumni spotlights: Sierra Rupp '23 earned a Critical Language Scholarship and Fulbright grant; Alexandria Glenn '26 and Zaria Renfro '28 earned Gilman Scholarships for study abroad. Does not contain course lists or specific degree requirements.
 - **critical_data:**
   - Topics covered: campaigns/elections, foreign/domestic policy, international politics, gender and politics, revolution and conflict, ideologies
   - Career outcomes: law, government, K–12 and higher education, nonprofits, urban planning, business, international affairs
   - Alumni awards: Critical Language Scholarship, Fulbright, Gilman Scholarship
   - Does NOT specify credit hours or course requirements
-- **retrieval_triggers:**
-  - "why major in political science"
-  - "what can I do with a poli sci degree"
-  - "careers after political science"
-  - "what does the political science major cover"
-  - "is political science a good major"
-  - "alumni success stories poli sci"
-  - "what topics does the department study"
-  - "political science and law school"
-  - "poli sci and government careers"
-  - "does SU have political science"
 
 ---
 
 ### Majoring and Minoring in Political Science
-- **filename:** `Majoring___Minoring.txt`
-- **document_type:** requirements
 - **degree_relevance:** B.A., Minor
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Specifies the exact course requirements for both the B.A. major (9 courses) and the Minor (5 courses) in Political Science. The major requires four core courses — PSC32-114 American Politics, PSC32-144 Comparative Politics, PSC32-364 Introduction to Political Theory, and PSC32-384 International Politics — plus PSC32-964 Senior Seminar (Capstone), two additional Political Science courses from any subfield, and two Political Science courses at the 500–600 level (at least one taken prior to the Senior Seminar). The minor requires the same four core courses plus one additional approved course. Also references teacher certification in Political Science through the Education Department. Explains that the major cultivates critical thinking, creative communication, analysis of decision-making processes, and political analysis of social data and texts.
 - **critical_data:**
   - Major: 9 courses total
@@ -55,31 +36,11 @@ This index covers all documents provided for the Political Science department at
   - Upper-level: 2 courses at 500–600 level (at least 1 before Senior Seminar)
   - Minor: 5 courses — same 4 core + 1 additional approved course
   - Teacher certification available through Education Department
-- **retrieval_triggers:**
-  - "how many courses for the political science major"
-  - "what are the required courses for poli sci"
-  - "poli sci major requirements"
-  - "how to major in political science at SU"
-  - "poli sci minor requirements"
-  - "how many classes to minor in political science"
-  - "what is the core curriculum for poli sci"
-  - "do I need intro to political theory"
-  - "is American Politics required for the major"
-  - "what 500 level courses do I need"
-  - "can I teach political science"
-  - "how many electives does the major require"
-  - "what is the capstone for poli sci"
-  - "difference between major and minor in poli sci"
-  - "how to add the political science minor"
 
 ---
 
 ### Political Science — Course Offerings
-- **filename:** `Courses.txt`
-- **document_type:** course_info
 - **degree_relevance:** B.A., Minor
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Lists all current and recent course offerings in the Political Science department with full course descriptions. Covers introductory courses (PSC32-114 through PSC32-284), mid-level courses (PSC32-324 through PSC32-464), advanced 500–600 level courses (PSC32-504 through PSC32-654), and the capstone (PSC32-964). Each entry includes course number, full title, description, prerequisites (where applicable), and Paideia designations (ScS, SJ, PJ, WA). Courses span subfields: American Politics, Comparative Politics, International Relations, Political Theory, Race & Ethnic Politics, Gender & Politics, and area studies (Latin America, Middle East, Japan, China, Europe, Germany/Japan). This is the primary source for course descriptions, prerequisites, and cross-listed/contributing programs.
 - **critical_data:**
   - 28 courses listed across all levels
@@ -90,31 +51,11 @@ This index covers all documents provided for the Political Science department at
   - PSC32-964 Senior Seminar: requires instructor permission
   - Many courses carry Paideia designations: (ScS), (SJ), (PJ), (WA)
   - Several courses contribute to other programs: International Studies, Latin American and Border Studies, Race and Ethnicity Studies, Feminist Studies, Legal Studies Certificate, East Asian Studies, Data Science
-- **retrieval_triggers:**
-  - "what courses does poli sci offer"
-  - "what is PSC32-114 about"
-  - "prerequisites for Introduction to Political Theory"
-  - "what are the 500-level poli sci courses"
-  - "courses that count toward legal studies certificate"
-  - "does poli sci have an internship course"
-  - "what courses count toward international studies"
-  - "are there courses on race and politics"
-  - "is there a course on gender and politics"
-  - "what poli sci courses have a writing component"
-  - "what courses count for feminist studies"
-  - "what are the upper division electives"
-  - "what courses can freshmen take in poli sci"
-  - "what is the Texas legislative internship"
-  - "courses on Latin America Caribbean"
 
 ---
 
 ### For Current Students — Tentative Course Schedules
-- **filename:** `For_Current_Students.txt`
-- **document_type:** calendar
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** 2024–2025
 - **description:** Lists tentative course offerings by semester for Spring 2024, Fall 2024, and Spring 2025, including instructor assignments. Spring 2024 offerings include American Politics (Goodwin), Comparative Politics (Aha), Politics of Latin America and the Caribbean (Selbin), Governing Diversity (Goodwin), Authoritarianism and Democracy in East Central Europe (Aha), International Politics (Snyder, WA), Candidates/Campaigns/Citizens (Sydnor), Public Opinion 500–600 (Sydnor), U.S. Foreign Policy 500–600 (Snyder), and Capstone (Selbin). Fall 2024 includes two sections of American Politics (Goodwin), plus upper-level and 500–600 level courses. Spring 2025 includes the Texas Legislative Internship (Sydnor, offered in session years only), American Political Thought, Resistance/Rebellion/Revolution 500–600, and others.
 - **critical_data:**
   - Spring 2024: 10 courses, instructors assigned
@@ -124,27 +65,11 @@ This index covers all documents provided for the Political Science department at
   - Labeled "tentative" — not guaranteed
   - Texas Legislative Internship only offered Spring 2025 (legislative session year)
   - Several TBA instructor slots in Fall 2024 and Spring 2025
-- **retrieval_triggers:**
-  - "what courses are offered this spring"
-  - "when is American Politics offered"
-  - "who teaches comparative politics"
-  - "is the internship course available this year"
-  - "what 500 level courses are offered fall 2024"
-  - "when does capstone run"
-  - "who is teaching poli sci next semester"
-  - "is international politics offered in spring"
-  - "when is resistance rebellion revolution offered"
-  - "is there a spring 2025 schedule"
-  - "when is the Texas legislative internship next offered"
 
 ---
 
 ### Our Faculty
-- **filename:** `Our_Faculty.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** N/A
 - **description:** Lists the full-time and visiting faculty in the Political Science department with names, titles, email addresses, and phone numbers. Faculty include: Alisa Gaunder (Professor), Alex Goodwin (Assistant Professor, specialty: American Politics, Race and Ethnic Politics, Black Politics, Policing, Social Movements), Zoe Moss (Assistant Professor), Alexander Norris (Visiting Assistant Professor), and Bob Snyder (Professor, specialty: International Politics, U.S. Foreign Policy, Middle East Politics, Terrorism). Office locations are listed for Gaunder (CB 159) and Snyder (Mood-Bridwell 228). Moss and Norris do not have specialties or office locations listed. This is the primary contact source for students seeking advisor information.
 - **critical_data:**
   - 5 faculty listed (4 full-time + 1 visiting)
@@ -153,26 +78,11 @@ This index covers all documents provided for the Political Science department at
   - Moss: mossz@southwestern.edu, 512.863.1602
   - Norris: norris3@southwestern.edu (visiting, no phone listed)
   - Snyder: snyderb@southwestern.edu, 512.863.1938, Mood-Bridwell 228
-- **retrieval_triggers:**
-  - "who are the poli sci professors"
-  - "how do I contact my political science advisor"
-  - "who teaches international politics"
-  - "who specializes in race and politics"
-  - "what is Professor Snyder's email"
-  - "who is the department chair"
-  - "contact info for poli sci faculty"
-  - "who teaches American politics"
-  - "is there a visiting professor in poli sci"
-  - "who should I talk to about advising"
 
 ---
 
 ### The Honors Thesis
-- **filename:** `The_Honors_Thesis.txt`
-- **document_type:** advising
 - **degree_relevance:** B.A.
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Describes the Honors Thesis program in Political Science, which is available by invitation to exceptional junior-year majors. Criteria for invitation include: demonstrated potential for independent research, interest in graduate education (preferred but not required), overall GPA of 3.4 or higher (required by the university), strong performance across multiple faculty members' courses, and unanimous departmental approval. The timeline spans the junior year spring semester (PSC32-951, 1 credit Independent Study for proposal writing) and both semesters of the senior year (PSC32-984 Honors, 4 credits each semester). Students assemble a three-member committee, must present at an academic conference or the SU Student Works Symposium, and earn the distinction "Honors in Political Science" upon successful defense. The Honors Thesis replaces the Senior Seminar (Capstone). Contrasts with Capstone: Honors is year-long, graduate-level expectations; Capstone is one semester, all majors required.
 - **critical_data:**
   - Invitation extended in fall of junior year by unanimous faculty vote
@@ -183,39 +93,15 @@ This index covers all documents provided for the Political Science department at
   - Must present at academic conference OR SU Student Works Symposium
   - Replaces PSC32-964 Senior Seminar
   - Not all completed theses meet the criteria for graduating with Honors
-- **retrieval_triggers:**
-  - "how do I do honors in poli sci"
-  - "what is the honors thesis"
-  - "GPA requirement for honors"
-  - "how is honors different from capstone"
-  - "when do I get invited to do honors thesis"
-  - "what courses do I take for the honors thesis"
-  - "do I need to present my honors thesis"
-  - "who approves the honors thesis proposal"
-  - "can I do honors thesis if I'm studying abroad"
-  - "what is PSC32-984"
-  - "what GPA do I need for departmental honors"
-  - "how many faculty are on my honors committee"
 
 ---
 
 ### Notable Faculty and Student Achievements
-- **filename:** `Notable_Faculty___Student_Achievements.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** N/A
 - **description:** Contains information about awards, honors, publications, grants, or recognitions earned by faculty and students in the Political Science department. This document may include items such as research grants, fellowships, national awards, presentations, and publications. Content is supplementary context for prospective and current students who want to understand the department's academic profile and reputation.
 - **critical_data:**
   - Content not fully available for direct citation in this index; consult file directly for specifics
   - Likely overlaps with alumni achievement information in `Political_Science.txt`
-- **retrieval_triggers:**
-  - "what awards have poli sci students won"
-  - "has a poli sci professor published recently"
-  - "faculty research in political science"
-  - "student awards in political science"
-  - "notable alumni poli sci"
-  - "what has the department accomplished"
 
 ---
 

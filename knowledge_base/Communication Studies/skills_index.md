@@ -10,18 +10,13 @@
 ## SECTION 2 — DOCUMENT REGISTRY
 
 ### Communication Studies Program Overview
-- **filename:** `Communication_Studies.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Provides a high-level overview of the Communication Studies department's approach and philosophy. Frames the department's core intellectual questions around how messages travel across media, how different mediums (radio, television, the Internet) shape communication, and how institutions maintain and disseminate information. Emphasizes the department's focus on the intersections of communication, culture, and identity. Describes the curriculum as multifaceted and the learning experience as intimate. States the department's goal of providing students a strong critical and theoretical understanding of how social reality is constructed and challenged through communication patterns and practices.
 - **critical_data:**
   - Core departmental questions: how messages travel, how media shape communication, how institutions manage information
   - Emphasis on intersection of communication, culture, and identity
   - Characterized as intimate learning environment
   - Goal: strong critical and theoretical understanding of social reality construction through communication
-- **retrieval_triggers:**
   - what is communication studies
   - what does the comm studies department study
   - why study communication studies
@@ -34,11 +29,7 @@
 ---
 
 ### Courses
-- **filename:** `Courses.txt`
-- **document_type:** course_info
 - **degree_relevance:** B.A., Minor
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Lists and describes all current or recent course offerings in Communication Studies. Explains the two-cognate curriculum structure: Rhetorical Studies (200–300 numbered courses) and Critical Media Studies (600–700 numbered courses), with 400–500 level courses bridging both areas. Required courses described include: COM75-134 (intro, required for major and minor, Fall/Spring), COM75-204 (Rhetorical Theory, required for major, Spring, prerequisite 75-134), COM75-604 (Critical Media Theory, required for major, Fall, prerequisite 75-134), COM75-804 (Critical/Cultural Research Methods, required for major, Fall/Spring, prerequisites 75-134/204/604), and COM75-964 (Capstone Research Seminar, required for major, Fall/Spring, prerequisites 75-134/204/604/804). Also describes elective offerings including COM75-154/594 (Public Speaking — does not count toward major or minor), and upper-level courses across both cognate areas. Notes that Special Topics (75-004, 75-304) and Independent Studies (75-95x) are available.
 - **critical_data:**
   - COM75-134: Critical/Cultural Communication Studies — required for major AND minor; offered Fall, Spring; (H)
@@ -69,7 +60,6 @@
   - COM75-964: Capstone Research Seminar — required for major; offered Fall, Spring; prerequisites: 75-134, 75-204, 75-604, 75-804; (WA); application required in spring prior to capstone year
   - Special Topics: COM75-004 and COM75-304
   - Independent Studies: COM75-95x
-- **retrieval_triggers:**
   - communication studies courses list
   - what classes do comm majors take
   - rhetorical studies courses
@@ -97,11 +87,7 @@
 ---
 
 ### Majoring and Minoring in Communication Studies
-- **filename:** `Majoring___Minoring.txt`
-- **document_type:** requirements
 - **degree_relevance:** B.A., Minor
-- **time_sensitive:** true
-- **catalog_year:** Current (no specific catalog year stated; reflects department page as of 2026)
 - **description:** Specifies the official requirements for the Communication Studies major (8 courses) and minor (5 courses). Describes the curriculum as organized around two cognate areas — Rhetorical Studies and Critical Media Studies — reflected in the course numbering system (100 = introductory; 200–300 = Rhetorical Studies; 400–500 = bridge; 600–700 = Critical Media Studies; 900 = capstone/tutorials/honors/internships). For the major, five courses are specified (COM75-134, 204, 604, 804, 964) plus three additional COM courses with at least two at upper level. For the minor, COM75-134 is required plus four additional COM courses with at least three at upper level. Notes restrictions on internship (max one counts toward requirements, 4 credits) and independent study (max one counts toward requirements, 4 credits) for both major and minor. Directs students to the Education Department for teacher certification.
 - **critical_data:**
   - Major: 8 courses total
@@ -116,7 +102,6 @@
   - COM75-804 described as usually taken junior year; writing intensive; includes multiple drafts and peer critique
   - COM75-964 (Capstone): application must be submitted in spring prior to capstone year
   - Teacher certification: see Education Department
-- **retrieval_triggers:**
   - communication studies major requirements
   - communication studies minor requirements
   - how many courses to major in comm
@@ -137,17 +122,12 @@
 ---
 
 ### For Current Students
-- **filename:** `For_Current_Students.txt`
-- **document_type:** advising
 - **degree_relevance:** B.A., Minor
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** A brief page directing current and prospective Communication Studies majors to two key departmental advising documents: "Comm Studies Major at a Glance," which provides a summary of departmental course requirements and prerequisites, and "Worksheet for the Major," which students can download and fill out. Content is minimal but serves as the primary pointer to practical advising tools maintained by the department.
 - **critical_data:**
   - "Comm Studies Major at a Glance" document: summarizes course requirements and prerequisites
   - "Worksheet for the Major" document: downloadable worksheet for tracking degree progress
   - Both documents intended for prospective and current majors
-- **retrieval_triggers:**
   - comm studies major at a glance
   - worksheet for the major
   - advising documents comm studies
@@ -158,11 +138,7 @@
 ---
 
 ### Our Faculty
-- **filename:** `Our_Faculty.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** N/A
 - **description:** Lists all Communication Studies faculty with name, title, specialty, email, phone, and office location. Faculty include: Lamiyah (LB) Bahrainwala (Associate Professor and Department Chair, Anti-Muslim sentiment and feminist surveillance studies, bahrainl@southwestern.edu, 512.863.1228, Olin 307); Bob Bednar (Professor, Visual Culture/Visual Communication/Cultural Studies of Mass Media/Public Memory/Trauma Studies/Automobility/Affect Theory/Material Culture/Tourism/Landscape/Built Environment/Design & Culture/Film Theory/Environmental Studies/American Studies/Contemporary U.S. Cultural History, bednarb@southwestern.edu, 512.863.1440, Olin 119); Ash d'Harcourt (Visiting Assistant Professor, Media Industries/Digital Media Cultures/Identity Representation in Media, ashdharcourt@utexas.edu, Mood-Bridwell 105); Jaishikha Nautiyal (Assistant Professor, Critical sensory rhetorics/everyday aesthetics/queer theory/posthuman thought, nautiyalj@southwestern.edu, 512.863.1612); Valerie Renegar (Professor, Rhetorical theory and criticism/feminist movements/third wave feminism/environmental rhetoric/Kenneth Burke, renegarv@southwestern.edu, 512.863.1061, Olin 310).
 - **critical_data:**
   - Department Chair: Lamiyah (LB) Bahrainwala — bahrainl@southwestern.edu — 512.863.1228 — Olin 307
@@ -171,7 +147,6 @@
   - Jaishikha Nautiyal — Sensory rhetorics, queer theory — nautiyalj@southwestern.edu — 512.863.1612
   - Valerie Renegar — Rhetorical theory, feminist rhetoric, Kenneth Burke — renegarv@southwestern.edu — 512.863.1061 — Olin 310
   - Note: Raquel Moreira referenced in achievements doc as "Assistant Professor" in April 2025 but not listed on faculty page — may have departed; do not present as current faculty
-- **retrieval_triggers:**
   - communication studies faculty
   - who teaches comm studies
   - department chair comm studies
@@ -187,11 +162,7 @@
 ---
 
 ### Notable Faculty and Student Achievements
-- **filename:** `Notable_Faculty___Student_Achievements.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** 2020–2026 (rolling news log)
 - **description:** A chronological log of faculty publications, conference presentations, student research, and departmental news from 2020 through March 2026. Highlights include Bob Bednar's book "Road Scars" (Rowman & Littlefield, 2020), his being featured as a research source in Tulsa news (Jan 2026), and the Jesse E. Purdy Excellence in Scholarly and Creative Works Award (2021); LB Bahrainwala's publications in Women's Studies in Communication and Quarterly Journal of Speech (#1 ranked comm journal), invited talks at Arizona State University, and mentorship of student researchers at multiple Western States Communication Association conferences; Valerie Renegar's Routledge Handbook of Contemporary Feminist Rhetoric chapter (Jan 2025), international conference presentations in Croatia (April 2025), and co-authored work on GLP-1 discourse (March 2026); student capstone presentations at the 2025 and 2026 WSCA Undergraduate Scholars Research Conferences; Raquel Moreira's co-authored essay in Communication Education (April 2025); and the Mission-Driven Medicine website project based on organizational communication fieldwork at Houston Methodist Hospital (Jan 2025).
 - **critical_data:**
   - Bob Bednar: book "Road Scars" (Rowman & Littlefield, 2020); Jesse E. Purdy Excellence Award (2021); roadside memorial/trauma expertise; Organizational Communication field project at Houston Methodist
@@ -200,7 +171,6 @@
   - Student researchers presented at 2025 and 2026 WSCA Undergraduate Scholars Research Conference
   - Capstone paper examples: Chloe London Jordan '26 ("Return to Whiteness"), John Reese '26 ("Deconstructing Far-Right Rhetoric on X")
   - Mission-Driven Medicine website: Summer 2024 Organizational Communication class fieldwork at Houston Methodist
-- **retrieval_triggers:**
   - faculty research communication studies
   - what has Bob Bednar published
   - LB Bahrainwala research

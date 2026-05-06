@@ -11,11 +11,7 @@
 ## SECTION 2 — DOCUMENT REGISTRY
 
 ### History — Department Overview
-- **filename:** `History.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** This is the History department's main landing page. It describes the program's four core offerings: a global approach (faculty expertise in Europe, Latin America, East Asia, Africa, the U.S., the Atlantic World, and the Mediterranean world), interdisciplinary connections (natural sciences, feminist studies, international studies, art, race/ethnicity, environmental studies, social justice), diverse faculty research interests (politics, economics, social processes, culture, science, religion, environment), and research opportunities for students (senior Capstone, departmental Honors). It frames the value of a history degree for careers in law, medicine, education, journalism, business, nonprofits, and the public sector. It also highlights two recent alumni achievements: a Boren Fellowship recipient studying Mandarin in Taiwan, and students Samuel Hoffman '27 and Ethan Wilcox '26, each awarded $40,000 Sumners Scholarships in 2025. The Department Chair is identified as Joseph E. Hower, Associate Professor of History.
 - **critical_data:**
   - Department Chair: Joseph E. Hower, Associate Professor of History
@@ -24,27 +20,11 @@
   - Career paths: law, medicine, education, journalism, business, nonprofits, museums, libraries, public sector
   - Alumni: Boren Fellowship (Mandarin/Taiwan); Sumners Scholarships (Hoffman '27, Wilcox '26, $40,000 each, 2025)
   - Department strongly encourages off-campus international, intercultural, and academic internship experiences
-- **retrieval_triggers:**
-  - "what is the history department like at SU"
-  - "what can I do with a history degree"
-  - "who is the history department chair"
-  - "what career paths do history majors take"
-  - "does SU history have a global focus"
-  - "what are the research opportunities in history"
-  - "what is departmental honors in history"
-  - "have history students won scholarships"
-  - "what is the Sumners Scholarship"
-  - "what is the Boren Fellowship"
-  - "does history connect to other disciplines"
 
 ---
 
 ### Majoring & Minoring
-- **filename:** `Majoring___Minoring.txt`
-- **document_type:** requirements
 - **degree_relevance:** B.A. | Minor
-- **time_sensitive:** true
-- **catalog_year:** N/A (check current catalog for paired major details)
 - **description:** This document defines the complete requirements for the History major (B.A., 9 courses) and the History minor (5 courses). The major has five structured requirement sets: one World History course (HIS16-014, 16-024, 16-034, 16-044, or 16-094) to be completed within the first two years; one upper-level course each from four of six geographic/thematic areas (Africa, East Asia, Europe, Latin America, US, or Transregional); two additional upper-level elective courses (at least 3 credits each); the Historiography seminar (HIS16-604, every Fall, prerequisite = World History + junior status); and the Capstone Research Seminar (HIS16-864, every Spring, prerequisite = Historiography). At least one course must satisfy the pre-/early modern content requirement. The minor requires one World History course plus four upper-level history courses. Paired major options exist with Art History, English, Feminist Studies, and Political Science.
 - **critical_data:**
   - Major = 9 courses total
@@ -57,30 +37,11 @@
   - Capstone (HIS16-864): prerequisite = HIS16-604; every Spring; H, WA
   - Paired majors: Art History, English, Feminist Studies, Political Science (check catalog for details)
   - Major is double-major friendly
-- **retrieval_triggers:**
-  - "how many courses do I need to major in history"
-  - "what are the history major requirements"
-  - "what is the history minor"
-  - "do I need a world history course"
-  - "what counts as pre-modern for the history major"
-  - "when do I take historiography"
-  - "what comes before capstone"
-  - "can I double major in history"
-  - "what are the paired majors with history"
-  - "how many geographic areas do I need"
-  - "what upper-level courses count toward the major"
-  - "when is capstone offered"
-  - "what is the difference between history major and minor"
-  - "what counts toward the history minor"
 
 ---
 
 ### Courses
-- **filename:** `Courses.txt`
-- **document_type:** course_info
 - **degree_relevance:** B.A. | Minor | All
-- **time_sensitive:** true
-- **catalog_year:** N/A (current or recent offerings; see catalog for updates)
 - **description:** This document lists all current or recent History course offerings with full descriptions, course numbers, Paideia designations, offering frequencies, and interdisciplinary contributions. It covers six World History introductory courses (16-014 through 16-094) and approximately 40 upper-level courses organized by geographic area and theme, including Africa, East Asia, Europe, Latin America, US, and Transregional. Special topics series courses (16-504 through 16-564) may be repeated with change in topic. The Historiography seminar (16-604) and Capstone Research Seminar (16-864) are listed with prerequisites. A Pre-Honors course (16-971) is available by invitation only. Most upper-level courses are offered biennially; all World History courses except 16-094 are offered annually. Several courses carry Power and Justice (PJ), Social Justice (SJ), and Writing Across the Curriculum (WA) Paideia designations in addition to Humanities (H).
 - **critical_data:**
   - World History courses offered Annually: 16-014, 16-024, 16-034, 16-044, 16-054
@@ -94,105 +55,43 @@
   - Pre-/early modern courses confirmed in document: 16-024, 16-044, 16-124, 16-144, 16-164, 16-184, 16-234, 16-244, 16-364, 16-374, 16-394, 16-424, 16-444
   - Most upper-level courses: Biennially
   - 16-294 Texas History: no frequency listed
-- **retrieval_triggers:**
-  - "what history courses are offered"
-  - "what does HIS16-014 cover"
-  - "which courses count for the Africa area"
-  - "which history course satisfies pre-modern"
-  - "does history have a Power and Justice course"
-  - "what is the prerequisite for historiography"
-  - "what courses count toward Environmental Studies"
-  - "what courses count toward Feminist Studies"
-  - "what courses count toward International Studies"
-  - "how often is a history course offered"
-  - "what is the capstone research seminar"
-  - "what history courses count toward Race and Ethnicity Studies"
-  - "can I take a topics course more than once"
-  - "what does biennially mean for a history course"
-  - "what courses count toward Legal Studies Certificate"
 
 ---
 
 ### Our Faculty
-- **filename:** `Our_Faculty.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** This document lists all six current History department faculty with name, title, specialties, email, phone, and office location. Joseph E. Hower (Department Chair, Associate Professor, U.S. History/Labor/Politics/Social Movements/Urban/Policy History, Mood-Bridwell 217, howerj2@southwestern.edu, 512.863.1574). Melissa K. Byrnes (Professor, Modern European History/France/Migration/Race/Muslims/Human Rights/Humanitarianism, byrnesm@southwestern.edu, 512.863.1501). Soojung Han (Assistant Professor, Middle Period Chinese-Inner Asian History/Transnational East Asian/Ethnicity/Gender/Material Culture, hansj@southwestern.edu, Mood-Bridwell 327). Jethro Hernández Berrones (Associate Professor, Modern Mexico/Latin America/Medicine/Science/Public Health/Homeopathy/Spiritualism, hernandj@southwestern.edu, 512.863.1428, Mood-Bridwell 325). Jessica Hower (Assistant Vice President for Academic Affairs and Professor, Early Modern Era/Britain/Ireland/British Empire/Atlantic World/Comparative Colonialism/Women & Gender, howerj@southwestern.edu, 512.863.1595, CB 150). Bryan U. Kauma (Assistant Professor, Modern Africa/Food Studies/Environmental History/Slavery/Social and Economic History, kaumab@southwestern.edu, 512.863.1326, Mood-Bridwell 323).
 - **critical_data:**
   - Department Chair: Joseph E. Hower (howerj2@southwestern.edu, 512.863.1574, Mood-Bridwell 217)
   - 6 faculty total; regional coverage: US, Europe, Latin America, Africa, East Asia, Atlantic World
   - Jessica Hower also serves as Assistant Vice President for Academic Affairs (CB 150)
   - All faculty: @southwestern.edu email
-- **retrieval_triggers:**
-  - "who is the history department chair"
-  - "who teaches African history"
-  - "who teaches Latin American history"
-  - "who teaches European history"
-  - "who teaches East Asian history"
-  - "who teaches US history"
-  - "what is Professor Byrnes' email"
-  - "where is Dr. Kauma's office"
-  - "who should I talk to about advising"
-  - "does SU have a China historian"
-  - "who teaches historiography"
 
 ---
 
 ### Special Opportunities
-- **filename:** `Special_Opportunities.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** This document describes the History department's annual fall Colloquium, in which a leading historian is invited to campus each fall. The visiting scholar meets with history majors and minors, leads a discussion in the Historiography course, and gives a public lecture. A list of past Colloquium visitors is provided (no years in this version), including Jay Winter (Yale), David Sowell, Todd Shepard, Laura Mitchell, Franklin Knight, Jeffrey Wasserstrom, Dylan Penningroth, Monica Green, Clifton Crais, Patricia Seed, Jeremy Suri, Dorinda Outram, Jean and John Comaroff, Daniel Headrick, Immanuel Wallerstein, Sara Castro-Klaren, Bruce Cumings, Richard White, and Ramon Gutierrez.
 - **critical_data:**
   - Annual fall Colloquium: one distinguished visiting historian per year
   - Visitors meet with majors and minors, participate in Historiography class, give public lecture
   - No application or eligibility requirement — open to all majors and minors
-- **retrieval_triggers:**
-  - "does history bring in guest speakers"
-  - "what is the history colloquium"
-  - "can I meet visiting historians"
-  - "who were past history colloquium speakers"
-  - "is there a public lecture series in history"
-  - "what happens in historiography with a visiting scholar"
-  - "what special programs does history have"
 
 ---
 
 ### Resources & Facilities
-- **filename:** `Resources___Facilities.txt`
-- **document_type:** resources
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** This document provides an annotated list of web-based research resources for history, organized by category. Professional organizations: American Historical Association (AHA) and Organization of American Historians (OAH). General references include the Library of Congress, Yale Avalon Project, Center for History and New Media (George Mason), Hanover Electronic Texts, and US National Archives. Regional sections cover African History, Asian History (including Atomic Bomb resources), European History (France, Germany, Britain, Spain, Netherlands, WWI, Holocaust), Latin American History, United States History (colonial through 20th century, Civil War, civil rights, propaganda collections), and History of Science, Medicine, and Technology. AHA career resources are highlighted.
 - **critical_data:**
   - AHA career resources linked for history majors
   - Professional orgs: AHA, OAH
   - US resources: Valley of the Shadow, American Slave Narratives, George Washington Papers, Civil War collections, MLK Institute
   - Science/Medicine resources: Galileo Project, Darwin Online, National Library of Medicine
-- **retrieval_triggers:**
-  - "where can I find primary sources for history research"
-  - "what resources does history have for African history"
-  - "where can I find European history documents online"
-  - "where can I find Latin American primary sources"
-  - "are there online archives for US history"
-  - "where can I find Civil War documents"
-  - "are there resources for science history"
-  - "how do I find primary sources for my capstone"
-  - "what is the American Historical Association"
 
 ---
 
 ### For Current Students
-- **filename:** `For_Current_Students.txt`
-- **document_type:** advising
 - **degree_relevance:** B.A. | Minor
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** This document provides a comprehensive list of internship opportunities for history students, with a brief framing of the value of history training (citing an Op-Ed by John Pepper, former P&G CEO). Students may earn academic credit for internships by contacting a History faculty member or Career Services before applying. The internship list spans government (Congressional, federal, Texas State Senate, Texas AG), media (Austin American-Statesman, Austin Chronicle, NPR, Texas Monthly, AP), advocacy (Amnesty International, NARAL, NOW, Human Rights Documentation Exchange), think tanks (Brookings, AEI, Heritage, Institute for Humane Studies), museums and archives (Smithsonian, Field Museum, Library of Congress, Presidential Libraries, US Holocaust Memorial Museum), living history sites (Plimoth Plantation, Howell Living History Farm, Norlands), and national organizations (National Park Service, National Trust for Historic Preservation). Several Texas-specific opportunities are listed.
 - **critical_data:**
   - Internships may earn academic credit — contact faculty or Career Services first
@@ -201,18 +100,6 @@
   - Texas-specific: Getsemani Community Center (Georgetown, TX), Texas Monthly, Texas State Senate, Texas AG, Texas AP Minority Internship, Texas Association of Broadcasters
   - Congressional internships: contact home district representative or senator
   - Federal programs: White House Fellows, Presidential Management Intern, minority-focused fellowships
-- **retrieval_triggers:**
-  - "what internships can I do as a history major"
-  - "can I get credit for an internship"
-  - "does history have internship opportunities"
-  - "are there government internships for history students"
-  - "can I intern at a museum"
-  - "are there internships in Texas for history majors"
-  - "what is the Smithsonian internship"
-  - "can I intern at the Library of Congress"
-  - "what are history internships in Washington DC"
-  - "are there media internships for history students"
-  - "who do I contact about internship credit"
 
 ---
 

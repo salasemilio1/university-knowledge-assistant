@@ -20,11 +20,7 @@
 ## SECTION 2 — DOCUMENT REGISTRY
 
 ### German Course Listings
-- **filename:** `Courses.txt`
-- **document_type:** course_info
 - **degree_relevance:** B.A. | Minor | All
-- **time_sensitive:** true
-- **catalog_year:** Current (exact year not specified in document)
 - **description:** Lists all current and recent course offerings in the German Program at Southwestern University, with full descriptions, prerequisites, credit information, and semester availability. Covers the full sequence from introductory (GER12-144 German I) through advanced graduate-level offerings (GER12-934 Capstone Seminar). Each course entry includes learning outcomes, proficiency level targeted (novice, intermediate, advanced), interdisciplinary connections (Animal Studies, Environmental Studies, Feminist Studies, Health Studies, International Studies, Race and Ethnicity Studies), and Paideia designations (H, SJ, PJ, WA). The document covers 14 distinct course numbers. Variable-credit courses (GER12-332, GER12-334 Speak German!) are noted as offering 2 or 4 credits. Courses taught in English (GER12-714, GER12-734) with optional German Tutorial (GER12-912, GER12-932) are also listed.
 - **critical_data:**
   - GER12-144 German I: Intro Language and Culture — Fall — no prerequisites — novice proficiency
@@ -43,31 +39,11 @@
   - GER12-912 Tutorial Transnational Identity Narrativ — taught in German — requires concurrent enrollment in GER12-714 — prerequisite: GER12-154
   - GER12-932 Tutorial Global Ldrship Intclt — taught in German — requires concurrent enrollment in GER12-734 — prerequisite: GER12-154
   - GER12-934 Capstone Seminar — fulfills capstone requirement — advanced proficiency expected — Spring of junior or senior year
-- **retrieval_triggers:**
-  - "what German courses are offered"
-  - "what are the prerequisites for German 300 level"
-  - "when is German I offered"
-  - "what is Speak German"
-  - "can I repeat a German course"
-  - "which German course counts for social justice"
-  - "is there a German film course"
-  - "what is the capstone seminar"
-  - "does German have a course in English"
-  - "what German courses count for environmental studies"
-  - "what is German Film Studies"
-  - "how do I get to advanced German"
-  - "what course follows German III"
-  - "is GER12-454 for advanced students"
-  - "what courses count for international studies"
 
 ---
 
 ### Majoring and Minoring in German (Version 1)
-- **filename:** `Majoring & Minoring(1 of 2).txt`
-- **document_type:** requirements
 - **degree_relevance:** B.A. | Minor | All
-- **time_sensitive:** true
-- **catalog_year:** Current (exact year not specified)
 - **description:** Specifies the complete degree requirements for all three German program tracks: Major in German (8 courses), Paired Major in International Studies and German (14 courses), and Minor in German (5 courses). Lists specific required courses by course number and name for each path. For the Major, requires GER12-314 or GER12-334, GER12-344, GER12-354, two German courses at or above 300 level, two additional upper-level German courses, and GER12-934 Capstone Seminar. The Paired Major adds an introductory course from Anthropology, History, or Political Science; four track courses in International Studies; and the INS38-894 Capstone. The Minor requires two courses from a specific list plus three additional German courses (at least one at 300+).
 - **critical_data:**
   - Major in German: 8 courses total
@@ -78,40 +54,18 @@
   - Minor: GER12-164 counts toward minor if taken for credit
   - Paired Major introductory course options: ANT35-104, any World History (HIS16-0X4), PSC32-144
   - International Studies tracks: Global Politics and Economy, Global Society and Culture, or Global Justice
-- **retrieval_triggers:**
-  - "how many courses do I need to major in German"
-  - "what are the requirements for German major"
-  - "can I minor in German"
-  - "what is the paired major in international studies"
-  - "how many courses for German minor"
-  - "does German count toward international studies"
-  - "what is required for the German capstone"
-  - "what upper level courses do I need"
-  - "can I do a double major in German and international studies"
-  - "is GER12-164 required for the minor"
-  - "what are the IS tracks for the paired major"
-  - "how many German courses for the paired major"
 
 ---
 
 ### Majoring and Minoring in German (Version 2)
-- **filename:** `Majoring & Minoring(2 of 2).txt`
-- **document_type:** requirements
 - **degree_relevance:** B.A. | Minor | All
-- **time_sensitive:** true
-- **catalog_year:** Current (exact year not specified)
 - **description:** Duplicate/expanded version of the Majoring & Minoring requirements document, confirming the same course counts and requirements. Contains the same core degree structures as Version 1 with identical course lists for Major (8 courses), Paired Major (14 courses), and Minor (5 courses). Includes department contact information (Georgetown, Texas; 512.863.6511). This version confirms course options for the Paired Major including the same introductory course options and IS track options.
 - **critical_data:** Same as `Majoring & Minoring(1 of 2).txt` — use either document; both are authoritative for requirements.
-- **retrieval_triggers:** Same triggers as `Majoring & Minoring(1 of 2).txt`
 
 ---
 
 ### For Current Students
-- **filename:** `For_Current_Students.txt`
-- **document_type:** advising | resources
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Provides information for currently enrolled students about extracurricular and co-curricular German program activities and resources. Describes the German Club (regular events), study abroad opportunities through Southwestern's Office of Intercultural Learning, the Capstone project (20+ page research project, interdisciplinary, typically drawing on culture, film, and literature courses), and funding opportunities for internships and exchanges. Lists seven professional organizations relevant to German students. Includes links to online resources and an online dictionary for German studies. Funding opportunities listed include Cultural Vistas, CBYX, DAAD, and Fulbright.
 - **critical_data:**
   - German Club meets regularly
@@ -120,26 +74,11 @@
   - Funding opportunities: Cultural Vistas, CBYX (Congress-Bundestag Youth Exchange), DAAD (German Academic Exchange Service), Fulbright
   - Professional organizations: AATG, ACTFL, German Studies Association, Women in German, MLA
   - 11 alumni have earned Fulbright Fellowships (referenced in For_Future_Students.txt)
-- **retrieval_triggers:**
-  - "how do I apply for a Fulbright"
-  - "what is DAAD"
-  - "is there a German Club"
-  - "how do I study abroad in Germany"
-  - "what is the capstone research project"
-  - "what internships are available for German students"
-  - "what is CBYX"
-  - "what professional organizations should I join"
-  - "how long is the German capstone"
-  - "where do I go for study abroad"
 
 ---
 
 ### For Future Students
-- **filename:** `For_Future_Students.txt`
-- **document_type:** advising | general
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Recruitment and informational document for prospective German students, describing the program's philosophy and outcomes. Emphasizes global citizenship, mentoring, interdisciplinary connections, and lifelong skills. Notes that 11 alumni have earned Fulbright Fellowships and that alumni have gone on to graduate schools and public service, including Dori Glanz '06 who works in health care at the White House. Describes interdisciplinary connections to Art History, Business, Environmental Studies, Feminist Studies, Film Studies, History, International Studies, Music, Philosophy, Political Science, and Religion. Highlights the senior Capstone Seminar as original scholarship with oral presentation, and describes how majors/minors pursue internships, scholarships, and study abroad.
 - **critical_data:**
   - 11 alumni have earned Fulbright Fellowships
@@ -148,46 +87,21 @@
   - Critical thinking, reading, writing, and intercultural awareness foregrounded as career skills
   - Capstone includes formal oral presentation component
   - Program enables combining/pairing majors and minors
-- **retrieval_triggers:**
-  - "what can I do with a German major"
-  - "what careers do German majors go into"
-  - "have German students won Fulbrights"
-  - "is German good for graduate school"
-  - "how does German connect to other majors"
-  - "why should I major in German"
-  - "what skills does a German major build"
-  - "does German work well with business"
-  - "can I pair German with environmental studies"
 
 ---
 
 ### Our Faculty
-- **filename:** `Our_Faculty.txt`
-- **document_type:** advising | general
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Lists the faculty of the German Program (and broader Modern Languages department) with names, titles, specialties, contact information, and office locations. The German-specific faculty member is Erika Berroth (Associate Professor of German, berrothe@southwestern.edu, 512.863.1739, Olin 319). Department chair Francis Mathieu (Professor of French, mathieuf@southwestern.edu, 512.863.1509, Olin 309) and Aaron Prevots (Professor of French, prevots@southwestern.edu) are also listed. Berroth's specialties are not listed in the faculty page directly but are extensively documented in the achievements files.
 - **critical_data:**
   - Erika Berroth — Associate Professor of German — berrothe@southwestern.edu — 512.863.1739 — Olin 319
   - Francis Mathieu — Professor of French and Department Chair — mathieuf@southwestern.edu — 512.863.1509 — Olin 309
   - Aaron Prevots — Professor of French — prevots@southwestern.edu
-- **retrieval_triggers:**
-  - "who teaches German at Southwestern"
-  - "how do I contact my German professor"
-  - "who is the German faculty"
-  - "what is Professor Berroth's email"
-  - "where is the German professor's office"
-  - "who chairs the language department"
 
 ---
 
 ### Notable Faculty and Student Achievements (Part 1)
-- **filename:** `Notable_Faculty___Student_Achievements_1_of_2_.txt`
-- **document_type:** general | resources
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A (covers 2020–2025)
 - **description:** Chronological log (February 2020 – December 2025) of achievements by Associate Professor of German Erika Berroth and German program students. Documents Berroth's conference presentations, invited lectures, editorial work, materials grants (multiple DAAD grants), community outreach, mentorship of undergraduate researchers, and student achievements including Fulbright awards. Notable student achievements include Claire Harding '20 (Fulbright, German/Physics double major), Melina Boutirs '22 (capstone presented at national conference), Isabella Moore '25 (National Undergraduate Research Conference, German/Environmental Studies), Kendyl Feuerbacher '27 (research presentations, German/Studio Art), Rylee Morris '28 (SURF research), and Maglor Williams '27 (SURF research). Documents SURF research opportunities available to German students.
 - **critical_data:**
   - 11 Fulbright Fellowships earned by SU German alumni
@@ -198,28 +112,13 @@
   - Undergraduate Research Conference in German Studies — national venue for student research
   - Perry Rhodan collection at SU's Distinctive Collections — only such library collection in USA
   - Capstone research has been presented at national conferences
-- **retrieval_triggers:**
-  - "what research opportunities exist for German students"
-  - "have German students won awards"
-  - "what is SURF"
-  - "can I do undergraduate research in German"
-  - "who has won a Fulbright from the German program"
-  - "what has Professor Berroth published"
-  - "can I present my research at a conference"
-  - "what is the Perry Rhodan collection"
-  - "what grants has the German program received"
 
 ---
 
 ### Notable Faculty and Student Achievements (Part 2)
-- **filename:** `Notable_Faculty___Student_Achievements_2_of_2_.txt`
-- **document_type:** general | resources
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A (covers 2020–2025, more detailed version)
 - **description:** Expanded, more detailed version of the achievements document covering the same period (2020–2025) with more complete entries for each achievement. Contains the same core content as Part 1 with additional detail on conference presentations, mentorship activities, SURF student research, and Berroth's scholarly publications (Feminist German Studies, Glossen, co-edited IVG volume on Disability Studies). Confirms SURF students Kendyl Feuerbacher '27, Rylee Morris '28, and Maglor Williams '27 presented at the 6th biennial joint AATG Texas conference in September 2025.
 - **critical_data:** Same core data as Part 1 — use either for factual questions; Part 2 is more detailed.
-- **retrieval_triggers:** Same as Part 1.
 
 ---
 

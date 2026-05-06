@@ -11,11 +11,7 @@
 ## SECTION 2 — DOCUMENT REGISTRY
 
 ### Latin — Majoring & Minoring
-- **filename:** `Latin.txt`
-- **document_type:** requirements
 - **degree_relevance:** B.A. | Minor
-- **time_sensitive:** true
-- **catalog_year:** N/A (check current course catalog)
 - **description:** This document defines the complete requirements for the Latin major (B.A.) and the Latin minor. The major requires 8 courses: the Capstone (LAT14-954) plus seven additional upper-level courses in Latin. The minor requires 5 courses in Latin, three of which must be upper level. The document also notes that students seeking teacher certification in Latin should consult the Education Department section of the catalog. No course descriptions, prerequisites, offering frequencies, or specific course numbers are provided beyond the capstone — students must consult the current SU course catalog for full course listings.
 - **critical_data:**
   - Major = 8 courses total (Capstone LAT14-954 + 7 upper-level Latin courses)
@@ -23,28 +19,11 @@
   - Capstone course number: LAT14-954
   - Teacher certification in Latin: see Education Department catalog section
   - No GPA threshold beyond SU-wide minimum stated in this document
-- **retrieval_triggers:**
-  - "how many courses do I need to major in Latin"
-  - "what are the Latin major requirements"
-  - "what is the Latin minor"
-  - "how many upper level Latin courses do I need"
-  - "what is the Latin capstone"
-  - "what is LAT14-954"
-  - "can I minor in Latin"
-  - "how many courses is the Latin minor"
-  - "do I need lower level Latin to major"
-  - "can I get teacher certification in Latin"
-  - "what is the difference between Latin major and minor"
-  - "how is the Latin major structured"
 
 ---
 
 ### Classics — Majoring & Minoring (related degree, in context)
-- **filename:** `Classics.txt`
-- **document_type:** requirements
 - **degree_relevance:** B.A. (Classics)
-- **time_sensitive:** true
-- **catalog_year:** N/A
 - **description:** This document defines the interdisciplinary Classics major (B.A., 9 courses), which requires Latin as a component. Classics majors must complete one upper-level Latin course (required), two additional upper-level courses in Latin, Greek, or Classics in Translation, and three semesters of Latin to satisfy the foreign language graduation requirement. This document is included because many Latin majors also consider or are asked about the Classics major, and because Latin courses overlap significantly between the two degree paths. The Classics capstone is CLA07-964. Study abroad (especially College Year in Athens) is strongly recommended.
 - **critical_data:**
   - Classics major = 9 courses; requires Latin and Greek
@@ -53,30 +32,16 @@
   - Capstone: CLA07-964
   - Study abroad: strongly advised; College Year in Athens recommended
   - Language placement credit available for incoming students
-- **retrieval_triggers:**
-  - "how does the Latin major compare to the Classics major"
-  - "does the Classics major require Latin"
-  - "what is the Classics major"
-  - "can I do both Latin and Classics"
-  - "does Latin count toward the Classics degree"
 
 ---
 
 ### Greek — Majoring & Minoring (related degree, in context)
-- **filename:** `Greek.txt`
-- **document_type:** requirements
 - **degree_relevance:** B.A. (Greek) | Minor (Greek)
-- **time_sensitive:** true
-- **catalog_year:** N/A
 - **description:** This document defines the Greek major (B.A., 8 courses) and minor (5 courses), which runs parallel to the Latin major in structure. Included because students frequently ask how the Latin and Greek majors compare, and because both feed into the interdisciplinary Classics major. The Greek capstone is Greek 13-954.
 - **critical_data:**
   - Greek major = 8 courses (Greek 13-954 capstone + 7 upper-level Greek)
   - Greek minor = 5 courses (3 upper level)
   - Structure is parallel to Latin major
-- **retrieval_triggers:**
-  - "how does the Latin major compare to the Greek major"
-  - "can I minor in Greek while majoring in Latin"
-  - "what is the Greek major"
 
 ---
 

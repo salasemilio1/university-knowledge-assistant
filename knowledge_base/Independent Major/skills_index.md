@@ -11,11 +11,7 @@
 ## SECTION 2 — DOCUMENT REGISTRY
 
 ### Independent Major — Department Overview
-- **filename:** `Independent_Major.txt`
-- **document_type:** general
 - **degree_relevance:** B.A.
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** This is the Independent Major's landing page. It frames the program as an opportunity for students to design their own interdisciplinary course of study toward a Bachelor of Arts, either organized around a coherent intellectual theme or a specific career goal. Two illustrative examples are given: an urban studies focus combining government, sociology, architecture, and design thinking; and a global health focus linking surgery internship shadowing with coursework in cancer biology, gender and sexuality, sustainable food and agriculture, and health psychology. The page emphasizes that the program requires strong initiative and self-discipline, involves consultation with relevant department/program chairs, and culminates in a high-impact capstone project. The program supports interweaving coursework, research, and internships across disciplines.
 - **critical_data:**
   - Degree awarded: Bachelor of Arts
@@ -24,27 +20,11 @@
   - Requires Curriculum Committee approval
   - Examples: urban studies (government + sociology + architecture + design thinking); global health (cancer biology + gender and sexuality + sustainable food + health psychology + internship shadowing a cardiothoracic surgeon)
   - Designed for students with strong initiative and self-discipline
-- **retrieval_triggers:**
-  - "can I design my own major at SU"
-  - "what is the independent major"
-  - "how do I create my own major"
-  - "what is the area of concentration"
-  - "can I combine subjects into my own degree"
-  - "what is an interdisciplinary major at SU"
-  - "what examples exist for independent majors"
-  - "is there an urban studies major"
-  - "is there a global health major"
-  - "does SU let students design their own curriculum"
-  - "what is the capstone for the independent major"
 
 ---
 
 ### Independent Major — Majoring & Minoring
-- **filename:** `Majoring___Minoring.txt`
-- **document_type:** requirements
 - **degree_relevance:** B.A.
-- **time_sensitive:** true
-- **catalog_year:** N/A (check current catalog and Curriculum Committee for approval process)
 - **description:** This document defines the complete structural requirements for the Independent Major (also called "area of concentration") within the Bachelor of Arts degree. The program requires a minimum of 56 credits total, organized in two equal blocks: 28 credits from one primary subject area (20 of which must be above introductory level) and 28 additional credits from other subject areas (20 of which must be above introductory level). The program must be designed in consultation with the chairs of the departments/programs involved and must be endorsed by a departmental/program vote in the area of the first 28-credit block before submission to the Curriculum Committee for final approval. The capstone experience is dictated by the requirements of the Block 1 subject area. Courses used to satisfy Block 1 may not be double-counted. The Independent Major replaces both a regularly offered major and a minor.
 - **critical_data:**
   - Minimum total: 56 credits
@@ -55,21 +35,6 @@
   - Capstone: determined by Block 1 subject area's capstone requirements
   - Replaces both a standard major AND a minor — no separate minor required
   - Degree: B.A. only
-- **retrieval_triggers:**
-  - "how many credits does the independent major require"
-  - "what are the credit requirements for the independent major"
-  - "what is the 28 credit block"
-  - "how many credits need to be upper level"
-  - "do I need a minor if I do an independent major"
-  - "how do I get my independent major approved"
-  - "who approves the independent major"
-  - "what is the Curriculum Committee"
-  - "what is the capstone for the independent major"
-  - "can I double count courses in my independent major"
-  - "how is the independent major different from a regular major"
-  - "is the independent major a BA or BS"
-  - "what does above introductory level mean"
-  - "how do I start designing an independent major"
 
 ---
 

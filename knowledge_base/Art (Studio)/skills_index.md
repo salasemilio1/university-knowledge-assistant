@@ -10,37 +10,18 @@
 ## SECTION 2 — DOCUMENT REGISTRY
 
 ### Studio Art Program Overview
-- **filename:** `Studio_Art.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Provides a high-level overview of the Studio Art program at Southwestern University. Describes the range of media taught (drawing, painting, sculpture, ceramics, printmaking) and the dual focus on technical and formal skills. Notes the role of the Sarofim Fine Arts Gallery in hosting professional exhibitions and providing showcase opportunities for Studio Art majors. Highlights that students gain access to local and global opportunities. Cites the Fiske Guide to Colleges ranking of SU as among the top 25 small colleges strong in art or design, a distinction held since 2006.
 - **critical_data:**
   - Media offered: drawing, painting, sculpture, ceramics, printmaking
   - Sarofim Fine Arts Gallery hosts professional exhibitions and student showcases
   - Ranked top 25 small colleges strong in art/design by Fiske Guide since 2006
   - Program prepares students for graduate study and professional careers in the arts
-- **retrieval_triggers:**
-  - "what is the studio art program like"
-  - "what media can I study in art"
-  - "is SU good for art"
-  - "does SU have a gallery"
-  - "what does the Fiske Guide say about SU art"
-  - "can I do ceramics at SU"
-  - "will the art program prepare me for grad school"
-  - "what makes the SU art program special"
-  - "overview of studio art"
-  - "top art schools small college"
 
 ---
 
 ### Majoring and Minoring in Studio Art
-- **filename:** `Majoring___Minoring.txt`
-- **document_type:** requirements
 - **degree_relevance:** B.A. | B.F.A. | Minor
-- **time_sensitive:** true
-- **catalog_year:** 2025-2026 (inferred from document content)
 - **description:** The primary requirements document for all Studio Art degree paths. Details the B.A. in Studio Art (11 courses), the B.F.A. in Studio Art (19 courses), the Paired Major in Art History and Studio Art B.A. (17 courses), and the Minor in Studio Art (5 courses). Lists every required course with course numbers for each path, including elective pools and optional senior exhibition requirements. Describes BFA admission requirements (portfolio jury, sophomore/junior year application, B- GPA minimum, regular faculty reviews). Articulates three overarching program goals: creative expression and technical skills, critical thinking and conceptual growth, and interdisciplinary connections and collaboration.
 - **critical_data:**
   - B.A. requires 11 courses; B.F.A. requires 19 courses; Paired Major requires 17 courses; Minor requires 5 courses
@@ -51,29 +32,11 @@
   - Minor requires: ART68-104 Drawing I, ART68-114 Design I, plus three additional Studio Art courses
   - Optional senior exhibition for B.A. students (requires approval + ART68-512 Exhibition Practicum)
   - Course prefix: ART68 for Studio Art; ARH71 for Art History
-- **retrieval_triggers:**
-  - "how many courses do I need for the art major"
-  - "what's the difference between the BA and BFA"
-  - "how do I get into the BFA program"
-  - "what GPA do I need for BFA"
-  - "what courses are required for the art minor"
-  - "do I need a senior exhibition"
-  - "what is ART68-404"
-  - "what is the capstone for studio art"
-  - "can I do a paired major in art history and studio art"
-  - "what electives count for the BA"
-  - "what is ART68-512"
-  - "requirements for studio art minor"
-  - "what is the BFA portfolio review"
 
 ---
 
 ### Art Scholarships
-- **filename:** `Art_Scholarships.txt`
-- **document_type:** financial
 - **degree_relevance:** B.A. | B.F.A.
-- **time_sensitive:** true
-- **catalog_year:** 2025-2026 (updated November 24, 2025)
 - **description:** Describes the Sarofim Scholarship in Studio Art, awarded based on talent and demonstrated desire for growth. Outlines the three-step portfolio review process: register, submit application, complete virtual review. States the scholarship is for Studio Art majors only and that portfolio review is not mandatory for admission. Notes the application deadline of February 10, 2026 with encouragement for earlier submission. Describes the Sarofim School of Fine Arts Scholarship Celebration Day on March 1, which offers studio tours, faculty meetings, workshops, and potential for additional scholarship funds. States scholarship recipients may also be eligible for additional Southwestern merit scholarships.
 - **critical_data:**
   - Scholarship name: Sarofim Scholarship in Studio Art
@@ -84,26 +47,11 @@
   - Scholarship Celebration Day: March 1
   - Recipients may be eligible for additional Southwestern merit scholarships
   - Contact: FineArtsAdmissions@southwestern.edu
-- **retrieval_triggers:**
-  - "is there a scholarship for art students"
-  - "how do I apply for the Sarofim scholarship"
-  - "what is the portfolio review deadline"
-  - "do I need a portfolio to get into the art major"
-  - "when is the art scholarship deadline"
-  - "what happens at Scholarship Celebration Day"
-  - "can art students get merit scholarships"
-  - "how does the portfolio review work"
-  - "Sarofim scholarship requirements"
-  - "financial aid for studio art"
 
 ---
 
 ### Facilities
-- **filename:** `Facilities.txt`
-- **document_type:** resources
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Describes the physical facilities available to Studio Art students at Southwestern University. Identifies two main buildings: the Alma Thomas Fine Arts Center and the Rufus Franklin Edwards Studio Art Building. The Edwards Building is 13,169 square feet, divided equally between ceramics and sculpture areas with 1,920 sq ft main studios each. Also includes a glaze mixing room, 400 sq ft faculty studios/offices, a large covered outdoor kiln workspace, a clay mixing room, multiple storage spaces, and a loading dock. A full-time Studio Technician supports the sculpture and ceramics studios, lab courses, and equipment maintenance.
 - **critical_data:**
   - Two buildings: Alma Thomas Fine Arts Center; Rufus Franklin Edwards Studio Art Building
@@ -111,25 +59,11 @@
   - Ceramics and sculpture each have 1,920 sq ft main studios
   - Facilities include: glaze mixing room, outdoor kiln workspace, clay mixing room, loading dock
   - Full-time Studio Technician on staff supporting ceramics and sculpture
-- **retrieval_triggers:**
-  - "what are the art facilities like"
-  - "where are the art studios"
-  - "does SU have a ceramics studio"
-  - "what is in the Edwards building"
-  - "is there a kiln on campus"
-  - "who is the studio technician"
-  - "what equipment do art students have access to"
-  - "Alma Thomas Fine Arts Center"
-  - "Rufus Franklin Edwards building"
 
 ---
 
 ### High-Impact Learning Experiences
-- **filename:** `High-Impact_Learning_Experiences.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Describes experiential and off-campus learning opportunities strongly encouraged for Studio Art majors and minors. Highlights the SU London Program (15-week, 16-credit, IES collaboration, requires sophomore standing) and the New York Arts Program (NYAP), which places students in internships and apprenticeships at prominent studios, museums, galleries, and arts institutions in New York City. Describes NYAP as a semester-long experience with a faculty advisor, Area Study course, and professional artist instruction. NYAP participants reside in a Chelsea townhouse. Students are encouraged to pursue at least one off-campus program in their junior or senior year.
 - **critical_data:**
   - SU London Program: 15 weeks, 16 credits, requires at least sophomore standing, through IES
@@ -137,26 +71,11 @@
   - NYAP residence: Chelsea, Manhattan townhouse
   - Applicants must visit NYC for interviews to secure apprenticeship
   - Art majors/minors highly encouraged to participate in at least one off-campus program junior or senior year
-- **retrieval_triggers:**
-  - "can I study abroad as an art major"
-  - "what is the New York Arts Program"
-  - "NYAP internship"
-  - "London semester for art students"
-  - "off-campus opportunities for art majors"
-  - "how do I get an art internship in New York"
-  - "IES London program SU"
-  - "apprenticeship in the arts"
-  - "how many credits is the London program"
-  - "can I intern at a museum through SU"
 
 ---
 
 ### For Current Students
-- **filename:** `For_Current_Students.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** 2025-2026
 - **description:** Provides procedural guidance for current Studio Art students regarding registration and program engagement. Describes BAM! (Big Art Meeting), held each semester for all art majors, minors, and interested students, covering pre-enrollment procedures, program events, career exploration, and the New York Arts Program. Outlines the five-step art class pre-enrollment process: declare major/minor, plan schedule with advisor, get advisor clearance, clear all holds, and complete the Studio Art Pre-enrollment Google Form. Notes that BFA is by application only and interested students should contact the Department Chair during sophomore or junior year.
 - **critical_data:**
   - BAM! meetings held each semester, several weeks before registration
@@ -165,26 +84,11 @@
   - After pre-enrollment, course changes must wait until add/drop period
   - Contact for BAM! list: canteragi@southwestern.edu
   - Fall 2025 BFA Application and Review dates: TBA
-- **retrieval_triggers:**
-  - "how do I pre-enroll in art classes"
-  - "what is the BAM meeting"
-  - "when is registration for art students"
-  - "how do I sign up for the art mailing list"
-  - "how do I apply for the BFA"
-  - "what holds do I need to clear before registering"
-  - "can I change my art class after pre-enrollment"
-  - "what is the Studio Art pre-enrollment Google form"
-  - "who is my advisor for art"
-  - "how do I declare the art major"
 
 ---
 
 ### Our Faculty and Staff (Art Department)
-- **filename:** `Our_Faculty___Staff.txt`
-- **document_type:** resources
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** N/A
 - **description:** Lists all faculty and staff in the Art Department at Southwestern University with contact information and specializations. Faculty include Ron Geibel (Associate Professor, Chair, specializing in Ceramics, Craft History, Contemporary Craft, Craft Theory), Heidi Hogden (Associate Professor), Selina Wagner (Part-Time Assistant Professor), Ariel Wood (Visiting Assistant Professor, specializing in Sculpture, Ceramics, Printmaking), John Hancock (Regular Part-Time), and technical staff Moses Tsai (Studio Art Technical Assistant, FAC 109) and Alicia Kaplan (Technical Assistant and Exhibition Coordinator).
 - **critical_data:**
   - Department Chair: Ron Geibel (geibelr@southwestern.edu, 512.863.1445, STU CER)
@@ -194,25 +98,11 @@
   - Regular Part-Time: John Hancock (hancockj@southwestern.edu)
   - Studio Technician: Moses Tsai (tsaim@southwestern.edu, 512.863.1599, FAC 109)
   - Exhibition Coordinator: Alicia Kaplan (kaplana@southwestern.edu, FAC)
-- **retrieval_triggers:**
-  - "who is the art department chair"
-  - "who teaches ceramics"
-  - "how do I contact the art faculty"
-  - "who is Ron Geibel"
-  - "art department faculty emails"
-  - "who is the studio technician"
-  - "who coordinates exhibitions"
-  - "who teaches sculpture"
-  - "who teaches printmaking"
 
 ---
 
 ### Our Staff (Sarofim School of Fine Arts)
-- **filename:** `Our_Staff.txt`
-- **document_type:** resources
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** N/A
 - **description:** Lists the administrative staff of the Sarofim School of Fine Arts (not specific to Studio Art department). Includes Kristen Rogers (Managing Director, rogersk@southwestern.edu, 512.863.1379, FAC 133), Itza Cantera-Guerrero (Fine Arts Administrative Coordinator, canteragi@southwestern.edu, 512.863.1548, FAC 133), and Robert Riddle (Venue and Production Manager, riddler@southwestern.edu, 512.863.1377, FAC 115). General Sarofim contact: 512.863.6511.
 - **critical_data:**
   - Managing Director: Kristen Rogers (rogersk@southwestern.edu, 512.863.1379, FAC 133)
@@ -220,35 +110,17 @@
   - Venue and Production Manager: Robert Riddle (riddler@southwestern.edu, 512.863.1377, FAC 115)
   - General Sarofim phone: 512.863.6511
   - Itza Cantera-Guerrero is the contact for BAM! art mailing list
-- **retrieval_triggers:**
-  - "who runs the Sarofim school"
-  - "how do I contact fine arts administration"
-  - "who is the managing director of fine arts"
-  - "Sarofim school phone number"
-  - "who do I email for fine arts events"
-  - "who is Itza Cantera-Guerrero"
-  - "who manages the fine arts venue"
 
 ---
 
 ### Friends of Sarofim
-- **filename:** `Friends.txt`
-- **document_type:** financial
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Describes the Friends of Sarofim donor program that provides financial support to Southwestern University's fine arts students. Includes a testimonial from alumna Savannah Ritz (Class of 2020) about studying at the National Theatre Institute, studying abroad in London, and interning at The Actors' Centre. Lists member benefits including a Sarofim events calendar, special invitations and seating at select events, and invitations to exhibition previews and openings. Provides instructions for making a tax-deductible gift via southwestern.edu/makeagift or calling 512-863-1239.
 - **critical_data:**
   - Donor program: Friends of Sarofim
   - Tax-deductible gift: southwestern.edu/makeagift or 512-863-1239
   - Member benefits: events calendar, special invitations, exhibition preview access
   - Gifts can be designated "Friends of Sarofim"
-- **retrieval_triggers:**
-  - "how can I support SU fine arts"
-  - "Friends of Sarofim"
-  - "how do I donate to the art program"
-  - "fine arts fundraising"
-  - "Sarofim donor benefits"
 
 ---
 

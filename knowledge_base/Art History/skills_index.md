@@ -10,11 +10,7 @@
 ## SECTION 2 — DOCUMENT REGISTRY
 
 ### Courses
-- **filename:** `Courses.txt`
-- **document_type:** course_info
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Lists all Art History courses offered by Southwestern University with full catalog descriptions. Covers introductory courses (71-024, 71-054, 71-064), East Asian art courses including Arts of China (71-214), Ancient Chinese Art (71-234), Topics in East Asian Art (71-254), Art in China Since 1911 (71-264), Topics in Non-Western Art (71-354), European and architectural history courses (71-454, 71-484, 71-494), modern art courses (71-534, 71-554), and upper-level seminars (71-614, 71-824). Offering frequency (annually, biennially) is noted for many courses. Paideia area tags (FA, WA, SJ, PJ) are listed for each course where applicable.
 - **critical_data:**
   - ARH 71-024: Intro Art Hist: East Asian Art & Arch — open to first/second-year students or by consent; (FA)(WA); annual
@@ -32,30 +28,11 @@
   - ARH 71-554: Topics in Modern Art — repeatable; (FA)(WA)
   - ARH 71-614: Annual Topics in Art History — prerequisite: one Art History course; offered Fall; (FA)
   - ARH 71-824: Capstone Research Seminar — open to majors only (or by instructor permission); must be taken Fall semester of senior year; prerequisites: one -0X4 intro course AND four additional upper-level courses (71-200, -300, -400, -500 level) AND 71-614
-- **retrieval_triggers:**
-  - "what art history courses are offered"
-  - "when is Arts of China offered"
-  - "what are the prerequisites for the capstone"
-  - "which courses count for East Asian Studies"
-  - "can I repeat Topics in East Asian Art"
-  - "what is 71-614"
-  - "when is the capstone seminar"
-  - "does art history have any Power and Justice courses"
-  - "which art history courses satisfy Paideia Fine Arts"
-  - "is Modern Architecture offered every year"
-  - "what intro art history courses can freshmen take"
-  - "can sophomores take the intro courses"
-  - "what counts as a -200 level course"
-  - "what are the upper level art history courses"
 
 ---
 
 ### Majoring & Minoring
-- **filename:** `Majoring___Minoring.txt`
-- **document_type:** requirements
 - **degree_relevance:** B.A. | Minor
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Defines all degree and minor requirements for the Art History department. Covers the standalone Art History major (9 courses), the Paired Major in Art History and Studio Art (17 courses), the Paired Major in Art History and Business (17 courses), the Paired Major in Art History and History (16 courses), and the Minor in Art History (5 courses). Each path specifies required introductory courses, distribution/area requirements, elective rules, and capstone requirements. The document also explains the Art History course numbering system: 71- prefix; -000 introductory; -200 East Asia; -300 Latin America; -400 Pre-Modern/Early Modern Europe and architectural history; -500 Modern Euro-America; -600–800 upper level; -900 tutorials and independent study.
 - **critical_data:**
   - Standalone major: 9 courses total — 1 intro, 1 East Asian (-200), 1 Latin American (-300), 1 Pre/Early Modern or Architecture (-400), 1 Modern (-500), 2 upper-level electives (-200+), ARH71-614, ARH71-824 capstone
@@ -65,93 +42,40 @@
   - Minor: 5 courses — 1 intro, courses from at least 2 of 4 areas (Asian -200, Latin American -300, Pre/Early Modern -400, Modern -500), plus 2 additional upper-level (-200+) Art History courses
   - Paired majors CANNOT be declared as a standard double major; restrictions apply (check SU_General_Policies.txt)
   - Course numbering: 71- = Art History; -000 intro; -200 East Asia; -300 Latin America; -400 Pre-Modern Europe/Architecture; -500 Modern; -600–800 upper-level; -900 tutorials/independent study
-- **retrieval_triggers:**
-  - "how many courses do I need to major in art history"
-  - "what is the art history major requirements"
-  - "can I pair art history with business"
-  - "what is the paired major with studio art"
-  - "how many courses for the art history minor"
-  - "what counts as a -300 course"
-  - "do I need a Latin American art course"
-  - "what is the capstone requirement"
-  - "can I double major in art history and history"
-  - "what is the difference between the standalone major and paired major"
-  - "when do I take the capstone seminar"
-  - "what are the elective requirements"
-  - "does the minor require a capstone"
-  - "what business courses are required in the paired major"
-  - "what history courses do I need for the paired major with history"
 
 ---
 
 ### Our Faculty
-- **filename:** `Our_Faculty.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** N/A
 - **description:** Lists current Art History faculty including names, titles, specialties, email addresses, phone numbers, and office locations. Department Chair is Professor Allison R. Miller, specialist in Chinese art and archaeology, located in Fine Arts 238. Professor Kimberly Smith specializes in modern art, feminist art history, and history of art history, located in Fine Arts 232. Rachel Daphne Weiss is listed as Visiting Instructor/Assistant Professor of Art History.
 - **critical_data:**
   - Department Chair: Allison R. Miller — amiller@southwestern.edu — 512.863.1057 — Fine Arts 238 — Chinese art and archaeology
   - Professor Kimberly Smith — smithk@southwestern.edu — 512.863.1349 — Fine Arts 232 — Modern art; feminist art history; history of art history
   - Rachel Daphne Weiss (Visiting Instructor/Assistant Professor) — weissr@southwestern.edu — 512.863.1384
   - Three total faculty members listed
-- **retrieval_triggers:**
-  - "who is the art history department chair"
-  - "who teaches Chinese art"
-  - "how do I contact my art history advisor"
-  - "who teaches modern art"
-  - "what is Professor Miller's email"
-  - "where is the art history department office"
-  - "who are the art history professors"
-  - "does art history have a visiting professor"
 
 ---
 
 ### Resources & Facilities
-- **filename:** `Resources___Facilities.txt`
-- **document_type:** resources
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Describes the physical and digital learning environments used by the Art History department. Courses meet in the Fine Arts Building, the F.W. Olin Building, the Roy and Lillie Cullen Building, and the Charles and Elizabeth Prothro Center for Lifelong Learning. The department makes extensive use of digital teaching media including Moodle, chatrooms, and virtual exhibits of artwork. The Sarofim School of Fine Arts is referenced as a physical location for art-related activity.
 - **critical_data:**
   - Class locations: Fine Arts Building, F.W. Olin Building, Roy and Lillie Cullen Building, Prothro Center for Lifelong Learning
   - Digital resources used: Moodle, chatrooms, virtual art exhibits
   - Art History is part of the Sarofim School of Fine Arts
-- **retrieval_triggers:**
-  - "where do art history classes meet"
-  - "what buildings are used for art history"
-  - "does art history use Moodle"
-  - "what is the Sarofim School of Fine Arts"
-  - "are there virtual exhibits for art history"
-  - "what digital tools does art history use"
 
 ---
 
 ### Notable Faculty & Student Achievements
-- **filename:** `Notable_Faculty___Student_Achievements.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Document not fully extracted but is referenced in the file set. Expected to cover awards, recognitions, research publications, fellowships, or honors earned by Art History faculty and students. May include Paideia with Distinction recipients, research symposium presenters, or nationally recognized student work.
 - **critical_data:**
   - Content not fully available in provided extraction — retrieve document for specific achievement queries
-- **retrieval_triggers:**
-  - "have art history students won any awards"
-  - "what research do art history professors do"
-  - "have any art history students presented at symposium"
-  - "notable achievements in the art history department"
 
 ---
 
 ### See What Our Graduates Are Doing Now
-- **filename:** `See_What_Our_Graduates_Are_Doing_Now.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Describes career outcomes and graduate school paths for Art History alumni and explains the value of the degree for diverse careers. Notes that art history training in research, writing, broad historical knowledge, and visual analysis serves fields including gallery/museum work, consulting, and design entrepreneurship. States that museum/gallery careers typically require an M.A. and/or Ph.D. in art history. Notably, art history majors have a higher acceptance rate to medical and law schools than pre-med and pre-law majors. Lists over a dozen named alumni with their graduating year, graduate degrees, and current roles, from museum curators and conservators to public health professionals and attorneys.
 - **critical_data:**
   - Museum/gallery careers typically require major + M.A. and Ph.D. in art history
@@ -159,18 +83,6 @@
   - A minor in art history combined with a humanities major is effective preparation for graduate programs in art history
   - Notable alumni: Elizabeth Schlatter '93 (Deputy Director & Curator, University of Richmond Museums); Kris Ercums '93 (Curator, Spencer Museum of Art, Univ. of Kansas); Josh Franco '06 (Latino Collections Curator, Smithsonian Archives of American Art); Holly Gordon '09 (JD — Copyright, Entertainment, and Art Law); Kelly Johnson '12 (Volunteer and Program Coordinator, Rothko Chapel, Houston); Anna Nau '06 (Architectural Conservator, Ford Powell and Carson Architects; Ph.D. candidate at UT Austin)
   - Alumni have pursued graduate programs at GWU, University of Chicago, Boston University, University of Virginia, Edinburgh College of Art, NYU, Binghamton, and more
-- **retrieval_triggers:**
-  - "what can I do with an art history degree"
-  - "do art history majors get into law school"
-  - "what jobs do art history graduates get"
-  - "can I go to medical school with an art history degree"
-  - "what graduate programs do art history majors attend"
-  - "do I need a master's degree for museum work"
-  - "what do art history alumni do"
-  - "is art history a good major for law school"
-  - "can I become a curator with an art history degree"
-  - "what careers are available for art history majors"
-  - "did any art history graduates go into public health"
 
 ---
 

@@ -16,11 +16,7 @@ See header above.
 ## SECTION 2 — DOCUMENT REGISTRY
 
 ### Greek — Majoring & Minoring
-- **filename:** `Greek.txt`
-- **document_type:** requirements
 - **degree_relevance:** B.A. | Minor
-- **time_sensitive:** true
-- **catalog_year:** N/A (check current course catalog)
 - **description:** This document defines the complete requirements for the Greek major (B.A.) and the Greek minor. The major requires 8 courses: the Capstone (Greek 13-954) plus seven additional upper-level courses in Greek. The minor requires 5 courses in Greek, three of which must be upper level. No prerequisite chains, offering frequencies, or course descriptions are provided in this document — it is a high-level requirements summary only. Students seeking detailed course information must consult the current course catalog.
 - **critical_data:**
   - Major = 8 courses total (Capstone + 7 upper-level Greek courses)
@@ -28,51 +24,22 @@ See header above.
   - Capstone course number: Greek 13-954
   - No introductory/lower-level course requirements explicitly listed for the major (all 7 electives are upper-level)
   - No GPA threshold stated in this document (see `SU_General_Policies.txt`)
-- **retrieval_triggers:**
-  - "how many courses do I need to major in Greek"
-  - "what are the Greek major requirements"
-  - "what is the Greek minor"
-  - "how many upper level Greek courses do I need"
-  - "what is the Greek capstone"
-  - "can I minor in Greek"
-  - "how many courses is the Greek minor"
-  - "do I need lower level Greek to major"
-  - "what is Greek 13-954"
-  - "how is the Greek major structured"
-  - "what counts toward the Greek minor"
-  - "what is the difference between Greek major and minor"
 
 ---
 
 ### Latin — Majoring & Minoring
-- **filename:** `Latin.txt`
-- **document_type:** requirements
 - **degree_relevance:** B.A. | Minor (Latin)
-- **time_sensitive:** true
-- **catalog_year:** N/A
 - **description:** This document defines the requirements for the Latin major (B.A.) and the Latin minor. The Latin major requires 8 courses: the Capstone (LAT14-954) plus seven additional upper-level courses in Latin. The Latin minor requires 5 courses in Latin, three of which must be upper level. The document also notes that students seeking teacher certification in Latin should consult the Education Department section of the catalog. This document is included in the Greek major's knowledge base because students in the Classics department may cross-register or inquire about related language majors, and because the Greek and Latin major structures are parallel.
 - **critical_data:**
   - Latin major = 8 courses (Capstone LAT14-954 + 7 upper-level Latin)
   - Latin minor = 5 courses (3 must be upper level)
   - Teacher certification in Latin: see Education Department catalog section
   - Structure is parallel to the Greek major
-- **retrieval_triggers:**
-  - "what are the Latin major requirements"
-  - "can I also major in Latin"
-  - "how does the Latin major compare to the Greek major"
-  - "is there a Latin minor"
-  - "can I get teacher certification in Latin"
-  - "what is LAT14-954"
-  - "how many courses is the Latin major"
 
 ---
 
 ### Classics — Majoring & Minoring
-- **filename:** `Classics.txt`
-- **document_type:** requirements
 - **degree_relevance:** B.A. (Classics)
-- **time_sensitive:** true
-- **catalog_year:** N/A
 - **description:** This document defines the requirements for the Classics major (B.A.), a distinct interdisciplinary degree from the Greek or Latin major. The Classics major requires 9 courses structured as follows: four courses of earned college-level Greek (at least one upper level), one upper-level Latin course, one Classics in Translation course chosen from a specified list (ARH71-044, ARH71-414, ARH71-484, CLA07-204, or CLA07-344), two additional upper-level courses in Latin, Greek, or Classics in Translation, and the Capstone (CLA07-964). The document notes that Classics majors must take three semesters of Latin to satisfy the foreign language graduation requirement, that students are strongly encouraged to study abroad (especially College Year in Athens), and that incoming students who place into the language sequence may be eligible for credit by examination. This document is included in the Greek major's knowledge base because many Greek majors also consider the Classics major and because the course pools overlap substantially.
 - **critical_data:**
   - Classics major = 9 courses total
@@ -83,21 +50,6 @@ See header above.
   - Foreign language graduation requirement: Classics majors must complete 3 semesters of Latin
   - Study abroad: strongly advised; College Year in Athens (CYA) highlighted
   - Language placement credit available for incoming students
-- **retrieval_triggers:**
-  - "what is the Classics major"
-  - "how is Classics different from Greek major"
-  - "what courses do I need for the Classics major"
-  - "do I need Latin for the Classics major"
-  - "what counts as Classics in Translation"
-  - "what is CLA07-964"
-  - "does Classics count Greek toward foreign language"
-  - "can I study abroad for my Classics major"
-  - "what is College Year in Athens"
-  - "can I get credit for Greek I already know"
-  - "what is ARH71-414"
-  - "does CLA07-204 count toward Classics"
-  - "what upper level courses count for Classics"
-  - "how many Greek courses does Classics require"
 
 ---
 

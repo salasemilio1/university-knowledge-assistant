@@ -16,11 +16,7 @@ This index covers the Sociology & Anthropology department at Southwestern Univer
 ## SECTION 2 — DOCUMENT REGISTRY
 
 ### Majoring and Minoring in Anthropology
-- **filename:** `Majoring_and_Minoring.txt`
-- **document_type:** requirements
 - **degree_relevance:** B.A. | Minor
-- **time_sensitive:** true
-- **catalog_year:** N/A (no explicit catalog year stated; treat as current)
 - **description:** This is the primary requirements document for the Anthropology B.A. and Minor. It specifies that the B.A. requires eight courses totaling a minimum of 30 credits, with four required core courses: ANT35-104 (Introduction to Cultural Anthropology), one of SOC34-114 or SOC34-124, ANT35-424 (Theory and Method in Cultural Anthropology), and ANT35-964 (Senior Seminar/Capstone). Four additional upper-level electives round out the major, one of which may be an upper-level Sociology course. The minor requires five courses totaling a minimum of 18 credits: ANT35-104 plus four additional contributing courses. The document also lists contributing courses from Feminist Studies (FST04-254, FST04-364), Political Science (PSC32-184), and Religion (REL19-214, REL19-354, REL19-384, REL19-364, REL19-324). The major requires an in-depth ethnographic/historical research period of at least four weeks completed by end of fall semester of the senior year. The program specializes in the Caribbean and the African Diaspora.
 - **critical_data:**
   - B.A. requires minimum 30 credits (8 courses)
@@ -32,31 +28,11 @@ This index covers the Sociology & Anthropology department at Southwestern Univer
   - Racial History Project course (ANT35-524) may satisfy research requirement
   - Course numbering: 100=intro; 200-300=upper level; 400=theory/method; 500=research; 900=capstone/independent
   - Contributing courses available from FST, PSC, REL departments
-- **retrieval_triggers:**
-  - "how many credits for anthropology major"
-  - "what courses are required for the anthropology BA"
-  - "what is the anthropology minor"
-  - "how many classes do I need for the minor"
-  - "can I count a sociology class toward my anthropology major"
-  - "do I have to do research for the anthropology degree"
-  - "what is the capstone for anthropology"
-  - "what counts toward the anthropology major"
-  - "can I do study abroad for my research requirement"
-  - "what outside courses contribute to anthropology"
-  - "what's the difference between the major and minor"
-  - "does feminist studies count toward anthropology"
-  - "what religion courses count for anthropology"
-  - "ANT 424 requirements"
-  - "when do I take the senior seminar"
 
 ---
 
 ### Courses — Sociology & Anthropology
-- **filename:** `Courses.txt`
-- **document_type:** course_info
 - **degree_relevance:** B.A. | Minor | All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Lists all current or recent anthropology (ANT35) course offerings with full descriptions and prerequisites. Courses include ANT35-104 (Introduction to Cultural Anthropology, each semester, ScS, SJ, PJ), ANT35-234 (Anthropology of Race: Shifting the Gaze, prerequisite ANT35-104 or permission), ANT35-244 (Race, Class and Gender in the Caribbean, prerequisite ANT35-104, FST04-104, or permission), ANT35-274 (Cultural Heritage, Criminal Justice, Race, American South, prerequisite ANT35-104 or permission), ANT35-304 (Selected Topics, offered infrequently), ANT35-334 (Global Environmental Justice, prerequisite ANT35-104, ENVS49-104, or FST04-104), ANT35-424 (Theory and Method in Cultural Anthropology, prerequisite ANT35-104, restricted to majors, offered fall only), ANT35-524 (Southwestern Univ Racial History Project, prerequisite ANT35-104 or permission), and ANT35-964 (Senior Seminar, prerequisite permission of instructor, offered spring only). The document also notes sociology (SOC34) offerings exist but lists primarily anthropology courses in the extracted text. Paideia designations (ScS, SJ, PJ, WA) are noted per course.
 - **critical_data:**
   - ANT35-104: No prerequisites; offered each semester; satisfies ScS, SJ, PJ
@@ -68,31 +44,11 @@ This index covers the Sociology & Anthropology department at Southwestern Univer
   - ANT35-424: Prerequisite ANT35-104; restricted to majors; offered fall only; prepares students for senior seminar research
   - ANT35-524: Prerequisite ANT35-104 or permission; contributes to Race & Ethnicity Studies; can fulfill senior research requirement
   - ANT35-964: Prerequisite permission of instructor; offered spring only; WA and ScS designations; capstone paper + campus presentation required
-- **retrieval_triggers:**
-  - "what is ANT 104"
-  - "what courses are offered in anthropology"
-  - "when is Theory and Method offered"
-  - "what are the prerequisites for ANT 424"
-  - "senior seminar details"
-  - "what is the Racial History Project course"
-  - "what courses count toward feminist studies from anthropology"
-  - "what anthropology courses satisfy Social Justice"
-  - "global environmental justice course"
-  - "race class gender Caribbean course"
-  - "ANT 274 criminal justice"
-  - "when is ANT 964 offered"
-  - "is ANT 104 offered every semester"
-  - "can I take selected topics more than once"
-  - "does anthropology have a Power and Justice course"
 
 ---
 
 ### Faculty — Sociology & Anthropology
-- **filename:** `Faculty.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** N/A
 - **description:** Lists all current faculty in the Sociology and Anthropology department with name, title, specialty, email, phone, and (where provided) office location. Faculty include: Maria R. Lowe (Professor of Sociology, Department Chair; specialty: racialized spaces, racial attitudes, qualitative/mixed methods; lowem@southwestern.edu; 512.863.1936), Amanda Hernandez (Assistant Professor of Sociology; specialty: gender, feminism, religion, whiteness; hernande3@southwestern.edu; 512.863.1357), Melissa Johnson (Professor of Anthropology; specialty: nature/race/environment/tourism; area: Belize, Caribbean, U.S.-Mexico Borderlands, Central Texas; meljohn@southwestern.edu; 512.863.1406; 204 Mood Bridwell), Adriana Ponce (Assistant Professor of Sociology; specialty: community-engagement, feminism, intersectionality, family; poncea@southwestern.edu; 512.863.1328), and Naomi Reed (Assistant Professor of Anthropology; specialty: Critical Whiteness Studies, African Diaspora Studies, educational anthropology, American South; reedn@southwestern.edu; 512.863.1663; Mundy Cubicle 36 temporary).
 - **critical_data:**
   - Department Chair: Maria R. Lowe (lowem@southwestern.edu; 512.863.1936)
@@ -101,27 +57,11 @@ This index covers the Sociology & Anthropology department at Southwestern Univer
   - Melissa Johnson's office: 204 Mood Bridwell
   - Naomi Reed's office: Mundy Cubicle 36 (temporary)
   - Department phone: 512.863.6511 (Georgetown, Texas contact)
-- **retrieval_triggers:**
-  - "who teaches anthropology"
-  - "who is the department chair"
-  - "how do I contact a professor"
-  - "who is my advisor"
-  - "Melissa Johnson email"
-  - "Naomi Reed office"
-  - "Maria Lowe phone number"
-  - "who teaches theory and method"
-  - "anthropology professor specialties"
-  - "who do I talk to about the major"
-  - "faculty contact information"
 
 ---
 
 ### Alpha Kappa Delta — National Sociology Honorary Society
-- **filename:** `Alpha_Kappa_Delta.txt`
-- **document_type:** resources
 - **degree_relevance:** B.A. | Minor
-- **time_sensitive:** true
-- **catalog_year:** 2025 (most recent induction year listed)
 - **description:** Covers the Texas Alpha Theta chapter of Alpha Kappa Delta (AKD), the national sociology honorary society housed in the department. Eligibility criteria are specified: junior or senior standing, declared sociology major or minor, minimum 16 graded sociology credit hours at SU, minimum overall GPA of 3.6, and minimum sociology GPA of 3.8. Eligible students are invited each January. Dr. Maria Lowe is faculty sponsor and chapter representative; Dr. Amanda Hernandez and Dr. Adriana Ponce are also AKD members. The document lists inductees from 2015 through 2025. Note: AKD is specifically a sociology honorary — anthropology students would need a sociology major or minor to be eligible.
 - **critical_data:**
   - AKD is a sociology honorary — requires sociology major or minor (not anthropology)
@@ -132,23 +72,11 @@ This index covers the Sociology & Anthropology department at Southwestern Univer
   - Invitations sent each January
   - Faculty sponsor: Dr. Maria Lowe
   - 2025 inductees: Isabella Bahamon, Mary Katherine McAdams
-- **retrieval_triggers:**
-  - "Alpha Kappa Delta"
-  - "AKD sociology honor society"
-  - "how do I join the honor society"
-  - "what GPA do I need for AKD"
-  - "honorary society requirements"
-  - "sociology honors"
-  - "when are AKD invitations sent"
 
 ---
 
 ### OASIS — Organization of Anthropology and Sociology Interested Students
-- **filename:** `OASIS.txt`
-- **document_type:** resources
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** 2024-2025
 - **description:** Describes OASIS (Organization of Anthropology and Sociology Interested Students), the student organization for the department. Co-Presidents for 2024-2025 are Emma French (Anthropology) and Chelsey Rocha (Sociology). Both students and faculty participate. Activities may include a fall picnic, end-of-year party, alumni career panels, and community-building events. Students are notified via listserv and Instagram. Majors and minors are encouraged to participate in planning. Students interested in getting involved should contact a faculty member; for more information, contact the department chair.
 - **critical_data:**
   - Organization name: OASIS (Organization of Anthropology and Sociology Interested Students)
@@ -156,24 +84,11 @@ This index covers the Sociology & Anthropology department at Southwestern Univer
   - Events: fall picnic, end-of-year party, alumni panels, community meetings
   - Notifications via listserv and Instagram
   - Contact department chair for more info
-- **retrieval_triggers:**
-  - "student organization anthropology"
-  - "OASIS club"
-  - "how do I get involved in the department"
-  - "is there a sociology club"
-  - "student activities anthropology"
-  - "alumni panels"
-  - "department social events"
-  - "who leads OASIS"
 
 ---
 
 ### Graduate School — Anthropology and Sociology
-- **filename:** `Graduate_School.txt`
-- **document_type:** advising
 - **degree_relevance:** B.A. | All
-- **time_sensitive:** true
-- **catalog_year:** 2024 (US News rankings cited as 2024)
 - **description:** Provides guidance on the graduate school application process and rankings. Recommends beginning the process early; PhD program applications are typically due December or January, with some programs having separate admissions and financial aid deadlines. Applications should be submitted before the earlier deadline. Students are encouraged to apply to at least five schools. Typical application materials include transcripts, GRE scores, three letters of recommendation, personal/purpose statement, application fees, writing sample, and financial aid application. A CV may also be submitted. Rankings for top graduate programs in Anthropology (from the National Research Council, 1993) are listed, with University of Michigan (#1), University of Chicago (#2), UC Berkeley (#3), Harvard (#4), and University of Arizona (#5) among the top. For Sociology, students are directed to US News 2024 rankings (linked). Faculty are encouraged as a resource for discussing graduate school interest and applications.
 - **critical_data:**
   - PhD application deadlines: typically December or January
@@ -183,49 +98,22 @@ This index covers the Sociology & Anthropology department at Southwestern Univer
   - UT Austin ranks #10 in anthropology
   - Sociology rankings: US News 2024 (link in source document)
   - Discuss applications with department faculty
-- **retrieval_triggers:**
-  - "should I go to grad school"
-  - "how do I apply to graduate school"
-  - "what does a grad school application need"
-  - "best grad programs in anthropology"
-  - "PhD application deadline"
-  - "do I need GRE for grad school"
-  - "letters of recommendation for graduate school"
-  - "top sociology PhD programs"
-  - "how many schools should I apply to"
-  - "writing sample for grad school"
 
 ---
 
 ### Internships — Sociology and Anthropology
-- **filename:** `Internships.txt`
-- **document_type:** resources
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Briefly covers academic and summer internship opportunities available to Sociology and Anthropology students. Past internship settings have included adult and juvenile probation, drug rehabilitation centers, the Attorney General's Office, and offices of Texas politicians. Students interested in academic internships should contact the Director of Internships in the Office of Career Services at least one semester before the planned internship. A resume must be submitted and all Office of Career Services paperwork completed. No specific course credit hours or formal internship course code are listed in this document.
 - **critical_data:**
   - Contact: Director of Internships, Office of Career Services
   - Lead time: at least one semester before planned internship
   - Required: resume + Career Services paperwork
   - Past internship sites: juvenile/adult probation, drug rehab, Attorney General's Office, Texas politicians
-- **retrieval_triggers:**
-  - "how do I get an internship"
-  - "internship opportunities for sociology"
-  - "anthropology internship"
-  - "can I get credit for an internship"
-  - "who do I contact for internships"
-  - "career services internship"
-  - "summer internship anthropology"
 
 ---
 
 ### After Southwestern — Career Resources
-- **filename:** `After_Southwestern.txt`
-- **document_type:** resources
 - **degree_relevance:** B.A. | All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Describes post-graduation career pathways and resources for Sociology and Anthropology graduates. Highlights transferable skills: critical thinking, quantitative and qualitative data collection and analysis, understanding human interaction and group behavior, and cross-cultural competency. Employment settings mentioned include social work and criminal justice, management, administration and personnel, marketing research and public relations, retailing, and consulting. Recommends students establish an ongoing relationship with the Office of Career Services. References the American Sociological Association's "Careers in Sociology" site. Also mentions an Alumni Directory where alumni contacts willing to speak with current students can be found.
 - **critical_data:**
   - Key skills developed: critical thinking, data collection/analysis, cultural competency
@@ -233,36 +121,16 @@ This index covers the Sociology & Anthropology department at Southwestern Univer
   - Resource: Office of Career Services (print and online resources)
   - External resource: American Sociological Association "Careers in Sociology"
   - Alumni Directory available for student networking
-- **retrieval_triggers:**
-  - "what jobs can I get with a sociology degree"
-  - "what can I do after anthropology"
-  - "careers in sociology"
-  - "is sociology a useful major"
-  - "career services for sociology students"
-  - "alumni network anthropology"
-  - "what skills does anthropology teach"
-  - "jobs with anthropology degree"
 
 ---
 
 ### Links — Professional Associations and Data Sources
-- **filename:** `Links.txt`
-- **document_type:** resources
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Lists professional associations and data sources relevant to Anthropology and Sociology students. Anthropology associations: American Anthropological Association, Latin American Studies Association, Society for Applied Anthropology. Sociology associations: American Sociological Association, Southern Sociological Society. Data sources: Bureau of Justice Statistics, Inter-University Consortium for Political and Social Research (ICPSR), National Center for Education Statistics, National Center for Health Statistics, U.S. Census Bureau.
 - **critical_data:**
   - Anthropology professional orgs: AAA, LASA, Society for Applied Anthropology
   - Sociology professional orgs: ASA, Southern Sociological Society
   - Data sources: BJS, ICPSR, NCES, NCHS, U.S. Census Bureau
-- **retrieval_triggers:**
-  - "professional associations for anthropology"
-  - "sociology professional organizations"
-  - "where do I find research data"
-  - "American Anthropological Association"
-  - "data sources for sociology research"
-  - "Latin American Studies Association"
 
 ---
 

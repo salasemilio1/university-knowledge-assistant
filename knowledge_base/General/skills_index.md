@@ -32,11 +32,7 @@ SECTION 2 — DOCUMENT REGISTRY
 ════════════════════════════════════════════════════════
 
 ### Southwestern University 2025–2027 Course Catalog — General Policies and Academic Information
-- **filename:** `SU_General_Policies.txt`
-- **document_type:** policy | requirements | advising | calendar | general
 - **degree_relevance:** All (B.A., B.S., B.F.A., B.Mus., B.S.Ed., Minor, Certificate, Independent Major)
-- **time_sensitive:** true (calendar sections) / false (core policy sections)
-- **catalog_year:** 2025–2027
 
 - **description:** This document is the authoritative source for all university-wide academic policies at Southwestern University. It opens with accreditation information (SACSCOC baccalaureate, United Methodist Church Senate, NASM), the institution's mission, core purpose, and core values, and then thoroughly describes the three schools (Brown College of Arts and Sciences, Garey School of Natural Sciences, Sarofim School of Fine Arts) and all interdisciplinary programs. The curriculum section defines the Paideia philosophy, First-Year/Advanced-Entry Seminar, Language and Cultures requirement (intermediate proficiency, third-semester level), Power and Justice requirement, Fitness and Recreational Activity requirement (1 credit), and the Exploration and Breadth six-course structure (FA, H, NS, ScS). Full degree requirement grids are provided for all five bachelor's degrees (B.A., B.F.A., B.Mus., B.S., B.S.Ed.), each requiring a minimum of 127 credits. The B.S. degree has six specific additional science requirements including Biology, Chemistry, Mathematics, and Physics sequences. Graduation requirements state the 127-credit minimum, the 64-credit SU residency requirement, the final 32-credit in-residence rule, the 2.000 overall GPA minimum, the 60% of major coursework at SU rule, the C- floor for major/minor credits, and the diploma application process. The document fully details the grading system (A through F with plus/minus, grade point values, P/D/F, Incomplete, W, CR, NC, AU, S/U), course drop/add deadlines (8th class day to add, 5th week without record, 6th-10th week with W, after 10th week no drops), student classification by credit count, normal load (16 credits), overload requirements (3.500 GPA for 20 credits; max 22 credits), academic warning, academic probation, dismissal and eligibility for continuance (three-tier system), the full grade appeal process (7 steps through Academic Standards Committee), Dean's List criteria (3.600 GPA on 12 graded credits), Latin Praise honors thresholds (cum laude 3.650, magna cum laude 3.800, summa cum laude 3.950 — GPAs not rounded), and the Departmental Honors Program (3.4 cumulative, 3.6 major GPA required; two-semester minimum). The Paideia with Distinction pathway is fully described, including Option A (Paideia Minor from a list of 12 approved interdisciplinary minors) and Option B (two distinct approved Paideia experiences). Academic calendars for 2025–2026 (approved) and 2026–2027 (tentative) are included with all key deadline dates. Transfer credit, AP, IB, CAPE, CLEP, and departmental advanced standing examination rules are comprehensively covered, as are disability accommodations (SSD, course substitution policy, attendance accommodation), FERPA rights, and the full leave of absence policy.
 
@@ -98,70 +94,6 @@ SECTION 2 — DOCUMENT REGISTRY
   - Spring 2026 key dates: Classes begin Jan 20; Last day to add Jan 29; Drop without record Feb 23; Last day to drop Apr 7; Finals May 11-15; Commencement May 16; Incomplete deadline Jun 8
   - Graduation: degrees conferred in December, May, and August only; Commencement once per year (spring); seniors with 12 or fewer credits remaining may walk in Commencement if registered for summer completion
   - Diploma Application: fall candidates due Oct 3; spring/summer candidates due Feb 13 (2025-2026)
-
-- **retrieval_triggers:**
-  - "how many credits do I need to graduate"
-  - "what are the graduation requirements"
-  - "what is the language requirement"
-  - "what is the Power and Justice requirement"
-  - "what counts as a fine arts course"
-  - "what is Exploration and Breadth"
-  - "what is the FRA requirement"
-  - "what is the difference between a BA and a BS"
-  - "do I need a minor"
-  - "how many credits for a minor"
-  - "what is Paideia"
-  - "how do I earn Paideia with Distinction"
-  - "what is the deadline for Paideia with Distinction"
-  - "what is Departmental Honors"
-  - "how do I get on the Dean's List"
-  - "what GPA do I need for cum laude"
-  - "what is the difference between academic warning and academic probation"
-  - "what happens if I get put on academic probation"
-  - "how do I get off academic probation"
-  - "what GPA do I need to stay enrolled"
-  - "what happens if I fail all my classes"
-  - "can I appeal being dismissed"
-  - "how do I appeal a grade"
-  - "what is the grade appeal process"
-  - "what is an incomplete grade"
-  - "when do incomplete grades expire"
-  - "what does a W on my transcript mean"
-  - "last day to drop a course"
-  - "can I drop a course after the deadline"
-  - "what is the P/D/F policy"
-  - "how many pass/fail courses can I take"
-  - "how does a D grade affect my GPA"
-  - "what is the grading scale"
-  - "can I repeat a course to replace a bad grade"
-  - "how many credits can I transfer in"
-  - "does AP credit count toward my degree"
-  - "what AP scores does SU accept"
-  - "what is the IB credit policy"
-  - "can I take a CLEP exam"
-  - "what is an advanced standing exam"
-  - "how does the language placement exam work"
-  - "what is a paired major"
-  - "can I double major"
-  - "how do I declare a major"
-  - "when do I have to declare a major"
-  - "what is leave of absence"
-  - "can I take a semester off"
-  - "what is the normal course load"
-  - "can I take more than 19 credits"
-  - "when does the semester start"
-  - "what is the last day to add a class"
-  - "when are grades due"
-  - "when is commencement"
-  - "what disability accommodations are available"
-  - "how do I get accommodations for a disability"
-  - "what are my rights as a student"
-  - "what is FERPA"
-  - "what is the second baccalaureate degree requirement"
-  - "what is a certificate program"
-  - "what is an independent major"
-  - "can I take a class pass/fail my freshman year"
-  - "how does the repeat course policy work"
 
 ---
 

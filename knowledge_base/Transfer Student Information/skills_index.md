@@ -12,11 +12,7 @@
 ---
 
 ### AP Exam Course Equivalency Chart
-- **filename:** `ap-exam-course-equivalency-chart-june-2025.txt`
-- **document_type:** course_info
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** 2025-2026 (effective Fall 2025)
 - **description:** Lists all Advanced Placement (AP) exams accepted by Southwestern University with their required scores (4 or 5), credit hours awarded (uniformly 4 credits per exam), SU equivalent course numbers, SU equivalent course titles, and general education requirement areas satisfied. Covers 45+ AP exams across disciplines including sciences, mathematics, English, history, social sciences, languages, and fine arts. Includes important notes for specific exams, such as AP Economics (Macro and Micro must be combined to satisfy ECO31-104), AP English Language (does not fulfill gen-ed or English major requirements), AP Music Theory (requires passing scores on all three composite/aural/non-aural components), and AP Physics 1 & 2 algebra-based (does not fulfill BS or Physics major/minor requirements). Language exams (Chinese, French, German, Italian, Japanese, Latin, Spanish) transfer at the Language III level or higher. Spanish Language score of 4 grants SPA15-164 Spanish III; score of 5 grants SPA15-214. Published by the Office of the Registrar, updated June 2025.
 - **critical_data:**
   - Required score: 4 or 5 on all AP exams
@@ -40,29 +36,11 @@
   - AP Physics 1 & 2 (algebra-based) → PHY53-004 Selected Topics in Physics; does NOT fulfill BS or Physics major/minor
   - AP Physics C: Mechanics → PHY53-154 Physics I; AP Physics C: E&M → PHY53-164 Physics II
   - AP Spanish Language: score 4 → SPA15-164; score 5 → SPA15-214
-- **retrieval_triggers:**
-  - "what AP score do I need"
-  - "does my AP credit transfer"
-  - "AP Calculus credit at SU"
-  - "AP Biology equivalent course"
-  - "AP English credit"
-  - "does AP Economics count for business major"
-  - "AP Physics credit"
-  - "AP Spanish transfer"
-  - "how many credits do I get for AP"
-  - "AP Music Theory requirements"
-  - "AP Computer Science credit"
-  - "AP Statistics equivalent"
-  - "do I need to submit AP scores"
 
 ---
 
 ### IB Exam Course Equivalency Chart
-- **filename:** `ib-exam-course-equivalency-chart-june-2025.txt`
-- **document_type:** course_info
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** 2025-2026 (effective Fall 2025)
 - **description:** Lists International Baccalaureate (IB) Higher Level (HL) exam equivalencies at Southwestern University. Covers 30+ IB subjects. Required minimum score is 5 for most subjects; some subjects (Chemistry, Mathematics) offer tiered credit at scores 5-6 versus 7. Chemistry at score 5 awards 4 credits (Gen Chem I + lab); at scores 6-7 awards 8 credits (Gen Chem I & II + both labs). Mathematics (Analysis & Approaches and Applications & Interpretation) at scores 5-6 awards MAT52-004 Selected Topics in Math; at score 7 awards MAT52-164 Modern Calculus I. Spanish B equivalency is determined by departmental exam. All language exams (Chinese B, French B, German B, Latin, Spanish B) require student to also take SU's language departmental exam for credit. Biology, Computer Science, Economics, English variants, Environmental Systems, History (four variants), Philosophy, Psychology, Sociology, Theatre, Visual Arts, and World Religions are all included. Published by the Office of the Registrar, updated June 2025.
 - **critical_data:**
   - Minimum score: 5+ for most IB HL exams
@@ -79,28 +57,11 @@
   - IB Theatre → THE72-104 Introduction to Theatre (Fine Arts)
   - IB Visual Arts → ART68-004 Selected Topics in Art (Fine Arts)
   - IB subjects such as Design Technology, Digital Studies, Film, ITGS, Music, Sports/Exercise → ELEC-004 Lower Level Elective only
-- **retrieval_triggers:**
-  - "what IB score do I need"
-  - "IB credit at Southwestern"
-  - "IB higher level equivalency"
-  - "IB Chemistry credit hours"
-  - "IB Math does it count for calculus"
-  - "IB Spanish placement"
-  - "IB Economics and business major"
-  - "IB language departmental exam"
-  - "IB Biology equivalent"
-  - "how many credits IB gives"
-  - "IB Computer Science placement"
-  - "IB Theatre credit"
 
 ---
 
 ### CAPE Exam Course Equivalency Chart
-- **filename:** `11779-cape-course-equivalency-chart-june-2025.txt`
-- **document_type:** course_info
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** 2025-2026 (effective Fall 2025)
 - **description:** Lists Caribbean Advanced Proficiency Examination (CAPE) equivalencies at Southwestern University. Covers 11 subject areas. Both Unit 1 and Unit 2 scores are required for most exams; required score range is 1-2 (passing). Each exam awards 4 credits. Subjects include Art & Design, Biology, Caribbean Studies, Chemistry, Economics (Macro and Micro), English Literature, French (two courses — French I and French II), Geography, History (Atlantic World), and History (Indigenous Societies). French awards two separate 4-credit courses (FRE11-144 French I and FRE11-154 French II) when both units are passed. Economics Macro and Micro each individually satisfy only ECO31-004 (Selected Topics); combining both CAPE Economics exams or pairing with transfer credit grants ECO31-104 credit toward Business/Economics major. Results from subjects not listed are considered individually. Language exams require SU departmental exam for credit. Published by Office of the Registrar, updated June 2025.
 - **critical_data:**
   - Required scores: 1 or 2 on CAPE exams (both Unit 1 and Unit 2)
@@ -114,23 +75,11 @@
   - CAPE Caribbean Studies, Geography → ELEC-004 Lower Level Elective
   - CAPE History (Atlantic World or Indigenous Societies) → HIS16-004 Selected Topics in History (Humanities)
   - Unlisted CAPE subjects considered on individual basis
-- **retrieval_triggers:**
-  - "CAPE exam credit SU"
-  - "Caribbean Advanced Proficiency"
-  - "CAPE Economics transfer"
-  - "CAPE French credit"
-  - "CAPE Biology equivalent"
-  - "CAPE score requirement"
-  - "does CAPE transfer to Southwestern"
 
 ---
 
 ### Verto Study Abroad Course Equivalency Chart
-- **filename:** `verto-study-abroad-course-equivalency-chart-july.txt`
-- **document_type:** course_info
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** 2025-2026 (effective Spring 2026)
 - **description:** Lists transfer credit equivalencies between Verto Study Abroad courses and Southwestern University courses. Covers 80+ Verto courses across departments including Accounting, Arts, Biology, Business, Chemistry, Computer Science, Economics, English, Environmental Science, History, Languages (Italian, Spanish), Mathematics, Music, Philosophy, Physics, Political Science, Psychology, Sociology/Anthropology, and Theatre. Verto courses are 3-4 credits and map to 3-4 credit SU equivalents. Some Verto courses do not transfer (ENGL 1103 Introduction to Academic Writing, MATH 1103 Fundamental Mathematics, MATH 1110 College Algebra, SDEV 1150 Foundations of Success). Some combinations of Verto courses yield higher-level SU equivalents (e.g., ACCT 1101 + Managerial Accounting → BUS30-114 Fundamentals of Accounting; ARTS 2201 + 2202 Painting I & II → ART68-244 + ELEC-002). SU does not offer Italian, so students taking Italian through Verto for language requirement must transfer Italian III from another institution. Published by Office of the Registrar, updated July 2025, effective Spring 2026.
 - **critical_data:**
   - Effective for students enrolling beginning Spring 2026
@@ -148,25 +97,11 @@
   - Verto ITAL 1101 → FLN21-144 Language I; ITAL 1102 → FLN21-154 Language II (SU does not offer Italian; Italian III must come from another college)
   - Verto PHYS 1150/1151 Mechanics with Lab → PHY53-154 Fundamentals of Physics I
   - Verto SOCI 2221 Cultural Anthropology → ANT34-104 Intro to Cultural Anthropology
-- **retrieval_triggers:**
-  - "Verto study abroad credit"
-  - "does Verto transfer to SU"
-  - "Verto Italian language requirement"
-  - "Verto Economics courses"
-  - "Verto accounting credit"
-  - "Verto math courses SU equivalent"
-  - "Verto biology transfer"
-  - "what Verto courses don't transfer"
-  - "Verto spring 2026"
 
 ---
 
 ### OnRamps Course Equivalency Chart
-- **filename:** `onramps-equiv-chart-february-2026.txt`
-- **document_type:** course_info
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** 2025-2026 (effective Fall 2026)
 - **description:** Lists OnRamps dual enrollment course equivalencies at Southwestern University. Effective for students enrolling beginning Fall 2026. Covers 16 OnRamps courses, each with the OnRamps course number, TCCNS equivalent, SU equivalent course, and general education requirement area. Subjects include Arts and Entertainment Technology (AET 304), Biology I and lab (BIO 311C/106M), Chemistry I and II with labs (CH 301/104M and CH 302/104N), Computer Programming (CS 303E), Economics (ECO 304K, equivalent to ECON 2302 Microeconomics), Geoscience (GEO 302E), American Government (GOV 312L), US History I and II (HIS 315K and 315L), Pre-Calculus (M 305G), Physics I and lab (PHY 302K/102M), Electromagnetism and Optics (PHY 302L), Quantum Technologies (PHY 309L), Rhetoric/Writing I and II (RHE 306 and RHE 309K), and Statistics (SDS 301). Several physics and rhetoric courses do not fulfill general education requirements. Published by Office of the Registrar, updated January 2026.
 - **critical_data:**
   - Effective for students enrolling Fall 2026
@@ -181,26 +116,11 @@
   - OnRamps Rhetoric/Writing II (RHE 309K) → ENG10-003 Selected Topics in English; does NOT fulfill gen-ed or English major/minor
   - OnRamps US History I & II → HIS16-003 Selected Topics in History (Humanities)
   - OnRamps American Government → PSC32-003 Selected Topics in Political Science (Social Sciences)
-- **retrieval_triggers:**
-  - "OnRamps credit at SU"
-  - "OnRamps dual enrollment transfer"
-  - "OnRamps Biology equivalent"
-  - "OnRamps Chemistry transfer"
-  - "OnRamps Economics"
-  - "OnRamps writing credit gen-ed"
-  - "OnRamps Physics major requirements"
-  - "OnRamps fall 2026"
-  - "dual enrollment OnRamps"
-  - "OnRamps Statistics"
 
 ---
 
 ### TCCNS Transfer Equivalency List (Texas Community Colleges)
-- **filename:** `tccns-su-equivs-february-2026.txt`
-- **document_type:** course_info
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** 2025-2027 (approved through Summer 2027)
 - **description:** Comprehensive list of pre-approved transfer courses from Texas Community Colleges using the Texas Common Course Numbering System (TCCNS). Approved for currently enrolled SU students through Summer 2027, and for Fall 2026/Spring 2027 applicants. Contains 100+ course equivalencies across Accounting, Anthropology, Arts, Astronomy, Biology, Chemistry, Chinese, Computer Science, Drama, Economics, English, French, German, Government, History, Kinesiology, Latin, Mathematics, Music, Philosophy, Physics, Psychology, Sign Language, Sociology, Spanish, and Speech. Critical notes: (1) Advanced approval required for last 32 hours; (2) must be reported by official transcript; (3) upper-level equivalents changed to lower-level if taken at 2-year institution; (4) C- or higher required; (5) credits transfer in equal amount earned; (6) approval does not guarantee degree plan requirements met; (7) languages not offered at SU may transfer as Language I, II, III. Distinguishes between students entering prior to Summer 2023 (old course numbering) and Fall 2023 or later (new course numbering). Published by Office of the Registrar, updated February 12, 2026.
 - **critical_data:**
   - Approved for Summer 2027 and through Fall 2026/Spring 2027 applicants
@@ -233,31 +153,11 @@
   - SPCH 1315 Public Speaking → COM75-154 (does not fulfill gen-ed or Communication major/minor)
   - Additional courses available at www.tccns.org — select Southwestern University
   - Courses not on this list require Registrar or department chair approval
-- **retrieval_triggers:**
-  - "Texas community college transfer"
-  - "TCCNS equivalent at SU"
-  - "community college credit transfer"
-  - "pre-approved transfer courses Texas"
-  - "does my community college class transfer"
-  - "ECON 2301 transfer SU"
-  - "ENGL 1301 transfer credit"
-  - "COSC transfer computer science"
-  - "MATH 2413 transfer SU"
-  - "GOVT 2305 transfer"
-  - "dual credit community college SU"
-  - "can I take classes online at community college"
-  - "sign language transfer SU"
-  - "transfer credit C minus requirement"
-  - "courses not on list approval"
 
 ---
 
 ### Transfer Scholarships
-- **filename:** `Transfer_Scholarships___Southwestern_University.txt`
-- **document_type:** financial
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** 2025-2026
 - **description:** Describes all scholarship and financial aid opportunities available to transfer students at Southwestern University. Covers the Upfront Scholarship Program, which automatically considers admission applications for merit scholarships. Details the Finch Scholarship tiers based on cumulative GPA in transferable, non-developmental coursework: $28,000 (3.7-4.0 GPA), $25,000 (3.4-3.6), $21,000 (3.0-3.3), $17,000 (up to 2.9). Describes the PTK/NSCS Add-On Scholarship ($5,000 for Phi Theta Kappa or National Society of Collegiate Scholars membership, addable only to Finch Scholarship, not available for dual-credit high school students entering as freshmen). Covers the Hyer Scholarship for transfer students with ≤63 hours who previously applied as freshmen and were offered admission. Notes Sarofim Fine Arts Scholarships (music, theatre, art) requiring audition or portfolio. Explains veteran benefits including Post-9/11 GI Bill, Yellow Ribbon Program, Veteran Readiness and Employment, and DEA (Chapter 35). Describes need-based financial aid (grants, loans, work-study, payment plans) requiring FAFSA with SU school code 003620.
 - **critical_data:**
   - Application deadlines: July 1 (fall enrollment); November 15 (spring enrollment)
@@ -274,31 +174,11 @@
   - Minimum SU GPA required to retain scholarships each semester
   - Post-9/11 GI Bill: 90 aggregate days active duty after Sept 10, 2001; covers tuition/fees, BAH, up to $1,000/year books
   - Yellow Ribbon Program available for tuition beyond Post-9/11 GI Bill amounts
-- **retrieval_triggers:**
-  - "transfer scholarship SU"
-  - "how much scholarship do transfer students get"
-  - "Finch scholarship GPA"
-  - "PTK scholarship Southwestern"
-  - "Phi Theta Kappa add-on scholarship"
-  - "Hyer scholarship transfer"
-  - "fine arts scholarship transfer"
-  - "Sarofim scholarship audition"
-  - "GI Bill Southwestern"
-  - "veteran benefits SU"
-  - "FAFSA deadline Southwestern"
-  - "scholarship deadline transfer"
-  - "need-based aid transfer"
-  - "Yellow Ribbon Program SU"
-  - "scholarship GPA requirement"
 
 ---
 
 ### Transfer Student Application FAQs
-- **filename:** `FAQs.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Answers frequently asked questions from prospective transfer students about the admission process and policies at Southwestern University. Covers how transfer student status is defined (minimum 12 credit hours at an accredited institution after high school, excluding dual credit, concurrent enrollment, and summer after graduation), the minimum credit hours required to transfer (12), policies for non-traditional students and veterans, maximum transferable hours (no limit, but at least 64 hours and 60% of major must be completed in residence), campus residency requirements (3 years/6 semesters required; exemptions for military veterans, students 22+, married, or with children), course availability (primarily daytime courses; no online degrees; very few night classes), how courses transfer (non-technical, non-vocational, C- or better, with possible syllabus review), AP and CLEP credit transfer process (scores of 4 or 5 for AP; 5+ on IB HL; CLEP treated as transfer credit if on official transcript), second-degree requirements (additional 64 hours in residence), application reactivation process, academic ineligibility policy (ineligible students not admitted), and transcript review process (unofficial review possible at information session; official evaluation after admission offer).
 - **critical_data:**
   - Transfer student definition: 12+ credit hours at accredited institution after HS (excludes dual credit, concurrent enrollment, early college, summer after graduation)
@@ -315,26 +195,6 @@
   - Academically ineligible students from another institution NOT eligible for SU admission
   - Unofficial review: information session with admission counselor; Official evaluation: after admission offer
   - Application reactivation requires: Reactivation Form, official HS transcript, ACT/SAT scores, official college transcript(s), College Conduct Report
-- **retrieval_triggers:**
-  - "am I a transfer student"
-  - "how many credits to transfer to SU"
-  - "do dual credit hours count as transfer"
-  - "can I live off campus as a transfer"
-  - "residency requirement transfer students"
-  - "does SU have online courses"
-  - "how do my classes transfer"
-  - "what GPA do I need to transfer"
-  - "veteran transfer student"
-  - "non-traditional student transfer"
-  - "how does AP credit transfer"
-  - "what happens to my IB credit"
-  - "CLEP credit SU"
-  - "can I get a second degree at SU"
-  - "transcript review process"
-  - "reactivate my application"
-  - "academically ineligible transfer"
-  - "maximum transfer hours"
-  - "how long to finish degree as transfer"
 
 ---
 

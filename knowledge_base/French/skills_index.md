@@ -10,11 +10,7 @@
 ## SECTION 2 — DOCUMENT REGISTRY
 
 ### Courses
-- **filename:** `Courses.txt`
-- **document_type:** course_info
 - **degree_relevance:** B.A. | Minor | All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Contains full descriptions of all French department course offerings, from introductory to capstone level. Covers FRE 11-144 through FRE 11-934, including prerequisites, semester offerings, and Paideia (H/WA) designations. Lists 14 distinct courses spanning language acquisition, culture, literature, cinema, translation, and the Capstone Seminar. Notes which courses contribute to International Studies and Race and Ethnicity Studies. Provides sequencing logic from novice through advanced proficiency. Course descriptions specify oral and written proficiency targets per ACTFL levels.
 - **critical_data:**
   - FRE 11-144 French I: Intro Language and Culture (Fall)
@@ -31,31 +27,11 @@
   - FRE 11-604 Topics in Literature and Culture — Prereq: one upper-level French course (Spring); (H)(WA)
   - FRE 11-614 Texts/Contexts — Prereq: one course from 11-314, 11-334, or 11-354; (H)(WA)
   - FRE 11-934 Capstone Seminar — fulfills capstone; taken in Spring; (H)(WA)
-- **retrieval_triggers:**
-  - "what French courses are offered"
-  - "what are the prerequisites for French"
-  - "when is French Cinema offered"
-  - "is there a translation course"
-  - "what is Conversation and Culture"
-  - "what upper-level French courses count"
-  - "when does French II meet"
-  - "can I repeat a French course"
-  - "which French courses count for International Studies"
-  - "what French courses have WA designation"
-  - "how do I get to the 500-level courses"
-  - "what is FRE 11-344"
-  - "is there a literature course in French"
-  - "what courses count for Race and Ethnicity Studies in French"
-  - "what is the highest level French course"
 
 ---
 
 ### For Current Students
-- **filename:** `For_Current_Students.txt`
-- **document_type:** advising
 - **degree_relevance:** B.A. | Minor | All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Advising resource for currently enrolled French students covering study abroad, the Capstone experience, the Pi Delta Phi honor society, funding opportunities, professional organizations, and online language resources. Describes the Capstone as a 15+ page research project completed in the senior year, with weekly individual mentoring meetings and a public oral presentation. Notes the French government's Teaching Assistant Program in France for graduating seniors. Includes information on the Fulbright scholarship for research and teaching abroad. Lists professional organizations relevant to French language educators and scholars.
 - **critical_data:**
   - Capstone: 15+ page research project in senior year; topic tied to a concurrent French course; mentored by a professor in weekly individual meetings; includes a public oral presentation
@@ -65,31 +41,11 @@
   - Study abroad recommended for fluency acceleration; visit Office of Intercultural Learning
   - Professional orgs: AATF, ACTFL, Women in French, MLA
   - Online resources: TV5 MONDE dictionnaire, Trésor de la langue française, Word Reference
-- **retrieval_triggers:**
-  - "how does the Capstone work for French"
-  - "what is Pi Delta Phi"
-  - "can I teach English in France"
-  - "Fulbright scholarship French"
-  - "study abroad France"
-  - "what professional organizations for French majors"
-  - "how do I prepare for the oral presentation"
-  - "what is the French honor society"
-  - "what is the Teaching Assistant Program in France"
-  - "how long is the Capstone paper"
-  - "what are French language resources online"
-  - "what happens at the Capstone presentation"
-  - "how do I apply for Pi Delta Phi"
-  - "funding for French students after graduation"
-  - "how do I study abroad in France"
 
 ---
 
 ### For Future Students
-- **filename:** `For_Future_Students.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Recruitment and overview document for prospective students describing the French/MLL department's philosophy, mentoring approach, interdisciplinary connections, faculty expertise, research opportunities, and career outcomes. Highlights the global citizenship emphasis and integration of language, literature, culture, and film. Notes that five French alumni have earned Teaching Assistant in France scholarships in recent years and that eleven German alumni have earned Fulbright Fellowships. Describes the Capstone as a research and oral presentation experience that prepares students for careers. Outlines faculty geographic and thematic expertise including France, Francophone Africa, Canada, Belgium, and the European Union.
 - **critical_data:**
   - Five French alumni have earned Teaching Assistant in France scholarships in recent years
@@ -98,31 +54,11 @@
   - Faculty specialties: calligraphy, cities, culture, environment, film, food, gender, literature, music, rhetoric, transnational identity
   - Study abroad and internships recommended to increase marketability
   - Capstone enables independent research and formal oral presentation
-- **retrieval_triggers:**
-  - "why major in French at Southwestern"
-  - "what jobs can I get with a French major"
-  - "what do French alumni do"
-  - "is French good for international careers"
-  - "does French pair well with other majors"
-  - "what interdisciplinary connections does French have"
-  - "what is the department's teaching philosophy"
-  - "can I combine French with business"
-  - "what do French professors specialize in"
-  - "what is the French department known for"
-  - "career outcomes for French majors"
-  - "how does French connect to political science"
-  - "is French a good pre-law or pre-health major"
-  - "what makes Southwestern French different"
-  - "do French majors get scholarships"
 
 ---
 
 ### Majoring & Minoring
-- **filename:** `Majoring___Minoring.txt`
-- **document_type:** requirements
 - **degree_relevance:** B.A. | Minor
-- **time_sensitive:** true
-- **catalog_year:** Current (catalog year not explicitly stated in document)
 - **description:** Definitive requirements document listing the exact courses and credit counts for the B.A. in French (8 courses), the Paired Major in International Studies and French (14 courses), and the Minor in French (5 courses). Specifies the required anchor course FRE 11-204 for all three paths. Lists exact upper-level and 500-level course requirements. Includes the Capstone Seminar (FRE 11-934) as required for both the B.A. and the Paired Major. Notes that students seeking teacher certification should see the Education Department. References the International Studies catalog for full Paired Major details.
 - **critical_data:**
   - **Major (B.A.) — 8 courses:**
@@ -143,31 +79,11 @@
     - Four additional French courses, at least one at or above 500 level
     - FRE 11-164, if taken for college credit, counts toward the minor
   - Teacher certification in French: refer to Education Department
-- **retrieval_triggers:**
-  - "how many courses for a French major"
-  - "what are the requirements for the French major"
-  - "what is needed for a French minor"
-  - "how does the paired major with International Studies work"
-  - "do I need the Capstone for the French minor"
-  - "what counts as upper-level for the French major"
-  - "what 500-level courses do I need"
-  - "how is the French paired major different from the regular major"
-  - "can I get a French minor"
-  - "how many courses for the International Studies and French paired major"
-  - "does FRE 11-164 count toward the minor"
-  - "what IS tracks are available in the paired major"
-  - "what intro courses satisfy the IS paired major"
-  - "can I become a French teacher at Southwestern"
-  - "what is the Capstone requirement for French"
 
 ---
 
 ### MLL Capstone Guidelines (Spring 2015)
-- **filename:** `MLL-Capstone-Spring-2015_-_mll-capstone-spring-2015pdf.txt`
-- **document_type:** policy
 - **degree_relevance:** B.A.
-- **time_sensitive:** false
-- **catalog_year:** Spring 2015 (guidelines document; procedural content remains current unless superseded)
 - **description:** Detailed procedural and scholarly guidelines for completing the Modern Languages and Literatures (MLL) Capstone for Chinese, French, and German programs. Specifies that the Capstone is a semester-long (or two-semester Honors) research project of 20+ pages plus an oral defense conducted in the target language. Describes ACTFL proficiency progression goals (Intermediate → Advanced → Superior → Distinguished), scholarly skills to be developed, general research and writing skills, and the Honor Code pledge. Notes that professor organizational styles vary (some use grading percentages, others a two-part grade). Mentions optional participation in Southwestern's "From Every Voice Symposium." Emphasizes that original research includes new critical perspectives, archive work, or interview materials.
 - **critical_data:**
   - Capstone = 20+ page written research project + oral defense (both in target language)
@@ -180,73 +96,27 @@
   - Proficiency goal: Distinguished level (position papers, journal article quality)
   - Honor Code pledge required on final draft
   - Note: This document specifies 20+ pages; `For_Current_Students.txt` says 15+ pages — students should confirm current requirement with supervising professor
-- **retrieval_triggers:**
-  - "how long is the Capstone paper"
-  - "what is the Capstone oral defense"
-  - "how does the Honors Capstone work"
-  - "what does the Capstone professor expect"
-  - "what is a prospectus for the Capstone"
-  - "when should I start working on the Capstone"
-  - "what is MLA format for the Capstone"
-  - "what ACTFL level does the Capstone target"
-  - "can I present at From Every Voice Symposium"
-  - "what is the Honor Code for the Capstone"
-  - "how do I choose a Capstone topic"
-  - "what are the Capstone research skills"
-  - "how many meetings with my Capstone professor"
-  - "is the Capstone graded on writing and oral separately"
-  - "what is the Honors Capstone"
 
 ---
 
 ### Notable Faculty & Student Achievements
-- **filename:** `Notable_Faculty___Student_Achievements.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Highlights of faculty publications, awards, and notable alumni/student accomplishments for the French department. Covers April 2024, May 2023, September 2021, and July 2020. Notes that French and psychology double major Sarah Woods '21 received an NSF Graduate Research Fellowship and is a Ph.D. student at the University of Utah. Lists teaching awards received by Associate Professor Francis Mathieu (2022-23). Documents Professor Mathieu's 2021 peer-reviewed publication in Cahiers du Dix-septième. Notes alumna Meili Criezis '17's 2020 peer-reviewed publications on counterterrorism and extremism.
 - **critical_data:**
   - Sarah Woods '21 (French + Psychology): NSF Graduate Research Fellowship; Ph.D. at University of Utah (cognition and neural science)
   - Francis Mathieu: received teaching award (2022-23); published "An All-Divine Love" in Cahiers du Dix-septième (September 2021)
   - Meili Criezis '17: published in CTC Sentinel and Global Network on Extremism and Technology (July 2020)
   - Francis Mathieu is Associate Professor of French (also listed as Professor and Department Chair in Our_Faculty.txt — verify current title)
-- **retrieval_triggers:**
-  - "what have French students achieved"
-  - "has a French professor won an award"
-  - "who are notable French alumni"
-  - "did a French major win an NSF fellowship"
-  - "what has Francis Mathieu published"
-  - "what do French graduates go on to do"
-  - "is there a French alumni success story"
-  - "who won a teaching award in the French department"
-  - "what research do French faculty do"
-  - "can a French major get into a Ph.D. program"
 
 ---
 
 ### Our Faculty
-- **filename:** `Our_Faculty.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Directory of French department faculty including names, titles, specialties, contact information, and office locations. Lists two faculty members: Francis Mathieu (Professor of French and Department Chair) and Aaron Prevots (Professor of French). Mathieu's specialties include intercultural skills, French culture and literature, history of French civilization, translation, food & health, World War Two France, multi-cultural France, introduction to modern literature, and African literature. Prevots's specialties include film, feminisms, intercultural skills, art/literature/culture intersections, popular memory, music traditions, Paris, poetry, novels, translation, and interdisciplinarity through Environmental Studies and International Studies.
 - **critical_data:**
   - Francis Mathieu: Professor of French and Department Chair; mathieuf@southwestern.edu; 512.863.1509; Olin 309
   - Aaron Prevots: Professor of French; prevots@southwestern.edu; 512.863.1597; Olin 315
   - Both faculty are located in Olin building
-- **retrieval_triggers:**
-  - "who teaches French at Southwestern"
-  - "who is the French department chair"
-  - "how do I contact a French professor"
-  - "what is Francis Mathieu's email"
-  - "where is the French department office"
-  - "who specializes in French cinema"
-  - "who can advise me on African literature in French"
-  - "who teaches translation in French"
-  - "does Southwestern have a French professor who studies film"
-  - "who is Aaron Prevots"
 
 ---
 
