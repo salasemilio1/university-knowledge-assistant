@@ -16,40 +16,19 @@ This index covers all documents provided for the Southwestern University Physics
 ## SECTION 2 — DOCUMENT REGISTRY
 
 ### Physics Department Overview
-- **filename:** `Physics.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
-- **description:** Provides a high-level overview of the Physics Department at Southwestern University. Describes the department's scope — from geophysics and atmospheric physics to quantum physics and engineering. Explains the Paideia connection and how physics enables interdisciplinary thinking. Mentions the Applied Physics Pre-Engineering Pathway (dual degree, three-year program) and the Fountainwood Observatory, which houses a research-quality reflecting telescope with a CCD camera donated by local engineer Max Allen. Includes links to alumni stories and news about the new engineering program. Names Steve Alexander as the department contact.
+- **description:** Provides a high-level overview of the Physics Department at Southwestern University. Describes the department's scope — from geophysics and atmospheric physics to quantum physics and engineering. Explains the General Education connection and how physics enables interdisciplinary thinking. Mentions the Applied Physics Pre-Engineering Pathway (dual degree, three-year program) and the Fountainwood Observatory, which houses a research-quality reflecting telescope with a CCD camera donated by local engineer Max Allen. Includes links to alumni stories and news about the new engineering program. Names Steve Alexander as the department contact.
 - **critical_data:**
   - Physics department covers: geophysics, atmospheric physics, mathematics, quantum physics
   - Fountainwood Observatory: research-quality reflecting telescope with digital CCD camera
   - Applied Physics Pre-Engineering Pathway available (dual degree, 3-year program)
   - Observatory gift from Max Allen, local engineer and amateur astronomer
   - New engineering program added, located near Central Texas "Silicon Hills" innovation hub
-- **retrieval_triggers:**
-  - "what is the physics department about"
-  - "do you have an observatory"
-  - "what is the pre-engineering pathway"
-  - "dual degree physics"
-  - "applied physics program"
-  - "who is the physics department contact"
-  - "what can I do with a physics degree"
-  - "is there an engineering program"
-  - "tell me about the physics program at SU"
-  - "Fountainwood Observatory"
-  - "Steve Alexander contact"
-  - "physics and liberal arts"
 
 ---
 
 ### Majoring & Minoring in Physics
-- **filename:** `Majoring___Minoring.txt`
-- **document_type:** requirements
 - **degree_relevance:** B.A. | B.S. | Minor
-- **time_sensitive:** true
-- **catalog_year:** Current (verify with registrar)
 - **description:** The primary degree requirements document for the Physics Department. Lists all required and elective courses for the B.A. in Physics (8 physics courses + 3 supporting), the B.S. in Physics (10 physics courses + 6 supporting), and the Minor in Physics (5 courses). Specifies required supporting courses for each degree path including mathematics (MAT52-164, 264, 364, 754) and science courses (BIO, CHE) for the B.S. Includes the full list of upper-division elective options for each path and describes the capstone experience in detail — including its three components (research, paper, oral presentation) and registration options (Academic Internship 53-941/942/943/944 or Independent Study 53-951/952/953/954). Notes that PHY53-872 Capstone Course is required regardless of how the research phase is completed.
 - **critical_data:**
   - B.A. requires: 8 physics courses + 3 supporting math courses
@@ -63,32 +42,12 @@ This index covers all documents provided for the Southwestern University Physics
   - Capstone has 3 components: research, paper, oral presentation
   - PHY53-872 Capstone Course required for all physics majors
   - Advanced math minor "highly recommended" for B.S. students
-- **retrieval_triggers:**
-  - "how many courses for physics major"
-  - "what's required for BS in physics"
-  - "what's required for BA in physics"
-  - "physics minor requirements"
-  - "do I need chemistry for physics BS"
-  - "what math do I need for physics"
-  - "capstone project physics"
-  - "difference between BA and BS physics"
-  - "elective options physics major"
-  - "quantum mechanics required"
-  - "do I need biology for physics"
-  - "physics degree requirements"
-  - "what is the capstone experience"
-  - "can I do independent study for my capstone"
-  - "how many electives in physics"
 
 ---
 
 ### Physics Courses
-- **filename:** `Courses.txt`
-- **document_type:** course_info
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** Current (verify with registrar)
-- **description:** Comprehensive listing of all current or recent Physics Department course offerings with full descriptions, credit hours, prerequisites, Paideia area designations, and offering schedules. Covers introductory courses (53-034 Earth Science, 53-064 Solar System, 53-074 Stars/Galaxies), calculus-based foundations (53-154, 53-164), upper-division courses (53-214 through 53-473), engineering-track courses (53-104, 53-112, 53-314, 53-434, 53-463, 53-473), and the capstone writing course (53-872). Many courses have irregular schedules (odd/even years). Includes Paideia area tags (NS, NSL) where applicable. Prerequisite chains are detailed and must be followed carefully for scheduling.
+- **description:** Comprehensive listing of all current or recent Physics Department course offerings with full descriptions, credit hours, prerequisites, General education area designations, and offering schedules. Covers introductory courses (53-034 Earth Science, 53-064 Solar System, 53-074 Stars/Galaxies), calculus-based foundations (53-154, 53-164), upper-division courses (53-214 through 53-473), engineering-track courses (53-104, 53-112, 53-314, 53-434, 53-463, 53-473), and the capstone writing course (53-872). Many courses have irregular schedules (odd/even years). Includes General education area tags (NS, NSL) where applicable. Prerequisite chains are detailed and must be followed carefully for scheduling.
 - **critical_data:**
   - PHY53-154 Fundamentals of Physics I: prereq MAT52-164 (concurrent OK); Fall; NSL
   - PHY53-164 Fundamentals of Physics II: prereq PHY53-154; Spring; NSL
@@ -108,35 +67,11 @@ This index covers all documents provided for the Southwestern University Physics
   - PHY53-112 Applications of CAD: Fall; NS; contributes to Design Thinking and CAD certificate
   - PHY53-314 Engineering Design: prereq PHY53-112, 104; Spring; NS; prepares for Autodesk Fusion Certified User exam
   - PHY53-364 Materials Science: prereq PHY53-154, CHE51-103 (co-req); Spring; also CHE51-424; contributes to Data Analytics/Data Science
-- **retrieval_triggers:**
-  - "what are the prerequisites for quantum mechanics"
-  - "when is classical mechanics offered"
-  - "what is modern physics about"
-  - "does PHY53-334 count as writing"
-  - "when is thermodynamics taught"
-  - "what is the capstone course"
-  - "is electromagnetism offered every year"
-  - "prerequisites for electromagnetism II"
-  - "what courses satisfy natural science"
-  - "when is Electronics offered"
-  - "does materials science count for chemistry"
-  - "when is statics offered"
-  - "what is engineering design"
-  - "does CAD count for anything"
-  - "intro to earth science physics"
-  - "astronomy course at SU"
-  - "solar system course"
-  - "stars and galaxies class"
-  - "what is the writing course in physics"
 
 ---
 
 ### For Current Students
-- **filename:** `For_Current_Students.txt`
-- **document_type:** resources
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** A student resource page covering scholarships, awards, research opportunities, recent capstone projects, and student organizations in the Physics Department. Describes the Elizabeth Feagin Brown and Foy F. Feagin, Jr. Scholarship Fund for outstanding physics or music performance students (provides full or partial tuition). Lists recent King Creativity Award winners, conference presentations, and research internships at external institutions (Rice, Stanford, University of Giessen in Germany). Provides a sample of recent capstone project titles. Describes the SU Physics and Engineering Rocks (SUPER) club, which meets several times per semester for talks and social events.
 - **critical_data:**
   - Elizabeth Feagin Brown/Foy F. Feagin Jr. Scholarship: for outstanding physics or music performance students; full or partial tuition
@@ -145,28 +80,11 @@ This index covers all documents provided for the Southwestern University Physics
   - Recent capstone titles include solar power, wind turbines, spectroscopy, human-power conversion
   - Student club: SU Physics and Engineering Rocks (SUPER) — meets multiple times per semester
   - Conference awards: Texas Section of the American Physical Society (TSAPS) has accepted physics posters
-- **retrieval_triggers:**
-  - "is there a scholarship for physics students"
-  - "what is the Feagin scholarship"
-  - "King Creativity Award physics"
-  - "can I do research off campus"
-  - "what are examples of capstone projects"
-  - "is there a physics club"
-  - "SUPER club physics"
-  - "student organizations physics"
-  - "research at Stanford for undergrads"
-  - "what have physics students done for research"
-  - "past capstone projects"
-  - "awards for physics students"
 
 ---
 
 ### Our Faculty
-- **filename:** `Our_Faculty.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** N/A
 - **description:** Lists all current Physics Department faculty with names, titles, specialties, email addresses, phone numbers, and office locations. Full-time faculty include Steve Alexander (Professor), Cody Crosby (Assistant Professor, specialty: biofabrication, biomaterials, hydrogels, stem cells, engineering education), and August Kohls (Assistant Professor, specialty: electronics, health diagnostics, microfabrication, microfluidics, MEMS, engineering education). Part-time faculty include Amit Dongol, James Friedrichsen, and Sarah Salviander. Pooja Shrestha serves as Coordinator of First-Year Physics Labs (FJS 106).
 - **critical_data:**
   - Steve Alexander: Professor; alexands@southwestern.edu; 512.863.1633; Fondren-Jones 150
@@ -176,48 +94,21 @@ This index covers all documents provided for the Southwestern University Physics
   - James Friedrichsen: Part-Time Assistant Professor; friedrij@southwestern.edu; 512.863.1402
   - Sarah Salviander: Part-Time Faculty; salvians@southwestern.edu
   - Pooja Shrestha: Coordinator of First-Year Physics Labs; shresthp@southwestern.edu; 512.863.1398; FJS 106
-- **retrieval_triggers:**
-  - "who teaches physics at SU"
-  - "how do I contact a physics professor"
-  - "who is my advisor for physics"
-  - "who teaches electronics"
-  - "what is Professor Crosby's specialty"
-  - "who coordinates the labs"
-  - "physics faculty email"
-  - "who is Steve Alexander"
-  - "office hours physics department"
-  - "who is August Kohls"
-  - "who teaches the intro labs"
 
 ---
 
 ### Notable Faculty & Student Achievements
-- **filename:** `Notable_Faculty___Student_Achievements.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Highlights accomplishments of Physics Department faculty and students. Contains information about research recognition, publications, awards, and other notable achievements by members of the department community. Provides context for the department's academic reputation and areas of strength.
 - **critical_data:**
   - Contains specific faculty and student achievement highlights
   - May include award names, research topics, and publication venues
   - Useful for prospective students evaluating department prestige
-- **retrieval_triggers:**
-  - "what awards have physics faculty won"
-  - "notable achievements physics department"
-  - "faculty research recognition"
-  - "student success stories physics"
-  - "has anyone from physics won awards"
-  - "department accomplishments"
 
 ---
 
 ### CAD & 3D Printing Certificate
-- **filename:** `Computer-Aided_Design__CAD____3D_Printing_Certificate.txt`
-- **document_type:** requirements
 - **degree_relevance:** General
-- **time_sensitive:** true
-- **catalog_year:** Current (verify with registrar)
 - **description:** Describes the Computer-Aided Design (CAD) & 3D Printing Certificate, administered by the Physics Department (contact: Steve Alexander). Lists two required courses (PHY53-104 Introduction to Engineering and PHY53-XX2/53-112 Applications of CAD), four elective courses from an approved list spanning Biology, Environmental Studies, Physics, Psychology, and Theatre, and one required high-impact experience (internship, SURF, study abroad, or King Creativity Fund project). Notes that certificate requirements must be fulfilled with Southwestern courses only — transfer credit, AP/IB scores, and non-residence SU credit are not accepted. Chair of Physics Department must approve all four elective courses and the high-impact experience.
 - **critical_data:**
   - Certificate administered by Physics Department; contact: Steve Alexander
@@ -235,19 +126,6 @@ This index covers all documents provided for the Southwestern University Physics
   - One high-impact experience required: internship, SURF, study abroad, or King Creativity Fund project
   - NO transfer credit, AP/IB, or non-residence SU credit accepted toward certificate
   - Chair of Physics Department approves all electives and high-impact experience
-- **retrieval_triggers:**
-  - "how do I get the CAD certificate"
-  - "3D printing certificate requirements"
-  - "what courses count for the CAD certificate"
-  - "does the CAD certificate accept AP credit"
-  - "who approves my CAD certificate electives"
-  - "can I use study abroad for the certificate"
-  - "is there a certificate in engineering or 3D printing"
-  - "what is the high-impact experience for the certificate"
-  - "SURF and the CAD certificate"
-  - "King Creativity Fund certificate"
-  - "can Theatre courses count for the CAD certificate"
-  - "what electives are allowed for the 3D printing certificate"
 
 ---
 
@@ -268,7 +146,7 @@ This index covers all documents provided for the Southwestern University Physics
 
 *Source: `SU_General_Policies.txt`*
 
-### SU Paideia General Education Requirements (All Degree Paths)
+### SU General Education Requirements (All Degree Paths)
 
 | Requirement | Detail |
 |---|---|
@@ -279,7 +157,7 @@ This index covers all documents provided for the Southwestern University Physics
 | Exploration & Breadth Part I | One course each from FA, H, NS, ScS |
 | Exploration & Breadth Part II | One additional course from two of the four areas |
 
-Note: Many Physics courses carry NS or NSL Paideia designations and may satisfy Natural Sciences breadth requirements.
+Note: Many Physics courses carry NS or NSL General education designations and may satisfy Natural Sciences breadth requirements.
 
 *Source: `SU_General_Policies.txt`*
 
@@ -465,8 +343,8 @@ Note: Many Physics courses carry NS or NSL Paideia designations and may satisfy 
 - **Prerequisites:** None stated
 - **Corequisites:** None
 - **Offered:** Fall, Odd years
-- **Required For:** Not required for any degree path; may satisfy NS Paideia breadth
-- **Counts As:** NS (Paideia Natural Sciences); Contributes to Environmental Studies
+- **Required For:** Not required for any degree path; may satisfy NS General education breadth
+- **Counts As:** NS (General Education Natural Sciences); Contributes to Environmental Studies
 - **Notes:** Topics: geologic hazards, land management, water resources, hazardous waste, energy, minerals
 - **Source:** `Courses.txt`
 
@@ -702,90 +580,6 @@ Note: Many Physics courses carry NS or NSL Paideia designations and may satisfy 
 
 ---
 
-## SECTION 5 — TOPIC INDEX
-
-- Physics department overview and mission → `Physics.txt`
-- Fountainwood Observatory access → `Physics.txt`
-- Max Allen telescope gift → `Physics.txt`
-- Applied Physics Pre-Engineering dual degree → `Physics.txt`, `Majoring___Minoring.txt`
-- B.A. in Physics degree requirements → `Majoring___Minoring.txt`
-- B.S. in Physics degree requirements → `Majoring___Minoring.txt`
-- Minor in Physics requirements → `Majoring___Minoring.txt`
-- CAD & 3D Printing Certificate requirements → `Computer-Aided_Design__CAD____3D_Printing_Certificate.txt`
-- Difference between B.A. and B.S. in Physics → `Majoring___Minoring.txt`
-- Quantum Mechanics (PHY53-424) — required for B.S. only → `Majoring___Minoring.txt`, `Courses.txt`
-- How many physics electives required (B.A. vs B.S.) → `Majoring___Minoring.txt`
-- Elective course pool for B.A. → `Majoring___Minoring.txt`
-- Elective course pool for B.S. → `Majoring___Minoring.txt`
-- Elective course pool for Minor → `Majoring___Minoring.txt`
-- Required supporting math courses for B.A. → `Majoring___Minoring.txt`
-- Required supporting math courses for B.S. → `Majoring___Minoring.txt`
-- Differential Equations (MAT52-754) requirement → `Majoring___Minoring.txt`
-- Biology requirement for B.S. → `Majoring___Minoring.txt`
-- Chemistry requirement for B.S. → `Majoring___Minoring.txt`
-- Capstone experience structure (research + paper + presentation) → `Majoring___Minoring.txt`, `Courses.txt`
-- PHY53-872 Capstone Course description → `Courses.txt`, `Majoring___Minoring.txt`
-- Registering for capstone credit (internship vs independent study) → `Majoring___Minoring.txt`
-- PHY53-154 Fundamentals of Physics I prerequisites → `Courses.txt`
-- PHY53-164 Fundamentals of Physics II prerequisites → `Courses.txt`
-- PHY53-214 Modern Physics prerequisites → `Courses.txt`
-- PHY53-324 Electromagnetism I prerequisites → `Courses.txt`
-- PHY53-334 Classical Mechanics I prerequisites and WA credit → `Courses.txt`
-- PHY53-424 Quantum Mechanics prerequisites → `Courses.txt`
-- PHY53-413 Classical Mechanics II prerequisites → `Courses.txt`
-- PHY53-433 Electromagnetism II prerequisites → `Courses.txt`
-- PHY53-454 Math Methods prerequisites and double-counting with Math → `Courses.txt`
-- PHY53-364 Materials Science prerequisites and CHE cross-listing → `Courses.txt`
-- PHY53-473 Thermodynamics prerequisites → `Courses.txt`
-- PHY53-463 Dynamics prerequisites → `Courses.txt`
-- PHY53-434 Statics prerequisites → `Courses.txt`
-- Irregular course schedules (odd/even year offerings) → `Courses.txt`
-- PHY53-254 Observing the Universe — offered even years only → `Courses.txt`
-- PHY53-104 Introduction to Engineering → `Courses.txt`, `Computer-Aided_Design__CAD____3D_Printing_Certificate.txt`
-- PHY53-112 Applications of CAD → `Courses.txt`, `Computer-Aided_Design__CAD____3D_Printing_Certificate.txt`
-- PHY53-314 Engineering Design (Autodesk Fusion exam) → `Courses.txt`, `Computer-Aided_Design__CAD____3D_Printing_Certificate.txt`
-- CAD certificate required courses → `Computer-Aided_Design__CAD____3D_Printing_Certificate.txt`
-- CAD certificate approved electives list → `Computer-Aided_Design__CAD____3D_Printing_Certificate.txt`
-- CAD certificate high-impact experience options → `Computer-Aided_Design__CAD____3D_Printing_Certificate.txt`
-- CAD certificate: no transfer credit accepted → `Computer-Aided_Design__CAD____3D_Printing_Certificate.txt`
-- Physics Department chair approval for certificate → `Computer-Aided_Design__CAD____3D_Printing_Certificate.txt`
-- Theatre courses counting toward CAD certificate → `Computer-Aided_Design__CAD____3D_Printing_Certificate.txt`
-- Psychology courses counting toward CAD certificate → `Computer-Aided_Design__CAD____3D_Printing_Certificate.txt`
-- Biology courses counting toward CAD certificate → `Computer-Aided_Design__CAD____3D_Printing_Certificate.txt`
-- SURF counting toward CAD certificate → `Computer-Aided_Design__CAD____3D_Printing_Certificate.txt`, `For_Current_Students.txt`
-- King Creativity Fund counting toward CAD certificate → `Computer-Aided_Design__CAD____3D_Printing_Certificate.txt`, `For_Current_Students.txt`
-- Elizabeth Feagin Brown / Foy F. Feagin Jr. Scholarship → `For_Current_Students.txt`
-- King Creativity Award (student awards) → `For_Current_Students.txt`
-- External research opportunities for physics students → `For_Current_Students.txt`
-- Research at Rice, Stanford, international institutions → `For_Current_Students.txt`
-- Recent capstone project examples → `For_Current_Students.txt`
-- Solar-related capstone projects → `For_Current_Students.txt`
-- SUPER club (SU Physics and Engineering Rocks) → `For_Current_Students.txt`
-- Student club meetings in Physics → `For_Current_Students.txt`
-- Conference presentations by physics students → `For_Current_Students.txt`
-- Texas Section of the American Physical Society (TSAPS) → `For_Current_Students.txt`
-- Physics faculty names and contact information → `Our_Faculty.txt`
-- Steve Alexander — Professor of Physics → `Our_Faculty.txt`
-- Cody Crosby — biofabrication, biomaterials, hydrogels → `Our_Faculty.txt`
-- August Kohls — electronics, microfluidics, MEMS → `Our_Faculty.txt`
-- Pooja Shrestha — First-Year Physics Labs coordinator → `Our_Faculty.txt`
-- Part-time faculty in Physics → `Our_Faculty.txt`
-- Faculty specialty areas (biofabrication, health diagnostics, etc.) → `Our_Faculty.txt`
-- Paideia area designations for Physics courses (NS, NSL) → `Courses.txt`
-- Writing Across Curriculum (WA) in Physics — PHY53-334 → `Courses.txt`
-- PHY53-454 Math Methods counting toward Math major/minor → `Courses.txt`
-- PHY53-364 counting toward Data Analytics/Data Science → `Courses.txt`
-- PHY53-404 Electronics Design Thinking credit → `Courses.txt`
-- PHY53-034 Earth Science Environmental Studies credit → `Courses.txt`
-- Graduation requirements (total credits, residency, GPA) → `SU_General_Policies.txt`
-- Paideia general education requirements → `SU_General_Policies.txt`
-- Pass/D/F grading option → `SU_General_Policies.txt`
-- Transfer credit rules → `SU_General_Policies.txt`
-- Academic probation and dismissal → `SU_General_Policies.txt`
-- Study abroad credit applicability → `SU_Resources_and_Financial.txt`, `SU_General_Policies.txt`
-- SURF funding → `SU_Resources_and_Financial.txt`
-- Financial aid and tuition → `SU_Resources_and_Financial.txt`
-
 ---
 
 ## SECTION 6 — QUERY PATTERN MAP
@@ -976,11 +770,10 @@ Note: Many Physics courses carry NS or NSL Paideia designations and may satisfy 
   - **What general docs must cover:** 127-credit minimum, 64-credit SU residency, last 32 in-residence, 2.000 GPA, 60% major residency, Application for Diploma process
   - **Routing instruction:** Always retrieve `SU_General_Policies.txt` alongside `Majoring___Minoring.txt` for any graduation eligibility question
 
-- **Topic:** Paideia general education requirements
-  - **What major docs cover:** Which Physics courses carry NS/NSL or WA Paideia area designations (noted in Courses.txt)
+- **Topic:** General education requirements
+  - **What major docs cover:** Which Physics courses carry NS/NSL or WA General education area designations (noted in Courses.txt)
   - **What general docs must cover:** Full structure of FYS/AES, Language & Cultures, FRA, Power and Justice, Exploration & Breadth Parts I and II, Paideia with Distinction
-  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about gen-ed, breadth requirements, or Paideia
-
+  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about gen-ed, breadth requirements, or General Education 
 - **Topic:** Pass/D/F grading option
   - **What major docs cover:** Not addressed in Physics documents
   - **What general docs must cover:** Full Pass/D/F policy, deadlines to switch, GPA impact
@@ -1068,9 +861,9 @@ Note: Many Physics courses carry NS or NSL Paideia designations and may satisfy 
   - **Reason for gap:** Not specified in physics documents
   - **Recommended fallback:** Direct student to academic advisor or registrar
 
-- **Topic:** Whether any Physics electives can satisfy the Paideia Power and Justice requirement
+- **Topic:** Whether any Physics electives can satisfy the general education Power and Justice requirement
   - **Reason for gap:** No PJ-designated courses listed in Physics Department documents
-  - **Recommended fallback:** Direct student to check the full Paideia course list; retrieve `SU_General_Policies.txt`
+  - **Recommended fallback:** Direct student to check the full General Education course list; retrieve `SU_General_Policies.txt`
 
 - **Topic:** Advising appointment requirements and process for physics students
   - **Reason for gap:** Not addressed in any Physics document
@@ -1113,7 +906,7 @@ Note: Many Physics courses carry NS or NSL Paideia designations and may satisfy 
 - Any question about faculty contact, office locations, or research specialties: retrieve `Our_Faculty.txt`
 - Any question about graduation credit totals, residency minimums, GPA thresholds, or academic standing: retrieve `SU_General_Policies.txt` alongside major docs
 - Any question about study abroad, SURF, King Creativity Fund, or financial aid: retrieve `SU_Resources_and_Financial.txt`
-- Any question about Paideia, gen-ed requirements, or breadth courses: retrieve `SU_General_Policies.txt`
+- Any question about general education or breadth requirements: retrieve `SU_General_Policies.txt`
 
 **Degree path disambiguation triggers:**
 - If student says "the physics degree" or "physics major" without specifying B.A. or B.S., ask: "Are you pursuing the Bachelor of Arts (B.A.) or Bachelor of Science (B.S.) in Physics?"
@@ -1139,7 +932,7 @@ Note: Many Physics courses carry NS or NSL Paideia designations and may satisfy 
 
 **Always retrieve `SU_General_Policies.txt` alongside major docs when:**
 - Any graduation eligibility or credit count question
-- Any Paideia / general education requirement question
+- Any general education requirement question
 - Any grading policy question (Pass/D/F, grade appeals, incomplete grades)
 - Any academic standing question (probation, dismissal, appeal)
 - Any transfer credit or credit-by-examination question

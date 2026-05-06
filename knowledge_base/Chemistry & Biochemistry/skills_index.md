@@ -10,11 +10,7 @@
 ## SECTION 2 — DOCUMENT REGISTRY
 
 ### Chemistry and Biochemistry Department Overview
-- **filename:** `Chemistry_and_Biochemistry.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** This is the top-level department overview page. It describes the scope of chemistry (study of matter and energy) and biochemistry (chemical processes in living systems) as disciplines. It highlights the curriculum breadth from foundational courses (organic chemistry, quantum mechanics) to electives (food, environmental, medicinal chemistry). It mentions degree options (B.A. and B.S.), faculty grant funding sources (Welch Foundation, Merck, Dreyfus, ACS Petroleum Research Fund, Howard Hughes Medical Institute), state-of-the-art labs, and undergraduate research opportunities. It notes that graduates have been placed in top graduate and medical schools and that alumni have pursued careers in medicine, law, tech, pharmacy, and petrochemicals. It also mentions NSF graduate research fellowships awarded to recent graduates.
 - **critical_data:**
   - Degrees offered: B.A. and B.S. in Chemistry and Biochemistry
@@ -23,7 +19,6 @@
   - Alumni career outcomes: medicine, law, tech, pharmacy, petrochemical industries
   - Recent graduates awarded NSF graduate research fellowships
   - Students and faculty coauthor publications in peer-reviewed journals and present at ACS national meetings
-- **retrieval_triggers:**
   - what can I do with a chemistry degree
   - what's the difference between chemistry and biochemistry
   - is chemistry a good major for med school
@@ -38,11 +33,7 @@
 ---
 
 ### Majoring & Minoring in Chemistry and Biochemistry
-- **filename:** `Majoring___Minoring.txt`
-- **document_type:** requirements
 - **degree_relevance:** B.A. | B.S. | Minor
-- **time_sensitive:** true
-- **catalog_year:** 2025-2026 (current, based on retrieval date)
 - **description:** This is the primary degree requirements document for the department. It lists all required courses and supporting courses for five distinct tracks: Chemistry B.A. (15 courses), Chemistry B.S. (17–18 courses), Chemistry B.S. ACS-Certified (21 courses), Biochemistry B.S. (17–18 courses), and Chemistry Minor (11 courses). Each track specifies exact course codes from the CHE51 prefix series along with required supporting courses in math (MAT52), biology (BIO50), and physics (PHY53). The document notes ACS accreditation and alignment with ASBMB educational guidelines for the biochemistry major. It specifies capstone requirements for all tracks and includes important notes on C- minimum grade policy and course numbering conventions.
 - **critical_data:**
   - Chemistry B.A.: 15 major courses + 2 supporting (MAT52-164, PHY53-154)
@@ -54,7 +45,6 @@
   - All tracks require a senior capstone (CHE51-932 or CHE51-922)
   - At least one of CHE51-313 or CHE51-323 must be taken at SU for all tracks
   - Department is ACS-accredited
-- **retrieval_triggers:**
   - how many courses do I need to graduate
   - what's required for the chemistry major
   - what's the difference between BA and BS in chemistry
@@ -74,12 +64,8 @@
 ---
 
 ### Courses in Chemistry and Biochemistry
-- **filename:** `Courses.txt`
-- **document_type:** course_info
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** 2025-2026
-- **description:** This document provides descriptions, prerequisites, and offering schedules for all current or recent Chemistry and Biochemistry (CHE51) courses. It covers 000-level non-major courses (Chemistry Appreciation, Chemistry of the Environment, Chemistry of Food, Fundamentals of Chemistry), 100-level introductory courses (General Chemistry I & II with labs, Fundamentals of Organic Chemistry, Problem Solving in Chemistry), 200–700 level upper courses (Organic Chemistry I & II with labs, Inorganic Chemistry, Organometallic Chemistry, Materials Science, Analytical courses, Biochemistry I & II, Physical Chemistry, Quantum Mechanics), 800-level advanced labs (Organic, Inorganic, Analytical, Biochemistry, Physical Chemistry), and 900-level capstone and research courses. Semester offerings (Fall/Spring) and Paideia area designations (NS) are noted where available.
+- **description:** This document provides descriptions, prerequisites, and offering schedules for all current or recent Chemistry and Biochemistry (CHE51) courses. It covers 000-level non-major courses (Chemistry Appreciation, Chemistry of the Environment, Chemistry of Food, Fundamentals of Chemistry), 100-level introductory courses (General Chemistry I & II with labs, Fundamentals of Organic Chemistry, Problem Solving in Chemistry), 200–700 level upper courses (Organic Chemistry I & II with labs, Inorganic Chemistry, Organometallic Chemistry, Materials Science, Analytical courses, Biochemistry I & II, Physical Chemistry, Quantum Mechanics), 800-level advanced labs (Organic, Inorganic, Analytical, Biochemistry, Physical Chemistry), and 900-level capstone and research courses. Semester offerings (Fall/Spring) and General education area designations (NS) are noted where available.
 - **critical_data:**
   - Non-major (000-level): CHE51-014 (Chemistry Appreciation), CHE51-024 (Chemistry of the Environment), CHE51-034 (Chemistry of Food), CHE51-083 (Fundamentals of Chemistry)
   - Introductory (100-level): CHE51-101/103 (Gen Chem I w/lab, Fall), CHE51-201/203 (Gen Chem II w/lab, Spring), CHE51-144 (Fundamentals of Organic Chemistry)
@@ -92,7 +78,6 @@
   - Capstones: CHE51-922/924 (Senior Biochemistry Capstone, 2 or 4 cr), CHE51-932/934 (Senior Chemistry Capstone, 2 or 4 cr)
   - CHE51-604 (Principles of Biochemistry) explicitly does NOT fulfill requirements for chemistry/biochemistry major or minor
   - CHE51-111 (Problem Solving in Chemistry) must be taken Pass/D/F
-- **retrieval_triggers:**
   - what are the prerequisites for organic chemistry
   - when is general chemistry offered
   - what is the difference between CHE51-604 and CHE51-614
@@ -112,11 +97,7 @@
 ---
 
 ### Our Faculty
-- **filename:** `Our_Faculty.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** N/A
 - **description:** This document lists all current faculty and staff in the Chemistry and Biochemistry department with their titles, email addresses, phone numbers, and office locations where available. Faculty include: Maha Zewail-Foote (Garey Chair and Professor, Department Chair; specialty: DNA structures, drug-DNA interactions, photoinduced DNA damage, genetic instability), Isaac Blythe (Assistant Professor), Paul Handali (Visiting Assistant Professor), Dilani Koswatta (Director of General Chemistry Labs), Chloe Litts (Visiting Assistant Professor of Chemistry and Biochemistry), Chelsea Massaro (Assistant Professor), Sara C. Massey (Assistant Professor; specialty: Physical Chemistry, Biophysical Chemistry, Electronic Spectroscopy), Emily Niemeyer (Professor; specialty: analytical chemistry, flavonoids, Lamiaceae herbs, mass spectrometry, flipped classrooms), Debamita Paul (Part-Time Assistant Professor), and Carmen Vélez (Director of Organic Chemistry Labs).
 - **critical_data:**
   - Department Chair: Maha Zewail-Foote (zewailfm@southwestern.edu, 512.863.1626, Fondren-Jones 340)
@@ -128,7 +109,6 @@
   - Isaac Blythe: blythei@southwestern.edu, 512.863.1883
   - Paul Handali: handalip@southwestern.edu, 512.863.1627
   - Capstone applications submitted to department chair at FJS 317 (Fondren-Jones 317)
-- **retrieval_triggers:**
   - who is the department chair
   - how do I contact a chemistry professor
   - who teaches organic chemistry
@@ -143,11 +123,7 @@
 ---
 
 ### Resources and Facilities
-- **filename:** `Resources_and_Facilities.txt`
-- **document_type:** resources
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** This document describes the research instruments and laboratory equipment available to faculty and students in the Chemistry and Biochemistry department laboratories. Instruments listed include NMR spectrometers at two field strengths (500 MHz and 300 MHz), a gas chromatograph-mass spectrometer (GC-MS), FTIR spectrophotometers, multiple HPLCs, UV-Visible spectrophotometers, a fluorescence spectrophotometer, an atomic absorption spectrometer, an electrochemical analyzer, multiple gas chromatographs, an ultracentrifuge, and a peptide synthesizer. These instruments are used by both faculty and students.
 - **critical_data:**
   - 500 MHz and 300 MHz NMR spectrometers (high-field research instruments)
@@ -162,7 +138,6 @@
   - Ultracentrifuge
   - Peptide synthesizer
   - All instruments shared between faculty and students
-- **retrieval_triggers:**
   - what instruments does the chemistry department have
   - does SU have NMR
   - is there mass spec equipment available
@@ -177,11 +152,7 @@
 ---
 
 ### Welch Summer Research Program
-- **filename:** `Welch_Summer_Research_Program.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** N/A
 - **description:** This document describes the department's Welch Summer Research Program, funded continuously since 1985 by the Robert A. Welch Foundation. The program provides equipment and student stipends for an 8-week summer research experience with a faculty mentor. Research areas include medicinal, organic, analytical, environmental, inorganic, and biochemistry. Approximately 10–12 students participate each year. Summer activities include scientific poster preparation training, oral presentation skills, and discussions on ethics in science. Students conclude with a technical report and present a poster at the campus Student Works Symposium the following spring. Applications are submitted to the department chair at FJS 317 and evaluated based on application strength, faculty interview, research interests, training, and coursework.
 - **critical_data:**
   - Funded since 1985 by the Robert A. Welch Foundation
@@ -194,7 +165,6 @@
   - Concludes with technical report
   - Students present at Student Works Symposium the following spring
   - Research may serve as basis for senior capstone
-- **retrieval_triggers:**
   - how do I apply for summer research
   - what is the Welch program
   - does SU have paid summer research opportunities
@@ -209,11 +179,7 @@
 ---
 
 ### Notable Faculty & Student Achievements
-- **filename:** `Notable_Faculty___Student_Achievements.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** N/A (ongoing log through March 2026)
 - **description:** This document is a chronological log of department accomplishments from approximately 2020 through March 2026. It covers student poster and oral presentations at ACS national and regional meetings, NSF-funded grant awards to faculty (Sara Massey's $250,000 LEAPS-MPS grant from NSF in 2025), peer-reviewed publications by faculty and student coauthors in major journals (PNAS, Nucleic Acids Research, Journal of Chemical Education, Journal of Food Measurement and Characterization, ACS Omega, Plant Foods for Human Nutrition), the first-ever Goldwater Scholarship awarded to an SU student (Brian Armijo '25, biochemistry/mathematics), faculty awards (teaching awards, scholarly works award, advising award), community outreach activities, and international conference presentations. Key faculty featured include Emily Niemeyer, Sara Massey, Maha Zewail-Foote, Carmen Vélez, Dilani Koswatta, and formerly Mike Gesinski.
 - **critical_data:**
   - Brian Armijo '25: first-ever SU Goldwater Scholar (biochemistry/mathematics double major)
@@ -224,7 +190,6 @@
   - ACS SURF Fellowship awarded to Sean Calvert '22 (gold catalysis research)
   - Students win Best Presentation Awards at UT Austin FURS symposium
   - Community-engaged learning (CEL) projects connecting chemistry students with local elementary schools
-- **retrieval_triggers:**
   - what awards have chemistry students won
   - has an SU chemistry student ever won a Goldwater Scholarship
   - what research does Dr. Massey do
@@ -239,17 +204,12 @@
 ---
 
 ### After Southwestern
-- **filename:** `After_Southwestern.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** This brief document provides post-graduation alumni engagement information for the Chemistry and Biochemistry department. It contains a link for alumni to make donations to the department, with instructions to select "Chemistry department" as the gift designation. It also provides the department chair email (zewailfm@southwestern.edu) for alumni wishing to update the department on their post-graduation activities. This document contains minimal information about career outcomes — career outcome details are found in the main Chemistry_and_Biochemistry.txt overview document.
 - **critical_data:**
   - Alumni donations: select "other" as gift designation, write "Chemistry department"
   - Alumni updates: email zewailfm@southwestern.edu
   - Contact for alumni engagement is the department chair
-- **retrieval_triggers:**
   - how do I donate to the chemistry department
   - how do I stay in touch with SU chemistry after graduating
   - where do I send alumni news
@@ -272,7 +232,7 @@
 | Graduation Application | "Application for Diploma" must be filed; financial holds block diploma |
 | Degree Conferral Dates | December, May, August only; Commencement held once per year in May |
 
-### SU Universal Curriculum Requirements (Paideia Framework)
+### SU Universal Curriculum Requirements (General Education)
 
 **Required for ALL degree paths:**
 - First-Year Seminar (FYS) or Advanced-Entry Seminar (AES): 4 credits
@@ -453,7 +413,7 @@
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Not required for any major/minor; non-major course
-- **Counts As:** NS (Natural Sciences Paideia), Health Studies
+- **Counts As:** NS (Natural Sciences General Education), Health Studies
 - **Notes:** 000-level; for non-majors only
 - **Source:** `Courses.txt`
 
@@ -793,87 +753,6 @@
 
 ---
 
-## SECTION 5 — TOPIC INDEX
-
-- Chemistry B.A. degree requirements → `Majoring___Minoring.txt`
-- Chemistry B.S. degree requirements → `Majoring___Minoring.txt`
-- Chemistry B.S. ACS-certified degree requirements → `Majoring___Minoring.txt`
-- Biochemistry B.S. degree requirements → `Majoring___Minoring.txt`
-- Chemistry Minor requirements → `Majoring___Minoring.txt`
-- Difference between B.A. and B.S. in chemistry → `Majoring___Minoring.txt`
-- Difference between standard B.S. and ACS-certified B.S. → `Majoring___Minoring.txt`
-- Difference between Chemistry B.S. and Biochemistry B.S. → `Majoring___Minoring.txt`
-- ACS accreditation → `Majoring___Minoring.txt`, `Chemistry_and_Biochemistry.txt`
-- ASBMB curriculum guidelines for biochemistry → `Majoring___Minoring.txt`
-- C- minimum grade policy for prerequisites → `Majoring___Minoring.txt`
-- Senior capstone requirement (all tracks) → `Majoring___Minoring.txt`, `Courses.txt`
-- CHE51-932 Senior Chemistry Capstone details → `Courses.txt`, `Majoring___Minoring.txt`
-- CHE51-922 Senior Biochemistry Capstone details → `Courses.txt`, `Majoring___Minoring.txt`
-- Capstone credit hours (2 vs. 4 credits) → `Courses.txt`
-- Methods in Laboratory Research (CHE51-91X) → `Majoring___Minoring.txt`, `Courses.txt`
-- Academic internship (CHE51-94X) as alternative to research → `Majoring___Minoring.txt`
-- Which tracks require Methods in Laboratory Research → `Majoring___Minoring.txt`
-- CHE51-103 General Chemistry I prerequisites and offering → `Courses.txt`
-- CHE51-203 General Chemistry II prerequisites and offering → `Courses.txt`
-- CHE51-313 Organic Chemistry I prerequisites and offering → `Courses.txt`
-- CHE51-323 Organic Chemistry II prerequisites and offering → `Courses.txt`
-- CHE51-614 General Biochemistry I (required at SU for Biochemistry B.S.) → `Courses.txt`, `Majoring___Minoring.txt`
-- CHE51-624 General Biochemistry II (required at SU for Biochemistry B.S.) → `Courses.txt`, `Majoring___Minoring.txt`
-- CHE51-604 Principles of Biochemistry — does NOT count for major/minor → `Courses.txt`
-- CHE51-714 Quantum Mechanics — required for ACS-certified only → `Courses.txt`, `Majoring___Minoring.txt`
-- CHE51-704 Physical Chemistry: Thermodynamics and Kinetics → `Courses.txt`, `Majoring___Minoring.txt`
-- CHE51-404 Inorganic Chemistry & Biological Systems → `Courses.txt`, `Majoring___Minoring.txt`
-- CHE51-514 Quantitative Chemical Analysis → `Courses.txt`
-- CHE51-504 Instrumentation in Environmental & Biological Analysis → `Courses.txt`
-- CHE51-822 Advanced Lab in Organic Chemistry prerequisites → `Courses.txt`
-- CHE51-862 Advanced Lab in Biochemistry (required for Biochemistry B.S.) → `Courses.txt`, `Majoring___Minoring.txt`
-- 800-level advanced laboratory courses — what counts → `Majoring___Minoring.txt`, `Courses.txt`
-- Upper-level elective courses (300–700 level) — which count → `Majoring___Minoring.txt`
-- Courses required to be taken at Southwestern (residency) → `Majoring___Minoring.txt`
-- Supporting course requirements for Chemistry B.A. → `Majoring___Minoring.txt`
-- Supporting course requirements for Chemistry B.S. → `Majoring___Minoring.txt`
-- Supporting course requirements for Biochemistry B.S. → `Majoring___Minoring.txt`
-- Calculus requirements by degree track → `Majoring___Minoring.txt`
-- Biology requirements by degree track → `Majoring___Minoring.txt`
-- Physics requirements by degree track → `Majoring___Minoring.txt`
-- Statistics vs. Calculus II for Biochemistry B.S. → `Majoring___Minoring.txt`
-- Non-major chemistry courses (000-level) → `Courses.txt`
-- CHE51-014, 024, 034 — courses for non-majors → `Courses.txt`
-- Course numbering system explanation → `Majoring___Minoring.txt`
-- Which courses satisfy Paideia Natural Sciences area → `Courses.txt`
-- Which courses satisfy WA (Writing Across the Curriculum) → `Courses.txt`
-- Welch Summer Research Program application → `Welch_Summer_Research_Program.txt`
-- Welch Summer Research Program stipend and duration → `Welch_Summer_Research_Program.txt`
-- Summer research opportunities in chemistry → `Welch_Summer_Research_Program.txt`
-- Student Works Symposium (research poster presentations) → `Welch_Summer_Research_Program.txt`
-- Faculty research specialties → `Our_Faculty.txt`, `Notable_Faculty___Student_Achievements.txt`
-- Department Chair contact information → `Our_Faculty.txt`
-- Director of General Chemistry Labs contact → `Our_Faculty.txt`
-- Director of Organic Chemistry Labs contact → `Our_Faculty.txt`
-- Research instruments available in the department → `Resources_and_Facilities.txt`
-- NMR spectrometer availability → `Resources_and_Facilities.txt`
-- Mass spectrometry (GC-MS) availability → `Resources_and_Facilities.txt`
-- HPLC availability → `Resources_and_Facilities.txt`
-- Student poster presentations at ACS meetings → `Notable_Faculty___Student_Achievements.txt`
-- Goldwater Scholarship (Brian Armijo '25, first SU recipient) → `Notable_Faculty___Student_Achievements.txt`
-- NSF LEAPS-MPS grant (Sara Massey, 2025) → `Notable_Faculty___Student_Achievements.txt`
-- Faculty publications in peer-reviewed journals → `Notable_Faculty___Student_Achievements.txt`
-- ACS SURF fellowship → `Notable_Faculty___Student_Achievements.txt`
-- Career outcomes after chemistry/biochemistry graduation → `Chemistry_and_Biochemistry.txt`
-- Graduate school preparation → `Chemistry_and_Biochemistry.txt`
-- NSF graduate research fellowships for recent graduates → `Chemistry_and_Biochemistry.txt`
-- Alumni donations to department → `After_Southwestern.txt`
-- Alumni contact for updates → `After_Southwestern.txt`
-- GPA requirements (C- minimum per course, 2.0 major GPA) → `Majoring___Minoring.txt`
-- Graduation application process → `SU_General_Policies.txt` (not in department docs)
-- Transfer credit rules → `SU_General_Policies.txt` (not in department docs)
-- Paideia curriculum full requirements → `SU_General_Policies.txt`
-- Academic probation and dismissal → `SU_General_Policies.txt`
-- Pass/D/F grading option policy → `SU_General_Policies.txt`
-- Study abroad credit applicability → `SU_Resources_and_Financial.txt`, `SU_General_Policies.txt`
-- SURF and King Creativity Fund internship funding → `SU_Resources_and_Financial.txt`
-- Financial aid and tuition → `SU_Resources_and_Financial.txt`
-
 ---
 
 ## SECTION 6 — QUERY PATTERN MAP
@@ -1057,10 +936,10 @@
   - **What general docs must cover:** 127-credit minimum, 64-credit SU residency, last 32 in-residence, 2.000 GPA overall, 60% major residency, Application for Diploma process
   - **Routing instruction:** Always retrieve `SU_General_Policies.txt` alongside `Majoring___Minoring.txt` for any graduation eligibility question
 
-- **Topic:** Paideia general education requirements
-  - **What major docs cover:** Course descriptions include Paideia area designations (NS, WA); some courses noted as contributing to Health Studies, Environmental Studies, Neuroscience, Data Analytics
+- **Topic:** General education requirements
+  - **What major docs cover:** Course descriptions include General education area designations (NS, WA); some courses noted as contributing to Health Studies, Environmental Studies, Neuroscience, Data Analytics
   - **What general docs must cover:** Full structure of FYS/AES, Language & Cultures, FRA, Power and Justice, Exploration & Breadth Parts I and II, Paideia with Distinction
-  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about gen-ed or Paideia breadth; retrieve `Courses.txt` to identify which chemistry courses satisfy NS area
+  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about gen-ed or General education breadth; retrieve `Courses.txt` to identify which chemistry courses satisfy NS area
 
 - **Topic:** Pass/D/F grading option
   - **What major docs cover:** CHE51-111 must be taken Pass/D/F; C- minimum required for prerequisites (implies P grade may not satisfy prerequisite)
@@ -1181,7 +1060,7 @@
 - Any question about faculty specialties or research contact: retrieve `Our_Faculty.txt`; if asking about recent accomplishments or publications, also retrieve `Notable_Faculty___Student_Achievements.txt`
 - Any question about graduation eligibility: retrieve `Majoring___Minoring.txt` AND `SU_General_Policies.txt`
 - Any question about transfer credit: retrieve `Majoring___Minoring.txt` AND `SU_General_Policies.txt`
-- Any question about Paideia/gen-ed: retrieve `SU_General_Policies.txt` AND `Courses.txt` (for NS designations)
+- Any question about General Education/gen-ed: retrieve `SU_General_Policies.txt` AND `Courses.txt` (for NS designations)
 - Any question about study abroad: retrieve `SU_Resources_and_Financial.txt`, `SU_General_Policies.txt`, AND `Majoring___Minoring.txt`
 
 **Degree path disambiguation triggers:**
@@ -1209,7 +1088,7 @@
 
 **Always retrieve `SU_General_Policies.txt` alongside major docs when:**
 - Any graduation eligibility or credit count question
-- Any Paideia / general education requirement question
+- Any general education requirement question
 - Any grading policy question (Pass/D/F, grade appeals, incomplete grades)
 - Any academic standing question (probation, dismissal, appeal)
 - Any transfer credit or credit-by-examination question

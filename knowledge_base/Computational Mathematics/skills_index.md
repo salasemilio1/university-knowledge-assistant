@@ -16,11 +16,7 @@ This index covers all available documents for the Computational Mathematics prog
 ## SECTION 2 — DOCUMENT REGISTRY
 
 ### Majoring and Minoring in Mathematics / Computer Science / Computational Mathematics
-- **filename:** `Majoring___Minoring.txt`
-- **document_type:** requirements
 - **degree_relevance:** B.A., B.S.
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Contains the complete degree requirements for all three majors in the MAT/CSC department: Mathematics, Computer Science, and Computational Mathematics (both B.A. and B.S.). For Computational Mathematics specifically, lists all 10 required core courses (CSC54-184, CSC54-284, CSC54-384, CSC54-394, CSC54-454, MAT52-164, MAT52-264, MAT52-364, MAT52-674, MAT52-754), two elective courses chosen from a pool of four (CSC54-414, CSC54-514, MAT52-524, MAT52-574), one additional approved upper-level elective for B.A. (or two for B.S.), and the capstone senior seminar. Details the B.S. supporting science requirement (4 additional courses in Biology, Chemistry, and Physics). Includes critical departmental notes on prerequisite grade minimums (C-), course sequencing restrictions, upper-level course definitions, and Honors credit counting rules. References teacher certification via the Education Department.
 - **critical_data:**
   - B.A. in Computational Mathematics: 14 courses total
@@ -36,7 +32,6 @@ This index covers all available documents for the Computational Mathematics prog
   - Honors credit (MAT52-984 or CSC54-984) counts at most once as an approved upper-level elective
   - B.S. supporting sciences: BIO50-173/171, CHE51-103/101, PHY53-154, plus one of: BIO50-183/181, CHE51-203/201, PHY53-164, or PHY53-404
   - Teacher certification: contact the Education Department
-- **retrieval_triggers:**
   - how many courses do I need for the computational mathematics major
   - what is required for the computational mathematics BA
   - what is required for the computational mathematics BS
@@ -54,12 +49,8 @@ This index covers all available documents for the Computational Mathematics prog
 ---
 
 ### Computer Science Courses
-- **filename:** `Courses.txt`
-- **document_type:** course_info
 - **degree_relevance:** B.A., B.S.
-- **time_sensitive:** false
-- **catalog_year:** N/A
-- **description:** Lists all current or recent Computer Science (CSC54-prefix) course offerings with full descriptions, prerequisites, offering terms, and Paideia designations. Covers CSC54-144 through CSC54-894, including all courses required or eligible for the Computational Mathematics major: CSC54-184 (Computer Science I, Fall/Spring), CSC54-284 (Computer Science II, Spring), CSC54-384 (Discrete Mathematics, Fall), CSC54-394 (Computer Organization, Fall), CSC54-454 (Algorithms, Spring), CSC54-414 (Operations Research), CSC54-514 (Database Management), and CSC54-894 (Senior Seminar in Software Engineering, Spring). Also describes elective and non-major courses: CSC54-144 (Explorations in Computing), CSC54-291 (Puzzling Programs), CSC54-424 (Artificial Intelligence), CSC54-474 (Programming Languages), CSC54-524 (Introduction to Numerical Analysis), CSC54-534 (Functional Programming), CSC54-644 (Computer Systems), CSC54-684 (Theory of Computation), and CSC54-844 (Seminar in Special Topics). Notes which courses contribute to Data Analytics and Data Science, Design Thinking, and Neuroscience Paideia tracks.
+- **description:** Lists all current or recent Computer Science (CSC54-prefix) course offerings with full descriptions, prerequisites, offering terms, and General education designations. Covers CSC54-144 through CSC54-894, including all courses required or eligible for the Computational Mathematics major: CSC54-184 (Computer Science I, Fall/Spring), CSC54-284 (Computer Science II, Spring), CSC54-384 (Discrete Mathematics, Fall), CSC54-394 (Computer Organization, Fall), CSC54-454 (Algorithms, Spring), CSC54-414 (Operations Research), CSC54-514 (Database Management), and CSC54-894 (Senior Seminar in Software Engineering, Spring). Also describes elective and non-major courses: CSC54-144 (Explorations in Computing), CSC54-291 (Puzzling Programs), CSC54-424 (Artificial Intelligence), CSC54-474 (Programming Languages), CSC54-524 (Introduction to Numerical Analysis), CSC54-534 (Functional Programming), CSC54-644 (Computer Systems), CSC54-684 (Theory of Computation), and CSC54-844 (Seminar in Special Topics). Notes which courses contribute to Data Analytics and Data Science, Design Thinking, and Neuroscience General Education tracks.
 - **critical_data:**
   - CSC54-144: Cannot count toward CS major or minor; for non-majors; (NS) designation
   - CSC54-184: Offered Fall and Spring; prerequisite for virtually all CS upper-level courses; (NS)
@@ -72,7 +63,6 @@ This index covers all available documents for the Computational Mathematics prog
   - CSC54-894: Offered Spring only; prerequisite: five CS courses at 300+ level AND permission AND one of CSC54-454, CSC54-514, or CSC54-474 completed; (NS)(WA)
   - CSC54-291: Must be taken Pass/D/F; cannot count toward major or minor; repeatable
   - CSC54-844: Repeatable; seminar on special topics not generally covered elsewhere
-- **retrieval_triggers:**
   - what is computer science I about
   - what is the prerequisite for algorithms
   - when is CSC54-284 offered
@@ -84,17 +74,13 @@ This index covers all available documents for the Computational Mathematics prog
   - what is CSC54-394 computer organization
   - what is artificial intelligence course about
   - what is database management
-  - what paideia credit do CS courses give
+  - what general education credit do CS courses give
   - what is CSC54-684 theory of computation
 
 ---
 
 ### Placement Information
-- **filename:** `Placement_Information.txt`
-- **document_type:** advising
 - **degree_relevance:** B.A., B.S.
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Provides guidance for students entering the CS/Math department with prior programming experience or transfer credits. Explains AP exam credit policies: a score of 4 or 5 on AP Computer Science A earns credit for CSC54-184; a score of 4 or 5 on AP Computer Science Principles earns credit for CSC54-144 only (which does not count toward the major or minor). Advises students with AP CS A coursework but no credit, or with prior programming experience, to contact Dr. Anthony and Dr. Schrum for placement. Details three Texas Community College transfer equivalencies: COSC 1336 transfers as a selected topics course (not major-eligible), COSC 1337 transfers as CSC54-184, and COSC 2336 transfers as CSC54-284. Notes a Java-language caveat for COSC 1337 transfers.
 - **critical_data:**
   - AP CS A (score 4 or 5): credit for CSC54-184 (Computer Science I)
@@ -104,7 +90,6 @@ This index covers all available documents for the Computational Mathematics prog
   - COSC 1337 → CSC54-184; Java caveat applies
   - COSC 2336 → CSC54-284 (Computer Science II)
   - Non-majors: CSC54-144 Explorations in Computing is appropriate
-- **retrieval_triggers:**
   - does my AP computer science credit count
   - I got a 5 on AP CS A what credit do I get
   - I took AP computer science principles will it count for the major
@@ -121,11 +106,7 @@ This index covers all available documents for the Computational Mathematics prog
 ---
 
 ### Computer Science Resources
-- **filename:** `Resources.txt`
-- **document_type:** resources
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Compiles external and campus resources for CS/Math students across five categories. Conferences and meetings include SIGCSE (spring, February/March), Tapia Conference, and Grace Hopper Celebration. Contest and competition resources include ACM-ICPC, FIRST Robotics, and student research competitions. Campus opportunities include the King Creativity Fund (creative project funding for student groups) and SCOPE (summer research program at SU where CS faculty frequently participate). Summer programs list NSF REU sites. Career and internship resources include ACM jobs, IBM Research, Google Internships, RADIANT at Los Alamos, IBM Extreme Blue, and women-in-CS resources. Graduate school resources include guides to PhD programs in CS, links to research groups at Caltech, Columbia, CMU Robotics Institute, UT Austin, Michigan State, UC Berkeley, and University of Colorado Boulder. Professional organizations include ACM, IEEE, AnitaB.org, NCWIT, USENIX, and Computing Research Association.
 - **critical_data:**
   - King Creativity Fund: on-campus creative project funding available to student groups
@@ -135,7 +116,6 @@ This index covers all available documents for the Computational Mathematics prog
   - Key professional orgs: ACM, IEEE, UPE, AnitaB.org, NCWIT
   - Conferences: SIGCSE (Feb/March), Tapia, Grace Hopper
   - Graduate guides: ACM Crossroads PhD guide; "The 4 R's of Graduate School" by Manuel Blum
-- **retrieval_triggers:**
   - how do I find internships in computer science
   - what research opportunities are available for CS students
   - what is SCOPE
@@ -153,11 +133,7 @@ This index covers all available documents for the Computational Mathematics prog
 ---
 
 ### Computer Science Faculty
-- **filename:** `Faculty.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Lists all MAT/CSC department faculty with name, title, specialty, email, phone, and office location. Computer Science faculty: Barbara M. Anthony (Lord Chair, Professor of CS and Department Chair; Approximation Algorithms, Network Design, Operations Research, Graph Theory, Algorithmic Game Theory), Arjun Chandrasekhar (Assistant Professor; Computational Biology, Distributed Algorithms, Graph Theory), and Jacob Schrum (Associate Professor; AI and Computer Games, Evolutionary Computation, Neural Networks, Neuroevolution, Procedural Content Generation). Mathematics faculty: Alison Marr (Garey Chair and Professor; Graph Theory, Graph Labeling, Recreational Mathematics) and Kendall Richards (Professor; Special Functions, Inequalities, Complex Analysis). All faculty are located in the Fondren-Jones building.
 - **critical_data:**
   - Department Chair: Barbara M. Anthony — anthonyb@southwestern.edu — 512.863.1448 — Fondren-Jones 309
@@ -166,7 +142,6 @@ This index covers all available documents for the Computational Mathematics prog
   - Alison Marr (Math) — marra@southwestern.edu — 512.863.1496 — Fondren-Jones 305
   - Kendall Richards (Math) — richards@southwestern.edu — 512.863.1556 — Fondren-Jones 202
   - All faculty in Fondren-Jones building
-- **retrieval_triggers:**
   - who is the CS department chair
   - how do I contact Dr. Anthony
   - how do I contact Dr. Schrum
@@ -180,17 +155,12 @@ This index covers all available documents for the Computational Mathematics prog
 ---
 
 ### For Current Students
-- **filename:** `For_Current_Students.txt`
-- **document_type:** resources
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Brief page for current MAT/CSC students covering extracurricular involvement and departmental awards. Lists student organizations: Upsilon Pi Epsilon (UPE), ACM Chapter, and the ACM Programming Contest team. Points to a computer science resources link for national competitions, careers, graduate schools, internships, organizations, and conferences. Describes two annual departmental awards: the Atkin Memorial Scholarship (awarded to the top junior in mathematics, computer science, or computational mathematics) and the Grogan Lord Award in Computer Science (awarded to the top senior in computer science).
 - **critical_data:**
   - Atkin Memorial Scholarship: awarded annually to top junior in mathematics, computer science, OR computational mathematics
   - Grogan Lord Award in Computer Science: awarded annually to top senior in computer science
   - Student organizations: UPE, ACM Chapter, ACM Programming Contest
-- **retrieval_triggers:**
   - what awards can computational mathematics students win
   - what is the Atkin Memorial Scholarship
   - what is the Grogan Lord Award
@@ -202,11 +172,7 @@ This index covers all available documents for the Computational Mathematics prog
 ---
 
 ### Clubs and Honor Societies
-- **filename:** `Clubs_and_Honor_Societies.txt`
-- **document_type:** resources
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Describes three student organizations affiliated with the MAT/CSC department. The ACM Club is a student chapter of the Association for Computing Machinery meeting in the Chapman-Whitmore student lounge; activities include guest speakers, game nights, a Computing Museum in Mood-Bridwell Hall, and a campus retro game night; members join via the su-acm Google Group through an SU email account. Upsilon Pi Epsilon (UPE) is an international CS honor society founded in 1967; induction requires a minimum number of CS credit hours and minimum overall and major GPA; SU's chapter hosts an annual distinguished speaker and induction ceremony. The ACM Programming Contest team practices weekly for various programming contests; contact Dr. Schrum for information.
 - **critical_data:**
   - ACM Club: open to all; meets in Chapman-Whitmore student lounge; join via su-acm Google Group (SU email required)
@@ -214,7 +180,6 @@ This index covers all available documents for the Computational Mathematics prog
   - ACM Programming Contest: weekly practice; contact Dr. Jacob Schrum (schrum2@southwestern.edu)
   - UPE hosts annual distinguished speaker and induction ceremony
   - Computing Museum located in Mood-Bridwell Hall
-- **retrieval_triggers:**
   - how do I join the ACM club
   - what is UPE
   - how do I get into Upsilon Pi Epsilon
@@ -245,7 +210,7 @@ Source: `SU_General_Policies.txt`
 | Graduation Application | "Application for Diploma" must be filed; financial holds block diploma |
 | Degree Conferral Dates | December, May, August only; Commencement held once per year in May |
 
-### SU Universal Curriculum Requirements (Paideia Framework)
+### SU Universal Curriculum Requirements (General Education)
 
 **Required for ALL degree paths:**
 - First-Year Seminar (FYS) or Advanced-Entry Seminar (AES): 4 credits
@@ -474,7 +439,7 @@ Source: `SU_General_Policies.txt`
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** NOT eligible for CS major or minor
-- **Counts As:** Paideia (NS); contributes to Data Analytics and Data Science; non-major course only
+- **Counts As:** General Education (NS); contributes to Data Analytics and Data Science; non-major course only
 - **Notes:** AP CS Principles (score 4–5) earns credit for this course only; intended for humanities, social science, and fine arts majors
 - **Source:** `Courses.txt`, `Placement_Information.txt`
 
@@ -486,7 +451,7 @@ Source: `SU_General_Policies.txt`
 - **Corequisites:** None
 - **Offered:** Fall and Spring
 - **Required For:** Computational Mathematics B.A. and B.S. (core required)
-- **Counts As:** Required core; Paideia (NS); contributes to Data Analytics and Data Science
+- **Counts As:** Required core; General Education (NS); contributes to Data Analytics and Data Science
 - **Notes:** AP CS A (score 4–5) earns credit for this course; COSC 1337 transfers as this course; cannot be taken out of sequence without departmental approval; taught in Java
 - **Source:** `Courses.txt`, `Majoring___Minoring.txt`, `Placement_Information.txt`
 
@@ -498,7 +463,7 @@ Source: `SU_General_Policies.txt`
 - **Corequisites:** None
 - **Offered:** Spring only
 - **Required For:** Computational Mathematics B.A. and B.S. (core required)
-- **Counts As:** Required core; Paideia (NS); contributes to Design Thinking
+- **Counts As:** Required core; General Education (NS); contributes to Design Thinking
 - **Notes:** Spring only — students who take CSC54-184 in Spring must wait until the following Spring for CSC54-284; COSC 2336 transfers as this course; cannot be taken out of sequence without departmental approval
 - **Source:** `Courses.txt`, `Majoring___Minoring.txt`, `Placement_Information.txt`
 
@@ -510,7 +475,7 @@ Source: `SU_General_Policies.txt`
 - **Corequisites:** None
 - **Offered:** Fall only
 - **Required For:** Computational Mathematics B.A. and B.S. (core required)
-- **Counts As:** Required core; Paideia (NS); also cross-listed as MAT52-384
+- **Counts As:** Required core; General Education (NS); also cross-listed as MAT52-384
 - **Notes:** Three prerequisites required — plan carefully; Fall only; cross-listed with Mathematics
 - **Source:** `Courses.txt`, `Majoring___Minoring.txt`
 
@@ -522,7 +487,7 @@ Source: `SU_General_Policies.txt`
 - **Corequisites:** None
 - **Offered:** Fall only
 - **Required For:** Computational Mathematics B.A. and B.S. (core required)
-- **Counts As:** Required core; Paideia (NS)
+- **Counts As:** Required core; General Education (NS)
 - **Notes:** Prerequisite for CSC54-474 (Programming Languages) and CSC54-644 (Computer Systems); Fall only
 - **Source:** `Courses.txt`, `Majoring___Minoring.txt`
 
@@ -534,7 +499,7 @@ Source: `SU_General_Policies.txt`
 - **Corequisites:** None
 - **Offered:** Spring only
 - **Required For:** Computational Mathematics B.A. and B.S. (core required)
-- **Counts As:** Required core; Paideia (NS); contributes to Design Thinking
+- **Counts As:** Required core; General Education (NS); contributes to Design Thinking
 - **Notes:** Cannot be taken out of sequence without departmental approval; prerequisite for CSC54-894 (one of three qualifying options); Spring only; implemented in C++
 - **Source:** `Courses.txt`, `Majoring___Minoring.txt`
 
@@ -558,7 +523,7 @@ Source: `SU_General_Policies.txt`
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Elective pool for Computational Mathematics B.A. and B.S. (choose 2 of 4)
-- **Counts As:** Elective pool course; Paideia (NS); contributes to Data Analytics and Data Science
+- **Counts As:** Elective pool course; General Education (NS); contributes to Data Analytics and Data Science
 - **Notes:** One of three qualifying courses required for CSC54-894 Senior Seminar admission
 - **Source:** `Courses.txt`, `Majoring___Minoring.txt`
 
@@ -570,7 +535,7 @@ Source: `SU_General_Policies.txt`
 - **Corequisites:** None
 - **Offered:** Spring only
 - **Required For:** Capstone option for Computational Mathematics B.A. and B.S.
-- **Counts As:** Capstone requirement; Paideia (NS)(WA); includes Major Field Test
+- **Counts As:** Capstone requirement; General Education (NS)(WA); includes Major Field Test
 - **Notes:** Requires 5 CS courses at 300+ level before enrollment; must have completed one of CSC54-454, CSC54-514, or CSC54-474; Spring only; students work on a major group semester project
 - **Source:** `Courses.txt`, `Majoring___Minoring.txt`
 
@@ -594,7 +559,7 @@ Source: `SU_General_Policies.txt`
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Approved upper-level elective for Computational Mathematics
-- **Counts As:** Approved upper-level elective; Paideia (NS); contributes to Neuroscience
+- **Counts As:** Approved upper-level elective; General Education (NS); contributes to Neuroscience
 - **Notes:** Topics include deep neural networks and generative AI; strong elective for CS-leaning students
 - **Source:** `Courses.txt`
 
@@ -606,7 +571,7 @@ Source: `SU_General_Policies.txt`
 - **Corequisites:** None
 - **Offered:** Fall
 - **Required For:** Approved upper-level elective for Computational Mathematics
-- **Counts As:** Approved upper-level elective; Paideia (NS); one of three qualifying courses for CSC54-894 admission
+- **Counts As:** Approved upper-level elective; General Education (NS); one of three qualifying courses for CSC54-894 admission
 - **Notes:** Fall only; required to have been completed for CSC54-894 admission (as one of three eligible options)
 - **Source:** `Courses.txt`
 
@@ -618,7 +583,7 @@ Source: `SU_General_Policies.txt`
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Approved upper-level elective for Computational Mathematics
-- **Counts As:** Approved upper-level elective; Paideia (NS)
+- **Counts As:** Approved upper-level elective; General Education (NS)
 - **Notes:** Uses Haskell, Lisp, or ML; programming-intensive with many projects
 - **Source:** `Courses.txt`
 
@@ -630,7 +595,7 @@ Source: `SU_General_Policies.txt`
 - **Corequisites:** None
 - **Offered:** Spring
 - **Required For:** Approved upper-level elective for Computational Mathematics
-- **Counts As:** Approved upper-level elective; Paideia (NS)
+- **Counts As:** Approved upper-level elective; General Education (NS)
 - **Notes:** Covers operating systems and computer networks
 - **Source:** `Courses.txt`
 
@@ -642,7 +607,7 @@ Source: `SU_General_Policies.txt`
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Approved upper-level elective for Computational Mathematics
-- **Counts As:** Approved upper-level elective; Paideia (NS)
+- **Counts As:** Approved upper-level elective; General Education (NS)
 - **Notes:** Includes programming component; covers Turing machines and decidability
 - **Source:** `Courses.txt`
 
@@ -654,7 +619,7 @@ Source: `SU_General_Policies.txt`
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Approved upper-level elective for Computational Mathematics (course number 844 qualifies as 300+ level)
-- **Counts As:** Approved upper-level elective; Paideia (NS); repeatable for credit
+- **Counts As:** Approved upper-level elective; General Education (NS); repeatable for credit
 - **Notes:** Topics vary; limited enrollment; may be repeated for credit
 - **Source:** `Courses.txt`
 
@@ -685,83 +650,6 @@ Source: `SU_General_Policies.txt`
 | PHY53-404 | Electronics | One of four options (fourth science course) |
 
 ---
-
-## SECTION 5 — TOPIC INDEX
-
-- Computational Mathematics program overview and design → `Majoring___Minoring.txt`
-- Computational Mathematics as interdisciplinary Math + CS program → `Majoring___Minoring.txt`
-- B.A. vs. B.S. in Computational Mathematics — differences → `Majoring___Minoring.txt`
-- Total courses required for Computational Mathematics B.A. (14) → `Majoring___Minoring.txt`
-- Total courses required for Computational Mathematics B.S. (15 + 4 science = 19) → `Majoring___Minoring.txt`
-- Required core courses for Computational Mathematics (all 10) → `Majoring___Minoring.txt`
-- Elective pool — CSC54-414, CSC54-514, MAT52-524, MAT52-574 (choose 2) → `Majoring___Minoring.txt`
-- Additional approved upper-level elective — B.A. (1) vs. B.S. (2) → `Majoring___Minoring.txt`
-- Upper-level course definition (300+ level, 3 or 4 credits) → `Majoring___Minoring.txt`
-- PHY53-454 as alternative upper-level elective → `Majoring___Minoring.txt`
-- Capstone requirement — MAT52-894 vs. CSC54-894 → `Majoring___Minoring.txt`, `Courses.txt`
-- MAT52-894 Senior Seminar in Mathematics — Fall, senior year → `Majoring___Minoring.txt`
-- CSC54-894 Senior Seminar in Software Engineering — Spring, senior year, prerequisites → `Majoring___Minoring.txt`, `Courses.txt`
-- Major Field Test requirement — Mathematics or Computer Science → `Majoring___Minoring.txt`, `Courses.txt`
-- B.S. supporting science courses — Biology, Chemistry, Physics → `Majoring___Minoring.txt`
-- BIO50-173/171 required for B.S. → `Majoring___Minoring.txt`
-- CHE51-103/101 required for B.S. → `Majoring___Minoring.txt`
-- PHY53-154 required for B.S. → `Majoring___Minoring.txt`
-- Fourth science course options for B.S. (BIO50-183/181, CHE51-203/201, PHY53-164, PHY53-404) → `Majoring___Minoring.txt`
-- Minimum grade of C- for prerequisites → `Majoring___Minoring.txt`
-- Sequencing restriction on CSC54-184, CSC54-284, CSC54-454 (cannot take out of order without approval) → `Majoring___Minoring.txt`
-- Honors credit (MAT52-984 or CSC54-984) counting at most once as upper-level elective → `Majoring___Minoring.txt`
-- Recommendation to start upper-level courses no later than junior year → `Majoring___Minoring.txt`
-- Teacher certification in Mathematics or Computer Science → `Majoring___Minoring.txt`
-- Department offers minors in Mathematics and Computer Science (no Computational Math minor) → `Majoring___Minoring.txt`
-- MAT52-164 Modern Calculus I — required core, gateway course → `Majoring___Minoring.txt`
-- MAT52-264 Modern Calculus II — required core → `Majoring___Minoring.txt`
-- MAT52-364 Modern Calculus III — required core → `Majoring___Minoring.txt`
-- MAT52-674 Linear Algebra — required core → `Majoring___Minoring.txt`
-- MAT52-754 Differential Equations — required core → `Majoring___Minoring.txt`
-- MAT52-524 Introduction to Numerical Analysis — elective pool option → `Majoring___Minoring.txt`, `Courses.txt`
-- MAT52-574 Probability and Mathematical Statistics — elective pool option → `Majoring___Minoring.txt`
-- CSC54-184 Computer Science I — core required, Fall/Spring, AP credit eligible → `Courses.txt`, `Placement_Information.txt`
-- CSC54-284 Computer Science II — core required, Spring only → `Courses.txt`
-- CSC54-384 Discrete Mathematics — core required, Fall only, three prerequisites → `Courses.txt`
-- CSC54-394 Computer Organization — core required, Fall only → `Courses.txt`
-- CSC54-454 Algorithms — core required, Spring only, C++ → `Courses.txt`
-- CSC54-414 Operations Research — elective pool option, group project required → `Courses.txt`
-- CSC54-514 Database Management — elective pool option → `Courses.txt`
-- CSC54-424 Artificial Intelligence — approved upper-level elective → `Courses.txt`
-- CSC54-474 Programming Languages — approved upper-level elective, Fall, prerequisite for CSC54-894 → `Courses.txt`
-- CSC54-534 Functional Programming — approved upper-level elective → `Courses.txt`
-- CSC54-644 Computer Systems — approved upper-level elective, Spring → `Courses.txt`
-- CSC54-684 Theory of Computation — approved upper-level elective → `Courses.txt`
-- CSC54-844 Seminar in Special Topics — repeatable upper-level elective → `Courses.txt`
-- CSC54-144 Explorations in Computing — does NOT count toward major → `Courses.txt`
-- CSC54-291 Puzzling Programs — does NOT count toward major; Pass/D/F only; repeatable → `Courses.txt`
-- AP Computer Science A credit (score 4–5) → CSC54-184 → `Placement_Information.txt`
-- AP Computer Science Principles credit (score 4–5) → CSC54-144 only (not major-eligible) → `Placement_Information.txt`
-- Community college transfer — COSC 1336, COSC 1337, COSC 2336 → `Placement_Information.txt`
-- Prior programming experience placement guidance → `Placement_Information.txt`
-- Who to contact for CS placement (Dr. Anthony, Dr. Schrum) → `Placement_Information.txt`, `Faculty.txt`
-- Department Chair — Barbara M. Anthony — contact info → `Faculty.txt`
-- Jacob Schrum — contact, placement advisor, ACM Contest → `Faculty.txt`, `Clubs_and_Honor_Societies.txt`
-- Arjun Chandrasekhar — CS faculty contact → `Faculty.txt`
-- Alison Marr — Mathematics faculty contact → `Faculty.txt`
-- Kendall Richards — Mathematics faculty contact → `Faculty.txt`
-- ACM Club — how to join, meeting location, activities → `Clubs_and_Honor_Societies.txt`
-- UPE Upsilon Pi Epsilon — induction requirements, annual speaker → `Clubs_and_Honor_Societies.txt`
-- ACM Programming Contest — weekly practice, contact Dr. Schrum → `Clubs_and_Honor_Societies.txt`
-- Atkin Memorial Scholarship — top junior in math, CS, or computational math → `For_Current_Students.txt`
-- Grogan Lord Award in Computer Science — top senior in CS → `For_Current_Students.txt`
-- King Creativity Fund — creative project funding on campus → `Resources.txt`
-- SCOPE summer research program at SU → `Resources.txt`
-- NSF REU — national summer research programs → `Resources.txt`
-- Career and internship resources (ACM, IBM, Google, RADIANT) → `Resources.txt`
-- Graduate school guidance for CS → `Resources.txt`
-- Professional organizations (ACM, IEEE, AnitaB.org, NCWIT) → `Resources.txt`
-- Conferences for CS students (SIGCSE, Tapia, Grace Hopper) → `Resources.txt`
-- Resources for women in CS → `Resources.txt`
-- Graduation requirements (credits, GPA, residency) → `SU_General_Policies.txt`
-- Paideia general education requirements → `SU_General_Policies.txt`
-- Study abroad credit applicability → `SU_Resources_and_Financial.txt`, `SU_General_Policies.txt`
-- Financial aid and tuition → `SU_Resources_and_Financial.txt`
 
 ---
 
@@ -907,9 +795,9 @@ Source: `SU_General_Policies.txt`
 **Routing Note:** Career and internship resources (ACM, IBM Extreme Blue, Google, RADIANT, IBM Research) are listed in the resources document.
 **Disambiguation Needed:** No
 
-**Q:** Do my computational math courses count toward the Paideia Natural Science requirement?
+**Q:** Do my computational math courses count toward the General Education Natural Science requirement?
 **Docs:** `Courses.txt`, `SU_General_Policies.txt`
-**Routing Note:** Many required CS courses carry (NS) Paideia designation per the courses document; full Paideia Exploration and Breadth structure is in general policies.
+**Routing Note:** Many required CS courses carry (NS) General Education designation per the courses document; full General Education Exploration and Breadth structure is in general policies.
 **Disambiguation Needed:** No
 
 **Q:** Can I study abroad and have those credits count toward the computational math major?
@@ -946,10 +834,9 @@ Source: `SU_General_Policies.txt`
   - **What general docs must cover:** 127-credit minimum, 64-credit SU residency, last 32 in-residence, 2.000 GPA overall, Application for Diploma process, degree conferral dates
   - **Routing instruction:** Always retrieve `SU_General_Policies.txt` alongside `Majoring___Minoring.txt` for any graduation eligibility question
 
-- **Topic:** Paideia general education requirements
-  - **What major docs cover:** Individual course Paideia designations (NS, WA) noted in Courses.txt; no comprehensive Paideia framework coverage in department documents
-  - **What general docs must cover:** Full FYS/AES, Language & Cultures, FRA, Power and Justice, Exploration & Breadth Parts I and II structure; which major courses double-count for Paideia
-  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any Paideia or gen-ed question
+- **Topic:** General education requirements
+  - **What major docs cover:** Individual course General education designations (NS, WA) noted in Courses.txt; no comprehensive General education framework coverage in department documents
+  - **What general docs must cover:** Full FYS/AES, Language & Cultures, FRA, Power and Justice, Exploration & Breadth Parts I and II structure; which major courses double-count for General Education  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any General Education or gen-ed question
 
 - **Topic:** B.S. supporting science courses vs. SU-wide B.S. degree requirements
   - **What major docs cover:** Four specific supporting science courses required for Computational Mathematics B.S. (Bio, Chem, Physics)
@@ -1077,7 +964,7 @@ Source: `SU_General_Policies.txt`
 - Any placement, AP credit, or community college transfer question: retrieve `Placement_Information.txt`; also retrieve `SU_General_Policies.txt` for university-wide transfer rules
 - Any career, internship, or graduate school question: retrieve `Resources.txt`
 - Any club, honor society, or departmental award question: retrieve `Clubs_and_Honor_Societies.txt` and/or `For_Current_Students.txt`
-- Any Paideia or gen-ed requirement question: retrieve `Courses.txt` (for course Paideia designations) + `SU_General_Policies.txt`
+- Any General Education or gen-ed requirement question: retrieve `Courses.txt` (for course General education designations) + `SU_General_Policies.txt`
 - Any capstone question: retrieve both `Majoring___Minoring.txt` AND `Courses.txt` (CSC54-894 has detailed prerequisites)
 
 **Degree path disambiguation triggers:**
@@ -1104,7 +991,7 @@ Source: `SU_General_Policies.txt`
 
 **Always retrieve `SU_General_Policies.txt` alongside major docs when:**
 - Any graduation eligibility or credit count question
-- Any Paideia / general education requirement question
+- Any general education requirement question
 - Any grading policy question (Pass/D/F, grade appeals, incomplete grades)
 - Any academic standing question (probation, dismissal, appeal)
 - Any transfer credit or credit-by-examination question

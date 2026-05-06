@@ -10,11 +10,7 @@
 ## Section 2 — Document Registry
 
 ### Education Department Overview
-- **filename:** `Education.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Provides a high-level overview of the Education Department's philosophy and degree offerings. Describes two majors: B.A. in Education and B.S. in Education (B.S.Ed.), the latter being required for Texas Teaching Certificate. Explains that certification is awarded by the State of Texas, not the university. Outlines certification tracks: Elementary (EC–6, with mandatory dual certification in core and special education), Middle School (grades 4–8 with required content area), Secondary, and All-Level. Notes that Music Education students must major in Music Education rather than Education. States that the B.S.Ed. may require an extra semester and that the field-based fall semester begins before the Southwestern academic calendar. The student teaching capstone is the culminating requirement for all Education majors.
 - **critical_data:**
   - Two degree types: B.A. in Education and B.S. in Education (B.S.Ed.)
@@ -26,28 +22,11 @@
   - Field-based fall semester starts before Southwestern classes begin
   - Student teaching is the capstone for the B.S.Ed.
   - After graduation, S.O.S. (Semester of Support) program provides first-year assistance
-- **retrieval_triggers:**
-  - "what majors does education offer"
-  - "do I need a BSEd to teach in Texas"
-  - "what's the difference between BA and BSEd"
-  - "how do I get a Texas teaching certificate"
-  - "what is EC-6 certification"
-  - "does EC-6 include special education"
-  - "do I need a content area for 4-8"
-  - "can I major in Education and Music"
-  - "when does the field-based semester start"
-  - "what is student teaching"
-  - "what happens after I graduate"
-  - "does SU offer education degrees"
 
 ---
 
 ### Major Requirements: Majoring and Minoring in Education
-- **filename:** `Majoring___Minoring.txt`
-- **document_type:** requirements
 - **degree_relevance:** B.S.Ed., Minor
-- **time_sensitive:** true
-- **catalog_year:** Current (exact year not stated in document)
 - **description:** The definitive source for all specific credit hour and course number requirements across every Education certification track and minor. Lists the 27 common major hours required for all Education majors (Education 40-493, 553, 593, 813; Education 43-403, 443; Psychology 33-103, 223, 333). Then specifies additional requirements for EC–6 (54–58 additional hours), Grades 4–8 general (45–48 hours), and individual Grades 4–8 content area tracks (Math, Science, Math/Science, Language Arts, Social Studies). Lists the 15-hour Professional Development core for all secondary/all-level certifications (Education 41-703, 753, 806; Education 45-763), and all secondary and all-level certification areas including their specific additional course requirements. Defines the Minor in Education (18 hours) and the Minor in Generic Special Education (18 hours). Includes requirements for Composite Science Major and Composite Social Studies Major for secondary certification.
 - **critical_data:**
   - Common major core: 27 hours — Education 40-493, 553, 593, 813; Education 43-403, 443; Psychology 33-103, 223, 333
@@ -66,30 +45,11 @@
   - Generic Special Education (EC–12): Education 43-403, 413, 423, 433, 443, 453, 463, 473; capstone Education 41-803 and 42-803
   - Minor in Education: 18 hours — Education 40-333, 493, 553, 593; Education 43-403; one elective from approved list
   - Minor in Generic Special Education: 18 hours — Education 43-403, 413, 423, 433, 453; 463 or 473; does NOT meet state teacher certification requirements
-- **retrieval_triggers:**
-  - "what courses are required for EC-6"
-  - "how many credits for Education major"
-  - "what is the common core for all Education majors"
-  - "what Psychology courses do I need"
-  - "what are the 4-8 math content requirements"
-  - "what history course do I need if I didn't go to high school in Texas"
-  - "what is required for secondary certification"
-  - "how many content hours for secondary"
-  - "what are the requirements for a minor in Education"
-  - "does the special education minor lead to certification"
-  - "what courses does the Composite Social Studies major need"
-  - "what extra course does English certification require"
-  - "what is the capstone for EC-6"
-  - "is Education 43-403 required for both the major and the minor"
 
 ---
 
 ### Teacher Certification Overview
-- **filename:** `Teacher_Certification.txt`
-- **document_type:** policy
 - **degree_relevance:** B.S.Ed.
-- **time_sensitive:** true
-- **catalog_year:** Current
 - **description:** Describes the teacher certification framework at Southwestern as governed by the State Board for Educator Certification. States that any change in state standards supersedes the university's published requirements. Lists all available certification programs: Elementary/Primary (EC–6, with mandatory dual certification in self-contained and special education), Middle School (grades 4–8), Secondary (grades 7–12), and All-Level. For secondary/all-level, states 28 credit hours of subject-field study are required (note: Majoring___Minoring.txt states 24 hours — students should confirm with advisor). Notes that many secondary students pursue a double major or second degree in their content area. States that applications for certification are due at the end of the Spring Semester of the Sophomore year.
 - **critical_data:**
   - Certification standards set by the State Board for Educator Certification; state law supersedes SU policy
@@ -100,81 +60,40 @@
   - Music Education: separate major, not Education
   - Certification application deadline: end of Spring Semester, Sophomore year
   - Completion of degree with teacher certification may require additional time
-- **retrieval_triggers:**
-  - "when do I apply for teacher certification"
-  - "certification application deadline"
-  - "what is the deadline to apply for the certification program"
-  - "how many content hours for secondary certification"
-  - "what does all-level certification mean"
-  - "are certification requirements set by the state or the university"
-  - "what if state certification rules change"
-  - "what grades does secondary certification cover"
-  - "can I get a second major for my content area"
-  - "when do I need to declare certification intent"
 
 ---
 
 ### Student Teaching
-- **filename:** `Student_Teaching.txt`
-- **document_type:** requirements
 - **degree_relevance:** B.S.Ed.
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Describes the student teaching requirement, which is a 70-day, full-time experience in public schools and serves as the capstone for the B.S.Ed. degree. Permission for student teaching requires completion of all other degree requirements. Students denied admission to student teaching may appeal by contacting the Chair of the Education Department. No additional detail on placement sites, grading, or timing beyond these points.
 - **critical_data:**
   - Student teaching: 70-day, full-time placement in public schools
   - Serves as B.S.Ed. capstone
   - Must complete all other degree requirements before admission to student teaching
   - Appeals for denial of admission: contact Chair of Education Department
-- **retrieval_triggers:**
-  - "how long is student teaching"
-  - "when do I do student teaching"
-  - "what do I need to start student teaching"
-  - "what if I'm denied student teaching"
-  - "who do I contact to appeal student teaching denial"
-  - "is student teaching full time"
-  - "does student teaching count as the capstone"
-  - "can I take other courses during student teaching"
 
 ---
 
 ### After Southwestern
-- **filename:** `After_Southwestern.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Describes two post-graduation resources for Education alumni. The S.O.S. (Semester of Support) program provides support during the first year of teaching: graduates return to campus to exchange ideas, receive technical assistance from department faculty, engage in Teacher Certification Program evaluation, and receive on-site technical support during their first year. The Career Placement section notes that SU Education graduates have widespread success finding teaching positions in preferred locations, and that multiple alumni have been named "Teacher of the Year" in their first or second year.
 - **critical_data:**
   - S.O.S. (Semester of Support): first-year teacher support program
   - S.O.S. includes on-campus return, faculty technical assistance, program evaluation, and on-site support
   - Alumni career placement success noted; multiple "Teacher of the Year" winners in first or second year
-- **retrieval_triggers:**
-  - "what support is there after I graduate"
-  - "what is the SOS program"
-  - "Semester of Support"
-  - "do graduates come back to campus"
-  - "what is first year teacher support"
-  - "how hard is it to find a teaching job after SU"
-  - "do SU education graduates get Teacher of the Year"
-  - "does the department help with first-year teaching"
 
 ---
 
 ### Courses in Education
-- **filename:** `Courses.txt`
-- **document_type:** course_info
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** Current
-- **description:** Lists all current or recent course offerings in the Education department with full descriptions, prerequisites, offering schedules, and Paideia area tags. Department prefix is Education 40- (general), 43- (Special Education), 44- (All-Level), 45- (Secondary). Courses span from introductory survey (40-114 Educational Technology, 40-144 Survey of Exceptionalities) through field-based methods blocks (40-714, 40-734, 40-744, 40-764) to student teaching (40-804, 40-808, 40-824, 40-828, 40-844). All courses satisfy Social Sciences (ScS) Paideia area. Several require admission to the Teacher Certification Program as a prerequisite. Field-based fall courses begin on the Georgetown ISD calendar, before Southwestern classes start. Student teaching courses must be taken Pass/D/F. One non-Education course is included: 02-201 Fostering Collaborative Opportunities in the Natural Sciences (Natural Sciences Division seminar).
+- **description:** Lists all current or recent course offerings in the Education department with full descriptions, prerequisites, offering schedules, and General education area tags. Department prefix is Education 40- (general), 43- (Special Education), 44- (All-Level), 45- (Secondary). Courses span from introductory survey (40-114 Educational Technology, 40-144 Survey of Exceptionalities) through field-based methods blocks (40-714, 40-734, 40-744, 40-764) to student teaching (40-804, 40-808, 40-824, 40-828, 40-844). All courses satisfy Social Sciences (ScS) General education area. Several require admission to the Teacher Certification Program as a prerequisite. Field-based fall courses begin on the Georgetown ISD calendar, before Southwestern classes start. Student teaching courses must be taken Pass/D/F. One non-Education course is included: 02-201 Fostering Collaborative Opportunities in the Natural Sciences (Natural Sciences Division seminar).
 - **critical_data:**
-  - All Education courses count as Social Sciences (ScS) for Paideia breadth
+  - All Education courses count as Social Sciences (ScS) for General education breadth
   - 40-114 Educational Technology: (ScS), FALL; no prereq stated beyond "permission for non-certifying students"
   - 40-124 Foundations & Curriculum: (ScS)(WA), SPRING; also Contributes to Race and Ethnicity Studies
   - 40-144 Survey of Exceptionalities: (ScS), SPRING; 15 hours field experience required
   - 40-204 Innovative Schools: (ScS), FALL ODD years only
-  - 40-234 Schools, Society and Diversity: (ScS)(SJ)(PJ), FALL and SPRING; satisfies Power and Justice Paideia requirement
+  - 40-234 Schools, Society and Diversity: (ScS)(SJ)(PJ), FALL and SPRING; satisfies Power and Justice General education requirement
   - 40-264 Teaching Culturally/Linguistically Diverse Learners: (ScS), FALL EVEN years only; prereq sophomore standing
   - 40-274 Multicultural Children's Literature: (ScS), FALL
   - 40-294 Child & Curriculum Early Childhood Ed: SPRING ODD years only
@@ -199,31 +118,11 @@
   - 40-824 / 40-828 Student Teaching Secondary: Pass/D/F; concurrent with 40-814; prereq senior standing + all coursework + admittance
   - 40-844 Student Teaching Generic Special Education: Pass/D/F; concurrent with 40-814; prereq senior standing + all coursework + admittance
   - 40-964 Senior Seminar: fulfills capstone for B.A. in Education
-- **retrieval_triggers:**
-  - "what is Education 40-114"
-  - "when is Foundations and Curriculum offered"
-  - "what does 40-234 satisfy in Paideia"
-  - "does any Education course satisfy Power and Justice"
-  - "what are the prereqs for the field-based block"
-  - "when does the field-based semester start"
-  - "what courses do I take with student teaching"
-  - "is 40-700 required"
-  - "what is Reading Methods"
-  - "when is Multicultural Children's Literature offered"
-  - "are Education courses offered every year"
-  - "what is the capstone for the BA"
-  - "do I need to be admitted to Teacher Cert before methods courses"
-  - "is 40-144 a prereq for anything"
-  - "what courses are offered only in odd or even years"
 
 ---
 
 ### Faculty Profile: Alicia Moore
-- **filename:** `Alicia_Moore.txt`
-- **document_type:** resources
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Full faculty profile for Professor of Education Alicia Moore (also listed as Cargill Endowed Professor). Moore has 33 years of higher education experience and holds a PhD (UT Austin, 1997), MEd (UT Austin, 1990), and BSEd (Huston-Tillotson, 1988). She teaches early childhood, special education, general education, and Diversity in Schools and Society, and supervises field-based and student teachers in Georgetown and surrounding areas. Research focuses on culturally responsive teaching, African American education in predominantly white institutions, and preservice teacher perceptions. Has received multiple honors including the 2020–2021 Tenured Faculty Teaching Award and the Cargill Endowed Professorship. Active in national organizations including NAEYC, ASALH, and NAME.
 - **critical_data:**
   - Title: Professor of Education (also Cargill Endowed Professor)
@@ -232,22 +131,11 @@
   - PhD: UT Austin, 1997; MEd: UT Austin, 1990; BSEd: Huston-Tillotson, 1988
   - Awards: 2020–2021 Tenured Faculty Teaching Award, Cargill Endowed Professorship, Unity in Action Diversity Award
   - Federal appointment: Army Command and General Staff College Board of Visitors
-- **retrieval_triggers:**
-  - "who is Alicia Moore"
-  - "who teaches early childhood at SU"
-  - "who supervises student teachers"
-  - "who is the Education professor who studies culturally responsive teaching"
-  - "what does Professor Moore research"
-  - "who has the Cargill Endowed Professorship"
 
 ---
 
 ### Faculty Profile: Michael Kamen
-- **filename:** `Michael_Kamen.txt`
-- **document_type:** resources
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Faculty profile for Professor of Education Michael Kamen. Kamen holds a PhD in Science Education (UT Austin, 1991), MS in Education Supervision and Administration (Bank Street College, 1984), and BA in Elementary Education with Early Childhood specialization (SUNY Stony Brook, 1977). His profile page is brief but supplemented heavily by the Notable Faculty & Student Achievements document. Office: Mood-Bridwell 224; phone: 512.863.1948; email: kamenm@southwestern.edu.
 - **critical_data:**
   - Title: Professor of Education
@@ -255,20 +143,11 @@
   - MS: Bank Street College of Education, Supervision and Administration, 1984
   - BA: SUNY Stony Brook, Elementary Education/Early Childhood, 1977
   - Office: Mood-Bridwell 224; 512.863.1948; kamenm@southwestern.edu
-- **retrieval_triggers:**
-  - "who is Michael Kamen"
-  - "who teaches science methods"
-  - "who is the TASP president at SU"
-  - "how do I contact Professor Kamen"
 
 ---
 
 ### Faculty Profile: Raquel Sáenz Ortiz
-- **filename:** `Raquel_Sáenz_Ortiz.txt`
-- **document_type:** resources
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Faculty profile for Assistant Professor of Education Raquel Sáenz Ortiz. Originally from New Mexico, Sáenz Ortiz began her career as a 6th-grade Social Studies teacher in South Texas. She has taught in a dual language elementary school in Nicaragua and an alternative high school in Boston, where she engaged in Ethnic Studies curriculum design for Boston Public Schools. At Southwestern, she teaches Foundations and Curriculum of American Schools and most methods courses for pre-service secondary teachers. She is also Director of Field Based Placements for pre-service secondary teachers. Holds a PhD in Curriculum and Instruction (Boston College), MA in Historic Interdisciplinary Studies (Universidad de Guanajuato, México), and BA in Anthropology (Colorado College).
 - **critical_data:**
   - Title: Assistant Professor of Education
@@ -277,22 +156,11 @@
   - PhD: Boston College, Curriculum and Instruction
   - MA: Universidad de Guanajuato, Historic Interdisciplinary Studies
   - BA: Colorado College, Anthropology
-- **retrieval_triggers:**
-  - "who is Raquel Sáenz Ortiz"
-  - "who teaches secondary methods"
-  - "who is Director of Field Based Placements"
-  - "who teaches Foundations and Curriculum"
-  - "who coordinates secondary field placements"
-  - "who researches ethnic studies in Education"
 
 ---
 
 ### Notable Faculty and Student Achievements
-- **filename:** `Notable_Faculty___Student_Achievements.txt`
-- **document_type:** resources
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** 2020–2026
 - **description:** A chronological log of faculty publications, presentations, awards, and student achievements from 2020 through March 2026. Key faculty featured: Michael Kamen (TASP president, ICRSME quarterly column, CAST science teaching presentations with students), Alicia Moore (FOC CONNECT grant, Army CGSC Board of Visitors, AAC&U presentations), Raquel Sáenz Ortiz (Ethnic Studies censorship legislation research, international migration conferences), and Marilyn Nicol (literacy education publications, "Ms. Behaving in Literacy" podcast). Student achievements include Leora Ammerman '24 earning a Fulbright ETA fellowship in Spain, and Sydney Jackson '27 receiving the ICRSME Student Travel Award. Multiple instances of undergraduate students presenting at national and international academic conferences alongside faculty.
 - **critical_data:**
   - Professor Kamen is president of The Association for the Study of Play (TASP) and organized their 52nd annual conference at SU (2026)
@@ -303,17 +171,6 @@
   - Student Sydney Jackson '27: ICRSME Student Travel Award (2025)
   - Students regularly present at CAST (Conference for Advancement of Science Teaching) with Dr. Kamen
   - Faculty-Student Projects (FSP) are an active part of department research culture
-- **retrieval_triggers:**
-  - "what have Education students accomplished"
-  - "can undergraduates do research in Education"
-  - "have any Education students won Fulbright"
-  - "who is Marilyn Nicol"
-  - "what is the Education Department known for"
-  - "do students present at conferences"
-  - "what does the Education faculty research"
-  - "recent faculty awards Education"
-  - "what is TASP"
-  - "what is FOC CONNECT"
 
 ---
 
@@ -332,7 +189,7 @@
 | Graduation Application | "Application for Diploma" must be filed; financial holds block diploma |
 | Degree Conferral Dates | December, May, August only; Commencement held once per year in May |
 
-### SU Universal Curriculum Requirements (Paideia Framework)
+### SU Universal Curriculum Requirements (General Education)
 
 **Required for ALL degree paths:**
 - First-Year Seminar (FYS) or Advanced-Entry Seminar (AES): 4 credits
@@ -343,7 +200,7 @@
   - Part I: one course each from Fine Arts (FA), Humanities (H), Natural Sciences (NS), Social Sciences (ScS)
   - Part II: one additional course from two of the four areas
 
-**Note for Education students:** Education 40-234 (Schools, Society and Diversity) satisfies the Power and Justice (PJ) Paideia requirement. All Education courses carry the (ScS) Social Sciences Paideia tag.
+**Note for Education students:** Education 40-234 (Schools, Society and Diversity) satisfies the Power and Justice General Education (PJ) tag.
 
 ---
 
@@ -481,7 +338,7 @@ Does not meet state teacher certification requirements on its own.
 - **Corequisites:** None
 - **Offered:** Fall
 - **Required For:** EC–6 track (as part of field-based prerequisites); referenced in multiple methods course prereqs
-- **Counts As:** Social Sciences (ScS) Paideia breadth
+- **Counts As:** Social Sciences (ScS) General education breadth
 - **Notes:** Students complete Google Educator Training, design web pages and e-portfolios; requires school observations
 - **Source:** `Courses.txt`
 
@@ -521,8 +378,8 @@ Does not meet state teacher certification requirements on its own.
 - **Corequisites:** None
 - **Offered:** Fall and Spring
 - **Required For:** Common major core (Education 40-593 area; confirm with advisor)
-- **Counts As:** Social Sciences (ScS), Social Justice (SJ), **Power and Justice (PJ)** — satisfies Paideia PJ requirement
-- **Notes:** One of few courses across the university satisfying the Power and Justice Paideia requirement; contributes to Race and Ethnicity Studies (Group-Themed)
+- **Counts As:** Social Sciences (ScS), Social Justice (SJ), **Power and Justice (PJ)** — satisfies General Education PJ requirement
+- **Notes:** One of few courses across the university satisfying the Power and Justice General education requirement; contributes to Race and Ethnicity Studies (Group-Themed)
 - **Source:** `Courses.txt`
 
 ### Education 40-264 — Teaching Culturally and Linguistically Diverse Learners
@@ -884,106 +741,6 @@ Does not meet state teacher certification requirements on its own.
 
 ---
 
-## Section 5 — Topic Index
-
-- B.A. in Education overview → `Education.txt`, `Majoring___Minoring.txt`
-- B.S.Ed. overview → `Education.txt`, `Majoring___Minoring.txt`, `Teacher_Certification.txt`
-- BA vs BSEd differences → `Education.txt`, `Majoring___Minoring.txt`
-- B.A. capstone (Senior Seminar, Education 40-964) → `Courses.txt`
-- B.S.Ed. capstone (student teaching) → `Student_Teaching.txt`, `Courses.txt`
-- Common major core (27 hours) → `Majoring___Minoring.txt`
-- Education 40-493 (required for all majors and minor) → `Majoring___Minoring.txt`
-- Education 40-553 (required for all majors and minor) → `Majoring___Minoring.txt`
-- Education 40-593 (required for all majors and minor) → `Majoring___Minoring.txt`
-- Education 40-813 (required for all majors) → `Majoring___Minoring.txt`
-- Education 43-403 (required for all majors, both minors) → `Majoring___Minoring.txt`
-- Education 43-443 (required for all majors) → `Majoring___Minoring.txt`
-- Psychology courses required (33-103, 223, 333) → `Majoring___Minoring.txt`
-- EC–6 certification requirements → `Majoring___Minoring.txt`, `Teacher_Certification.txt`
-- EC–6 dual certification in special education → `Education.txt`, `Teacher_Certification.txt`
-- Grades 4–8 certification requirements → `Majoring___Minoring.txt`, `Teacher_Certification.txt`
-- Grades 4–8 content area selection → `Education.txt`, `Majoring___Minoring.txt`, `Teacher_Certification.txt`
-- Grades 4–8 Mathematics content requirements → `Majoring___Minoring.txt`
-- Grades 4–8 Science content requirements → `Majoring___Minoring.txt`
-- Grades 4–8 Math/Science combination requirements → `Majoring___Minoring.txt`
-- Grades 4–8 Language Arts content requirements → `Majoring___Minoring.txt`
-- Grades 4–8 Social Studies content requirements → `Majoring___Minoring.txt`
-- Secondary certification professional development core → `Majoring___Minoring.txt`
-- Secondary academic specialization (24 content hours) → `Majoring___Minoring.txt`, `Teacher_Certification.txt`
-- All-level certification → `Majoring___Minoring.txt`, `Teacher_Certification.txt`
-- Secondary certification areas (Communications, CS, English, French, History, Latin, Life Science, Math, PE, Physical Science, Theatre) → `Majoring___Minoring.txt`
-- All-level certification areas (Art, Generic Special Education, Health, Music, PE, Spanish) → `Majoring___Minoring.txt`
-- Generic Special Education (EC–12) requirements → `Majoring___Minoring.txt`
-- Generic Special Education and "Highly Qualified" under No Child Left Behind → `Majoring___Minoring.txt`
-- Music Education certification (separate major) → `Education.txt`, `Teacher_Certification.txt`
-- Minor in Education (18 hours) → `Majoring___Minoring.txt`
-- Minor in Generic Special Education (18 hours; no state certification) → `Majoring___Minoring.txt`
-- Teacher certification application deadline (end of Sophomore Spring) → `Teacher_Certification.txt`
-- Admission to Teacher Certification Program → `Teacher_Certification.txt`, `Courses.txt`
-- State Board for Educator Certification standards → `Teacher_Certification.txt`
-- State law superseding university requirements → `Teacher_Certification.txt`
-- Student teaching length (70 days, full-time) → `Student_Teaching.txt`
-- Student teaching prerequisites → `Student_Teaching.txt`, `Courses.txt`
-- Student teaching denial and appeal → `Student_Teaching.txt`
-- Education 40-804/808 (Student Teaching Elem/Middle) → `Courses.txt`
-- Education 40-824/828 (Student Teaching Secondary) → `Courses.txt`
-- Education 40-844 (Student Teaching Generic Special Ed) → `Courses.txt`
-- Education 40-814 (Classroom Organization and Management; concurrent with student teaching) → `Courses.txt`
-- Field-based block (fall semester) schedule and start date → `Education.txt`, `Courses.txt`
-- Georgetown ISD calendar and field-based start → `Courses.txt`
-- Education 40-700 (Teaching for Social Justice Lab; Pass/D/F) → `Courses.txt`
-- Education 40-714 (Instructional Strategies; field-based) → `Courses.txt`
-- Education 40-734 (Reading Methods II; field-based) → `Courses.txt`
-- Education 40-744 (Positive Behavior Support; field-based) → `Courses.txt`
-- Education 40-764 (The Secondary Teacher; field-based) → `Courses.txt`
-- Education 40-114 (Educational Technology) → `Courses.txt`
-- Education 40-124 (Foundations & Curriculum; Spring; WA; Race & Ethnicity Studies) → `Courses.txt`
-- Education 40-144 (Survey of Exceptionalities; 15 hours field) → `Courses.txt`
-- Education 40-204 (Innovative Schools; Fall odd years only) → `Courses.txt`
-- Education 40-234 (Schools, Society and Diversity; satisfies PJ Paideia) → `Courses.txt`
-- Education 40-264 (Teaching CLD Learners; Fall even years only; prereq sophomore standing) → `Courses.txt`
-- Education 40-274 (Multicultural Children's Literature) → `Courses.txt`
-- Education 40-344 (Life Skills & Transition; Fall odd years only; prereq 40-144) → `Courses.txt`
-- Education 40-444 (Differentiated Instruction; prereq 40-144; field placement) → `Courses.txt`
-- Education 40-504 (Teaching Social Studies; prereq admission + 60 credits) → `Courses.txt`
-- Education 40-514 (Teaching Science; prereq admission + 40-114 + 60 credits) → `Courses.txt`
-- Education 40-524 (Teaching Math; prereq 40-114 + admission + 3 credits math) → `Courses.txt`
-- Education 40-534 (Reading Methods I; prereq admission + 40-504 + 40-514) → `Courses.txt`
-- Education 40-564 (Integrating Language Arts; prereq admission; WA) → `Courses.txt`
-- Education 40-664 (Literacy in Content Area; prereq admission; Fall) → `Courses.txt`
-- Education 40-674 (Teaching Praxis; prereq admission; Spring) → `Courses.txt`
-- Power and Justice Paideia requirement satisfied by Education → `Courses.txt` (Education 40-234)
-- Social Sciences (ScS) Paideia tag on all Education courses → `Courses.txt`
-- Courses with irregular offering schedules (odd/even years) → `Courses.txt`
-- History 16-753 requirement for non-Texas high school students → `Majoring___Minoring.txt`
-- Mathematics 52-103 requirement (satisfies University math requirement) → `Majoring___Minoring.txt`
-- Physics requirements in EC–6 and 4–8 tracks → `Majoring___Minoring.txt`
-- Biology course requirement in multiple tracks → `Majoring___Minoring.txt`
-- Composite Science Major requirements (secondary) → `Majoring___Minoring.txt`
-- Composite Social Studies Major requirements (secondary) → `Majoring___Minoring.txt`
-- B.S.Ed. extra semester warning → `Education.txt`
-- S.O.S. (Semester of Support) first-year program → `After_Southwestern.txt`
-- Career placement for Education graduates → `After_Southwestern.txt`
-- Faculty: Alicia Moore (early childhood, diversity, special ed supervision) → `Alicia_Moore.txt`
-- Faculty: Michael Kamen (science methods, play-based learning, TASP president) → `Michael_Kamen.txt`, `Notable_Faculty___Student_Achievements.txt`
-- Faculty: Raquel Sáenz Ortiz (secondary methods, field placements, Ethnic Studies) → `Raquel_Sáenz_Ortiz.txt`
-- Faculty: Marilyn Nicol (literacy, interactive writing, early childhood) → `Notable_Faculty___Student_Achievements.txt`
-- Student research and conference presentation opportunities → `Notable_Faculty___Student_Achievements.txt`
-- Fulbright fellowship (Leora Ammerman '24, ETA Spain) → `Notable_Faculty___Student_Achievements.txt`
-- Faculty-Student Projects (FSP) in Education → `Notable_Faculty___Student_Achievements.txt`
-- King Creativity Fund for student research → `Notable_Faculty___Student_Achievements.txt`
-- Graduation application and diploma process → `SU_General_Policies.txt`
-- GPA requirements (overall 2.000, major 2.000) → `SU_General_Policies.txt`
-- Academic probation and dismissal → `SU_General_Policies.txt`
-- Transfer credit evaluation → `SU_General_Policies.txt`
-- Paideia general education framework → `SU_General_Policies.txt`
-- Pass/D/F grading option → `SU_General_Policies.txt`, `Courses.txt` (student teaching courses are Pass/D/F)
-- Study abroad credit applicability → `SU_Resources_and_Financial.txt`, `SU_General_Policies.txt`
-- Financial aid and tuition → `SU_Resources_and_Financial.txt`
-- SURF and funded research opportunities → `SU_Resources_and_Financial.txt`
-
----
-
 ## Section 6 — Query Pattern Map
 
 **Q:** What's the difference between the BA and the BSEd in Education?
@@ -1033,7 +790,7 @@ Does not meet state teacher certification requirements on its own.
 
 **Q:** Does any Education course satisfy the Power and Justice requirement?
 **Docs:** `Courses.txt`
-**Routing Note:** Education 40-234 (Schools, Society and Diversity) satisfies the PJ Paideia requirement.
+**Routing Note:** Education 40-234 (Schools, Society and Diversity) satisfies the PJ General education requirement.
 **Disambiguation Needed:** No
 
 **Q:** What is the field-based semester and when does it start?
@@ -1111,9 +868,9 @@ Does not meet state teacher certification requirements on its own.
 **Routing Note:** Multiple examples of undergraduate students co-presenting at national and international conferences and earning student travel awards through FSP research.
 **Disambiguation Needed:** No
 
-**Q:** What is Education 40-234 and does it count for anything special in Paideia?
+**Q:** What is Education 40-234 and does it count for anything special in General Education?
 **Docs:** `Courses.txt`
-**Routing Note:** Education 40-234 satisfies Social Sciences (ScS), Social Justice (SJ), and Power and Justice (PJ) Paideia requirements.
+**Routing Note:** Education 40-234 satisfies Social Sciences (ScS), Social Justice (SJ), and Power and Justice (PJ) General education requirements.
 **Disambiguation Needed:** No
 
 **Q:** I want to become an Art teacher — what do I need for all-level Art certification?
@@ -1170,11 +927,10 @@ Does not meet state teacher certification requirements on its own.
   - **What general docs must cover:** 127-credit minimum, 64-credit SU residency, last 32 in-residence, 2.000 GPA, 60% major residency, Application for Diploma process
   - **Routing instruction:** Always retrieve `SU_General_Policies.txt` alongside major requirements docs for any graduation eligibility question
 
-- **Topic:** Paideia general education requirements
-  - **What major docs cover:** Which Education courses satisfy Paideia tags (all Education courses = ScS; Education 40-234 = PJ)
+- **Topic:** General education requirements
+  - **What major docs cover:** Which Education courses satisfy General education tags (all Education courses = ScS; Education 40-234 = PJ)
   - **What general docs must cover:** Full structure of FYS/AES, Language & Cultures, FRA, Power and Justice, Exploration & Breadth Parts I and II, Paideia with Distinction
-  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about gen-ed, breadth requirements, or Paideia
-
+  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about gen-ed, breadth requirements, or General Education 
 - **Topic:** Pass/D/F grading option
   - **What major docs cover:** Student teaching courses (40-804, 808, 824, 828, 844) and Education 40-700 must be taken Pass/D/F
   - **What general docs must cover:** Full Pass/D/F election policy, deadlines, GPA impact
@@ -1253,7 +1009,7 @@ Does not meet state teacher certification requirements on its own.
   - **Reason for gap:** These course numbers appear in the minor elective list but are not described in Courses.txt
   - **Recommended fallback:** Direct student to official course catalog
 
-- **Topic:** Whether Education courses count toward specific Paideia Exploration & Breadth areas beyond ScS and PJ
+- **Topic:** Whether Education courses count toward specific general education Exploration & Breadth areas beyond ScS and PJ
   - **Reason for gap:** Documents confirm (ScS) and (PJ) tags but do not clarify Fine Arts, Humanities, or Natural Sciences applicability
   - **Recommended fallback:** Retrieve `SU_General_Policies.txt`; advise student to consult registrar
 
@@ -1298,7 +1054,7 @@ Does not meet state teacher certification requirements on its own.
 - Student teaching duration, prerequisites, or appeals → `Student_Teaching.txt`
 - S.O.S. program and post-graduation support → `After_Southwestern.txt`
 - Certification application deadline → `Teacher_Certification.txt`
-- Education 40-234 and Power and Justice Paideia → `Courses.txt`
+- Education 40-234 and Power and Justice General Education → `Courses.txt`
 - Irregular course offering schedules → `Courses.txt`
 - Faculty contact information (Kamen) → `Michael_Kamen.txt`
 - Secondary methods instructor and field placement director → `Raquel_Sáenz_Ortiz.txt`
@@ -1314,7 +1070,7 @@ Does not meet state teacher certification requirements on its own.
 
 **Always retrieve `SU_General_Policies.txt` alongside major docs when:**
 - Any graduation eligibility or credit count question
-- Any Paideia / general education requirement question
+- Any general education requirement question
 - Any grading policy question (Pass/D/F, grade appeals, incomplete grades)
 - Any academic standing question (probation, dismissal, appeal)
 - Any transfer credit or credit-by-examination question

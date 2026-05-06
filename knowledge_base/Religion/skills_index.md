@@ -10,37 +10,18 @@
 ## SECTION 2 — DOCUMENT REGISTRY
 
 ### Religion Program Overview
-- **filename:** `Religion.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Provides a high-level introduction to the Religion program at Southwestern University. Describes the academic discipline of religious studies as inherently interdisciplinary, drawing on philosophy, art, history, sociology, anthropology, psychology, language studies, literature, politics, economics, cultural studies, gender studies, and ethnic studies. Identifies Elaine Craddock as Professor of Religion and Department Chair. Notes that the program introduces students to a variety of global religious traditions with the goal of creating empathetic understanding of differences. Briefly references alumni outcomes ("Cultivating a Global Perspective") and links to Religion News. Does not list specific degree requirements or course offerings.
 - **critical_data:**
   - Religion is an academic discipline at SU using critical analysis across many fields
   - Department Chair: Elaine Craddock, Professor of Religion
   - Program goal: empathetic understanding of global religious differences
   - Alumni pursue dual degree master's programs at world-renowned institutions
-- **retrieval_triggers:**
-  - "what is the religion major about"
-  - "why study religion at Southwestern"
-  - "who chairs the religion department"
-  - "what can I do with a religion degree"
-  - "is religion interdisciplinary"
-  - "overview of religion program"
-  - "religion department contact"
-  - "alumni outcomes religion major"
-  - "religion and global perspectives"
-  - "what fields does religion draw from"
 
 ---
 
 ### Majoring and Minoring in Religion
-- **filename:** `Majoring___Minoring.txt`
-- **document_type:** requirements
 - **degree_relevance:** B.A., Minor
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Specifies the complete course requirements for both the Religion major (9 courses) and the Religion minor (5 courses). For the major, students must complete REL19-814 Doing Religion, REL19-894 Religion Capstone (taken fall of senior year), three courses chosen from a world traditions group (Christian, Native American, Jewish, Islamic, Hindu, Buddhist), and four courses chosen from a thematic/upper-level elective pool. For the minor, students must complete REL19-814 Doing Religion plus four additional religion courses, at least two of which must be 300-level or higher. Notes that students may choose a paired major between Religion and Feminist Studies. Does not specify credit hour counts per course or GPA minimums beyond what is implied by SU policies.
 - **critical_data:**
   - Major requires 9 courses total
@@ -51,30 +32,12 @@
   - Minor requires 5 courses: REL19-814 + four religion courses (at least two at 300-level or higher)
   - Paired major option available: Religion and Feminist Studies
   - Paired major restriction: cannot be declared as a double major (see cross-reference flags)
-- **retrieval_triggers:**
-  - "how many courses for religion major"
-  - "what do I need to major in religion"
-  - "religion minor requirements"
-  - "what courses count toward the religion major"
-  - "can I minor in religion"
-  - "religion and feminist studies paired major"
-  - "do I need the capstone for the major"
-  - "when do I take the religion capstone"
-  - "what are the elective options for religion major"
-  - "how many 300-level courses for religion minor"
-  - "difference between religion major and minor"
-  - "what is REL19-814"
-  - "is Doing Religion required"
 
 ---
 
 ### Religion Courses
-- **filename:** `Courses.txt`
-- **document_type:** course_info
 - **degree_relevance:** B.A., Minor
-- **time_sensitive:** false
-- **catalog_year:** N/A
-- **description:** Lists all current or recent course offerings in the Religion department with full descriptions and Paideia designation codes. Covers 21 named courses plus one cross-listed course (Muslims in Europe, see History 16-514). World traditions survey courses include Christian Traditions (19-204), Native American Traditions (19-214), Jewish Traditions (19-224), Islamic Traditions (19-244), Hindu Traditions (19-274), and Buddhist Traditions (19-284). Thematic upper-level courses include Selected Topics (19-304), Women Goddesses and Religion (19-324), Apocalypse and Dystopia (19-334), Animals and Religion (19-344), Gender and Sexuality in Native America (19-354), Pilgrimage (19-364), Sacred Space and the Environment (19-374), Rastas Saints and Virgins (19-384), Indigenous Myth and Narrative (19-394), Religion and Animation (19-404), The Body in Religion (19-414), Indigenous TV and Film (19-424), Muslims in Europe (19-534), Topics in Religion (19-714), Doing Religion (19-814), and Religion Capstone (19-894). Notes which courses are offered in specific semesters (Doing Religion in Spring; Capstone in Fall) and which carry Paideia designations (H, SJ, PJ, WA). Notes interdisciplinary contributions to programs such as International Studies, Feminist Studies, Environmental Studies, Anthropology, Race and Ethnicity Studies, East Asian Studies, Legal Studies, and Animal Studies.
+- **description:** Lists all current or recent course offerings in the Religion department with full descriptions and General Education designation codes. Covers 21 named courses plus one cross-listed course (Muslims in Europe, see History 16-514). World traditions survey courses include Christian Traditions (19-204), Native American Traditions (19-214), Jewish Traditions (19-224), Islamic Traditions (19-244), Hindu Traditions (19-274), and Buddhist Traditions (19-284). Thematic upper-level courses include Selected Topics (19-304), Women Goddesses and Religion (19-324), Apocalypse and Dystopia (19-334), Animals and Religion (19-344), Gender and Sexuality in Native America (19-354), Pilgrimage (19-364), Sacred Space and the Environment (19-374), Rastas Saints and Virgins (19-384), Indigenous Myth and Narrative (19-394), Religion and Animation (19-404), The Body in Religion (19-414), Indigenous TV and Film (19-424), Muslims in Europe (19-534), Topics in Religion (19-714), Doing Religion (19-814), and Religion Capstone (19-894). Notes which courses are offered in specific semesters (Doing Religion in Spring; Capstone in Fall) and which carry General education designations (H, SJ, PJ, WA). Notes interdisciplinary contributions to programs such as International Studies, Feminist Studies, Environmental Studies, Anthropology, Race and Ethnicity Studies, East Asian Studies, Legal Studies, and Animal Studies.
 - **critical_data:**
   - 21 courses listed plus one cross-listed (Muslims in Europe)
   - REL19-814 Doing Religion: offered Spring; carries (WA) designation; required for major and minor; research-intensive writing course
@@ -84,63 +47,22 @@
   - Courses with (PJ): 19-204, 19-214, 19-274, 19-284, 19-324, 19-334, 19-344, 19-384
   - 19-304 Selected Topics and 19-714 Topics in Religion may be repeated with change of topic
   - Muslims in Europe (19-534) cross-listed with History 16-514
-- **retrieval_triggers:**
-  - "what religion courses are offered"
-  - "what is Animals and Religion about"
-  - "what is the Pilgrimage course"
-  - "does religion have a writing course"
-  - "which religion courses count for Power and Justice"
-  - "religion courses that satisfy Paideia"
-  - "what is Topics in Religion"
-  - "can I take Selected Topics more than once"
-  - "what is 19-814"
-  - "what is the Body in Religion course"
-  - "which religion courses count for International Studies"
-  - "what is Indigenous TV and Film"
-  - "religion course on Islam"
-  - "religion course on Hinduism"
-  - "religion course on Buddhism"
-  - "gender and religion course"
-  - "environment and religion course"
-  - "when is Doing Religion offered"
-  - "when is the capstone offered"
 
 ---
 
 ### Our Faculty
-- **filename:** `Our_Faculty.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Lists the four faculty members in the Religion department with their titles, specialties, contact information, and office locations. Elaine Craddock is Professor of Religion and Department Chair, specializing in Hinduism, Feminism and Religion, Tamil literature, and Religion and the Body (craddoce@southwestern.edu, 512.863.1963). Laura Hobgood is Professor of Religion, specializing in animals in the Christian tradition, human-dog history, religion and ecology, ecofeminism, and human-animal studies (hobgood@southwestern.edu, 512.863.1669, Mood-Bridwell 136). Ken Mello is Associate Professor of Religion, specializing in Native American traditions, Contemporary Indigenous Identity, Sacred Space, Gender and Sexuality, and Indigenous Myth and Narratives (mellok@southwestern.edu, 512.863.1964, Mood-Bridwell 138). Sarah Summers is listed as Part-Time Instructor/Professor (summers3@southwestern.edu) with no listed specialty or office location.
 - **critical_data:**
   - Elaine Craddock: Department Chair; Hinduism, Feminism, Tamil literature, Religion and the Body; craddoce@southwestern.edu; 512.863.1963
   - Laura Hobgood: Animals and religion, ecofeminism, religion and ecology; hobgood@southwestern.edu; 512.863.1669; Mood-Bridwell 136
   - Ken Mello: Native American traditions, sacred space, gender/sexuality; mellok@southwestern.edu; 512.863.1964; Mood-Bridwell 138
   - Sarah Summers: Part-time instructor; summers3@southwestern.edu
-- **retrieval_triggers:**
-  - "who teaches religion at Southwestern"
-  - "religion department faculty"
-  - "who is the religion department chair"
-  - "how do I contact a religion professor"
-  - "who teaches Native American traditions"
-  - "who teaches Hinduism"
-  - "who teaches animals and religion"
-  - "religion professor email"
-  - "where is the religion department office"
-  - "who is Professor Hobgood"
-  - "who is Professor Craddock"
-  - "who is Professor Mello"
 
 ---
 
 ### Notable Faculty and Student Achievements
-- **filename:** `Notable_Faculty___Student_Achievements.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** 2020–2026
 - **description:** Chronicles faculty accomplishments from September 2020 through March 2026. Professor Laura Hobgood is the most frequently featured faculty member, with ongoing media appearances, publications, documentary filmmaking, board service, and invited lectures related to animals, religion, and ecology. Professor Elaine Craddock published peer-reviewed articles in the International Journal of Hindu Studies (March 2024) and Feminist Review (December 2023) and has expertise in Tamil Nadu communities and caste/class/religion intersections. Part-Time Assistant Professor Andrea Gutiérrez won the 2021 DK Award for Outstanding Doctoral Thesis on Sanskrit. Professor Hobgood contributed chapters to Animals and Religion (Routledge, 2024), Religion and Nature in North America (Bloomsbury, 2024), and other edited volumes, and was featured in The Atlantic (2021) and on NPR. The Animals and Religion Group at the American Academy of Religion, co-founded by Dr. Hobgood, celebrated 25 years of activity in 2025.
 - **critical_data:**
   - Laura Hobgood: featured on Relationscapes podcast (March 2026); AAR panel (December 2025); documentary interview "Immortality Key" (2024); chapters in Routledge and Bloomsbury volumes (2024); NPR appearances; Atlantic feature (2021)
@@ -148,17 +70,6 @@
   - Andrea Gutiérrez: 2021 DK Award for Outstanding Doctoral Thesis on Sanskrit (international prize, awarded once every 3 years)
   - Animals and Religion Group at AAR co-founded by Hobgood; 25 years active as of 2025
   - Hobgood joined Board of Directors of Education Congo (June 2023)
-- **retrieval_triggers:**
-  - "what has Professor Hobgood published"
-  - "religion faculty research"
-  - "awards won by religion faculty"
-  - "what is Professor Craddock researching"
-  - "religion department in the news"
-  - "faculty publications religion"
-  - "who won an award in religion"
-  - "animals and religion research"
-  - "Andrea Gutiérrez Sanskrit award"
-  - "religion professor documentary"
 
 ---
 
@@ -179,16 +90,16 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 | Graduation Application | "Application for Diploma" must be filed; financial holds block diploma |
 | Degree Conferral Dates | December, May, August only; Commencement held once per year in May |
 
-### SU Universal Curriculum Requirements (Paideia Framework)
+### SU Universal Curriculum Requirements (General Education)
 
-SU's general education model is called **Paideia**. Religion courses satisfy several Paideia areas:
+Southwestern's curriculum is guided by the Paideia philosophy, and every major's degree plan is built on top of shared general education requirements. Religion courses satisfy several General education areas:
 
 - **(H) Humanities:** Most Religion courses carry this designation
 - **(SJ) Social Justice:** Several Religion courses carry this designation
 - **(PJ) Power and Justice:** REL19-204, 214, 274, 284, 324, 334, 344, 384 carry this designation
 - **(WA) Writing Across the Curriculum:** REL19-324, 814, 894 carry this designation
 
-Full Paideia framework details are in `SU_General_Policies.txt`.
+Full General education framework details are in `SU_General_Policies.txt`.
 
 ---
 
@@ -276,7 +187,7 @@ Full Paideia framework details are in `SU_General_Policies.txt`.
 - **Corequisites:** None
 - **Offered:** Unknown (not specified)
 - **Required For:** B.A. major (world traditions group, choose 3 of 6)
-- **Counts As:** World Traditions requirement; Paideia (H) (SJ) (PJ)
+- **Counts As:** World Traditions requirement; General Education (H) (SJ) (PJ)
 - **Notes:** Contributes to International Studies. Surveys Jesus movement through contemporary Christianity in Global South.
 - **Source:** `Courses.txt`, `Majoring___Minoring.txt`
 
@@ -288,7 +199,7 @@ Full Paideia framework details are in `SU_General_Policies.txt`.
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** B.A. major (world traditions group, choose 3 of 6)
-- **Counts As:** World Traditions requirement; Paideia (H) (SJ) (PJ)
+- **Counts As:** World Traditions requirement; General Education (H) (SJ) (PJ)
 - **Notes:** Contributes to Anthropology, Race and Ethnicity Studies/Group-Theme Course, and Legal Studies Certificate. Multi-disciplinary approach.
 - **Source:** `Courses.txt`, `Majoring___Minoring.txt`
 
@@ -300,7 +211,7 @@ Full Paideia framework details are in `SU_General_Policies.txt`.
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** B.A. major (world traditions group, choose 3 of 6)
-- **Counts As:** World Traditions requirement; Paideia (H)
+- **Counts As:** World Traditions requirement; General Education (H)
 - **Notes:** Contributes to International Studies. Surveys Hebrew Bible formation through modern era.
 - **Source:** `Courses.txt`, `Majoring___Minoring.txt`
 
@@ -312,7 +223,7 @@ Full Paideia framework details are in `SU_General_Policies.txt`.
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** B.A. major (world traditions group, choose 3 of 6)
-- **Counts As:** World Traditions requirement; Paideia (H)
+- **Counts As:** World Traditions requirement; General Education (H)
 - **Notes:** Contributes to International Studies. Covers mysticism, gender, politics in diverse cultural contexts.
 - **Source:** `Courses.txt`, `Majoring___Minoring.txt`
 
@@ -324,7 +235,7 @@ Full Paideia framework details are in `SU_General_Policies.txt`.
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** B.A. major (world traditions group, choose 3 of 6)
-- **Counts As:** World Traditions requirement; Paideia (H) (SJ) (PJ)
+- **Counts As:** World Traditions requirement; General Education (H) (SJ) (PJ)
 - **Notes:** Contributes to Feminist Studies and International Studies. Covers Indian subcontinent religious ideas, interaction with Buddhism/Jainism/Islam/Sikhism, gender and politics.
 - **Source:** `Courses.txt`, `Majoring___Minoring.txt`
 
@@ -336,7 +247,7 @@ Full Paideia framework details are in `SU_General_Policies.txt`.
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** B.A. major (world traditions group, choose 3 of 6)
-- **Counts As:** World Traditions requirement; Paideia (H) (SJ) (PJ)
+- **Counts As:** World Traditions requirement; General Education (H) (SJ) (PJ)
 - **Notes:** Contributes to East Asian Studies and International Studies. Covers historical Buddha through spread to North America; includes ethics and gender.
 - **Source:** `Courses.txt`, `Majoring___Minoring.txt`
 
@@ -360,7 +271,7 @@ Full Paideia framework details are in `SU_General_Policies.txt`.
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** B.A. major (thematic elective pool, choose 4)
-- **Counts As:** Thematic elective; Paideia (H) (WA) (SJ) (PJ)
+- **Counts As:** Thematic elective; General Education (H) (WA) (SJ) (PJ)
 - **Notes:** Contributes to Anthropology, Feminist Studies, and International Studies. Cross-cultural; feminist methodology. WA designation means significant writing.
 - **Source:** `Courses.txt`, `Majoring___Minoring.txt`
 
@@ -372,7 +283,7 @@ Full Paideia framework details are in `SU_General_Policies.txt`.
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** B.A. major (thematic elective pool, choose 4)
-- **Counts As:** Thematic elective; Paideia (H) (SJ) (PJ)
+- **Counts As:** Thematic elective; General Education (H) (SJ) (PJ)
 - **Notes:** Contributes to Environmental Studies and International Studies. Examines end-times imagination in religious and secular contexts; social justice and environmental concerns.
 - **Source:** `Courses.txt`, `Majoring___Minoring.txt`
 
@@ -384,7 +295,7 @@ Full Paideia framework details are in `SU_General_Policies.txt`.
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** B.A. major (thematic elective pool, choose 4)
-- **Counts As:** Thematic elective; Paideia (H) (SJ) (PJ)
+- **Counts As:** Thematic elective; General Education (H) (SJ) (PJ)
 - **Notes:** Contributes to Animal Studies, Environmental Studies, Feminist Studies, and International Studies. Ecofeminist and environmental methods. Examines factory farming and biomedical experimentation.
 - **Source:** `Courses.txt`, `Majoring___Minoring.txt`
 
@@ -396,7 +307,7 @@ Full Paideia framework details are in `SU_General_Policies.txt`.
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** B.A. major (thematic elective pool, choose 4)
-- **Counts As:** Thematic elective; Paideia (H)
+- **Counts As:** Thematic elective; General Education (H)
 - **Notes:** Contributes to Anthropology and Feminist Studies. Examines gender and sexuality in Native American ritual and spiritual life, past and present.
 - **Source:** `Courses.txt`, `Majoring___Minoring.txt`
 
@@ -408,7 +319,7 @@ Full Paideia framework details are in `SU_General_Policies.txt`.
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** B.A. major (thematic elective pool, choose 4)
-- **Counts As:** Thematic elective; Paideia (H)
+- **Counts As:** Thematic elective; General Education (H)
 - **Notes:** Contributes to Anthropology, Environmental Studies, and International Studies. Comparative and critical; covers sacred space, pilgrims' motivations, environmental impact, and tourism.
 - **Source:** `Courses.txt`, `Majoring___Minoring.txt`
 
@@ -420,7 +331,7 @@ Full Paideia framework details are in `SU_General_Policies.txt`.
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** B.A. major (thematic elective pool, choose 4)
-- **Counts As:** Thematic elective; Paideia (H)
+- **Counts As:** Thematic elective; General Education (H)
 - **Notes:** Contributes to Environmental Studies and Race and Ethnicity Studies/Allied Course. Focus on Native American spiritual relationship to landscape and nature.
 - **Source:** `Courses.txt`, `Majoring___Minoring.txt`
 
@@ -432,7 +343,7 @@ Full Paideia framework details are in `SU_General_Policies.txt`.
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** B.A. major (thematic elective pool, choose 4)
-- **Counts As:** Thematic elective; Paideia (H) (SJ) (PJ)
+- **Counts As:** Thematic elective; General Education (H) (SJ) (PJ)
 - **Notes:** Contributes to Anthropology, International Studies, and Race and Ethnicity Studies/Group-Theme Course. Covers Santeria, Rastafarians, Cult of the Virgin of Guadalupe and other ethnic religious traditions in the US.
 - **Source:** `Courses.txt`, `Majoring___Minoring.txt`
 
@@ -444,7 +355,7 @@ Full Paideia framework details are in `SU_General_Policies.txt`.
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** B.A. major (thematic elective pool, choose 4)
-- **Counts As:** Thematic elective; Paideia (H)
+- **Counts As:** Thematic elective; General Education (H)
 - **Notes:** Contributes to Race and Ethnicity Studies/Group-Theme Course. Examines oral and written Native American narratives; includes audio recordings, music, poetry, and social media.
 - **Source:** `Courses.txt`, `Majoring___Minoring.txt`
 
@@ -456,7 +367,7 @@ Full Paideia framework details are in `SU_General_Policies.txt`.
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** B.A. major (thematic elective pool, choose 4)
-- **Counts As:** Thematic elective; Paideia (H)
+- **Counts As:** Thematic elective; General Education (H)
 - **Notes:** No interdisciplinary contributions listed. Covers comics, graphic novels, cartoons, and films (Avengers, The Simpsons, South Park, Disney).
 - **Source:** `Courses.txt`, `Majoring___Minoring.txt`
 
@@ -468,7 +379,7 @@ Full Paideia framework details are in `SU_General_Policies.txt`.
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** B.A. major (thematic elective pool, choose 4)
-- **Counts As:** Thematic elective; Paideia (H)
+- **Counts As:** Thematic elective; General Education (H)
 - **Notes:** Contributes to Feminist Studies and International Studies. Feminist, cross-cultural examination of embodiment, sexuality, gender, and salvation.
 - **Source:** `Courses.txt`, `Majoring___Minoring.txt`
 
@@ -480,7 +391,7 @@ Full Paideia framework details are in `SU_General_Policies.txt`.
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Not listed as a major elective option in Majoring___Minoring.txt (see gap note)
-- **Counts As:** Paideia (H)
+- **Counts As:** General Education (H)
 - **Notes:** Examines mainstream media portrayal of indigenous peoples from North America, past and present. Covers representation, stereotypes, and identity formation.
 - **Source:** `Courses.txt`
 
@@ -492,7 +403,7 @@ Full Paideia framework details are in `SU_General_Policies.txt`.
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Not listed as a major elective option
-- **Counts As:** Paideia (H)
+- **Counts As:** General Education (H)
 - **Notes:** Cross-listed with History 16-514. Students should confirm which prefix to register under.
 - **Source:** `Courses.txt`
 
@@ -504,7 +415,7 @@ Full Paideia framework details are in `SU_General_Policies.txt`.
 - **Corequisites:** None
 - **Offered:** Unknown; specific topics rotate (not necessarily every two years)
 - **Required For:** B.A. major (thematic elective pool, choose 4)
-- **Counts As:** Thematic elective; Paideia (H)
+- **Counts As:** Thematic elective; General Education (H)
 - **Notes:** May be repeated when topic varies. Rotating topics include: Ball Games, Baskets, and Living Skies; A Novel Approach to American Religious History; Yoga; Religion and Politics; Religion and Ecology. Critical investigation of religion and violence, media, authority, politics.
 - **Source:** `Courses.txt`, `Majoring___Minoring.txt`
 
@@ -516,7 +427,7 @@ Full Paideia framework details are in `SU_General_Policies.txt`.
 - **Corequisites:** None
 - **Offered:** Spring
 - **Required For:** B.A. major (required core); Minor (required)
-- **Counts As:** Required core for both major and minor; Paideia (WA)
+- **Counts As:** Required core for both major and minor; General Education (WA)
 - **Notes:** Research-intensive; requires significant writing and application of methodological approaches. Reviews secular theories and methods (history, literary studies, feminist studies, psychology, sociology, anthropology, postcolonial, environmental, comparative studies).
 - **Source:** `Courses.txt`, `Majoring___Minoring.txt`
 
@@ -528,86 +439,11 @@ Full Paideia framework details are in `SU_General_Policies.txt`.
 - **Corequisites:** None
 - **Offered:** Fall
 - **Required For:** B.A. major (required; taken fall of senior year)
-- **Counts As:** Capstone/culminating requirement; Paideia (WA)
+- **Counts As:** Capstone/culminating requirement; General Education (WA)
 - **Notes:** Research seminar intended for religion majors; open to others with instructor permission. Must be taken in fall of senior year.
 - **Source:** `Courses.txt`, `Majoring___Minoring.txt`
 
 ---
-
-## SECTION 5 — TOPIC INDEX
-
-- Religion major overview → `Religion.txt`, `Majoring___Minoring.txt`
-- Religion minor overview → `Majoring___Minoring.txt`
-- Total courses required for Religion major → `Majoring___Minoring.txt`
-- Total courses required for Religion minor → `Majoring___Minoring.txt`
-- REL19-814 Doing Religion (required course, details) → `Courses.txt`, `Majoring___Minoring.txt`
-- REL19-894 Religion Capstone (required course, details) → `Courses.txt`, `Majoring___Minoring.txt`
-- When to take the capstone → `Majoring___Minoring.txt`, `Courses.txt`
-- Capstone offered in fall or spring → `Courses.txt`
-- Doing Religion offered in fall or spring → `Courses.txt`
-- World traditions requirement (choose 3 of 6) → `Majoring___Minoring.txt`
-- Thematic elective requirement (choose 4) → `Majoring___Minoring.txt`
-- Minor 300-level requirement → `Majoring___Minoring.txt`
-- Paired major Religion and Feminist Studies → `Majoring___Minoring.txt`
-- Can I double major in Religion and Feminist Studies → `Majoring___Minoring.txt`, `SU_General_Policies.txt`
-- REL19-204 Christian Traditions → `Courses.txt`, `Majoring___Minoring.txt`
-- REL19-214 Native American Traditions → `Courses.txt`, `Majoring___Minoring.txt`
-- REL19-224 Jewish Traditions → `Courses.txt`, `Majoring___Minoring.txt`
-- REL19-244 Islamic Traditions → `Courses.txt`, `Majoring___Minoring.txt`
-- REL19-274 Hindu Traditions → `Courses.txt`, `Majoring___Minoring.txt`
-- REL19-284 Buddhist Traditions → `Courses.txt`, `Majoring___Minoring.txt`
-- REL19-304 Selected Topics → `Courses.txt`, `Majoring___Minoring.txt`
-- REL19-324 Women, Goddesses and Religion → `Courses.txt`, `Majoring___Minoring.txt`
-- REL19-334 Apocalypse and Dystopia → `Courses.txt`, `Majoring___Minoring.txt`
-- REL19-344 Animals and Religion → `Courses.txt`, `Majoring___Minoring.txt`
-- REL19-354 Gender and Sexuality in Native America → `Courses.txt`, `Majoring___Minoring.txt`
-- REL19-364 Pilgrimage → `Courses.txt`, `Majoring___Minoring.txt`
-- REL19-374 Sacred Space and the Environment → `Courses.txt`, `Majoring___Minoring.txt`
-- REL19-384 Rastas, Saints and Virgins → `Courses.txt`, `Majoring___Minoring.txt`
-- REL19-394 Indigenous Myth and Narrative → `Courses.txt`, `Majoring___Minoring.txt`
-- REL19-404 Religion and Animation → `Courses.txt`, `Majoring___Minoring.txt`
-- REL19-414 The Body in Religion → `Courses.txt`, `Majoring___Minoring.txt`
-- REL19-424 Indigenous TV and Film → `Courses.txt`
-- REL19-534 Muslims in Europe (cross-listed with History) → `Courses.txt`
-- REL19-714 Topics in Religion → `Courses.txt`, `Majoring___Minoring.txt`
-- Courses that can be repeated → `Courses.txt`
-- Paideia (H) designation courses in Religion → `Courses.txt`
-- Paideia (PJ) Power and Justice courses in Religion → `Courses.txt`
-- Paideia (WA) Writing Across the Curriculum courses in Religion → `Courses.txt`
-- Paideia (SJ) Social Justice courses in Religion → `Courses.txt`
-- Which religion courses count for International Studies → `Courses.txt`
-- Which religion courses count for Feminist Studies → `Courses.txt`
-- Which religion courses count for Environmental Studies → `Courses.txt`
-- Which religion courses count for Anthropology → `Courses.txt`
-- Which religion courses count for Race and Ethnicity Studies → `Courses.txt`
-- Which religion courses count for Animal Studies → `Courses.txt`
-- Which religion courses count for East Asian Studies → `Courses.txt`
-- Which religion courses count for Legal Studies Certificate → `Courses.txt`
-- Department Chair contact → `Our_Faculty.txt`
-- Professor Craddock contact and specialty → `Our_Faculty.txt`
-- Professor Hobgood contact and specialty → `Our_Faculty.txt`
-- Professor Mello contact and specialty → `Our_Faculty.txt`
-- Professor Summers contact → `Our_Faculty.txt`
-- Faculty office locations → `Our_Faculty.txt`
-- Faculty research and publications → `Notable_Faculty___Student_Achievements.txt`
-- Professor Hobgood podcast or media appearances → `Notable_Faculty___Student_Achievements.txt`
-- Animals and Religion Group at AAR → `Notable_Faculty___Student_Achievements.txt`
-- Andrea Gutiérrez Sanskrit award → `Notable_Faculty___Student_Achievements.txt`
-- Religion as preparation for seminary → `Majoring___Minoring.txt`
-- Religion as preparation for graduate school → `Majoring___Minoring.txt`
-- Religion as complementary double major → `Majoring___Minoring.txt`
-- Graduation requirements (credits, GPA, residency) → `SU_General_Policies.txt`
-- Pass/D/F grading option → `SU_General_Policies.txt`
-- Academic probation and dismissal → `SU_General_Policies.txt`
-- Transfer credit applicability to Religion major → `Majoring___Minoring.txt`, `SU_General_Policies.txt`
-- Study abroad credit applicability → `SU_Resources_and_Financial.txt`, `SU_General_Policies.txt`
-- Financial aid and tuition → `SU_Resources_and_Financial.txt`
-- Internship funding (SURF, King Creativity Fund) → `SU_Resources_and_Financial.txt`
-- Latin Honors and Paideia with Distinction → `SU_General_Policies.txt`
-- Disability accommodations → `SU_General_Policies.txt`
-- Adding or dropping the Religion minor → `Majoring___Minoring.txt`, `SU_General_Policies.txt`
-- Course repeat policy → `SU_General_Policies.txt`
-- Academic calendar and add/drop deadlines → `SU_General_Policies.txt`
 
 ---
 
@@ -633,7 +469,7 @@ Full Paideia framework details are in `SU_General_Policies.txt`.
 **Routing Note:** Majoring___Minoring.txt mentions the Religion/Feminist Studies paired major option; SU_General_Policies.txt covers paired major restrictions (cannot be declared individually as a double major).
 **Disambiguation Needed:** No; but answer should clarify the paired major restriction
 
-**Q:** Which religion courses count for the Power and Justice Paideia requirement?
+**Q:** Which religion courses count for the Power and Justice General education requirement?
 **Docs:** `Courses.txt`, `SU_General_Policies.txt`
 **Routing Note:** Courses.txt lists (PJ) designations; SU_General_Policies.txt explains the Power and Justice requirement structure.
 **Disambiguation Needed:** No
@@ -688,9 +524,9 @@ Full Paideia framework details are in `SU_General_Policies.txt`.
 **Routing Note:** Courses.txt confirms REL19-814 is required; SU_General_Policies.txt covers course repeat policies and GPA recalculation.
 **Disambiguation Needed:** No
 
-**Q:** What Paideia requirements does the Religion major help me satisfy?
+**Q:** What General education requirements does the Religion major help me satisfy?
 **Docs:** `Courses.txt`, `SU_General_Policies.txt`
-**Routing Note:** Courses.txt lists (H), (SJ), (PJ), and (WA) designations per course; SU_General_Policies.txt explains the full Paideia framework including Exploration and Breadth Parts I and II.
+**Routing Note:** Courses.txt lists (H), (SJ), (PJ), and (WA) designations per course; SU_General_Policies.txt explains the full General education framework including Exploration and Breadth Parts I and II.
 **Disambiguation Needed:** No
 
 **Q:** Who teaches Native American traditions in the Religion department?
@@ -725,7 +561,7 @@ Full Paideia framework details are in `SU_General_Policies.txt`.
 
 **Q:** Does the Religion major require any science courses?
 **Docs:** `Majoring___Minoring.txt`, `SU_General_Policies.txt`
-**Routing Note:** Religion major documents list no science requirements within the major; SU_General_Policies.txt clarifies that B.S. (not available in Religion) requires science; B.A. does not add science beyond Paideia Exploration and Breadth.
+**Routing Note:** Religion major documents list no science requirements within the major; SU_General_Policies.txt clarifies that B.S. (not available in Religion) requires science; B.A. does not add science beyond General Education Exploration and Breadth.
 **Disambiguation Needed:** No
 
 **Q:** Can I take the Religion Capstone if I'm not a Religion major?
@@ -768,9 +604,9 @@ Full Paideia framework details are in `SU_General_Policies.txt`.
 **Routing Note:** Majoring___Minoring.txt explicitly states the Religion major is good for those seeking seminary education.
 **Disambiguation Needed:** No
 
-**Q:** Does the Religion minor satisfy any Paideia requirements?
+**Q:** Does the Religion minor satisfy any General education requirements?
 **Docs:** `Courses.txt`, `SU_General_Policies.txt`
-**Routing Note:** Individual Religion courses satisfy various Paideia areas (H, SJ, PJ, WA) as noted in Courses.txt; SU_General_Policies.txt explains how these apply to the Paideia framework.
+**Routing Note:** Individual Religion courses satisfy various General education areas (H, SJ, PJ, WA) as noted in Courses.txt; SU_General_Policies.txt explains how these apply to the General education framework.
 **Disambiguation Needed:** No
 
 **Q:** What's the difference between Selected Topics (19-304) and Topics in Religion (19-714)?
@@ -797,11 +633,10 @@ Full Paideia framework details are in `SU_General_Policies.txt`.
   - **What general docs must cover:** 127-credit minimum, 64-credit SU residency, last 32 in-residence, 2.000 GPA, 60% major residency, Application for Diploma process
   - **Routing instruction:** Always retrieve `SU_General_Policies.txt` alongside major requirements doc for any graduation eligibility question
 
-- **Topic:** Paideia general education requirements
-  - **What major docs cover:** Which Religion courses carry Paideia designations (H, SJ, PJ, WA)
+- **Topic:** General education requirements
+  - **What major docs cover:** Which Religion courses carry General education designations (H, SJ, PJ, WA)
   - **What general docs must cover:** Full structure of FYS/AES, Language & Cultures, FRA, Power and Justice, Exploration & Breadth Parts I and II, Paideia with Distinction
-  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about gen-ed, breadth requirements, or Paideia
-
+  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about gen-ed, breadth requirements, or General Education 
 - **Topic:** Pass/D/F grading option
   - **What major docs cover:** Not covered
   - **What general docs must cover:** Full Pass/D/F policy, deadlines to switch, GPA impact
@@ -912,12 +747,12 @@ Full Paideia framework details are in `SU_General_Policies.txt`.
 **Default document for broad major questions:** `Majoring___Minoring.txt`
 
 **When to retrieve multiple documents:**
-- Any question about Paideia credit or gen-ed satisfaction: retrieve `Courses.txt` AND `SU_General_Policies.txt`
+- Any question about General Education credit or gen-ed satisfaction: retrieve `Courses.txt` AND `SU_General_Policies.txt`
 - Any graduation eligibility or diploma question: retrieve `Majoring___Minoring.txt` AND `SU_General_Policies.txt`
 - Any transfer credit question: retrieve `Majoring___Minoring.txt` AND `SU_General_Policies.txt`
 - Any study abroad question: retrieve `SU_Resources_and_Financial.txt` AND `SU_General_Policies.txt`
 - Any paired major (Religion/Feminist Studies) question: retrieve `Majoring___Minoring.txt` AND `SU_General_Policies.txt`
-- Any question about a specific course's Paideia designation: retrieve `Courses.txt` AND `SU_General_Policies.txt`
+- Any question about a specific course's General Education designation: retrieve `Courses.txt` AND `SU_General_Policies.txt`
 - Any faculty research or contact question: retrieve `Our_Faculty.txt`; if publication history needed, also retrieve `Notable_Faculty___Student_Achievements.txt`
 
 **Degree path disambiguation triggers:**
@@ -943,7 +778,7 @@ Full Paideia framework details are in `SU_General_Policies.txt`.
 
 **Always retrieve `SU_General_Policies.txt` alongside major docs when:**
 - Any graduation eligibility or credit count question
-- Any Paideia / general education requirement question
+- Any general education requirement question
 - Any grading policy question (Pass/D/F, grade appeals, incomplete grades)
 - Any academic standing question (probation, dismissal, appeal)
 - Any transfer credit or credit-by-examination question

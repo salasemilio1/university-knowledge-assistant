@@ -10,11 +10,7 @@
 ## SECTION 2 — DOCUMENT REGISTRY
 
 ### Philosophy Department Overview
-- **filename:** `Philosophy.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Provides the Philosophy Department's overarching mission, curricular philosophy, and strengths. States the department offers a "distinctive, innovative, and interdisciplinary approach." Emphasizes grounding in western philosophy while enabling critical engagement with contemporary questions. Highlights interdisciplinary intersections with Latin American Studies, Feminist Studies, Race and Ethnicity Studies, Queer Theory, and Marxist thought. Notes the department's active commitment to departing from philosophy's historically white-male-dominated tendency. Also references the A–Z Philosophy BlackList project (launched 2025 as part of Black History Month programming, now featuring 158+ names) and includes a featured alumni story (Lily Rodriguez '19, History major, interning at USCIS in D.C.).
 - **critical_data:**
   - Department chair: Professor Michael Bray
@@ -22,27 +18,12 @@
   - A–Z Philosophy BlackList: launched 2025, 158 names as of 2026
   - Group advising available
   - Alumni pathways include archival research and public sector internships
-- **retrieval_triggers:**
-  - "what is the philosophy department like"
-  - "what makes philosophy at SU unique"
-  - "what are the department's strengths"
-  - "who chairs the philosophy department"
-  - "what can I do with a philosophy degree"
-  - "does philosophy connect to other majors"
-  - "what is the A-Z Philosophy BlackList"
-  - "philosophy department mission"
-  - "is philosophy interdisciplinary"
-  - "what kind of philosophy does SU focus on"
 
 ---
 
 ### Philosophy Courses
-- **filename:** `Courses.txt`
-- **document_type:** course_info
 - **degree_relevance:** B.A. | Minor
-- **time_sensitive:** false
-- **catalog_year:** N/A (current/recent offerings)
-- **description:** Lists all current or recent course offerings in the Philosophy department, with full course descriptions and Paideia designations. Introductory-level offerings (numbered 18-104 through 18-194) include: Selected Introductory Topics (18-104), What Is Philosophy? (18-114), Critical Thinking (18-124), Philosophy of Love & Sex (18-144), Self, Ethics, Society (18-164), and Introduction to Feminist Philosophies (18-194). Upper-level courses (18-214 through 18-374) include Politics and Economics, Environmental Philosophy, Native American Philosophies, Philosophy Race & Revolution, Latin American Philosophy, Marxisms, The Embodied Self, 19th/20th Century Philosophy, Critical Philosophy of Race, and Feminist Ethics. The four upper-level Core Humanities sequences (18-614 through 18-644) are: Ethos/Identities/Differences, Being/Structure/Change, Experience/Language/Knowledge, and Peoples/Power/Organization — each requiring one prior Philosophy course. The Colloquium (18-914) is the capstone, required for majors in their final year, offered every fall.
+- **description:** Lists all current or recent course offerings in the Philosophy department, with full course descriptions and General education designations. Introductory-level offerings (numbered 18-104 through 18-194) include: Selected Introductory Topics (18-104), What Is Philosophy? (18-114), Critical Thinking (18-124), Philosophy of Love & Sex (18-144), Self, Ethics, Society (18-164), and Introduction to Feminist Philosophies (18-194). Upper-level courses (18-214 through 18-374) include Politics and Economics, Environmental Philosophy, Native American Philosophies, Philosophy Race & Revolution, Latin American Philosophy, Marxisms, The Embodied Self, 19th/20th Century Philosophy, Critical Philosophy of Race, and Feminist Ethics. The four upper-level Core Humanities sequences (18-614 through 18-644) are: Ethos/Identities/Differences, Being/Structure/Change, Experience/Language/Knowledge, and Peoples/Power/Organization — each requiring one prior Philosophy course. The Colloquium (18-914) is the capstone, required for majors in their final year, offered every fall.
 - **critical_data:**
   - Course prefix: 18-XXX (Philosophy department = 18)
   - Capstone: 18-914 Colloquium in Philosophy — required for majors, offered every fall, prerequisite: 18-604
@@ -52,83 +33,33 @@
   - 18-194, 18-284 also carry (SJ) and (PJ) designations
   - 18-914 carries (WA) Writing-Attentive designation
   - 18-614 through 18-644 carry (CRITICAL HISTORIES) designation
-- **retrieval_triggers:**
-  - "what philosophy courses are offered"
-  - "what is 18-124"
-  - "tell me about Critical Thinking"
-  - "what is the philosophy capstone"
-  - "what is Colloquium"
-  - "what courses have prerequisites"
-  - "which philosophy courses count toward feminist studies"
-  - "which philosophy courses satisfy Paideia"
-  - "what upper-level philosophy courses are there"
-  - "does philosophy offer environmental courses"
-  - "what philosophy classes count for legal studies"
-  - "do any philosophy courses satisfy Power and Justice"
-  - "what is 18-914"
-  - "which courses count toward race and ethnicity studies"
-  - "what philosophy courses satisfy humanities Paideia"
 
 ---
 
 ### High-Impact Learning Experiences
-- **filename:** `High-Impact_Learning_Experiences.txt`
-- **document_type:** resources
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Describes immersive high-impact learning opportunities specific to Philosophy majors at Southwestern. Covers two primary opportunities beyond general university options: student research via the Colloquium capstone course and the Philosophy Club student organization. The Colloquium is described as a collaborative workshop in which each student pursues an independent research project guided by the full philosophy faculty, culminating in a public presentation and final thesis submission. The Philosophy Club is a student organization promoting discussion of current philosophical topics and their societal relevance.
 - **critical_data:**
   - Capstone (Colloquium) = independent research project + public presentation + final thesis
   - Philosophy faculty guide all capstone students collectively, not individually
   - Philosophy Club is an official student organization
   - Links to more detail on capstone projects and the Philosophy Club
-- **retrieval_triggers:**
-  - "what high-impact experiences does philosophy offer"
-  - "what is the capstone for philosophy"
-  - "how does the philosophy capstone work"
-  - "what is the philosophy colloquium"
-  - "do philosophy majors do research"
-  - "is there a philosophy club"
-  - "what student organizations are there for philosophy"
-  - "how do I get involved in philosophy research"
-  - "what does the philosophy thesis involve"
-  - "does SU have high-impact experiences for philosophy"
 
 ---
 
 ### Student Research (Capstone Projects)
-- **filename:** `Student_Research.txt`
-- **document_type:** resources
 - **degree_relevance:** B.A.
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Provides detailed description of the Colloquium capstone structure and six example student research projects. Each semester, capstone students pursue independent research under collective philosophy faculty guidance. All students present their developing research to the class throughout the semester for critique and refinement. The culminating requirement is a public presentation of a key section followed by final thesis submission. Example projects cover: gentrification and capitalism (Kevin Lentz, using Neil Smith, David Harvey, Henri Lefebvre), women in philosophy and patriarchal structures (Sadie Clarendon, feminist philosophy), the exclusionary nature of Western philosophy and Latin alternative traditions (Alan Ramos), behavioral genetics and Aristotelian philosophy (Joshua Page), Nietzsche's ethics (Hunter White), and American media framing of terrorism through capitalist ideology (Sarah Cook, using Marx, Barthes, Debord, Virilio).
 - **critical_data:**
   - Capstone structure: semester-long independent project + class critique throughout + public presentation of key section + final thesis
   - All faculty guide all students collectively
   - Research spans analytic and continental traditions, political philosophy, feminist philosophy, and philosophy of science
   - Six sample projects provided with specific texts used
-- **retrieval_triggers:**
-  - "what do philosophy capstone students research"
-  - "what are examples of philosophy thesis topics"
-  - "how does the colloquium class work"
-  - "do I have to present my research"
-  - "what happens at the end of the colloquium"
-  - "can I write my thesis on any topic"
-  - "do philosophy students write a thesis"
-  - "what's a typical capstone project like"
-  - "does philosophy have a senior thesis"
-  - "what books do capstone students use"
 
 ---
 
 ### Philosophy Club
-- **filename:** `Philosophy_Club.txt`
-- **document_type:** resources
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** N/A
 - **description:** Describes the Philosophy Club student organization in detail. Advised by Visiting Assistant Professor Katie Howard. Open to all students including non-philosophy majors and minors; the only requirement is an open mind and willingness to engage respectfully with difficult topics. Meetings feature a student-chosen topic or question written on the whiteboard, followed by open discussion about its significance and potential societal solutions. Often addresses controversial topics. Meets every Friday at 7 p.m. in Fondren–Jones Science Center, room 360. If the room is unavailable, students should text 940.536.7977 for the alternate location.
 - **critical_data:**
   - Advisor: Visiting Assistant Professor Katie Howard
@@ -137,52 +68,22 @@
   - Open to ALL students, not just philosophy majors
   - Format: topic/question on whiteboard → open discussion
   - No membership requirements except open mind
-- **retrieval_triggers:**
-  - "when does the philosophy club meet"
-  - "where is philosophy club held"
-  - "who advises the philosophy club"
-  - "can I join philosophy club if I'm not a philosophy major"
-  - "what happens at a philosophy club meeting"
-  - "how do I get involved in the philosophy club"
-  - "is there a philosophy student organization"
-  - "what is the philosophy club"
-  - "how often does philosophy club meet"
-  - "what room is philosophy club in"
 
 ---
 
 ### Our Faculty
-- **filename:** `Our_Faculty.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** N/A
 - **description:** Lists the current full-time philosophy faculty with names, titles, specialties, email addresses, phone numbers, and office locations. Three faculty members are listed: Professor Michael Bray (Department Chair, Political Philosophy & Critical Theory, Mood-Bridwell 142A, braym@southwestern.edu, 512.863.1131), Assistant Professor Jorge M. Lizarzaburu (Political Philosophy, Latin American Philosophy, Philosophy of Biology, Mood-Bridwell 143, lizarzaj@southwestern.edu, 512.863.1038), and Assistant Professor Zinhle ka'Nobuhlaluse (Critical Philosophy of Race, Feminist Philosophies focusing on South African and African American Black Feminisms, Decolonial Philosophies and Critical Apartheid Thought, kanobuhlaluse@southwestern.edu, 512.863.1133). Note: Philosophy Club advisor Katie Howard (Visiting Assistant Professor) is not listed in this document but appears in Philosophy_Club.txt.
 - **critical_data:**
   - Michael Bray: Professor & Chair, Political Philosophy/Critical Theory, braym@southwestern.edu, 512.863.1131, Mood-Bridwell 142A
   - Jorge M. Lizarzaburu: Assistant Professor, Political Philosophy/Latin American Philosophy/Philosophy of Biology, lizarzaj@southwestern.edu, 512.863.1038, Mood-Bridwell 143
   - Zinhle ka'Nobuhlaluse: Assistant Professor, Critical Philosophy of Race/Feminist Philosophies/Decolonial Philosophies, kanobuhlaluse@southwestern.edu, 512.863.1133
   - Katie Howard: Visiting Assistant Professor (Philosophy Club advisor; contact info in Philosophy_Club.txt only)
-- **retrieval_triggers:**
-  - "who are the philosophy professors"
-  - "how do I contact Professor Bray"
-  - "who teaches Latin American philosophy"
-  - "who teaches feminist philosophy"
-  - "what is Professor Lizarzaburu's specialty"
-  - "who is the philosophy department chair"
-  - "where is the philosophy department office"
-  - "how do I email a philosophy professor"
-  - "who should I talk to about advising"
-  - "what does Professor ka'Nobuhlaluse specialize in"
 
 ---
 
 ### Notable Faculty & Student Achievements
-- **filename:** `Notable_Faculty___Student_Achievements.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** N/A (covers 2020–2026)
 - **description:** Chronological log of faculty publications, presentations, awards, and public engagements from 2020 through March 2026. Primarily documents the work of Assistant Professor Zinhle ka'Nobuhlaluse, including a Kristeller-Popkin Travel Fellowship ($4,000) from the Journal of the History of Philosophy (March 2025), presentations at major conferences (SPEP, Spindel Conference, philoSOPHIA, LAWP), publications in Simone de Beauvoir Studies and Feminist Formations, an essay in the APA Blog, and a workshop at University of Witwatersrand. Also includes: Professor Michael Bray's Crisis Point podcast episode (Sheffield/SPERI, Feb 2025) on democracy and populism, his Jacobin essay on Laclau and Mouffe (Aug 2023), Professor Phil Hopkins's multi-year consulting work with Austin Police Department (2020–2022) and related media coverage including a 60 Minutes feature, and Assistant Professor Jorge Lizarzaburu's 2023 teaching award and paper at the International Society for History, Philosophy, and Social Studies of Biology.
 - **critical_data:**
   - ka'Nobuhlaluse: Kristeller-Popkin Fellowship ($4,000, March 2025); publications in Feminist Formations special issue, Simone de Beauvoir Studies, APA Blog, Caribbean Philosophical Association blog
@@ -190,17 +91,6 @@
   - Hopkins: APD consulting (2020–2022); featured in 60 Minutes; panelist for Austin Justice Coalition, I-AMM, National Association of Social Workers; guest on The Partially Examined Life podcast
   - Lizarzaburu: Teaching Award (2022-23); paper at ISHPSSB Toronto (2023)
   - Visiting Assistant Professor Gwen Daugs: paper at APA Eastern Division 2024
-- **retrieval_triggers:**
-  - "what has the philosophy faculty published"
-  - "has a philosophy professor won any awards"
-  - "what research does Professor ka'Nobuhlaluse do"
-  - "what does Professor Bray work on"
-  - "did any philosophy faculty win a grant"
-  - "what is the Kristeller-Popkin Fellowship"
-  - "has philosophy faculty been in the news"
-  - "what conferences have philosophy professors spoken at"
-  - "what is Professor Hopkins known for"
-  - "what does the philosophy department research"
 
 ---
 
@@ -221,7 +111,7 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 | Graduation Application | "Application for Diploma" must be filed; financial holds block diploma |
 | Degree Conferral Dates | December, May, August only; Commencement once per year in May |
 
-### SU Universal Curriculum Requirements (Paideia Framework)
+### SU Universal Curriculum Requirements (General Education)
 
 - First-Year Seminar (FYS) or Advanced-Entry Seminar (AES): 4 credits
 - Languages and Cultures: through third-semester proficiency
@@ -229,7 +119,7 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 - Power and Justice (PJ) course: 1 course, 3–4 credits — **cannot be satisfied by transfer credit**
 - Exploration and Breadth: 6 courses outside the major, one from each of FA, H, NS, ScS (Part I) + one additional from two of those areas (Part II)
 
-**Note:** Philosophy courses carry the **(H) Humanities** Paideia designation and can satisfy the Humanities slot in Exploration & Breadth for non-majors. Courses 18-194 and 18-284 also carry **(PJ)** Power and Justice and **(SJ)** Social Justice designations.
+**Note:** Philosophy courses carry the **(H) Humanities** General Education designation and can satisfy the Humanities slot in Exploration & Breadth for non-majors. Courses 18-194 and 18-284 also carry **(PJ)** Power and Justice and **(SJ)** Social Justice designations.
 
 ---
 
@@ -291,7 +181,7 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 - The B.A. requires the capstone (18-914 Colloquium); the minor does not.
 - The B.A. requires 18-604 as a prerequisite for the capstone; the minor does not include this requirement.
 - The minor offers flexibility to take any philosophy courses without the research/thesis obligation.
-- Non-philosophy-major students taking philosophy courses for Paideia (H) credit are not pursuing either path and have no philosophy-specific requirements.
+- Non-philosophy-major students taking philosophy courses for General Education (H) credit are not pursuing either path and have no philosophy-specific requirements.
 - **Disambiguation needed:** If a student says "philosophy requirements" without specifying major vs. minor, always clarify which they mean.
 
 ---
@@ -310,7 +200,7 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 - **Corequisites:** None
 - **Offered:** Unknown (may repeat with change in topic)
 - **Required For:** Not listed as required; counts as elective for majors
-- **Counts As:** Introductory elective; (H) Humanities Paideia
+- **Counts As:** Introductory elective; General Education (H)
 - **Notes:** May be repeated with change in topic
 - **Source:** `Courses.txt`
 
@@ -320,7 +210,7 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Not listed as required
-- **Counts As:** Introductory; (H) Humanities Paideia
+- **Counts As:** Introductory; General Education (H)
 - **Notes:** Introduction to conceptions and practices of philosophy
 - **Source:** `Courses.txt`
 
@@ -330,7 +220,7 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Not listed as required
-- **Counts As:** Introductory; (H) Humanities Paideia; contributes to Legal Studies Certificate
+- **Counts As:** Introductory; General Education (H); contributes to Legal Studies Certificate
 - **Notes:** Covers logic, argumentation, fallacies; applicable to legal, moral, and political reasoning
 - **Source:** `Courses.txt`
 
@@ -340,7 +230,7 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Not listed as required
-- **Counts As:** Introductory; (H) Humanities Paideia; contributes to Feminist Studies and Race & Ethnicity Studies (Allied)
+- **Counts As:** Introductory; General Education (H); contributes to Feminist Studies and Race & Ethnicity Studies (Allied)
 - **Notes:** Explores ethical, religious, political, cultural dimensions of love and sex; uses diverse media formats
 - **Source:** `Courses.txt`
 
@@ -350,7 +240,7 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Not listed as required
-- **Counts As:** Introductory; (H) Humanities Paideia; contributes to Legal Studies Certificate and Spanish for Healthcare Professions Certificate
+- **Counts As:** Introductory; General Education (H); contributes to Legal Studies Certificate and Spanish for Healthcare Professions Certificate
 - **Notes:** Focuses on self-development and ethical responsibility in social contexts
 - **Source:** `Courses.txt`
 
@@ -360,7 +250,7 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Not listed as required
-- **Counts As:** Introductory; (H) (SJ) (PJ) Paideia designations; contributes to Feminist Studies and Race & Ethnicity Studies (Allied)
+- **Counts As:** Introductory; (H) (SJ) (PJ) General education designations; contributes to Feminist Studies and Race & Ethnicity Studies (Allied)
 - **Notes:** Interdisciplinary; draws on philosophy, anthropology, sociology, psychoanalysis, cultural studies
 - **Source:** `Courses.txt`
 
@@ -370,7 +260,7 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Not listed as required
-- **Counts As:** Upper-level; (H) Humanities Paideia; contributes to Economics, International Studies, Legal Studies Certificate
+- **Counts As:** Upper-level; General Education (H); contributes to Economics, International Studies, Legal Studies Certificate
 - **Notes:** Traces modern understanding of politics/economics as distinct spheres; examines Marxist, Polanyian, feminist critiques
 - **Source:** `Courses.txt`
 
@@ -380,7 +270,7 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Not listed as required
-- **Counts As:** Upper-level; (H) Humanities Paideia; contributes to Environmental Studies
+- **Counts As:** Upper-level; General Education (H); contributes to Environmental Studies
 - **Notes:** Examines philosophical/ethical/political questions raised by climate change and ecological crisis
 - **Source:** `Courses.txt`
 
@@ -390,7 +280,7 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Not listed as required
-- **Counts As:** Upper-level; (H) Humanities Paideia; contributes to International Studies, Latin American and Border Studies, Race & Ethnicity Studies (Group-Theme)
+- **Counts As:** Upper-level; General Education (H); contributes to International Studies, Latin American and Border Studies, Race & Ethnicity Studies (Group-Theme)
 - **Notes:** Surveys Andean, Nahua, Mayan, Haudenosaunee, Diné, Lakota traditions within Modernity/Coloniality/Decoloniality framework
 - **Source:** `Courses.txt`
 
@@ -400,7 +290,7 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Not listed as required
-- **Counts As:** Upper-level; (H) Humanities Paideia; contributes to International Studies, Latin American and Border Studies, Race & Ethnicity Studies (Allied)
+- **Counts As:** Upper-level; General Education (H); contributes to International Studies, Latin American and Border Studies, Race & Ethnicity Studies (Allied)
 - **Notes:** Oriented by the Haitian Revolution; traces race and human rights through abolition, civil rights, anticolonial struggles
 - **Source:** `Courses.txt`
 
@@ -410,7 +300,7 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Not listed as required
-- **Counts As:** Upper-level; (H) (SJ) (PJ) Paideia designations; contributes to International Studies, Race & Ethnicity Studies (Allied)
+- **Counts As:** Upper-level; (H) (SJ) (PJ) General education designations; contributes to International Studies, Race & Ethnicity Studies (Allied)
 - **Notes:** Covers Bolívar, Martí, Vasconcelos, Alcoff, Mariátegui, Anzaldúa, Rivera Cusicanqui, Quijano, Mignolo, Freire
 - **Source:** `Courses.txt`
 
@@ -420,7 +310,7 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Not listed as required
-- **Counts As:** Upper-level; (H) Humanities Paideia; contributes to International Studies
+- **Counts As:** Upper-level; General Education (H); contributes to International Studies
 - **Notes:** Introduction to Marxist theory from Marx to present; covers class, gender, race, political organization, alternatives to capitalism
 - **Source:** `Courses.txt`
 
@@ -430,7 +320,7 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Not listed as required
-- **Counts As:** Upper-level; (H) Humanities Paideia; contributes to Feminist Studies, Race & Ethnicity Studies (Allied)
+- **Counts As:** Upper-level; General Education (H); contributes to Feminist Studies, Race & Ethnicity Studies (Allied)
 - **Notes:** Explores psychological, phenomenological, anthropological, political, and epistemological dimensions of the self
 - **Source:** `Courses.txt`
 
@@ -440,7 +330,7 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Not listed as required
-- **Counts As:** Upper-level; (H) Humanities Paideia
+- **Counts As:** Upper-level; General Education (H)
 - **Notes:** Covers Hegel through poststructuralism; existentialism, phenomenology, psychoanalysis, standpoint epistemology
 - **Source:** `Courses.txt`
 
@@ -450,7 +340,7 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Not listed as required
-- **Counts As:** Upper-level; (H) Humanities Paideia; contributes to Feminist Studies, International Studies, Race & Ethnicity Studies (Concepts Course)
+- **Counts As:** Upper-level; General Education (H); contributes to Feminist Studies, International Studies, Race & Ethnicity Studies (Concepts Course)
 - **Notes:** Examines race as constructed category; intersections with gender, class, nationalism, imperialism
 - **Source:** `Courses.txt`
 
@@ -460,7 +350,7 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Not listed as required
-- **Counts As:** Upper-level; (H) Humanities Paideia; contributes to Feminist Studies
+- **Counts As:** Upper-level; General Education (H); contributes to Feminist Studies
 - **Notes:** Traces history of feminist ethics; covers human rights, social justice, transnational perspectives, biomedical ethics
 - **Source:** `Courses.txt`
 
@@ -470,7 +360,7 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Likely required for major (Critical Histories sequence); confirm with advisor
-- **Counts As:** Upper-level core; (H) (CRITICAL HISTORIES) Paideia designations
+- **Counts As:** Upper-level core; (H) (CRITICAL HISTORIES) General education designations
 - **Notes:** Examines interactions between individual and social identity; how societal ethos is formed and transformed by difference
 - **Source:** `Courses.txt`
 
@@ -480,7 +370,7 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Likely required for major (Critical Histories sequence); confirm with advisor
-- **Counts As:** Upper-level core; (H) (CRITICAL HISTORIES) Paideia designations
+- **Counts As:** Upper-level core; (H) (CRITICAL HISTORIES) General education designations
 - **Notes:** Focuses on conceptual categories through which humans understand the world; ontology, structure, space, time, change
 - **Source:** `Courses.txt`
 
@@ -490,7 +380,7 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Likely required for major (Critical Histories sequence); confirm with advisor
-- **Counts As:** Upper-level core; (H) (CRITICAL HISTORIES) Paideia designations
+- **Counts As:** Upper-level core; (H) (CRITICAL HISTORIES) General education designations
 - **Notes:** Epistemology course; examines how knowledge is shaped by experience, language, perception, and history
 - **Source:** `Courses.txt`
 
@@ -500,7 +390,7 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Likely required for major (Critical Histories sequence); confirm with advisor
-- **Counts As:** Upper-level core; (H) (CRITICAL HISTORIES) Paideia designations; contributes to Legal Studies Certificate
+- **Counts As:** Upper-level core; (H) (CRITICAL HISTORIES) General education designations; contributes to Legal Studies Certificate
 - **Notes:** Focuses on collective political identities, power relations, social transformation; asks how philosophy relates to justice
 - **Source:** `Courses.txt`
 
@@ -510,92 +400,11 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 - **Corequisites:** None
 - **Offered:** Every fall
 - **Required For:** B.A. in Philosophy (required of all majors, normally in their final year)
-- **Counts As:** Capstone; (H) (WA) Paideia designations
+- **Counts As:** Capstone; (H) (WA) General education designations
 - **Notes:** Collaborative workshop format; each student pursues independent research project; all students critique each other's work throughout semester; culminates in public presentation and final thesis
 - **Source:** `Courses.txt`, `High-Impact_Learning_Experiences.txt`, `Student_Research.txt`
 
 ---
-
-## SECTION 5 — TOPIC INDEX
-
-- B.A. in Philosophy overview → `Philosophy.txt`, `Courses.txt`
-- Minor in Philosophy overview → `Philosophy.txt`, `Courses.txt`
-- Philosophy department mission and values → `Philosophy.txt`
-- Department curricular strengths → `Philosophy.txt`
-- Interdisciplinary connections (Feminist Studies, Race & Ethnicity, Latin American Studies, Queer Theory, Marxism) → `Philosophy.txt`, `Courses.txt`
-- Department chair contact (Michael Bray) → `Our_Faculty.txt`
-- Contacting Professor Bray → `Our_Faculty.txt`
-- Contacting Professor Lizarzaburu → `Our_Faculty.txt`
-- Contacting Professor ka'Nobuhlaluse → `Our_Faculty.txt`
-- Contacting Philosophy Club advisor (Katie Howard) → `Philosophy_Club.txt`
-- Faculty office locations → `Our_Faculty.txt`
-- Faculty specialties and research areas → `Our_Faculty.txt`, `Notable_Faculty___Student_Achievements.txt`
-- Philosophy faculty publications and awards → `Notable_Faculty___Student_Achievements.txt`
-- Kristeller-Popkin Fellowship → `Notable_Faculty___Student_Achievements.txt`
-- A–Z Philosophy BlackList → `Philosophy.txt`
-- Philosophy Club existence → `Philosophy_Club.txt`, `High-Impact_Learning_Experiences.txt`
-- Philosophy Club meeting time → `Philosophy_Club.txt`
-- Philosophy Club meeting location → `Philosophy_Club.txt`
-- Philosophy Club advisor → `Philosophy_Club.txt`
-- Philosophy Club eligibility (open to all) → `Philosophy_Club.txt`
-- Philosophy Club format and topics → `Philosophy_Club.txt`
-- Philosophy Club backup location contact → `Philosophy_Club.txt`
-- High-impact learning experiences for philosophy majors → `High-Impact_Learning_Experiences.txt`
-- Student research in philosophy → `High-Impact_Learning_Experiences.txt`, `Student_Research.txt`
-- Capstone course (Colloquium) description → `High-Impact_Learning_Experiences.txt`, `Student_Research.txt`, `Courses.txt`
-- Capstone course number → `Courses.txt` (18-914)
-- Capstone prerequisite (18-604) → `Courses.txt`
-- Capstone format (workshop, presentations, thesis) → `Student_Research.txt`, `High-Impact_Learning_Experiences.txt`
-- Capstone offering schedule (every fall) → `Courses.txt`
-- Sample capstone research topics → `Student_Research.txt`
-- Writing-Attentive (WA) courses in philosophy → `Courses.txt` (18-914)
-- Power and Justice (PJ) courses in philosophy → `Courses.txt` (18-194, 18-284)
-- Humanities (H) Paideia designation for philosophy courses → `Courses.txt` (all courses)
-- Critical Histories designation → `Courses.txt` (18-614, 18-624, 18-634, 18-644)
-- 18-104 Selected Introductory Topics → `Courses.txt`
-- 18-114 What Is Philosophy? → `Courses.txt`
-- 18-124 Critical Thinking → `Courses.txt`
-- 18-144 Philosophy of Love & Sex → `Courses.txt`
-- 18-164 Self, Ethics, Society → `Courses.txt`
-- 18-194 Introduction to Feminist Philosophies → `Courses.txt`
-- 18-214 Politics and Economics → `Courses.txt`
-- 18-234 Environmental Philosophy → `Courses.txt`
-- 18-244 Native American Philosophies → `Courses.txt`
-- 18-254 Philosophy, Race & Revolution → `Courses.txt`
-- 18-284 Latin American Philosophy → `Courses.txt`
-- 18-314 Marxisms → `Courses.txt`
-- 18-324 The Embodied Self → `Courses.txt`
-- 18-334 19th/20th Century Philosophy → `Courses.txt`
-- 18-354 Critical Philosophy of Race → `Courses.txt`
-- 18-374 Feminist Ethics → `Courses.txt`
-- 18-614 Ethos, Identities, Differences → `Courses.txt`
-- 18-624 Being, Structure, Change → `Courses.txt`
-- 18-634 Experience, Language, Knowledge → `Courses.txt`
-- 18-644 Peoples, Power, Organization → `Courses.txt`
-- 18-914 Colloquium in Philosophy → `Courses.txt`, `Student_Research.txt`, `High-Impact_Learning_Experiences.txt`
-- Prerequisites for Critical Histories courses (18-614 through 18-644) → `Courses.txt`
-- Prerequisite for Colloquium (18-604) → `Courses.txt`
-- Courses contributing to Legal Studies Certificate → `Courses.txt` (18-124, 18-164, 18-644)
-- Courses contributing to Feminist Studies → `Courses.txt` (18-144, 18-194, 18-324, 18-354, 18-374)
-- Courses contributing to Race and Ethnicity Studies → `Courses.txt` (18-144, 18-194, 18-244, 18-254, 18-284, 18-354)
-- Courses contributing to Environmental Studies → `Courses.txt` (18-234)
-- Courses contributing to International Studies → `Courses.txt` (18-214, 18-244, 18-254, 18-284, 18-314, 18-354)
-- Courses contributing to Latin American and Border Studies → `Courses.txt` (18-244, 18-254, 18-284)
-- Courses contributing to Spanish for Healthcare Professions Certificate → `Courses.txt` (18-164)
-- Courses contributing to Economics → `Courses.txt` (18-214)
-- Graduation requirements (credit minimums, GPA) → `SU_General_Policies.txt`
-- Paideia general education requirements → `SU_General_Policies.txt`
-- Pass/D/F grading option → `SU_General_Policies.txt`
-- Academic probation and dismissal → `SU_General_Policies.txt`
-- Transfer credit policies → `SU_General_Policies.txt`
-- Study abroad credit and programs → `SU_Resources_and_Financial.txt`, `SU_General_Policies.txt`
-- Financial aid and withdrawal → `SU_Resources_and_Financial.txt`
-- Tuition and fees → `SU_Resources_and_Financial.txt`
-- SURF and research funding → `SU_Resources_and_Financial.txt`
-- Latin Honors (Cum Laude, Magna, Summa) → `SU_General_Policies.txt`
-- Departmental Honors → `SU_General_Policies.txt`
-- Disability accommodations → `SU_General_Policies.txt`
-- Double major with philosophy → `SU_General_Policies.txt`
 
 ---
 
@@ -656,9 +465,9 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 **Routing Note:** Double major policies, paired major restrictions, and credit hour implications are covered only in SU_General_Policies.txt.
 **Disambiguation Needed:** Yes — ask what the second major is, since paired majors cannot be declared as double majors
 
-**Q:** Does taking philosophy courses count toward any Paideia requirements?
+**Q:** Does taking philosophy courses count toward any General education requirements?
 **Docs:** `Courses.txt`, `SU_General_Policies.txt`
-**Routing Note:** Courses.txt shows all philosophy courses carry (H) Humanities designation; 18-194 and 18-284 carry (PJ) and (SJ); full Paideia structure is in SU_General_Policies.txt.
+**Routing Note:** Courses.txt shows all philosophy courses carry (H) Humanities designation; 18-194 and 18-284 carry (PJ) and (SJ); full General Education structure is in SU_General_Policies.txt.
 **Disambiguation Needed:** No
 
 **Q:** Which philosophy courses count toward the Power and Justice requirement?
@@ -785,11 +594,10 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
   - **What general docs must cover:** 127-credit minimum, 64-credit SU residency, last 32 in-residence, 2.000 GPA, 60% major residency, Application for Diploma process
   - **Routing instruction:** Always retrieve `SU_General_Policies.txt` alongside major requirements doc for any graduation eligibility question
 
-- **Topic:** Paideia general education requirements
+- **Topic:** General education requirements
   - **What major docs cover:** Courses.txt lists (H), (PJ), (SJ), (WA), (CRITICAL HISTORIES) designations for each course
   - **What general docs must cover:** Full structure of FYS/AES, Language & Cultures, FRA, Power and Justice, Exploration & Breadth Parts I and II, Paideia with Distinction
-  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about gen-ed, breadth requirements, or Paideia
-
+  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about gen-ed, breadth requirements, or General Education 
 - **Topic:** Pass/D/F grading option
   - **What major docs cover:** Not addressed in any philosophy document
   - **What general docs must cover:** Full Pass/D/F policy, deadlines to switch, GPA impact
@@ -903,7 +711,7 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 **When to retrieve multiple documents:**
 - Any question about the capstone: retrieve `Courses.txt` + `Student_Research.txt` + `High-Impact_Learning_Experiences.txt`
 - Any question about graduation eligibility: retrieve `Courses.txt` + `SU_General_Policies.txt`
-- Any question about Paideia credit from philosophy courses: retrieve `Courses.txt` + `SU_General_Policies.txt`
+- Any question about General Education credit from philosophy courses: retrieve `Courses.txt` + `SU_General_Policies.txt`
 - Any question about faculty research or contact: retrieve `Our_Faculty.txt` + `Notable_Faculty___Student_Achievements.txt`
 - Any question about minor requirements: retrieve `Courses.txt` + `SU_General_Policies.txt` + escalate to advisor
 - Any question about transfer credit: retrieve `SU_General_Policies.txt` + advise student to meet with philosophy advisor
@@ -934,7 +742,7 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 
 **Always retrieve `SU_General_Policies.txt` alongside major docs when:**
 - Any graduation eligibility or credit count question
-- Any Paideia / general education requirement question
+- Any general education requirement question
 - Any grading policy question (Pass/D/F, grade appeals, incomplete grades)
 - Any academic standing question (probation, dismissal, appeal)
 - Any transfer credit or credit-by-examination question

@@ -10,11 +10,7 @@
 ## SECTION 2 — DOCUMENT REGISTRY
 
 ### Clubs and Honor Societies
-- **filename:** `Clubs_and_Honor_Societies.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Describes the extracurricular and co-curricular organizations available to Computer Science students at Southwestern University. Covers the ACM Club (student chapter of the Association for Computing Machinery), UPE (Upsilon Pi Epsilon honor society), and the ACM Programming Contest team. The ACM Club meets bimonthly in the Chapman-Whitmore student lounge and hosts activities including guest speakers, game nights, and a Computing Museum. The UPE honor society requires a minimum number of computer science credit hours and a minimum overall and major GPA for undergraduate induction; specifics are not enumerated but implied to be selective. The Programming Contest team practices weekly for competitions throughout the year. Faculty contact for the programming contest is Dr. Jacob Schrum (schrum2@southwestern.edu). To receive updates, students join the su-acm Google Group through their SU email.
 - **critical_data:**
   - ACM Club meets bimonthly in Chapman-Whitmore student lounge
@@ -23,29 +19,11 @@
   - Contact for ACM Programming Contest: Dr. Jacob Schrum — schrum2@southwestern.edu
   - Students join su-acm Google Group (via SU email) for ACM updates
   - UPE hosts annual distinguished speaker and induction ceremony
-- **retrieval_triggers:**
-  - "ACM club meetings"
-  - "how do I join UPE"
-  - "honor society CS"
-  - "programming contest team"
-  - "extracurricular activities computer science"
-  - "UPE requirements"
-  - "ACM Google Group"
-  - "computing museum"
-  - "guest speakers CS department"
-  - "retro game night"
-  - "clubs for CS students"
-  - "how to get involved outside class"
-  - "Upsilon Pi Epsilon"
 
 ---
 
 ### Courses
-- **filename:** `Courses.txt`
-- **document_type:** course_info
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Lists all current and recent course offerings for the Computer Science department. Includes full descriptions, prerequisites, semester availability, and contribution to other programs (Data Analytics, Data Science, Design Thinking, Neuroscience) for 17 courses ranging from introductory (54-144, 54-184) to senior capstone (54-894). Early courses are taught in Java; upper-division courses introduce C++, Haskell/Lisp/ML, and other languages. Lab components are included in several courses (54-184, 54-284, 54-394, 54-514, 54-644). The document notes that the curriculum is traditional in its early structure and emphasizes object-oriented concepts. Includes the pass/D/F course 54-291 (Puzzling Programs), which may not count toward the major or minor but may be repeated for credit.
 - **critical_data:**
   - 54-144: Explorations in Computing — non-majors only, cannot be used for major/minor, contributes to Data Analytics/Data Science
@@ -64,34 +42,11 @@
   - 54-684: Theory of Computation — prerequisites 52-164 + 54-284
   - 54-844: Seminar in Special Topics — repeatable for credit
   - 54-894: Senior Seminar in Software Engineering — capstone, Spring only, prerequisite: 5 courses in major at 300+ level, must have completed one of 54-454/54-514/54-474; also requires Major Field Test
-- **retrieval_triggers:**
-  - "what courses does CS offer"
-  - "when is algorithms offered"
-  - "prerequisites for computer organization"
-  - "what is CS I about"
-  - "does CS II have a lab"
-  - "what language is used in algorithms"
-  - "can I repeat puzzling programs"
-  - "does explorations count toward the major"
-  - "what is the capstone course"
-  - "when can I take senior seminar"
-  - "what counts toward data analytics"
-  - "theory of computation prerequisites"
-  - "functional programming course"
-  - "database management course"
-  - "AI course requirements"
-  - "what courses are offered in fall vs spring"
-  - "discrete math prerequisites"
-  - "54-291 pass fail"
 
 ---
 
 ### Faculty
-- **filename:** `Faculty.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Lists all faculty in the Computer Science department and related mathematics faculty who teach CS-adjacent courses. Includes names, titles, specialties, email addresses, phone numbers, and office locations (all in Fondren-Jones Hall). CS faculty are Barbara M. Anthony (Lord Chair, Professor, Department Chair — approximation algorithms, network design, operations research, graph theory, algorithmic game theory), Arjun Chandrasekhar (Assistant Professor — computational biology, distributed algorithms, graph theory), and Jacob Schrum (Associate Professor — AI, evolutionary computation, neural networks, neuroevolution, procedural content generation). Math faculty listed are Alison Marr (Garey Chair, Professor of Mathematics — graph theory, graph labeling) and Kendall Richards (Professor of Mathematics — special functions, inequalities, complex analysis).
 - **critical_data:**
   - Barbara M. Anthony: anthonyb@southwestern.edu, 512.863.1448, Fondren-Jones 309 — Department Chair
@@ -99,53 +54,22 @@
   - Jacob Schrum: schrum2@southwestern.edu, 512.863.1712, Fondren-Jones 308
   - Alison Marr: marra@southwestern.edu, 512.863.1496, Fondren-Jones 305
   - Kendall Richards: richards@southwestern.edu, 512.863.1556, Fondren-Jones 202
-- **retrieval_triggers:**
-  - "who is the CS department chair"
-  - "how do I contact a CS professor"
-  - "who teaches AI"
-  - "Dr. Schrum email"
-  - "Dr. Anthony office"
-  - "CS faculty list"
-  - "who is my advisor"
-  - "professor specialties"
-  - "who do I contact about placement"
-  - "CS department phone number"
-  - "who teaches algorithms"
 
 ---
 
 ### For Current Students
-- **filename:** `For_Current_Students.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** A brief hub page for current Computer Science students listing extracurricular activities, useful links, and department awards. References UPE, ACM Chapter, and ACM Programming Contest. Lists two annual departmental awards: the Atkin Memorial Scholarship (awarded to the top junior in mathematics, computer science, or computational mathematics) and the Grogan Lord Award in Computer Science (awarded to the top senior in computer science). Also includes a link labeled "Computer Science Resources" pointing to an external page with information on competitions, careers, graduate schools, internships, organizations, and conferences.
 - **critical_data:**
   - Atkin Memorial Scholarship: awarded to top junior in math, CS, or computational mathematics
   - Grogan Lord Award in Computer Science: awarded to top senior in computer science
   - Two departmental awards given annually
   - CS Resources page links to national competitions, career info, grad school, internships
-- **retrieval_triggers:**
-  - "CS department awards"
-  - "Atkin Memorial Scholarship"
-  - "Grogan Lord Award"
-  - "scholarships for CS students"
-  - "awards for juniors"
-  - "awards for seniors"
-  - "resources for CS students"
-  - "graduate school resources"
-  - "internship resources"
-  - "career resources computer science"
 
 ---
 
 ### Majoring and Minoring
-- **filename:** `majoring_and_minoring.txt`
-- **document_type:** requirements
 - **degree_relevance:** B.A. | B.S. | Minor
-- **time_sensitive:** true
-- **catalog_year:** N/A (consult registrar for current catalog year)
 - **description:** The primary degree requirements document for all CS and Computational Mathematics degree paths at Southwestern University. Covers the B.A. in Computer Science (10 CS courses + 1 supporting math course), the B.S. in Computer Science (10 CS courses + 7 supporting science/math courses), the Minor in Computer Science (5 courses), the B.A. in Computational Mathematics (14 courses), and the B.S. in Computational Mathematics (15 courses + 4 supporting science courses). Lists every required course by number and name, elective pools, capstone requirements, and pointers to related programs (Data Science minor, Education certification, Dual Degree engineering). Both CS B.A. and B.S. share the same 10 CS core courses but differ significantly in required supporting coursework.
 - **critical_data:**
   - CS B.A.: 10 CS courses; supporting: MAT 52-164 only
@@ -158,36 +82,11 @@
   - Two additional approved upper-level CS courses required for both CS B.A. and B.S.
   - Data Science minor: 18 credits (see Data Science page)
   - Teacher certification: see Education Department
-- **retrieval_triggers:**
-  - "how many courses for CS major"
-  - "what courses are required for CS BA"
-  - "BS vs BA computer science difference"
-  - "minor in computer science requirements"
-  - "what supporting courses does BS require"
-  - "do I need chemistry for CS"
-  - "do I need calculus for CS"
-  - "what is required for computational mathematics"
-  - "upper level electives CS"
-  - "CS capstone requirement"
-  - "can I minor in CS"
-  - "how many courses to minor"
-  - "does CS require biology"
-  - "Comp Math major courses"
-  - "linear algebra required"
-  - "physics required for CS BS"
-  - "what are the two elective courses"
-  - "data science minor"
-  - "teacher certification CS"
-  - "dual degree engineering requirements"
 
 ---
 
 ### Placement Information
-- **filename:** `Placement_Information.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Describes how students are placed into CS courses based on prior experience, including AP exam credit and community college transfer credit. AP Computer Science A (score 4 or 5) earns credit for CSC 54-184 (Computer Science I). AP Computer Science Principles (score 4 or 5) earns credit for CSC 54-144 (Explorations in Computing), which does not count toward the major or minor. Students with programming experience but no AP credit are encouraged to contact Dr. Anthony and Dr. Schrum. Transfer credit equivalencies are defined for three community college courses: COSC 1336 (transfers as selected topics, does not count toward major but may place into CS II), COSC 1337 (transfers as CSC 54-184), and COSC 2336 (transfers as CSC 54-284). Non-science majors are directed to 54-144 or 54-184 as appropriate entry points.
 - **critical_data:**
   - AP CS A score 4 or 5 → credit for CSC 54-184
@@ -198,30 +97,11 @@
   - Contact: Dr. Anthony and Dr. Schrum for placement questions
   - Non-majors: Explorations in Computing (54-144) is recommended
   - Both 54-144 and 54-184 appropriate for students with no programming experience
-- **retrieval_triggers:**
-  - "AP credit for computer science"
-  - "does AP CS count toward major"
-  - "community college transfer CS"
-  - "COSC 1336 transfer credit"
-  - "COSC 1337 transfer"
-  - "what class should I start in"
-  - "I have some Java experience where do I start"
-  - "AP CS Principles credit"
-  - "AP CS A score 5"
-  - "transfer from community college CS"
-  - "no programming experience what course"
-  - "non-major intro CS course"
-  - "placement into CS II"
-  - "who to contact about placement"
 
 ---
 
 ### Resources
-- **filename:** `Resources.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** A comprehensive list of external links and opportunities relevant to CS students at Southwestern University. Covers four major categories: Meetings and Conferences (SIGCSE, Tapia Conference, Grace Hopper Celebration), Contest Announcements and Problem Archives (ACM-ICPC, Student Research Competition, FIRST Robotics), On-Campus Opportunities (King Creativity Fund for creative projects, SCOPE summer research program), and Summer Programs (NSF REU). Also includes Career and Internship resources (IBM, Google Internships, RADIANT at Los Alamos, IBM Extreme Blue), Graduate School resources (guides to PhD programs, links to top CS graduate programs), Links of Interest (ACM Crossroads, IEEE Potentials, computing research topics), and Organizations (ACM, UPE, IEEE, AnitaB.org, NCWIT, USENIX, Computing Research Association). Several resources specifically support women in computing and underrepresented groups.
 - **critical_data:**
   - King Creativity Fund: on-campus funding for creative student projects
@@ -233,23 +113,6 @@
   - NCWIT and AnitaB.org support women in CS
   - ACM Crossroads: student-focused computing magazine
   - Links to graduate program guides and top CS grad programs (UT Austin, CMU Robotics, Columbia NLP, Caltech, etc.)
-- **retrieval_triggers:**
-  - "how do I find an internship"
-  - "summer research opportunities"
-  - "NSF REU"
-  - "Google internship"
-  - "grad school advice CS"
-  - "PhD program guide"
-  - "conferences for CS students"
-  - "Grace Hopper"
-  - "Tapia conference"
-  - "women in computing resources"
-  - "King Creativity Fund"
-  - "SCOPE summer research"
-  - "IBM internship"
-  - "programming contests"
-  - "organizations for CS students"
-  - "computing research association"
 
 ---
 
@@ -700,87 +563,6 @@
 - **PHY 53-454** — Math Methods in Physical Science
 
 ---
-
-## SECTION 5 — TOPIC INDEX
-
-- B.A. in Computer Science requirements → `majoring_and_minoring.txt`
-- B.S. in Computer Science requirements → `majoring_and_minoring.txt`
-- Minor in Computer Science requirements → `majoring_and_minoring.txt`
-- B.A. in Computational Mathematics requirements → `majoring_and_minoring.txt`
-- B.S. in Computational Mathematics requirements → `majoring_and_minoring.txt`
-- Difference between CS B.A. and CS B.S. → `majoring_and_minoring.txt`
-- Supporting course requirements for CS B.S. → `majoring_and_minoring.txt`
-- Supporting course requirements for CS B.A. → `majoring_and_minoring.txt`
-- Upper-level CS elective requirements → `majoring_and_minoring.txt`, `Courses.txt`
-- Required core courses for CS major → `majoring_and_minoring.txt`
-- Calculus requirement for CS → `majoring_and_minoring.txt`
-- Linear algebra requirement → `majoring_and_minoring.txt`
-- Biology requirement for CS BS → `majoring_and_minoring.txt`
-- Chemistry requirement for CS BS → `majoring_and_minoring.txt`
-- Physics requirement for CS BS → `majoring_and_minoring.txt`
-- Senior capstone requirement → `majoring_and_minoring.txt`, `Courses.txt`
-- CSC 54-894 prerequisites and registration → `Courses.txt`, `majoring_and_minoring.txt`
-- Major Field Test → `Courses.txt`
-- When to take senior seminar → `majoring_and_minoring.txt`, `Courses.txt`
-- CSC 54-184 Computer Science I → `Courses.txt`, `majoring_and_minoring.txt`, `Placement_Information.txt`
-- CSC 54-284 Computer Science II → `Courses.txt`, `majoring_and_minoring.txt`, `Placement_Information.txt`
-- CSC 54-384 Discrete Mathematics → `Courses.txt`, `majoring_and_minoring.txt`
-- CSC 54-394 Computer Organization → `Courses.txt`, `majoring_and_minoring.txt`
-- CSC 54-454 Algorithms → `Courses.txt`, `majoring_and_minoring.txt`
-- CSC 54-474 Programming Languages → `Courses.txt`, `majoring_and_minoring.txt`
-- CSC 54-644 Computer Systems → `Courses.txt`, `majoring_and_minoring.txt`
-- CSC 54-424 Artificial Intelligence → `Courses.txt`
-- CSC 54-514 Database Management → `Courses.txt`, `majoring_and_minoring.txt`
-- CSC 54-534 Functional Programming → `Courses.txt`
-- CSC 54-684 Theory of Computation → `Courses.txt`
-- CSC 54-414 Operations Research → `Courses.txt`, `majoring_and_minoring.txt`
-- CSC 54-524 / MAT 52-524 Numerical Analysis → `Courses.txt`, `majoring_and_minoring.txt`
-- CSC 54-844 Special Topics Seminar → `Courses.txt`
-- CSC 54-291 Puzzling Programs (pass/fail, repeatable) → `Courses.txt`
-- CSC 54-144 Explorations in Computing → `Courses.txt`, `Placement_Information.txt`
-- Course offerings by semester (Fall vs Spring) → `Courses.txt`
-- Courses with lab components → `Courses.txt`
-- Prerequisite chain for Programming Languages (54-474) → `Courses.txt`
-- Prerequisite chain for Computer Systems (54-644) → `Courses.txt`
-- Prerequisite chain for Discrete Mathematics (54-384) → `Courses.txt`
-- AP Computer Science A credit → `Placement_Information.txt`
-- AP Computer Science Principles credit → `Placement_Information.txt`
-- Community college COSC 1336 transfer credit → `Placement_Information.txt`
-- Community college COSC 1337 transfer credit → `Placement_Information.txt`
-- Community college COSC 2336 transfer credit → `Placement_Information.txt`
-- Placement into CS II from transfer or AP credit → `Placement_Information.txt`
-- Student with Java experience, where to start → `Placement_Information.txt`
-- Non-major introductory course → `Placement_Information.txt`, `Courses.txt`
-- Who to contact about course placement → `Placement_Information.txt`, `Faculty.txt`
-- Department faculty and contact information → `Faculty.txt`
-- Department Chair contact → `Faculty.txt`
-- Dr. Anthony contact and office → `Faculty.txt`
-- Dr. Schrum contact and office → `Faculty.txt`
-- Dr. Chandrasekhar contact and office → `Faculty.txt`
-- Faculty research specialties → `Faculty.txt`
-- ACM Club membership and meetings → `Clubs_and_Honor_Societies.txt`, `For_Current_Students.txt`
-- UPE honor society induction requirements → `Clubs_and_Honor_Societies.txt`
-- ACM Programming Contest team → `Clubs_and_Honor_Societies.txt`, `For_Current_Students.txt`
-- Extracurricular activities for CS students → `For_Current_Students.txt`, `Clubs_and_Honor_Societies.txt`
-- Atkin Memorial Scholarship → `For_Current_Students.txt`
-- Grogan Lord Award → `For_Current_Students.txt`
-- Department awards and scholarships → `For_Current_Students.txt`
-- Internship opportunities → `Resources.txt`
-- Summer research (SCOPE, NSF REU) → `Resources.txt`
-- Graduate school and PhD program resources → `Resources.txt`
-- Conferences for CS students (Grace Hopper, Tapia, SIGCSE) → `Resources.txt`
-- King Creativity Fund → `Resources.txt`
-- Organizations for CS students → `Resources.txt`
-- Resources for women in computing → `Resources.txt`
-- Computing competitions (ACM-ICPC, FIRST Robotics) → `Resources.txt`
-- Data Science minor → `majoring_and_minoring.txt`
-- Teacher certification in CS or math → `majoring_and_minoring.txt`
-- Dual degree / engineering program → `majoring_and_minoring.txt`
-- Computational Mathematics major overview → `majoring_and_minoring.txt`
-- Capstone options for Computational Mathematics → `majoring_and_minoring.txt`, `Courses.txt`
-- Courses that count toward Data Analytics / Data Science → `Courses.txt`
-- Courses that count toward Neuroscience program → `Courses.txt`
-- Courses that count toward Design Thinking → `Courses.txt`
 
 ---
 

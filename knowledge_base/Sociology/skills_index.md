@@ -16,11 +16,7 @@ This index covers the Sociology major and minor within the Sociology & Anthropol
 ## SECTION 2 — DOCUMENT REGISTRY
 
 ### Sociology Major and Minor Requirements
-- **filename:** `Sociology.txt`
-- **document_type:** requirements
 - **degree_relevance:** B.A., Minor
-- **time_sensitive:** true
-- **catalog_year:** 2025-2026
 - **description:** The primary requirements document for the Sociology major and minor. Defines the B.A. in Sociology as eight courses with a minimum of 30 credits. Lists the seven specifically required courses: SOC34-114 Introduction to Sociology, ANT35-104 Introduction to Cultural Anthropology, SOC34-314 Research Methods (recommended sophomore year, must precede senior year), SOC34-344 Sociological Theory (recommended junior year, may be taken sophomore year for study abroad flexibility, must precede senior year), SOC34-394 Sociological Research Practicum (spring of junior year), SOC34-964 Senior Research Seminar/Capstone (fall of senior year), plus two additional courses in or contributing to sociology (at least one upper level, one may be upper-level Anthropology). Required supporting course: MAT52-114 Introduction to Statistics. Specifies that SOC34-314, SOC34-344, SOC34-394, and SOC34-964 must all be taken at Southwestern. Defines Minor in Sociology as five courses (minimum 18 credits): SOC34-114 plus four additional courses, three above introductory level; ANT35-104 can count toward the minor. Explains course numbering: 100-level = introductory, 200-700 = upper level with most requiring prerequisites, 900 = capstone/tutorial/independent study/internship/honors. Recommends academic internship for students interested in graduate school, social work, or public health.
 - **critical_data:**
   - B.A.: 8 courses, minimum 30 credits
@@ -35,31 +31,11 @@ This index covers the Sociology major and minor within the Sociology & Anthropol
   - SOC34-344 Sociological Theory: recommended junior year; may take sophomore to enable study abroad
   - Academic internship strongly recommended for grad school, social work, or public health tracks
   - Two elective courses required: at least one upper level; one may be upper-level Anthropology
-- **retrieval_triggers:**
-  - "sociology major requirements"
-  - "how many credits for sociology major"
-  - "sociology minor requirements"
-  - "what courses do I need for sociology"
-  - "can I transfer in my sociology credits"
-  - "what order should I take sociology courses"
-  - "do I need statistics for sociology"
-  - "what is the sociology capstone"
-  - "when do I take research methods"
-  - "when do I take sociological theory"
-  - "what is the research practicum"
-  - "can an anthropology course count toward the sociology major"
-  - "do I need to take intro to cultural anthropology"
-  - "sociology courses that must be taken at SU"
-  - "what electives count for sociology"
 
 ---
 
 ### Sociology & Anthropology Department Overview
-- **filename:** `Sociology___Anthropology.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** High-level overview of the Sociology & Anthropology Department. Describes the department's interdisciplinary approach: students study how social and cultural groups shape human experience, examining individual, interactional, and structural patterns of behavior and unpacking assumptions about gender, race, ethnicity, class, and religion. A distinctive feature is that every major conducts original research or collaborates with faculty research programs, with opportunities to present at professional conferences and publish in scholarly journals. Describes Sociology major activities (qualitative and quantitative research; recent topics: racialized experiences of French-born North Africans in France, elementary school teachers' views on campus safety). Notes alumni career paths: museum studies, law, social work, public health, medicine, sustainable development, nonprofit, government, education. Features a Fulbright-awarded alumna (Amiel Padayhag '20, Anthropology/Feminist Studies). Department Chair is Maria Lowe, Professor of Sociology.
 - **critical_data:**
   - Every major conducts original research or collaborates with faculty
@@ -67,23 +43,11 @@ This index covers the Sociology major and minor within the Sociology & Anthropol
   - Career paths: law, social work, public health, medicine, nonprofit, government, education, museum studies, sustainable development, consulting
   - Fulbright alumni: Amiel Padayhag '20 (Anthropology/Feminist Studies — Philippines)
   - Department Chair: Maria Lowe (Professor of Sociology)
-- **retrieval_triggers:**
-  - "what is the sociology department like at SU"
-  - "what can I do with a sociology degree"
-  - "sociology and anthropology department overview"
-  - "do sociology students do research"
-  - "sociology careers"
-  - "sociology alumni"
-  - "is sociology interdisciplinary at SU"
 
 ---
 
 ### Sociology Course Descriptions
-- **filename:** `Courses.txt`
-- **document_type:** course_info
 - **degree_relevance:** B.A., Minor
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Lists current and recent sociology course offerings with full descriptions and key metadata. Covers: SOC34-114 Introduction to Sociology (every semester, no prerequisite; ScS, SJ, PJ; contributes to Anthropology and Spanish for Healthcare Professions Certificate); SOC34-214 Christianity & Identity in U.S. Society (prerequisite SOC34-114; ScS; contributes to Feminist Studies and Race and Ethnicity Studies); SOC34-234 Sociology of Gender (prerequisite SOC34-114 or Feminist Studies 04-104; ScS, SJ, PJ; contributes to Feminist Studies, Race and Ethnicity Studies, Spanish for Healthcare Professions Certificate); SOC34-264 Racial and Ethnic Perspectives (prerequisite SOC34-114; ScS, SJ, PJ; contributes to Feminist Studies, Race and Ethnicity Studies, Legal Studies Certificate, Spanish for Healthcare Professions Certificate); SOC34-284 Sociology of the Family (prerequisite SOC34-114; ScS; contributes to Feminist Studies, Race and Ethnicity Studies, Legal Studies Certificate, Spanish for Healthcare Professions Certificate); SOC34-314 Research Methods (every fall; prerequisite SOC34-114, MAT52-114, sociology minor or major; WA, ScS; uses SPSS or Stata); SOC34-344 Sociological Theory (every spring; prerequisite SOC34-114 and sociology minor or major; ScS); SOC34-964 Sociology Capstone Seminar (every fall; prerequisite SOC34-314, SOC34-344, sociology major; WA, ScS; qualitative or mixed methods research). Notes this is not an exhaustive list and directs students to the course catalog for updates.
 - **critical_data:**
   - SOC34-114: every semester; no prerequisites; ScS, SJ, PJ
@@ -94,33 +58,13 @@ This index covers the Sociology major and minor within the Sociology & Anthropol
   - SOC34-314: every fall; prerequisites SOC34-114 + MAT52-114 + declared major/minor; WA, ScS; SPSS or Stata
   - SOC34-344: every spring; prerequisites SOC34-114 + declared major/minor; ScS
   - SOC34-964: every fall; prerequisites SOC34-314 + SOC34-344 + declared sociology major; WA, ScS; qualitative or mixed methods
-  - Multiple courses carry SJ and PJ Paideia designations
+  - Multiple courses carry SJ and PJ General education designations
   - Several courses contribute to Feminist Studies, Race and Ethnicity Studies, Legal Studies Certificate, Spanish for Healthcare Professions Certificate
-- **retrieval_triggers:**
-  - "what prerequisites does research methods have"
-  - "when is sociological theory offered"
-  - "when is research methods offered"
-  - "sociology of gender prerequisites"
-  - "SOC34-114 description"
-  - "SOC34-314 prerequisites"
-  - "SOC34-344 when offered"
-  - "SOC34-964 prerequisites"
-  - "sociology capstone description"
-  - "what Paideia credit does intro to sociology fulfill"
-  - "sociology courses with SJ credit"
-  - "does sociology of gender have a prerequisite"
-  - "what software is used in research methods"
-  - "courses that count toward feminist studies"
-  - "sociology courses for pre-law or legal studies"
 
 ---
 
 ### For Current Students (Research and Opportunity Overview)
-- **filename:** `For_Current_Students.txt`
-- **document_type:** advising
 - **degree_relevance:** B.A., Minor
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Describes research enrichment opportunities for current sociology and anthropology students. Faculty-student summer collaborative research groups have operated for at least five years; participating students typically receive summer campus housing, a stipend, and funds to travel to a professional conference to present research. National Science Foundation Research Experience for Undergraduates (REU): past sociology majors completed the Demography REU at UT; past anthropology majors completed the Cultural Anthropology REU at UNT; Texas A&M currently offers a sociology REU. The Inter-University Consortium for Political and Social Research (ICPSR) in Ann Arbor, MI offers a summer program in quantitative methods. The Health Management and Policy Summer Enrichment Program at University of Michigan offers internships for students interested in eliminating health disparities. The American Sociological Association Undergraduate Honors Program introduces students to graduate school and sociology careers at the annual August conference. Students should ask a faculty member about all options.
 - **critical_data:**
   - Faculty-student summer research: includes campus housing, stipend, and conference travel funds
@@ -129,27 +73,11 @@ This index covers the Sociology major and minor within the Sociology & Anthropol
   - U of Michigan Health Management and Policy Summer Enrichment Program (health disparities)
   - ASA Undergraduate Honors Program: annual August conference
   - Contact: any department faculty member
-- **retrieval_triggers:**
-  - "summer research opportunities sociology"
-  - "faculty student research sociology"
-  - "NSF REU sociology"
-  - "summer stipend sociology"
-  - "ICPSR summer program"
-  - "health disparities internship"
-  - "ASA honors program undergraduate"
-  - "summer housing for research"
-  - "quantitative methods summer program"
-  - "how do I get involved in research"
-  - "can I get paid to do research over the summer"
 
 ---
 
 ### Internships
-- **filename:** `Internships.txt`
-- **document_type:** resources
 - **degree_relevance:** B.A., Minor
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Describes academic and summer internship options for sociology and anthropology students. Students have interned in adult and juvenile probation, drug rehabilitation centers, the Attorney General's Office, and with Texas politicians. Academic internships require contacting the Director of Internships in the Office of Career Services at least one semester prior to the planned internship and submitting a resume and completing all paperwork with Career Services. Sociology.txt additionally notes academic internships are strongly recommended for students interested in graduate school, social work, or public health careers; internship credits are 900-level courses.
 - **critical_data:**
   - Past internship settings: adult and juvenile probation, drug rehab centers, Attorney General's Office, Texas politicians
@@ -157,25 +85,11 @@ This index covers the Sociology major and minor within the Sociology & Anthropol
   - Must submit resume and complete all Career Services paperwork before internship begins
   - Internship credits are 900-level and do NOT count toward major requirements
   - Strongly recommended for pre-grad-school, social work, and public health tracks
-- **retrieval_triggers:**
-  - "sociology internship"
-  - "how do I get an internship in sociology"
-  - "academic internship sociology"
-  - "who do I contact for sociology internship"
-  - "internship for social work track"
-  - "internship for pre-grad school"
-  - "career services sociology"
-  - "internship in criminal justice"
-  - "probation internship sociology"
 
 ---
 
 ### Graduate School Guidance
-- **filename:** `Graduate_School.txt`
-- **document_type:** advising
 - **degree_relevance:** B.A.
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Guidance on applying to graduate school in sociology and anthropology. Recommends starting early; PhD program applications are typically due December or January. Some programs have two deadlines (admissions and financial aid); recommends submitting before the earlier deadline. Advises applying to at least five schools. Typical application components: transcripts, GRE scores, three letters of recommendation, personal statement/statement of purpose, application fees, writing sample, financial aid application; optional CV. Encourages discussing interest with department professors. Includes ranked lists: Anthropology (NRC 1993 data — Michigan, Chicago, Berkeley, Harvard, Arizona, Penn, Stanford, Yale, UCLA, UCSD, Florida, UT-Austin, NYU, Illinois, UC Davis); Sociology (2024 US News top 100, available via link in document).
 - **critical_data:**
   - PhD application deadlines: typically December or January
@@ -184,27 +98,11 @@ This index covers the Sociology major and minor within the Sociology & Anthropol
   - Top Anthropology programs: Michigan, Chicago, Berkeley, Harvard, Arizona, Penn, Stanford, Yale/UCLA/UCSD (tied)
   - Top Sociology programs: 2024 US News rankings (link in document)
   - Discuss applications with department professors
-- **retrieval_triggers:**
-  - "how do I apply to grad school in sociology"
-  - "PhD application deadline sociology"
-  - "GRE for sociology grad school"
-  - "letters of recommendation grad school"
-  - "top sociology graduate programs"
-  - "best anthropology PhD programs"
-  - "how many grad schools should I apply to"
-  - "personal statement graduate school sociology"
-  - "how competitive is sociology grad school"
-  - "what do I need for grad school application"
-  - "when should I start applying to grad school"
 
 ---
 
 ### After Southwestern (Careers)
-- **filename:** `After_Southwestern.txt`
-- **document_type:** advising
 - **degree_relevance:** B.A., Minor
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Describes transferable skills and career paths for sociology and anthropology graduates. Core skills: critical thinking, quantitative and qualitative data collection and analysis, understanding human interactions/group behaviors/social organization, and understanding cultural similarities and differences. Employment settings: social work and criminal justice; management, administration, and personnel work; marketing research, public relations, retailing, and consulting. Advises maintaining an ongoing relationship with the Office of Career Services for career articulation, resume building, and job searching. Mentions the ASA "Careers in Sociology" website as a resource. Alumni are available for networking via the Alumni Directory.
 - **critical_data:**
   - Key skills: critical thinking, quantitative/qualitative analysis, understanding human behavior and cultural differences
@@ -212,24 +110,11 @@ This index covers the Sociology major and minor within the Sociology & Anthropol
   - Resource: Office of Career Services (ongoing relationship recommended)
   - Resource: ASA "Careers in Sociology" website
   - Resource: Alumni Directory for alumni networking
-- **retrieval_triggers:**
-  - "what jobs can I get with a sociology degree"
-  - "sociology careers after graduation"
-  - "is sociology good for law school"
-  - "sociology and social work careers"
-  - "career services sociology"
-  - "alumni networking sociology"
-  - "what skills does sociology give you"
-  - "sociology and criminal justice careers"
 
 ---
 
 ### Our Faculty
-- **filename:** `Our_Faculty.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** 2025-2026
 - **description:** Lists all current Sociology & Anthropology faculty with names, titles, specialties, and contact information. Sociology faculty: Maria R. Lowe (Professor and Chair; racialized spaces, neighborhood surveillance, racial attitudes, campus climate, qualitative/mixed methods; lowem@southwestern.edu; 512.863.1936), Amanda Hernandez (Assistant Professor; gender, feminism, sexism, religion, US Christianity, whiteness, race/ethnicity; hernande3@southwestern.edu; 512.863.1357), Adriana Ponce (Assistant Professor; community engagement, feminism, intersectionality, family, gender, qualitative methods; poncea@southwestern.edu; 512.863.1328). Anthropology faculty: Melissa Johnson (Professor; nature/more-than-human, race/racism/CRT, environment, conservation, social theory, environmental history, tourism, gender; areas: Belize, Caribbean, US-Mexico Borderlands, Central Texas; meljohn@southwestern.edu; 512.863.1406; 204 Mood Bridwell), Naomi Reed (Assistant Professor; critical whiteness studies, anthropology of whiteness, African diaspora studies, educational anthropology, cultural heritage, race in the American South; reedn@southwestern.edu; 512.863.1663; Mundy Cubicle 36 temporary).
 - **critical_data:**
   - Department Chair: Maria R. Lowe — lowem@southwestern.edu — 512.863.1936
@@ -238,26 +123,11 @@ This index covers the Sociology major and minor within the Sociology & Anthropol
   - Anthropology faculty: Johnson, Reed
   - Melissa Johnson office: 204 Mood Bridwell — 512.863.1406
   - Naomi Reed office: Mundy Cubicle 36 (temporary) — 512.863.1663
-- **retrieval_triggers:**
-  - "sociology faculty contact"
-  - "who is the department chair"
-  - "Maria Lowe contact"
-  - "Amanda Hernandez contact"
-  - "Adriana Ponce contact"
-  - "Melissa Johnson contact"
-  - "Naomi Reed contact"
-  - "who teaches sociology at SU"
-  - "who should I talk to about my major"
-  - "advising contact sociology"
 
 ---
 
 ### OASIS (Student Organization)
-- **filename:** `OASIS.txt`
-- **document_type:** resources
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** 2024-2025
 - **description:** Describes the Organization of Anthropology and Sociology Interested Students (OASIS). Open to both students and faculty. Activities include a fall picnic, end-of-year party, alumni panels (careers and graduate school), and community-building meetings. Co-Presidents 2024-2025: Emma French (Anthropology) and Chelsey Rocha (Sociology). Students notified via department listserv and Instagram. For more information, contact the department chair.
 - **critical_data:**
   - Full name: Organization of Anthropology and Sociology Interested Students
@@ -265,22 +135,11 @@ This index covers the Sociology major and minor within the Sociology & Anthropol
   - Activities: fall picnic, end-of-year party, alumni panels, community meetings
   - Notification: department listserv and Instagram
   - Contact: department chair (Maria Lowe)
-- **retrieval_triggers:**
-  - "OASIS sociology club"
-  - "sociology student organization"
-  - "how do I get involved in the department"
-  - "sociology events"
-  - "department student organization sociology"
-  - "alumni panel sociology"
 
 ---
 
 ### Alpha Kappa Delta (National Sociology Honor Society)
-- **filename:** `Alpha_Kappa_Delta.txt`
-- **document_type:** resources
 - **degree_relevance:** B.A., Minor
-- **time_sensitive:** true
-- **catalog_year:** 2025-2026
 - **description:** Describes the Texas Alpha Theta chapter of Alpha Kappa Delta (AKD), the national sociology honorary society. Eligibility: junior or senior standing, declared sociology major or minor, minimum 16 hours of graded sociology credit at SU, minimum overall GPA of 3.6, minimum sociology GPA of 3.8. Eligible students invited to membership each January. Faculty sponsor: Dr. Maria Lowe; also Drs. Hernandez and Ponce are AKD members. Lists recent inductee cohorts by name across multiple years. The AKD national organization also hosts an undergraduate paper competition (separate from local induction); SU students have won first place (Elena Clark '24), second place (Samantha Pentecost '19), and third place (Veronica Ciotti '19).
 - **critical_data:**
   - Organization: Alpha Kappa Delta (AKD), national sociology honor society — Texas Alpha Theta chapter
@@ -288,62 +147,30 @@ This index covers the Sociology major and minor within the Sociology & Anthropol
   - Invitations: each January
   - Faculty sponsor: Dr. Maria Lowe; also Drs. Hernandez and Ponce
   - AKD national undergraduate paper competition: separate from local chapter induction
-- **retrieval_triggers:**
-  - "Alpha Kappa Delta sociology"
-  - "AKD honor society"
-  - "sociology honor society requirements"
-  - "how do I get into AKD"
-  - "sociology honors GPA requirement"
-  - "national sociology honor society"
-  - "undergraduate paper competition sociology"
-  - "AKD eligibility"
 
 ---
 
 ### Departmental Awards
-- **filename:** `Departmental_Awards.txt`
-- **document_type:** general
 - **degree_relevance:** B.A.
-- **time_sensitive:** true
-- **catalog_year:** 2025-2026
 - **description:** Documents the department's two annual student excellence awards. The Frank E. Luksa Award in Sociology has been given since 1984 to the most outstanding sociology student each year (most recent: Aris Morgan 2026, Chelsey Rocha 2025, Brigit Reese 2024, ThuyMi Phung 2023, Luisa Rivera 2022). The Gwen Kennedy Neville Award in Anthropology has been given since 2002, renamed in 2006 (most recent: Paresa Mosavi 2022). Selection criteria: GPA and embodiment of department core priorities — participating in faculty-student research, presenting at regional/national conferences, and contributing to campus organizations connected to the department. Complete lists of all recipients for both awards are included.
 - **critical_data:**
   - Frank E. Luksa Award: sociology; since 1984; annual; 2026: Aris Morgan; 2025: Chelsey Rocha; 2024: Brigit Reese; 2023: ThuyMi Phung
   - Gwen Kennedy Neville Award: anthropology; since 2002 (renamed 2006); most recent: Paresa Mosavi (2022)
   - Selection criteria: GPA + faculty-student research + conference presentations + campus organization involvement
-- **retrieval_triggers:**
-  - "sociology departmental award"
-  - "Frank Luksa award"
-  - "Gwen Kennedy Neville award"
-  - "how are sociology awards chosen"
-  - "outstanding sociology student award"
-  - "who won sociology award"
 
 ---
 
 ### Student Research and Awards Overview
-- **filename:** `Student_Research_and_Awards.txt`
-- **document_type:** general
 - **degree_relevance:** B.A.
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Brief overview page pointing to the department's student research and recognition resources. States that sociology and anthropology students are active researchers involved in all aspects of research and presentation. Directs students to documents covering: sociology capstone projects, conference presentations, departmental awards (Frank E. Luksa and Gwen Kennedy Neville), and national/regional student paper competitions. This is a navigation hub document rather than a primary content source.
 - **critical_data:**
   - Categories of student recognition: capstone projects, conference presentations, departmental awards, national/regional paper competitions
   - Content is contained in specific sub-documents
-- **retrieval_triggers:**
-  - "student research sociology"
-  - "sociology student awards"
-  - "what research do sociology students do"
 
 ---
 
 ### Sociology Capstone and Honors Projects
-- **filename:** `Sociology_Capstone___Honors_Projects.txt`
-- **document_type:** resources
 - **degree_relevance:** B.A.
-- **time_sensitive:** true
-- **catalog_year:** 2025-2026
 - **description:** Describes the format and recent examples of the Sociology Senior Capstone presentations. Each December, sociology seniors formally present capstone projects to the university community. Presentations are typically held in the Prothro Room in the library. Each presentation is approximately 15 minutes followed by a brief Q&A session. Fall 2025 presentations: Rylan Hastings ("More Than a Game: American Attitudes about How Sports can Strengthen and Fracture Unity"), Aris Morgan ("The Perception of The West Under Threat: American Attitudes on China"), Greta Nelson ("They don't belong here: Understanding American Opposition to Undocumented Immigration").
 - **critical_data:**
   - Capstone presentations: December; formal public event
@@ -351,22 +178,11 @@ This index covers the Sociology major and minor within the Sociology & Anthropol
   - Duration: approximately 15 minutes + Q&A per student
   - Fall 2025 presenters: Rylan Hastings, Aris Morgan, Greta Nelson
   - Capstone topics are quantitative sociological studies of contemporary American attitudes
-- **retrieval_triggers:**
-  - "sociology capstone presentation"
-  - "when are capstone presentations"
-  - "where are capstone presentations held"
-  - "what is the format of the sociology capstone"
-  - "how long is the capstone presentation"
-  - "fall capstone sociology"
 
 ---
 
 ### Sociology Conference Presentations
-- **filename:** `Sociology_Conference_Presentations.txt`
-- **document_type:** general
 - **degree_relevance:** B.A.
-- **time_sensitive:** true
-- **catalog_year:** 2025-2026
 - **description:** Documents student conference presentations at regional and national conferences, described as a professional differentiator and benefit for graduate/law school/job applications. Presentations typically supported through Fleming and department funds. Covers presentations at: ASA Honors Program (Chicago 2025, Montreal 2024, online 2021); Southern Sociological Society (Charlotte 2025, New Orleans 2024, Myrtle Beach 2023); Population Association of America (New Orleans 2023). Recent student presenters include Isabella Bahamon (2025 Odum Award), Emily Dimiceli, Catherine Angell, Mary Kate McAdams, Chelsey Rocha, Elena Clark (2024 AKD first place), Carson Maxfield, Brigit Reese, ThuyMi Phung, Angel Ferrales, and Katherine Holcomb. The ASA Undergraduate Honors Program selects students to present at the annual August ASA conference.
 - **critical_data:**
   - Conference travel typically funded via Fleming funds and department funds
@@ -375,47 +191,22 @@ This index covers the Sociology major and minor within the Sociology & Anthropol
   - 2025 Odum Award winner: Isabella Bahamon
   - 2024 AKD first place winner: Elena Clark
   - Presenting at conferences is listed as a differentiating factor for graduate/law school/job applications
-- **retrieval_triggers:**
-  - "sociology conference presentations"
-  - "how do students present at conferences"
-  - "ASA honors program"
-  - "Southern Sociological Society conference"
-  - "how is conference travel funded"
-  - "Odum award sociology"
-  - "how does presenting at conferences help me"
-  - "can undergraduates present at national conferences"
 
 ---
 
 ### Sociology National and Regional Awards
-- **filename:** `Sociology_National_and_Regional_Awards.txt`
-- **document_type:** general
 - **degree_relevance:** B.A.
-- **time_sensitive:** true
-- **catalog_year:** 2025-2026
 - **description:** Documents national and regional undergraduate paper awards won by SU sociology majors since the department began nominating students in 2006. Award competitions include: the AKD national undergraduate paper competition (first, second, third place); the Southern Sociological Society's Odum Award for best undergraduate paper; and the ASA Joe Feagin Distinguished Undergraduate Paper Award. Named winners: Isabella Bahamon (2025 Odum, SSS), Elena Clark (2024 AKD first place), Brigit Reese (2024 Odum), ThuyMi Phung (2023 Odum), Madeline Carrola (2019 Mid-South Sociological Association outstanding paper), Savannah Scott (2019 ASA Joe Feagin Award), Samantha Pentecost (2019 AKD second place), Veronica Ciotti (2019 AKD third place), Esteffany Luna (2018 Odum), Emily Dimiceli (2019 ASA Joe Feagin honorable mention). Papers originate from the capstone seminar (SOC34-964).
 - **critical_data:**
   - Department began nominating students in 2006
   - Major awards: AKD national paper competition, SSS Odum Award, ASA Joe Feagin Distinguished Undergraduate Paper Award
   - 2025 Odum: Isabella Bahamon; 2024 AKD First: Elena Clark; 2024 Odum: Brigit Reese; 2023 Odum: ThuyMi Phung; 2018 Odum: Esteffany Luna
   - All award-winning papers originate from the SOC34-964 capstone seminar
-- **retrieval_triggers:**
-  - "sociology paper awards"
-  - "Odum award"
-  - "AKD paper competition"
-  - "national paper award sociology"
-  - "has anyone from SU won a sociology award"
-  - "Joe Feagin award sociology"
-  - "undergraduate paper competition"
 
 ---
 
 ### Notable Faculty and Student Achievements
-- **filename:** `Notable_Faculty___Student_Achievements.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** 2025-2026
 - **description:** Monthly running log of faculty and student research activities from January 2020 through March 2026. Key highlights: Maria Lowe winning the 2026 SSS Distinguished Contribution to Teaching Award; Lowe, ThuyMi Phung '23, and Katherine Holcomb '22 publishing in Sociological Forum (December 2025); three sociology seniors presenting capstone research at the Eastern Sociological Society in Washington, D.C. (March 2026); Amanda Hernandez's 2024 book Intersectional Identities of Christian Women in the U.S. (Lexington Books); Naomi Reed and journalist Brittney Martin winning a 2024 Gracie Award for their podcast "Sugar Land"; Emily Dimiceli '25 receiving ASA Joe Feagin Award honorable mention (August 2025); ThuyMi Phung '23 publishing a peer-reviewed article with Lowe in the Journal of Integrated Social Sciences (January 2025). Documents extensive faculty-student collaborative SURF presentations at national conferences, with students receiving housing, stipends, and travel funding. Demonstrates that capstone papers regularly lead to conference presentations, national awards, and peer-reviewed journal publication.
 - **critical_data:**
   - Maria Lowe: 2026 SSS Distinguished Contribution to Teaching Award
@@ -425,36 +216,15 @@ This index covers the Sociology major and minor within the Sociology & Anthropol
   - Faculty-student co-authored publications continue after student graduation (e.g., ThuyMi Phung '23)
   - Capstone papers can lead to conference presentations, national awards, and journal publication
   - Eastern Sociological Society (March 2026): Hastings, Morgan, Nelson presented capstone research
-- **retrieval_triggers:**
-  - "faculty achievements sociology"
-  - "student research publications"
-  - "SURF program sociology"
-  - "summer research fellowship"
-  - "Amanda Hernandez book"
-  - "Maria Lowe awards"
-  - "Naomi Reed Sugar Land"
-  - "recent sociology department news"
-  - "faculty publications sociology"
-  - "can undergraduates publish in sociology"
 
 ---
 
 ### Links (Professional Associations and Data Sources)
-- **filename:** `Links.txt`
-- **document_type:** resources
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Lists professional associations and data sources for sociology and anthropology students. Sociology professional associations: American Sociological Association (ASA), Southern Sociological Society. Anthropology professional associations: American Anthropological Association, Latin American Studies Association, Society for Applied Anthropology. Data sources: Bureau of Justice Statistics, Inter-University Consortium for Political and Social Research (ICPSR), National Center for Education Statistics, National Center for Health Statistics, U.S. Census Bureau.
 - **critical_data:**
   - Sociology professional associations: ASA, Southern Sociological Society
   - Data sources: BJS, ICPSR, NCES, NCHS, U.S. Census Bureau
-- **retrieval_triggers:**
-  - "sociology professional associations"
-  - "how do I join ASA"
-  - "sociology data sources"
-  - "ICPSR data"
-  - "Bureau of Justice Statistics"
 
 ---
 
@@ -475,11 +245,11 @@ This index covers the Sociology major and minor within the Sociology & Anthropol
 
 *Source: `SU_General_Policies.txt`*
 
-### SU Paideia Curriculum (All Degree Paths)
+### SU General Education Curriculum (All Degree Paths)
 
 Required for all students: FYS/AES (4 credits), Languages and Cultures (through third-semester proficiency), FRA (1 credit), Power and Justice course (3-4 credits; cannot be transfer credit), Exploration and Breadth (6 courses: Part I — one each from FA, H, NS, ScS; Part II — one additional from two of the four areas).
 
-*Paideia-relevant sociology courses:*
+*General Education-relevant sociology courses:*
 - SOC34-114: ScS, SJ, **PJ** — may satisfy the Power and Justice requirement
 - SOC34-234: ScS, SJ, **PJ**
 - SOC34-264: ScS, SJ, **PJ**
@@ -573,7 +343,7 @@ Required for all students: FYS/AES (4 credits), Languages and Cultures (through 
 - **Prerequisites:** None
 - **Offered:** Every semester
 - **Required For:** B.A. in Sociology (required core); Minor in Sociology (required)
-- **Counts As:** Required core course; Paideia ScS, SJ, PJ; contributes to Anthropology Certificate and Spanish for Healthcare Professions Certificate
+- **Counts As:** Required core course; Gen Ed ScS, SJ, PJ; contributes to Anthropology Certificate and Spanish for Healthcare Professions Certificate
 - **Notes:** Gateway course; prerequisite for virtually all other sociology courses (SOC34-214, SOC34-234, SOC34-264, SOC34-284, SOC34-314, SOC34-344); must be taken early; only course in the department offered every semester
 - **Source:** `Courses.txt`, `Sociology.txt`
 
@@ -591,7 +361,7 @@ Required for all students: FYS/AES (4 credits), Languages and Cultures (through 
 - **Prerequisites:** None stated
 - **Offered:** Unknown
 - **Required For:** B.A. in Sociology (required supporting course; prerequisite for SOC34-314)
-- **Counts As:** Required supporting course; may count toward Paideia natural science or quantitative areas (verify with advisor)
+- **Counts As:** Required supporting course; may count toward General Education natural science or quantitative areas (verify with advisor)
 - **Notes:** Must be completed before SOC34-314; take as early as possible; not listed as one of the 8 sociology major courses
 - **Source:** `Sociology.txt`, `Courses.txt`
 
@@ -600,7 +370,7 @@ Required for all students: FYS/AES (4 credits), Languages and Cultures (through 
 - **Prerequisites:** SOC34-114
 - **Offered:** Unknown
 - **Required For:** Not specifically required; eligible upper-level elective
-- **Counts As:** Upper-level sociology elective; Paideia ScS; contributes to Feminist Studies, Race and Ethnicity Studies
+- **Counts As:** Upper-level sociology elective; Gen Ed ScS; contributes to Feminist Studies, Race and Ethnicity Studies
 - **Notes:** Examines Christianity at intersection of gender, sexuality, race, class in U.S. context
 - **Source:** `Courses.txt`
 
@@ -609,7 +379,7 @@ Required for all students: FYS/AES (4 credits), Languages and Cultures (through 
 - **Prerequisites:** SOC34-114 OR Feminist Studies 04-104
 - **Offered:** Unknown
 - **Required For:** Not specifically required; eligible upper-level elective
-- **Counts As:** Upper-level sociology elective; Paideia ScS, SJ, PJ; contributes to Feminist Studies, Race and Ethnicity Studies, Spanish for Healthcare Professions Certificate
+- **Counts As:** Upper-level sociology elective; Gen Ed ScS, SJ, PJ; contributes to Feminist Studies, Race and Ethnicity Studies, Spanish for Healthcare Professions Certificate
 - **Notes:** Alternative prerequisite via Feminist Studies 04-104; covers social construction of gender, intersectionality, feminism, patriarchy, masculinity, misogyny
 - **Source:** `Courses.txt`
 
@@ -618,7 +388,7 @@ Required for all students: FYS/AES (4 credits), Languages and Cultures (through 
 - **Prerequisites:** SOC34-114
 - **Offered:** Unknown
 - **Required For:** Not specifically required; eligible upper-level elective
-- **Counts As:** Upper-level sociology elective; Paideia ScS, SJ, PJ; contributes to Feminist Studies, Race and Ethnicity Studies (Concepts Course), Legal Studies Certificate, Spanish for Healthcare Professions Certificate
+- **Counts As:** Upper-level sociology elective; Gen Ed ScS, SJ, PJ; contributes to Feminist Studies, Race and Ethnicity Studies (Concepts Course), Legal Studies Certificate, Spanish for Healthcare Professions Certificate
 - **Notes:** Examines race and ethnicity at individual, interactional, and institutional levels
 - **Source:** `Courses.txt`
 
@@ -627,7 +397,7 @@ Required for all students: FYS/AES (4 credits), Languages and Cultures (through 
 - **Prerequisites:** SOC34-114
 - **Offered:** Unknown
 - **Required For:** Not specifically required; eligible upper-level elective
-- **Counts As:** Upper-level sociology elective; Paideia ScS; contributes to Feminist Studies, Race and Ethnicity Studies, Legal Studies Certificate, Spanish for Healthcare Professions Certificate
+- **Counts As:** Upper-level sociology elective; Gen Ed ScS; contributes to Feminist Studies, Race and Ethnicity Studies, Legal Studies Certificate, Spanish for Healthcare Professions Certificate
 - **Notes:** Inequality in U.S. families; gender, race, class, sexuality; family history and contemporary structures
 - **Source:** `Courses.txt`
 
@@ -636,7 +406,7 @@ Required for all students: FYS/AES (4 credits), Languages and Cultures (through 
 - **Prerequisites:** SOC34-114, MAT52-114, and declared sociology minor or major
 - **Offered:** Every fall
 - **Required For:** B.A. in Sociology (required core); prerequisite for SOC34-964
-- **Counts As:** Required core; Paideia WA, ScS; **must be taken at SU**
+- **Counts As:** Required core; General Education WA, ScS; **must be taken at SU**
 - **Notes:** Quantitative data analysis using SPSS or Stata; students write a quantitative paper using an existing dataset; recommended sophomore year; MUST be completed before senior year; cannot be fulfilled by transfer credit; WA designation means it satisfies Writing Across the Curriculum
 - **Source:** `Courses.txt`, `Sociology.txt`
 
@@ -645,7 +415,7 @@ Required for all students: FYS/AES (4 credits), Languages and Cultures (through 
 - **Prerequisites:** SOC34-114 and declared sociology minor or major
 - **Offered:** Every spring
 - **Required For:** B.A. in Sociology (required core); prerequisite for SOC34-964
-- **Counts As:** Required core; Paideia ScS; **must be taken at SU**
+- **Counts As:** Required core; Gen Ed ScS; **must be taken at SU**
 - **Notes:** Classical (mid-19th century) to contemporary sociological theorists; MUST be completed before senior year; may be taken sophomore year to facilitate study abroad plans junior year; cannot be fulfilled by transfer credit
 - **Source:** `Courses.txt`, `Sociology.txt`
 
@@ -663,100 +433,11 @@ Required for all students: FYS/AES (4 credits), Languages and Cultures (through 
 - **Prerequisites:** SOC34-314, SOC34-344, and declared sociology major
 - **Offered:** Every fall
 - **Required For:** B.A. in Sociology (required capstone); not available to minors
-- **Counts As:** Required capstone; Paideia WA, ScS; **must be taken at SU**
+- **Counts As:** Required capstone; General Education WA, ScS; **must be taken at SU**
 - **Notes:** Qualitative or mixed methods research project; students collect/analyze data, apply sociological literature, write research paper, and present findings to campus community in December (Prothro Room, library; ~15 minutes + Q&A); must be taken fall of senior year; cannot be fulfilled by transfer credit; papers frequently lead to national conference presentations, paper competition entries, and peer-reviewed publication
 - **Source:** `Courses.txt`, `Sociology.txt`, `Sociology_Capstone___Honors_Projects.txt`
 
 ---
-
-## SECTION 5 — TOPIC INDEX
-
-- Sociology B.A. full requirements → `Sociology.txt`
-- Sociology Minor requirements → `Sociology.txt`
-- Difference between B.A. and Minor → `Sociology.txt`
-- Total credits required for sociology major (minimum 30, 8 courses) → `Sociology.txt`, `SU_General_Policies.txt`
-- Courses that MUST be taken at SU (SOC34-314, 344, 394, 964) → `Sociology.txt`
-- SOC34-114 Introduction to Sociology (description, scheduling, prerequisites, Paideia) → `Courses.txt`, `Sociology.txt`
-- ANT35-104 Introduction to Cultural Anthropology (required for major) → `Sociology.txt`
-- MAT52-114 Introduction to Statistics (required supporting course, when to take) → `Sociology.txt`, `Courses.txt`
-- SOC34-314 Research Methods (prerequisites, fall only, must-take-at-SU, SPSS/Stata) → `Courses.txt`, `Sociology.txt`
-- SOC34-344 Sociological Theory (prerequisites, spring only, sophomore option for study abroad, must-take-at-SU) → `Courses.txt`, `Sociology.txt`
-- SOC34-394 Sociological Research Practicum (spring of junior year, must-take-at-SU) → `Sociology.txt`
-- SOC34-964 Senior Research Seminar / Capstone (prerequisites, fall only, format, must-take-at-SU) → `Courses.txt`, `Sociology.txt`, `Sociology_Capstone___Honors_Projects.txt`
-- SOC34-214 Christianity and Identity (prerequisites, Paideia, certificate contributions) → `Courses.txt`
-- SOC34-234 Sociology of Gender (prerequisites — alternative path via Feminist Studies, Paideia) → `Courses.txt`
-- SOC34-264 Racial and Ethnic Perspectives (prerequisites, Paideia, certificate contributions) → `Courses.txt`
-- SOC34-284 Sociology of the Family (prerequisites, certificate contributions) → `Courses.txt`
-- Course sequence / what order to take sociology courses → `Sociology.txt`, `Courses.txt`
-- When to take Research Methods (sophomore year recommended; fall only) → `Sociology.txt`
-- When to take Sociological Theory (junior; may take sophomore for study abroad; spring only) → `Sociology.txt`
-- When to take Research Practicum (spring of junior year) → `Sociology.txt`
-- When to take Capstone (fall of senior year; missing it means waiting a year) → `Sociology.txt`
-- Two elective courses required for the major → `Sociology.txt`
-- Can an anthropology course count as a sociology elective → `Sociology.txt`
-- Statistics requirement for sociology major → `Sociology.txt`, `Courses.txt`
-- Software used in Research Methods (SPSS, Stata) → `Courses.txt`
-- Declared major or minor required before taking SOC34-314 or SOC34-344 → `Courses.txt`
-- Capstone presentation format (December, Prothro Room, 15 minutes, Q&A) → `Sociology_Capstone___Honors_Projects.txt`
-- Fall 2025 capstone topics (Hastings, Morgan, Nelson) → `Sociology_Capstone___Honors_Projects.txt`
-- Whether capstone is quantitative or qualitative → `Courses.txt`
-- Sociology courses carrying WA Paideia designation → `Courses.txt`
-- Sociology courses carrying PJ Paideia designation → `Courses.txt`
-- Sociology courses carrying SJ Paideia designation → `Courses.txt`
-- Sociology courses contributing to Legal Studies Certificate → `Courses.txt`
-- Sociology courses contributing to Feminist Studies → `Courses.txt`
-- Sociology courses contributing to Race and Ethnicity Studies → `Courses.txt`
-- Sociology courses contributing to Spanish for Healthcare Professions Certificate → `Courses.txt`
-- Academic internships for sociology students (process, placements) → `Internships.txt`, `Sociology.txt`
-- Contacting Career Services for internships (at least one semester in advance) → `Internships.txt`
-- Internship recommendation for pre-grad-school, social work, public health → `Sociology.txt`
-- Internship credits are 900-level and do not count toward major → `Sociology.txt`
-- Faculty-student summer research (SURF/FSP) — housing, stipend, conference travel → `For_Current_Students.txt`, `Notable_Faculty___Student_Achievements.txt`
-- NSF REU opportunities for sociology students (UT Demography, Texas A&M) → `For_Current_Students.txt`
-- ICPSR summer quantitative methods program → `For_Current_Students.txt`, `Links.txt`
-- ASA Undergraduate Honors Program → `For_Current_Students.txt`, `Sociology_Conference_Presentations.txt`
-- University of Michigan Health Management summer program → `For_Current_Students.txt`
-- Student conference presentations (how funded, what conferences, how to participate) → `Sociology_Conference_Presentations.txt`
-- Southern Sociological Society conference → `Sociology_Conference_Presentations.txt`, `Links.txt`
-- ASA annual conference → `Sociology_Conference_Presentations.txt`, `Links.txt`
-- Odum Award for best undergraduate paper (SSS) → `Sociology_National_and_Regional_Awards.txt`
-- AKD national undergraduate paper competition → `Sociology_National_and_Regional_Awards.txt`, `Alpha_Kappa_Delta.txt`
-- ASA Joe Feagin Distinguished Undergraduate Paper Award → `Sociology_National_and_Regional_Awards.txt`, `Notable_Faculty___Student_Achievements.txt`
-- Alpha Kappa Delta honor society eligibility and GPA requirements → `Alpha_Kappa_Delta.txt`
-- AKD — junior/senior standing, 16 SU credit hours, 3.6 overall GPA, 3.8 sociology GPA → `Alpha_Kappa_Delta.txt`
-- AKD invitation timing (January each year) → `Alpha_Kappa_Delta.txt`
-- AKD faculty sponsor (Maria Lowe; also Hernandez and Ponce) → `Alpha_Kappa_Delta.txt`
-- Frank E. Luksa Award in Sociology (criteria, recipients) → `Departmental_Awards.txt`
-- Gwen Kennedy Neville Award in Anthropology (criteria, recipients) → `Departmental_Awards.txt`
-- Departmental award selection criteria (GPA + research + conferences + organizations) → `Departmental_Awards.txt`
-- OASIS student organization (how to join, activities, leadership) → `OASIS.txt`
-- Career paths for sociology graduates → `After_Southwestern.txt`, `Sociology___Anthropology.txt`
-- Office of Career Services for sociology majors → `After_Southwestern.txt`
-- Alumni networking → `After_Southwestern.txt`
-- Graduate school application process and timeline → `Graduate_School.txt`
-- PhD application deadlines (December/January) → `Graduate_School.txt`
-- Top graduate programs in sociology (US News 2024) and anthropology (NRC 1993) → `Graduate_School.txt`
-- GRE and application materials for grad school → `Graduate_School.txt`
-- Apply to at least five graduate schools → `Graduate_School.txt`
-- Faculty contact information → `Our_Faculty.txt`
-- Department Chair contact (Maria Lowe — lowem@southwestern.edu — 512.863.1936) → `Our_Faculty.txt`
-- Matching with faculty research mentors → `Our_Faculty.txt`, `Notable_Faculty___Student_Achievements.txt`
-- Maria Lowe 2026 SSS Distinguished Teaching Award → `Notable_Faculty___Student_Achievements.txt`
-- Amanda Hernandez 2024 book publication → `Notable_Faculty___Student_Achievements.txt`
-- Naomi Reed 2024 Gracie Award → `Notable_Faculty___Student_Achievements.txt`
-- Faculty-student co-authored journal publications → `Notable_Faculty___Student_Achievements.txt`
-- Can a capstone paper be published → `Notable_Faculty___Student_Achievements.txt`, `Sociology_National_and_Regional_Awards.txt`
-- Study abroad and sociology degree sequencing (take Theory sophomore year) → `Sociology.txt`
-- Study abroad program options and funding → `SU_Resources_and_Financial.txt`
-- Professional associations for sociology students → `Links.txt`
-- Data sources for sociology research → `Links.txt`
-- Graduation requirements (127 credits, GPA, residency) → `Sociology.txt`, `SU_General_Policies.txt`
-- Transfer credit policy for sociology (four courses cannot be transferred) → `Sociology.txt`, `SU_General_Policies.txt`
-- Paideia requirements and which sociology courses satisfy them → `Courses.txt`, `SU_General_Policies.txt`
-- Academic probation and dismissal → `SU_General_Policies.txt`
-- Pass/D/F grading option in sociology → `SU_General_Policies.txt`
-- Financial aid and withdrawal impact → `SU_Resources_and_Financial.txt`
-- SURF formal application and funding details → `SU_Resources_and_Financial.txt`, `For_Current_Students.txt`
 
 ---
 
@@ -867,9 +548,9 @@ Required for all students: FYS/AES (4 credits), Languages and Cultures (through 
 **Routing Note:** Sociology.txt does not restrict double majors; general policies govern paired major restrictions and overlap rules; psychology + sociology is referenced in Notable Achievements as a valid combination.
 **Disambiguation Needed:** Yes — clarify intended second major to check for paired major restrictions via SU_General_Policies.txt.
 
-**Q:** Does Research Methods satisfy any Paideia requirement?
+**Q:** Does Research Methods satisfy any General education requirement?
 **Docs:** `Courses.txt`, `SU_General_Policies.txt`
-**Routing Note:** SOC34-314 carries WA and ScS Paideia designations; General Policies defines what WA and ScS mean in the Paideia framework.
+**Routing Note:** SOC34-314 carries WA and ScS General education designations; General Policies defines what WA and ScS mean in the General education framework.
 **Disambiguation Needed:** No.
 
 **Q:** What courses count toward the Legal Studies Certificate?
@@ -902,9 +583,9 @@ Required for all students: FYS/AES (4 credits), Languages and Cultures (through 
 **Routing Note:** Contact Director of Internships in Career Services at least one semester in advance; submit resume and complete all paperwork; past placements include probation offices, AG's office, drug rehab, Texas politicians.
 **Disambiguation Needed:** No.
 
-**Q:** Can I take Sociology of Gender to satisfy the Power and Justice Paideia requirement?
+**Q:** Can I take Sociology of Gender to satisfy the Power and Justice General education requirement?
 **Docs:** `Courses.txt`, `SU_General_Policies.txt`
-**Routing Note:** SOC34-234 carries the PJ Paideia designation; General Policies defines PJ requirements; PJ cannot be satisfied by transfer credit.
+**Routing Note:** SOC34-234 carries the PJ General Education designation; General Policies defines PJ requirements; PJ cannot be satisfied by transfer credit.
 **Disambiguation Needed:** No.
 
 **Q:** I'm a transfer student. Will my intro sociology course from my previous school count?
@@ -932,10 +613,10 @@ Required for all students: FYS/AES (4 credits), Languages and Cultures (through 
 **Routing Note:** Document links to 2024 US News top 100 sociology programs; includes full NRC-ranked anthropology list.
 **Disambiguation Needed:** No.
 
-**Q:** Can I use a sociology course to satisfy a Paideia social science breadth requirement?
+**Q:** Can I use a sociology course to satisfy a General Education social science breadth requirement?
 **Docs:** `Courses.txt`, `SU_General_Policies.txt`
-**Routing Note:** Multiple sociology courses carry the ScS designation; SOC34-114, SOC34-214, SOC34-234, SOC34-264, SOC34-284, SOC34-314, SOC34-344, and SOC34-964 all carry ScS; confirm with General Policies whether a major course can satisfy a Paideia breadth requirement.
-**Disambiguation Needed:** No — but note that Paideia breadth courses must be outside the major; confirm with General Policies and advisor.
+**Routing Note:** Multiple sociology courses carry the ScS designation; SOC34-114, SOC34-214, SOC34-234, SOC34-264, SOC34-284, SOC34-314, SOC34-344, and SOC34-964 all carry ScS; confirm with General Policies whether a major course can satisfy a General education breadth requirement.
+**Disambiguation Needed:** No — but note that General education breadth courses must be outside the major; confirm with General Policies and advisor.
 
 ---
 
@@ -946,10 +627,10 @@ Required for all students: FYS/AES (4 credits), Languages and Cultures (through 
   - **What general docs must cover:** 127-credit minimum, 64-credit SU residency, last 32 in-residence, 2.000 GPA minimums, 60% major residency rule, Application for Diploma process
   - **Routing instruction:** Always retrieve `SU_General_Policies.txt` alongside `Sociology.txt` for any graduation eligibility question
 
-- **Topic:** Paideia general education requirements
-  - **What major docs cover:** Specific Paideia designations for sociology courses: SOC34-114 (ScS, SJ, PJ), SOC34-234 (ScS, SJ, PJ), SOC34-264 (ScS, SJ, PJ), SOC34-284 (ScS), SOC34-214 (ScS), SOC34-314 (WA, ScS), SOC34-344 (ScS), SOC34-964 (WA, ScS)
+- **Topic:** General education requirements
+  - **What major docs cover:** Specific General education designations for sociology courses: SOC34-114 (ScS, SJ, PJ), SOC34-234 (ScS, SJ, PJ), SOC34-264 (ScS, SJ, PJ), SOC34-284 (ScS), SOC34-214 (ScS), SOC34-314 (WA, ScS), SOC34-344 (ScS), SOC34-964 (WA, ScS)
   - **What general docs must cover:** Full FYS/AES, Language & Cultures, FRA, Power and Justice structure (including whether major courses can satisfy PJ breadth), Exploration & Breadth Parts I and II, Paideia with Distinction option
-  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about gen-ed, breadth, or whether a sociology course satisfies a Paideia requirement
+  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about gen-ed, breadth, or whether a sociology course satisfies a General education requirement
 
 - **Topic:** Pass/D/F grading option
   - **What major docs cover:** Not addressed
@@ -1070,7 +751,7 @@ Required for all students: FYS/AES (4 credits), Languages and Cultures (through 
 **Default document for broad major questions:** `Sociology.txt`
 
 **When to retrieve multiple documents:**
-- Any question about a specific course: retrieve `Sociology.txt` (to confirm if required) AND `Courses.txt` (for description, prerequisites, Paideia designations)
+- Any question about a specific course: retrieve `Sociology.txt` (to confirm if required) AND `Courses.txt` (for description, prerequisites, General education designations)
 - Any graduation requirement question: retrieve `Sociology.txt` AND `SU_General_Policies.txt`
 - Any study abroad + major sequence question: retrieve `Sociology.txt` AND `SU_Resources_and_Financial.txt`
 - Any internship question: retrieve `Internships.txt` AND `Sociology.txt`
@@ -1079,7 +760,7 @@ Required for all students: FYS/AES (4 credits), Languages and Cultures (through 
 - Any AKD question: retrieve `Alpha_Kappa_Delta.txt`; add `Sociology_National_and_Regional_Awards.txt` if about the paper competition
 - Any conference or presentation question: retrieve `Sociology_Conference_Presentations.txt` AND `For_Current_Students.txt`
 - Any capstone format question: retrieve `Sociology_Capstone___Honors_Projects.txt` AND `Courses.txt`
-- Any Paideia credit question: retrieve `Courses.txt` AND `SU_General_Policies.txt`
+- Any General Education credit question: retrieve `Courses.txt` AND `SU_General_Policies.txt`
 - Any career path question: retrieve `After_Southwestern.txt` AND `Sociology___Anthropology.txt`
 
 **Degree path disambiguation triggers:**
@@ -1098,7 +779,7 @@ Required for all students: FYS/AES (4 credits), Languages and Cultures (through 
 - OASIS student organization → `OASIS.txt`
 - National and regional paper award history → `Sociology_National_and_Regional_Awards.txt`
 - Frank E. Luksa and Gwen Kennedy Neville award history and criteria → `Departmental_Awards.txt`
-- Course prerequisites and Paideia designations → `Courses.txt`
+- Course prerequisites and General education designations → `Courses.txt`
 
 **Always escalate to human advisor:**
 - Course substitution or waiver requests (especially for must-take-at-SU courses)
@@ -1111,7 +792,7 @@ Required for all students: FYS/AES (4 credits), Languages and Cultures (through 
 
 **Always retrieve `SU_General_Policies.txt` alongside major docs when:**
 - Any graduation eligibility or total credit count question
-- Any Paideia / general education requirement question (especially whether a major course can satisfy PJ or ScS breadth)
+- Any general education requirement question (especially whether a major course can satisfy PJ or ScS breadth)
 - Any grading policy question (Pass/D/F, grade appeals, incomplete grades; note WA-designated courses may be ineligible for P/D/F)
 - Any academic standing question (probation, dismissal, appeal)
 - Any transfer credit or credit-by-examination question

@@ -11,11 +11,7 @@
 ## SECTION 2 — DOCUMENT REGISTRY
 
 ### Latin American and Border Studies — Department Overview
-- **filename:** `Latin_American_and_Border_Studies.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** This is the LABS program's main landing page. It describes LABS as an interdisciplinary program at Southwestern University in Central Texas designed to increase understanding of Latin American and Latina/o histories, cultures, languages, economies, and political forms. The program critically examines ideological borders constituting nations, states, and peoples, and emphasizes collaboration between a diverse faculty and student body pursuing both academic and activist responses. Geographic scope includes Latin America, the Caribbean, and United States borderlands. Four learning goals are stated: deep contextual understanding of cultural/historical/socio-political realities; reading/writing/oral proficiency in Spanish; applying multiple disciplinary approaches; evaluating cultural/conceptual/epistemological differences and their global influences. Students engage through academic study, civic engagement, study abroad, and interactions with faculty and visiting scholars. LABS is identified as one of the official Paideia Minors, contributing to Paideia Distinction. Program Chair is Jethro Hernández Berrones. Alumni featured: Olivia M. Travieso '07 (2023 Distinguished Professional Award). Annual event: Borderlands Symposium.
 - **critical_data:**
   - Program Chair: Jethro Hernández Berrones, Associate Professor of History
@@ -27,27 +23,11 @@
   - Annual Borderlands Symposium
   - 2025 Symposium theme: "Musica de Quilombo: Sounds of Resistance in Latin America"
   - 2026 Symposium theme: "The Movements that Connect Us"
-- **retrieval_triggers:**
-  - "what is Latin American and Border Studies"
-  - "what is the LABS program"
-  - "what does LABS focus on"
-  - "is LABS a Paideia Minor"
-  - "what are the learning goals for LABS"
-  - "who chairs the LABS program"
-  - "what is the Borderlands Symposium"
-  - "does LABS encourage study abroad"
-  - "does LABS involve civic engagement"
-  - "what careers do LABS graduates pursue"
-  - "what is Paideia Distinction"
 
 ---
 
 ### Majoring & Minoring
-- **filename:** `Majoring___Minoring.txt`
-- **document_type:** requirements
 - **degree_relevance:** Major (LABS) | Paired Major (LABS + Spanish) | Minor (LABS)
-- **time_sensitive:** true
-- **catalog_year:** N/A (check current catalog; non-listed courses may be approved by LABS chair)
 - **description:** This document defines the complete requirements for three degree paths: the LABS major (9 courses), the Paired Major in LABS and Spanish (15 courses), and the LABS minor (5 courses). The LABS major requires one introductory course (ENG10-174, HIS16-404, or PHI18-284), two advanced Spanish language/literature/culture courses from an approved list of 19 SPA15-level courses, five additional LABS courses from at least two of three areas (Humanities, Social Sciences, Fine Arts), and a capstone experience. The Paired Major adds three 200-level and three 400-level Spanish courses to the LABS requirements and uses SPA15-934 as the capstone alongside LAS06-964. The minor requires one introductory course plus four additional LABS courses from at least two areas. All majors and minors must complete a Spanish language proficiency exit exam and/or oral interview before graduation. Majors are strongly encouraged to participate in civic engagement and long-semester study abroad in a Spanish- or Portuguese-speaking country in Latin America. At least one LABS course must be Writing Attentive (WA). All capstone projects must be approved by the LABS program chair and include a paper and oral presentation on a Latin America/borderlands topic. LAS-prefix special courses (Selected Topics, Tutorial, Internship, Independent Study, Capstone, Honors) are listed with their numbered variants.
 - **critical_data:**
   - LABS major = 9 courses (1 intro + 2 Spanish + 5 LABS area courses + capstone)
@@ -69,62 +49,22 @@
   - LABS internship (LAS06-941–944): must be taken Pass/D/F
   - LABS Honors (LAS06-984): by invitation only
   - Academic internship code: LAS06-941, 942, 943, 944
-- **retrieval_triggers:**
-  - "how many courses does the LABS major require"
-  - "what are the LABS major requirements"
-  - "what is the paired major in LABS and Spanish"
-  - "how many courses is the LABS minor"
-  - "what is the introductory course for LABS"
-  - "what Spanish courses count for LABS"
-  - "what are the three areas for LABS courses"
-  - "what is the LABS capstone"
-  - "what is LAS06-964"
-  - "can I use a departmental capstone for LABS"
-  - "do I need a Spanish proficiency exam for LABS"
-  - "what is the Spanish exit exam"
-  - "does LABS require study abroad"
-  - "what is the writing attentive requirement for LABS"
-  - "can a non-listed course count toward LABS"
-  - "what is the LABS internship"
-  - "what is LAS06-984 Honors"
 
 ---
 
 ### Courses
-- **filename:** `Courses.txt`
-- **document_type:** course_info
 - **degree_relevance:** Major | Paired Major | Minor
-- **time_sensitive:** true
-- **catalog_year:** N/A
-- **description:** This document lists all courses that contribute to LABS, organized by home department. LAS-prefix courses (Selected Topics, Tutorial, Internship, Independent Study, Capstone, Honors) are listed first. Contributing departments: Anthropology (1 course), Communication Studies (1 course), Education (2 courses), English (3 courses), Environmental Studies (1 course), Feminist Studies (1 course), History (6 courses), Philosophy (3 courses), Political Science (1 course), Spanish (19 courses), Theater (1 course). Note: SPA15-364 (Cultures and Communities of Spain) and SPA15-524 (Readings in Contemporary Hispano-American Literature) appear in Courses.txt but not in the Majoring___Minoring.txt Spanish approved list — their eligibility for the major's Spanish requirement should be verified with the LABS chair. No course descriptions, prerequisites, or Paideia designations are included in this document; those details are in the home department's listings.
+- **description:** This document lists all courses that contribute to LABS, organized by home department. LAS-prefix courses (Selected Topics, Tutorial, Internship, Independent Study, Capstone, Honors) are listed first. Contributing departments: Anthropology (1 course), Communication Studies (1 course), Education (2 courses), English (3 courses), Environmental Studies (1 course), Feminist Studies (1 course), History (6 courses), Philosophy (3 courses), Political Science (1 course), Spanish (19 courses), Theater (1 course). Note: SPA15-364 (Cultures and Communities of Spain) and SPA15-524 (Readings in Contemporary Hispano-American Literature) appear in Courses.txt but not in the Majoring___Minoring.txt Spanish approved list — their eligibility for the major's Spanish requirement should be verified with the LABS chair. No course descriptions, prerequisites, or General education designations are included in this document; those details are in the home department's listings.
 - **critical_data:**
   - Total contributing courses listed: approximately 44 (across all departments)
   - LAS-prefix courses: Selected Topics (001-004, 301-304), Tutorial (901-904), Internship (941-944, Pass/D/F required), Independent Study (951-954), Capstone (964), Honors (984, invitation only)
   - SPA15-364 and SPA15-524 appear in Courses.txt but not in the Majoring___Minoring.txt Spanish approved list — verify with LABS chair
   - No course descriptions or prerequisites in this document — see home department catalogs
-- **retrieval_triggers:**
-  - "what courses count for LABS"
-  - "what anthropology courses count for LABS"
-  - "what history courses count for LABS"
-  - "what Spanish courses count for LABS"
-  - "what philosophy courses count for LABS"
-  - "what political science courses count for LABS"
-  - "what English courses count for LABS"
-  - "what theater courses count for LABS"
-  - "what feminist studies courses count for LABS"
-  - "what environmental studies courses count for LABS"
-  - "what education courses count for LABS"
-  - "what is the LABS academic internship"
-  - "can I do an independent study for LABS"
 
 ---
 
 ### Our Faculty
-- **filename:** `Our_Faculty.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** This document lists all core and affiliated faculty in the LABS program, organized by role. Core faculty: Jethro Hernández Berrones (Associate Professor of History, Program Chair; Modern Mexico, Latin America, Medicine, Science; hernandj@southwestern.edu, 512.863.1428, Mood-Bridwell 325) and Carlos De Oro (Christine Robertson Morenz Professor of Spanish; Contemporary Latin American Film, Literatures, Cultures; deoroc@southwestern.edu, 512.863.1625, Olin 312). Affiliated faculty (16 total) span Anthropology (Melissa Johnson), English (Sonia Marie Del Hierro), Feminist Studies (Meagan Solomon), History (Joseph E. Hower), Philosophy (Michael Bray, Jorge M. Lizarzaburu), Environmental Studies (Joshua Long), Education (Marilyn Nicol), Spanish (Noelia Cigarroa-Cooke, Abby Dings, María de los Ángeles Rodriguez Cadena, Laura Senio Blair), and Theatre (Gabriel M. Pena). Note: Jethro Hernández Berrones appears twice in the document (once as chair, once as affiliated faculty).
 - **critical_data:**
   - Program Chair: Jethro Hernández Berrones (hernandj@southwestern.edu, 512.863.1428, Mood-Bridwell 325)
@@ -136,26 +76,11 @@
   - Joshua Long: Professor of Environmental Studies; Climate Justice, Environmental Policy (jlong@southwestern.edu, Mood-Bridwell 115)
   - Gabriel M. Pena: Assistant Professor of Theatre (pena7@southwestern.edu, FAC 307)
   - Sonia Marie Del Hierro: Assistant Professor of English; Mexican American/Chicana/Latine/x literature (delhierrs@southwestern.edu)
-- **retrieval_triggers:**
-  - "who chairs the LABS program"
-  - "who are the LABS faculty"
-  - "who teaches Latin American studies"
-  - "who teaches Latin American philosophy"
-  - "who teaches Chicana feminist literature"
-  - "who teaches Latinx drama"
-  - "what is Professor De Oro's email"
-  - "who do I contact about the LABS major"
-  - "who teaches environmental studies for LABS"
-  - "who teaches Spanish for LABS"
 
 ---
 
 ### Borderlands Symposium
-- **filename:** `Borderlands_Symposium.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** N/A (2026 events)
 - **description:** This document describes the 2026 Borderlands Symposium, the annual symposium of Latin American and Border Studies. The 2026 theme is "The Movements that Connect Us." Two events are listed: an alumni panel titled "LABS Alumni Panel: Reflections after Graduation / I Wish I Had Known, I Wish I Had Done" (April 2, 4:00–5:30pm, Olin 110) and a Latin Dance Workshop sponsored by The GAME and Latinos Unidos (April 2, 6:00–8:00pm, Bishops Lounge/MCC). The 2025 Symposium theme was "Musica de Quilombo: Sounds of Resistance in Latin America."
 - **critical_data:**
   - 2026 Symposium theme: "The Movements that Connect Us"
@@ -163,14 +88,6 @@
   - April 2, 2026: LABS Alumni Panel — Olin 110, 4:00–5:30pm
   - April 2, 2026: Latin Dance Workshop — Bishops Lounge (MCC), 6:00–8:00pm (sponsored by The GAME and Latinos Unidos)
   - Symposium is annual
-- **retrieval_triggers:**
-  - "what is the Borderlands Symposium"
-  - "when is the LABS symposium"
-  - "what is the theme of the Borderlands Symposium"
-  - "is there a LABS alumni panel"
-  - "what events does LABS have"
-  - "is there a Latin dance event on campus"
-  - "what happened at the 2025 Borderlands Symposium"
 
 ---
 
@@ -191,7 +108,7 @@ Source: `SU_General_Policies.txt`
 | Graduation Application | "Application for Diploma" must be filed; financial holds block diploma |
 | Degree Conferral Dates | December, May, August; Commencement once per year in May |
 
-### SU Universal Curriculum Requirements (Paideia Framework)
+### SU Universal Curriculum Requirements (General Education)
 
 **Required for ALL B.A. students:**
 - First-Year Seminar (FYS) or Advanced-Entry Seminar (AES): 4 credits
@@ -323,7 +240,7 @@ THE72-524
 
 ## SECTION 4 — COURSE INDEX
 
-**Note:** Course descriptions, prerequisites, credit hours, and Paideia designations are not included in LABS source documents. See home department course listings for full details. Credit hours follow SU's last-digit convention where available.
+**Note:** Course descriptions, prerequisites, credit hours, and General education designations are not included in LABS source documents. See home department course listings for full details. Credit hours follow SU's last-digit convention where available.
 
 ---
 
@@ -465,85 +382,6 @@ THE72-524
 
 ---
 
-## SECTION 5 — TOPIC INDEX
-
-- What is the LABS program → `Latin_American_and_Border_Studies.txt`
-- LABS program learning goals → `Latin_American_and_Border_Studies.txt`
-- LABS as a Paideia Minor → `Latin_American_and_Border_Studies.txt`, `SU_General_Policies.txt`
-- Paideia Distinction via LABS minor → `Latin_American_and_Border_Studies.txt`, `SU_General_Policies.txt`
-- LABS major requirements → `Majoring___Minoring.txt`
-- LABS paired major requirements (LABS + Spanish) → `Majoring___Minoring.txt`
-- LABS minor requirements → `Majoring___Minoring.txt`
-- Number of courses for LABS major → `Majoring___Minoring.txt`
-- Number of courses for LABS minor → `Majoring___Minoring.txt`
-- Introductory course options (major) → `Majoring___Minoring.txt`
-- Introductory course options (minor) → `Majoring___Minoring.txt`
-- Difference between HIS16-264 and HIS16-404 in LABS → `Majoring___Minoring.txt`, `Courses.txt`
-- Spanish course requirement for LABS major → `Majoring___Minoring.txt`
-- Which Spanish courses count for LABS → `Majoring___Minoring.txt`, `Courses.txt`
-- SPA15-364 eligibility for LABS major → `Courses.txt` (verify with LABS chair — gap)
-- SPA15-524 eligibility for LABS major → `Courses.txt` (verify with LABS chair — gap)
-- Three area requirement (Humanities, Social Sciences, Fine Arts) → `Majoring___Minoring.txt`
-- What counts as Humanities area courses → `Majoring___Minoring.txt`, `Courses.txt`
-- What counts as Social Sciences area courses → `Majoring___Minoring.txt`, `Courses.txt`
-- What counts as Fine Arts area courses → `Majoring___Minoring.txt`, `Courses.txt`
-- LABS capstone (LAS06-964) → `Majoring___Minoring.txt`, `Courses.txt`
-- Can I use a departmental capstone for LABS → `Majoring___Minoring.txt`
-- LABS capstone approval process → `Majoring___Minoring.txt`
-- SPA15-934 Research Seminar for Seniors → `Majoring___Minoring.txt`
-- Spanish language proficiency exit exam → `Majoring___Minoring.txt`
-- Writing Attentive (WA) requirement for LABS → `Majoring___Minoring.txt`
-- Civic engagement in LABS → `Majoring___Minoring.txt`, `Latin_American_and_Border_Studies.txt`
-- Study abroad for LABS → `Majoring___Minoring.txt`, `Latin_American_and_Border_Studies.txt`, `SU_Resources_and_Financial.txt`
-- LABS internship (LAS06-941–944) → `Majoring___Minoring.txt`, `Courses.txt`
-- LAS internship Pass/D/F requirement → `Majoring___Minoring.txt`, `Courses.txt`
-- LABS independent study (LAS06-951–954) → `Majoring___Minoring.txt`, `Courses.txt`
-- LABS Honors (LAS06-984) → `Majoring___Minoring.txt`, `Courses.txt`
-- Non-listed courses counting toward LABS → `Majoring___Minoring.txt`
-- LAS Selected Topics courses → `Courses.txt`, `Majoring___Minoring.txt`
-- LABS program chair contact → `Our_Faculty.txt`, `Latin_American_and_Border_Studies.txt`
-- Who teaches Latin American history → `Our_Faculty.txt`
-- Who teaches Latin American Spanish/literature → `Our_Faculty.txt`
-- Who teaches Latin American philosophy → `Our_Faculty.txt`
-- Who teaches Chicana/Latina feminist studies → `Our_Faculty.txt`
-- Who teaches Latinx drama → `Our_Faculty.txt`
-- Who teaches environmental studies for LABS → `Our_Faculty.txt`
-- Borderlands Symposium → `Borderlands_Symposium.txt`, `Latin_American_and_Border_Studies.txt`
-- 2026 Borderlands Symposium theme and events → `Borderlands_Symposium.txt`
-- LABS alumni panel (April 2, 2026) → `Borderlands_Symposium.txt`
-- ANT35-244 Race, Class and Gender in the Caribbean → `Courses.txt`
-- COM75-424 Latina/o/x Communication Studies → `Courses.txt`
-- EDU40-264 Teaching Culturally and Linguistically Diverse Learners → `Courses.txt`
-- EDU40-274 Multicultural Children's Literature → `Courses.txt`
-- ENG10-174 American Lit: Borderlands → `Courses.txt`
-- ENG10-264 Chicana Literary Methods → `Courses.txt`
-- ENG10-894 Latinx Literature → `Courses.txt`
-- ENV49-214 Texas Our (?) Texas → `Courses.txt`
-- FST04-314 Latina Lesbian Literature → `Courses.txt`
-- HIS16-144 History of Colonial Latin America → `Courses.txt`
-- HIS16-154 History of Modern Latin America → `Courses.txt`
-- HIS16-264 Latin American History in Film & Literature → `Courses.txt`
-- HIS16-274 Reproductive Histories in Latin America → `Courses.txt`
-- HIS16-284 The Mexican Revolution → `Courses.txt`
-- HIS16-294 Texas History → `Courses.txt`
-- HIS16-404 Latin American History in Film & Literature → `Courses.txt`
-- PHI18-244 Native American Philosophies → `Courses.txt`
-- PHI18-254 Philosophy, Race and Revolution → `Courses.txt`
-- PHI18-284 Latin American Philosophy → `Courses.txt`
-- PSC32-184 Politics of Latin America and the Caribbean → `Courses.txt`
-- SPA15-214 through SPA15-734 (all Spanish LABS courses) → `Courses.txt`, `Majoring___Minoring.txt`
-- THE72-524 Latinx Drama → `Courses.txt`
-- Graduation requirements → `SU_General_Policies.txt`
-- Paideia general education requirements → `SU_General_Policies.txt`
-- Transfer credit rules → `SU_General_Policies.txt`
-- Study abroad programs → `SU_Resources_and_Financial.txt`, `SU_General_Policies.txt`
-- Financial aid → `SU_Resources_and_Financial.txt`
-- SURF / King Creativity Fund → `SU_Resources_and_Financial.txt`
-- Academic probation and dismissal → `SU_General_Policies.txt`
-- Pass/D/F grading option → `SU_General_Policies.txt`
-- Latin Honors and Paideia with Distinction → `SU_General_Policies.txt`, `Latin_American_and_Border_Studies.txt`
-- Paired major restrictions (cannot minor in either discipline) → `SU_General_Policies.txt`
-
 ---
 
 ## SECTION 6 — QUERY PATTERN MAP
@@ -652,9 +490,9 @@ THE72-524
   - **What general docs must cover:** 127-credit minimum, 64-credit SU residency, last 32 in-residence, 2.000 GPA, 60% major residency, Application for Diploma
   - **Routing instruction:** Always retrieve `SU_General_Policies.txt` alongside `Majoring___Minoring.txt`
 
-- **Topic:** Paideia general education requirements and Paideia Distinction
+- **Topic:** General education requirements and General Education Distinction
   - **What major docs cover:** Latin_American_and_Border_Studies.txt identifies LABS as Paideia Minor and describes Distinction pathway
-  - **What general docs must cover:** Full FYS/AES, Language & Cultures, FRA, Power and Justice, Exploration & Breadth; Paideia Distinction deadlines
+  - **What general docs must cover:** Full FYS/AES, Language & Cultures, FRA, Power and Justice, Exploration & Breadth; General Education Distinction deadlines
   - **Routing instruction:** Retrieve `SU_General_Policies.txt`; retrieve `Latin_American_and_Border_Studies.txt` for LABS Paideia Minor context
 
 - **Topic:** Pass/D/F grading option
@@ -713,7 +551,7 @@ THE72-524
   - **Reason for gap:** WA requirement stated but no list of qualifying WA courses provided in LABS documents; WA designations are set by home departments
   - **Recommended fallback:** Check home department course listings; confirm with advisor before registering
 
-- **Topic:** Course descriptions, prerequisites, credit hours, and Paideia designations for LABS-contributing courses
+- **Topic:** Course descriptions, prerequisites, credit hours, and General education designations for LABS-contributing courses
   - **Reason for gap:** Courses.txt lists course numbers and titles only; full details in home department catalogs
   - **Recommended fallback:** Direct to home department course listings in current SU catalog
 
@@ -748,13 +586,13 @@ THE72-524
 **Default document for broad major questions:** `Majoring___Minoring.txt`
 
 **When to retrieve multiple documents:**
-- What the program is, learning goals, Paideia status → `Latin_American_and_Border_Studies.txt` + `Majoring___Minoring.txt`
+- What the program is, learning goals, General Education status → `Latin_American_and_Border_Studies.txt` + `Majoring___Minoring.txt`
 - Which courses count for LABS → `Courses.txt` + `Majoring___Minoring.txt`
 - Faculty contact questions → `Our_Faculty.txt`
 - Borderlands Symposium events → `Borderlands_Symposium.txt`
 - Graduation or credit-count questions → add `SU_General_Policies.txt`
 - Study abroad questions → `SU_Resources_and_Financial.txt` + `SU_General_Policies.txt`
-- Paideia Distinction questions → `Latin_American_and_Border_Studies.txt` + `SU_General_Policies.txt`
+- General Education Distinction questions → `Latin_American_and_Border_Studies.txt` + `SU_General_Policies.txt`
 - Paired major questions → `Majoring___Minoring.txt` + `SU_General_Policies.txt` + advisor
 
 **Degree path disambiguation triggers:**
@@ -784,12 +622,12 @@ THE72-524
 
 **Always retrieve `SU_General_Policies.txt` alongside major docs when:**
 - Any graduation eligibility or credit count question
-- Any Paideia / gen-ed requirement question
+- Any general education requirement question
 - Any grading policy question (Pass/D/F, grade appeals, incomplete grades)
 - Any academic standing question (probation, dismissal, appeal)
 - Any transfer credit or credit-by-examination question
 - Any disability accommodation question
-- Any honors or Paideia Distinction question
+- Any honors or General Education Distinction question
 - Any paired major restriction question
 
 **Always retrieve `SU_Resources_and_Financial.txt` alongside major docs when:**

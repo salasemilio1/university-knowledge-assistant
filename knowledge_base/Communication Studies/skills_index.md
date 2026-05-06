@@ -10,18 +10,13 @@
 ## SECTION 2 — DOCUMENT REGISTRY
 
 ### Communication Studies Program Overview
-- **filename:** `Communication_Studies.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Provides a high-level overview of the Communication Studies department's approach and philosophy. Frames the department's core intellectual questions around how messages travel across media, how different mediums (radio, television, the Internet) shape communication, and how institutions maintain and disseminate information. Emphasizes the department's focus on the intersections of communication, culture, and identity. Describes the curriculum as multifaceted and the learning experience as intimate. States the department's goal of providing students a strong critical and theoretical understanding of how social reality is constructed and challenged through communication patterns and practices.
 - **critical_data:**
   - Core departmental questions: how messages travel, how media shape communication, how institutions manage information
   - Emphasis on intersection of communication, culture, and identity
   - Characterized as intimate learning environment
   - Goal: strong critical and theoretical understanding of social reality construction through communication
-- **retrieval_triggers:**
   - what is communication studies
   - what does the comm studies department study
   - why study communication studies
@@ -34,11 +29,7 @@
 ---
 
 ### Courses
-- **filename:** `Courses.txt`
-- **document_type:** course_info
 - **degree_relevance:** B.A., Minor
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Lists and describes all current or recent course offerings in Communication Studies. Explains the two-cognate curriculum structure: Rhetorical Studies (200–300 numbered courses) and Critical Media Studies (600–700 numbered courses), with 400–500 level courses bridging both areas. Required courses described include: COM75-134 (intro, required for major and minor, Fall/Spring), COM75-204 (Rhetorical Theory, required for major, Spring, prerequisite 75-134), COM75-604 (Critical Media Theory, required for major, Fall, prerequisite 75-134), COM75-804 (Critical/Cultural Research Methods, required for major, Fall/Spring, prerequisites 75-134/204/604), and COM75-964 (Capstone Research Seminar, required for major, Fall/Spring, prerequisites 75-134/204/604/804). Also describes elective offerings including COM75-154/594 (Public Speaking — does not count toward major or minor), and upper-level courses across both cognate areas. Notes that Special Topics (75-004, 75-304) and Independent Studies (75-95x) are available.
 - **critical_data:**
   - COM75-134: Critical/Cultural Communication Studies — required for major AND minor; offered Fall, Spring; (H)
@@ -69,7 +60,6 @@
   - COM75-964: Capstone Research Seminar — required for major; offered Fall, Spring; prerequisites: 75-134, 75-204, 75-604, 75-804; (WA); application required in spring prior to capstone year
   - Special Topics: COM75-004 and COM75-304
   - Independent Studies: COM75-95x
-- **retrieval_triggers:**
   - communication studies courses list
   - what classes do comm majors take
   - rhetorical studies courses
@@ -97,11 +87,7 @@
 ---
 
 ### Majoring and Minoring in Communication Studies
-- **filename:** `Majoring___Minoring.txt`
-- **document_type:** requirements
 - **degree_relevance:** B.A., Minor
-- **time_sensitive:** true
-- **catalog_year:** Current (no specific catalog year stated; reflects department page as of 2026)
 - **description:** Specifies the official requirements for the Communication Studies major (8 courses) and minor (5 courses). Describes the curriculum as organized around two cognate areas — Rhetorical Studies and Critical Media Studies — reflected in the course numbering system (100 = introductory; 200–300 = Rhetorical Studies; 400–500 = bridge; 600–700 = Critical Media Studies; 900 = capstone/tutorials/honors/internships). For the major, five courses are specified (COM75-134, 204, 604, 804, 964) plus three additional COM courses with at least two at upper level. For the minor, COM75-134 is required plus four additional COM courses with at least three at upper level. Notes restrictions on internship (max one counts toward requirements, 4 credits) and independent study (max one counts toward requirements, 4 credits) for both major and minor. Directs students to the Education Department for teacher certification.
 - **critical_data:**
   - Major: 8 courses total
@@ -116,7 +102,6 @@
   - COM75-804 described as usually taken junior year; writing intensive; includes multiple drafts and peer critique
   - COM75-964 (Capstone): application must be submitted in spring prior to capstone year
   - Teacher certification: see Education Department
-- **retrieval_triggers:**
   - communication studies major requirements
   - communication studies minor requirements
   - how many courses to major in comm
@@ -137,17 +122,12 @@
 ---
 
 ### For Current Students
-- **filename:** `For_Current_Students.txt`
-- **document_type:** advising
 - **degree_relevance:** B.A., Minor
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** A brief page directing current and prospective Communication Studies majors to two key departmental advising documents: "Comm Studies Major at a Glance," which provides a summary of departmental course requirements and prerequisites, and "Worksheet for the Major," which students can download and fill out. Content is minimal but serves as the primary pointer to practical advising tools maintained by the department.
 - **critical_data:**
   - "Comm Studies Major at a Glance" document: summarizes course requirements and prerequisites
   - "Worksheet for the Major" document: downloadable worksheet for tracking degree progress
   - Both documents intended for prospective and current majors
-- **retrieval_triggers:**
   - comm studies major at a glance
   - worksheet for the major
   - advising documents comm studies
@@ -158,11 +138,7 @@
 ---
 
 ### Our Faculty
-- **filename:** `Our_Faculty.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** N/A
 - **description:** Lists all Communication Studies faculty with name, title, specialty, email, phone, and office location. Faculty include: Lamiyah (LB) Bahrainwala (Associate Professor and Department Chair, Anti-Muslim sentiment and feminist surveillance studies, bahrainl@southwestern.edu, 512.863.1228, Olin 307); Bob Bednar (Professor, Visual Culture/Visual Communication/Cultural Studies of Mass Media/Public Memory/Trauma Studies/Automobility/Affect Theory/Material Culture/Tourism/Landscape/Built Environment/Design & Culture/Film Theory/Environmental Studies/American Studies/Contemporary U.S. Cultural History, bednarb@southwestern.edu, 512.863.1440, Olin 119); Ash d'Harcourt (Visiting Assistant Professor, Media Industries/Digital Media Cultures/Identity Representation in Media, ashdharcourt@utexas.edu, Mood-Bridwell 105); Jaishikha Nautiyal (Assistant Professor, Critical sensory rhetorics/everyday aesthetics/queer theory/posthuman thought, nautiyalj@southwestern.edu, 512.863.1612); Valerie Renegar (Professor, Rhetorical theory and criticism/feminist movements/third wave feminism/environmental rhetoric/Kenneth Burke, renegarv@southwestern.edu, 512.863.1061, Olin 310).
 - **critical_data:**
   - Department Chair: Lamiyah (LB) Bahrainwala — bahrainl@southwestern.edu — 512.863.1228 — Olin 307
@@ -171,7 +147,6 @@
   - Jaishikha Nautiyal — Sensory rhetorics, queer theory — nautiyalj@southwestern.edu — 512.863.1612
   - Valerie Renegar — Rhetorical theory, feminist rhetoric, Kenneth Burke — renegarv@southwestern.edu — 512.863.1061 — Olin 310
   - Note: Raquel Moreira referenced in achievements doc as "Assistant Professor" in April 2025 but not listed on faculty page — may have departed; do not present as current faculty
-- **retrieval_triggers:**
   - communication studies faculty
   - who teaches comm studies
   - department chair comm studies
@@ -187,11 +162,7 @@
 ---
 
 ### Notable Faculty and Student Achievements
-- **filename:** `Notable_Faculty___Student_Achievements.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** 2020–2026 (rolling news log)
 - **description:** A chronological log of faculty publications, conference presentations, student research, and departmental news from 2020 through March 2026. Highlights include Bob Bednar's book "Road Scars" (Rowman & Littlefield, 2020), his being featured as a research source in Tulsa news (Jan 2026), and the Jesse E. Purdy Excellence in Scholarly and Creative Works Award (2021); LB Bahrainwala's publications in Women's Studies in Communication and Quarterly Journal of Speech (#1 ranked comm journal), invited talks at Arizona State University, and mentorship of student researchers at multiple Western States Communication Association conferences; Valerie Renegar's Routledge Handbook of Contemporary Feminist Rhetoric chapter (Jan 2025), international conference presentations in Croatia (April 2025), and co-authored work on GLP-1 discourse (March 2026); student capstone presentations at the 2025 and 2026 WSCA Undergraduate Scholars Research Conferences; Raquel Moreira's co-authored essay in Communication Education (April 2025); and the Mission-Driven Medicine website project based on organizational communication fieldwork at Houston Methodist Hospital (Jan 2025).
 - **critical_data:**
   - Bob Bednar: book "Road Scars" (Rowman & Littlefield, 2020); Jesse E. Purdy Excellence Award (2021); roadside memorial/trauma expertise; Organizational Communication field project at Houston Methodist
@@ -200,7 +171,6 @@
   - Student researchers presented at 2025 and 2026 WSCA Undergraduate Scholars Research Conference
   - Capstone paper examples: Chloe London Jordan '26 ("Return to Whiteness"), John Reese '26 ("Deconstructing Far-Right Rhetoric on X")
   - Mission-Driven Medicine website: Summer 2024 Organizational Communication class fieldwork at Houston Methodist
-- **retrieval_triggers:**
   - faculty research communication studies
   - what has Bob Bednar published
   - LB Bahrainwala research
@@ -231,7 +201,7 @@
 | Graduation Application | "Application for Diploma" must be filed; financial holds block diploma |
 | Degree Conferral Dates | December, May, August only; Commencement held once per year in May |
 
-### SU Universal Curriculum Requirements (Paideia Framework)
+### SU Universal Curriculum Requirements (General Education)
 
 **Required for ALL degree paths:**
 - First-Year Seminar (FYS) or Advanced-Entry Seminar (AES): 4 credits
@@ -605,79 +575,6 @@ The minor requires proportionally more free upper-level electives (3 of 4) than 
 
 ---
 
-## SECTION 5 — TOPIC INDEX
-
-- Communication Studies program overview and philosophy → `Communication_Studies.txt`
-- B.A. in Communication Studies requirements → `Majoring___Minoring.txt`
-- Communication Studies minor requirements → `Majoring___Minoring.txt`
-- How many courses for the major (8 courses) → `Majoring___Minoring.txt`
-- How many courses for the minor (5 courses) → `Majoring___Minoring.txt`
-- Two cognate areas — Rhetorical Studies and Critical Media Studies → `Majoring___Minoring.txt`, `Courses.txt`
-- Course numbering system (100/200–300/400–500/600–700/900) → `Majoring___Minoring.txt`, `Courses.txt`
-- COM75-134 — gateway course, required for major and minor, offerings → `Courses.txt`, `Majoring___Minoring.txt`
-- COM75-204 — required for major, Spring only offering, prerequisite chain → `Courses.txt`, `Majoring___Minoring.txt`
-- COM75-604 — required for major, Fall only offering, prerequisite chain → `Courses.txt`, `Majoring___Minoring.txt`
-- COM75-804 — required for major, prerequisites, writing-intensive, junior year recommendation → `Courses.txt`, `Majoring___Minoring.txt`
-- COM75-964 — capstone, all prerequisites, application deadline, Fall/Spring → `Courses.txt`, `Majoring___Minoring.txt`
-- Capstone application deadline (spring prior to capstone year) → `Majoring___Minoring.txt`, `Courses.txt`
-- COM75-154 / COM75-594 — Public Speaking does NOT count toward major or minor → `Courses.txt`
-- COM75-154 contributes to Legal Studies Certificate → `Courses.txt`
-- Internship credit limit (one, max 4 credits) toward major requirements → `Majoring___Minoring.txt`
-- Independent study credit limit (one, 4 credits) toward major requirements → `Majoring___Minoring.txt`
-- Upper-level elective requirement for major (two of three electives must be upper level) → `Majoring___Minoring.txt`
-- Upper-level elective requirement for minor (three of four electives must be upper level) → `Majoring___Minoring.txt`
-- Rhetorical Studies elective courses (200–300 level) → `Courses.txt`
-- Critical Media Studies elective courses (600–700 level) → `Courses.txt`
-- Bridge area courses (400–500 level) → `Courses.txt`
-- COM75-234 Rhetorics of Resistance → `Courses.txt`
-- COM75-244 Rhetoric of Breathing → `Courses.txt`
-- COM75-254 Understanding Power in Culture → `Courses.txt`
-- COM75-264 Feminist Rhetoric → `Courses.txt`
-- COM75-284 Rhetoric of Surveillance → `Courses.txt`
-- COM75-404 Communicating Leadership → `Courses.txt`
-- COM75-413 Travel Tourism and Communication — study abroad only → `Courses.txt`
-- COM75-424 Latina/o/x Communication Studies → `Courses.txt`
-- COM75-444 Communication and Memory → `Courses.txt`
-- COM75-454 Race Ethnicity and Communication → `Courses.txt`
-- COM75-464 Environmental Communication → `Courses.txt`
-- COM75-474 Visual/Material Communication → `Courses.txt`
-- COM75-554 Organizational Communication — field-based, Mission-Driven Medicine → `Courses.txt`, `Notable_Faculty___Student_Achievements.txt`
-- COM75-564 Gender and Communication → `Courses.txt`
-- COM75-624 Journalism → `Courses.txt`
-- COM75-634 Monsters in Popular Culture → `Courses.txt`
-- COM75-654 Muslims in the Media → `Courses.txt`
-- COM75-674 Film Studies → `Courses.txt`
-- COM75-684 Road Movies → `Courses.txt`
-- COM75-304 / COM75-004 Special Topics → `Courses.txt`
-- COM75-95x Independent Study — arrangement, limits → `Majoring___Minoring.txt`
-- Academic internship as elective credit toward major → `Majoring___Minoring.txt`
-- Courses contributing to Feminist Studies → `Courses.txt`
-- Courses contributing to Race and Ethnicity Studies → `Courses.txt`
-- Courses contributing to Latin American and Border Studies → `Courses.txt`
-- Courses contributing to Environmental Studies → `Courses.txt`
-- Courses contributing to Design Thinking → `Courses.txt`
-- Courses contributing to Business Studies → `Courses.txt`
-- Courses with (SJ) or (PJ) Power and Justice designations → `Courses.txt`
-- Courses with (WA) writing-intensive designation → `Courses.txt`
-- Study abroad course in Communication Studies (COM75-413) → `Courses.txt`
-- Full prerequisite chain for major: 134 → 204 + 604 → 804 → 964 → `Courses.txt`, `Majoring___Minoring.txt`
-- Scheduling implications of Spring-only (204) and Fall-only (604) courses → `Courses.txt`
-- Faculty contact information and specialties → `Our_Faculty.txt`
-- Department chair contact information → `Our_Faculty.txt`
-- LB Bahrainwala — research, specialty, contact → `Our_Faculty.txt`, `Notable_Faculty___Student_Achievements.txt`
-- Bob Bednar — research, publications, specialty, contact → `Our_Faculty.txt`, `Notable_Faculty___Student_Achievements.txt`
-- Valerie Renegar — research, specialty, contact → `Our_Faculty.txt`, `Notable_Faculty___Student_Achievements.txt`
-- Jaishikha Nautiyal — specialty, contact → `Our_Faculty.txt`
-- Ash d'Harcourt — specialty, visiting status, contact → `Our_Faculty.txt`
-- Student research conference opportunities (WSCA) → `Notable_Faculty___Student_Achievements.txt`
-- Capstone paper examples from previous students → `Notable_Faculty___Student_Achievements.txt`
-- Mission-Driven Medicine organizational communication project → `Notable_Faculty___Student_Achievements.txt`
-- "Road Scars" book by Bob Bednar → `Notable_Faculty___Student_Achievements.txt`
-- Advising documents — Major at a Glance, Worksheet for the Major → `For_Current_Students.txt`
-- Teacher certification in Communication Studies → `Majoring___Minoring.txt`
-- Legal Studies Certificate and COM courses → `Courses.txt`
-- Double major or minor pairings with Communication Studies → `Majoring___Minoring.txt`
-
 ---
 
 ## SECTION 6 — QUERY PATTERN MAP
@@ -807,9 +704,9 @@ The minor requires proportionally more free upper-level electives (3 of 4) than 
 **Routing Note:** COM75-413 Travel, Tourism, and Communication is offered during SU Summer Study Abroad only — not available on campus.
 **Disambiguation Needed:** No
 
-**Q:** What Paideia designations do comm courses carry?
+**Q:** What General education designations do comm courses carry?
 **Docs:** `Courses.txt`, `SU_General_Policies.txt`
-**Routing Note:** Many COM courses carry (H) for Humanities breadth; several carry (SJ)/(PJ); SU_General_Policies covers full Paideia framework.
+**Routing Note:** Many COM courses carry (H) for Humanities breadth; several carry (SJ)/(PJ); SU_General_Policies covers full General education framework.
 **Disambiguation Needed:** No
 
 **Q:** I'm a junior and just decided to add the minor. Is it too late?
@@ -856,10 +753,10 @@ The minor requires proportionally more free upper-level electives (3 of 4) than 
   - **What general docs must cover:** 127-credit minimum, 64-credit SU residency, last 32 in-residence, 2.000 GPA, 60% major residency, Application for Diploma process
   - **Routing instruction:** Always retrieve `SU_General_Policies.txt` alongside `Majoring___Minoring.txt` for any graduation eligibility question
 
-- **Topic:** Paideia general education requirements
+- **Topic:** General education requirements
   - **What major docs cover:** Which COM courses carry (H), (WA), (SJ), (PJ) designations
   - **What general docs must cover:** Full structure of FYS/AES, Language & Cultures, FRA, Power and Justice, Exploration & Breadth Parts I and II, Paideia with Distinction
-  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any gen-ed, breadth, or Paideia question
+  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any general education or breadth requirement question
 
 - **Topic:** Power and Justice (PJ) course requirement
   - **What major docs cover:** Multiple COM courses carry (PJ): COM75-234, 264, 284, 444, 454, 564, 654
@@ -979,7 +876,7 @@ The minor requires proportionally more free upper-level electives (3 of 4) than 
 - Any question about a specific required course's content, prerequisites, or scheduling: retrieve `Courses.txt` + `Majoring___Minoring.txt`
 - Any graduation eligibility question: retrieve `Majoring___Minoring.txt` + `SU_General_Policies.txt`
 - Any capstone question: retrieve `Majoring___Minoring.txt` + `Courses.txt`
-- Any question combining major requirements with Paideia/gen-ed: retrieve `Majoring___Minoring.txt` + `SU_General_Policies.txt`
+- Any question combining major requirements with general education: retrieve `Majoring___Minoring.txt` + `SU_General_Policies.txt`
 - Any faculty research question: retrieve `Our_Faculty.txt` + `Notable_Faculty___Student_Achievements.txt`
 - Any transfer credit question: retrieve `Majoring___Minoring.txt` + `SU_General_Policies.txt`
 - Any study abroad question: retrieve `Courses.txt` (COM75-413) + `SU_Resources_and_Financial.txt`
@@ -1010,7 +907,7 @@ The minor requires proportionally more free upper-level electives (3 of 4) than 
 
 **Always retrieve `SU_General_Policies.txt` alongside major docs when:**
 - Any graduation eligibility or credit count question
-- Any Paideia / general education requirement question
+- Any general education requirement question
 - Any grading policy question (Pass/D/F, grade appeals, incomplete grades)
 - Any academic standing question (probation, dismissal, appeal)
 - Any transfer credit or credit-by-examination question

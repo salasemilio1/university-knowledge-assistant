@@ -11,11 +11,7 @@
 ## SECTION 2 — DOCUMENT REGISTRY
 
 ### Music — Majoring & Minoring Overview
-- **filename:** `Majoring___Minoring.txt`
-- **document_type:** requirements
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** N/A
 - **description:** This document provides a program-level overview of all Music degree options and universal requirements that apply across all music majors. Southwestern offers both a B.Mus. (Bachelor of Music) and a B.A. with a major in Music, plus a Minor in Music. B.Mus. tracks include Music, Music Education, Performance, Literature, and Composition. The document explains that B.A. in Music offers greater flexibility for double majors/minors with less specialized coursework and does not preclude graduate study. B.Mus. programs offer more intensive training for students pursuing graduate study, performance, or teaching careers. Key universal requirements across all music majors: audition required for admission to the major; jury each semester; keyboard proficiency examination; sophomore barrier performance examination; and a capstone (form varies by degree — public recital(s) required for Performance and Music Education). Music Education students seeking Texas public school certification must apply to the Teacher Education Program (Education Department) and pass the TExES exam.
 - **critical_data:**
   - Audition required for ALL music majors
@@ -26,29 +22,11 @@
   - Two certification paths: (1) BM Music Ed with Certification, or (2) BM Music Ed without Certification + state-approved alternative certification program
   - Capstone: varies by program; Performance and Music Education require public recitals
   - Scholarship auditions available
-- **retrieval_triggers:**
-  - "what music degrees does SU offer"
-  - "what is the difference between BA and BM in music"
-  - "do I need an audition to major in music"
-  - "what is the keyboard proficiency exam"
-  - "what is the sophomore barrier exam"
-  - "what is the music capstone"
-  - "can I double major in music"
-  - "does the BA in music allow graduate school"
-  - "how do I get certified to teach music in Texas"
-  - "what is the TExES exam"
-  - "is there a music scholarship audition"
-  - "what music majors are available at SU"
-  - "what is the jury requirement in music"
 
 ---
 
 ### Bachelor of Arts in Music
-- **filename:** `Bachelor_of_Arts_in_Music.txt`
-- **document_type:** requirements
 - **degree_relevance:** B.A.
-- **time_sensitive:** true
-- **catalog_year:** N/A
 - **description:** This document defines the requirements for the B.A. with a major in Music (48 credits in the major area) and the Minor in Music (20 credits). The B.A. requires: six semesters of MUL80-100 Recital Attendance (four for transfers); Music Literature I-III (MUL80-114, 214, 314); Solfege/Ear Training I-III (MUT76-111, 211, 311); Music Theory I-III (MUT76-113, 213, 313); six credits of ensemble; eight credits of applied music on principal instrument (APM8x); six credits of Music electives; and four credits of applied music on secondary instrument (piano for non-pianists). Keyboard Proficiency Exam required until passed. Harp students follow special ensemble instructions (two semesters each of approved ensemble, Chamber Music, and Harp Ensemble). The Minor in Music (20 credits) requires: MUT76-111, MUT76-113, MUL80-114, MUL80-214, MUT76-211, and MUT76-213; plus a choice between MUL80-214 or MUT76-211 + MUT76-213; plus eight additional credits of upper-level Music courses.
 - **critical_data:**
   - B.A. in Music = 48 credits in major area
@@ -61,27 +39,11 @@
   - Non-pianists: secondary applied = piano (must take until Keyboard Proficiency passed)
   - Harp students: special ensemble requirements (see document)
   - Minor: MUT76-111, 113, MUL80-114, 214, MUT76-211, 213 + 8 upper-level Music credits
-- **retrieval_triggers:**
-  - "what are the BA in music requirements"
-  - "how many credits is the BA in music"
-  - "what is the music minor"
-  - "how many credits is the music minor"
-  - "what ensemble do I need for the BA in music"
-  - "what applied music credits do I need for the BA"
-  - "do I need piano for the BA in music"
-  - "what music theory courses are required for the BA"
-  - "what is MUL80-100 recital attendance"
-  - "what are the music minor requirements"
-  - "what upper level music courses count for the minor"
 
 ---
 
 ### Bachelor of Music in Performance
-- **filename:** `Bachelor_of_Music_in_Performance.txt`
-- **document_type:** requirements
 - **degree_relevance:** B.Mus. (Performance)
-- **time_sensitive:** true
-- **catalog_year:** N/A
 - **description:** This document defines the requirements for three B.Mus. Performance emphases: Vocal (80 credits), Keyboard (88 credits), and Instrumental (87 credits). All three require: six semesters MUL80-100 Recital Attendance; Music Literature I-IV (114, 214, 314, 414); Solfege/Ear Training I-III (111, 211, 311); Music Theory I-IV (113, 213, 313, 413); eight semesters of ensemble; 24 credits of principal applied music (two credits/semester for first four semesters, then four credits/semester); keyboard proficiency exam; sophomore barrier exam; semester jury; and a capstone (two recitals — one junior year, one senior year). Vocal-specific: adds Diction I & II (701, 711), Song Literature (712), Vocal Pedagogy (522), Choral Conducting (603), two semesters Opera Theatre, six credits piano (secondary); foreign language requirement: two semesters French and two semesters German. Keyboard-specific: adds Piano Solo Repertoire (612), Piano Pedagogy (532), two semesters Chamber Music, Choral or Instrumental Conducting, six semesters secondary instrument, eight elective credits. Instrumental-specific: adds Instrumental Pedagogy and Literature (622), Music Technology (MUT76-223), Instrumental Conducting (613), two semesters Chamber Music, six semesters secondary instrument (piano unless principal is piano), eight elective credits.
 - **critical_data:**
   - Vocal Performance: 80 credits; foreign language req. = 2 semesters French + 2 semesters German
@@ -91,29 +53,11 @@
   - All Performance: Keyboard Proficiency Exam, Sophomore Barrier Exam, semester jury
   - Vocal: must take piano every semester until Keyboard Proficiency passed
   - Sarofim Music Series: world-class guest musicians; over 50 concerts/recitals per year
-- **retrieval_triggers:**
-  - "what are the requirements for BM in performance"
-  - "what is the vocal performance major"
-  - "what is the keyboard performance major"
-  - "what is the instrumental performance major"
-  - "how many credits is BM in performance"
-  - "do I need foreign languages for vocal performance"
-  - "what languages do vocal performance majors need"
-  - "what is the capstone for performance majors"
-  - "how many recitals do performance majors need"
-  - "do I need piano for instrumental performance"
-  - "what is the Sarofim Music Series"
-  - "how many credits of applied music do I need"
-  - "what ensemble requirements are there for performance"
 
 ---
 
 ### Bachelor of Music in Music Education
-- **filename:** `Bachelor_of_Music_in_Music_Education.txt`
-- **document_type:** requirements
 - **degree_relevance:** B.Mus. (Music Education)
-- **time_sensitive:** true
-- **catalog_year:** N/A
 - **description:** This document defines the B.Mus. in Music Education, designed for students seeking careers as music educators in elementary, middle, or high schools. Both instrumental and choral/vocal tracks are offered, each available with or without Texas teacher certification — creating four total tracks. Courses include instrumental, choral, and advanced conducting; instrumental methods; and choral techniques. During senior year, students practice teach at Austin-area schools. Music Education faculty have taught in public schools and are active in conducting festivals. Certification path requires: admission to the Teacher Education Program (Education Department), completion of 37 credits of professional Education courses, and a satisfactory TExES exam score. Non-certification path: complete the Music Education degree, then enroll in a state-approved alternative certification program. The degree itself is awarded by SU; certification is awarded by the State of Texas. Specific course lists are not included in this document — see current University catalog.
 - **critical_data:**
   - 4 tracks: with/without certification × choral/vocal vs. instrumental emphasis
@@ -123,28 +67,11 @@
   - Degree awarded by SU; certification by State of Texas
   - Alternative path: complete degree without cert, then use state-approved alternative program
   - Specific course requirements not listed — see University catalog
-- **retrieval_triggers:**
-  - "what is the music education major"
-  - "how do I become a music teacher in Texas"
-  - "what is the BM in music education"
-  - "do I need to apply to teacher education for music certification"
-  - "what is the TExES exam for music"
-  - "how many education credits do I need for music certification"
-  - "what is the difference between music education with and without certification"
-  - "can I teach music without certification from SU"
-  - "do music education students student teach"
-  - "what tracks are available in music education"
-  - "is there a choral music education track"
-  - "is there an instrumental music education track"
 
 ---
 
 ### Bachelor of Music in Music Literature
-- **filename:** `Bachelor_of_Music_in_Literature.txt`
-- **document_type:** requirements
 - **degree_relevance:** B.Mus. (Music Literature)
-- **time_sensitive:** true
-- **catalog_year:** N/A
 - **description:** This document defines the B.Mus. in Music Literature (81 credits in the major area), intended for students pursuing graduate study in musicology. Required courses include: six semesters MUL80-100 Recital Attendance; Music Literature I-IV (114, 214, 314, 414); 12 credits from four period literature courses (MUL80-424 Medieval/Renaissance, 434 Baroque, 444 Classical/Romantic, 454 20th-Century); four additional credits from MUL80-124 World Music or MUL80-134 Music in the United States, or MUL80-953 Independent Study as Capstone; full Solfege/Ear Training I-III and Music Theory I-IV sequences; MUE77-603 or MUE77-613 (Choral or Instrumental Conducting); eight semesters of ensemble; 16 credits principal applied; four credits secondary applied (piano for non-pianists). Additional requirements: Keyboard Proficiency Exam, Sophomore Barrier Exam, semester jury, capstone.
 - **critical_data:**
   - Music Literature BM = 81 credits
@@ -153,25 +80,11 @@
   - Intended for pre-musicology graduate school students
   - Courses in: history/literature of Western music (Medieval to present), world music, U.S. music, keyboard and vocal literature, special topics
   - All standard BM additional requirements apply (Keyboard Proficiency, Sophomore Barrier, jury, capstone)
-- **retrieval_triggers:**
-  - "what is the music literature major"
-  - "how many credits is BM in music literature"
-  - "is music literature good preparation for musicology graduate school"
-  - "what period literature courses do I need for music literature"
-  - "what is MUL80-424"
-  - "what is MUL80-434"
-  - "does music literature require world music"
-  - "what is the capstone for music literature"
-  - "what is MUL80-953 independent study"
 
 ---
 
 ### Bachelor of Music in Composition
-- **filename:** `Bachelor_of_Music_in_Composition.txt`
-- **document_type:** requirements
 - **degree_relevance:** B.Mus. (Composition)
-- **time_sensitive:** true
-- **catalog_year:** N/A
 - **description:** This document defines the B.Mus. in Music Theory/Composition (82 credits in the major area), intended for students pursuing composition or music theory at the graduate level. Required courses include: six semesters MUL80-100 Recital Attendance; Music Literature I-IV; full Solfege/Ear Training I-III and Music Theory I-IV sequences; MUT76-223 Music Technology; MUT76-343 Orchestration; 14 credits of MUT76-532/534 Composition; MUE77-603 or MUE77-613 (Choral or Instrumental Conducting); eight semesters of ensemble; 16 credits principal applied; four credits secondary applied (piano for non-pianists). Theory/Composition majors must take applied piano every semester until Keyboard Proficiency passed. All standard BM additional requirements apply. Student composers work in individual or small group lessons with faculty and guest composers and have opportunities to hear their works performed.
 - **critical_data:**
   - Music Composition BM = 82 credits
@@ -182,16 +95,6 @@
   - Student composers: individual or small group lessons with faculty and guest composers
   - Must take piano every semester until Keyboard Proficiency passed
   - All standard BM additional requirements apply
-- **retrieval_triggers:**
-  - "what is the music composition major"
-  - "how many credits is BM in composition"
-  - "what is the music theory composition major"
-  - "is composition good for graduate school in music theory"
-  - "what is MUT76-532 composition"
-  - "what is orchestration in music"
-  - "does composition require music technology"
-  - "do composition students work with faculty composers"
-  - "what is the capstone for composition majors"
 
 ---
 
@@ -509,74 +412,6 @@ These requirements apply regardless of degree type or emphasis:
 
 ---
 
-## SECTION 5 — TOPIC INDEX
-
-- Overview of all music degree options → `Majoring___Minoring.txt`
-- Difference between B.A. and B.Mus. in Music → `Majoring___Minoring.txt`
-- Can I double major in music and something else → `Majoring___Minoring.txt`
-- Does the BA in music allow graduate school → `Majoring___Minoring.txt`, `Bachelor_of_Arts_in_Music.txt`
-- Audition requirement for music majors → `Majoring___Minoring.txt`
-- Keyboard proficiency exam → `Majoring___Minoring.txt`, all degree docs
-- Sophomore barrier exam → `Majoring___Minoring.txt`, all degree docs
-- Semester jury requirement → `Majoring___Minoring.txt`, all degree docs
-- Capstone requirement (general) → `Majoring___Minoring.txt`
-- Music scholarship audition → `Majoring___Minoring.txt`
-- BA in Music requirements → `Bachelor_of_Arts_in_Music.txt`
-- Minor in Music requirements → `Bachelor_of_Arts_in_Music.txt`
-- MUL80-100 Recital Attendance → all degree docs
-- MUL80-114 Music Literature I → all degree docs
-- MUL80-214 Music Literature II → all degree docs
-- MUL80-314 Music Literature III → all degree docs
-- MUL80-414 Music Literature IV → `Bachelor_of_Music_in_Performance.txt`, `Bachelor_of_Music_in_Literature.txt`, `Bachelor_of_Music_in_Composition.txt`
-- MUT76-111 Solfege/Ear Training I → all degree docs
-- MUT76-113 Music Theory I → all degree docs
-- MUT76-213 Music Theory II → all degree docs
-- MUT76-313 Music Theory III → all degree docs
-- MUT76-413 Music Theory IV → all BM degree docs
-- BM Vocal Performance requirements → `Bachelor_of_Music_in_Performance.txt`
-- BM Keyboard Performance requirements → `Bachelor_of_Music_in_Performance.txt`
-- BM Instrumental Performance requirements → `Bachelor_of_Music_in_Performance.txt`
-- Foreign language requirement for Vocal Performance → `Bachelor_of_Music_in_Performance.txt`
-- Capstone for Performance majors (2 recitals) → `Bachelor_of_Music_in_Performance.txt`
-- Applied music credit requirements → `Bachelor_of_Music_in_Performance.txt`, `Bachelor_of_Arts_in_Music.txt`
-- Ensemble requirements → all degree docs
-- ENS78-141/241 Opera Theatre → `Bachelor_of_Music_in_Performance.txt`
-- ENS78-151/251 Chamber Music → `Bachelor_of_Music_in_Performance.txt`, `Bachelor_of_Arts_in_Music.txt`
-- Piano secondary instrument requirement → all degree docs
-- Sarofim Music Series → `Bachelor_of_Music_in_Performance.txt`
-- BM Music Education requirements → `Bachelor_of_Music_in_Music_Education.txt`
-- Music Education tracks (4 tracks) → `Bachelor_of_Music_in_Music_Education.txt`
-- Texas teacher certification for music → `Bachelor_of_Music_in_Music_Education.txt`, `Majoring___Minoring.txt`
-- TExES exam for music → `Bachelor_of_Music_in_Music_Education.txt`
-- Teacher Education Program admission (37 credits) → `Bachelor_of_Music_in_Music_Education.txt`
-- Student teaching in music education → `Bachelor_of_Music_in_Music_Education.txt`
-- BM Music Literature requirements → `Bachelor_of_Music_in_Literature.txt`
-- Period literature courses (424, 434, 444, 454) → `Bachelor_of_Music_in_Literature.txt`
-- MUL80-424 Medieval and Renaissance Music → `Bachelor_of_Music_in_Literature.txt`
-- MUL80-434 Baroque Music → `Bachelor_of_Music_in_Literature.txt`
-- MUL80-444 Classical and Romantic Music → `Bachelor_of_Music_in_Literature.txt`
-- MUL80-454 20th-Century Music → `Bachelor_of_Music_in_Literature.txt`
-- MUL80-124 World Music → `Bachelor_of_Music_in_Literature.txt`
-- MUL80-134 Music in the United States → `Bachelor_of_Music_in_Literature.txt`
-- MUL80-953 Independent Study / capstone → `Bachelor_of_Music_in_Literature.txt`
-- BM Composition requirements → `Bachelor_of_Music_in_Composition.txt`
-- MUT76-343 Orchestration → `Bachelor_of_Music_in_Composition.txt`
-- MUT76-223 Music Technology → `Bachelor_of_Music_in_Composition.txt`, `Bachelor_of_Music_in_Performance.txt`
-- MUT76-532/534 Composition lessons → `Bachelor_of_Music_in_Composition.txt`
-- Composition student composer opportunities → `Bachelor_of_Music_in_Composition.txt`
-- MUE77-603 Choral Conducting → `Bachelor_of_Music_in_Performance.txt`, `Bachelor_of_Music_in_Literature.txt`, `Bachelor_of_Music_in_Composition.txt`
-- MUE77-613 Instrumental Conducting → `Bachelor_of_Music_in_Performance.txt`, `Bachelor_of_Music_in_Literature.txt`, `Bachelor_of_Music_in_Composition.txt`
-- MUE77-522 Vocal Pedagogy → `Bachelor_of_Music_in_Performance.txt`
-- MUE77-532 Piano Pedagogy → `Bachelor_of_Music_in_Performance.txt`
-- Graduation requirements → `SU_General_Policies.txt`
-- Paideia general education requirements → `SU_General_Policies.txt`
-- Transfer credit rules → `SU_General_Policies.txt`
-- Academic probation and dismissal → `SU_General_Policies.txt`
-- Pass/D/F grading option → `SU_General_Policies.txt`
-- Latin Honors → `SU_General_Policies.txt`
-- Study abroad credit → `SU_Resources_and_Financial.txt`, `SU_General_Policies.txt`
-- Financial aid → `SU_Resources_and_Financial.txt`
-
 ---
 
 ## SECTION 6 — QUERY PATTERN MAP
@@ -680,14 +515,14 @@ These requirements apply regardless of degree type or emphasis:
   - **What general docs must cover:** 127-credit total minimum, 64-credit SU residency, last 32 in-residence, 2.000 GPA, 60% major residency, Application for Diploma
   - **Routing instruction:** Always retrieve `SU_General_Policies.txt` alongside major docs
 
-- **Topic:** Paideia general education requirements
+- **Topic:** General education requirements
   - **What major docs cover:** Majoring___Minoring.txt states music majors must meet "general education standards common to all SU students"
   - **What general docs must cover:** Full FYS/AES, Language & Cultures, FRA, Power and Justice, Exploration & Breadth
-  - **Routing instruction:** Always retrieve `SU_General_Policies.txt`; note foreign language requirement for Vocal Performance (French + German) may interact with Languages & Cultures Paideia requirement
+  - **Routing instruction:** Always retrieve `SU_General_Policies.txt`; note foreign language requirement for Vocal Performance (French + German) may interact with Languages & Cultures General education requirement
 
-- **Topic:** B.Mus. degree type and Paideia B.S. requirements
+- **Topic:** B.Mus. degree type and General Education B.S. requirements
   - **What major docs cover:** B.Mus. is a distinct degree type; not a B.A. or B.S.
-  - **What general docs must cover:** B.Mus. graduation requirements and Paideia requirements specific to this degree type
+  - **What general docs must cover:** B.Mus. graduation requirements and General education requirements specific to this degree type
   - **Routing instruction:** Retrieve `SU_General_Policies.txt` for B.Mus.-specific requirements
 
 - **Topic:** Music Education teacher certification (Texas)
@@ -697,7 +532,7 @@ These requirements apply regardless of degree type or emphasis:
 
 - **Topic:** Foreign language requirement for Vocal Performance (French + German)
   - **What major docs cover:** Stated in Bachelor_of_Music_in_Performance.txt
-  - **What general docs must cover:** Whether these 4 language semesters satisfy the Paideia Language & Cultures requirement or are in addition to it
+  - **What general docs must cover:** Whether these 4 language semesters satisfy the General Education Language & Cultures requirement or are in addition to it
   - **Routing instruction:** Retrieve `SU_General_Policies.txt`; escalate to advisor for clarification
 
 - **Topic:** Pass/D/F grading option
@@ -741,7 +576,7 @@ These requirements apply regardless of degree type or emphasis:
   - **Reason for gap:** Bachelor_of_Music_in_Composition.txt states capstone is required but does not specify the format (unlike Performance which specifies two recitals)
   - **Recommended fallback:** Direct to Music Department advisor; consult University catalog
 
-- **Topic:** Whether Vocal Performance foreign language (French + German) satisfies Paideia Language & Cultures requirement
+- **Topic:** Whether Vocal Performance foreign language (French + German) satisfies General Education Language & Cultures requirement
   - **Reason for gap:** Not addressed in source documents
   - **Recommended fallback:** Retrieve `SU_General_Policies.txt`; escalate to advisor
 
@@ -780,7 +615,7 @@ These requirements apply regardless of degree type or emphasis:
 - BM Music Literature → `Bachelor_of_Music_in_Literature.txt`
 - BM Composition → `Bachelor_of_Music_in_Composition.txt`
 - Any graduation or credit-count question → add `SU_General_Policies.txt`
-- Foreign language and Paideia → `Bachelor_of_Music_in_Performance.txt` + `SU_General_Policies.txt`
+- Foreign language and General Education → `Bachelor_of_Music_in_Performance.txt` + `SU_General_Policies.txt`
 - Teacher certification → `Bachelor_of_Music_in_Music_Education.txt` + Education Department referral
 
 **Degree path disambiguation triggers:**
@@ -813,7 +648,7 @@ These requirements apply regardless of degree type or emphasis:
 
 **Always retrieve `SU_General_Policies.txt` alongside major docs when:**
 - Any graduation eligibility or credit count question
-- Any Paideia / gen-ed requirement question (especially B.Mus. degree type specifics)
+- Any general education requirement question (especially B.Mus. degree type specifics)
 - Any foreign language requirement interaction question (Vocal Performance)
 - Any grading policy question (Pass/D/F, grade appeals, incomplete grades)
 - Any academic standing question

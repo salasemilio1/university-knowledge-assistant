@@ -10,12 +10,8 @@
 ## SECTION 2 — DOCUMENT REGISTRY
 
 ### Courses
-- **filename:** `Courses.txt`
-- **document_type:** course_info
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
-- **description:** Lists all Art History courses offered by Southwestern University with full catalog descriptions. Covers introductory courses (71-024, 71-054, 71-064), East Asian art courses including Arts of China (71-214), Ancient Chinese Art (71-234), Topics in East Asian Art (71-254), Art in China Since 1911 (71-264), Topics in Non-Western Art (71-354), European and architectural history courses (71-454, 71-484, 71-494), modern art courses (71-534, 71-554), and upper-level seminars (71-614, 71-824). Offering frequency (annually, biennially) is noted for many courses. Paideia area tags (FA, WA, SJ, PJ) are listed for each course where applicable.
+- **description:** Lists all Art History courses offered by Southwestern University with full catalog descriptions. Covers introductory courses (71-024, 71-054, 71-064), East Asian art courses including Arts of China (71-214), Ancient Chinese Art (71-234), Topics in East Asian Art (71-254), Art in China Since 1911 (71-264), Topics in Non-Western Art (71-354), European and architectural history courses (71-454, 71-484, 71-494), modern art courses (71-534, 71-554), and upper-level seminars (71-614, 71-824). Offering frequency (annually, biennially) is noted for many courses. General education area tags (FA, WA, SJ, PJ) are listed for each course where applicable.
 - **critical_data:**
   - ARH 71-024: Intro Art Hist: East Asian Art & Arch — open to first/second-year students or by consent; (FA)(WA); annual
   - ARH 71-054: Introduction to Art History: Modern — open to first/second-year students or by consent; (FA)(WA); annual
@@ -32,30 +28,11 @@
   - ARH 71-554: Topics in Modern Art — repeatable; (FA)(WA)
   - ARH 71-614: Annual Topics in Art History — prerequisite: one Art History course; offered Fall; (FA)
   - ARH 71-824: Capstone Research Seminar — open to majors only (or by instructor permission); must be taken Fall semester of senior year; prerequisites: one -0X4 intro course AND four additional upper-level courses (71-200, -300, -400, -500 level) AND 71-614
-- **retrieval_triggers:**
-  - "what art history courses are offered"
-  - "when is Arts of China offered"
-  - "what are the prerequisites for the capstone"
-  - "which courses count for East Asian Studies"
-  - "can I repeat Topics in East Asian Art"
-  - "what is 71-614"
-  - "when is the capstone seminar"
-  - "does art history have any Power and Justice courses"
-  - "which art history courses satisfy Paideia Fine Arts"
-  - "is Modern Architecture offered every year"
-  - "what intro art history courses can freshmen take"
-  - "can sophomores take the intro courses"
-  - "what counts as a -200 level course"
-  - "what are the upper level art history courses"
 
 ---
 
 ### Majoring & Minoring
-- **filename:** `Majoring___Minoring.txt`
-- **document_type:** requirements
 - **degree_relevance:** B.A. | Minor
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Defines all degree and minor requirements for the Art History department. Covers the standalone Art History major (9 courses), the Paired Major in Art History and Studio Art (17 courses), the Paired Major in Art History and Business (17 courses), the Paired Major in Art History and History (16 courses), and the Minor in Art History (5 courses). Each path specifies required introductory courses, distribution/area requirements, elective rules, and capstone requirements. The document also explains the Art History course numbering system: 71- prefix; -000 introductory; -200 East Asia; -300 Latin America; -400 Pre-Modern/Early Modern Europe and architectural history; -500 Modern Euro-America; -600–800 upper level; -900 tutorials and independent study.
 - **critical_data:**
   - Standalone major: 9 courses total — 1 intro, 1 East Asian (-200), 1 Latin American (-300), 1 Pre/Early Modern or Architecture (-400), 1 Modern (-500), 2 upper-level electives (-200+), ARH71-614, ARH71-824 capstone
@@ -65,93 +42,40 @@
   - Minor: 5 courses — 1 intro, courses from at least 2 of 4 areas (Asian -200, Latin American -300, Pre/Early Modern -400, Modern -500), plus 2 additional upper-level (-200+) Art History courses
   - Paired majors CANNOT be declared as a standard double major; restrictions apply (check SU_General_Policies.txt)
   - Course numbering: 71- = Art History; -000 intro; -200 East Asia; -300 Latin America; -400 Pre-Modern Europe/Architecture; -500 Modern; -600–800 upper-level; -900 tutorials/independent study
-- **retrieval_triggers:**
-  - "how many courses do I need to major in art history"
-  - "what is the art history major requirements"
-  - "can I pair art history with business"
-  - "what is the paired major with studio art"
-  - "how many courses for the art history minor"
-  - "what counts as a -300 course"
-  - "do I need a Latin American art course"
-  - "what is the capstone requirement"
-  - "can I double major in art history and history"
-  - "what is the difference between the standalone major and paired major"
-  - "when do I take the capstone seminar"
-  - "what are the elective requirements"
-  - "does the minor require a capstone"
-  - "what business courses are required in the paired major"
-  - "what history courses do I need for the paired major with history"
 
 ---
 
 ### Our Faculty
-- **filename:** `Our_Faculty.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** N/A
 - **description:** Lists current Art History faculty including names, titles, specialties, email addresses, phone numbers, and office locations. Department Chair is Professor Allison R. Miller, specialist in Chinese art and archaeology, located in Fine Arts 238. Professor Kimberly Smith specializes in modern art, feminist art history, and history of art history, located in Fine Arts 232. Rachel Daphne Weiss is listed as Visiting Instructor/Assistant Professor of Art History.
 - **critical_data:**
   - Department Chair: Allison R. Miller — amiller@southwestern.edu — 512.863.1057 — Fine Arts 238 — Chinese art and archaeology
   - Professor Kimberly Smith — smithk@southwestern.edu — 512.863.1349 — Fine Arts 232 — Modern art; feminist art history; history of art history
   - Rachel Daphne Weiss (Visiting Instructor/Assistant Professor) — weissr@southwestern.edu — 512.863.1384
   - Three total faculty members listed
-- **retrieval_triggers:**
-  - "who is the art history department chair"
-  - "who teaches Chinese art"
-  - "how do I contact my art history advisor"
-  - "who teaches modern art"
-  - "what is Professor Miller's email"
-  - "where is the art history department office"
-  - "who are the art history professors"
-  - "does art history have a visiting professor"
 
 ---
 
 ### Resources & Facilities
-- **filename:** `Resources___Facilities.txt`
-- **document_type:** resources
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Describes the physical and digital learning environments used by the Art History department. Courses meet in the Fine Arts Building, the F.W. Olin Building, the Roy and Lillie Cullen Building, and the Charles and Elizabeth Prothro Center for Lifelong Learning. The department makes extensive use of digital teaching media including Moodle, chatrooms, and virtual exhibits of artwork. The Sarofim School of Fine Arts is referenced as a physical location for art-related activity.
 - **critical_data:**
   - Class locations: Fine Arts Building, F.W. Olin Building, Roy and Lillie Cullen Building, Prothro Center for Lifelong Learning
   - Digital resources used: Moodle, chatrooms, virtual art exhibits
   - Art History is part of the Sarofim School of Fine Arts
-- **retrieval_triggers:**
-  - "where do art history classes meet"
-  - "what buildings are used for art history"
-  - "does art history use Moodle"
-  - "what is the Sarofim School of Fine Arts"
-  - "are there virtual exhibits for art history"
-  - "what digital tools does art history use"
 
 ---
 
 ### Notable Faculty & Student Achievements
-- **filename:** `Notable_Faculty___Student_Achievements.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Document not fully extracted but is referenced in the file set. Expected to cover awards, recognitions, research publications, fellowships, or honors earned by Art History faculty and students. May include Paideia with Distinction recipients, research symposium presenters, or nationally recognized student work.
 - **critical_data:**
   - Content not fully available in provided extraction — retrieve document for specific achievement queries
-- **retrieval_triggers:**
-  - "have art history students won any awards"
-  - "what research do art history professors do"
-  - "have any art history students presented at symposium"
-  - "notable achievements in the art history department"
 
 ---
 
 ### See What Our Graduates Are Doing Now
-- **filename:** `See_What_Our_Graduates_Are_Doing_Now.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Describes career outcomes and graduate school paths for Art History alumni and explains the value of the degree for diverse careers. Notes that art history training in research, writing, broad historical knowledge, and visual analysis serves fields including gallery/museum work, consulting, and design entrepreneurship. States that museum/gallery careers typically require an M.A. and/or Ph.D. in art history. Notably, art history majors have a higher acceptance rate to medical and law schools than pre-med and pre-law majors. Lists over a dozen named alumni with their graduating year, graduate degrees, and current roles, from museum curators and conservators to public health professionals and attorneys.
 - **critical_data:**
   - Museum/gallery careers typically require major + M.A. and Ph.D. in art history
@@ -159,18 +83,6 @@
   - A minor in art history combined with a humanities major is effective preparation for graduate programs in art history
   - Notable alumni: Elizabeth Schlatter '93 (Deputy Director & Curator, University of Richmond Museums); Kris Ercums '93 (Curator, Spencer Museum of Art, Univ. of Kansas); Josh Franco '06 (Latino Collections Curator, Smithsonian Archives of American Art); Holly Gordon '09 (JD — Copyright, Entertainment, and Art Law); Kelly Johnson '12 (Volunteer and Program Coordinator, Rothko Chapel, Houston); Anna Nau '06 (Architectural Conservator, Ford Powell and Carson Architects; Ph.D. candidate at UT Austin)
   - Alumni have pursued graduate programs at GWU, University of Chicago, Boston University, University of Virginia, Edinburgh College of Art, NYU, Binghamton, and more
-- **retrieval_triggers:**
-  - "what can I do with an art history degree"
-  - "do art history majors get into law school"
-  - "what jobs do art history graduates get"
-  - "can I go to medical school with an art history degree"
-  - "what graduate programs do art history majors attend"
-  - "do I need a master's degree for museum work"
-  - "what do art history alumni do"
-  - "is art history a good major for law school"
-  - "can I become a curator with an art history degree"
-  - "what careers are available for art history majors"
-  - "did any art history graduates go into public health"
 
 ---
 
@@ -191,7 +103,7 @@
 
 **Source:** `SU_General_Policies.txt`
 
-### SU Universal Curriculum Requirements (Paideia Framework)
+### SU Universal Curriculum Requirements (General Education)
 
 - First-Year Seminar (FYS) or Advanced-Entry Seminar (AES): 4 credits
 - Languages and Cultures: through third-semester proficiency
@@ -199,7 +111,7 @@
 - Power and Justice (PJ) course: 1 course, 3-4 credits — cannot be satisfied by transfer credit
 - Exploration and Breadth: 6 courses from outside the major distributed across Fine Arts (FA), Humanities (H), Natural Sciences (NS), Social Sciences (ScS)
 
-**Note:** Many Art History courses carry (FA) and (WA) tags satisfying Fine Arts and Writing-Across-the-Curriculum Paideia areas. ARH 71-264 (Art in China Since 1911) carries a (PJ) tag and may satisfy the Power and Justice requirement.
+**Note:** Many Art History courses carry (FA) and (WA) tags satisfying Fine Arts and Writing-Across-the-Curriculum General education areas. ARH 71-264 (Art in China Since 1911) carries a (PJ) tag and may satisfy the Power and Justice requirement.
 
 ---
 
@@ -402,7 +314,7 @@ Choose one upper-level History course from four of the following six areas:
 - **Corequisites:** None
 - **Offered:** Annually (Fall implied by FA tag)
 - **Required For:** All degree paths as an acceptable intro course; Paired Art History + History (any 0X4)
-- **Counts As:** Introductory requirement; Paideia FA and WA areas
+- **Counts As:** Introductory requirement; General Education FA and WA areas
 - **Notes:** Contributes to Early Modern and Medieval Studies, East Asian Studies, and International Studies
 - **Source:** `Courses.txt`
 
@@ -414,7 +326,7 @@ Choose one upper-level History course from four of the following six areas:
 - **Corequisites:** None
 - **Offered:** Annually
 - **Required For:** All degree paths as an acceptable intro course
-- **Counts As:** Introductory requirement; Paideia FA and WA areas
+- **Counts As:** Introductory requirement; General Education FA and WA areas
 - **Notes:** Covers European and American art, 18th–20th centuries; may contribute to International Studies
 - **Source:** `Courses.txt`
 
@@ -426,7 +338,7 @@ Choose one upper-level History course from four of the following six areas:
 - **Corequisites:** None
 - **Offered:** Varies (may be repeated with change in topic)
 - **Required For:** All degree paths as an acceptable intro course
-- **Counts As:** Introductory requirement; Paideia FA and WA areas
+- **Counts As:** Introductory requirement; General Education FA and WA areas
 - **Notes:** Repeatable with change in topic
 - **Source:** `Courses.txt`
 
@@ -438,7 +350,7 @@ Choose one upper-level History course from four of the following six areas:
 - **Corequisites:** None
 - **Offered:** Biennially
 - **Required For:** Counts as -200 level (East Asian area) for all degree paths
-- **Counts As:** East Asian distribution requirement; Paideia FA and WA
+- **Counts As:** East Asian distribution requirement; General Education FA and WA
 - **Notes:** Contributes to Early Modern and Medieval Studies, East Asian Studies, International Studies; covers Neolithic through contemporary; surveys 23 landmark works
 - **Source:** `Courses.txt`
 
@@ -450,7 +362,7 @@ Choose one upper-level History course from four of the following six areas:
 - **Corequisites:** None
 - **Offered:** Biennially
 - **Required For:** Counts as -200 level (East Asian area)
-- **Counts As:** East Asian distribution requirement; Paideia FA and WA
+- **Counts As:** East Asian distribution requirement; General Education FA and WA
 - **Notes:** Contributes to East Asian Studies and International Studies; covers Neolithic through Han dynasty
 - **Source:** `Courses.txt`
 
@@ -462,7 +374,7 @@ Choose one upper-level History course from four of the following six areas:
 - **Corequisites:** None
 - **Offered:** Varies (repeatable with change in topic)
 - **Required For:** Counts as -200 level (East Asian area)
-- **Counts As:** East Asian distribution requirement; Paideia FA and WA
+- **Counts As:** East Asian distribution requirement; General Education FA and WA
 - **Notes:** Contributes to East Asian Studies and International Studies; thematic focus; repeatable
 - **Source:** `Courses.txt`
 
@@ -473,8 +385,8 @@ Choose one upper-level History course from four of the following six areas:
 - **Prerequisites:** None stated
 - **Corequisites:** None
 - **Offered:** Biennially
-- **Required For:** Counts as -200 level (East Asian area); satisfies Power and Justice (PJ) Paideia requirement
-- **Counts As:** East Asian distribution; Paideia FA, WA, SJ, PJ
+- **Required For:** Counts as -200 level (East Asian area); satisfies Power and Justice (PJ) General education requirement
+- **Counts As:** East Asian distribution; General Education FA, WA, SJ, PJ
 - **Notes:** Contributes to East Asian Studies, Feminist Studies, International Studies, Race and Ethnicity Studies; covers late 19th century to present; ONLY Art History course carrying a PJ tag in current course list
 - **Source:** `Courses.txt`
 
@@ -486,7 +398,7 @@ Choose one upper-level History course from four of the following six areas:
 - **Corequisites:** None
 - **Offered:** Varies (repeatable with change in topic)
 - **Required For:** Counts as -300 level (Latin American area) or non-Western elective in Paired Studio Art major
-- **Counts As:** Non-Western distribution; Paideia FA and WA; contributes to International Studies
+- **Counts As:** Non-Western distribution; General Education FA and WA; contributes to International Studies
 - **Source:** `Courses.txt`
 
 ---
@@ -497,7 +409,7 @@ Choose one upper-level History course from four of the following six areas:
 - **Corequisites:** None
 - **Offered:** Varies (repeatable with change in topic)
 - **Required For:** Counts as -400 level (Pre- or Early Modern Europe area)
-- **Counts As:** Pre/Early Modern distribution; Paideia FA and WA; contributes to International Studies
+- **Counts As:** Pre/Early Modern distribution; General Education FA and WA; contributes to International Studies
 - **Source:** `Courses.txt`
 
 ---
@@ -508,7 +420,7 @@ Choose one upper-level History course from four of the following six areas:
 - **Corequisites:** None
 - **Offered:** Biennially
 - **Required For:** Counts as -400 level (Architectural History)
-- **Counts As:** Pre/Early Modern or Architecture distribution; Paideia FA and WA; contributes to Classics and International Studies
+- **Counts As:** Pre/Early Modern or Architecture distribution; General Education FA and WA; contributes to Classics and International Studies
 - **Source:** `Courses.txt`
 
 ---
@@ -519,7 +431,7 @@ Choose one upper-level History course from four of the following six areas:
 - **Corequisites:** None
 - **Offered:** Biennially
 - **Required For:** Counts as -400 level (Architectural History)
-- **Counts As:** Pre/Early Modern or Architecture distribution; Paideia FA and WA; contributes to International Studies
+- **Counts As:** Pre/Early Modern or Architecture distribution; General Education FA and WA; contributes to International Studies
 - **Notes:** Covers Euro-American architecture c. 1750 to present
 - **Source:** `Courses.txt`
 
@@ -531,7 +443,7 @@ Choose one upper-level History course from four of the following six areas:
 - **Corequisites:** None
 - **Offered:** Biennially
 - **Required For:** Counts as -500 level (Modern Art area)
-- **Counts As:** Modern distribution; Paideia FA and WA; may contribute to International Studies
+- **Counts As:** Modern distribution; General Education FA and WA; may contribute to International Studies
 - **Notes:** Covers European and American art 1900–1945; topics include Fauvism, Cubism, Expressionism, Russian avant-garde, Surrealism
 - **Source:** `Courses.txt`
 
@@ -543,7 +455,7 @@ Choose one upper-level History course from four of the following six areas:
 - **Corequisites:** None
 - **Offered:** Varies (repeatable with change in topic)
 - **Required For:** Counts as -500 level (Modern Art area)
-- **Counts As:** Modern distribution; Paideia FA and WA; may contribute to International Studies
+- **Counts As:** Modern distribution; General Education FA and WA; may contribute to International Studies
 - **Source:** `Courses.txt`
 
 ---
@@ -554,7 +466,7 @@ Choose one upper-level History course from four of the following six areas:
 - **Corequisites:** None
 - **Offered:** Fall only
 - **Required For:** All degree paths (standalone major, all paired majors); must be taken before capstone
-- **Counts As:** Upper-level required course; Paideia FA
+- **Counts As:** Upper-level required course; General Education FA
 - **Notes:** Subject changes each year; can be repeated with change of topic
 - **Source:** `Courses.txt`
 
@@ -571,87 +483,6 @@ Choose one upper-level History course from four of the following six areas:
 - **Source:** `Courses.txt`, `Majoring___Minoring.txt`
 
 ---
-
-## SECTION 5 — TOPIC INDEX
-
-- Art History major requirements (standalone) → `Majoring___Minoring.txt`
-- Art History minor requirements → `Majoring___Minoring.txt`
-- Paired major Art History + Studio Art requirements → `Majoring___Minoring.txt`
-- Paired major Art History + Business requirements → `Majoring___Minoring.txt`
-- Paired major Art History + History requirements → `Majoring___Minoring.txt`
-- Differences between standalone major and paired majors → `Majoring___Minoring.txt`
-- Whether paired major can be declared as double major → `Majoring___Minoring.txt`, `SU_General_Policies.txt`
-- Number of courses required for major (9) → `Majoring___Minoring.txt`
-- Number of courses required for minor (5) → `Majoring___Minoring.txt`
-- Number of courses required for paired major (17 or 16) → `Majoring___Minoring.txt`
-- Introduction to Art History course options → `Majoring___Minoring.txt`, `Courses.txt`
-- ARH 71-024 (East Asian intro) → `Courses.txt`
-- ARH 71-054 (Modern intro) → `Courses.txt`
-- ARH 71-064 (General intro) → `Courses.txt`
-- East Asian art distribution requirement (-200 level) → `Majoring___Minoring.txt`, `Courses.txt`
-- ARH 71-214 (Arts of China) → `Courses.txt`
-- ARH 71-234 (Ancient Chinese Art and Civilization) → `Courses.txt`
-- ARH 71-254 (Topics in East Asian Art) → `Courses.txt`
-- ARH 71-264 (Art in China Since 1911) — Power and Justice course → `Courses.txt`
-- Latin American art distribution requirement (-300 level) → `Majoring___Minoring.txt`
-- Topics in Non-Western Art (71-354) → `Courses.txt`
-- Pre- or Early Modern Europe or Architecture requirement (-400 level) → `Majoring___Minoring.txt`, `Courses.txt`
-- ARH 71-454 (Topics in Pre/Early Modern Euro Art) → `Courses.txt`
-- ARH 71-484 (World Architecture: Comparative Cultural History) → `Courses.txt`
-- ARH 71-494 (Modern Architecture) → `Courses.txt`
-- Modern art distribution requirement (-500 level) → `Majoring___Minoring.txt`, `Courses.txt`
-- ARH 71-534 (Modernism and the 20th Century Avant-Gardes) → `Courses.txt`
-- ARH 71-554 (Topics in Modern Art) → `Courses.txt`
-- ARH 71-614 (Annual Topics in Art History) — upper-level prerequisite to capstone → `Courses.txt`, `Majoring___Minoring.txt`
-- ARH 71-824 (Capstone Research Seminar) — prerequisites, timing → `Courses.txt`, `Majoring___Minoring.txt`
-- Capstone prerequisites and when to take it → `Courses.txt`, `Majoring___Minoring.txt`
-- Senior year planning for art history majors → `Majoring___Minoring.txt`, `Courses.txt`
-- Art History course numbering system → `Majoring___Minoring.txt`
-- Which courses satisfy Paideia Fine Arts (FA) area → `Courses.txt`
-- Which Art History course satisfies Power and Justice (PJ) → `Courses.txt` (ARH71-264)
-- Paideia Writing Across the Curriculum (WA) courses in Art History → `Courses.txt`
-- Studio Art courses required in Paired Art History + Studio Art major → `Majoring___Minoring.txt`
-- ART68-104 Drawing I — required in Paired Studio Art major → `Majoring___Minoring.txt`
-- ART68-204 Drawing II — required in Paired Studio Art major → `Majoring___Minoring.txt`
-- ART68-404 Seminar — required in Paired Studio Art major (offered once/year) → `Majoring___Minoring.txt`
-- ART68-504 Capstone — required in Paired Studio Art major (offered once/year) → `Majoring___Minoring.txt`
-- Optional senior art exhibition in Paired Art History + Studio Art → `Majoring___Minoring.txt`
-- Business courses required in Paired Art History + Business major → `Majoring___Minoring.txt`
-- ECO31-104 (Principles of Economics) → `Majoring___Minoring.txt`
-- BUS30-114 (Fundamentals of Accounting) → `Majoring___Minoring.txt`
-- BUS30-214 (Foundations of Business) → `Majoring___Minoring.txt`
-- BUS30-474 (Finance) → `Majoring___Minoring.txt`
-- History courses required in Paired Art History + History major → `Majoring___Minoring.txt`
-- HIS16-854 Historiography — required in Paired History major → `Majoring___Minoring.txt`
-- Geographic area requirements for Paired History major → `Majoring___Minoring.txt`
-- Upper-level elective requirements for the standalone major → `Majoring___Minoring.txt`
-- Transfer credit applicability to Art History major → `Majoring___Minoring.txt`, `SU_General_Policies.txt`
-- Which art history courses are offered biennially → `Courses.txt`
-- Courses that contribute to East Asian Studies → `Courses.txt`
-- Courses that contribute to International Studies → `Courses.txt`
-- Courses that contribute to Feminist Studies → `Courses.txt`
-- Courses that contribute to Race and Ethnicity Studies → `Courses.txt`
-- Courses that contribute to Classics → `Courses.txt`
-- What careers are available with art history degree → `See_What_Our_Graduates_Are_Doing_Now.txt`
-- Art history and law school / medical school → `See_What_Our_Graduates_Are_Doing_Now.txt`
-- Do I need a graduate degree for museum work → `See_What_Our_Graduates_Are_Doing_Now.txt`
-- Art history alumni outcomes → `See_What_Our_Graduates_Are_Doing_Now.txt`
-- Faculty contact information → `Our_Faculty.txt`
-- Department chair identity and contact → `Our_Faculty.txt`
-- Who specializes in Chinese art → `Our_Faculty.txt`
-- Who teaches modern or feminist art history → `Our_Faculty.txt`
-- Classroom buildings used by Art History → `Resources___Facilities.txt`
-- Digital tools used by Art History (Moodle, virtual exhibits) → `Resources___Facilities.txt`
-- Sarofim School of Fine Arts → `Resources___Facilities.txt`
-- Graduation requirements (overall credit hours, GPA, residency) → `SU_General_Policies.txt`
-- Paideia curriculum full structure → `SU_General_Policies.txt`
-- Pass/D/F grading option → `SU_General_Policies.txt`
-- Academic probation and dismissal → `SU_General_Policies.txt`
-- Transfer credit rules and minimum grades → `SU_General_Policies.txt`
-- Study abroad credit and programs → `SU_Resources_and_Financial.txt`
-- Financial aid and tuition → `SU_Resources_and_Financial.txt`
-- SURF and research funding → `SU_Resources_and_Financial.txt`
-- King Creativity Fund → `SU_Resources_and_Financial.txt`
 
 ---
 
@@ -697,7 +528,7 @@ Choose one upper-level History course from four of the following six areas:
 **Routing Note:** 71-264 listed as biennial — confirm current year with registrar or advisor.
 **Disambiguation Needed:** No (but current scheduling requires advisor/registrar confirmation)
 
-**Q:** Can ARH71-264 count as my Power and Justice Paideia course?
+**Q:** Can ARH71-264 count as my Power and Justice General Education course?
 **Docs:** `Courses.txt`, `SU_General_Policies.txt`
 **Routing Note:** 71-264 carries (PJ) tag in Courses.txt; PJ requirement details in SU_General_Policies.txt.
 **Disambiguation Needed:** No
@@ -841,10 +672,10 @@ Choose one upper-level History course from four of the following six areas:
   - **What general docs must cover:** 127-credit minimum, 64-credit SU residency, last 32 in-residence, 2.000 GPA, 60% major residency, Application for Diploma
   - **Routing instruction:** Always retrieve `SU_General_Policies.txt` alongside major requirements doc for any graduation eligibility question
 
-- **Topic:** Paideia general education requirements
-  - **What major docs cover:** Individual course tags (FA, WA, PJ, SJ) identifying which Art History courses satisfy Paideia areas
+- **Topic:** General education requirements
+  - **What major docs cover:** Individual course tags (FA, WA, PJ, SJ) identifying which Art History courses satisfy General education areas
   - **What general docs must cover:** Full structure of FYS/AES, Language & Cultures, FRA, Power and Justice, Exploration & Breadth, Paideia with Distinction
-  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about gen-ed, Paideia structure, or breadth requirements
+  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about gen-ed, General Education structure, or breadth requirements
 
 - **Topic:** Power and Justice (PJ) requirement
   - **What major docs cover:** ARH71-264 carries a (PJ) tag
@@ -956,7 +787,7 @@ Choose one upper-level History course from four of the following six areas:
 **Default document for broad major questions:** `Majoring___Minoring.txt`
 
 **When to retrieve multiple documents:**
-- Any question about Paideia, gen-ed, or breadth requirements → retrieve `Majoring___Minoring.txt` + `SU_General_Policies.txt`
+- Any question about General Education, gen-ed, or breadth requirements → retrieve `Majoring___Minoring.txt` + `SU_General_Policies.txt`
 - Any question about graduation eligibility or credit totals → retrieve `Majoring___Minoring.txt` + `SU_General_Policies.txt`
 - Any question about a specific course's offerings, prerequisites, or content → retrieve `Courses.txt`; add `Majoring___Minoring.txt` if the question concerns whether the course satisfies a requirement
 - Any question about transfer credit or AP credit → retrieve `Majoring___Minoring.txt` + `SU_General_Policies.txt`
@@ -985,7 +816,7 @@ Choose one upper-level History course from four of the following six areas:
 
 **Always retrieve `SU_General_Policies.txt` alongside major docs when:**
 - Any graduation eligibility or credit count question
-- Any Paideia / general education requirement question (especially Power and Justice)
+- Any general education requirement question (especially Power and Justice)
 - Any grading policy question (Pass/D/F, grade appeals, incomplete grades)
 - Any academic standing question (probation, dismissal, appeal)
 - Any transfer credit or credit-by-examination question

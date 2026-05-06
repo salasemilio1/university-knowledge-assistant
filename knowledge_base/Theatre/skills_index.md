@@ -16,11 +16,7 @@ This index covers the Theatre Department at Southwestern University's Sarofim Sc
 ## SECTION 2 — DOCUMENT REGISTRY
 
 ### Theatre Department Overview
-- **filename:** `Theatre.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Provides a high-level overview of the Theatre Department's mission, philosophy, and degree offerings at Southwestern University. States the department offers a Bachelor of Arts (B.A.) providing grounding in theatre history, dramatic literature, performance, design, management, and technical theatre. Notes that Work Study-eligible students may find jobs in faculty assistant, box office staff, and backstage crew roles. References alumni success stories and career preparation. Mentions the department is part of the Sarofim School of Fine Arts. Includes brief mention of financial aid and work-study connections for theatre.
 - **critical_data:**
   - Degree offered: Bachelor of Arts (B.A.)
@@ -28,28 +24,11 @@ This index covers the Theatre Department at Southwestern University's Sarofim Sc
   - Work Study positions available: faculty assistant, box office staff, backstage crew
   - Students interested in work-study positions should inquire through the department head
   - Part of the Sarofim School of Fine Arts
-- **retrieval_triggers:**
-  - "what does the theatre department offer"
-  - "what can I do with a theatre degree"
-  - "theatre at Southwestern"
-  - "is there a theatre major at SU"
-  - "theatre BA overview"
-  - "work study jobs in theatre"
-  - "theatre department mission"
-  - "theatre alumni careers"
-  - "what is the Sarofim School of Fine Arts"
-  - "can I get a job in theatre at SU"
-  - "backstage crew work study"
-  - "box office job theatre"
 
 ---
 
 ### Majoring and Minoring in Theatre
-- **filename:** `Majoring___Minoring.txt`
-- **document_type:** requirements
 - **degree_relevance:** B.A., Minor
-- **time_sensitive:** true
-- **catalog_year:** 2025-2026
 - **description:** The primary requirements document for the Theatre Department. Covers all three degree paths: B.A. in Theatre Arts (35-36 credits), B.A. in Theatre Performance and Production (39-45 credits), and Minor in Theatre (5 courses). Lists all required Theatre Core courses shared by both B.A. tracks: THE72-164 Design Fundamentals, THE72-183 Fundamentals of Acting, THE72-211 Theatre Laboratory (six semesters), THE72-234 Theatre History, THE72-921 Theatre Capstone: Research Methods, and THE72-923 Theatre Capstone. Specifies elective and selection requirements for each path, including upper-level course requirements and design course choices. Includes the minor requirements (THE72-164, THE72-234, plus three additional courses). Provides the department's course numbering convention: 72- = Design, 73- = Performance, 74- = Theatre History and Criticism. Notes that credits from independent studies and academic internships may not be used to fulfill Theatre Major requirements.
 - **critical_data:**
   - B.A. Theatre Arts: 35-36 total credits; requires core + one devising/playwriting elective + one design elective + one upper-level elective
@@ -59,31 +38,11 @@ This index covers the Theatre Department at Southwestern University's Sarofim Sc
   - Independent study and academic internship credits do NOT count toward major requirements
   - Course prefix: 72- = Design; 73- = Performance; 74- = History & Criticism
   - 100-level = introductory; 200-800 = may be appropriate for all levels unless prerequisite indicated
-- **retrieval_triggers:**
-  - "how many credits for theatre major"
-  - "theatre major requirements"
-  - "what courses are required for theatre"
-  - "theatre minor requirements"
-  - "difference between theatre BA options"
-  - "theatre core courses"
-  - "can independent study count toward major"
-  - "what is Theatre Laboratory"
-  - "do I need a capstone for theatre"
-  - "theatre course numbering"
-  - "can I double major in theatre"
-  - "how many upper-level theatre courses do I need"
-  - "what design course do I have to take"
-  - "THE72-211 requirements"
-  - "theatre arts vs performance and production"
 
 ---
 
 ### Design Courses
-- **filename:** `Design_Courses.txt`
-- **document_type:** course_info
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Describes all theatre design-track courses available in the department. Covers Theatre Company (six hours/week production support), Design Fundamentals (THE72-164, open to first-year and sophomore students only without instructor permission), Theatre Laboratory, Theatre Production Practicum (one credit per production, max four credits, non-majors only), Makeup Design, Theatre Arts Management, Costume Design, Scenic Design, Theatre Sustainability, Lighting Design, Audio Technology and Design, Scenic Elements and Stage Properties, Scene Painting, and Stage Management for the Theatre. All courses emphasize hands-on, practical learning in technical theatre. Theatre Sustainability is cross-listed with Environmental Studies (49-814). Includes prerequisite and enrollment restriction information where applicable.
 - **critical_data:**
   - THE72-164 Design Fundamentals: open to first-year and sophomore students only; juniors/seniors need instructor permission
@@ -92,31 +51,11 @@ This index covers the Theatre Department at Southwestern University's Sarofim Sc
   - Theatre Sustainability: cross-listed with Environmental Studies 49-814
   - Stage Management for the Theatre: project-oriented, hands-on stage management experience
   - Audio Technology and Design: covers mixers, effects processors, amplification, microphone technology
-- **retrieval_triggers:**
-  - "costume design course"
-  - "scenic design course"
-  - "lighting design class"
-  - "stage management course"
-  - "audio technology theatre"
-  - "scene painting class"
-  - "makeup design theatre"
-  - "theatre company what is it"
-  - "design fundamentals who can take it"
-  - "theatre production practicum"
-  - "what is Theatre Laboratory"
-  - "theatre sustainability class"
-  - "theatre arts management course"
-  - "props course theatre"
-  - "can a non-major take theatre practicum"
 
 ---
 
 ### History and Literature Courses
-- **filename:** `History_and_Literature_Courses.txt`
-- **document_type:** course_info
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Lists all theatre history, literature, and theory courses. Includes Theatre Appreciation (introductory survey of theatre as art form), Theatre Arts in London (fall London program only, taught by Goldsmith College faculty, with additional fee for performance admissions), Introduction to Play Analysis (critical approaches to Western dramatic texts), Theatre History (THE72-234, required core course exploring Western theatre across periods), East Meets West: Interculturalism and Theatre (20th-century theatrical exchange across cultures), Playwriting (theory and practice of script writing), Dramaturgy (prerequisite for those intending to dramaturg SSFA productions), Costume History I (classical antiquity through 18th century), and Costume History II (late 18th century through present). Dramaturgy is listed as a prerequisite for students intending to work as dramaturgs on SSFA productions.
 - **critical_data:**
   - THE72-234 Theatre History: required core course for both B.A. tracks and minor
@@ -124,30 +63,12 @@ This index covers the Theatre Department at Southwestern University's Sarofim Sc
   - Dramaturgy: prerequisite required for students intending to dramaturg SSFA productions
   - Playwriting: available as an elective fulfillment in the Theatre Arts B.A. track (alongside Devising)
   - Costume History I & II: offered as history/literature electives
-- **retrieval_triggers:**
-  - "theatre history course"
-  - "THE72-234"
-  - "playwriting class"
-  - "dramaturgy course"
-  - "costume history"
-  - "theatre in London course"
-  - "what is Theatre Arts in London"
-  - "play analysis course"
-  - "interculturalism and theatre"
-  - "can I take theatre history abroad"
-  - "prerequisite for dramaturg SSFA"
-  - "theatre appreciation class"
-  - "introduction to play analysis"
 
 ---
 
 ### Performance Courses
-- **filename:** `Performance_Courses.txt`
-- **document_type:** course_info
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
-- **description:** Lists all performance-track theatre courses. Includes Voice and Movement, Fundamentals of Acting (THE72-183, required core), Theatre Performance Practicum (one credit per main-stage role, max 4 credits, non-majors only), Alexander Technique (repeatable for credit), Theatre Dance (cross-listed as Dance 79-414), Acting: Realism, Departures from Realism, Musical Theatre Workshop (repeatable for credit), Theatre for Social Change: Practice and Performance, Feminism and Performance (cross-listed with Communication Studies 75-524 and Feminist Studies 04-724, FAP and WA designations), Acting: Poetic Language, Directing for the Theatre, and Advanced Directing (prerequisite Theatre 73-894). Multiple courses are repeatable for credit. Several courses carry Paideia area designations (FAP, WA noted for Feminism and Performance).
+- **description:** Lists all performance-track theatre courses. Includes Voice and Movement, Fundamentals of Acting (THE72-183, required core), Theatre Performance Practicum (one credit per main-stage role, max 4 credits, non-majors only), Alexander Technique (repeatable for credit), Theatre Dance (cross-listed as Dance 79-414), Acting: Realism, Departures from Realism, Musical Theatre Workshop (repeatable for credit), Theatre for Social Change: Practice and Performance, Feminism and Performance (cross-listed with Communication Studies 75-524 and Feminist Studies 04-724, FAP and WA designations), Acting: Poetic Language, Directing for the Theatre, and Advanced Directing (prerequisite Theatre 73-894). Multiple courses are repeatable for credit. Several courses carry General education area designations (FAP, WA noted for Feminism and Performance).
 - **critical_data:**
   - THE72-183 Fundamentals of Acting: required core course for both B.A. tracks and minor (via Design Fundamentals requirement)
   - THE72-193 Movement and Voice: listed as a core requirement in Majoring & Minoring document
@@ -155,33 +76,13 @@ This index covers the Theatre Department at Southwestern University's Sarofim Sc
   - Theatre Performance Practicum: non-majors only; max 4 credits; requires being cast in main-stage production
   - Alexander Technique: repeatable for credit
   - Musical Theatre Workshop: repeatable for credit
-  - Feminism and Performance: FAP and WA Paideia designations; cross-listed with Communication Studies and Feminist Studies
+  - Feminism and Performance: FAP and WA General education designations; cross-listed with Communication Studies and Feminist Studies
   - Theatre Dance: cross-listed with Dance 79-414
-- **retrieval_triggers:**
-  - "acting courses"
-  - "fundamentals of acting"
-  - "directing class"
-  - "advanced directing prerequisite"
-  - "musical theatre workshop"
-  - "movement and voice"
-  - "Alexander Technique"
-  - "theatre performance practicum"
-  - "can non-majors perform in plays"
-  - "acting realism course"
-  - "theatre for social change"
-  - "feminism and performance"
-  - "theatre dance class"
-  - "repeatable theatre courses"
-  - "voice and movement class"
 
 ---
 
 ### Theatre Facilities
-- **filename:** `Facilities.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Describes the physical spaces available to theatre students at Southwestern University. The Theatre Department is housed in the Sarofim School of Fine Arts Building. Three main performance spaces are available: the Alma Thomas Theater (750-seat proscenium), the Jesse H. and Mary Gibbs Jones Theater (325-seat thrust), and the Heather Jean McGaughey Black Box (50-seat performance and classroom space). Students also have access to the costume shop, scene shop, and computer design studio, all located in the Sarofim Fine Arts building. References the Jones Theater's innovative revolving stage as a notable production feature used by students.
 - **critical_data:**
   - Alma Thomas Theater: 750 seats, proscenium format
@@ -190,28 +91,11 @@ This index covers the Theatre Department at Southwestern University's Sarofim Sc
   - Technical facilities: costume shop, scene shop, computer design studio
   - All located in the Sarofim School of Fine Arts Building
   - Jones Theater features an innovative revolving stage
-- **retrieval_triggers:**
-  - "theatre facilities"
-  - "how big is the theatre"
-  - "what theaters are at SU"
-  - "black box theatre"
-  - "Jones Theater"
-  - "Alma Thomas Theater"
-  - "Heather Hall"
-  - "costume shop"
-  - "scene shop"
-  - "revolving stage"
-  - "where do theatre students perform"
-  - "performance spaces Southwestern"
 
 ---
 
 ### Our Faculty and Staff
-- **filename:** `Our_Faculty___Staff.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** 2025-2026
 - **description:** Lists all current Theatre Department faculty and staff with contact information, titles, specialties, and office locations. Faculty members include: Desiderio Roybal (Professor and Chair, scenic/lighting design, roybald@southwestern.edu, Fine Arts 309), Kerry Bechtel (Associate Professor and Production Coordinator, costume design/history/makeup, bechtelk@southwestern.edu, Fine Arts 308), Julia Chereson (PT Assistant Professor, cheresonj@southwestern.edu), Sergio Costola (Professor, theatre history/dramaturgy, costolas@southwestern.edu, CB 150), Gabriel M. Pena (Assistant Professor, acting, pena7@southwestern.edu, FAC 307), Coby Novillo (PT Theatre Lighting Technician, novillo2@southwestern.edu, FAC), Chaz Sanders (Technical Director, sanders5@southwestern.edu), and Glenda Wolfe (Costume Shop Manager, wolfeg@southwestern.edu, FAC 307).
 - **critical_data:**
   - Department Chair: Desiderio Roybal — roybald@southwestern.edu — 512.863.1359 — Fine Arts 309
@@ -221,28 +105,11 @@ This index covers the Theatre Department at Southwestern University's Sarofim Sc
   - Costume Shop Manager: Glenda Wolfe — wolfeg@southwestern.edu — 512.863.1746
   - Technical Director: Chaz Sanders — sanders5@southwestern.edu
   - Scholarship questions: contact Desiderio Roybal at roybald@southwestern.edu
-- **retrieval_triggers:**
-  - "who is the theatre chair"
-  - "theatre faculty contact"
-  - "who teaches acting"
-  - "costume design professor"
-  - "theatre history professor"
-  - "technical director theatre"
-  - "who do I contact for theatre scholarship"
-  - "theatre department phone number"
-  - "who is Desiderio Roybal"
-  - "lighting technician contact"
-  - "costume shop manager"
-  - "theatre advising contact"
 
 ---
 
 ### Theatre Scholarship
-- **filename:** `Theatre_Scholarship.txt`
-- **document_type:** financial
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** 2025-2026
 - **description:** Describes the Sarofim Scholarship in Theatre available to prospective Theatre majors at Southwestern. Audition or portfolio review is required to be considered; students who indicate theatre interest when applying will receive instructions for submitting an online audition video or portfolio. Acting submissions require a two-minute monologue and optionally 32 bars of a musical song. All other areas (design, etc.) submit a portfolio. Submission deadline is February 15, 2026 (late submissions considered case-by-case). Scholarship recipients are invited to attend the Sarofim School of Fine Arts Scholarship Celebration Day on campus. Clarifies that auditioning is NOT mandatory to pursue a theatre major—any admitted student may declare theatre, and any student may audition for productions as a non-major. Scholarship recipients may be eligible for additional Southwestern financial assistance.
 - **critical_data:**
   - Scholarship name: Sarofim Scholarship in Theatre
@@ -253,79 +120,33 @@ This index covers the Theatre Department at Southwestern University's Sarofim Sc
   - Auditioning is NOT required to major in Theatre at SU
   - Any student may audition for productions as a non-major
   - Scholarship recipients invited to Scholarship Celebration Day on campus
-- **retrieval_triggers:**
-  - "theatre scholarship"
-  - "Sarofim scholarship theatre"
-  - "how to audition for scholarship"
-  - "theatre audition deadline"
-  - "do I have to audition to major in theatre"
-  - "scholarship for theatre major"
-  - "can non-majors audition"
-  - "theatre portfolio submission"
-  - "how to get theatre scholarship money"
-  - "scholarship celebration day"
-  - "acting audition requirements"
-  - "theatre financial aid"
 
 ---
 
 ### Notable Faculty and Student Achievements
-- **filename:** `Notable_Faculty___Student_Achievements.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** 2025-2026
 - **description:** Documents notable accomplishments by Theatre Department faculty and students. This file was listed in the uploaded set but its extracted text content was not fully available in context. Based on the filename and department context, it likely covers awards, recognitions, performance highlights, guest artist residencies, and professional achievements relevant to the department's reputation and outcomes. Students asking about department prestige, faculty accomplishments, or student success stories would be directed here.
 - **critical_data:**
   - Contents include faculty and student achievements (exact entries require file review)
   - Relevant to prospective student inquiries about department quality and outcomes
-- **retrieval_triggers:**
-  - "theatre faculty awards"
-  - "student achievements theatre"
-  - "notable alumni"
-  - "theatre department accomplishments"
-  - "has anyone won awards from SU theatre"
-  - "faculty recognition theatre"
 
 ---
 
 ### High Impact Learning Experiences
-- **filename:** `High_Impact_Learning_Experiences.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** 2025-2026
-- **description:** Describes the Theatre Department's requirement and offerings for high-impact learning experiences. Theatre majors are expected to engage in at least two high-impact experiences before graduation. Available options include: New York Arts Program, Study Abroad, London Semester Abroad, internships, Mask and Wig Association, Alpha Psi Omega, and Workshops and Guest Artists Series. The Center for Career and Professional Development can help with applications, resumes, and interviews. Funding options include the Sarofim Travel Grant (up to $700 per year), general tuition scholarships applicable to London Semester, Paideia scholarships, and Office of Intercultural Learning scholarships. Students in the Edinburgh festival program (Don Swan on the Royal Mile) are also referenced.
+- **description:** Describes the Theatre Department's requirement and offerings for high-impact learning experiences. Theatre majors are expected to engage in at least two high-impact experiences before graduation. Available options include: New York Arts Program, Study Abroad, London Semester Abroad, internships, Mask and Wig Association, Alpha Psi Omega, and Workshops and Guest Artists Series. The Center for Career and Professional Development can help with applications, resumes, and interviews. Funding options include the Sarofim Travel Grant (up to $700 per year), general tuition scholarships applicable to London Semester, General Education scholarships, and Office of Intercultural Learning scholarships. Students in the Edinburgh festival program (Don Swan on the Royal Mile) are also referenced.
 - **critical_data:**
   - Theatre majors must complete at least two high-impact experiences before graduation
   - Sarofim Travel Grant: up to $700, usable once per year throughout enrollment
   - London Semester Abroad can be supported by general tuition scholarships and financial aid
   - Center for Career and Professional Development assists with program applications
   - Programs include: NYAP, Study Abroad, London Semester, internships, Mask and Wig, Alpha Psi Omega, Workshops/Guest Artists
-  - Additional funding: Paideia scholarships, Office of Intercultural Learning scholarships
-- **retrieval_triggers:**
-  - "high impact experiences theatre"
-  - "study abroad theatre"
-  - "how many high impact experiences do I need"
-  - "Sarofim Travel Grant"
-  - "theatre funding for travel"
-  - "Mask and Wig Association"
-  - "Alpha Psi Omega"
-  - "New York Arts Program theatre"
-  - "London Semester theatre"
-  - "guest artists workshop"
-  - "Edinburgh theatre program"
-  - "career development theatre"
-  - "funding for theatre study abroad"
+  - Additional funding: General Education scholarships, Office of Intercultural Learning scholarships
 
 ---
 
 ### New York Internships
-- **filename:** `New_York_Internships.txt`
-- **document_type:** resources
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** 2025-2026
 - **description:** Describes the New York Arts Program (NYAP) internship experience available to Theatre students. NYAP is based in Chelsea, Manhattan, with students residing in the program's five-story dormitory/office townhouse on West 29th Street. The program offers internships, seminars led by NYAP faculty and creative professionals, individual faculty advising for career exploration, participation in a community of students and professionals, and program events providing exposure to New York as a global cultural capital. Applications are due in October and March for the following semester; 50 participants accepted per semester. The SU Internship Coordinator is Dana Luna (512-863-1346). The NYAP program coordinator is Susan Chilrey (susan@nyartsprogram.org, 212-563-0255).
 - **critical_data:**
   - NYAP application deadlines: October and March (for following semester)
@@ -334,27 +155,11 @@ This index covers the Theatre Department at Southwestern University's Sarofim Sc
   - SU Internship Coordinator: Dana Luna — 512-863-1346
   - NYAP Program Coordinator: Susan Chilrey — susan@nyartsprogram.org — 212-563-0255
   - Program includes: internships, seminars, individual advising, community events
-- **retrieval_triggers:**
-  - "New York internship theatre"
-  - "NYAP program"
-  - "New York Arts Program"
-  - "internship in New York"
-  - "how to apply for NYAP"
-  - "NYAP deadline"
-  - "who is the internship coordinator"
-  - "Dana Luna contact"
-  - "theatre internship New York"
-  - "living in New York for theatre program"
-  - "how many students accepted NYAP"
 
 ---
 
 ### Internships Abroad
-- **filename:** `Internships_Abroad.txt`
-- **document_type:** resources
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** 2025-2026
 - **description:** Describes international internship opportunities available through the London-based program. Internships are placed at professional arts organizations in the greater London area (theatres, concert halls, galleries, museums) and arranged through CAPA (Centre for Academic Programmes Abroad), supervised jointly by CAPA and an SU faculty member. Students in internships may take one of three related courses for credit and are encouraged to attend program events (tickets included in program fee). Internships require a six-week commitment, meaning students remain in London two weeks after the start of the formal academic program. Successful completion yields six semester hours of credit.
 - **critical_data:**
   - Internship facilitator: CAPA (Centre for Academic Programmes Abroad), London
@@ -363,26 +168,11 @@ This index covers the Theatre Department at Southwestern University's Sarofim Sc
   - One related course may be taken concurrently
   - Ticket costs for program events (performances, concerts, museum visits) included in program fee
   - Supervised jointly by CAPA and SU faculty member
-- **retrieval_triggers:**
-  - "London internship theatre"
-  - "international internship"
-  - "CAPA program"
-  - "internship abroad London"
-  - "how many credits for London internship"
-  - "how long is the London internship"
-  - "arts internship London"
-  - "theatre internship abroad"
-  - "museum internship London"
-  - "can I take a class during London internship"
 
 ---
 
 ### Semester in London
-- **filename:** `Semester_in_London.txt`
-- **document_type:** resources
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** 2025-2026
 - **description:** Provides contact information for the Semester in London program through the Office of Intercultural Learning. The most up-to-date information on costs, dates, and payment deadlines is maintained by that office. Contact: Tisha Temple, Director of Intercultural Learning, P.O. Box 770, Georgetown, Texas, (512) 863-1857, fax (512) 863-1535, templet@southwestern.edu. This document is a brief referral document rather than a complete program description; detailed program and financial information is maintained by the Office of Intercultural Learning.
 - **critical_data:**
   - Program details maintained by: Office of Intercultural Learning
@@ -390,25 +180,11 @@ This index covers the Theatre Department at Southwestern University's Sarofim Sc
   - Fax: (512) 863-1535
   - Address: P.O. Box 770, Georgetown, Texas
   - Note: Costs, dates, and deadlines are not contained in this document — refer student to Tisha Temple
-- **retrieval_triggers:**
-  - "semester in London"
-  - "London semester abroad"
-  - "study abroad London"
-  - "how much does London semester cost"
-  - "London semester deadline"
-  - "London program contact"
-  - "Tisha Temple"
-  - "intercultural learning London"
-  - "London semester financial aid"
 
 ---
 
 ### Current Season (2025-2026)
-- **filename:** `Current_Season.txt`
-- **document_type:** calendar
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** 2025-2026
 - **description:** Lists all three productions in the 2025-2026 Theatre Season. Men on Boats by Jaclyn Backhaus runs November 7-9 and 14-17, 2025, in the Jesse H. and Mary Gibbs Jones Theater. BKLYN The Musical (book/music/lyrics by Mark Schoenfeld and Barri McPherson) runs February 20-22, 27-28, and March 1, 2026, in the Jones Theater. Tracks by Peter Tarsi runs April 17-19 and 24-26, 2026, in the Heather McGaughey Memorial Hall. Season subscribers who purchase tickets to all three productions automatically receive a 20% discount. No strollers or baby buggies are allowed in the theater.
 - **critical_data:**
   - Production 1: Men on Boats — Nov 7-9, 14-17, 2025 — Jones Theater
@@ -416,27 +192,11 @@ This index covers the Theatre Department at Southwestern University's Sarofim Sc
   - Production 3: Tracks — Apr 17-19, 24-26, 2026 — Heather McGaughey Memorial Hall
   - Season discount: 20% off when all three productions purchased together
   - Policy: No strollers or baby buggies allowed in the theater
-- **retrieval_triggers:**
-  - "what shows are playing this season"
-  - "current theatre season"
-  - "Men on Boats show"
-  - "BKLYN Musical"
-  - "Tracks play"
-  - "when are the shows"
-  - "theatre season 2025-2026"
-  - "season ticket discount"
-  - "what is playing at the Jones Theater"
-  - "spring show theatre"
-  - "fall show theatre"
 
 ---
 
 ### Box Office
-- **filename:** `Box_Office.txt`
-- **document_type:** policy
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** 2025-2026
 - **description:** Provides complete information on purchasing tickets, pricing, discounts, ADA accommodations, complimentary tickets for SU community members, and box office operations. Tickets may be purchased online, by phone (512-863-1378), or in person during box office hours (12:30–5:00 p.m. Monday–Friday). All purchases must use a credit card; cash is no longer accepted. Sarofim Music Series season ticket discount: 20% off when purchasing tickets to at least five of seven concerts. Theatre season discount: 20% off when purchasing all three productions. Discounts available for seniors (over 62), youth (under 16), students (valid ID), educators, and military. Groups of 10+ receive an automatic 15% discount. SU students receive one complimentary ticket per production; SU faculty/staff receive two. ADA seating requires a phone reservation at 512-863-1378. Box office is not open on Saturdays; opens 1.5 hours before football games at Birkelbach Stadium.
 - **critical_data:**
   - Box office hours: Monday–Friday, 12:30–5:00 p.m.
@@ -449,28 +209,11 @@ This index covers the Theatre Department at Southwestern University's Sarofim Sc
   - SU faculty/staff complimentary tickets: 2 per production
   - ADA seating: call 512-863-1378
   - Not open Saturdays; opens 1.5 hours before Birkelbach Stadium football games
-- **retrieval_triggers:**
-  - "how to buy theatre tickets"
-  - "box office hours"
-  - "student discount tickets"
-  - "complimentary tickets SU students"
-  - "ADA theatre seating"
-  - "theatre ticket prices"
-  - "season ticket discount"
-  - "group discount tickets"
-  - "can I pay cash at box office"
-  - "buy tickets online"
-  - "faculty tickets theatre"
-  - "box office phone number"
 
 ---
 
 ### Ticket Policies
-- **filename:** `Ticket_Policies.txt`
-- **document_type:** policy
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Outlines the full ticket policy for Mathers Box Office. All sales are final; no refunds or exchanges for single-ticket purchases. Season ticket holders may exchange tickets within the same production up to 48 hours before curtain if tickets are available; price differences must be paid at time of exchange; changes must happen in person or by phone during business hours. Tickets may be donated back to the university at least 24 hours in advance by emailing boxoffice@southwestern.edu. No tickets are mailed; all tickets must be picked up at the Mathers Box Office or at Will Call on the day of the show. An emailed receipt is not an electronic ticket. Tickets may be picked up any time the box office is open or beginning one hour before showtime. Box office hours: Monday–Friday, 12:30 p.m.–5:00 p.m.
 - **critical_data:**
   - No refunds or exchanges for single-ticket purchases
@@ -480,26 +223,11 @@ This index covers the Theatre Department at Southwestern University's Sarofim Sc
   - Emailed receipt is NOT an electronic ticket
   - Pickup available: any time box office is open, or 1 hour before showtime
   - Hours: Monday–Friday, 12:30 p.m.–5:00 p.m.
-- **retrieval_triggers:**
-  - "can I get a refund on theatre tickets"
-  - "ticket exchange policy"
-  - "how do I pick up tickets"
-  - "will call theatre"
-  - "donate tickets back"
-  - "is my email confirmation my ticket"
-  - "ticket policies"
-  - "season ticket exchange"
-  - "where do I pick up my tickets"
-  - "box office pickup"
 
 ---
 
 ### Parking and Directions
-- **filename:** `Parking_and_Directions.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Provides directions and parking information for visiting the Sarofim School of Fine Arts and Mathers Box Office. Parking on campus is free, and all campus parking lots are available to guests. Specific parking areas near fine arts events are marked with a gold star on the campus map. Parking available at Alma Thomas Fine Arts Center, behind Lois Perkins Chapel, and in other campus areas. The Mathers Box Office is located in the Sarofim School of Fine Arts adjacent to the Alma Thomas Theater. Driving directions from IH-35: exit 261, turn right onto University Ave, continue 1.6 miles, turn left into parking lot on E. Rutersville Road (second left after Maple St./University intersection). Box office is in the middle of the building.
 - **critical_data:**
   - Parking: free on campus; all lots available to guests
@@ -507,15 +235,6 @@ This index covers the Theatre Department at Southwestern University's Sarofim Sc
   - Mathers Box Office: located in Sarofim School of Fine Arts, adjacent to Alma Thomas Theater
   - Directions: IH-35 exit 261 → right on University Ave → 1.6 miles → left on E. Rutersville Road
   - Box office is in the middle of the Sarofim building
-- **retrieval_triggers:**
-  - "where to park for theatre"
-  - "how to get to the theatre"
-  - "Sarofim building location"
-  - "parking fine arts"
-  - "directions to SU theatre"
-  - "box office location"
-  - "is parking free"
-  - "Alma Thomas Theater location"
 
 ---
 
@@ -536,7 +255,7 @@ This index covers the Theatre Department at Southwestern University's Sarofim Sc
 
 *Source: `SU_General_Policies.txt`*
 
-### SU Universal Curriculum Requirements (Paideia Framework)
+### SU Universal Curriculum Requirements (General Education)
 
 **Required for ALL degree paths:**
 - First-Year Seminar (FYS) or Advanced-Entry Seminar (AES): 4 credits
@@ -906,7 +625,7 @@ This index covers the Theatre Department at Southwestern University's Sarofim Sc
 - **Source:** `Performance_Courses.txt`
 
 #### Feminism and Performance
-- **Notes:** Cross-listed with Communication Studies 75-524 and Feminist Studies 04-724; carries FAP and WA Paideia designations; gender performance on stage, in daily life, and media
+- **Notes:** Cross-listed with Communication Studies 75-524 and Feminist Studies 04-724; carries FAP and WA General education designations; gender performance on stage, in daily life, and media
 - **Source:** `Performance_Courses.txt`
 
 #### Acting: Poetic Language
@@ -914,93 +633,6 @@ This index covers the Theatre Department at Southwestern University's Sarofim Sc
 - **Source:** `Performance_Courses.txt`
 
 ---
-
-## SECTION 5 — TOPIC INDEX
-
-- B.A. Theatre Arts degree requirements → `Majoring___Minoring.txt`
-- B.A. Theatre Performance and Production degree requirements → `Majoring___Minoring.txt`
-- Minor in Theatre requirements → `Majoring___Minoring.txt`
-- Difference between Theatre Arts and Theatre Performance and Production B.A. → `Majoring___Minoring.txt`
-- Total credit hours for Theatre major → `Majoring___Minoring.txt`, `SU_General_Policies.txt`
-- Theatre Core required courses → `Majoring___Minoring.txt`
-- THE72-164 Design Fundamentals (enrollment eligibility, requirement) → `Majoring___Minoring.txt`, `Design_Courses.txt`
-- THE72-183 Fundamentals of Acting (requirement, description) → `Majoring___Minoring.txt`, `Performance_Courses.txt`
-- THE72-193 Movement and Voice (requirement, description) → `Majoring___Minoring.txt`, `Performance_Courses.txt`
-- THE72-211 Theatre Laboratory (six semesters, senior year requirement) → `Majoring___Minoring.txt`, `Design_Courses.txt`
-- THE72-234 Theatre History (required for all paths including minor) → `Majoring___Minoring.txt`, `History_and_Literature_Courses.txt`
-- THE72-254 Devising (elective option B.A. Theatre Arts) → `Majoring___Minoring.txt`
-- THE72-314 Playwriting (elective option B.A. Theatre Arts, course description) → `Majoring___Minoring.txt`, `History_and_Literature_Courses.txt`
-- THE72-794 Costume Design (design elective, course description) → `Majoring___Minoring.txt`, `Design_Courses.txt`
-- THE72-804 Scenic Design (design elective, course description) → `Majoring___Minoring.txt`, `Design_Courses.txt`
-- THE72-824 Lighting Design (design elective, course description) → `Majoring___Minoring.txt`, `Design_Courses.txt`
-- THE72-921 Theatre Capstone: Research Methods → `Majoring___Minoring.txt`
-- THE72-923 Theatre Capstone → `Majoring___Minoring.txt`
-- Theatre Company course description and commitment → `Design_Courses.txt`
-- Independent study and internship credits not counting toward major → `Majoring___Minoring.txt`
-- Upper-level elective requirements (number and eligibility) → `Majoring___Minoring.txt`
-- Course numbering system (72=Design, 73=Performance, 74=History) → `Majoring___Minoring.txt`
-- Teacher certification in theatre → `Majoring___Minoring.txt`, `SU_General_Policies.txt`
-- Theatre scholarship (Sarofim Scholarship) → `Theatre_Scholarship.txt`
-- Scholarship audition requirements and deadline (Feb 15, 2026) → `Theatre_Scholarship.txt`
-- Whether auditioning is required to major in theatre → `Theatre_Scholarship.txt`
-- Non-majors auditioning for productions → `Theatre_Scholarship.txt`, `Performance_Courses.txt`
-- High-impact learning experience requirement (two required before graduation) → `High_Impact_Learning_Experiences.txt`
-- Sarofim Travel Grant (up to $700/year) → `High_Impact_Learning_Experiences.txt`
-- New York Arts Program (NYAP) internship → `New_York_Internships.txt`, `High_Impact_Learning_Experiences.txt`
-- NYAP application deadlines (October and March) → `New_York_Internships.txt`
-- NYAP contact information (Dana Luna, SU; Susan Chilrey, NYAP) → `New_York_Internships.txt`
-- London internship through CAPA → `Internships_Abroad.txt`
-- London internship credit (6 semester hours) and duration (6 weeks) → `Internships_Abroad.txt`
-- Semester in London contact and costs → `Semester_in_London.txt`, `SU_Resources_and_Financial.txt`
-- Theatre Arts in London course (fall London program only) → `History_and_Literature_Courses.txt`
-- Study abroad options for theatre students → `High_Impact_Learning_Experiences.txt`, `Semester_in_London.txt`, `Internships_Abroad.txt`, `SU_Resources_and_Financial.txt`
-- Funding for study abroad (Sarofim Travel Grant, Paideia scholarships, OIL scholarships) → `High_Impact_Learning_Experiences.txt`, `SU_Resources_and_Financial.txt`
-- Mask and Wig Association → `High_Impact_Learning_Experiences.txt`
-- Alpha Psi Omega (theatre honor society) → `High_Impact_Learning_Experiences.txt`
-- Guest Artists and Workshops series → `High_Impact_Learning_Experiences.txt`
-- Theatre facilities (Alma Thomas Theater, Jones Theater, Heather Hall) → `Facilities.txt`
-- Alma Thomas Theater (750-seat proscenium) → `Facilities.txt`
-- Jesse H. and Mary Gibbs Jones Theater (325-seat thrust) → `Facilities.txt`
-- Heather Jean McGaughey Black Box / Heather Hall (50-seat) → `Facilities.txt`
-- Costume shop, scene shop, computer design studio → `Facilities.txt`
-- Current season productions and dates → `Current_Season.txt`
-- Men on Boats (Nov 2025, Jones Theater) → `Current_Season.txt`
-- BKLYN The Musical (Feb/Mar 2026, Jones Theater) → `Current_Season.txt`
-- Tracks by Peter Tarsi (Apr 2026, Heather Hall) → `Current_Season.txt`
-- Season ticket discount (20% for all 3 productions) → `Current_Season.txt`, `Box_Office.txt`
-- How to buy theatre tickets → `Box_Office.txt`
-- Box office hours and location → `Box_Office.txt`, `Ticket_Policies.txt`, `Parking_and_Directions.txt`
-- Ticket discounts (senior, youth, student, educator, military) → `Box_Office.txt`
-- Group discount (15% for groups of 10+) → `Box_Office.txt`
-- SU student complimentary tickets (1 per production) → `Box_Office.txt`
-- SU faculty/staff complimentary tickets (2 per production) → `Box_Office.txt`
-- ADA and accommodated seating → `Box_Office.txt`, `Ticket_Policies.txt`
-- Ticket refund and exchange policy → `Ticket_Policies.txt`
-- Season ticket exchange (within same production, 48 hours advance) → `Ticket_Policies.txt`
-- Donating tickets back (24 hours advance, boxoffice@southwestern.edu) → `Ticket_Policies.txt`
-- Will Call and ticket pickup policy → `Ticket_Policies.txt`
-- Emailed receipt is not an electronic ticket → `Ticket_Policies.txt`
-- Parking and directions to Sarofim School of Fine Arts → `Parking_and_Directions.txt`
-- Free parking on campus for fine arts events → `Parking_and_Directions.txt`
-- Theatre faculty contact information → `Our_Faculty___Staff.txt`
-- Department Chair contact (Desiderio Roybal) → `Our_Faculty___Staff.txt`
-- Production Coordinator contact (Kerry Bechtel) → `Our_Faculty___Staff.txt`
-- Costume Shop Manager contact (Glenda Wolfe) → `Our_Faculty___Staff.txt`
-- Technical Director contact (Chaz Sanders) → `Our_Faculty___Staff.txt`
-- Dramaturgy prerequisite for SSFA productions → `History_and_Literature_Courses.txt`
-- Advanced Directing prerequisite (Theatre 73-894) → `Performance_Courses.txt`
-- Feminism and Performance Paideia designations (FAP, WA) → `Performance_Courses.txt`
-- Theatre Sustainability cross-listing with Environmental Studies → `Design_Courses.txt`
-- Theatre Dance cross-listing with Dance 79-414 → `Performance_Courses.txt`
-- Work-study jobs in theatre (faculty assistant, box office, backstage crew) → `Theatre.txt`
-- Graduation requirements (credits, GPA, residency) → `Majoring___Minoring.txt`, `SU_General_Policies.txt`
-- Paideia general education requirements → `SU_General_Policies.txt`
-- Transfer credit eligibility for theatre major → `Majoring___Minoring.txt`, `SU_General_Policies.txt`
-- Academic probation and dismissal → `SU_General_Policies.txt`
-- Pass/D/F grading option → `SU_General_Policies.txt`
-- Incomplete grade policy → `SU_General_Policies.txt`
-- Financial aid impact of withdrawal → `SU_Resources_and_Financial.txt`
-- Tuition refund schedule → `SU_Resources_and_Financial.txt`
 
 ---
 
@@ -1083,7 +715,7 @@ This index covers the Theatre Department at Southwestern University's Sarofim Sc
 
 **Q:** How do I get funding to study abroad for theatre?
 **Docs:** `High_Impact_Learning_Experiences.txt`, `SU_Resources_and_Financial.txt`
-**Routing Note:** High Impact doc describes Sarofim Travel Grant ($700/yr), Paideia scholarships, OIL scholarships; Resources & Financial doc has fuller financial aid information.
+**Routing Note:** High Impact doc describes Sarofim Travel Grant ($700/yr), General Education scholarships, OIL scholarships; Resources & Financial doc has fuller financial aid information.
 **Disambiguation Needed:** No.
 
 **Q:** What is the London internship program?
@@ -1116,10 +748,10 @@ This index covers the Theatre Department at Southwestern University's Sarofim Sc
 **Routing Note:** Facilities document identifies the Heather Jean McGaughey Black Box as a 50-seat performance and classroom space; also used for Theatre Sustainability course and Tracks (spring 2026).
 **Disambiguation Needed:** No.
 
-**Q:** Can I take Feminism and Performance to satisfy a Paideia requirement?
+**Q:** Can I take Feminism and Performance to satisfy a General education requirement?
 **Docs:** `Performance_Courses.txt`, `SU_General_Policies.txt`
-**Routing Note:** Performance Courses notes FAP and WA Paideia designations for this course; General Policies has full Paideia structure.
-**Disambiguation Needed:** No — but confirm student's Paideia status via General Policies.
+**Routing Note:** Performance Courses notes FAP and WA General education designations for this course; General Policies has full General Education structure.
+**Disambiguation Needed:** No — but confirm student's General Education status via General Policies.
 
 **Q:** I want to be a dramaturg for an SSFA production. What do I need?
 **Docs:** `History_and_Literature_Courses.txt`
@@ -1190,11 +822,10 @@ This index covers the Theatre Department at Southwestern University's Sarofim Sc
   - **What general docs must cover:** 127-credit minimum, 64-credit SU residency, last 32 in-residence, 2.000 overall GPA, 2.000 major GPA, 60% major residency, Application for Diploma process
   - **Routing instruction:** Always retrieve `SU_General_Policies.txt` alongside `Majoring___Minoring.txt` for any graduation eligibility question
 
-- **Topic:** Paideia general education requirements
+- **Topic:** General education requirements
   - **What major docs cover:** Feminism and Performance carries FAP and WA designations; Theatre Sustainability cross-listed with Environmental Studies; Theatre Dance cross-listed with Dance
   - **What general docs must cover:** Full FYS/AES, Language & Cultures, FRA, Power and Justice, Exploration & Breadth Parts I and II structure; Paideia with Distinction option
-  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about gen-ed, breadth requirements, or Paideia
-
+  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about gen-ed, breadth requirements, or General Education 
 - **Topic:** Pass/D/F grading option
   - **What major docs cover:** Not addressed
   - **What general docs must cover:** Full Pass/D/F policy, deadlines to switch, GPA impact
@@ -1356,7 +987,7 @@ This index covers the Theatre Department at Southwestern University's Sarofim Sc
 
 **Always retrieve `SU_General_Policies.txt` alongside major docs when:**
 - Any graduation eligibility or credit count question
-- Any Paideia / general education requirement question
+- Any general education requirement question
 - Any grading policy question (Pass/D/F, grade appeals, incomplete grades)
 - Any academic standing question (probation, dismissal, appeal)
 - Any transfer credit or credit-by-examination question

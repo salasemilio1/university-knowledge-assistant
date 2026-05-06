@@ -31,11 +31,7 @@ SECTION 2 — DOCUMENT REGISTRY
 ════════════════════════════════════════════════════════
 
 ### Southwestern University Resources and Financial Information
-- **filename:** `SU_Resources_and_Financial.txt`
-- **document_type:** financial | resources | policy | advising
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** 2025–2026
 - **description:** This document is the primary source for all financial and resource-related questions at Southwestern University. It covers the complete 2025–2026 tuition schedule ($28,109/semester; $56,218/year), room charge schedules for all residential halls and apartments, meal plan options (Unlimited, 15/12/9/5 meals/week) with PirateBuc$ details, and a full schedule of special fees including overload fees, late payment fees, lab fees, applied music fees, and the Dewar Tuition Refund Plan. The document details all financial aid programs administered by SU (Federal Pell Grant, FSEOG, Stafford Loans, PLUS Loans, Work-Study, TEG, College Access Loan, merit scholarships), the FAFSA priority deadline (March 1), and the full Satisfactory Academic Progress (SAP) policy including qualitative (2.0 GPA), quantitative (80% completion rate), and maximum timeframe (175 credits) standards with appeal procedures. Billing procedures via the Transact Payment Portal, the SU Payment Plan (interest-free, up to 5 monthly installments, $25 enrollment fee), late payment fee policies ($150 initial fee), and pre-registration holds for unpaid balances of $300+ are fully documented. The tuition refund schedule (80%/60%/50%/40%/30%/0% by week), board refund policy (75% of unused base plan), and room no-refund rule are specified, along with the summer refund schedule. Study abroad programs covered include the London Semester (fall only, up to ~30 students, sophomore standing required, most financial aid applicable), ISEP Exchange (200+ universities worldwide, most financial aid applicable), College Year in Athens (CYA), New York Arts Program (NYAP, Stafford/Pell only), and Capitol Hill Internship Program (CHIP, most financial aid applicable). Study abroad application deadlines are listed by program type. The document also covers the Center for Integrative Learning, academic and funded internships (SURF, King Creativity Fund), health professions shadowing (St. David's 10-week fall/spring, Houston Methodist Willowbrook 4-week summer observership and 8-week internship), community-engaged learning, and veterans benefits procedures under the GI Bill and Veterans Benefits and Transition Act of 2018. Admission procedures, application options (Early Decision, Early Action, Regular Decision), and deposits ($700 total admitted student deposit: $250 enrollment + $200 orientation + $250 housing) are also documented.
 
 - **critical_data:**
@@ -95,53 +91,6 @@ SECTION 2 — DOCUMENT REGISTRY
   - Veterans: GI Bill (Ch. 30, 31, 33, 35); must submit COE by first day of class; SU cannot charge late fees during delayed VA disbursement
   - Veterans: one upper-level FRA credit granted upon submission of DD214
   - Returned payments: $30/item
-
-- **retrieval_triggers:**
-  - "how much is tuition"
-  - "what does it cost to go to Southwestern"
-  - "what are the room charges"
-  - "how much is housing"
-  - "meal plan options and prices"
-  - "PirateBuc$ how does it work"
-  - "how do I pay my bill"
-  - "payment plan options"
-  - "what happens if I don't pay on time"
-  - "late payment fee"
-  - "can I get a refund if I withdraw"
-  - "tuition refund schedule"
-  - "how does withdrawing affect my financial aid"
-  - "FAFSA deadline"
-  - "how do I apply for financial aid"
-  - "what scholarships does SU offer"
-  - "merit scholarship requirements"
-  - "what is satisfactory academic progress"
-  - "SAP requirements"
-  - "minimum GPA for financial aid"
-  - "can I appeal losing financial aid"
-  - "study abroad cost"
-  - "can I use my financial aid for London Semester"
-  - "ISEP exchange program"
-  - "New York Arts Program funding"
-  - "Capitol Hill Internship Program"
-  - "do I qualify for study abroad"
-  - "study abroad application deadline"
-  - "how do I get an internship"
-  - "SURF research program"
-  - "King Creativity Fund"
-  - "hospital shadowing program"
-  - "pre-med shadowing"
-  - "Houston Methodist program"
-  - "St. David's shadowing"
-  - "can I get funding for an unpaid internship"
-  - "veterans benefits at Southwestern"
-  - "GI Bill"
-  - "how many credits can I transfer from study abroad"
-  - "what is the deposit when I enroll"
-  - "housing deposit refund"
-  - "how does the payment portal work"
-  - "can my parents pay my bill"
-  - "overload fee"
-  - "how much for summer classes"
 
 ---
 
@@ -686,7 +635,7 @@ The following topics require retrieving BOTH this document AND `SU_General_Polic
   - **Routing instruction:** Retrieve both documents
 
 - **Topic:** Paideia with Distinction and community-engaged learning
-  - **What this doc covers:** CEL courses count as one of two distinctive Paideia experiences; how to find CEL courses
+  - **What this doc covers:** CEL courses count as one of two distinctive General Education experiences; how to find CEL courses
   - **What general doc must cover:** Full Paideia with Distinction requirements, application process, deadlines
   - **Routing instruction:** Retrieve both documents
 

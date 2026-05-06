@@ -10,12 +10,8 @@
 ## SECTION 2 — DOCUMENT REGISTRY
 
 ### Courses
-- **filename:** `Courses.txt`
-- **document_type:** course_info
 - **degree_relevance:** B.A. | Minor | All
-- **time_sensitive:** false
-- **catalog_year:** N/A
-- **description:** Contains full descriptions of all French department course offerings, from introductory to capstone level. Covers FRE 11-144 through FRE 11-934, including prerequisites, semester offerings, and Paideia (H/WA) designations. Lists 14 distinct courses spanning language acquisition, culture, literature, cinema, translation, and the Capstone Seminar. Notes which courses contribute to International Studies and Race and Ethnicity Studies. Provides sequencing logic from novice through advanced proficiency. Course descriptions specify oral and written proficiency targets per ACTFL levels.
+- **description:** Contains full descriptions of all French department course offerings, from introductory to capstone level. Covers FRE 11-144 through FRE 11-934, including prerequisites, semester offerings, and General Education (H/WA) designations. Lists 14 distinct courses spanning language acquisition, culture, literature, cinema, translation, and the Capstone Seminar. Notes which courses contribute to International Studies and Race and Ethnicity Studies. Provides sequencing logic from novice through advanced proficiency. Course descriptions specify oral and written proficiency targets per ACTFL levels.
 - **critical_data:**
   - FRE 11-144 French I: Intro Language and Culture (Fall)
   - FRE 11-154 French II: Intro Language and Culture — Prereq: 11-144 or placement (Spring)
@@ -31,31 +27,11 @@
   - FRE 11-604 Topics in Literature and Culture — Prereq: one upper-level French course (Spring); (H)(WA)
   - FRE 11-614 Texts/Contexts — Prereq: one course from 11-314, 11-334, or 11-354; (H)(WA)
   - FRE 11-934 Capstone Seminar — fulfills capstone; taken in Spring; (H)(WA)
-- **retrieval_triggers:**
-  - "what French courses are offered"
-  - "what are the prerequisites for French"
-  - "when is French Cinema offered"
-  - "is there a translation course"
-  - "what is Conversation and Culture"
-  - "what upper-level French courses count"
-  - "when does French II meet"
-  - "can I repeat a French course"
-  - "which French courses count for International Studies"
-  - "what French courses have WA designation"
-  - "how do I get to the 500-level courses"
-  - "what is FRE 11-344"
-  - "is there a literature course in French"
-  - "what courses count for Race and Ethnicity Studies in French"
-  - "what is the highest level French course"
 
 ---
 
 ### For Current Students
-- **filename:** `For_Current_Students.txt`
-- **document_type:** advising
 - **degree_relevance:** B.A. | Minor | All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Advising resource for currently enrolled French students covering study abroad, the Capstone experience, the Pi Delta Phi honor society, funding opportunities, professional organizations, and online language resources. Describes the Capstone as a 15+ page research project completed in the senior year, with weekly individual mentoring meetings and a public oral presentation. Notes the French government's Teaching Assistant Program in France for graduating seniors. Includes information on the Fulbright scholarship for research and teaching abroad. Lists professional organizations relevant to French language educators and scholars.
 - **critical_data:**
   - Capstone: 15+ page research project in senior year; topic tied to a concurrent French course; mentored by a professor in weekly individual meetings; includes a public oral presentation
@@ -65,31 +41,11 @@
   - Study abroad recommended for fluency acceleration; visit Office of Intercultural Learning
   - Professional orgs: AATF, ACTFL, Women in French, MLA
   - Online resources: TV5 MONDE dictionnaire, Trésor de la langue française, Word Reference
-- **retrieval_triggers:**
-  - "how does the Capstone work for French"
-  - "what is Pi Delta Phi"
-  - "can I teach English in France"
-  - "Fulbright scholarship French"
-  - "study abroad France"
-  - "what professional organizations for French majors"
-  - "how do I prepare for the oral presentation"
-  - "what is the French honor society"
-  - "what is the Teaching Assistant Program in France"
-  - "how long is the Capstone paper"
-  - "what are French language resources online"
-  - "what happens at the Capstone presentation"
-  - "how do I apply for Pi Delta Phi"
-  - "funding for French students after graduation"
-  - "how do I study abroad in France"
 
 ---
 
 ### For Future Students
-- **filename:** `For_Future_Students.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Recruitment and overview document for prospective students describing the French/MLL department's philosophy, mentoring approach, interdisciplinary connections, faculty expertise, research opportunities, and career outcomes. Highlights the global citizenship emphasis and integration of language, literature, culture, and film. Notes that five French alumni have earned Teaching Assistant in France scholarships in recent years and that eleven German alumni have earned Fulbright Fellowships. Describes the Capstone as a research and oral presentation experience that prepares students for careers. Outlines faculty geographic and thematic expertise including France, Francophone Africa, Canada, Belgium, and the European Union.
 - **critical_data:**
   - Five French alumni have earned Teaching Assistant in France scholarships in recent years
@@ -98,31 +54,11 @@
   - Faculty specialties: calligraphy, cities, culture, environment, film, food, gender, literature, music, rhetoric, transnational identity
   - Study abroad and internships recommended to increase marketability
   - Capstone enables independent research and formal oral presentation
-- **retrieval_triggers:**
-  - "why major in French at Southwestern"
-  - "what jobs can I get with a French major"
-  - "what do French alumni do"
-  - "is French good for international careers"
-  - "does French pair well with other majors"
-  - "what interdisciplinary connections does French have"
-  - "what is the department's teaching philosophy"
-  - "can I combine French with business"
-  - "what do French professors specialize in"
-  - "what is the French department known for"
-  - "career outcomes for French majors"
-  - "how does French connect to political science"
-  - "is French a good pre-law or pre-health major"
-  - "what makes Southwestern French different"
-  - "do French majors get scholarships"
 
 ---
 
 ### Majoring & Minoring
-- **filename:** `Majoring___Minoring.txt`
-- **document_type:** requirements
 - **degree_relevance:** B.A. | Minor
-- **time_sensitive:** true
-- **catalog_year:** Current (catalog year not explicitly stated in document)
 - **description:** Definitive requirements document listing the exact courses and credit counts for the B.A. in French (8 courses), the Paired Major in International Studies and French (14 courses), and the Minor in French (5 courses). Specifies the required anchor course FRE 11-204 for all three paths. Lists exact upper-level and 500-level course requirements. Includes the Capstone Seminar (FRE 11-934) as required for both the B.A. and the Paired Major. Notes that students seeking teacher certification should see the Education Department. References the International Studies catalog for full Paired Major details.
 - **critical_data:**
   - **Major (B.A.) — 8 courses:**
@@ -143,31 +79,11 @@
     - Four additional French courses, at least one at or above 500 level
     - FRE 11-164, if taken for college credit, counts toward the minor
   - Teacher certification in French: refer to Education Department
-- **retrieval_triggers:**
-  - "how many courses for a French major"
-  - "what are the requirements for the French major"
-  - "what is needed for a French minor"
-  - "how does the paired major with International Studies work"
-  - "do I need the Capstone for the French minor"
-  - "what counts as upper-level for the French major"
-  - "what 500-level courses do I need"
-  - "how is the French paired major different from the regular major"
-  - "can I get a French minor"
-  - "how many courses for the International Studies and French paired major"
-  - "does FRE 11-164 count toward the minor"
-  - "what IS tracks are available in the paired major"
-  - "what intro courses satisfy the IS paired major"
-  - "can I become a French teacher at Southwestern"
-  - "what is the Capstone requirement for French"
 
 ---
 
 ### MLL Capstone Guidelines (Spring 2015)
-- **filename:** `MLL-Capstone-Spring-2015_-_mll-capstone-spring-2015pdf.txt`
-- **document_type:** policy
 - **degree_relevance:** B.A.
-- **time_sensitive:** false
-- **catalog_year:** Spring 2015 (guidelines document; procedural content remains current unless superseded)
 - **description:** Detailed procedural and scholarly guidelines for completing the Modern Languages and Literatures (MLL) Capstone for Chinese, French, and German programs. Specifies that the Capstone is a semester-long (or two-semester Honors) research project of 20+ pages plus an oral defense conducted in the target language. Describes ACTFL proficiency progression goals (Intermediate → Advanced → Superior → Distinguished), scholarly skills to be developed, general research and writing skills, and the Honor Code pledge. Notes that professor organizational styles vary (some use grading percentages, others a two-part grade). Mentions optional participation in Southwestern's "From Every Voice Symposium." Emphasizes that original research includes new critical perspectives, archive work, or interview materials.
 - **critical_data:**
   - Capstone = 20+ page written research project + oral defense (both in target language)
@@ -180,73 +96,27 @@
   - Proficiency goal: Distinguished level (position papers, journal article quality)
   - Honor Code pledge required on final draft
   - Note: This document specifies 20+ pages; `For_Current_Students.txt` says 15+ pages — students should confirm current requirement with supervising professor
-- **retrieval_triggers:**
-  - "how long is the Capstone paper"
-  - "what is the Capstone oral defense"
-  - "how does the Honors Capstone work"
-  - "what does the Capstone professor expect"
-  - "what is a prospectus for the Capstone"
-  - "when should I start working on the Capstone"
-  - "what is MLA format for the Capstone"
-  - "what ACTFL level does the Capstone target"
-  - "can I present at From Every Voice Symposium"
-  - "what is the Honor Code for the Capstone"
-  - "how do I choose a Capstone topic"
-  - "what are the Capstone research skills"
-  - "how many meetings with my Capstone professor"
-  - "is the Capstone graded on writing and oral separately"
-  - "what is the Honors Capstone"
 
 ---
 
 ### Notable Faculty & Student Achievements
-- **filename:** `Notable_Faculty___Student_Achievements.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Highlights of faculty publications, awards, and notable alumni/student accomplishments for the French department. Covers April 2024, May 2023, September 2021, and July 2020. Notes that French and psychology double major Sarah Woods '21 received an NSF Graduate Research Fellowship and is a Ph.D. student at the University of Utah. Lists teaching awards received by Associate Professor Francis Mathieu (2022-23). Documents Professor Mathieu's 2021 peer-reviewed publication in Cahiers du Dix-septième. Notes alumna Meili Criezis '17's 2020 peer-reviewed publications on counterterrorism and extremism.
 - **critical_data:**
   - Sarah Woods '21 (French + Psychology): NSF Graduate Research Fellowship; Ph.D. at University of Utah (cognition and neural science)
   - Francis Mathieu: received teaching award (2022-23); published "An All-Divine Love" in Cahiers du Dix-septième (September 2021)
   - Meili Criezis '17: published in CTC Sentinel and Global Network on Extremism and Technology (July 2020)
   - Francis Mathieu is Associate Professor of French (also listed as Professor and Department Chair in Our_Faculty.txt — verify current title)
-- **retrieval_triggers:**
-  - "what have French students achieved"
-  - "has a French professor won an award"
-  - "who are notable French alumni"
-  - "did a French major win an NSF fellowship"
-  - "what has Francis Mathieu published"
-  - "what do French graduates go on to do"
-  - "is there a French alumni success story"
-  - "who won a teaching award in the French department"
-  - "what research do French faculty do"
-  - "can a French major get into a Ph.D. program"
 
 ---
 
 ### Our Faculty
-- **filename:** `Our_Faculty.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Directory of French department faculty including names, titles, specialties, contact information, and office locations. Lists two faculty members: Francis Mathieu (Professor of French and Department Chair) and Aaron Prevots (Professor of French). Mathieu's specialties include intercultural skills, French culture and literature, history of French civilization, translation, food & health, World War Two France, multi-cultural France, introduction to modern literature, and African literature. Prevots's specialties include film, feminisms, intercultural skills, art/literature/culture intersections, popular memory, music traditions, Paris, poetry, novels, translation, and interdisciplinarity through Environmental Studies and International Studies.
 - **critical_data:**
   - Francis Mathieu: Professor of French and Department Chair; mathieuf@southwestern.edu; 512.863.1509; Olin 309
   - Aaron Prevots: Professor of French; prevots@southwestern.edu; 512.863.1597; Olin 315
   - Both faculty are located in Olin building
-- **retrieval_triggers:**
-  - "who teaches French at Southwestern"
-  - "who is the French department chair"
-  - "how do I contact a French professor"
-  - "what is Francis Mathieu's email"
-  - "where is the French department office"
-  - "who specializes in French cinema"
-  - "who can advise me on African literature in French"
-  - "who teaches translation in French"
-  - "does Southwestern have a French professor who studies film"
-  - "who is Aaron Prevots"
 
 ---
 
@@ -267,7 +137,7 @@ Source: `SU_General_Policies.txt`
 | Graduation Application | "Application for Diploma" must be filed; financial holds block diploma |
 | Degree Conferral Dates | December, May, August only; Commencement held once per year in May |
 
-### SU Universal Curriculum Requirements (Paideia Framework)
+### SU Universal Curriculum Requirements (General Education)
 
 Source: `SU_General_Policies.txt`
 
@@ -278,7 +148,7 @@ Required for ALL degree paths (B.A., B.S., B.F.A., B.Mus., B.S.Ed.):
 - Power and Justice (PJ) course: 1 course, 3-4 credits (cannot be satisfied by transfer credit)
 - Exploration and Breadth: 6 courses from outside the major (18-24 credits)
 
-**Note on French and Paideia:** Many upper-level French courses carry (H) and (WA) designations, satisfying Humanities Exploration & Breadth and Writing Attentive requirements. Students should confirm Paideia area designations per course in the current catalog.
+**Note on French and General Education: ** Many upper-level French courses carry (H) and (WA) designations, satisfying Humanities Exploration & Breadth and Writing Attentive requirements. Students should confirm General education area designations per course in the current catalog.
 
 ---
 
@@ -383,7 +253,7 @@ Required for ALL degree paths (B.A., B.S., B.F.A., B.Mus., B.S.Ed.):
 - **Corequisites:** None
 - **Offered:** Fall
 - **Required For:** Prerequisite chain for all French coursework
-- **Counts As:** Introductory language; Language & Cultures Paideia requirement (partial)
+- **Counts As:** Introductory language; Language & Cultures General education requirement (partial)
 - **Notes:** Builds listening, speaking, reading, writing, critical thinking, and cultural literacy. Novice-level proficiency development.
 - **Source:** `Courses.txt`
 
@@ -393,7 +263,7 @@ Required for ALL degree paths (B.A., B.S., B.F.A., B.Mus., B.S.Ed.):
 - **Corequisites:** None
 - **Offered:** Spring
 - **Required For:** Prerequisite chain
-- **Counts As:** Introductory language; Language & Cultures Paideia requirement (partial)
+- **Counts As:** Introductory language; Language & Cultures General education requirement (partial)
 - **Notes:** Emphasizes reading, writing, contemporary Francophone life; includes supplementary film units. Novice-level proficiency.
 - **Source:** `Courses.txt`
 
@@ -403,7 +273,7 @@ Required for ALL degree paths (B.A., B.S., B.F.A., B.Mus., B.S.Ed.):
 - **Corequisites:** None
 - **Offered:** Fall
 - **Required For:** Prerequisite chain; counts toward minor if taken for college credit
-- **Counts As:** Language & Cultures Paideia requirement (satisfies through third-semester proficiency); counts toward Minor
+- **Counts As:** Language & Cultures General education requirement (satisfies through third-semester proficiency); counts toward Minor
 - **Notes:** Grammar review, readings in literature and culture, intermediate proficiency. Intermediate level.
 - **Source:** `Courses.txt`
 
@@ -519,78 +389,6 @@ Required for ALL degree paths (B.A., B.S., B.F.A., B.Mus., B.S.Ed.):
 
 ---
 
-## SECTION 5 — TOPIC INDEX
-
-- B.A. in French degree requirements → `Majoring___Minoring.txt`
-- Paired Major in International Studies and French requirements → `Majoring___Minoring.txt`
-- Minor in French requirements → `Majoring___Minoring.txt`
-- Number of courses required for French major → `Majoring___Minoring.txt`
-- Number of courses required for French minor → `Majoring___Minoring.txt`
-- Upper-level course requirement (B.A.) → `Majoring___Minoring.txt`
-- 500-level course requirement (B.A. and Paired Major) → `Majoring___Minoring.txt`, `Courses.txt`
-- Anchor course requirement (FRE 11-204 for all paths) → `Majoring___Minoring.txt`
-- IS track options in Paired Major → `Majoring___Minoring.txt`
-- Paired Major intro course options (ANT, HIS, PSC) → `Majoring___Minoring.txt`
-- Paired Major Capstone requirements (FRE 11-934 + INS 38-894) → `Majoring___Minoring.txt`
-- Capstone Seminar — what it is → `For_Current_Students.txt`, `MLL-Capstone-Spring-2015_-_mll-capstone-spring-2015pdf.txt`
-- Capstone paper length (15+ pages per advising doc; 20+ per MLL guidelines) → `For_Current_Students.txt`, `MLL-Capstone-Spring-2015_-_mll-capstone-spring-2015pdf.txt`
-- Capstone oral presentation → `For_Current_Students.txt`, `MLL-Capstone-Spring-2015_-_mll-capstone-spring-2015pdf.txt`
-- Capstone professor selection → `MLL-Capstone-Spring-2015_-_mll-capstone-spring-2015pdf.txt`
-- Honors Capstone (two-semester, by invitation) → `MLL-Capstone-Spring-2015_-_mll-capstone-spring-2015pdf.txt`
-- Capstone prospectus requirements → `MLL-Capstone-Spring-2015_-_mll-capstone-spring-2015pdf.txt`
-- Capstone MLA format requirement → `MLL-Capstone-Spring-2015_-_mll-capstone-spring-2015pdf.txt`
-- Capstone ACTFL proficiency goals → `MLL-Capstone-Spring-2015_-_mll-capstone-spring-2015pdf.txt`
-- From Every Voice Symposium participation → `MLL-Capstone-Spring-2015_-_mll-capstone-spring-2015pdf.txt`
-- Capstone Honor Code pledge → `MLL-Capstone-Spring-2015_-_mll-capstone-spring-2015pdf.txt`
-- Pi Delta Phi honor society eligibility → `For_Current_Students.txt`
-- Teaching Assistant Program in France (graduating seniors) → `For_Current_Students.txt`, `For_Future_Students.txt`
-- Fulbright Fellowship (French students) → `For_Current_Students.txt`, `For_Future_Students.txt`
-- Study abroad in France — where to get information → `For_Current_Students.txt`
-- Office of Intercultural Learning (study abroad) → `For_Current_Students.txt`
-- Professional organizations for French majors → `For_Current_Students.txt`
-- Online French language resources (TV5, TLFi, Word Reference) → `For_Current_Students.txt`
-- Career outcomes for French majors → `For_Future_Students.txt`
-- Interdisciplinary pairings with French → `For_Future_Students.txt`
-- Department mentoring philosophy → `For_Future_Students.txt`
-- Faculty expertise and research areas → `Our_Faculty.txt`, `For_Future_Students.txt`
-- Francis Mathieu — contact information, specialty → `Our_Faculty.txt`
-- Aaron Prevots — contact information, specialty → `Our_Faculty.txt`
-- FRE 11-144 French I — prerequisites, offering → `Courses.txt`
-- FRE 11-154 French II — prerequisites, offering → `Courses.txt`
-- FRE 11-164 French III — prerequisites, offering; counts toward minor → `Courses.txt`, `Majoring___Minoring.txt`
-- FRE 11-204 Conversation and Culture — required for all paths → `Courses.txt`, `Majoring___Minoring.txt`
-- FRE 11-304 Selected Topics — can repeat, contributes to IS → `Courses.txt`
-- FRE 11-314 World War II France — prereq for 11-614 → `Courses.txt`
-- FRE 11-334 French Cinema — alternates with Women in/on Film; prereq for 11-614 → `Courses.txt`
-- FRE 11-344 Francophone Lit From Africa — Race and Ethnicity Studies credit → `Courses.txt`
-- FRE 11-354 Topics in French Culture — three alternating subtopics; prereq for 11-614 → `Courses.txt`
-- FRE 11-364 Translation and Culture — taught in French; grammar focus → `Courses.txt`
-- FRE 11-514 Studies in French Literature — 500-level; Spring → `Courses.txt`
-- FRE 11-604 Topics in Literature and Culture — 500-level; Spring → `Courses.txt`
-- FRE 11-614 Texts/Contexts — advanced prereq (must have taken 11-314, 11-334, or 11-354) → `Courses.txt`
-- FRE 11-934 Capstone Seminar — required for B.A. and Paired Major; Spring → `Courses.txt`, `Majoring___Minoring.txt`, `For_Current_Students.txt`, `MLL-Capstone-Spring-2015_-_mll-capstone-spring-2015pdf.txt`
-- Which courses count for International Studies → `Courses.txt`
-- Which courses count for Race and Ethnicity Studies → `Courses.txt`
-- Courses with (H) designation (Humanities Paideia) → `Courses.txt`
-- Courses with (WA) designation (Writing Attentive) → `Courses.txt`
-- Prerequisite for 500-level courses (one upper-level French course) → `Courses.txt`
-- Prerequisite for FRE 11-614 (must have 11-314, 11-334, or 11-354) → `Courses.txt`
-- Teacher certification in French → `Majoring___Minoring.txt` (refer to Education Department)
-- Notable French alumni and student achievements → `Notable_Faculty___Student_Achievements.txt`
-- Faculty awards and publications → `Notable_Faculty___Student_Achievements.txt`
-- Double major vs. paired major distinction → `Majoring___Minoring.txt`, `SU_General_Policies.txt`
-- Study abroad programs (London Semester, ISEP, NYAP, CHIP, CYA) → `SU_Resources_and_Financial.txt`
-- Financial aid and tuition → `SU_Resources_and_Financial.txt`
-- Graduation requirements (127 credits, GPA, residency) → `SU_General_Policies.txt`
-- Paideia general education requirements → `SU_General_Policies.txt`
-- Pass/D/F grading option → `SU_General_Policies.txt`
-- Academic probation and dismissal → `SU_General_Policies.txt`
-- Transfer credit rules (C- minimum, ELEC codes) → `SU_General_Policies.txt`
-- Latin honors (Cum Laude, etc.) → `SU_General_Policies.txt`
-- Language placement exemption → `SU_General_Policies.txt`
-- Credit by examination (AP, IB, CLEP) → `SU_General_Policies.txt`
-- SURF and King Creativity Fund internship opportunities → `SU_Resources_and_Financial.txt`
-
 ---
 
 ## SECTION 6 — QUERY PATTERN MAP
@@ -680,9 +478,9 @@ Required for ALL degree paths (B.A., B.S., B.F.A., B.Mus., B.S.Ed.):
 **Routing Note:** Honors Capstone (two-semester, departmental invitation) is described in MLL Capstone guidelines.
 **Disambiguation Needed:** No
 
-**Q:** Which French courses satisfy the Humanities requirement for Paideia?
+**Q:** Which French courses satisfy the Humanities requirement for General Education?
 **Docs:** `Courses.txt`, `SU_General_Policies.txt`
-**Routing Note:** (H) designation on courses is in Courses.txt; Paideia Exploration & Breadth structure is in SU_General_Policies.
+**Routing Note:** General Education (H) Exploration & Breadth Breadth structure is in SU_General_Policies.
 **Disambiguation Needed:** No
 
 **Q:** Can I study abroad in France and have it count toward my French major?
@@ -700,7 +498,7 @@ Required for ALL degree paths (B.A., B.S., B.F.A., B.Mus., B.S.Ed.):
 **Routing Note:** Faculty contact information for Francis Mathieu (Department Chair) and Aaron Prevots is in Our_Faculty.txt.
 **Disambiguation Needed:** No
 
-**Q:** Does FRE 11-204 have any Paideia designations?
+**Q:** Does FRE 11-204 have any General education designations?
 **Docs:** `Courses.txt`
 **Routing Note:** Course record in Courses.txt notes (H)(WA) for FRE 11-204.
 **Disambiguation Needed:** No
@@ -720,9 +518,9 @@ Required for ALL degree paths (B.A., B.S., B.F.A., B.Mus., B.S.Ed.):
 **Routing Note:** Three IS tracks listed: Global Politics and Economy, Global Society and Culture, Global Justice.
 **Disambiguation Needed:** No, but note that full IS track requirements require the IS catalog section.
 
-**Q:** What's the Paideia requirement for French students?
+**Q:** What's the General education requirement for French students?
 **Docs:** `SU_General_Policies.txt`, `Courses.txt`
-**Routing Note:** Paideia structure is university-wide (SU_General_Policies); specific (H) and (WA) course designations are in Courses.txt.
+**Routing Note:** General Education structure is university-wide (SU_General_Policies); specific (H) and (WA) course designations are in Courses.txt.
 **Disambiguation Needed:** No
 
 **Q:** I'm interested in African literature. Is there a French course for that?
@@ -779,12 +577,11 @@ Required for ALL degree paths (B.A., B.S., B.F.A., B.Mus., B.S.Ed.):
   - **What general docs must cover:** 127-credit minimum, 64-credit SU residency, last 32 in-residence, 2.000 GPA, 60% major residency, Application for Diploma process
   - **Routing instruction:** Always retrieve `SU_General_Policies.txt` alongside `Majoring___Minoring.txt` for any graduation eligibility question
 
-- **Topic:** Paideia general education requirements
+- **Topic:** General education requirements
   - **What major docs cover:** (H) and (WA) course designations in Courses.txt; note that FRE 11-204 and most upper-level French courses satisfy the Humanities area
   - **What general docs must cover:** Full structure of FYS/AES, Language & Cultures (note: French language courses 11-144 through 11-164 satisfy this), FRA, Power and Justice, Exploration & Breadth Parts I and II, Paideia with Distinction
-  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about gen-ed, breadth requirements, or Paideia
-
-- **Topic:** Language & Cultures Paideia requirement
+  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about gen-ed, breadth requirements, or General Education 
+- **Topic:** Language & Cultures General education requirement
   - **What major docs cover:** Courses.txt shows FRE 11-144, 11-154, 11-164 as the intro sequence
   - **What general docs must cover:** Placement exam exemption, third-semester proficiency threshold, AP/IB language credit
   - **Routing instruction:** Retrieve `SU_General_Policies.txt` for placement and exemption details
@@ -880,7 +677,7 @@ Required for ALL degree paths (B.A., B.S., B.F.A., B.Mus., B.S.Ed.):
   - **Reason for gap:** Not in any provided document
   - **Recommended fallback:** Direct student to SU course registration system
 
-- **Topic:** Whether specific non-French courses (e.g., from IS tracks) count toward the Paideia Exploration & Breadth areas
+- **Topic:** Whether specific non-French courses (e.g., from IS tracks) count toward the general education Exploration & Breadth areas
   - **Reason for gap:** Not covered in French department documents
   - **Recommended fallback:** Retrieve SU_General_Policies.txt; direct student to advisor
 
@@ -908,7 +705,7 @@ Required for ALL degree paths (B.A., B.S., B.F.A., B.Mus., B.S.Ed.):
 - Any question about study abroad in France: retrieve `For_Current_Students.txt` AND `SU_Resources_and_Financial.txt`
 - Any question about graduation eligibility: retrieve `Majoring___Minoring.txt` AND `SU_General_Policies.txt`
 - Any question about transfer credit toward French major: retrieve `Majoring___Minoring.txt` AND `SU_General_Policies.txt`
-- Any question about Paideia requirements and which French courses satisfy them: retrieve `Courses.txt` AND `SU_General_Policies.txt`
+- Any question about General education requirements and which French courses satisfy them: retrieve `Courses.txt` AND `SU_General_Policies.txt`
 - Any question about the Paired Major's IS track requirements: retrieve `Majoring___Minoring.txt` AND direct student to IS catalog section
 
 **Degree path disambiguation triggers:**
@@ -934,7 +731,7 @@ Required for ALL degree paths (B.A., B.S., B.F.A., B.Mus., B.S.Ed.):
 
 **Always retrieve `SU_General_Policies.txt` alongside major docs when:**
 - Any graduation eligibility or credit count question
-- Any Paideia / general education requirement question
+- Any general education requirement question
 - Any grading policy question (Pass/D/F, grade appeals, incomplete grades)
 - Any academic standing question (probation, dismissal, appeal)
 - Any transfer credit or credit-by-examination question

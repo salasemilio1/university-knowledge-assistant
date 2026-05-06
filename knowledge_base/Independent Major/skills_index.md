@@ -11,11 +11,7 @@
 ## SECTION 2 — DOCUMENT REGISTRY
 
 ### Independent Major — Department Overview
-- **filename:** `Independent_Major.txt`
-- **document_type:** general
 - **degree_relevance:** B.A.
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** This is the Independent Major's landing page. It frames the program as an opportunity for students to design their own interdisciplinary course of study toward a Bachelor of Arts, either organized around a coherent intellectual theme or a specific career goal. Two illustrative examples are given: an urban studies focus combining government, sociology, architecture, and design thinking; and a global health focus linking surgery internship shadowing with coursework in cancer biology, gender and sexuality, sustainable food and agriculture, and health psychology. The page emphasizes that the program requires strong initiative and self-discipline, involves consultation with relevant department/program chairs, and culminates in a high-impact capstone project. The program supports interweaving coursework, research, and internships across disciplines.
 - **critical_data:**
   - Degree awarded: Bachelor of Arts
@@ -24,27 +20,11 @@
   - Requires Curriculum Committee approval
   - Examples: urban studies (government + sociology + architecture + design thinking); global health (cancer biology + gender and sexuality + sustainable food + health psychology + internship shadowing a cardiothoracic surgeon)
   - Designed for students with strong initiative and self-discipline
-- **retrieval_triggers:**
-  - "can I design my own major at SU"
-  - "what is the independent major"
-  - "how do I create my own major"
-  - "what is the area of concentration"
-  - "can I combine subjects into my own degree"
-  - "what is an interdisciplinary major at SU"
-  - "what examples exist for independent majors"
-  - "is there an urban studies major"
-  - "is there a global health major"
-  - "does SU let students design their own curriculum"
-  - "what is the capstone for the independent major"
 
 ---
 
 ### Independent Major — Majoring & Minoring
-- **filename:** `Majoring___Minoring.txt`
-- **document_type:** requirements
 - **degree_relevance:** B.A.
-- **time_sensitive:** true
-- **catalog_year:** N/A (check current catalog and Curriculum Committee for approval process)
 - **description:** This document defines the complete structural requirements for the Independent Major (also called "area of concentration") within the Bachelor of Arts degree. The program requires a minimum of 56 credits total, organized in two equal blocks: 28 credits from one primary subject area (20 of which must be above introductory level) and 28 additional credits from other subject areas (20 of which must be above introductory level). The program must be designed in consultation with the chairs of the departments/programs involved and must be endorsed by a departmental/program vote in the area of the first 28-credit block before submission to the Curriculum Committee for final approval. The capstone experience is dictated by the requirements of the Block 1 subject area. Courses used to satisfy Block 1 may not be double-counted. The Independent Major replaces both a regularly offered major and a minor.
 - **critical_data:**
   - Minimum total: 56 credits
@@ -55,21 +35,6 @@
   - Capstone: determined by Block 1 subject area's capstone requirements
   - Replaces both a standard major AND a minor — no separate minor required
   - Degree: B.A. only
-- **retrieval_triggers:**
-  - "how many credits does the independent major require"
-  - "what are the credit requirements for the independent major"
-  - "what is the 28 credit block"
-  - "how many credits need to be upper level"
-  - "do I need a minor if I do an independent major"
-  - "how do I get my independent major approved"
-  - "who approves the independent major"
-  - "what is the Curriculum Committee"
-  - "what is the capstone for the independent major"
-  - "can I double count courses in my independent major"
-  - "how is the independent major different from a regular major"
-  - "is the independent major a BA or BS"
-  - "what does above introductory level mean"
-  - "how do I start designing an independent major"
 
 ---
 
@@ -89,7 +54,7 @@ Source: `SU_General_Policies.txt`
 | Graduation Application | "Application for Diploma" must be filed; financial holds block diploma |
 | Degree Conferral Dates | December, May, August; Commencement once per year in May |
 
-### SU Universal Curriculum Requirements (Paideia Framework)
+### SU Universal Curriculum Requirements (General Education)
 
 **Required for ALL B.A. students:**
 - First-Year Seminar (FYS) or Advanced-Entry Seminar (AES): 4 credits
@@ -129,9 +94,9 @@ Source: `SU_General_Policies.txt`
 **Notable Constraints:**
 - B.A. only — not available as B.S., B.F.A., B.Mus., or B.S.Ed.
 - Replaces the standard major/minor structure — no separate minor required
-- All 127-credit and Paideia requirements still apply
+- All 127-credit and General education requirements still apply
 - Block 1 courses cannot be reused to satisfy Block 2
-- The 56-credit minimum leaves substantial room for Paideia, language, and elective courses within the 127-credit total
+- The 56-credit minimum leaves substantial room for general education, language, and elective courses within the 127-credit total
 
 ---
 
@@ -149,41 +114,6 @@ The Independent Major has no fixed course list. Courses are selected by the stud
 - "Introductory level" is not explicitly defined in source documents — confirm with advisor and Curriculum Committee (SU numbering convention: courses 0-19 are typically introductory; 20-89 are upper-level)
 
 ---
-
-## SECTION 5 — TOPIC INDEX
-
-- What is the Independent Major → `Independent_Major.txt`, `Majoring___Minoring.txt`
-- How to design an Independent Major → `Independent_Major.txt`, `Majoring___Minoring.txt`
-- Credit requirements for the Independent Major → `Majoring___Minoring.txt`
-- What is Block 1 / the first 28-credit block → `Majoring___Minoring.txt`
-- What is Block 2 / the second 28-credit block → `Majoring___Minoring.txt`
-- How many upper-level credits are required → `Majoring___Minoring.txt`
-- What counts as above introductory level → `Majoring___Minoring.txt` (not defined — escalate)
-- Can I double count courses → `Majoring___Minoring.txt`
-- Do I need a minor with the Independent Major → `Majoring___Minoring.txt`
-- How is the Independent Major approved → `Majoring___Minoring.txt`
-- What is the Curriculum Committee → `Majoring___Minoring.txt`
-- Who do I consult to design the program → `Majoring___Minoring.txt`
-- What is the capstone for the Independent Major → `Majoring___Minoring.txt`, `Independent_Major.txt`
-- What degree does the Independent Major lead to → `Majoring___Minoring.txt`, `Independent_Major.txt`
-- Is the Independent Major a BA or BS → `Majoring___Minoring.txt`
-- Can I get a BS through the Independent Major → `Majoring___Minoring.txt`
-- Examples of Independent Majors → `Independent_Major.txt`
-- Urban studies as an Independent Major → `Independent_Major.txt`
-- Global health as an Independent Major → `Independent_Major.txt`
-- How Independent Major differs from a regular major → `Majoring___Minoring.txt`, `Independent_Major.txt`
-- Can I include an internship in my Independent Major → `Independent_Major.txt`
-- Paideia requirements for Independent Major students → `SU_General_Policies.txt`
-- Exploration & Breadth interaction with Independent Major → `SU_General_Policies.txt` + advisor
-- Graduation requirements → `SU_General_Policies.txt`, `Majoring___Minoring.txt`
-- Transfer credit applicability → `SU_General_Policies.txt`
-- Study abroad credit → `SU_Resources_and_Financial.txt`, `SU_General_Policies.txt`
-- Financial aid → `SU_Resources_and_Financial.txt`
-- Academic probation and dismissal → `SU_General_Policies.txt`
-- Pass/D/F grading option → `SU_General_Policies.txt`
-- Latin Honors and Paideia with Distinction → `SU_General_Policies.txt`
-- Disability accommodations → `SU_General_Policies.txt`
-- SURF / King Creativity Fund → `SU_Resources_and_Financial.txt`
 
 ---
 
@@ -259,9 +189,9 @@ The Independent Major has no fixed course list. Courses are selected by the stud
 **Routing Note:** 60% residency and transfer credit rules in General Policies; block placement of specific transfer courses requires Curriculum Committee approval.
 **Disambiguation Needed:** Yes — which institution and which courses
 
-**Q:** Does the Independent Major satisfy Paideia requirements?
+**Q:** Does the Independent Major satisfy General education requirements?
 **Docs:** `SU_General_Policies.txt`
-**Routing Note:** All Paideia requirements (FYS/AES, Language & Cultures, FRA, Power and Justice, Exploration & Breadth) still apply; how Exploration & Breadth interacts with a multi-department program requires advisor clarification.
+**Routing Note:** All General education requirements (FYS/AES, Language & Cultures, FRA, Power and Justice, Exploration & Breadth) still apply; how Exploration & Breadth interacts with a multi-department program requires advisor clarification.
 **Disambiguation Needed:** No — retrieve General Policies; escalate to advisor
 
 ---
@@ -273,7 +203,7 @@ The Independent Major has no fixed course list. Courses are selected by the stud
   - **What general docs must cover:** 127-credit total minimum, 64-credit SU residency, last 32 in-residence, 2.000 GPA, 60% major residency, Application for Diploma
   - **Routing instruction:** Always retrieve `SU_General_Policies.txt` alongside `Majoring___Minoring.txt`
 
-- **Topic:** Paideia general education requirements / Exploration & Breadth
+- **Topic:** General education requirements / Exploration & Breadth
   - **What major docs cover:** Not addressed
   - **What general docs must cover:** Full FYS/AES, Language & Cultures, FRA, Power and Justice, Exploration & Breadth structure
   - **Routing instruction:** Always retrieve `SU_General_Policies.txt`; escalate to advisor for Exploration & Breadth interaction with interdisciplinary blocks
@@ -338,8 +268,8 @@ The Independent Major has no fixed course list. Courses are selected by the stud
   - **Reason for gap:** Both documents specify B.A. only
   - **Recommended fallback:** B.A. only per source documents; confirm with Registrar if student asks about another degree type
 
-- **Topic:** How Exploration & Breadth Paideia requirement interacts with an interdisciplinary Independent Major
-  - **Reason for gap:** Paideia requires 6 courses "outside the major"; ambiguous for a multi-department program
+- **Topic:** How Exploration & Breadth General education requirement interacts with an interdisciplinary Independent Major
+  - **Reason for gap:** General Education requires 6 courses "outside the major"; ambiguous for a multi-department program
   - **Recommended fallback:** Direct to advisor and `SU_General_Policies.txt`; requires individual evaluation
 
 - **Topic:** Whether transfer credits count toward Block 1 or Block 2
@@ -364,7 +294,7 @@ The Independent Major has no fixed course list. Courses are selected by the stud
 - What the program is or examples of it → both `Independent_Major.txt` and `Majoring___Minoring.txt`
 - Graduation or credit-count questions → add `SU_General_Policies.txt`
 - Study abroad questions → add `SU_Resources_and_Financial.txt` and `SU_General_Policies.txt`
-- Paideia or gen-ed questions → `SU_General_Policies.txt`; escalate to advisor for interaction with blocks
+- general education questions → `SU_General_Policies.txt`; escalate to advisor for interaction with blocks
 - Internship credit questions → `SU_Resources_and_Financial.txt`; escalate to advisor
 
 **High-confidence single-document retrievals:**
@@ -378,7 +308,7 @@ The Independent Major has no fixed course list. Courses are selected by the stud
 **Always escalate to human advisor:**
 - Whether a specific course counts toward Block 1 or Block 2
 - What "introductory level" means for a given department
-- How Paideia Exploration & Breadth interacts with a specific student's program
+- How general education Exploration & Breadth interacts with a specific student's program
 - Curriculum Committee submission timeline or forms
 - Transfer credit block placement
 - Internship credit placement within the 56-credit structure
@@ -386,7 +316,7 @@ The Independent Major has no fixed course list. Courses are selected by the stud
 
 **Always retrieve `SU_General_Policies.txt` alongside major docs when:**
 - Any graduation eligibility or credit count question
-- Any Paideia / gen-ed requirement question
+- Any general education requirement question
 - Any grading policy question
 - Any academic standing question
 - Any transfer credit or credit-by-examination question
