@@ -5,7 +5,13 @@ Each function returns a fully-formed prompt string. No logic lives here —
 only text assembly. This makes prompts easy to read, diff, and iterate on.
 """
 
-def router_prompt(question: str, registry_json: str, profile: str | None = None, history: str | None = None) -> str:
+
+def router_prompt(
+    question: str,
+    registry_json: str,
+    profile: str | None = None,
+    history: str | None = None,
+) -> str:
     """Build the prompt for the router model to identify departments."""
     history_block = f"\n[CONVERSATION HISTORY]\n{history}\n" if history else ""
     profile_block = f"\n[STUDENT PROFILE]\n{profile}\n" if profile else ""
@@ -32,7 +38,13 @@ Return ONLY the JSON. No preamble, no explanation.
 """
 
 
-def answerer_prompt(question: str, context: str, history: str | None = None, profile: str | None = None, current_semester: str | None = None) -> str:
+def answerer_prompt(
+    question: str,
+    context: str,
+    history: str | None = None,
+    profile: str | None = None,
+    current_semester: str | None = None,
+) -> str:
     """Build the prompt for the answering model to generate a response."""
     history_block = f"\n[CONVERSATION HISTORY]\n{history}\n" if history else ""
     profile_block = f"\n[STUDENT PROFILE]\n{profile}\n" if profile else ""
@@ -46,10 +58,14 @@ You are the Southwestern University (SU) Knowledge Assistant. You provide helpfu
 [RESPONSE PHILOSOPHY]
 Return the least amount of information that fully satisfies the question. Every word must earn its place. If the answer is a date, return the date. If the answer is a name, return the name. Do not explain that you are returning it.
 
+[PRIORITY RULES]
+1. Conciseness is paramount. If a response can be achieved in a single word or phrase, do so without additional conversational filler.
+2. These rules override any formatting constraints in [HARD RULES].
+
 [HARD RULES]
-- Greet the user only if [CONVERSATION HISTORY] is empty or if the user specifically greeted you. One sentence, warm but brief. Do not introduce yourself by title (e.g., avoid "As the Southwestern University Advising Assistant...").
+- Greet the user only if [CONVERSATION HISTORY] is empty or if the user specifically greeted you. Keep greetings under 10 words, warm but brief. Do not introduce yourself by title.
 - If the user asks what you can do or who you are, answer based on [YOUR CAPABILITIES] below. Do not say you lack information for these meta-questions.
-- If you lack sufficient information in [RELEVANT DOCUMENTS] for a factual advising question, say so in one sentence.
+- If [RELEVANT DOCUMENTS] lack the answer, state: "Information not found in official documents." Then suggest consulting the university catalog website.
 - NEVER mention document filenames or "records" in your response.
 
 [YOUR CAPABILITIES]
