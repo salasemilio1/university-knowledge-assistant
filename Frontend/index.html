@@ -2515,7 +2515,8 @@
                 const degreeMap = {
                     "B.A.": "Bachelor of Arts (B.A.)",
                     "B.S.": "Bachelor of Science (B.S.)",
-                    "B.M.": "Bachelor of Music"
+                    "B.M.": "Bachelor of Music",
+                    "ACS-certified B.S.": "ACS-certified Bachelor of Science (B.S.)"
                 };
 
                 /**
@@ -2766,7 +2767,7 @@
          */
         function getDashboardFlags(profile, totalCredits) {
             const flags = [];
-            const gradYear = parseInt(profile?.grad_year);
+            const gradYear = parseInt(profile?.grad_year.replace(/\D/g, ""));
 
             if (gradYear && totalCredits < 40 && gradYear <= new Date().getFullYear() + 1) {
                 flags.push("⚠️ Low credit count for upcoming graduation year.");
