@@ -115,41 +115,6 @@ The Independent Major has no fixed course list. Courses are selected by the stud
 
 ---
 
-## SECTION 5 — TOPIC INDEX
-
-- What is the Independent Major → `Independent_Major.txt`, `Majoring___Minoring.txt`
-- How to design an Independent Major → `Independent_Major.txt`, `Majoring___Minoring.txt`
-- Credit requirements for the Independent Major → `Majoring___Minoring.txt`
-- What is Block 1 / the first 28-credit block → `Majoring___Minoring.txt`
-- What is Block 2 / the second 28-credit block → `Majoring___Minoring.txt`
-- How many upper-level credits are required → `Majoring___Minoring.txt`
-- What counts as above introductory level → `Majoring___Minoring.txt` (not defined — escalate)
-- Can I double count courses → `Majoring___Minoring.txt`
-- Do I need a minor with the Independent Major → `Majoring___Minoring.txt`
-- How is the Independent Major approved → `Majoring___Minoring.txt`
-- What is the Curriculum Committee → `Majoring___Minoring.txt`
-- Who do I consult to design the program → `Majoring___Minoring.txt`
-- What is the capstone for the Independent Major → `Majoring___Minoring.txt`, `Independent_Major.txt`
-- What degree does the Independent Major lead to → `Majoring___Minoring.txt`, `Independent_Major.txt`
-- Is the Independent Major a BA or BS → `Majoring___Minoring.txt`
-- Can I get a BS through the Independent Major → `Majoring___Minoring.txt`
-- Examples of Independent Majors → `Independent_Major.txt`
-- Urban studies as an Independent Major → `Independent_Major.txt`
-- Global health as an Independent Major → `Independent_Major.txt`
-- How Independent Major differs from a regular major → `Majoring___Minoring.txt`, `Independent_Major.txt`
-- Can I include an internship in my Independent Major → `Independent_Major.txt`
-- Paideia requirements for Independent Major students → `SU_General_Policies.txt`
-- Exploration & Breadth interaction with Independent Major → `SU_General_Policies.txt` + advisor
-- Graduation requirements → `SU_General_Policies.txt`, `Majoring___Minoring.txt`
-- Transfer credit applicability → `SU_General_Policies.txt`
-- Study abroad credit → `SU_Resources_and_Financial.txt`, `SU_General_Policies.txt`
-- Financial aid → `SU_Resources_and_Financial.txt`
-- Academic probation and dismissal → `SU_General_Policies.txt`
-- Pass/D/F grading option → `SU_General_Policies.txt`
-- Latin Honors and Paideia with Distinction → `SU_General_Policies.txt`
-- Disability accommodations → `SU_General_Policies.txt`
-- SURF / King Creativity Fund → `SU_Resources_and_Financial.txt`
-
 ---
 
 ## SECTION 6 — QUERY PATTERN MAP

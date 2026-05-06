@@ -202,39 +202,6 @@ See the Greek major skill-index for the full Classics breakdown.
 
 ---
 
-## SECTION 5 — TOPIC INDEX
-
-- Latin major requirements overview → `Latin.txt`
-- Latin minor requirements overview → `Latin.txt`
-- Number of courses for the Latin major → `Latin.txt`
-- Number of courses for the Latin minor → `Latin.txt`
-- Upper-level Latin course requirement (major) → `Latin.txt`
-- Upper-level Latin course requirement (minor) → `Latin.txt`
-- Latin capstone (LAT14-954) → `Latin.txt`
-- Can lower-level Latin courses count toward the minor → `Latin.txt`
-- Teacher certification in Latin → `Latin.txt`, `SU_General_Policies.txt`
-- How Latin major compares to Greek major → `Latin.txt`, `Greek.txt`
-- How Latin major compares to Classics major → `Latin.txt`, `Classics.txt`
-- Does the Classics major require Latin → `Classics.txt`
-- Can I do both Latin major and Classics major → `Latin.txt`, `Classics.txt`, `SU_General_Policies.txt`
-- Can I minor in Greek while majoring in Latin → `Latin.txt`, `Greek.txt`, `SU_General_Policies.txt`
-- Language graduation requirement for Classics → `Classics.txt`, `SU_General_Policies.txt`
-- Does Latin satisfy the Paideia language requirement → `SU_General_Policies.txt` + advisor
-- Language placement credit for incoming students → `Classics.txt`, `SU_General_Policies.txt`
-- Study abroad for Classics/Latin students → `Classics.txt`, `SU_Resources_and_Financial.txt`
-- College Year in Athens (CYA) → `Classics.txt`, `SU_Resources_and_Financial.txt`
-- Graduation requirements (overall credits, GPA, residency) → `SU_General_Policies.txt`
-- Paideia general education requirements → `SU_General_Policies.txt`
-- Pass/D/F grading option → `SU_General_Policies.txt`
-- Academic probation and dismissal → `SU_General_Policies.txt`
-- Transfer credit rules → `SU_General_Policies.txt`
-- Double major / paired major with Latin → `SU_General_Policies.txt`
-- Latin Honors and Paideia with Distinction → `SU_General_Policies.txt`
-- Disability accommodations → `SU_General_Policies.txt`
-- Study abroad programs (ISEP, CYA, London Semester, etc.) → `SU_Resources_and_Financial.txt`
-- Financial aid and tuition → `SU_Resources_and_Financial.txt`
-- SURF / King Creativity Fund → `SU_Resources_and_Financial.txt`
-
 ---
 
 ## SECTION 6 — QUERY PATTERN MAP
