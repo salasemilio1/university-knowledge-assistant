@@ -2737,7 +2737,7 @@
          */
         function getDashboardFlags(profile, totalCredits) {
             const flags = [];
-            const gradYear = parseInt(profile?.grad_year);
+            const gradYear = parseInt(profile?.grad_year.replace(/\D/g, ""));
 
             if (gradYear && totalCredits < 40 && gradYear <= new Date().getFullYear() + 1) {
                 flags.push("⚠️ Low credit count for upcoming graduation year.");
