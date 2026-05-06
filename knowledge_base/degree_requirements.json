@@ -2637,466 +2637,6 @@
       }
     }
   },
-  "business_&_economics": {
-    "majors": {
-      "Business": {
-        "BA": {
-          "requiredCredits": 48,
-          "requiredCourses": [
-            {
-              "code": "ECO31-104",
-              "name": "Principles of Economics",
-              "credits": 4
-            },
-            {
-              "code": "BUS30-114",
-              "name": "Fundamentals of Accounting",
-              "credits": 4
-            },
-            {
-              "code": "BUS30-214",
-              "name": "Foundations of Business",
-              "credits": 4
-            },
-            {
-              "code": "BUS30-474",
-              "name": "Finance",
-              "credits": 4
-            },
-            {
-              "code": "BUS30-964",
-              "name": "Capstone in Business",
-              "credits": 4
-            },
-            {
-              "code": "MAT52-114",
-              "name": "Introduction to Statistics",
-              "credits": 4
-            },
-            {
-              "code": "MAT52-164",
-              "name": "Modern Calculus I",
-              "credits": 4
-            }
-          ],
-          "electiveGroups": [
-            {
-              "name": "Upper-level Business or Economics Electives",
-              "coursesRequired": 5,
-              "creditsRequired": 20,
-              "options": [
-                {
-                  "code": "BUS/ECOxxx",
-                  "name": "Any additional upper-level course in or contributing to Business or Economics (200-800 level)",
-                  "credits": 4
-                }
-              ]
-            }
-          ],
-          "notes": [
-            "An internship (Business 30-944) is strongly recommended but not formally required.",
-            "BUS30-214 requires all four prerequisites (BUS30-114, ECO31-104, MAT52-114, MAT52-164) plus sophomore standing.",
-            "BUS30-474 requires 42 credits, practically requiring junior standing.",
-            "Capstone BUS30-964 requires senior standing.",
-            "A grade below C- in any major course does not count toward the major.",
-            "The FAP course (BUS30-912) counts as a maximum of 4 credits (= 1 upper-level course) toward the major."
-          ]
-        }
-      },
-      "Economics": {
-        "BA": {
-          "requiredCredits": 44,
-          "requiredCourses": [
-            {
-              "code": "ECO31-104",
-              "name": "Principles of Economics",
-              "credits": 4
-            },
-            {
-              "code": "ECO31-224",
-              "name": "Intermediate Microeconomic Theory",
-              "credits": 4
-            },
-            {
-              "code": "ECO31-234",
-              "name": "Intermediate Macroeconomic Theory",
-              "credits": 4
-            },
-            {
-              "code": "ECO31-314",
-              "name": "Econometrics",
-              "credits": 4
-            },
-            {
-              "code": "ECO31-964",
-              "name": "Capstone in Economics",
-              "credits": 4
-            },
-            {
-              "code": "MAT52-114",
-              "name": "Introduction to Statistics",
-              "credits": 4
-            },
-            {
-              "code": "MAT52-164",
-              "name": "Modern Calculus I",
-              "credits": 4
-            }
-          ],
-          "electiveGroups": [
-            {
-              "name": "Upper-level Economics Electives",
-              "coursesRequired": 4,
-              "creditsRequired": 16,
-              "options": [
-                {
-                  "code": "ECOxxx",
-                  "name": "Any additional upper-level course in or contributing to Economics",
-                  "credits": 4
-                }
-              ]
-            }
-          ],
-          "notes": [
-            "An internship (Economics 31-944) is strongly recommended but not formally required.",
-            "Capstone ECO31-964 must be taken in the spring of the senior year.",
-            "ECO31-314 Econometrics has a prerequisite chain (ECO31-224, ECO31-234, MAT52-114).",
-            "All upper-level Economics courses require sophomore standing.",
-            "A grade below C- in any major course does not count toward the major."
-          ]
-        }
-      },
-      "Business and Economics (Paired Major)": {
-        "BA": {
-          "requiredCredits": 80,
-          "requiredCourses": [
-            {
-              "code": "ECO31-104",
-              "name": "Principle of Economics",
-              "credits": 4
-            },
-            {
-              "code": "BUS30-114",
-              "name": "Fundamentals of Accounting",
-              "credits": 4
-            },
-            {
-              "code": "BUS30-214",
-              "name": "Foundations of Business",
-              "credits": 4
-            },
-            {
-              "code": "ECO31-224",
-              "name": "Intermediate Microeconomic Theory",
-              "credits": 4
-            },
-            {
-              "code": "ECO31-234",
-              "name": "Intermediate Macroeconomic Theory",
-              "credits": 4
-            },
-            {
-              "code": "ECO31-314",
-              "name": "Econometrics",
-              "credits": 4
-            },
-            {
-              "code": "BUS30-474",
-              "name": "Finance",
-              "credits": 4
-            },
-            {
-              "code": "BUS30-964",
-              "name": "Capstone in Business",
-              "credits": 4
-            },
-            {
-              "code": "ECO31-964",
-              "name": "Capstone in Economics",
-              "credits": 4
-            },
-            {
-              "code": "MAT52-114",
-              "name": "Introduction to Statistics",
-              "credits": 4
-            },
-            {
-              "code": "MAT52-164",
-              "name": "Modern Calculus I",
-              "credits": 4
-            }
-          ],
-          "electiveGroups": [
-            {
-              "name": "Upper-level Business Electives",
-              "coursesRequired": 5,
-              "creditsRequired": 20,
-              "options": [
-                {
-                  "code": "BUSxxx",
-                  "name": "Any additional upper-level course in or contributing to Business",
-                  "credits": 4
-                }
-              ]
-            },
-            {
-              "name": "Upper-level Economics Electives",
-              "coursesRequired": 4,
-              "creditsRequired": 16,
-              "options": [
-                {
-                  "code": "ECOxxx",
-                  "name": "Any additional upper-level course in or contributing to Economics",
-                  "credits": 4
-                }
-              ]
-            }
-          ],
-          "notes": [
-            "Cannot minor in Economics, Business, or Art History when enrolled in this program.",
-            "Two capstones (BUS30-964 and ECO31-964) are required.",
-            "An internship is strongly recommended.",
-            "Students planning graduate school should consult faculty for additional course recommendations."
-          ]
-        }
-      },
-      "Art History and Business (Paired Major)": {
-        "BA": {
-          "requiredCredits": 76,
-          "requiredCourses": [
-            {
-              "code": "BUS30-114",
-              "name": "Fundamentals of Accounting",
-              "credits": 4
-            },
-            {
-              "code": "ECO31-104",
-              "name": "Principle of Economics",
-              "credits": 4
-            },
-            {
-              "code": "BUS30-214",
-              "name": "Foundations of Business",
-              "credits": 4
-            },
-            {
-              "code": "BUS30-474",
-              "name": "Finance",
-              "credits": 4
-            },
-            {
-              "code": "ARHxxx-000",
-              "name": "One Introduction to Art History course (any -000 level)",
-              "credits": 4
-            },
-            {
-              "code": "ARH71-614",
-              "name": "Special Topics in Art History",
-              "credits": 4
-            },
-            {
-              "code": "MAT52-114",
-              "name": "Introduction to Statistics",
-              "credits": 4
-            },
-            {
-              "code": "MAT52-164",
-              "name": "Modern Calculus I",
-              "credits": 4
-            },
-            {
-              "code": "ARH71-824",
-              "name": "Capstone Research (Art History)",
-              "credits": 4
-            },
-            {
-              "code": "BUS30-964",
-              "name": "Capstone in Business",
-              "credits": 4
-            }
-          ],
-          "electiveGroups": [
-            {
-              "name": "Art History Distribution: East Asian Art and Architecture",
-              "coursesRequired": 1,
-              "creditsRequired": 4,
-              "options": [
-                {
-                  "code": "ARHxxx-200",
-                  "name": "Any -200 level course in East Asian Art and Architecture",
-                  "credits": 4
-                }
-              ]
-            },
-            {
-              "name": "Art History Distribution: Latin American Art",
-              "coursesRequired": 1,
-              "creditsRequired": 4,
-              "options": [
-                {
-                  "code": "ARHxxx-300",
-                  "name": "Any -300 level course in Latin American Art",
-                  "credits": 4
-                }
-              ]
-            },
-            {
-              "name": "Art History Distribution: Pre- or Early Modern Europe or Architectural History",
-              "coursesRequired": 1,
-              "creditsRequired": 4,
-              "options": [
-                {
-                  "code": "ARHxxx-400",
-                  "name": "Any -400 level course in Pre- or Early Modern Europe or Architectural History",
-                  "credits": 4
-                }
-              ]
-            },
-            {
-              "name": "Art History Distribution: Modern Art",
-              "coursesRequired": 1,
-              "creditsRequired": 4,
-              "options": [
-                {
-                  "code": "ARHxxx-500",
-                  "name": "Any -500 level course in Modern Art",
-                  "credits": 4
-                }
-              ]
-            },
-            {
-              "name": "Upper-level Business or Economics Electives",
-              "coursesRequired": 4,
-              "creditsRequired": 16,
-              "options": [
-                {
-                  "code": "BUS/ECOxxx",
-                  "name": "Any additional upper-level course in or contributing to Business or Economics",
-                  "credits": 4
-                }
-              ]
-            },
-            {
-              "name": "Additional Upper-level Art History Elective",
-              "coursesRequired": 1,
-              "creditsRequired": 4,
-              "options": [
-                {
-                  "code": "ARHxxx",
-                  "name": "Any additional upper-level Art History course (200+ level)",
-                  "credits": 4
-                }
-              ]
-            }
-          ],
-          "notes": [
-            "Cannot minor in Economics, Business, or Art History when enrolled in this program.",
-            "Two capstones (ARH71-824 and BUS30-964) are required.",
-            "An internship is strongly recommended.",
-            "ARH71-614 Special Topics in Art History must be taken before the capstone seminar."
-          ]
-        }
-      }
-    },
-    "minors": {
-      "Business": {
-        "requiredCredits": 24,
-        "requiredCourses": [
-          {
-            "code": "ECO31-104",
-            "name": "Principles of Economics",
-            "credits": 4
-          },
-          {
-            "code": "BUS30-114",
-            "name": "Fundamentals of Accounting",
-            "credits": 4
-          },
-          {
-            "code": "BUS30-214",
-            "name": "Foundations of Business",
-            "credits": 4
-          },
-          {
-            "code": "MAT52-114",
-            "name": "Introduction to Statistics",
-            "credits": 4
-          },
-          {
-            "code": "MAT52-164",
-            "name": "Modern Calculus I",
-            "credits": 4
-          }
-        ],
-        "electiveGroups": [
-          {
-            "name": "Upper-level Business Elective",
-            "coursesRequired": 1,
-            "creditsRequired": 4,
-            "options": [
-              {
-                "code": "BUSxxx",
-                "name": "One additional upper-level Business course",
-                "credits": 4
-              }
-            ]
-          }
-        ],
-        "notes": [
-          "Cannot be declared alongside the paired Economics-Business or Business-Art History programs."
-        ]
-      },
-      "Economics": {
-        "requiredCredits": 24,
-        "requiredCourses": [
-          {
-            "code": "ECO31-104",
-            "name": "Principles of Economics",
-            "credits": 4
-          },
-          {
-            "code": "MAT52-164",
-            "name": "Modern Calculus I",
-            "credits": 4
-          }
-        ],
-        "electiveGroups": [
-          {
-            "name": "Intermediate Microeconomic Theory or Intermediate Macroeconomic Theory",
-            "coursesRequired": 1,
-            "creditsRequired": 4,
-            "options": [
-              {
-                "code": "ECO31-224",
-                "name": "Intermediate Microeconomic Theory",
-                "credits": 4
-              },
-              {
-                "code": "ECO31-234",
-                "name": "Intermediate Macroeconomic Theory",
-                "credits": 4
-              }
-            ]
-          },
-          {
-            "name": "Upper-level Economics Electives",
-            "coursesRequired": 3,
-            "creditsRequired": 12,
-            "options": [
-              {
-                "code": "ECOxxx",
-                "name": "Three additional upper-level Economics courses",
-                "credits": 4
-              }
-            ]
-          }
-        ],
-        "notes": [
-          "Cannot be declared alongside the paired Economics-Business major."
-        ]
-      }
-    }
-  },
   "chemistry_&_biochemistry": {
     "majors": {
       "Chemistry": {
@@ -14500,6 +14040,765 @@
           "At least two electives must be at the 300-level or above.",
           "ENG10-114 (College Writing) does NOT count toward the minor.",
           "Requires at least 12 credits at SU."
+        ]
+      }
+    }
+  },
+  "business_&_economics": {
+    "majors": {
+      "Business": {
+        "BA": {
+          "requiredCredits": 48,
+          "requiredCourses": [
+            {
+              "code": "ECO31-104",
+              "name": "Principles of Economics",
+              "credits": 4
+            },
+            {
+              "code": "BUS30-114",
+              "name": "Fundamentals of Accounting",
+              "credits": 4
+            },
+            {
+              "code": "BUS30-214",
+              "name": "Foundations of Business",
+              "credits": 4
+            },
+            {
+              "code": "BUS30-474",
+              "name": "Finance",
+              "credits": 4
+            },
+            {
+              "code": "BUS30-964",
+              "name": "Capstone in Business",
+              "credits": 4
+            },
+            {
+              "code": "MAT52-114",
+              "name": "Introduction to Statistics",
+              "credits": 4
+            },
+            {
+              "code": "MAT52-164",
+              "name": "Modern Calculus I",
+              "credits": 4
+            }
+          ],
+          "electiveGroups": [
+            {
+              "name": "Upper-level Electives",
+              "coursesRequired": 5,
+              "creditsRequired": 20,
+              "options": [
+                {
+                  "name": "Upper-level courses in or contributing to Business or Economics",
+                  "credits": 4
+                }
+              ]
+            }
+          ],
+          "notes": [
+            "Internship (BUS30-944) is strongly recommended.",
+            "FAP course (BUS30-912) counts as max 4 credits toward major.",
+            "A grade below C- in any major course does not count toward the major."
+          ]
+        }
+      },
+      "Economics": {
+        "BA": {
+          "requiredCredits": 44,
+          "requiredCourses": [
+            {
+              "code": "ECO31-104",
+              "name": "Principles of Economics",
+              "credits": 4
+            },
+            {
+              "code": "ECO31-224",
+              "name": "Intermediate Microeconomic Theory",
+              "credits": 4
+            },
+            {
+              "code": "ECO31-234",
+              "name": "Intermediate Macroeconomic Theory",
+              "credits": 4
+            },
+            {
+              "code": "ECO31-314",
+              "name": "Econometrics",
+              "credits": 4
+            },
+            {
+              "code": "ECO31-964",
+              "name": "Capstone in Economics",
+              "credits": 4
+            },
+            {
+              "code": "MAT52-114",
+              "name": "Introduction to Statistics",
+              "credits": 4
+            },
+            {
+              "code": "MAT52-164",
+              "name": "Modern Calculus I",
+              "credits": 4
+            }
+          ],
+          "electiveGroups": [
+            {
+              "name": "Upper-level Electives",
+              "coursesRequired": 4,
+              "creditsRequired": 16,
+              "options": [
+                {
+                  "name": "Additional upper-level courses in or contributing to Economics",
+                  "credits": 4
+                }
+              ]
+            }
+          ],
+          "notes": [
+            "Internship (ECO31-944) is strongly recommended.",
+            "All courses above ECO31-104 require sophomore standing.",
+            "Capstone must be taken in spring of senior year."
+          ]
+        }
+      },
+      "Business and Economics (Paired)": {
+        "BA": {
+          "requiredCredits": 80,
+          "requiredCourses": [
+            {
+              "code": "ECO31-104",
+              "name": "Principles of Economics",
+              "credits": 4
+            },
+            {
+              "code": "BUS30-114",
+              "name": "Fundamentals of Accounting",
+              "credits": 4
+            },
+            {
+              "code": "BUS30-214",
+              "name": "Foundations of Business",
+              "credits": 4
+            },
+            {
+              "code": "ECO31-224",
+              "name": "Intermediate Microeconomic Theory",
+              "credits": 4
+            },
+            {
+              "code": "ECO31-234",
+              "name": "Intermediate Macroeconomic Theory",
+              "credits": 4
+            },
+            {
+              "code": "ECO31-314",
+              "name": "Econometrics",
+              "credits": 4
+            },
+            {
+              "code": "BUS30-474",
+              "name": "Finance",
+              "credits": 4
+            },
+            {
+              "code": "BUS30-964",
+              "name": "Capstone in Business",
+              "credits": 4
+            },
+            {
+              "code": "ECO31-964",
+              "name": "Capstone in Economics",
+              "credits": 4
+            },
+            {
+              "code": "MAT52-114",
+              "name": "Introduction to Statistics",
+              "credits": 4
+            },
+            {
+              "code": "MAT52-164",
+              "name": "Modern Calculus I",
+              "credits": 4
+            }
+          ],
+          "electiveGroups": [
+            {
+              "name": "Upper-level Business Electives",
+              "coursesRequired": 5,
+              "creditsRequired": 20,
+              "options": []
+            },
+            {
+              "name": "Upper-level Economics Electives",
+              "coursesRequired": 4,
+              "creditsRequired": 16,
+              "options": []
+            }
+          ],
+          "notes": [
+            "Cannot minor in Economics, Business, or Art History.",
+            "Two capstones required.",
+            "Internship strongly recommended."
+          ]
+        }
+      },
+      "Art History and Business (Paired)": {
+        "BA": {
+          "requiredCredits": 76,
+          "requiredCourses": [
+            {
+              "code": "BUS30-114",
+              "name": "Fundamentals of Accounting",
+              "credits": 4
+            },
+            {
+              "code": "ECO31-104",
+              "name": "Principles of Economics",
+              "credits": 4
+            },
+            {
+              "code": "BUS30-214",
+              "name": "Foundations of Business",
+              "credits": 4
+            },
+            {
+              "code": "BUS30-474",
+              "name": "Finance",
+              "credits": 4
+            },
+            {
+              "code": "ARH71-614",
+              "name": "Special Topics in Art History",
+              "credits": 4
+            },
+            {
+              "code": "ARH71-824",
+              "name": "Capstone Research (Art History)",
+              "credits": 4
+            },
+            {
+              "code": "BUS30-964",
+              "name": "Capstone in Business",
+              "credits": 4
+            },
+            {
+              "code": "MAT52-114",
+              "name": "Introduction to Statistics",
+              "credits": 4
+            },
+            {
+              "code": "MAT52-164",
+              "name": "Modern Calculus I",
+              "credits": 4
+            }
+          ],
+          "electiveGroups": [
+            {
+              "name": "Introductory Art History",
+              "coursesRequired": 1,
+              "creditsRequired": 4,
+              "options": [
+                {
+                  "name": "Any -000 level Art History course",
+                  "credits": 4
+                }
+              ]
+            },
+            {
+              "name": "Art History Distribution",
+              "coursesRequired": 4,
+              "creditsRequired": 16,
+              "options": [
+                {
+                  "name": "East Asian Art and Architecture (-200 course)",
+                  "credits": 4
+                },
+                {
+                  "name": "Latin American Art (-300 course)",
+                  "credits": 4
+                },
+                {
+                  "name": "Pre- or Early Modern Europe or Architectural History (-400 course)",
+                  "credits": 4
+                },
+                {
+                  "name": "Modern Art (-500 course)",
+                  "credits": 4
+                }
+              ]
+            },
+            {
+              "name": "Upper-level Business or Economics Electives",
+              "coursesRequired": 4,
+              "creditsRequired": 16,
+              "options": []
+            },
+            {
+              "name": "Upper-level Art History Elective",
+              "coursesRequired": 1,
+              "creditsRequired": 4,
+              "options": [
+                {
+                  "name": "Any 200+ level Art History course",
+                  "credits": 4
+                }
+              ]
+            }
+          ],
+          "notes": [
+            "Cannot minor in Economics, Business, or Art History.",
+            "Two capstones required.",
+            "Internship strongly recommended."
+          ]
+        }
+      }
+    },
+    "minors": {
+      "Business": {
+        "requiredCredits": 24,
+        "requiredCourses": [
+          {
+            "code": "ECO31-104",
+            "name": "Principles of Economics",
+            "credits": 4
+          },
+          {
+            "code": "BUS30-114",
+            "name": "Fundamentals of Accounting",
+            "credits": 4
+          },
+          {
+            "code": "BUS30-214",
+            "name": "Foundations of Business",
+            "credits": 4
+          },
+          {
+            "code": "MAT52-114",
+            "name": "Introduction to Statistics",
+            "credits": 4
+          },
+          {
+            "code": "MAT52-164",
+            "name": "Modern Calculus I",
+            "credits": 4
+          }
+        ],
+        "electiveGroups": [
+          {
+            "name": "Upper-level Elective",
+            "coursesRequired": 1,
+            "creditsRequired": 4,
+            "options": [
+              {
+                "name": "Upper-level Business course",
+                "credits": 4
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "Cannot be declared alongside paired Economics-Business or Business-Art History programs."
+        ]
+      },
+      "Economics": {
+        "requiredCredits": 24,
+        "requiredCourses": [
+          {
+            "code": "ECO31-104",
+            "name": "Principles of Economics",
+            "credits": 4
+          },
+          {
+            "code": "MAT52-164",
+            "name": "Modern Calculus I",
+            "credits": 4
+          }
+        ],
+        "electiveGroups": [
+          {
+            "name": "Intermediate Theory Requirement",
+            "coursesRequired": 1,
+            "creditsRequired": 4,
+            "options": [
+              {
+                "code": "ECO31-224",
+                "name": "Intermediate Microeconomic Theory",
+                "credits": 4
+              },
+              {
+                "code": "ECO31-234",
+                "name": "Intermediate Macroeconomic Theory",
+                "credits": 4
+              }
+            ]
+          },
+          {
+            "name": "Upper-level Economics Electives",
+            "coursesRequired": 3,
+            "creditsRequired": 12,
+            "options": []
+          }
+        ],
+        "notes": [
+          "Cannot be declared alongside paired Economics-Business program."
+        ]
+      }
+    }
+  },
+  "latin_american_&_border_studies": {
+    "majors": {
+      "Latin American and Border Studies": {
+        "BA": {
+          "requiredCredits": 36,
+          "requiredCourses": [
+            {
+              "code": "LAS06-964",
+              "name": "Capstone",
+              "credits": 4
+            }
+          ],
+          "electiveGroups": [
+            {
+              "name": "Introductory Course",
+              "coursesRequired": 1,
+              "creditsRequired": 4,
+              "options": [
+                {
+                  "code": "ENG10-174",
+                  "name": "American Lit: Borderlands",
+                  "credits": 4
+                },
+                {
+                  "code": "HIS16-404",
+                  "name": "Latin American History in Film & Literature",
+                  "credits": 4
+                },
+                {
+                  "code": "PHI18-284",
+                  "name": "Latin American Philosophy",
+                  "credits": 4
+                }
+              ]
+            },
+            {
+              "name": "Advanced Spanish Courses",
+              "coursesRequired": 2,
+              "creditsRequired": 8,
+              "options": [
+                {
+                  "code": "SPA15-214",
+                  "name": "Written and Oral Expression",
+                  "credits": 4
+                },
+                {
+                  "code": "SPA15-274",
+                  "name": "Spanish for Healthcare Professions",
+                  "credits": 4
+                },
+                {
+                  "code": "SPA15-284",
+                  "name": "Culture and Health in Hispanic Communities",
+                  "credits": 4
+                },
+                {
+                  "code": "SPA15-334",
+                  "name": "Conversation Through Hispanic Cinema",
+                  "credits": 4
+                },
+                {
+                  "code": "SPA15-344",
+                  "name": "Introduction to Literary Studies",
+                  "credits": 4
+                },
+                {
+                  "code": "SPA15-354",
+                  "name": "Cultures and Communities of Latin America",
+                  "credits": 4
+                },
+                {
+                  "code": "SPA15-444",
+                  "name": "Hispano-American Literature Abroad",
+                  "credits": 4
+                },
+                {
+                  "code": "SPA15-454",
+                  "name": "Hispano-American Culture Abroad",
+                  "credits": 4
+                },
+                {
+                  "code": "SPA15-504",
+                  "name": "Selected Topics in Hispano-American Literature",
+                  "credits": 4
+                },
+                {
+                  "code": "SPA15-534",
+                  "name": "Cultural Memory in Latin America",
+                  "credits": 4
+                },
+                {
+                  "code": "SPA15-614",
+                  "name": "Topics in Hispanic Film",
+                  "credits": 4
+                },
+                {
+                  "code": "SPA15-624",
+                  "name": "Topics in Hispanic Literature",
+                  "credits": 4
+                },
+                {
+                  "code": "SPA15-634",
+                  "name": "Topics in Hispanic Culture",
+                  "credits": 4
+                },
+                {
+                  "code": "SPA15-654",
+                  "name": "Citizenship and Conflict in Colombian Cinema",
+                  "credits": 4
+                },
+                {
+                  "code": "SPA15-664",
+                  "name": "Nature and Culture",
+                  "credits": 4
+                },
+                {
+                  "code": "SPA15-674",
+                  "name": "Leisure and Play in Latin America",
+                  "credits": 4
+                },
+                {
+                  "code": "SPA15-734",
+                  "name": "Spanish in the United States",
+                  "credits": 4
+                }
+              ]
+            },
+            {
+              "name": "LABS Area Courses",
+              "coursesRequired": 5,
+              "creditsRequired": 20,
+              "options": [
+                {
+                  "code": "ANT35-244",
+                  "name": "Race, Class and Gender in the Caribbean",
+                  "credits": 4
+                },
+                {
+                  "code": "EDU40-264",
+                  "name": "Teaching Culturally and Linguistically Diverse Learners",
+                  "credits": 4
+                },
+                {
+                  "code": "EDU40-274",
+                  "name": "Multicultural Children's Literature",
+                  "credits": 4
+                },
+                {
+                  "code": "ENV49-214",
+                  "name": "Texas Our (?) Texas",
+                  "credits": 4
+                },
+                {
+                  "code": "PSC32-184",
+                  "name": "Politics of Latin America and the Caribbean",
+                  "credits": 4
+                },
+                {
+                  "code": "COM75-424",
+                  "name": "Latina/o/x Communication Studies",
+                  "credits": 4
+                },
+                {
+                  "code": "ENG10-264",
+                  "name": "Chicana Literary Methods",
+                  "credits": 4
+                },
+                {
+                  "code": "ENG10-894",
+                  "name": "Latinx Literature",
+                  "credits": 4
+                },
+                {
+                  "code": "FST04-314",
+                  "name": "Latina Lesbian Literature",
+                  "credits": 4
+                },
+                {
+                  "code": "HIS16-144",
+                  "name": "History of Colonial Latin America",
+                  "credits": 4
+                },
+                {
+                  "code": "HIS16-154",
+                  "name": "History of Modern Latin America",
+                  "credits": 4
+                },
+                {
+                  "code": "HIS16-274",
+                  "name": "Reproductive Histories in Latin America",
+                  "credits": 4
+                },
+                {
+                  "code": "HIS16-284",
+                  "name": "The Mexican Revolution",
+                  "credits": 4
+                },
+                {
+                  "code": "HIS16-294",
+                  "name": "Texas History",
+                  "credits": 4
+                },
+                {
+                  "code": "PHI18-244",
+                  "name": "Native American Philosophies",
+                  "credits": 4
+                },
+                {
+                  "code": "PHI18-254",
+                  "name": "Philosophy, Race and Revolution",
+                  "credits": 4
+                },
+                {
+                  "code": "THE72-524",
+                  "name": "Latinx Drama",
+                  "credits": 4
+                }
+              ]
+            }
+          ],
+          "notes": [
+            "Area courses must come from at least 2 of 3 areas: Humanities, Social Sciences, Fine Arts.",
+            "Spanish language proficiency exit exam and/or oral interview required before graduation.",
+            "At least one LABS course must be Writing Attentive (WA).",
+            "Capstone must be approved by chair and includes paper and oral presentation.",
+            "Civic engagement and long-semester study abroad in Latin America strongly encouraged."
+          ]
+        }
+      },
+      "Paired Major in LABS and Spanish": {
+        "BA": {
+          "requiredCredits": 60,
+          "requiredCourses": [
+            {
+              "code": "LAS06-964",
+              "name": "Capstone",
+              "credits": 4
+            },
+            {
+              "code": "SPA15-934",
+              "name": "Research Seminar for Seniors",
+              "credits": 4
+            }
+          ],
+          "electiveGroups": [
+            {
+              "name": "Introductory Course",
+              "coursesRequired": 1,
+              "creditsRequired": 4,
+              "options": [
+                {
+                  "code": "ENG10-174",
+                  "name": "American Lit: Borderlands",
+                  "credits": 4
+                },
+                {
+                  "code": "HIS16-264",
+                  "name": "Latin American History in Film & Literature",
+                  "credits": 4
+                },
+                {
+                  "code": "PHI18-284",
+                  "name": "Latin American Philosophy",
+                  "credits": 4
+                }
+              ]
+            },
+            {
+              "name": "Core Spanish Culture",
+              "coursesRequired": 1,
+              "creditsRequired": 4,
+              "options": [
+                {
+                  "code": "SPA15-354",
+                  "name": "Cultures and Communities of Latin America",
+                  "credits": 4
+                },
+                {
+                  "code": "SPA15-364",
+                  "name": "Cultures and Communities of Spain",
+                  "credits": 4
+                }
+              ]
+            },
+            {
+              "name": "LABS Area Courses",
+              "coursesRequired": 5,
+              "creditsRequired": 20,
+              "options": []
+            },
+            {
+              "name": "Additional Spanish (200-level+)",
+              "coursesRequired": 3,
+              "creditsRequired": 12,
+              "options": []
+            },
+            {
+              "name": "Additional Spanish (400-level+)",
+              "coursesRequired": 3,
+              "creditsRequired": 12,
+              "options": []
+            }
+          ],
+          "notes": [
+            "Cannot be declared as a standard double major; students cannot minor in either discipline.",
+            "Spanish language proficiency exit exam required.",
+            "At least one LABS course must be Writing Attentive (WA)."
+          ]
+        }
+      }
+    },
+    "minors": {
+      "Latin American and Border Studies": {
+        "requiredCredits": 20,
+        "requiredCourses": [],
+        "electiveGroups": [
+          {
+            "name": "Introductory Course",
+            "coursesRequired": 1,
+            "creditsRequired": 4,
+            "options": [
+              {
+                "code": "ENG10-174",
+                "name": "American Lit: Borderlands",
+                "credits": 4
+              },
+              {
+                "code": "HIS16-264",
+                "name": "Latin American History in Film & Literature",
+                "credits": 4
+              },
+              {
+                "code": "PHI18-284",
+                "name": "Latin American Philosophy",
+                "credits": 4
+              }
+            ]
+          },
+          {
+            "name": "Additional LABS Courses",
+            "coursesRequired": 4,
+            "creditsRequired": 16,
+            "options": []
+          }
+        ],
+        "notes": [
+          "Courses must come from at least 2 of 3 areas: Humanities, Social Sciences, Fine Arts.",
+          "Spanish language proficiency exit exam required before graduation.",
+          "Counts as a Paideia Minor."
         ]
       }
     }

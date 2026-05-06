@@ -2659,6 +2659,36 @@
         }
 
         /**
+         * Normalizes program names so majors, paired majors,
+         * and differently formatted UI labels can be matched
+         * against degree requirement JSON keys reliably.
+         */
+        function normalizeProgramName(name) {
+
+            const normalized = (name || "")
+                .toLowerCase()
+                .replace(/^paired major in\s+/, "")
+                .replace(/\s+\(paired major\)$/, "")
+                .replace(/\s+\(paired\)$/, "")
+                .replace(/[()]/g, "")
+                .replace(/\s+/g, " ")
+                .trim();
+
+            // Special-cases
+            if (normalized === "theatre") {
+                return "theatre performance and production";
+            }
+            if (normalized === "latin american and border studies and spanish") {
+                return "labs and spanish";
+            }
+            if (normalized === "feminist studies and history") {
+                return "english and feminist studies";
+            }
+
+            return normalized;
+        }
+
+        /**
          * Sums credits from an array of course objects.
          *
          * @param {Array<{credits: string|number}>} courses - Courses or transfer credits.
@@ -2781,29 +2811,47 @@
              * @returns {Object|null} Matching requirement data, or null if unavailable.
              */
             function getRequirementData(type, name, degreeType = null) {
-                if (!name) return null;
+            if (!name) return null;
 
-                const key = normalizeMajorKey(name);
-                const block = DEGREE_REQUIREMENTS[key];
+            if (type === "major") {
+                const degreeKey = normalizeDegreeType(degreeType);
+                const targetName = normalizeProgramName(name);
 
-                if (!block) return null;
+                for (const block of Object.values(DEGREE_REQUIREMENTS)) {
+                    const majors = block.majors || {};
 
-                if (type === "major") {
-                    const degreeKey = normalizeDegreeType(degreeType);
-                    return block.majors?.[name]?.[degreeKey] || null;
-                }
+                    for (const [majorName, majorBlock] of Object.entries(majors)) {
+                        const normalizedMajorName = normalizeProgramName(majorName);
 
-                if (type === "minor") {
-                    if (!block.minors) return null;
-
-                    return block.minors[name]
-                        || block.minors[name.replace(" Minor", "").trim()]
-                        || Object.values(block.minors)[0]
-                        || null;
+                        if (normalizedMajorName === targetName) {
+                            return (
+                                majorBlock?.[degreeKey] ||
+                                majorBlock?.[degreeKey.toUpperCase()] ||
+                                majorBlock?.[degreeKey.toLowerCase()] ||
+                                majorBlock ||
+                                null
+                            );
+                        }
+                    }
                 }
 
                 return null;
             }
+
+    if (type === "minor") {
+        const key = normalizeMajorKey(name);
+        const block = DEGREE_REQUIREMENTS[key];
+
+        if (!block?.minors) return null;
+
+        return block.minors[name]
+            || block.minors[name.replace(" Minor", "").trim()]
+            || Object.values(block.minors)[0]
+            || null;
+    }
+
+    return null;
+}
 
             /**
              * Builds one progress card for a major or minor requirement block.
@@ -2814,12 +2862,26 @@
              */
             function progressCard(title, data) {
                 if (!data) {
+
+                    const normalizedTitle = (title || "").toLowerCase();
+
+                    const isUndeclared =
+                        normalizedTitle.includes("undeclared") ||
+                        normalizedTitle.includes("no major") ||
+                        normalizedTitle.includes("null");
+
                     return `
-            <div class="profile-card">
-                <h2>${title}</h2>
-                <p style="color:var(--error);">No requirement data found.</p>
-            </div>
-        `;
+                <div class="profile-card">
+                    <h2>${"No Major Declared"}</h2>
+
+                    <p style="color:${isUndeclared ? "var(--muted)" : "var(--error)"};">
+                        ${isUndeclared
+                            ? "No major declared yet."
+                            : "No requirement data found."
+                        }
+                    </p>
+                </div>
+                `;
                 }
 
                 const requiredCourses = data.requiredCourses || [];
