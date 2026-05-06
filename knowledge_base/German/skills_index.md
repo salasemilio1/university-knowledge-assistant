@@ -21,7 +21,7 @@
 
 ### German Course Listings
 - **degree_relevance:** B.A. | Minor | All
-- **description:** Lists all current and recent course offerings in the German Program at Southwestern University, with full descriptions, prerequisites, credit information, and semester availability. Covers the full sequence from introductory (GER12-144 German I) through advanced graduate-level offerings (GER12-934 Capstone Seminar). Each course entry includes learning outcomes, proficiency level targeted (novice, intermediate, advanced), interdisciplinary connections (Animal Studies, Environmental Studies, Feminist Studies, Health Studies, International Studies, Race and Ethnicity Studies), and Paideia designations (H, SJ, PJ, WA). The document covers 14 distinct course numbers. Variable-credit courses (GER12-332, GER12-334 Speak German!) are noted as offering 2 or 4 credits. Courses taught in English (GER12-714, GER12-734) with optional German Tutorial (GER12-912, GER12-932) are also listed.
+- **description:** Lists all current and recent course offerings in the German Program at Southwestern University, with full descriptions, prerequisites, credit information, and semester availability. Covers the full sequence from introductory (GER12-144 German I) through advanced graduate-level offerings (GER12-934 Capstone Seminar). Each course entry includes learning outcomes, proficiency level targeted (novice, intermediate, advanced), interdisciplinary connections (Animal Studies, Environmental Studies, Feminist Studies, Health Studies, International Studies, Race and Ethnicity Studies), and General education designations (H, SJ, PJ, WA). The document covers 14 distinct course numbers. Variable-credit courses (GER12-332, GER12-334 Speak German!) are noted as offering 2 or 4 credits. Courses taught in English (GER12-714, GER12-734) with optional German Tutorial (GER12-912, GER12-932) are also listed.
 - **critical_data:**
   - GER12-144 German I: Intro Language and Culture — Fall — no prerequisites — novice proficiency
   - GER12-154 German II: Intro Language and Culture — Spring — prerequisite: GER12-144 or equivalent
@@ -139,7 +139,7 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 | Graduation Application | "Application for Diploma" must be filed; financial holds block diploma |
 | Degree Conferral Dates | December, May, August only; Commencement held once per year in May |
 
-### SU Universal Curriculum Requirements (Paideia Framework)
+### SU Universal Curriculum Requirements (General Education)
 
 **Required for ALL degree paths:**
 - First-Year Seminar (FYS) or Advanced-Entry Seminar (AES): 4 credits
@@ -150,7 +150,7 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
   - Part I: one course from each of four areas: Fine Arts (FA), Humanities (H), Natural Sciences (NS), Social Sciences (ScS)
   - Part II: one additional course from two of the four areas
 
-Note: German Program courses carrying Humanities (H) designation can satisfy Paideia Humanities breadth requirements for non-German majors.
+Note: German Program courses carrying Humanities (H) designation can satisfy General Education Humanities breadth requirements for non-German majors.
 
 ---
 
@@ -291,7 +291,7 @@ Note: German Program courses carrying Humanities (H) designation can satisfy Pai
 - **Corequisites:** None
 - **Offered:** Fall
 - **Required For:** Gateway to all German sequences; not itself required by major/minor but necessary for proficiency path
-- **Counts As:** Language foundation; satisfies Languages and Cultures Paideia requirement progress
+- **Counts As:** Language foundation; satisfies Languages and Cultures General education requirement progress
 - **Notes:** Develops novice level proficiency. Emphasizes speaking, listening, reading, writing, and cultural communication.
 - **Source:** `Courses.txt`
 
@@ -303,7 +303,7 @@ Note: German Program courses carrying Humanities (H) designation can satisfy Pai
 - **Corequisites:** None
 - **Offered:** Spring
 - **Required For:** Prerequisite to GER12-164 and GER12-332/334/912/932
-- **Counts As:** Languages and Cultures Paideia progress; required prerequisite for tutorials (GER12-912, GER12-932)
+- **Counts As:** Languages and Cultures General Education progress; required prerequisite for tutorials (GER12-912, GER12-932)
 - **Notes:** Continues novice proficiency; increases focus on speaking and cultural literacy.
 - **Source:** `Courses.txt`
 
@@ -315,7 +315,7 @@ Note: German Program courses carrying Humanities (H) designation can satisfy Pai
 - **Corequisites:** None
 - **Offered:** Fall
 - **Required For:** Prerequisite to GER12-204 and upper-level courses; counts toward minor
-- **Counts As:** Satisfies Languages and Cultures Paideia requirement (third-semester proficiency); counts toward minor if taken for credit
+- **Counts As:** Satisfies Languages and Cultures General education requirement (third-semester proficiency); counts toward minor if taken for credit
 - **Notes:** Intermediate level proficiency; prepares students for study, research, or internships abroad.
 - **Source:** `Courses.txt`
 
@@ -327,7 +327,7 @@ Note: German Program courses carrying Humanities (H) designation can satisfy Pai
 - **Corequisites:** None
 - **Offered:** Spring
 - **Required For:** Prerequisite to GER12-314, GER12-344, GER12-354, GER12-454
-- **Counts As:** (H)(SJ)(PJ) — Humanities, Social Justice, Power and Justice Paideia designations; contributes to Animal Studies and International Studies
+- **Counts As:** (H)(SJ)(PJ) — Humanities, Social Justice, Power and Justice General education designations; contributes to Animal Studies and International Studies
 - **Notes:** Develops intermediate proficiency through critical engagement with German films; moves from narration to argumentation.
 - **Source:** `Courses.txt`
 
@@ -738,11 +738,10 @@ Note: German Program courses carrying Humanities (H) designation can satisfy Pai
   - **What general docs must cover:** 127-credit minimum, 64-credit SU residency, last 32 in-residence, 2.000 overall GPA, 60% major residency, Application for Diploma process
   - **Routing instruction:** Always retrieve `SU_General_Policies.txt` alongside major requirements doc for any graduation eligibility question
 
-- **Topic:** Paideia general education requirements
+- **Topic:** General education requirements
   - **What major docs cover:** Which German courses carry H, SJ, PJ, WA designations; GER12-164 satisfies Languages and Cultures third-semester requirement; GER12-204, GER12-354, GER12-714 satisfy PJ
   - **What general docs must cover:** Full structure of FYS/AES, Language & Cultures, FRA, Power and Justice, Exploration & Breadth Parts I and II, Paideia with Distinction
-  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about gen-ed, breadth requirements, or Paideia
-
+  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about gen-ed, breadth requirements, or General Education 
 - **Topic:** Pass/D/F grading option
   - **What major docs cover:** Not covered
   - **What general docs must cover:** Full Pass/D/F policy, deadlines to switch, GPA impact
@@ -871,7 +870,7 @@ Note: German Program courses carrying Humanities (H) designation can satisfy Pai
 **Default document for broad major questions:** `Majoring & Minoring(1 of 2).txt`
 
 **When to retrieve multiple documents:**
-- Any question about specific course content, prerequisites, or Paideia designations: retrieve `Courses.txt` in addition to requirements doc
+- Any question about specific course content, prerequisites, or General education designations: retrieve `Courses.txt` in addition to requirements doc
 - Any question about capstone: retrieve both `Courses.txt` AND `For_Current_Students.txt` AND `Majoring & Minoring(1 of 2).txt`
 - Any question about funding (Fulbright, DAAD, CBYX, SURF): retrieve `For_Current_Students.txt` AND `Notable_Faculty___Student_Achievements_1_of_2_.txt`
 - Any graduation eligibility question: retrieve major docs AND `SU_General_Policies.txt`
@@ -902,7 +901,7 @@ Note: German Program courses carrying Humanities (H) designation can satisfy Pai
 
 **Always retrieve `SU_General_Policies.txt` alongside major docs when:**
 - Any graduation eligibility or credit count question
-- Any Paideia / general education requirement question (beyond noting which German courses carry H, PJ, SJ, WA designations)
+- Any general education requirement question (beyond noting which German courses carry H, PJ, SJ, WA designations)
 - Any grading policy question (Pass/D/F, grade appeals, incomplete grades)
 - Any academic standing question (probation, dismissal, appeal)
 - Any transfer credit or credit-by-examination question

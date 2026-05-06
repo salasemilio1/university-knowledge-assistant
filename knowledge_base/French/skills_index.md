@@ -11,7 +11,7 @@
 
 ### Courses
 - **degree_relevance:** B.A. | Minor | All
-- **description:** Contains full descriptions of all French department course offerings, from introductory to capstone level. Covers FRE 11-144 through FRE 11-934, including prerequisites, semester offerings, and Paideia (H/WA) designations. Lists 14 distinct courses spanning language acquisition, culture, literature, cinema, translation, and the Capstone Seminar. Notes which courses contribute to International Studies and Race and Ethnicity Studies. Provides sequencing logic from novice through advanced proficiency. Course descriptions specify oral and written proficiency targets per ACTFL levels.
+- **description:** Contains full descriptions of all French department course offerings, from introductory to capstone level. Covers FRE 11-144 through FRE 11-934, including prerequisites, semester offerings, and General Education (H/WA) designations. Lists 14 distinct courses spanning language acquisition, culture, literature, cinema, translation, and the Capstone Seminar. Notes which courses contribute to International Studies and Race and Ethnicity Studies. Provides sequencing logic from novice through advanced proficiency. Course descriptions specify oral and written proficiency targets per ACTFL levels.
 - **critical_data:**
   - FRE 11-144 French I: Intro Language and Culture (Fall)
   - FRE 11-154 French II: Intro Language and Culture — Prereq: 11-144 or placement (Spring)
@@ -137,7 +137,7 @@ Source: `SU_General_Policies.txt`
 | Graduation Application | "Application for Diploma" must be filed; financial holds block diploma |
 | Degree Conferral Dates | December, May, August only; Commencement held once per year in May |
 
-### SU Universal Curriculum Requirements (Paideia Framework)
+### SU Universal Curriculum Requirements (General Education)
 
 Source: `SU_General_Policies.txt`
 
@@ -148,7 +148,7 @@ Required for ALL degree paths (B.A., B.S., B.F.A., B.Mus., B.S.Ed.):
 - Power and Justice (PJ) course: 1 course, 3-4 credits (cannot be satisfied by transfer credit)
 - Exploration and Breadth: 6 courses from outside the major (18-24 credits)
 
-**Note on French and Paideia:** Many upper-level French courses carry (H) and (WA) designations, satisfying Humanities Exploration & Breadth and Writing Attentive requirements. Students should confirm Paideia area designations per course in the current catalog.
+**Note on French and General Education: ** Many upper-level French courses carry (H) and (WA) designations, satisfying Humanities Exploration & Breadth and Writing Attentive requirements. Students should confirm General education area designations per course in the current catalog.
 
 ---
 
@@ -253,7 +253,7 @@ Required for ALL degree paths (B.A., B.S., B.F.A., B.Mus., B.S.Ed.):
 - **Corequisites:** None
 - **Offered:** Fall
 - **Required For:** Prerequisite chain for all French coursework
-- **Counts As:** Introductory language; Language & Cultures Paideia requirement (partial)
+- **Counts As:** Introductory language; Language & Cultures General education requirement (partial)
 - **Notes:** Builds listening, speaking, reading, writing, critical thinking, and cultural literacy. Novice-level proficiency development.
 - **Source:** `Courses.txt`
 
@@ -263,7 +263,7 @@ Required for ALL degree paths (B.A., B.S., B.F.A., B.Mus., B.S.Ed.):
 - **Corequisites:** None
 - **Offered:** Spring
 - **Required For:** Prerequisite chain
-- **Counts As:** Introductory language; Language & Cultures Paideia requirement (partial)
+- **Counts As:** Introductory language; Language & Cultures General education requirement (partial)
 - **Notes:** Emphasizes reading, writing, contemporary Francophone life; includes supplementary film units. Novice-level proficiency.
 - **Source:** `Courses.txt`
 
@@ -273,7 +273,7 @@ Required for ALL degree paths (B.A., B.S., B.F.A., B.Mus., B.S.Ed.):
 - **Corequisites:** None
 - **Offered:** Fall
 - **Required For:** Prerequisite chain; counts toward minor if taken for college credit
-- **Counts As:** Language & Cultures Paideia requirement (satisfies through third-semester proficiency); counts toward Minor
+- **Counts As:** Language & Cultures General education requirement (satisfies through third-semester proficiency); counts toward Minor
 - **Notes:** Grammar review, readings in literature and culture, intermediate proficiency. Intermediate level.
 - **Source:** `Courses.txt`
 
@@ -478,9 +478,9 @@ Required for ALL degree paths (B.A., B.S., B.F.A., B.Mus., B.S.Ed.):
 **Routing Note:** Honors Capstone (two-semester, departmental invitation) is described in MLL Capstone guidelines.
 **Disambiguation Needed:** No
 
-**Q:** Which French courses satisfy the Humanities requirement for Paideia?
+**Q:** Which French courses satisfy the Humanities requirement for General Education?
 **Docs:** `Courses.txt`, `SU_General_Policies.txt`
-**Routing Note:** (H) designation on courses is in Courses.txt; Paideia Exploration & Breadth structure is in SU_General_Policies.
+**Routing Note:** General Education (H) Exploration & Breadth Breadth structure is in SU_General_Policies.
 **Disambiguation Needed:** No
 
 **Q:** Can I study abroad in France and have it count toward my French major?
@@ -498,7 +498,7 @@ Required for ALL degree paths (B.A., B.S., B.F.A., B.Mus., B.S.Ed.):
 **Routing Note:** Faculty contact information for Francis Mathieu (Department Chair) and Aaron Prevots is in Our_Faculty.txt.
 **Disambiguation Needed:** No
 
-**Q:** Does FRE 11-204 have any Paideia designations?
+**Q:** Does FRE 11-204 have any General education designations?
 **Docs:** `Courses.txt`
 **Routing Note:** Course record in Courses.txt notes (H)(WA) for FRE 11-204.
 **Disambiguation Needed:** No
@@ -518,9 +518,9 @@ Required for ALL degree paths (B.A., B.S., B.F.A., B.Mus., B.S.Ed.):
 **Routing Note:** Three IS tracks listed: Global Politics and Economy, Global Society and Culture, Global Justice.
 **Disambiguation Needed:** No, but note that full IS track requirements require the IS catalog section.
 
-**Q:** What's the Paideia requirement for French students?
+**Q:** What's the General education requirement for French students?
 **Docs:** `SU_General_Policies.txt`, `Courses.txt`
-**Routing Note:** Paideia structure is university-wide (SU_General_Policies); specific (H) and (WA) course designations are in Courses.txt.
+**Routing Note:** General Education structure is university-wide (SU_General_Policies); specific (H) and (WA) course designations are in Courses.txt.
 **Disambiguation Needed:** No
 
 **Q:** I'm interested in African literature. Is there a French course for that?
@@ -577,12 +577,11 @@ Required for ALL degree paths (B.A., B.S., B.F.A., B.Mus., B.S.Ed.):
   - **What general docs must cover:** 127-credit minimum, 64-credit SU residency, last 32 in-residence, 2.000 GPA, 60% major residency, Application for Diploma process
   - **Routing instruction:** Always retrieve `SU_General_Policies.txt` alongside `Majoring___Minoring.txt` for any graduation eligibility question
 
-- **Topic:** Paideia general education requirements
+- **Topic:** General education requirements
   - **What major docs cover:** (H) and (WA) course designations in Courses.txt; note that FRE 11-204 and most upper-level French courses satisfy the Humanities area
   - **What general docs must cover:** Full structure of FYS/AES, Language & Cultures (note: French language courses 11-144 through 11-164 satisfy this), FRA, Power and Justice, Exploration & Breadth Parts I and II, Paideia with Distinction
-  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about gen-ed, breadth requirements, or Paideia
-
-- **Topic:** Language & Cultures Paideia requirement
+  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about gen-ed, breadth requirements, or General Education 
+- **Topic:** Language & Cultures General education requirement
   - **What major docs cover:** Courses.txt shows FRE 11-144, 11-154, 11-164 as the intro sequence
   - **What general docs must cover:** Placement exam exemption, third-semester proficiency threshold, AP/IB language credit
   - **Routing instruction:** Retrieve `SU_General_Policies.txt` for placement and exemption details
@@ -678,7 +677,7 @@ Required for ALL degree paths (B.A., B.S., B.F.A., B.Mus., B.S.Ed.):
   - **Reason for gap:** Not in any provided document
   - **Recommended fallback:** Direct student to SU course registration system
 
-- **Topic:** Whether specific non-French courses (e.g., from IS tracks) count toward the Paideia Exploration & Breadth areas
+- **Topic:** Whether specific non-French courses (e.g., from IS tracks) count toward the general education Exploration & Breadth areas
   - **Reason for gap:** Not covered in French department documents
   - **Recommended fallback:** Retrieve SU_General_Policies.txt; direct student to advisor
 
@@ -706,7 +705,7 @@ Required for ALL degree paths (B.A., B.S., B.F.A., B.Mus., B.S.Ed.):
 - Any question about study abroad in France: retrieve `For_Current_Students.txt` AND `SU_Resources_and_Financial.txt`
 - Any question about graduation eligibility: retrieve `Majoring___Minoring.txt` AND `SU_General_Policies.txt`
 - Any question about transfer credit toward French major: retrieve `Majoring___Minoring.txt` AND `SU_General_Policies.txt`
-- Any question about Paideia requirements and which French courses satisfy them: retrieve `Courses.txt` AND `SU_General_Policies.txt`
+- Any question about General education requirements and which French courses satisfy them: retrieve `Courses.txt` AND `SU_General_Policies.txt`
 - Any question about the Paired Major's IS track requirements: retrieve `Majoring___Minoring.txt` AND direct student to IS catalog section
 
 **Degree path disambiguation triggers:**
@@ -732,7 +731,7 @@ Required for ALL degree paths (B.A., B.S., B.F.A., B.Mus., B.S.Ed.):
 
 **Always retrieve `SU_General_Policies.txt` alongside major docs when:**
 - Any graduation eligibility or credit count question
-- Any Paideia / general education requirement question
+- Any general education requirement question
 - Any grading policy question (Pass/D/F, grade appeals, incomplete grades)
 - Any academic standing question (probation, dismissal, appeal)
 - Any transfer credit or credit-by-examination question

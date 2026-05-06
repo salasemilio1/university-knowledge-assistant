@@ -11,7 +11,7 @@
 
 ### Courses
 - **degree_relevance:** All
-- **description:** Lists all Art History courses offered by Southwestern University with full catalog descriptions. Covers introductory courses (71-024, 71-054, 71-064), East Asian art courses including Arts of China (71-214), Ancient Chinese Art (71-234), Topics in East Asian Art (71-254), Art in China Since 1911 (71-264), Topics in Non-Western Art (71-354), European and architectural history courses (71-454, 71-484, 71-494), modern art courses (71-534, 71-554), and upper-level seminars (71-614, 71-824). Offering frequency (annually, biennially) is noted for many courses. Paideia area tags (FA, WA, SJ, PJ) are listed for each course where applicable.
+- **description:** Lists all Art History courses offered by Southwestern University with full catalog descriptions. Covers introductory courses (71-024, 71-054, 71-064), East Asian art courses including Arts of China (71-214), Ancient Chinese Art (71-234), Topics in East Asian Art (71-254), Art in China Since 1911 (71-264), Topics in Non-Western Art (71-354), European and architectural history courses (71-454, 71-484, 71-494), modern art courses (71-534, 71-554), and upper-level seminars (71-614, 71-824). Offering frequency (annually, biennially) is noted for many courses. General education area tags (FA, WA, SJ, PJ) are listed for each course where applicable.
 - **critical_data:**
   - ARH 71-024: Intro Art Hist: East Asian Art & Arch — open to first/second-year students or by consent; (FA)(WA); annual
   - ARH 71-054: Introduction to Art History: Modern — open to first/second-year students or by consent; (FA)(WA); annual
@@ -103,7 +103,7 @@
 
 **Source:** `SU_General_Policies.txt`
 
-### SU Universal Curriculum Requirements (Paideia Framework)
+### SU Universal Curriculum Requirements (General Education)
 
 - First-Year Seminar (FYS) or Advanced-Entry Seminar (AES): 4 credits
 - Languages and Cultures: through third-semester proficiency
@@ -111,7 +111,7 @@
 - Power and Justice (PJ) course: 1 course, 3-4 credits — cannot be satisfied by transfer credit
 - Exploration and Breadth: 6 courses from outside the major distributed across Fine Arts (FA), Humanities (H), Natural Sciences (NS), Social Sciences (ScS)
 
-**Note:** Many Art History courses carry (FA) and (WA) tags satisfying Fine Arts and Writing-Across-the-Curriculum Paideia areas. ARH 71-264 (Art in China Since 1911) carries a (PJ) tag and may satisfy the Power and Justice requirement.
+**Note:** Many Art History courses carry (FA) and (WA) tags satisfying Fine Arts and Writing-Across-the-Curriculum General education areas. ARH 71-264 (Art in China Since 1911) carries a (PJ) tag and may satisfy the Power and Justice requirement.
 
 ---
 
@@ -314,7 +314,7 @@ Choose one upper-level History course from four of the following six areas:
 - **Corequisites:** None
 - **Offered:** Annually (Fall implied by FA tag)
 - **Required For:** All degree paths as an acceptable intro course; Paired Art History + History (any 0X4)
-- **Counts As:** Introductory requirement; Paideia FA and WA areas
+- **Counts As:** Introductory requirement; General Education FA and WA areas
 - **Notes:** Contributes to Early Modern and Medieval Studies, East Asian Studies, and International Studies
 - **Source:** `Courses.txt`
 
@@ -326,7 +326,7 @@ Choose one upper-level History course from four of the following six areas:
 - **Corequisites:** None
 - **Offered:** Annually
 - **Required For:** All degree paths as an acceptable intro course
-- **Counts As:** Introductory requirement; Paideia FA and WA areas
+- **Counts As:** Introductory requirement; General Education FA and WA areas
 - **Notes:** Covers European and American art, 18th–20th centuries; may contribute to International Studies
 - **Source:** `Courses.txt`
 
@@ -338,7 +338,7 @@ Choose one upper-level History course from four of the following six areas:
 - **Corequisites:** None
 - **Offered:** Varies (may be repeated with change in topic)
 - **Required For:** All degree paths as an acceptable intro course
-- **Counts As:** Introductory requirement; Paideia FA and WA areas
+- **Counts As:** Introductory requirement; General Education FA and WA areas
 - **Notes:** Repeatable with change in topic
 - **Source:** `Courses.txt`
 
@@ -350,7 +350,7 @@ Choose one upper-level History course from four of the following six areas:
 - **Corequisites:** None
 - **Offered:** Biennially
 - **Required For:** Counts as -200 level (East Asian area) for all degree paths
-- **Counts As:** East Asian distribution requirement; Paideia FA and WA
+- **Counts As:** East Asian distribution requirement; General Education FA and WA
 - **Notes:** Contributes to Early Modern and Medieval Studies, East Asian Studies, International Studies; covers Neolithic through contemporary; surveys 23 landmark works
 - **Source:** `Courses.txt`
 
@@ -362,7 +362,7 @@ Choose one upper-level History course from four of the following six areas:
 - **Corequisites:** None
 - **Offered:** Biennially
 - **Required For:** Counts as -200 level (East Asian area)
-- **Counts As:** East Asian distribution requirement; Paideia FA and WA
+- **Counts As:** East Asian distribution requirement; General Education FA and WA
 - **Notes:** Contributes to East Asian Studies and International Studies; covers Neolithic through Han dynasty
 - **Source:** `Courses.txt`
 
@@ -374,7 +374,7 @@ Choose one upper-level History course from four of the following six areas:
 - **Corequisites:** None
 - **Offered:** Varies (repeatable with change in topic)
 - **Required For:** Counts as -200 level (East Asian area)
-- **Counts As:** East Asian distribution requirement; Paideia FA and WA
+- **Counts As:** East Asian distribution requirement; General Education FA and WA
 - **Notes:** Contributes to East Asian Studies and International Studies; thematic focus; repeatable
 - **Source:** `Courses.txt`
 
@@ -385,8 +385,8 @@ Choose one upper-level History course from four of the following six areas:
 - **Prerequisites:** None stated
 - **Corequisites:** None
 - **Offered:** Biennially
-- **Required For:** Counts as -200 level (East Asian area); satisfies Power and Justice (PJ) Paideia requirement
-- **Counts As:** East Asian distribution; Paideia FA, WA, SJ, PJ
+- **Required For:** Counts as -200 level (East Asian area); satisfies Power and Justice (PJ) General education requirement
+- **Counts As:** East Asian distribution; General Education FA, WA, SJ, PJ
 - **Notes:** Contributes to East Asian Studies, Feminist Studies, International Studies, Race and Ethnicity Studies; covers late 19th century to present; ONLY Art History course carrying a PJ tag in current course list
 - **Source:** `Courses.txt`
 
@@ -398,7 +398,7 @@ Choose one upper-level History course from four of the following six areas:
 - **Corequisites:** None
 - **Offered:** Varies (repeatable with change in topic)
 - **Required For:** Counts as -300 level (Latin American area) or non-Western elective in Paired Studio Art major
-- **Counts As:** Non-Western distribution; Paideia FA and WA; contributes to International Studies
+- **Counts As:** Non-Western distribution; General Education FA and WA; contributes to International Studies
 - **Source:** `Courses.txt`
 
 ---
@@ -409,7 +409,7 @@ Choose one upper-level History course from four of the following six areas:
 - **Corequisites:** None
 - **Offered:** Varies (repeatable with change in topic)
 - **Required For:** Counts as -400 level (Pre- or Early Modern Europe area)
-- **Counts As:** Pre/Early Modern distribution; Paideia FA and WA; contributes to International Studies
+- **Counts As:** Pre/Early Modern distribution; General Education FA and WA; contributes to International Studies
 - **Source:** `Courses.txt`
 
 ---
@@ -420,7 +420,7 @@ Choose one upper-level History course from four of the following six areas:
 - **Corequisites:** None
 - **Offered:** Biennially
 - **Required For:** Counts as -400 level (Architectural History)
-- **Counts As:** Pre/Early Modern or Architecture distribution; Paideia FA and WA; contributes to Classics and International Studies
+- **Counts As:** Pre/Early Modern or Architecture distribution; General Education FA and WA; contributes to Classics and International Studies
 - **Source:** `Courses.txt`
 
 ---
@@ -431,7 +431,7 @@ Choose one upper-level History course from four of the following six areas:
 - **Corequisites:** None
 - **Offered:** Biennially
 - **Required For:** Counts as -400 level (Architectural History)
-- **Counts As:** Pre/Early Modern or Architecture distribution; Paideia FA and WA; contributes to International Studies
+- **Counts As:** Pre/Early Modern or Architecture distribution; General Education FA and WA; contributes to International Studies
 - **Notes:** Covers Euro-American architecture c. 1750 to present
 - **Source:** `Courses.txt`
 
@@ -443,7 +443,7 @@ Choose one upper-level History course from four of the following six areas:
 - **Corequisites:** None
 - **Offered:** Biennially
 - **Required For:** Counts as -500 level (Modern Art area)
-- **Counts As:** Modern distribution; Paideia FA and WA; may contribute to International Studies
+- **Counts As:** Modern distribution; General Education FA and WA; may contribute to International Studies
 - **Notes:** Covers European and American art 1900–1945; topics include Fauvism, Cubism, Expressionism, Russian avant-garde, Surrealism
 - **Source:** `Courses.txt`
 
@@ -455,7 +455,7 @@ Choose one upper-level History course from four of the following six areas:
 - **Corequisites:** None
 - **Offered:** Varies (repeatable with change in topic)
 - **Required For:** Counts as -500 level (Modern Art area)
-- **Counts As:** Modern distribution; Paideia FA and WA; may contribute to International Studies
+- **Counts As:** Modern distribution; General Education FA and WA; may contribute to International Studies
 - **Source:** `Courses.txt`
 
 ---
@@ -466,7 +466,7 @@ Choose one upper-level History course from four of the following six areas:
 - **Corequisites:** None
 - **Offered:** Fall only
 - **Required For:** All degree paths (standalone major, all paired majors); must be taken before capstone
-- **Counts As:** Upper-level required course; Paideia FA
+- **Counts As:** Upper-level required course; General Education FA
 - **Notes:** Subject changes each year; can be repeated with change of topic
 - **Source:** `Courses.txt`
 
@@ -528,7 +528,7 @@ Choose one upper-level History course from four of the following six areas:
 **Routing Note:** 71-264 listed as biennial — confirm current year with registrar or advisor.
 **Disambiguation Needed:** No (but current scheduling requires advisor/registrar confirmation)
 
-**Q:** Can ARH71-264 count as my Power and Justice Paideia course?
+**Q:** Can ARH71-264 count as my Power and Justice General Education course?
 **Docs:** `Courses.txt`, `SU_General_Policies.txt`
 **Routing Note:** 71-264 carries (PJ) tag in Courses.txt; PJ requirement details in SU_General_Policies.txt.
 **Disambiguation Needed:** No
@@ -672,10 +672,10 @@ Choose one upper-level History course from four of the following six areas:
   - **What general docs must cover:** 127-credit minimum, 64-credit SU residency, last 32 in-residence, 2.000 GPA, 60% major residency, Application for Diploma
   - **Routing instruction:** Always retrieve `SU_General_Policies.txt` alongside major requirements doc for any graduation eligibility question
 
-- **Topic:** Paideia general education requirements
-  - **What major docs cover:** Individual course tags (FA, WA, PJ, SJ) identifying which Art History courses satisfy Paideia areas
+- **Topic:** General education requirements
+  - **What major docs cover:** Individual course tags (FA, WA, PJ, SJ) identifying which Art History courses satisfy General education areas
   - **What general docs must cover:** Full structure of FYS/AES, Language & Cultures, FRA, Power and Justice, Exploration & Breadth, Paideia with Distinction
-  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about gen-ed, Paideia structure, or breadth requirements
+  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about gen-ed, General Education structure, or breadth requirements
 
 - **Topic:** Power and Justice (PJ) requirement
   - **What major docs cover:** ARH71-264 carries a (PJ) tag
@@ -787,7 +787,7 @@ Choose one upper-level History course from four of the following six areas:
 **Default document for broad major questions:** `Majoring___Minoring.txt`
 
 **When to retrieve multiple documents:**
-- Any question about Paideia, gen-ed, or breadth requirements → retrieve `Majoring___Minoring.txt` + `SU_General_Policies.txt`
+- Any question about General Education, gen-ed, or breadth requirements → retrieve `Majoring___Minoring.txt` + `SU_General_Policies.txt`
 - Any question about graduation eligibility or credit totals → retrieve `Majoring___Minoring.txt` + `SU_General_Policies.txt`
 - Any question about a specific course's offerings, prerequisites, or content → retrieve `Courses.txt`; add `Majoring___Minoring.txt` if the question concerns whether the course satisfies a requirement
 - Any question about transfer credit or AP credit → retrieve `Majoring___Minoring.txt` + `SU_General_Policies.txt`
@@ -816,7 +816,7 @@ Choose one upper-level History course from four of the following six areas:
 
 **Always retrieve `SU_General_Policies.txt` alongside major docs when:**
 - Any graduation eligibility or credit count question
-- Any Paideia / general education requirement question (especially Power and Justice)
+- Any general education requirement question (especially Power and Justice)
 - Any grading policy question (Pass/D/F, grade appeals, incomplete grades)
 - Any academic standing question (probation, dismissal, appeal)
 - Any transfer credit or credit-by-examination question

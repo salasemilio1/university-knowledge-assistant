@@ -17,7 +17,7 @@ This index covers all available documents for the Feminist Studies (FST) program
 
 ### Feminist Studies Program Overview
 - **degree_relevance:** All
-- **description:** Provides a high-level overview of the Feminist Studies curriculum and its goals. Explains that the program combines feminist theory with analyses of feminist activism, identifications, and practices. Covers the program's focus on categories of difference (gender, race, class, sexuality, disability, age, religion, nation). Describes the revision of traditional disciplines through feminist methodologies. Notes career preparation areas including non-profit, law, journalism, theology, public policy, healthcare, and cultural studies. Explains FST's status as a Paideia Minor and describes the broader Paideia framework including Paideia with Distinction and the Paideia Seminar.
+- **description:** Provides a high-level overview of the Feminist Studies curriculum and its goals. Explains that the program combines feminist theory with analyses of feminist activism, identifications, and practices. Covers the program's focus on categories of difference (gender, race, class, sexuality, disability, age, religion, nation). Describes the revision of traditional disciplines through feminist methodologies. Notes career preparation areas including non-profit, law, journalism, theology, public policy, healthcare, and cultural studies. Explains FST's status as a Paideia Minor and describes the broader General education framework including Paideia with Distinction and the Paideia Seminar.
 - **critical_data:**
   - FST is one of the Paideia Minors
   - Paideia with Distinction requires: one Paideia Minor (or two High-Impact Experiences) + a Paideia Seminar
@@ -26,10 +26,10 @@ This index covers all available documents for the Feminist Studies (FST) program
   - what is feminist studies
   - what is the FST program about
   - what can I do with a feminist studies degree
-  - does FST count as a Paideia minor
+  - does FST count as a General Education minor
   - what is Paideia with Distinction
-  - how do I earn Paideia distinction
-  - what is the Paideia seminar
+  - how do I earn General Education distinction
+  - what is the General Education seminar
   - is feminist studies interdisciplinary
   - what careers can I pursue with FST
   - what does FST focus on
@@ -40,15 +40,15 @@ This index covers all available documents for the Feminist Studies (FST) program
 
 ### Courses in Feminist Studies
 - **degree_relevance:** All
-- **description:** Lists all current or recent FST course offerings with full descriptions. Includes the four primary FST-prefix courses: FST04-104 Introduction to Feminist Studies, FST04-204 Feminist Theories and Methods, FST04-284 Topics in Feminist Theory, FST04-304 Selected Topics, FST04-314 Latina Lesbian Literature, FST04-324 Radical Women of Color, and FST04-934 Senior Seminar. Each description details topics covered, intersectional frameworks, and prerequisite requirements. Notes which courses contribute to Race and Ethnicity Studies, and which carry Paideia designations (H, ScS, SJ, PJ, WA).
+- **description:** Lists all current or recent FST course offerings with full descriptions. Includes the four primary FST-prefix courses: FST04-104 Introduction to Feminist Studies, FST04-204 Feminist Theories and Methods, FST04-284 Topics in Feminist Theory, FST04-304 Selected Topics, FST04-314 Latina Lesbian Literature, FST04-324 Radical Women of Color, and FST04-934 Senior Seminar. Each description details topics covered, intersectional frameworks, and prerequisite requirements. Notes which courses contribute to Race and Ethnicity Studies, and which carry General education designations (H, ScS, SJ, PJ, WA).
 - **critical_data:**
-  - FST04-104: No prerequisites; Paideia designations (H)(ScS)(SJ)(PJ); contributes to Race and Ethnicity Studies/Allied Course
-  - FST04-204: Prerequisite FST04-104; Paideia designation (H)(WA)
-  - FST04-284: No listed prerequisite; Paideia designation (H)
-  - FST04-304: May be repeated with change in topic; Paideia designation (ScS)
-  - FST04-314: Prerequisite FST04-104 or instructor-approved alternative; contributes to English, Latin American and Border Studies, and Race and Ethnicity Studies/Concepts Course; Paideia designation (H)
-  - FST04-324: Prerequisite FST04-104 or instructor-approved alternative; contributes to Race and Ethnicity Studies/Concepts Course; Paideia designation (H)
-  - FST04-934: Senior Seminar (Fall); Paideia designation (WA); serves as capstone
+  - FST04-104: No prerequisites; General education designations (H)(ScS)(SJ)(PJ); contributes to Race and Ethnicity Studies/Allied Course
+  - FST04-204: Prerequisite FST04-104; General Education designation (H)(WA)
+  - FST04-284: No listed prerequisite; General Education designation (H)
+  - FST04-304: May be repeated with change in topic; General Education designation (ScS)
+  - FST04-314: Prerequisite FST04-104 or instructor-approved alternative; contributes to English, Latin American and Border Studies, and Race and Ethnicity Studies/Concepts Course; General Education designation (H)
+  - FST04-324: Prerequisite FST04-104 or instructor-approved alternative; contributes to Race and Ethnicity Studies/Concepts Course; General Education designation (H)
+  - FST04-934: Senior Seminar (Fall); General Education designation (WA); serves as capstone
   - what courses does FST offer
   - what is FST 104
   - what is introduction to feminist studies
@@ -59,8 +59,7 @@ This index covers all available documents for the Feminist Studies (FST) program
   - latina lesbian literature course
   - radical women of color course
   - topics in feminist theory
-  - what FST courses count toward Paideia
-  - which FST courses have prerequisites
+  - what FST courses count toward General Education  - which FST courses have prerequisites
   - what is FST 324
 
 ---
@@ -194,7 +193,7 @@ Source: `SU_General_Policies.txt`
 | Graduation Application | "Application for Diploma" must be filed; financial holds block diploma |
 | Degree Conferral Dates | December, May, August only; Commencement held once per year in May |
 
-### SU Universal Curriculum Requirements (Paideia Framework)
+### SU Universal Curriculum Requirements (General Education)
 
 **Required for ALL degree paths (B.A., B.S., B.F.A., B.Mus., B.S.Ed.):**
 - First-Year Seminar (FYS) or Advanced-Entry Seminar (AES): 4 credits
@@ -254,7 +253,7 @@ Source: `SU_General_Policies.txt`
 - At least 2 must be upper-level
 - FST04-944 Academic Internship and FST04-954 Independent Study may count with FST Committee approval
 
-**Paideia Note:**
+**General Education Note:**
 - FST is a Paideia Minor — completing it (with a Paideia Seminar and Symposium presentation) qualifies students for Paideia with Distinction
 
 ---
@@ -333,7 +332,7 @@ Source: `SU_General_Policies.txt`
 - **Corequisites:** None
 - **Offered:** Unknown (not specified)
 - **Required For:** FST Major, FST Minor, Paired Major (ENG+FST), Paired Major (FST+HIS)
-- **Counts As:** Required core; Paideia (H)(ScS)(SJ)(PJ); Race and Ethnicity Studies/Allied Course
+- **Counts As:** Required core; General Education (H)(ScS)(SJ)(PJ); Race and Ethnicity Studies/Allied Course
 - **Notes:** Gateway course for the major and minor; prerequisite for FST04-204, FST04-314, FST04-324; emphasis on intersectionality, body, identity (gender, sexuality, race, citizenship, class, disability)
 - **Source:** `Courses.txt`, `Majoring___Minoring.txt`
 
@@ -345,7 +344,7 @@ Source: `SU_General_Policies.txt`
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** FST Major, FST Minor, Paired Major (ENG+FST), Paired Major (FST+HIS)
-- **Counts As:** Required core; Paideia (H)(WA)
+- **Counts As:** Required core; General Education (H)(WA)
 - **Notes:** Traces intellectual traditions of contemporary feminist theories and practices; covers feminist methodologies and the formation of the discipline
 - **Source:** `Courses.txt`, `Majoring___Minoring.txt`
 
@@ -357,7 +356,7 @@ Source: `SU_General_Policies.txt`
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Elective for FST Major and Minor
-- **Counts As:** Upper-level elective; Paideia (H)
+- **Counts As:** Upper-level elective; General Education (H)
 - **Notes:** Interdisciplinary framework; areas of concentration may include theories of the body, queer theory, migration and borders, critical race theory, or methodology
 - **Source:** `Courses.txt`
 
@@ -369,7 +368,7 @@ Source: `SU_General_Policies.txt`
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Elective for FST Major and Minor
-- **Counts As:** Elective; Paideia (ScS); may be repeated with change in topic
+- **Counts As:** Elective; General Education (ScS); may be repeated with change in topic
 - **Notes:** Repeatable course with variable topic
 - **Source:** `Courses.txt`
 
@@ -381,7 +380,7 @@ Source: `SU_General_Policies.txt`
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Elective for FST Major and Minor
-- **Counts As:** Upper-level elective; Paideia (H); contributes to English, Latin American and Border Studies, and Race and Ethnicity Studies/Concepts Course
+- **Counts As:** Upper-level elective; General Education (H); contributes to English, Latin American and Border Studies, and Race and Ethnicity Studies/Concepts Course
 - **Notes:** Examines literary expressions of Latina lesbian identity, sexuality, politics, and culture; topics include coming-of-age, butch/femme identities, sexual politics, family and culture, gender variance
 - **Source:** `Courses.txt`
 
@@ -393,7 +392,7 @@ Source: `SU_General_Policies.txt`
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Elective for FST Major and Minor
-- **Counts As:** Upper-level elective; Paideia (H); contributes to Race and Ethnicity Studies/Concepts Course
+- **Counts As:** Upper-level elective; General Education (H); contributes to Race and Ethnicity Studies/Concepts Course
 - **Notes:** Inspired by the 1981 anthology This Bridge Called My Back; focuses on women of color feminist thought; topics include queer/trans liberation, reproductive justice, abolitionist feminism, disability justice
 - **Source:** `Courses.txt`
 
@@ -405,7 +404,7 @@ Source: `SU_General_Policies.txt`
 - **Corequisites:** None
 - **Offered:** Fall
 - **Required For:** FST Major, Paired Major (ENG+FST), Paired Major (FST+HIS)
-- **Counts As:** Capstone requirement; Paideia (WA)
+- **Counts As:** Capstone requirement; General Education (WA)
 - **Notes:** Capstone course for the FST major and all paired majors; offered in Fall only
 - **Source:** `Courses.txt`, `Majoring___Minoring.txt`
 
@@ -449,7 +448,7 @@ Source: `SU_General_Policies.txt`
 
 ### Selected Contributing Courses From Other Departments
 
-| Course Number | Title | Department | Paideia | Notes |
+| Course Number | Title | Department | General Education | Notes |
 |---|---|---|---|---|
 | ANT35-244 | Race, Class, and Gender in the Caribbean | Anthropology | — | Contributes to FST |
 | ANT35-334 | Global Environmental Justice | Anthropology | — | Contributes to FST |
@@ -516,7 +515,7 @@ Source: `SU_General_Policies.txt`
 **Routing Note:** Paired Major in English and FST is detailed in the majoring doc; policies around paired vs. double majors (cannot declare paired as double) require the general policies doc.
 **Disambiguation Needed:** Yes — clarify if student wants a paired major or an independent double major
 
-**Q:** Does the FST minor count toward Paideia?
+**Q:** Does the FST minor count toward General Education?
 **Docs:** `Feminist_Studies.txt`, `SU_General_Policies.txt`
 **Routing Note:** FST is listed as a Paideia Minor in the overview doc; full Paideia with Distinction requirements (seminar + Symposium + intensive option) are in general policies.
 **Disambiguation Needed:** No
@@ -653,7 +652,7 @@ Source: `SU_General_Policies.txt`
 
 **Q:** What is the Radical Women of Color course about?
 **Docs:** `Courses.txt`
-**Routing Note:** Full description of FST04-324, including topics, prerequisite, and Paideia designations, is in the courses document.
+**Routing Note:** Full description of FST04-324, including topics, prerequisite, and General education designations, is in the courses document.
 **Disambiguation Needed:** No
 
 **Q:** Does FST offer any funded research opportunities?
@@ -661,9 +660,9 @@ Source: `SU_General_Policies.txt`
 **Routing Note:** SURF and King Creativity Fund for funded research are covered in the resources/financial document; FST-specific opportunities (academic internship) are in the majoring doc.
 **Disambiguation Needed:** No
 
-**Q:** What Paideia areas do FST courses satisfy?
+**Q:** What General education areas do FST courses satisfy?
 **Docs:** `Courses.txt`, `SU_General_Policies.txt`
-**Routing Note:** Paideia designations for each FST course (H, ScS, SJ, PJ, WA) are listed in the courses document; the full structure of Paideia Exploration and Breadth requirements is in general policies.
+**Routing Note:** General education designations for each FST course (H, ScS, SJ, PJ, WA) are listed in the courses document; the full structure of General Education Exploration and Breadth requirements is in general policies.
 **Disambiguation Needed:** No
 
 ---
@@ -675,8 +674,8 @@ Source: `SU_General_Policies.txt`
   - **What general docs must cover:** 127-credit minimum, 64-credit SU residency, last 32 in-residence, 2.000 GPA, Application for Diploma process
   - **Routing instruction:** Always retrieve `SU_General_Policies.txt` alongside `Majoring___Minoring.txt` for any graduation eligibility question
 
-- **Topic:** Paideia general education requirements
-  - **What major docs cover:** Which FST courses satisfy Paideia areas (H, ScS, SJ, PJ, WA); FST minor status as Paideia Minor
+- **Topic:** General education requirements
+  - **What major docs cover:** Which FST courses satisfy General education areas (H, ScS, SJ, PJ, WA); FST minor status as Paideia Minor
   - **What general docs must cover:** Full FYS/AES, Language & Cultures, FRA, Power and Justice, Exploration & Breadth Parts I and II, Paideia with Distinction structure and deadlines
   - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about Paideia, gen-ed, or Paideia with Distinction
 
@@ -787,7 +786,7 @@ Source: `SU_General_Policies.txt`
 
 **When to retrieve multiple documents:**
 - Any graduation eligibility or credit count question: retrieve `Majoring___Minoring.txt` + `SU_General_Policies.txt`
-- Any Paideia or gen-ed requirement question: retrieve `Courses.txt` (for FST course designations) + `SU_General_Policies.txt` (for full Paideia structure)
+- Any General Education or gen-ed requirement question: retrieve `Courses.txt` (for FST course designations) + `SU_General_Policies.txt` (for full General Education structure)
 - Any question about career preparation or graduate school: retrieve `After_Southwestern.txt` + `Majoring___Minoring.txt`
 - Any paired major question: retrieve `Majoring___Minoring.txt` + `SU_General_Policies.txt`
 - Any study abroad or internship funding question: retrieve `SU_Resources_and_Financial.txt` + `Majoring___Minoring.txt`
@@ -799,7 +798,7 @@ Source: `SU_General_Policies.txt`
 - If student asks about "upper-level requirements" without specifying major or minor, clarify which degree path
 
 **High-confidence single-document retrievals:**
-- Questions about specific FST course descriptions, prerequisites, or Paideia designations → `Courses.txt`
+- Questions about specific FST course descriptions, prerequisites, or General education designations → `Courses.txt`
 - Questions about faculty contact information, specialties, or office locations → `Our_Faculty.txt`
 - Questions about FST events, speaker series, or visiting scholars → `Special_Opportunities.txt`
 - Questions about what jobs or graduate programs FST alumni pursue → `After_Southwestern.txt`
@@ -814,7 +813,7 @@ Source: `SU_General_Policies.txt`
 
 **Always retrieve `SU_General_Policies.txt` alongside major docs when:**
 - Any graduation eligibility or credit count question
-- Any Paideia / general education requirement question
+- Any general education requirement question
 - Any grading policy question (Pass/D/F, grade appeals, incomplete grades)
 - Any academic standing question (probation, dismissal, appeal)
 - Any transfer credit or credit-by-examination question

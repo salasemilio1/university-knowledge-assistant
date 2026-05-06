@@ -515,14 +515,14 @@ These requirements apply regardless of degree type or emphasis:
   - **What general docs must cover:** 127-credit total minimum, 64-credit SU residency, last 32 in-residence, 2.000 GPA, 60% major residency, Application for Diploma
   - **Routing instruction:** Always retrieve `SU_General_Policies.txt` alongside major docs
 
-- **Topic:** Paideia general education requirements
+- **Topic:** General education requirements
   - **What major docs cover:** Majoring___Minoring.txt states music majors must meet "general education standards common to all SU students"
   - **What general docs must cover:** Full FYS/AES, Language & Cultures, FRA, Power and Justice, Exploration & Breadth
-  - **Routing instruction:** Always retrieve `SU_General_Policies.txt`; note foreign language requirement for Vocal Performance (French + German) may interact with Languages & Cultures Paideia requirement
+  - **Routing instruction:** Always retrieve `SU_General_Policies.txt`; note foreign language requirement for Vocal Performance (French + German) may interact with Languages & Cultures General education requirement
 
-- **Topic:** B.Mus. degree type and Paideia B.S. requirements
+- **Topic:** B.Mus. degree type and General Education B.S. requirements
   - **What major docs cover:** B.Mus. is a distinct degree type; not a B.A. or B.S.
-  - **What general docs must cover:** B.Mus. graduation requirements and Paideia requirements specific to this degree type
+  - **What general docs must cover:** B.Mus. graduation requirements and General education requirements specific to this degree type
   - **Routing instruction:** Retrieve `SU_General_Policies.txt` for B.Mus.-specific requirements
 
 - **Topic:** Music Education teacher certification (Texas)
@@ -532,7 +532,7 @@ These requirements apply regardless of degree type or emphasis:
 
 - **Topic:** Foreign language requirement for Vocal Performance (French + German)
   - **What major docs cover:** Stated in Bachelor_of_Music_in_Performance.txt
-  - **What general docs must cover:** Whether these 4 language semesters satisfy the Paideia Language & Cultures requirement or are in addition to it
+  - **What general docs must cover:** Whether these 4 language semesters satisfy the General Education Language & Cultures requirement or are in addition to it
   - **Routing instruction:** Retrieve `SU_General_Policies.txt`; escalate to advisor for clarification
 
 - **Topic:** Pass/D/F grading option
@@ -576,7 +576,7 @@ These requirements apply regardless of degree type or emphasis:
   - **Reason for gap:** Bachelor_of_Music_in_Composition.txt states capstone is required but does not specify the format (unlike Performance which specifies two recitals)
   - **Recommended fallback:** Direct to Music Department advisor; consult University catalog
 
-- **Topic:** Whether Vocal Performance foreign language (French + German) satisfies Paideia Language & Cultures requirement
+- **Topic:** Whether Vocal Performance foreign language (French + German) satisfies General Education Language & Cultures requirement
   - **Reason for gap:** Not addressed in source documents
   - **Recommended fallback:** Retrieve `SU_General_Policies.txt`; escalate to advisor
 
@@ -615,7 +615,7 @@ These requirements apply regardless of degree type or emphasis:
 - BM Music Literature → `Bachelor_of_Music_in_Literature.txt`
 - BM Composition → `Bachelor_of_Music_in_Composition.txt`
 - Any graduation or credit-count question → add `SU_General_Policies.txt`
-- Foreign language and Paideia → `Bachelor_of_Music_in_Performance.txt` + `SU_General_Policies.txt`
+- Foreign language and General Education → `Bachelor_of_Music_in_Performance.txt` + `SU_General_Policies.txt`
 - Teacher certification → `Bachelor_of_Music_in_Music_Education.txt` + Education Department referral
 
 **Degree path disambiguation triggers:**
@@ -648,7 +648,7 @@ These requirements apply regardless of degree type or emphasis:
 
 **Always retrieve `SU_General_Policies.txt` alongside major docs when:**
 - Any graduation eligibility or credit count question
-- Any Paideia / gen-ed requirement question (especially B.Mus. degree type specifics)
+- Any general education requirement question (especially B.Mus. degree type specifics)
 - Any foreign language requirement interaction question (Vocal Performance)
 - Any grading policy question (Pass/D/F, grade appeals, incomplete grades)
 - Any academic standing question

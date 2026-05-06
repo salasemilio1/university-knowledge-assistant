@@ -54,7 +54,7 @@ Source: `SU_General_Policies.txt`
 | Graduation Application | "Application for Diploma" must be filed; financial holds block diploma |
 | Degree Conferral Dates | December, May, August; Commencement once per year in May |
 
-### SU Universal Curriculum Requirements (Paideia Framework)
+### SU Universal Curriculum Requirements (General Education)
 
 **Required for ALL B.A. students:**
 - First-Year Seminar (FYS) or Advanced-Entry Seminar (AES): 4 credits
@@ -94,9 +94,9 @@ Source: `SU_General_Policies.txt`
 **Notable Constraints:**
 - B.A. only — not available as B.S., B.F.A., B.Mus., or B.S.Ed.
 - Replaces the standard major/minor structure — no separate minor required
-- All 127-credit and Paideia requirements still apply
+- All 127-credit and General education requirements still apply
 - Block 1 courses cannot be reused to satisfy Block 2
-- The 56-credit minimum leaves substantial room for Paideia, language, and elective courses within the 127-credit total
+- The 56-credit minimum leaves substantial room for general education, language, and elective courses within the 127-credit total
 
 ---
 
@@ -189,9 +189,9 @@ The Independent Major has no fixed course list. Courses are selected by the stud
 **Routing Note:** 60% residency and transfer credit rules in General Policies; block placement of specific transfer courses requires Curriculum Committee approval.
 **Disambiguation Needed:** Yes — which institution and which courses
 
-**Q:** Does the Independent Major satisfy Paideia requirements?
+**Q:** Does the Independent Major satisfy General education requirements?
 **Docs:** `SU_General_Policies.txt`
-**Routing Note:** All Paideia requirements (FYS/AES, Language & Cultures, FRA, Power and Justice, Exploration & Breadth) still apply; how Exploration & Breadth interacts with a multi-department program requires advisor clarification.
+**Routing Note:** All General education requirements (FYS/AES, Language & Cultures, FRA, Power and Justice, Exploration & Breadth) still apply; how Exploration & Breadth interacts with a multi-department program requires advisor clarification.
 **Disambiguation Needed:** No — retrieve General Policies; escalate to advisor
 
 ---
@@ -203,7 +203,7 @@ The Independent Major has no fixed course list. Courses are selected by the stud
   - **What general docs must cover:** 127-credit total minimum, 64-credit SU residency, last 32 in-residence, 2.000 GPA, 60% major residency, Application for Diploma
   - **Routing instruction:** Always retrieve `SU_General_Policies.txt` alongside `Majoring___Minoring.txt`
 
-- **Topic:** Paideia general education requirements / Exploration & Breadth
+- **Topic:** General education requirements / Exploration & Breadth
   - **What major docs cover:** Not addressed
   - **What general docs must cover:** Full FYS/AES, Language & Cultures, FRA, Power and Justice, Exploration & Breadth structure
   - **Routing instruction:** Always retrieve `SU_General_Policies.txt`; escalate to advisor for Exploration & Breadth interaction with interdisciplinary blocks
@@ -268,8 +268,8 @@ The Independent Major has no fixed course list. Courses are selected by the stud
   - **Reason for gap:** Both documents specify B.A. only
   - **Recommended fallback:** B.A. only per source documents; confirm with Registrar if student asks about another degree type
 
-- **Topic:** How Exploration & Breadth Paideia requirement interacts with an interdisciplinary Independent Major
-  - **Reason for gap:** Paideia requires 6 courses "outside the major"; ambiguous for a multi-department program
+- **Topic:** How Exploration & Breadth General education requirement interacts with an interdisciplinary Independent Major
+  - **Reason for gap:** General Education requires 6 courses "outside the major"; ambiguous for a multi-department program
   - **Recommended fallback:** Direct to advisor and `SU_General_Policies.txt`; requires individual evaluation
 
 - **Topic:** Whether transfer credits count toward Block 1 or Block 2
@@ -294,7 +294,7 @@ The Independent Major has no fixed course list. Courses are selected by the stud
 - What the program is or examples of it → both `Independent_Major.txt` and `Majoring___Minoring.txt`
 - Graduation or credit-count questions → add `SU_General_Policies.txt`
 - Study abroad questions → add `SU_Resources_and_Financial.txt` and `SU_General_Policies.txt`
-- Paideia or gen-ed questions → `SU_General_Policies.txt`; escalate to advisor for interaction with blocks
+- general education questions → `SU_General_Policies.txt`; escalate to advisor for interaction with blocks
 - Internship credit questions → `SU_Resources_and_Financial.txt`; escalate to advisor
 
 **High-confidence single-document retrievals:**
@@ -308,7 +308,7 @@ The Independent Major has no fixed course list. Courses are selected by the stud
 **Always escalate to human advisor:**
 - Whether a specific course counts toward Block 1 or Block 2
 - What "introductory level" means for a given department
-- How Paideia Exploration & Breadth interacts with a specific student's program
+- How general education Exploration & Breadth interacts with a specific student's program
 - Curriculum Committee submission timeline or forms
 - Transfer credit block placement
 - Internship credit placement within the 56-credit structure
@@ -316,7 +316,7 @@ The Independent Major has no fixed course list. Courses are selected by the stud
 
 **Always retrieve `SU_General_Policies.txt` alongside major docs when:**
 - Any graduation eligibility or credit count question
-- Any Paideia / gen-ed requirement question
+- Any general education requirement question
 - Any grading policy question
 - Any academic standing question
 - Any transfer credit or credit-by-examination question

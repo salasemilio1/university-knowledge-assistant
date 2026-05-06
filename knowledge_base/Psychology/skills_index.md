@@ -257,7 +257,7 @@
 
 *Source: SU_General_Policies.txt*
 
-### SU Universal Curriculum Requirements (Paideia Framework)
+### SU Universal Curriculum Requirements (General Education)
 
 Required for ALL degree paths (B.A., B.S.):
 - First-Year Seminar (FYS) or Advanced-Entry Seminar (AES): 4 credits
@@ -826,9 +826,9 @@ Required for ALL degree paths (B.A., B.S.):
 
 ---
 
-**Q:** What are the Paideia requirements and which psychology courses satisfy them?
+**Q:** What are the General education requirements and which psychology courses satisfy them?
 **Docs:** `SU_General_Policies.txt`, `Majoring___Minoring.txt`
-**Routing Note:** Full Paideia framework in SU_General_Policies; major documents may note which courses satisfy Paideia areas
+**Routing Note:** Full General education framework in SU_General_Policies; major documents may note which courses satisfy General education areas
 **Disambiguation Needed:** No
 
 ---
@@ -945,8 +945,8 @@ Required for ALL degree paths (B.A., B.S.):
   - **What general docs must cover:** 127-credit minimum, 64-credit SU residency, last 32 in-residence, 2.000 GPA, 60% major residency, Application for Diploma process
   - **Routing instruction:** Always retrieve `SU_General_Policies.txt` alongside `Majoring___Minoring.txt` for any graduation eligibility question
 
-- **Topic:** Paideia general education requirements
-  - **What major docs cover:** Psychology courses that may satisfy Paideia areas
+- **Topic:** General education requirements
+  - **What major docs cover:** Psychology courses that may satisfy General education areas
   - **What general docs must cover:** Full FYS/AES, Language & Cultures, FRA, Power and Justice, Exploration & Breadth Parts I and II, Paideia with Distinction
   - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about gen-ed or breadth requirements
 
@@ -1024,8 +1024,8 @@ Required for ALL degree paths (B.A., B.S.):
   - **Reason for gap:** `Notable_Faculty___Student_Achievements.txt` referenced but specific achievement details were not fully elaborated in available context
   - **Recommended fallback:** Retrieve `Notable_Faculty___Student_Achievements.txt` directly
 
-- **Topic:** Specific Paideia areas satisfied by psychology courses
-  - **Reason for gap:** Major documents do not explicitly map psychology courses to Paideia distribution requirements
+- **Topic:** Specific General education areas satisfied by psychology courses
+  - **Reason for gap:** Major documents do not explicitly map psychology courses to General Education distribution requirements
   - **Recommended fallback:** Retrieve `SU_General_Policies.txt`; advise student to consult academic advisor or course catalog
 
 - **Topic:** Office hours and appointment scheduling for faculty
@@ -1036,7 +1036,7 @@ Required for ALL degree paths (B.A., B.S.):
   - **Reason for gap:** Not described in available documents
   - **Recommended fallback:** Direct student to academic advisor or Department Chair Carin Perilloux
 
-- **Topic:** Whether any psychology courses satisfy Paideia Power and Justice (PJ) requirement
+- **Topic:** Whether any psychology courses satisfy General Education Power and Justice (PJ) requirement
   - **Reason for gap:** PJ designation not noted for any psychology courses in available documents
   - **Recommended fallback:** Retrieve `SU_General_Policies.txt`; direct student to advisor or course catalog
 
@@ -1082,7 +1082,7 @@ Required for ALL degree paths (B.A., B.S.):
 
 **Always retrieve `SU_General_Policies.txt` alongside major docs when:**
 - Any graduation eligibility or credit count question
-- Any Paideia / general education requirement question
+- Any general education requirement question
 - Any grading policy question (Pass/D/F, grade appeals, incomplete grades)
 - Any academic standing question (probation, dismissal, appeal)
 - Any transfer credit or credit-by-examination question

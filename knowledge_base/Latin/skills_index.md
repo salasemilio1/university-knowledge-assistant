@@ -62,7 +62,7 @@ Source: `SU_General_Policies.txt`
 | Graduation Application | "Application for Diploma" must be filed; financial holds block diploma |
 | Degree Conferral Dates | December, May, August; Commencement once per year in May |
 
-### SU Universal Curriculum Requirements (Paideia Framework)
+### SU Universal Curriculum Requirements (General Education)
 
 **Required for ALL B.A. students:**
 - First-Year Seminar (FYS) or Advanced-Entry Seminar (AES): 4 credits
@@ -71,7 +71,7 @@ Source: `SU_General_Policies.txt`
 - Power and Justice (PJ): 1 course, 3-4 credits — **cannot be satisfied by transfer credit**
 - Exploration and Breadth: 6 courses outside the major (Fine Arts, Humanities, Natural Sciences, Social Sciences)
 
-**Note on Language Requirement:** Latin is a language major. Latin coursework likely satisfies or partially satisfies the Languages and Cultures Paideia requirement, but the exact interaction should be confirmed with an advisor and `SU_General_Policies.txt`. Classics majors are explicitly required to complete 3 semesters of Latin to satisfy the graduation foreign language requirement.
+**Note on Language Requirement:** Latin is a language major. Latin coursework likely satisfies or partially satisfies the Languages and Cultures General education requirement, but the exact interaction should be confirmed with an advisor and `SU_General_Policies.txt`. Classics majors are explicitly required to complete 3 semesters of Latin to satisfy the graduation foreign language requirement.
 
 ---
 
@@ -271,9 +271,9 @@ See the Greek major skill-index for the full Classics breakdown.
 **Routing Note:** 8-course major; 60% residency rule and transfer credit policies (C- minimum, P/CR not accepted) in General Policies.
 **Disambiguation Needed:** Yes — which institution and which courses
 
-**Q:** Does the Latin major satisfy the Paideia language requirement?
+**Q:** Does the Latin major satisfy the general education language requirement?
 **Docs:** `SU_General_Policies.txt`
-**Routing Note:** Interaction between Latin major and Languages & Cultures Paideia requirement not addressed in source documents — retrieve General Policies and escalate to advisor.
+**Routing Note:** Interaction between Latin major and Languages & Cultures General education requirement not addressed in source documents — retrieve General Policies and escalate to advisor.
 **Disambiguation Needed:** No
 
 **Q:** Is the Latin major a BA or a BS?
@@ -295,7 +295,7 @@ See the Greek major skill-index for the full Classics breakdown.
   - **What general docs must cover:** 127-credit minimum, 64-credit SU residency, last 32 in-residence, 2.000 GPA, 60% major residency, Application for Diploma
   - **Routing instruction:** Always retrieve `SU_General_Policies.txt` alongside `Latin.txt`
 
-- **Topic:** Paideia general education requirements / Languages & Cultures interaction
+- **Topic:** General education requirements / Languages & Cultures interaction
   - **What major docs cover:** Not addressed in Latin.txt; Classics.txt notes 3 semesters of Latin satisfy graduation language requirement for Classics majors
   - **What general docs must cover:** Full Languages & Cultures requirement, how language major courses interact with it
   - **Routing instruction:** Retrieve `SU_General_Policies.txt`; escalate to advisor for individual confirmation
@@ -369,7 +369,7 @@ See the Greek major skill-index for the full Classics breakdown.
   - **Reason for gap:** Only the course number is provided; no description, credit hours, or prerequisites
   - **Recommended fallback:** Direct to department advisor or current catalog
 
-- **Topic:** Whether the Latin major satisfies the Paideia Language & Cultures requirement
+- **Topic:** Whether the Latin major satisfies the General Education Language & Cultures requirement
   - **Reason for gap:** Not addressed in source documents; requires individual evaluation
   - **Recommended fallback:** Retrieve `SU_General_Policies.txt`; escalate to advisor
 
@@ -393,7 +393,7 @@ See the Greek major skill-index for the full Classics breakdown.
 - Any graduation or credit-count question → add `SU_General_Policies.txt`
 - Any study abroad question → `Classics.txt` + `SU_Resources_and_Financial.txt` + `SU_General_Policies.txt`
 - Any language placement or credit-by-exam question → `Classics.txt` + `SU_General_Policies.txt`
-- Any Paideia or gen-ed question → `SU_General_Policies.txt`
+- Any general education requirement question → `SU_General_Policies.txt`
 - Any financial aid or tuition question → `SU_Resources_and_Financial.txt`
 
 **Degree path disambiguation triggers:**
@@ -412,7 +412,7 @@ See the Greek major skill-index for the full Classics breakdown.
 - Any question about specific course sequencing or prerequisites (not documented)
 - Any question about course substitutions or waivers
 - Academic standing, probation, or appeal questions
-- Whether Latin major satisfies Paideia language requirement (individual evaluation)
+- Whether Latin major satisfies general education language requirement (individual evaluation)
 - Teacher certification requirements (Education Department referral)
 - Compatibility of Greek minor with Latin major
 - Overlap between Latin and Classics majors for a double-major student
@@ -420,7 +420,7 @@ See the Greek major skill-index for the full Classics breakdown.
 
 **Always retrieve `SU_General_Policies.txt` alongside major docs when:**
 - Any graduation eligibility or credit count question
-- Any Paideia / gen-ed requirement question
+- Any general education requirement question
 - Any grading policy question (Pass/D/F, grade appeals, incomplete grades)
 - Any academic standing question (probation, dismissal, appeal)
 - Any transfer credit or credit-by-examination question

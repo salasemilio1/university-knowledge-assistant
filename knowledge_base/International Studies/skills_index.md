@@ -47,7 +47,7 @@
 
 ### Courses
 - **degree_relevance:** B.A. | Minor
-- **description:** This document lists approved International Studies courses organized by contributing department. Departments represented: Anthropology (2 courses), Art History (6 courses), English (6 courses), History (14 courses), Music (7 courses), Philosophy (2 courses), Political Science (2 courses), Religion (10 courses). Each course entry includes a description, prerequisite(s) if any, Paideia designations (FA, H, ScS, WA, SJ, PJ), and offering frequency where noted. Courses marked (SJ)(PJ) carry the Social Justice tag and are eligible for the Global Justice track. The document does not explicitly label each course by track (Global Politics and Economy, Global Society and Culture, Global Justice) — track placement of specific courses must be verified with the International Studies Committee or the approved course list. A Feminist Studies section header appears in the document but no Feminist Studies courses are listed, suggesting either an omission or that those courses appear under other departments.
+- **description:** This document lists approved International Studies courses organized by contributing department. Departments represented: Anthropology (2 courses), Art History (6 courses), English (6 courses), History (14 courses), Music (7 courses), Philosophy (2 courses), Political Science (2 courses), Religion (10 courses). Each course entry includes a description, prerequisite(s) if any, General education designations (FA, H, ScS, WA, SJ, PJ), and offering frequency where noted. Courses marked (SJ)(PJ) carry the Social Justice tag and are eligible for the Global Justice track. The document does not explicitly label each course by track (Global Politics and Economy, Global Society and Culture, Global Justice) — track placement of specific courses must be verified with the International Studies Committee or the approved course list. A Feminist Studies section header appears in the document but no Feminist Studies courses are listed, suggesting either an omission or that those courses appear under other departments.
 - **critical_data:**
   - Departments with listed courses: Anthropology, Art History, English, History, Music, Philosophy, Political Science, Religion
   - Global Justice track courses (identified by SJ/PJ tag): ANT35-244, ANT35-334, ARH71-264, HIS16-264, HIS16-314, HIS16-434, PHI18-284, PSC32-184, REL19-204, REL19-274, REL19-284, REL19-324, REL19-344, REL19-384
@@ -106,7 +106,7 @@ Source: `SU_General_Policies.txt`
 | Graduation Application | "Application for Diploma" must be filed; financial holds block diploma |
 | Degree Conferral Dates | December, May, August; Commencement once per year in May |
 
-### SU Universal Curriculum Requirements (Paideia Framework)
+### SU Universal Curriculum Requirements (General Education)
 
 **Required for ALL B.A. students:**
 - First-Year Seminar (FYS) or Advanced-Entry Seminar (AES): 4 credits
@@ -233,21 +233,21 @@ Rules:
 
 #### ANT35-104 — Introduction to Cultural Anthropology
 - **Prerequisites:** None
-- **Paideia:** ScS
+- **General Education: ** ScS
 - **Track:** Counts as Introductory Course (Major + Minor)
 - **Notes:** Also one of the three Introductory Course options
 - **Source:** `Majoring___Minoring.txt`
 
 #### ANT35-244 — Race, Class and Gender in the Caribbean
 - **Prerequisites:** ANT35-104, Feminist Studies 04-104, or instructor permission
-- **Paideia:** ScS, SJ, PJ
+- **General Education: ** ScS, SJ, PJ
 - **Track:** Global Justice eligible (SJ tag)
 - **Contributes To:** Feminist Studies, International Studies, Latin American and Border Studies, Race and Ethnicity Studies/Group-Themed Course
 - **Source:** `Courses.txt`
 
 #### ANT35-334 — Global Environmental Justice
 - **Prerequisites:** ANT35-104, Environmental Studies 49-104, or Feminist Studies 04-104
-- **Paideia:** ScS, SJ, PJ
+- **General Education: ** ScS, SJ, PJ
 - **Track:** Global Justice eligible (SJ tag)
 - **Contributes To:** Animal Studies, Environmental Studies, Feminist Studies, Health Studies, International Studies, Race and Ethnicity Studies/Allied Course, Legal Studies Certificate
 - **Source:** `Courses.txt`
@@ -258,38 +258,38 @@ Rules:
 
 #### ARH71-024 — Intro Art History: East Asian Art & Architecture
 - **Prerequisites:** Open to first- or second-year students only, or instructor consent
-- **Offered:** Annually | **Paideia:** FA, WA
+- **Offered:** Annually | **General Education: ** FA, WA
 - **Contributes To:** Early Modern and Medieval Studies, East Asian Studies, International Studies
 - **Source:** `Courses.txt`
 
 #### ARH71-054 — Introduction to Art History: Modern
 - **Prerequisites:** Open to first- or second-year students only, or instructor consent
-- **Offered:** Annually | **Paideia:** FA, WA
+- **Offered:** Annually | **General Education: ** FA, WA
 - **Notes:** "May contribute to International Studies" — verify with IS Committee
 - **Source:** `Courses.txt`
 
 #### ARH71-214 — Arts of China
 - **Prerequisites:** None listed
-- **Offered:** Biennially | **Paideia:** FA, WA
+- **Offered:** Biennially | **General Education: ** FA, WA
 - **Contributes To:** Early Modern and Medieval Studies, East Asian Studies, International Studies
 - **Source:** `Courses.txt`
 
 #### ARH71-234 — Ancient Chinese Art and Civilization
 - **Prerequisites:** None listed
-- **Offered:** Biennially | **Paideia:** FA, WA
+- **Offered:** Biennially | **General Education: ** FA, WA
 - **Contributes To:** East Asian Studies, International Studies
 - **Source:** `Courses.txt`
 
 #### ARH71-264 — Art in China Since 1911
 - **Prerequisites:** None listed
-- **Offered:** Biennially | **Paideia:** FA, WA, SJ, PJ
+- **Offered:** Biennially | **General Education: ** FA, WA, SJ, PJ
 - **Track:** Global Justice eligible (SJ tag)
 - **Contributes To:** East Asian Studies, Feminist Studies, International Studies, Race and Ethnicity Studies/Allied Course
 - **Source:** `Courses.txt`
 
 #### ARH71-494 — Modern Architecture
 - **Prerequisites:** None listed
-- **Offered:** Biennially | **Paideia:** FA, WA
+- **Offered:** Biennially | **General Education: ** FA, WA
 - **Contributes To:** International Studies
 - **Source:** `Courses.txt`
 
@@ -299,39 +299,39 @@ Rules:
 
 #### ENG10-164 — From Romanticism to Modernism
 - **Prerequisites:** None listed
-- **Paideia:** H, WA
+- **General Education: ** H, WA
 - **Contributes To:** International Studies
 - **Source:** `Courses.txt`
 
 #### ENG10-514 — World Cinema
 - **Prerequisites:** None listed
-- **Paideia:** H
+- **General Education: ** H
 - **Contributes To:** International Studies
 - **Source:** `Courses.txt`
 
 #### ENG10-654 — Topics in 18th Century British Literature
 - **Prerequisites:** None listed
-- **Paideia:** H
+- **General Education: ** H
 - **Contributes To:** International Studies
 - **Notes:** May be repeated with change in topic
 - **Source:** `Courses.txt`
 
 #### ENG10-664 — Topics in Romanticism
 - **Prerequisites:** None listed
-- **Paideia:** H
+- **General Education: ** H
 - **Contributes To:** Feminist Studies, International Studies
 - **Notes:** May be repeated with change in topic
 - **Source:** `Courses.txt`
 
 #### ENG10-674 — Topics in Victorian Literature & Culture
 - **Prerequisites:** None listed
-- **Paideia:** H
+- **General Education: ** H
 - **Contributes To:** Feminist Studies, International Studies
 - **Source:** `Courses.txt`
 
 #### ENG10-684 — Topics in 20th Century British Literature
 - **Prerequisites:** None listed
-- **Paideia:** H
+- **General Education: ** H
 - **Contributes To:** Feminist Studies, International Studies
 - **Notes:** May be repeated with change in topic
 - **Source:** `Courses.txt`
@@ -342,105 +342,105 @@ Rules:
 
 #### HIS16-204 — African Environmental History
 - **Prerequisites:** None listed
-- **Offered:** Biennially | **Paideia:** H
+- **Offered:** Biennially | **General Education: ** H
 - **Contributes To:** Environmental Studies, International Studies, Race and Ethnicity Studies/Group-Theme Course
 - **Source:** `Courses.txt`
 
 #### HIS16-244 — Docile Or Deviant Women: Gender, Sex, China
 - **Prerequisites:** None listed
-- **Offered:** Biennially | **Paideia:** H
+- **Offered:** Biennially | **General Education: ** H
 - **Contributes To:** Early Modern and Medieval Studies, East Asian Studies, Feminist Studies, International Studies
 - **Source:** `Courses.txt`
 
 #### HIS16-264 — Latin American History in Film & Literature
 - **Prerequisites:** None listed
-- **Offered:** Biennially | **Paideia:** H, SJ, PJ
+- **Offered:** Biennially | **General Education: ** H, SJ, PJ
 - **Track:** Global Justice eligible (SJ tag)
 - **Contributes To:** International Studies, Latin American and Border Studies, Race and Ethnicity Studies/Group-Theme Course
 - **Source:** `Courses.txt`
 
 #### HIS16-314 — History of Civil Rights Movement
 - **Prerequisites:** None listed
-- **Offered:** Biennially | **Paideia:** H, SJ, PJ
+- **Offered:** Biennially | **General Education: ** H, SJ, PJ
 - **Track:** Global Justice eligible (SJ tag)
 - **Contributes To:** Feminist Studies, Race and Ethnicity Studies/Group-Theme Course, Legal Studies Certificate
 - **Source:** `Courses.txt`
 
 #### HIS16-324 — Rise of Right: History of Conservative Movement U.S.
 - **Prerequisites:** None listed
-- **Offered:** Biennially | **Paideia:** H
+- **Offered:** Biennially | **General Education: ** H
 - **Contributes To:** Legal Studies Certificate
 - **Source:** `Courses.txt`
 
 #### HIS16-344 — History of the U.S. West
 - **Prerequisites:** None listed
-- **Offered:** Biennially | **Paideia:** H
+- **Offered:** Biennially | **General Education: ** H
 - **Contributes To:** Environmental Studies, Race and Ethnicity Studies/Allied Course
 - **Source:** `Courses.txt`
 
 #### HIS16-374 — History of the Islamic World
 - **Prerequisites:** None listed
-- **Offered:** Biennially | **Paideia:** H
+- **Offered:** Biennially | **General Education: ** H
 - **Contributes To:** International Studies
 - **Source:** `Courses.txt`
 
 #### HIS16-404 — History of the British Isles Since 1688
 - **Prerequisites:** None listed
-- **Offered:** Biennially | **Paideia:** H
+- **Offered:** Biennially | **General Education: ** H
 - **Contributes To:** International Studies, Legal Studies Certificate
 - **Source:** `Courses.txt`
 
 #### HIS16-414 — Modern France and Empire
 - **Prerequisites:** None listed
-- **Offered:** Biennially | **Paideia:** H
+- **Offered:** Biennially | **General Education: ** H
 - **Contributes To:** Design Thinking, International Studies
 - **Source:** `Courses.txt`
 
 #### HIS16-434 — The History of Europe's Muslims
 - **Prerequisites:** None listed
-- **Offered:** Biennially | **Paideia:** H, SJ, PJ
+- **Offered:** Biennially | **General Education: ** H, SJ, PJ
 - **Track:** Global Justice eligible (SJ tag)
 - **Contributes To:** International Studies, Race and Ethnicity Studies/Group-Theme Course
 - **Source:** `Courses.txt`
 
 #### HIS16-504 — Topics in African History
 - **Prerequisites:** None listed
-- **Paideia:** H
+- **General Education: ** H
 - **Contributes To:** International Studies
 - **Notes:** May be repeated with change in topic
 - **Source:** `Courses.txt`
 
 #### HIS16-514 — Topics in Asian History
 - **Prerequisites:** None listed
-- **Paideia:** H
+- **General Education: ** H
 - **Contributes To:** East Asian Studies, International Studies
 - **Notes:** May be repeated with change in topic
 - **Source:** `Courses.txt`
 
 #### HIS16-524 — Topics in Latin American History
 - **Prerequisites:** None listed
-- **Paideia:** H
+- **General Education: ** H
 - **Contributes To:** International Studies
 - **Notes:** May be repeated with change in topic
 - **Source:** `Courses.txt`
 
 #### HIS16-544 — Topics in Transregional History
 - **Prerequisites:** None listed
-- **Paideia:** H
+- **General Education: ** H
 - **Contributes To:** International Studies
 - **Notes:** May be repeated with change in topic; must cover at least three world regions
 - **Source:** `Courses.txt`
 
 #### HIS16-554 — Topics in European History
 - **Prerequisites:** None listed
-- **Paideia:** H
+- **General Education: ** H
 - **Contributes To:** International Studies
 - **Notes:** May be repeated with change in topic
 - **Source:** `Courses.txt`
 
 #### HIS16-604 — Historiography
 - **Prerequisites:** One World History course + junior status or instructor permission
-- **Offered:** Fall | **Paideia:** H, WA
+- **Offered:** Fall | **General Education: ** H, WA
 - **Source:** `Courses.txt`
 
 ---
@@ -449,52 +449,52 @@ Rules:
 
 #### MUL80-114 — Introduction to Music Literature
 - **Prerequisites:** Music Theory 76-101 and 76-103, or instructor permission
-- **Offered:** Spring | **Paideia:** FA
+- **Offered:** Spring | **General Education: ** FA
 - **Contributes To:** International Studies
 - **Notes:** Required prerequisite for most upper-level Music courses
 - **Source:** `Courses.txt`
 
 #### MUL80-214 — Music History 900-1800
 - **Prerequisites:** MUL80-114, or instructor permission
-- **Offered:** Fall | **Paideia:** FA
+- **Offered:** Fall | **General Education: ** FA
 - **Contributes To:** Early Modern and Medieval Studies, International Studies
 - **Source:** `Courses.txt`
 
 #### MUL80-314 — Music History Since 1800
 - **Prerequisites:** MUL80-114, or instructor permission
-- **Offered:** Spring of odd-numbered years | **Paideia:** FA, WA
+- **Offered:** Spring of odd-numbered years | **General Education: ** FA, WA
 - **Contributes To:** International Studies
 - **Notes:** Required prerequisite for MUL80-424, 434, 444, 454
 - **Source:** `Courses.txt`
 
 #### MUL80-414 — Advanced Topics in Music History & Literature
 - **Prerequisites:** MUL80-114, or instructor permission
-- **Offered:** Spring of even-numbered years | **Paideia:** FA, WA
+- **Offered:** Spring of even-numbered years | **General Education: ** FA, WA
 - **Contributes To:** International Studies
 - **Notes:** May be repeated with change in topic
 - **Source:** `Courses.txt`
 
 #### MUL80-424 — Music in the Cultures of Print & Performance
 - **Prerequisites:** MUL80-314 (specifically required)
-- **Paideia:** FA
+- **General Education: ** FA
 - **Contributes To:** International Studies
 - **Source:** `Courses.txt`
 
 #### MUL80-434 — Music, Gender, and Sexuality
 - **Prerequisites:** MUL80-314, or instructor permission
-- **Paideia:** FA, WA
+- **General Education: ** FA, WA
 - **Contributes To:** International Studies
 - **Source:** `Courses.txt`
 
 #### MUL80-444 — Music, Race, and Nationality
 - **Prerequisites:** MUL80-314, or instructor permission
-- **Paideia:** FA, WA
+- **General Education: ** FA, WA
 - **Contributes To:** International Studies
 - **Source:** `Courses.txt`
 
 #### MUL80-454 — Studies in Musical Genre and Repertoire
 - **Prerequisites:** MUL80-314, or instructor permission
-- **Paideia:** FA, WA
+- **General Education: ** FA, WA
 - **Contributes To:** International Studies
 - **Source:** `Courses.txt`
 
@@ -504,14 +504,14 @@ Rules:
 
 #### PHI18-284 — Latin American Philosophy
 - **Prerequisites:** None listed
-- **Paideia:** H, SJ, PJ
+- **General Education: ** H, SJ, PJ
 - **Track:** Global Justice eligible (SJ tag)
 - **Contributes To:** International Studies, Race and Ethnicity Studies/Allied Course
 - **Source:** `Courses.txt`
 
 #### PHI18-354 — Critical Philosophy of Race
 - **Prerequisites:** None listed
-- **Paideia:** H
+- **General Education: ** H
 - **Contributes To:** Feminist Studies, International Studies, Race and Ethnicity Studies/Concepts Course
 - **Source:** `Courses.txt`
 
@@ -521,21 +521,21 @@ Rules:
 
 #### PSC32-144 — Comparative Politics
 - **Prerequisites:** None listed
-- **Paideia:** ScS (inferred from department)
+- **General Education: ** ScS (inferred from department)
 - **Track:** Counts as Introductory Course (Major + Minor)
 - **Notes:** One of the three Introductory Course options
 - **Source:** `Majoring___Minoring.txt`
 
 #### PSC32-184 — Politics of Latin America & Caribbean
 - **Prerequisites:** None listed
-- **Paideia:** ScS, SJ, PJ
+- **General Education: ** ScS, SJ, PJ
 - **Track:** Global Justice eligible (SJ tag)
 - **Contributes To:** International Studies, Latin American and Border Studies, Race and Ethnicity Studies/Allied Course
 - **Source:** `Courses.txt`
 
 #### PSC32-284 — Japanese Politics, Culture & Society
 - **Prerequisites:** Open to first-year and sophomore students only; juniors/seniors need instructor permission
-- **Paideia:** ScS
+- **General Education: ** ScS
 - **Contributes To:** East Asian Studies, International Studies
 - **Source:** `Courses.txt`
 
@@ -545,67 +545,67 @@ Rules:
 
 #### REL19-204 — Christian Traditions
 - **Prerequisites:** None listed
-- **Paideia:** H, SJ, PJ
+- **General Education: ** H, SJ, PJ
 - **Track:** Global Justice eligible (SJ tag)
 - **Contributes To:** International Studies
 - **Source:** `Courses.txt`
 
 #### REL19-224 — Jewish Traditions
 - **Prerequisites:** None listed
-- **Paideia:** H
+- **General Education: ** H
 - **Contributes To:** International Studies
 - **Source:** `Courses.txt`
 
 #### REL19-244 — Islamic Traditions
 - **Prerequisites:** None listed
-- **Paideia:** H
+- **General Education: ** H
 - **Contributes To:** International Studies
 - **Source:** `Courses.txt`
 
 #### REL19-274 — Hindu Traditions
 - **Prerequisites:** None listed
-- **Paideia:** H, SJ, PJ
+- **General Education: ** H, SJ, PJ
 - **Track:** Global Justice eligible (SJ tag)
 - **Contributes To:** Feminist Studies, International Studies
 - **Source:** `Courses.txt`
 
 #### REL19-284 — Buddhist Traditions
 - **Prerequisites:** None listed
-- **Paideia:** H, SJ, PJ
+- **General Education: ** H, SJ, PJ
 - **Track:** Global Justice eligible (SJ tag)
 - **Contributes To:** East Asian Studies, International Studies
 - **Source:** `Courses.txt`
 
 #### REL19-324 — Women, Goddesses and Religion
 - **Prerequisites:** None listed
-- **Paideia:** H, WA, SJ, PJ
+- **General Education: ** H, WA, SJ, PJ
 - **Track:** Global Justice eligible (SJ tag)
 - **Contributes To:** Anthropology, Feminist Studies, International Studies
 - **Source:** `Courses.txt`
 
 #### REL19-344 — Animals and Religion
 - **Prerequisites:** None listed
-- **Paideia:** H, SJ, PJ
+- **General Education: ** H, SJ, PJ
 - **Track:** Global Justice eligible (SJ tag)
 - **Contributes To:** Animal Studies, Environmental Studies, Feminist Studies, International Studies
 - **Source:** `Courses.txt`
 
 #### REL19-364 — Pilgrimage
 - **Prerequisites:** None listed
-- **Paideia:** H
+- **General Education: ** H
 - **Contributes To:** Anthropology, Environmental Studies, International Studies
 - **Source:** `Courses.txt`
 
 #### REL19-384 — Rastas, Saints and Virgins
 - **Prerequisites:** None listed
-- **Paideia:** H, SJ, PJ
+- **General Education: ** H, SJ, PJ
 - **Track:** Global Justice eligible (SJ tag)
 - **Contributes To:** Anthropology, International Studies, Race and Ethnicity Studies/Group-Theme Course
 - **Source:** `Courses.txt`
 
 #### REL19-414 — The Body in Religion
 - **Prerequisites:** None listed
-- **Paideia:** H
+- **General Education: ** H
 - **Contributes To:** Feminist Studies, International Studies
 - **Source:** `Courses.txt`
 
@@ -735,9 +735,9 @@ Rules:
   - **What general docs must cover:** 127-credit minimum, 64-credit SU residency, last 32 in-residence, 2.000 GPA, Application for Diploma
   - **Routing instruction:** Always retrieve `SU_General_Policies.txt` alongside `Majoring___Minoring.txt`
 
-- **Topic:** Paideia general education requirements and Paideia Distinction
+- **Topic:** General education requirements and General Education Distinction
   - **What major docs cover:** International_Studies.txt identifies IS as a Paideia Minor and describes Paideia Distinction pathway (Paideia Minor + Paideia Seminar)
-  - **What general docs must cover:** Full FYS/AES, Language & Cultures, FRA, Power and Justice, Exploration & Breadth; Paideia Distinction deadlines (November 15 / April 15)
+  - **What general docs must cover:** Full FYS/AES, Language & Cultures, FRA, Power and Justice, Exploration & Breadth; General Education Distinction deadlines (November 15 / April 15)
   - **Routing instruction:** Retrieve `SU_General_Policies.txt` for full Paideia rules; retrieve `International_Studies.txt` for IS-specific Paideia Minor status
 
 - **Topic:** Study abroad programs (approved list, program details, deadlines)
@@ -766,7 +766,7 @@ Rules:
   - **Routing instruction:** Retrieve both `Majoring___Minoring.txt` and `SU_General_Policies.txt`
 
 - **Topic:** Latin Honors and Paideia with Distinction
-  - **What major docs cover:** International_Studies.txt describes Paideia Distinction pathway broadly
+  - **What major docs cover:** International_Studies.txt describes General Education Distinction pathway broadly
   - **What general docs must cover:** GPA thresholds for Latin Praise, Dean's List, Paideia with Distinction deadlines
   - **Routing instruction:** Always retrieve `SU_General_Policies.txt`; retrieve `International_Studies.txt` for IS Paideia Minor context
 
@@ -832,7 +832,7 @@ Rules:
 - Faculty contact questions → `Our_Faculty.txt`
 - Scholarship and alumni news → `News___Events.txt`
 - Study abroad program options → `Majoring___Minoring.txt` + `SU_Resources_and_Financial.txt`
-- Paideia Distinction questions → `International_Studies.txt` + `SU_General_Policies.txt`
+- General Education Distinction questions → `International_Studies.txt` + `SU_General_Policies.txt`
 - Graduation or credit-count questions → add `SU_General_Policies.txt`
 - Transfer credit questions → `Majoring___Minoring.txt` + `SU_General_Policies.txt`
 
@@ -862,12 +862,12 @@ Rules:
 
 **Always retrieve `SU_General_Policies.txt` alongside major docs when:**
 - Any graduation eligibility or credit count question
-- Any Paideia / gen-ed requirement question
+- Any general education requirement question
 - Any grading policy question (Pass/D/F, grade appeals, incomplete grades)
 - Any academic standing question (probation, dismissal, appeal)
 - Any transfer credit or credit-by-examination question
 - Any disability accommodation question
-- Any honors or Paideia Distinction question
+- Any honors or General Education Distinction question
 
 **Always retrieve `SU_Resources_and_Financial.txt` alongside major docs when:**
 - Any study abroad program question (full approved list, deadlines, financial aid)

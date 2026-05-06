@@ -65,7 +65,7 @@
 
 ### Courses in Chemistry and Biochemistry
 - **degree_relevance:** All
-- **description:** This document provides descriptions, prerequisites, and offering schedules for all current or recent Chemistry and Biochemistry (CHE51) courses. It covers 000-level non-major courses (Chemistry Appreciation, Chemistry of the Environment, Chemistry of Food, Fundamentals of Chemistry), 100-level introductory courses (General Chemistry I & II with labs, Fundamentals of Organic Chemistry, Problem Solving in Chemistry), 200–700 level upper courses (Organic Chemistry I & II with labs, Inorganic Chemistry, Organometallic Chemistry, Materials Science, Analytical courses, Biochemistry I & II, Physical Chemistry, Quantum Mechanics), 800-level advanced labs (Organic, Inorganic, Analytical, Biochemistry, Physical Chemistry), and 900-level capstone and research courses. Semester offerings (Fall/Spring) and Paideia area designations (NS) are noted where available.
+- **description:** This document provides descriptions, prerequisites, and offering schedules for all current or recent Chemistry and Biochemistry (CHE51) courses. It covers 000-level non-major courses (Chemistry Appreciation, Chemistry of the Environment, Chemistry of Food, Fundamentals of Chemistry), 100-level introductory courses (General Chemistry I & II with labs, Fundamentals of Organic Chemistry, Problem Solving in Chemistry), 200–700 level upper courses (Organic Chemistry I & II with labs, Inorganic Chemistry, Organometallic Chemistry, Materials Science, Analytical courses, Biochemistry I & II, Physical Chemistry, Quantum Mechanics), 800-level advanced labs (Organic, Inorganic, Analytical, Biochemistry, Physical Chemistry), and 900-level capstone and research courses. Semester offerings (Fall/Spring) and General education area designations (NS) are noted where available.
 - **critical_data:**
   - Non-major (000-level): CHE51-014 (Chemistry Appreciation), CHE51-024 (Chemistry of the Environment), CHE51-034 (Chemistry of Food), CHE51-083 (Fundamentals of Chemistry)
   - Introductory (100-level): CHE51-101/103 (Gen Chem I w/lab, Fall), CHE51-201/203 (Gen Chem II w/lab, Spring), CHE51-144 (Fundamentals of Organic Chemistry)
@@ -232,7 +232,7 @@
 | Graduation Application | "Application for Diploma" must be filed; financial holds block diploma |
 | Degree Conferral Dates | December, May, August only; Commencement held once per year in May |
 
-### SU Universal Curriculum Requirements (Paideia Framework)
+### SU Universal Curriculum Requirements (General Education)
 
 **Required for ALL degree paths:**
 - First-Year Seminar (FYS) or Advanced-Entry Seminar (AES): 4 credits
@@ -413,7 +413,7 @@
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Not required for any major/minor; non-major course
-- **Counts As:** NS (Natural Sciences Paideia), Health Studies
+- **Counts As:** NS (Natural Sciences General Education), Health Studies
 - **Notes:** 000-level; for non-majors only
 - **Source:** `Courses.txt`
 
@@ -936,10 +936,10 @@
   - **What general docs must cover:** 127-credit minimum, 64-credit SU residency, last 32 in-residence, 2.000 GPA overall, 60% major residency, Application for Diploma process
   - **Routing instruction:** Always retrieve `SU_General_Policies.txt` alongside `Majoring___Minoring.txt` for any graduation eligibility question
 
-- **Topic:** Paideia general education requirements
-  - **What major docs cover:** Course descriptions include Paideia area designations (NS, WA); some courses noted as contributing to Health Studies, Environmental Studies, Neuroscience, Data Analytics
+- **Topic:** General education requirements
+  - **What major docs cover:** Course descriptions include General education area designations (NS, WA); some courses noted as contributing to Health Studies, Environmental Studies, Neuroscience, Data Analytics
   - **What general docs must cover:** Full structure of FYS/AES, Language & Cultures, FRA, Power and Justice, Exploration & Breadth Parts I and II, Paideia with Distinction
-  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about gen-ed or Paideia breadth; retrieve `Courses.txt` to identify which chemistry courses satisfy NS area
+  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about gen-ed or General education breadth; retrieve `Courses.txt` to identify which chemistry courses satisfy NS area
 
 - **Topic:** Pass/D/F grading option
   - **What major docs cover:** CHE51-111 must be taken Pass/D/F; C- minimum required for prerequisites (implies P grade may not satisfy prerequisite)
@@ -1060,7 +1060,7 @@
 - Any question about faculty specialties or research contact: retrieve `Our_Faculty.txt`; if asking about recent accomplishments or publications, also retrieve `Notable_Faculty___Student_Achievements.txt`
 - Any question about graduation eligibility: retrieve `Majoring___Minoring.txt` AND `SU_General_Policies.txt`
 - Any question about transfer credit: retrieve `Majoring___Minoring.txt` AND `SU_General_Policies.txt`
-- Any question about Paideia/gen-ed: retrieve `SU_General_Policies.txt` AND `Courses.txt` (for NS designations)
+- Any question about General Education/gen-ed: retrieve `SU_General_Policies.txt` AND `Courses.txt` (for NS designations)
 - Any question about study abroad: retrieve `SU_Resources_and_Financial.txt`, `SU_General_Policies.txt`, AND `Majoring___Minoring.txt`
 
 **Degree path disambiguation triggers:**
@@ -1088,7 +1088,7 @@
 
 **Always retrieve `SU_General_Policies.txt` alongside major docs when:**
 - Any graduation eligibility or credit count question
-- Any Paideia / general education requirement question
+- Any general education requirement question
 - Any grading policy question (Pass/D/F, grade appeals, incomplete grades)
 - Any academic standing question (probation, dismissal, appeal)
 - Any transfer credit or credit-by-examination question

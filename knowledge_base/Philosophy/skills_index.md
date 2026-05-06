@@ -23,7 +23,7 @@
 
 ### Philosophy Courses
 - **degree_relevance:** B.A. | Minor
-- **description:** Lists all current or recent course offerings in the Philosophy department, with full course descriptions and Paideia designations. Introductory-level offerings (numbered 18-104 through 18-194) include: Selected Introductory Topics (18-104), What Is Philosophy? (18-114), Critical Thinking (18-124), Philosophy of Love & Sex (18-144), Self, Ethics, Society (18-164), and Introduction to Feminist Philosophies (18-194). Upper-level courses (18-214 through 18-374) include Politics and Economics, Environmental Philosophy, Native American Philosophies, Philosophy Race & Revolution, Latin American Philosophy, Marxisms, The Embodied Self, 19th/20th Century Philosophy, Critical Philosophy of Race, and Feminist Ethics. The four upper-level Core Humanities sequences (18-614 through 18-644) are: Ethos/Identities/Differences, Being/Structure/Change, Experience/Language/Knowledge, and Peoples/Power/Organization — each requiring one prior Philosophy course. The Colloquium (18-914) is the capstone, required for majors in their final year, offered every fall.
+- **description:** Lists all current or recent course offerings in the Philosophy department, with full course descriptions and General education designations. Introductory-level offerings (numbered 18-104 through 18-194) include: Selected Introductory Topics (18-104), What Is Philosophy? (18-114), Critical Thinking (18-124), Philosophy of Love & Sex (18-144), Self, Ethics, Society (18-164), and Introduction to Feminist Philosophies (18-194). Upper-level courses (18-214 through 18-374) include Politics and Economics, Environmental Philosophy, Native American Philosophies, Philosophy Race & Revolution, Latin American Philosophy, Marxisms, The Embodied Self, 19th/20th Century Philosophy, Critical Philosophy of Race, and Feminist Ethics. The four upper-level Core Humanities sequences (18-614 through 18-644) are: Ethos/Identities/Differences, Being/Structure/Change, Experience/Language/Knowledge, and Peoples/Power/Organization — each requiring one prior Philosophy course. The Colloquium (18-914) is the capstone, required for majors in their final year, offered every fall.
 - **critical_data:**
   - Course prefix: 18-XXX (Philosophy department = 18)
   - Capstone: 18-914 Colloquium in Philosophy — required for majors, offered every fall, prerequisite: 18-604
@@ -111,7 +111,7 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 | Graduation Application | "Application for Diploma" must be filed; financial holds block diploma |
 | Degree Conferral Dates | December, May, August only; Commencement once per year in May |
 
-### SU Universal Curriculum Requirements (Paideia Framework)
+### SU Universal Curriculum Requirements (General Education)
 
 - First-Year Seminar (FYS) or Advanced-Entry Seminar (AES): 4 credits
 - Languages and Cultures: through third-semester proficiency
@@ -119,7 +119,7 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 - Power and Justice (PJ) course: 1 course, 3–4 credits — **cannot be satisfied by transfer credit**
 - Exploration and Breadth: 6 courses outside the major, one from each of FA, H, NS, ScS (Part I) + one additional from two of those areas (Part II)
 
-**Note:** Philosophy courses carry the **(H) Humanities** Paideia designation and can satisfy the Humanities slot in Exploration & Breadth for non-majors. Courses 18-194 and 18-284 also carry **(PJ)** Power and Justice and **(SJ)** Social Justice designations.
+**Note:** Philosophy courses carry the **(H) Humanities** General Education designation and can satisfy the Humanities slot in Exploration & Breadth for non-majors. Courses 18-194 and 18-284 also carry **(PJ)** Power and Justice and **(SJ)** Social Justice designations.
 
 ---
 
@@ -181,7 +181,7 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 - The B.A. requires the capstone (18-914 Colloquium); the minor does not.
 - The B.A. requires 18-604 as a prerequisite for the capstone; the minor does not include this requirement.
 - The minor offers flexibility to take any philosophy courses without the research/thesis obligation.
-- Non-philosophy-major students taking philosophy courses for Paideia (H) credit are not pursuing either path and have no philosophy-specific requirements.
+- Non-philosophy-major students taking philosophy courses for General Education (H) credit are not pursuing either path and have no philosophy-specific requirements.
 - **Disambiguation needed:** If a student says "philosophy requirements" without specifying major vs. minor, always clarify which they mean.
 
 ---
@@ -200,7 +200,7 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 - **Corequisites:** None
 - **Offered:** Unknown (may repeat with change in topic)
 - **Required For:** Not listed as required; counts as elective for majors
-- **Counts As:** Introductory elective; (H) Humanities Paideia
+- **Counts As:** Introductory elective; General Education (H)
 - **Notes:** May be repeated with change in topic
 - **Source:** `Courses.txt`
 
@@ -210,7 +210,7 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Not listed as required
-- **Counts As:** Introductory; (H) Humanities Paideia
+- **Counts As:** Introductory; General Education (H)
 - **Notes:** Introduction to conceptions and practices of philosophy
 - **Source:** `Courses.txt`
 
@@ -220,7 +220,7 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Not listed as required
-- **Counts As:** Introductory; (H) Humanities Paideia; contributes to Legal Studies Certificate
+- **Counts As:** Introductory; General Education (H); contributes to Legal Studies Certificate
 - **Notes:** Covers logic, argumentation, fallacies; applicable to legal, moral, and political reasoning
 - **Source:** `Courses.txt`
 
@@ -230,7 +230,7 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Not listed as required
-- **Counts As:** Introductory; (H) Humanities Paideia; contributes to Feminist Studies and Race & Ethnicity Studies (Allied)
+- **Counts As:** Introductory; General Education (H); contributes to Feminist Studies and Race & Ethnicity Studies (Allied)
 - **Notes:** Explores ethical, religious, political, cultural dimensions of love and sex; uses diverse media formats
 - **Source:** `Courses.txt`
 
@@ -240,7 +240,7 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Not listed as required
-- **Counts As:** Introductory; (H) Humanities Paideia; contributes to Legal Studies Certificate and Spanish for Healthcare Professions Certificate
+- **Counts As:** Introductory; General Education (H); contributes to Legal Studies Certificate and Spanish for Healthcare Professions Certificate
 - **Notes:** Focuses on self-development and ethical responsibility in social contexts
 - **Source:** `Courses.txt`
 
@@ -250,7 +250,7 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Not listed as required
-- **Counts As:** Introductory; (H) (SJ) (PJ) Paideia designations; contributes to Feminist Studies and Race & Ethnicity Studies (Allied)
+- **Counts As:** Introductory; (H) (SJ) (PJ) General education designations; contributes to Feminist Studies and Race & Ethnicity Studies (Allied)
 - **Notes:** Interdisciplinary; draws on philosophy, anthropology, sociology, psychoanalysis, cultural studies
 - **Source:** `Courses.txt`
 
@@ -260,7 +260,7 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Not listed as required
-- **Counts As:** Upper-level; (H) Humanities Paideia; contributes to Economics, International Studies, Legal Studies Certificate
+- **Counts As:** Upper-level; General Education (H); contributes to Economics, International Studies, Legal Studies Certificate
 - **Notes:** Traces modern understanding of politics/economics as distinct spheres; examines Marxist, Polanyian, feminist critiques
 - **Source:** `Courses.txt`
 
@@ -270,7 +270,7 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Not listed as required
-- **Counts As:** Upper-level; (H) Humanities Paideia; contributes to Environmental Studies
+- **Counts As:** Upper-level; General Education (H); contributes to Environmental Studies
 - **Notes:** Examines philosophical/ethical/political questions raised by climate change and ecological crisis
 - **Source:** `Courses.txt`
 
@@ -280,7 +280,7 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Not listed as required
-- **Counts As:** Upper-level; (H) Humanities Paideia; contributes to International Studies, Latin American and Border Studies, Race & Ethnicity Studies (Group-Theme)
+- **Counts As:** Upper-level; General Education (H); contributes to International Studies, Latin American and Border Studies, Race & Ethnicity Studies (Group-Theme)
 - **Notes:** Surveys Andean, Nahua, Mayan, Haudenosaunee, Diné, Lakota traditions within Modernity/Coloniality/Decoloniality framework
 - **Source:** `Courses.txt`
 
@@ -290,7 +290,7 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Not listed as required
-- **Counts As:** Upper-level; (H) Humanities Paideia; contributes to International Studies, Latin American and Border Studies, Race & Ethnicity Studies (Allied)
+- **Counts As:** Upper-level; General Education (H); contributes to International Studies, Latin American and Border Studies, Race & Ethnicity Studies (Allied)
 - **Notes:** Oriented by the Haitian Revolution; traces race and human rights through abolition, civil rights, anticolonial struggles
 - **Source:** `Courses.txt`
 
@@ -300,7 +300,7 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Not listed as required
-- **Counts As:** Upper-level; (H) (SJ) (PJ) Paideia designations; contributes to International Studies, Race & Ethnicity Studies (Allied)
+- **Counts As:** Upper-level; (H) (SJ) (PJ) General education designations; contributes to International Studies, Race & Ethnicity Studies (Allied)
 - **Notes:** Covers Bolívar, Martí, Vasconcelos, Alcoff, Mariátegui, Anzaldúa, Rivera Cusicanqui, Quijano, Mignolo, Freire
 - **Source:** `Courses.txt`
 
@@ -310,7 +310,7 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Not listed as required
-- **Counts As:** Upper-level; (H) Humanities Paideia; contributes to International Studies
+- **Counts As:** Upper-level; General Education (H); contributes to International Studies
 - **Notes:** Introduction to Marxist theory from Marx to present; covers class, gender, race, political organization, alternatives to capitalism
 - **Source:** `Courses.txt`
 
@@ -320,7 +320,7 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Not listed as required
-- **Counts As:** Upper-level; (H) Humanities Paideia; contributes to Feminist Studies, Race & Ethnicity Studies (Allied)
+- **Counts As:** Upper-level; General Education (H); contributes to Feminist Studies, Race & Ethnicity Studies (Allied)
 - **Notes:** Explores psychological, phenomenological, anthropological, political, and epistemological dimensions of the self
 - **Source:** `Courses.txt`
 
@@ -330,7 +330,7 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Not listed as required
-- **Counts As:** Upper-level; (H) Humanities Paideia
+- **Counts As:** Upper-level; General Education (H)
 - **Notes:** Covers Hegel through poststructuralism; existentialism, phenomenology, psychoanalysis, standpoint epistemology
 - **Source:** `Courses.txt`
 
@@ -340,7 +340,7 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Not listed as required
-- **Counts As:** Upper-level; (H) Humanities Paideia; contributes to Feminist Studies, International Studies, Race & Ethnicity Studies (Concepts Course)
+- **Counts As:** Upper-level; General Education (H); contributes to Feminist Studies, International Studies, Race & Ethnicity Studies (Concepts Course)
 - **Notes:** Examines race as constructed category; intersections with gender, class, nationalism, imperialism
 - **Source:** `Courses.txt`
 
@@ -350,7 +350,7 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Not listed as required
-- **Counts As:** Upper-level; (H) Humanities Paideia; contributes to Feminist Studies
+- **Counts As:** Upper-level; General Education (H); contributes to Feminist Studies
 - **Notes:** Traces history of feminist ethics; covers human rights, social justice, transnational perspectives, biomedical ethics
 - **Source:** `Courses.txt`
 
@@ -360,7 +360,7 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Likely required for major (Critical Histories sequence); confirm with advisor
-- **Counts As:** Upper-level core; (H) (CRITICAL HISTORIES) Paideia designations
+- **Counts As:** Upper-level core; (H) (CRITICAL HISTORIES) General education designations
 - **Notes:** Examines interactions between individual and social identity; how societal ethos is formed and transformed by difference
 - **Source:** `Courses.txt`
 
@@ -370,7 +370,7 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Likely required for major (Critical Histories sequence); confirm with advisor
-- **Counts As:** Upper-level core; (H) (CRITICAL HISTORIES) Paideia designations
+- **Counts As:** Upper-level core; (H) (CRITICAL HISTORIES) General education designations
 - **Notes:** Focuses on conceptual categories through which humans understand the world; ontology, structure, space, time, change
 - **Source:** `Courses.txt`
 
@@ -380,7 +380,7 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Likely required for major (Critical Histories sequence); confirm with advisor
-- **Counts As:** Upper-level core; (H) (CRITICAL HISTORIES) Paideia designations
+- **Counts As:** Upper-level core; (H) (CRITICAL HISTORIES) General education designations
 - **Notes:** Epistemology course; examines how knowledge is shaped by experience, language, perception, and history
 - **Source:** `Courses.txt`
 
@@ -390,7 +390,7 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Likely required for major (Critical Histories sequence); confirm with advisor
-- **Counts As:** Upper-level core; (H) (CRITICAL HISTORIES) Paideia designations; contributes to Legal Studies Certificate
+- **Counts As:** Upper-level core; (H) (CRITICAL HISTORIES) General education designations; contributes to Legal Studies Certificate
 - **Notes:** Focuses on collective political identities, power relations, social transformation; asks how philosophy relates to justice
 - **Source:** `Courses.txt`
 
@@ -400,7 +400,7 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 - **Corequisites:** None
 - **Offered:** Every fall
 - **Required For:** B.A. in Philosophy (required of all majors, normally in their final year)
-- **Counts As:** Capstone; (H) (WA) Paideia designations
+- **Counts As:** Capstone; (H) (WA) General education designations
 - **Notes:** Collaborative workshop format; each student pursues independent research project; all students critique each other's work throughout semester; culminates in public presentation and final thesis
 - **Source:** `Courses.txt`, `High-Impact_Learning_Experiences.txt`, `Student_Research.txt`
 
@@ -465,9 +465,9 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 **Routing Note:** Double major policies, paired major restrictions, and credit hour implications are covered only in SU_General_Policies.txt.
 **Disambiguation Needed:** Yes — ask what the second major is, since paired majors cannot be declared as double majors
 
-**Q:** Does taking philosophy courses count toward any Paideia requirements?
+**Q:** Does taking philosophy courses count toward any General education requirements?
 **Docs:** `Courses.txt`, `SU_General_Policies.txt`
-**Routing Note:** Courses.txt shows all philosophy courses carry (H) Humanities designation; 18-194 and 18-284 carry (PJ) and (SJ); full Paideia structure is in SU_General_Policies.txt.
+**Routing Note:** Courses.txt shows all philosophy courses carry (H) Humanities designation; 18-194 and 18-284 carry (PJ) and (SJ); full General Education structure is in SU_General_Policies.txt.
 **Disambiguation Needed:** No
 
 **Q:** Which philosophy courses count toward the Power and Justice requirement?
@@ -594,11 +594,10 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
   - **What general docs must cover:** 127-credit minimum, 64-credit SU residency, last 32 in-residence, 2.000 GPA, 60% major residency, Application for Diploma process
   - **Routing instruction:** Always retrieve `SU_General_Policies.txt` alongside major requirements doc for any graduation eligibility question
 
-- **Topic:** Paideia general education requirements
+- **Topic:** General education requirements
   - **What major docs cover:** Courses.txt lists (H), (PJ), (SJ), (WA), (CRITICAL HISTORIES) designations for each course
   - **What general docs must cover:** Full structure of FYS/AES, Language & Cultures, FRA, Power and Justice, Exploration & Breadth Parts I and II, Paideia with Distinction
-  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about gen-ed, breadth requirements, or Paideia
-
+  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about gen-ed, breadth requirements, or General Education 
 - **Topic:** Pass/D/F grading option
   - **What major docs cover:** Not addressed in any philosophy document
   - **What general docs must cover:** Full Pass/D/F policy, deadlines to switch, GPA impact
@@ -712,7 +711,7 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 **When to retrieve multiple documents:**
 - Any question about the capstone: retrieve `Courses.txt` + `Student_Research.txt` + `High-Impact_Learning_Experiences.txt`
 - Any question about graduation eligibility: retrieve `Courses.txt` + `SU_General_Policies.txt`
-- Any question about Paideia credit from philosophy courses: retrieve `Courses.txt` + `SU_General_Policies.txt`
+- Any question about General Education credit from philosophy courses: retrieve `Courses.txt` + `SU_General_Policies.txt`
 - Any question about faculty research or contact: retrieve `Our_Faculty.txt` + `Notable_Faculty___Student_Achievements.txt`
 - Any question about minor requirements: retrieve `Courses.txt` + `SU_General_Policies.txt` + escalate to advisor
 - Any question about transfer credit: retrieve `SU_General_Policies.txt` + advise student to meet with philosophy advisor
@@ -743,7 +742,7 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 
 **Always retrieve `SU_General_Policies.txt` alongside major docs when:**
 - Any graduation eligibility or credit count question
-- Any Paideia / general education requirement question
+- Any general education requirement question
 - Any grading policy question (Pass/D/F, grade appeals, incomplete grades)
 - Any academic standing question (probation, dismissal, appeal)
 - Any transfer credit or credit-by-examination question

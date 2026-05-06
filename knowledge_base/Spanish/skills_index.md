@@ -37,11 +37,11 @@
 
 ### For Future Students
 - **degree_relevance:** All
-- **description:** Describes the educational goals and philosophy of the Spanish program for prospective students, including critical inquiry, global understanding, cognitive skill development, interdisciplinary connections, and lifelong learning. Emphasizes community-engaged learning with local Spanish-speaking communities and civic engagement opportunities. Highlights that courses abroad expose students to new circumstances for developing global citizenship. Mentions cognitive benefits of bilingualism (critical thinking, creativity, flexibility of mind, improved native language skills), referencing external resources from The Dana Foundation. Notes alumni reports that majoring in Spanish impacted their sense of identity. Lists interdisciplinary programs: Paideia, Latin American Studies, International Studies, Feminist Studies, and Race and Ethnicity.
+- **description:** Describes the educational goals and philosophy of the Spanish program for prospective students, including critical inquiry, global understanding, cognitive skill development, interdisciplinary connections, and lifelong learning. Emphasizes community-engaged learning with local Spanish-speaking communities and civic engagement opportunities. Highlights that courses abroad expose students to new circumstances for developing global citizenship. Mentions cognitive benefits of bilingualism (critical thinking, creativity, flexibility of mind, improved native language skills), referencing external resources from The Dana Foundation. Notes alumni reports that majoring in Spanish impacted their sense of identity. Lists interdisciplinary programs: General Education, Latin American Studies, International Studies, Feminist Studies, and Race and Ethnicity.
 - **critical_data:**
   - Program promotes critical thinking, global understanding, cognitive skills, lifelong learning, interdisciplinary connections, and 21st-century career skills
   - Community-engaged learning with local Spanish-speaking communities
-  - Courses contribute to: Paideia, Latin American Studies, International Studies, Feminist Studies, Race and Ethnicity
+  - Courses contribute to: General Education, Latin American Studies, International Studies, Feminist Studies, Race and Ethnicity
   - Bilingualism shown to increase critical thinking, creativity, flexibility of mind
   - Alumni report Spanish gave them confidence to explore the world
   - should I study Spanish
@@ -386,7 +386,7 @@
 | Graduation Application | "Application for Diploma" must be filed; financial holds block diploma |
 | Degree Conferral Dates | December, May, August only; Commencement held once per year in May |
 
-### SU Universal Curriculum Requirements (Paideia Framework)
+### SU Universal Curriculum Requirements (General Education)
 
 **Required for ALL degree paths:**
 - First-Year Seminar (FYS) or Advanced-Entry Seminar (AES): 4 credits
@@ -814,7 +814,7 @@ Note: Many Spanish courses carry the (H) designation satisfying Humanities bread
 
 **Q:** What is SPA15-724 about and what does it count toward?
 **Docs:** `Advanced_Courses.txt`
-**Routing Note:** SPA15-724 is Spanish Phonetics and Phonology; contributes to Health Studies and Neuroscience Paideia areas.
+**Routing Note:** SPA15-724 is Spanish Phonetics and Phonology; contributes to Health Studies and Neuroscience General education areas.
 **Disambiguation Needed:** No
 
 **Q:** What courses in Spanish count toward Health Studies?
@@ -931,11 +931,10 @@ Note: Many Spanish courses carry the (H) designation satisfying Humanities bread
   - **What general docs must cover:** 127-credit minimum, 64-credit SU residency, last 32 in-residence, 2.000 GPA, 60% major residency, Application for Diploma process
   - **Routing instruction:** Always retrieve `SU_General_Policies.txt` alongside `Majoring___Minoring.txt` for any graduation eligibility question
 
-- **Topic:** Paideia general education requirements
+- **Topic:** General education requirements
   - **What major docs cover:** Which Spanish courses satisfy (H), (WA), (SJ), (PJ), (IP) designations; Language and Culture requirement fulfilled by beginning sequence
   - **What general docs must cover:** Full structure of FYS/AES, Language & Cultures, FRA, Power and Justice, Exploration & Breadth Parts I and II, Paideia with Distinction
-  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about gen-ed, breadth requirements, or Paideia
-
+  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about gen-ed, breadth requirements, or General Education 
 - **Topic:** Pass/D/F grading option
   - **What major docs cover:** Not covered; Spanish docs note C- minimum to continue in sequence
   - **What general docs must cover:** Full Pass/D/F policy, deadlines to switch, GPA impact, which courses allow P/D/F
@@ -1052,7 +1051,7 @@ Note: Many Spanish courses carry the (H) designation satisfying Humanities bread
 - Any transfer credit question: retrieve `Majoring___Minoring.txt` + `SU_General_Policies.txt`
 - Any question about both the major and a healthcare career: retrieve `Majoring___Minoring.txt` + `Spanish_for_Healthcare_Professions.txt`
 - Any language assessment exam question: retrieve `Majoring___Minoring.txt` + `Resources.txt`
-- Any Paideia or gen-ed question: retrieve `SU_General_Policies.txt` + appropriate course file
+- Any general education requirement question: retrieve `SU_General_Policies.txt` + appropriate course file
 
 **Degree path disambiguation triggers:**
 - No disambiguation needed between B.A. and B.S. — Spanish only offers a B.A.
@@ -1081,7 +1080,7 @@ Note: Many Spanish courses carry the (H) designation satisfying Humanities bread
 
 **Always retrieve `SU_General_Policies.txt` alongside major docs when:**
 - Any graduation eligibility or credit count question
-- Any Paideia / general education requirement question
+- Any general education requirement question
 - Any grading policy question (Pass/D/F, grade appeals, incomplete grades)
 - Any academic standing question (probation, dismissal, appeal)
 - Any transfer credit or credit-by-examination question

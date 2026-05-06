@@ -32,7 +32,7 @@
 
 ### Classics Courses (Full Listing)
 - **degree_relevance:** All
-- **description:** Lists all courses offered under the Classics (CLA07) prefix, with descriptions. Courses span myth, cinema, sport, marginalized Romans, imperial history, war, urban life, scientific terminology, archaeological sites, and a capstone seminar. Includes an introductory note about the Classics curriculum covering Greek language and literature, Latin language and literature, and Classics in translation. Notes placement credit availability (AP, IB). All courses carry the (H) Humanities Paideia designation; the Capstone also carries (WA).
+- **description:** Lists all courses offered under the Classics (CLA07) prefix, with descriptions. Courses span myth, cinema, sport, marginalized Romans, imperial history, war, urban life, scientific terminology, archaeological sites, and a capstone seminar. Includes an introductory note about the Classics curriculum covering Greek language and literature, Latin language and literature, and Classics in translation. Notes placement credit availability (AP, IB). All courses carry the (H) Humanities General Education designation; the Capstone also carries (WA).
 - **critical_data:**
   - CLA07-204: Greek and Roman Mythology (H)
   - CLA07-234: Marble Cinematic Universe — Class in Cinema (H)
@@ -413,7 +413,7 @@
 | Graduation Application | "Application for Diploma" must be filed; financial holds block diploma |
 | Degree Conferral Dates | December, May, August only; Commencement held once per year in May |
 
-### SU Universal Curriculum Requirements (Paideia Framework)
+### SU Universal Curriculum Requirements (General Education)
 
 **Required for ALL degree paths:**
 - First-Year Seminar (FYS) or Advanced-Entry Seminar (AES): 4 credits
@@ -424,7 +424,7 @@
   - Part I: one course each from Fine Arts (FA), Humanities (H), Natural Sciences (NS), Social Sciences (ScS)
   - Part II: one additional course from two of the four areas
 
-**Note for Classics students:** Many CLA07, LAT14, and GRK13 courses carry the (H) Humanities Paideia designation. The Languages & Cultures requirement may be satisfied by completing Latin or Greek through the third-semester level (XX-164).
+**Note for Classics students:** Many CLA07, LAT14, and GRK13 courses carry the (H) Humanities General Education designation. The Languages & Cultures requirement may be satisfied by completing Latin or Greek through the third-semester level (XX-164).
 
 ---
 
@@ -450,7 +450,7 @@
 - CLA07-964: Capstone Seminar
 
 **Foreign Language Requirement:**
-Classics majors must complete 3 semesters of Latin (LAT14-144, LAT14-154, LAT14-164) to satisfy the university's Languages & Cultures Paideia requirement.
+Classics majors must complete 3 semesters of Latin (LAT14-144, LAT14-154, LAT14-164) to satisfy the university's Languages & Cultures General education requirement.
 
 **Study Abroad:**
 Strongly advised; College Year in Athens and ICCS Rome available.
@@ -545,7 +545,7 @@ Students seeking Latin teacher certification should consult the Education Depart
 - **Corequisites:** None
 - **Offered:** Unknown (not specified)
 - **Required For:** Optional for Classics major (on approved Classics in Translation list)
-- **Counts As:** Humanities (H) Paideia; Classics in Translation option for Classics major
+- **Counts As:** Humanities General Education (H); Classics in Translation option for Classics major
 - **Notes:** Covers traditional myth cycles, socio-political uses of myth, ancient evidence (literature, art, material culture, cultic practices), and modern theories of mythology
 - **Source:** `Classics_Courses.txt`
 
@@ -649,7 +649,7 @@ Students seeking Latin teacher certification should consult the Education Depart
 - **Corequisites:** None
 - **Offered:** Fall
 - **Required For:** Beginning of Greek sequence (required for Classics major's Greek component)
-- **Counts As:** Languages and Cultures Paideia (introductory)
+- **Counts As:** Languages and Cultures General Education (introductory)
 - **Notes:** Grammar, composition, reading; basic translation; Greek society and culture
 - **Source:** `Greek_Courses.txt`
 
@@ -659,7 +659,7 @@ Students seeking Latin teacher certification should consult the Education Depart
 - **Corequisites:** None
 - **Offered:** Spring
 - **Required For:** Greek sequence (required for Classics major's Greek component)
-- **Counts As:** Languages and Cultures Paideia (continuing)
+- **Counts As:** Languages and Cultures General Education (continuing)
 - **Notes:** Complex syntax; sustained Greek passage translation
 - **Source:** `Greek_Courses.txt`
 
@@ -669,7 +669,7 @@ Students seeking Latin teacher certification should consult the Education Depart
 - **Corequisites:** None
 - **Offered:** Fall
 - **Required For:** Greek sequence; prerequisite for all upper-level Greek courses
-- **Counts As:** Languages and Cultures Paideia (third-semester — satisfies Paideia language requirement)
+- **Counts As:** Languages and Cultures General Education (third-semester — satisfies general education language requirement)
 - **Notes:** Reads Herodotus, Xenophon, Plato, Aristotle, Hesiod, Homeric Hymns, Hellenistic poets, New Testament Greek
 - **Source:** `Greek_Courses.txt`
 
@@ -713,7 +713,7 @@ Students seeking Latin teacher certification should consult the Education Depart
 - **Corequisites:** None
 - **Offered:** Fall
 - **Required For:** Beginning of Latin sequence; required (3 semesters) for Classics major foreign language requirement
-- **Counts As:** Languages and Cultures Paideia (introductory)
+- **Counts As:** Languages and Cultures General Education (introductory)
 - **Notes:** Grammar, composition, reading; Roman society and culture
 - **Source:** `Latin_Courses.txt`
 
@@ -723,7 +723,7 @@ Students seeking Latin teacher certification should consult the Education Depart
 - **Corequisites:** None
 - **Offered:** Spring
 - **Required For:** Latin sequence; required for Classics major foreign language requirement
-- **Counts As:** Languages and Cultures Paideia (continuing)
+- **Counts As:** Languages and Cultures General Education (continuing)
 - **Notes:** Complex syntax; sustained Latin passage translation
 - **Source:** `Latin_Courses.txt`
 
@@ -733,7 +733,7 @@ Students seeking Latin teacher certification should consult the Education Depart
 - **Corequisites:** None
 - **Offered:** Fall
 - **Required For:** Latin sequence; prerequisite for all upper-level Latin; satisfies foreign language requirement for Classics majors
-- **Counts As:** Languages and Cultures Paideia (third-semester — satisfies Paideia language requirement)
+- **Counts As:** Languages and Cultures General Education (third-semester — satisfies general education language requirement)
 - **Notes:** Reads Catullus, Horace, Cicero, the two Plinys, Tacitus, Petronius (Satyricon)
 - **Source:** `Latin_Courses.txt`
 
@@ -933,10 +933,10 @@ Students seeking Latin teacher certification should consult the Education Depart
 **Routing Note:** Both minors are described; no restriction on holding both is stated in documents. General double-minor policy in SU_General_Policies.txt.
 **Disambiguation Needed:** No (but note: SU_General_Policies.txt may have paired-minor restrictions)
 
-**Q:** Does Greek count toward the Paideia language requirement?
+**Q:** Does Greek count toward the general education language requirement?
 **Docs:** `Greek_Courses.txt`
-**Routing Note:** GRK13-164 (Greek III) is the third-semester level that satisfies the Languages & Cultures Paideia requirement.
-**Disambiguation Needed:** No (full Paideia policy in SU_General_Policies.txt)
+**Routing Note:** GRK13-164 (Greek III) is the third-semester level that satisfies the Languages & Cultures General education requirement.
+**Disambiguation Needed:** No (full General Education policy in SU_General_Policies.txt)
 
 **Q:** How many credits do I need to graduate with a Classics major?
 **Docs:** `Classics_Major.txt`, `SU_General_Policies.txt`
@@ -1022,11 +1022,10 @@ Students seeking Latin teacher certification should consult the Education Depart
   - **What general docs must cover:** 127-credit minimum, 64-credit SU residency, last 32 in-residence, 2.000 GPA, 60% major residency, Application for Diploma process
   - **Routing instruction:** Always retrieve `SU_General_Policies.txt` alongside Classics major requirements doc for any graduation eligibility question
 
-- **Topic:** Paideia general education requirements
+- **Topic:** General education requirements
   - **What major docs cover:** Which courses carry (H) Humanities designation; Languages & Cultures satisfied by Greek III or Latin III; Writing Across the Curriculum (WA) on capstones
   - **What general docs must cover:** Full structure of FYS/AES, Language & Cultures, FRA, Power and Justice, Exploration & Breadth Parts I and II, Paideia with Distinction
-  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about gen-ed, breadth requirements, or Paideia
-
+  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about gen-ed, breadth requirements, or General Education 
 - **Topic:** Pass/D/F grading option
   - **What major docs cover:** Not addressed
   - **What general docs must cover:** Full Pass/D/F policy, deadlines to switch, GPA impact
@@ -1150,7 +1149,7 @@ Students seeking Latin teacher certification should consult the Education Depart
 - Any graduation eligibility question → retrieve relevant major doc + `SU_General_Policies.txt`
 - Any study abroad question → retrieve `Greece.txt` or `Italy.txt` + `Special_Opportunities.txt` + `SU_Resources_and_Financial.txt`
 - Any AP/IB/placement credit question → retrieve `Classics_Major.txt` + `SU_General_Policies.txt`
-- Any Paideia or general education question → retrieve relevant course doc + `SU_General_Policies.txt`
+- Any General Education or general education question → retrieve relevant course doc + `SU_General_Policies.txt`
 
 **Degree path disambiguation triggers:**
 - If student says "the Classics major" or "majoring in Classics" without specifying which of the three options → confirm: "Do you mean the Classics major (which includes both Greek and Latin), the Greek major, or the Latin major?"
@@ -1179,7 +1178,7 @@ Students seeking Latin teacher certification should consult the Education Depart
 
 **Always retrieve `SU_General_Policies.txt` alongside major docs when:**
 - Any graduation eligibility or credit count question
-- Any Paideia / general education requirement question
+- Any general education requirement question
 - Any grading policy question (Pass/D/F, grade appeals, incomplete grades)
 - Any academic standing question (probation, dismissal, appeal)
 - Any transfer credit or credit-by-examination question

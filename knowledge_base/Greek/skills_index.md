@@ -70,9 +70,9 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 | Graduation Application | "Application for Diploma" must be filed; financial holds block diploma |
 | Degree Conferral Dates | December, May, August only; Commencement held once per year in May |
 
-### SU Universal Curriculum Requirements (Paideia Framework)
+### SU Universal Curriculum Requirements (General Education)
 
-SU's general education model is called **Paideia**. Every major's degree plan is built on top of these shared requirements.
+Every major's degree plan is built on top of shared general education requirements.
 
 **Required for ALL degree paths (B.A., B.S., B.F.A., B.Mus., B.S.Ed.):**
 - First-Year Seminar (FYS) or Advanced-Entry Seminar (AES): 4 credits
@@ -81,7 +81,7 @@ SU's general education model is called **Paideia**. Every major's degree plan is
 - Power and Justice (PJ) course: 1 course, 3-4 credits — **cannot be satisfied by transfer credit**
 - Exploration and Breadth: 6 courses from outside the major (18-24 credits), distributed across Fine Arts (FA), Humanities (H), Natural Sciences (NS), and Social Sciences (ScS)
 
-**Note on Language Requirement for Greek majors:** Because Greek is a language major, Greek coursework is likely to satisfy or partially satisfy the Languages and Cultures Paideia requirement — but the interaction between the Greek major and the language proficiency requirement should be confirmed with an advisor and `SU_General_Policies.txt`.
+**Note on Language Requirement for Greek majors:** Because Greek is a language major, Greek coursework is likely to satisfy or partially satisfy the Languages and Cultures General education requirement — but the interaction between the Greek major and the language proficiency requirement should be confirmed with an advisor and `SU_General_Policies.txt`.
 
 ---
 
@@ -346,9 +346,9 @@ Because all 7 elective slots are upper-level, students should begin the Greek la
 **Routing Note:** Latin.txt mentions teacher certification only for Latin; no teacher certification path mentioned for Greek; direct to Education Department and advisor.
 **Disambiguation Needed:** No — but note that only Latin certification is mentioned in source docs; Greek certification status is a gap
 
-**Q:** Does the Greek major satisfy the Paideia language requirement?
+**Q:** Does the Greek major satisfy the general education language requirement?
 **Docs:** `SU_General_Policies.txt`
-**Routing Note:** Language and Cultures Paideia requirement details and how major language courses interact with it are in General Policies only; not addressed in Greek.txt.
+**Routing Note:** Language and Cultures General education requirement details and how major language courses interact with it are in General Policies only; not addressed in Greek.txt.
 **Disambiguation Needed:** No — retrieve General Policies and escalate to advisor
 
 **Q:** What is College Year in Athens?
@@ -390,12 +390,12 @@ Because all 7 elective slots are upper-level, students should begin the Greek la
   - **What general docs must cover:** 127-credit minimum, 64-credit SU residency, last 32 in-residence, 2.000 GPA, 60% major residency, Application for Diploma process
   - **Routing instruction:** Always retrieve `SU_General_Policies.txt` alongside `Greek.txt` for any graduation eligibility question
 
-- **Topic:** Paideia general education requirements
+- **Topic:** General education requirements
   - **What major docs cover:** Not addressed
   - **What general docs must cover:** Full structure of FYS/AES, Language & Cultures, FRA, Power and Justice, Exploration & Breadth Parts I and II
-  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any Paideia or gen-ed question; note that Greek coursework may interact with the Language & Cultures requirement
+  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any General Education or gen-ed question; note that Greek coursework may interact with the Language & Cultures requirement
 
-- **Topic:** Language & Cultures Paideia requirement — interaction with Greek major
+- **Topic:** Language & Cultures General education requirement — interaction with Greek major
   - **What major docs cover:** Not addressed in Greek.txt; Classics.txt notes 3 semesters of Latin satisfy the foreign language graduation requirement for Classics majors
   - **What general docs must cover:** Full language proficiency requirement, placement exemption, how language major courses count
   - **Routing instruction:** Retrieve `SU_General_Policies.txt`; escalate to advisor for confirmation
@@ -488,7 +488,7 @@ Because all 7 elective slots are upper-level, students should begin the Greek la
   - **Reason for gap:** `Greek.txt` only names the course; no description, credit hours, or prerequisites provided
   - **Recommended fallback:** Direct to department advisor or current catalog
 
-- **Topic:** Whether the Greek major satisfies the Paideia Language & Cultures requirement
+- **Topic:** Whether the Greek major satisfies the General Education Language & Cultures requirement
   - **Reason for gap:** Not addressed in any History or Classics/Greek source document; requires General Policies + advisor
   - **Recommended fallback:** Retrieve `SU_General_Policies.txt`; escalate to advisor
 
@@ -525,7 +525,7 @@ Because all 7 elective slots are upper-level, students should begin the Greek la
 - Any language placement or credit-by-exam question → retrieve `Classics.txt` and `SU_General_Policies.txt`
 - Any financial aid or tuition question → retrieve `SU_Resources_and_Financial.txt`
 - Any paired major or double major question → retrieve `SU_General_Policies.txt`; escalate to advisor
-- Any Paideia or gen-ed question → retrieve `SU_General_Policies.txt`
+- Any general education requirement question → retrieve `SU_General_Policies.txt`
 
 **Degree path disambiguation triggers:**
 - If a student says "the Classics degree" or "the Classics major" without specifying Greek, Latin, or Classics → ask "Are you asking about the Greek major, the Latin major, or the interdisciplinary Classics major? These are three separate degree paths."
@@ -545,14 +545,14 @@ Because all 7 elective slots are upper-level, students should begin the Greek la
 - Any question about specific course sequencing or prerequisite chains (not documented)
 - Any question about course substitutions or waivers
 - Questions about academic standing, probation, or appeals
-- Any question about whether Greek major satisfies the Paideia language requirement (requires individual evaluation)
+- Any question about whether Greek major satisfies the general education language requirement (requires individual evaluation)
 - Teacher certification in Greek (not confirmed in any document)
 - Questions about the Classics Honors track
 - Any overlap/double-counting question between Greek and Classics majors
 
 **Always retrieve `SU_General_Policies.txt` alongside major docs when:**
 - Any graduation eligibility or credit count question
-- Any Paideia / general education requirement question
+- Any general education requirement question
 - Any grading policy question (Pass/D/F, grade appeals, incomplete grades)
 - Any academic standing question (probation, dismissal, appeal)
 - Any transfer credit or credit-by-examination question

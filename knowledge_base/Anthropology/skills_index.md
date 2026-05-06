@@ -33,7 +33,7 @@ This index covers the Sociology & Anthropology department at Southwestern Univer
 
 ### Courses — Sociology & Anthropology
 - **degree_relevance:** B.A. | Minor | All
-- **description:** Lists all current or recent anthropology (ANT35) course offerings with full descriptions and prerequisites. Courses include ANT35-104 (Introduction to Cultural Anthropology, each semester, ScS, SJ, PJ), ANT35-234 (Anthropology of Race: Shifting the Gaze, prerequisite ANT35-104 or permission), ANT35-244 (Race, Class and Gender in the Caribbean, prerequisite ANT35-104, FST04-104, or permission), ANT35-274 (Cultural Heritage, Criminal Justice, Race, American South, prerequisite ANT35-104 or permission), ANT35-304 (Selected Topics, offered infrequently), ANT35-334 (Global Environmental Justice, prerequisite ANT35-104, ENVS49-104, or FST04-104), ANT35-424 (Theory and Method in Cultural Anthropology, prerequisite ANT35-104, restricted to majors, offered fall only), ANT35-524 (Southwestern Univ Racial History Project, prerequisite ANT35-104 or permission), and ANT35-964 (Senior Seminar, prerequisite permission of instructor, offered spring only). The document also notes sociology (SOC34) offerings exist but lists primarily anthropology courses in the extracted text. Paideia designations (ScS, SJ, PJ, WA) are noted per course.
+- **description:** Lists all current or recent anthropology (ANT35) course offerings with full descriptions and prerequisites. Courses include ANT35-104 (Introduction to Cultural Anthropology, each semester, ScS, SJ, PJ), ANT35-234 (Anthropology of Race: Shifting the Gaze, prerequisite ANT35-104 or permission), ANT35-244 (Race, Class and Gender in the Caribbean, prerequisite ANT35-104, FST04-104, or permission), ANT35-274 (Cultural Heritage, Criminal Justice, Race, American South, prerequisite ANT35-104 or permission), ANT35-304 (Selected Topics, offered infrequently), ANT35-334 (Global Environmental Justice, prerequisite ANT35-104, ENVS49-104, or FST04-104), ANT35-424 (Theory and Method in Cultural Anthropology, prerequisite ANT35-104, restricted to majors, offered fall only), ANT35-524 (Southwestern Univ Racial History Project, prerequisite ANT35-104 or permission), and ANT35-964 (Senior Seminar, prerequisite permission of instructor, offered spring only). The document also notes sociology (SOC34) offerings exist but lists primarily anthropology courses in the extracted text. General education designations (ScS, SJ, PJ, WA) are noted per course.
 - **critical_data:**
   - ANT35-104: No prerequisites; offered each semester; satisfies ScS, SJ, PJ
   - ANT35-234: Prerequisite ANT35-104 or permission
@@ -151,7 +151,7 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 | Graduation Application | "Application for Diploma" must be filed; financial holds block diploma |
 | Degree Conferral Dates | December, May, August only; Commencement held once per year in May |
 
-### SU Universal Curriculum Requirements (Paideia Framework)
+### SU Universal Curriculum Requirements (General Education)
 
 **Required for ALL degree paths:**
 - First-Year Seminar (FYS) or Advanced-Entry Seminar (AES): 4 credits
@@ -160,7 +160,7 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 - Power and Justice (PJ) course: 1 course, 3-4 credits (cannot be transfer credit)
 - Exploration and Breadth: 6 courses from outside the major (Part I: one from each of FA, H, NS, ScS; Part II: one additional from two of those four areas)
 
-Note: ANT35-104 satisfies ScS, SJ, and PJ Paideia designations.
+Note: ANT35-104 satisfies ScS, SJ, and PJ General education designations.
 
 ---
 
@@ -236,7 +236,7 @@ The B.A. is for students seeking professional or graduate-level work in anthropo
 - **Corequisites:** None
 - **Offered:** Each semester (Fall and Spring)
 - **Required For:** B.A. in Anthropology (core), Minor in Anthropology (core)
-- **Counts As:** Core requirement for major and minor; ScS, SJ, PJ Paideia designations
+- **Counts As:** Core requirement for major and minor; ScS, SJ, PJ General education designations
 - **Notes:** Gateway course for all upper-level anthropology; contributes to International Studies and Sociology
 - **Source:** `Courses.txt`, `Majoring_and_Minoring.txt`
 
@@ -413,7 +413,7 @@ Source: `Majoring_and_Minoring.txt`
 
 **Q:** What is ANT35-104 about?
 **Docs:** `Courses.txt`
-**Routing Note:** Full course description, Paideia designations, and offering schedule are in Courses.txt.
+**Routing Note:** Full course description, General education designations, and offering schedule are in Courses.txt.
 **Disambiguation Needed:** No
 
 **Q:** What prerequisites do I need for Theory and Method?
@@ -436,9 +436,9 @@ Source: `Majoring_and_Minoring.txt`
 **Routing Note:** Explicitly fall only; restricted to majors.
 **Disambiguation Needed:** No
 
-**Q:** What Paideia requirements does ANT35-104 satisfy?
+**Q:** What General education requirements does ANT35-104 satisfy?
 **Docs:** `Courses.txt`, `SU_General_Policies.txt`
-**Routing Note:** Courses.txt notes ScS, SJ, and PJ designations; SU_General_Policies explains full Paideia framework.
+**Routing Note:** Courses.txt notes ScS, SJ, and PJ designations; SU_General_Policies explains full General education framework.
 **Disambiguation Needed:** No
 
 **Q:** I'm thinking about grad school — what do I need to apply?
@@ -545,10 +545,10 @@ Source: `Majoring_and_Minoring.txt`
   - **What general docs must cover:** 127-credit minimum, 64-credit SU residency, last 32 in-residence, 2.000 GPA threshold, 60% major residency, Application for Diploma
   - **Routing instruction:** Always retrieve `SU_General_Policies.txt` alongside `Majoring_and_Minoring.txt` for any graduation eligibility question
 
-- **Topic:** Paideia general education requirements
-  - **What major docs cover:** Which anthropology courses satisfy Paideia designations (ANT35-104 satisfies ScS, SJ, PJ)
+- **Topic:** General education requirements
+  - **What major docs cover:** Which anthropology courses satisfy General education designations (ANT35-104 satisfies ScS, SJ, PJ)
   - **What general docs must cover:** Full FYS/AES, Language and Cultures, FRA, Power and Justice, Exploration and Breadth Parts I and II structure; Paideia with Distinction
-  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any Paideia or gen-ed question
+  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any General Education or gen-ed question
 
 - **Topic:** Pass/D/F grading option
   - **What major docs cover:** Not covered
@@ -693,7 +693,7 @@ Source: `Majoring_and_Minoring.txt`
 
 **Always retrieve `SU_General_Policies.txt` alongside major docs when:**
 - Any graduation eligibility or credit count question
-- Any Paideia / general education requirement question
+- Any general education requirement question
 - Any grading policy question (Pass/D/F, grade appeals, incomplete grades)
 - Any academic standing question (probation, dismissal, appeal)
 - Any transfer credit or credit-by-examination question

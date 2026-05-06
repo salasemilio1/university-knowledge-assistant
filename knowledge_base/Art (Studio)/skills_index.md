@@ -141,7 +141,7 @@
 
 *Source: `SU_General_Policies.txt`*
 
-### SU Universal Curriculum Requirements (Paideia Framework)
+### SU Universal Curriculum Requirements (General Education)
 
 Required for ALL degree paths:
 - First-Year Seminar (FYS) or Advanced-Entry Seminar (AES): 4 credits
@@ -735,10 +735,10 @@ Required for ALL degree paths:
   - **What general docs must cover:** 127-credit minimum, 64-credit SU residency, last 32 in-residence, 2.000 overall GPA, 60% major residency rule, Application for Diploma process
   - **Routing instruction:** Always retrieve `SU_General_Policies.txt` alongside `Majoring___Minoring.txt` for any graduation eligibility question
 
-- **Topic:** Paideia general education requirements
-  - **What major docs cover:** Not addressed; no mention of which art courses satisfy Paideia areas
-  - **What general docs must cover:** Full FYS/AES, Language & Cultures, FRA, Power and Justice, Exploration & Breadth structure; which Fine Arts area courses satisfy the FA Paideia requirement
-  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any gen-ed or breadth requirement question; note that Studio Art courses may satisfy the Fine Arts (FA) Paideia area
+- **Topic:** General education requirements
+  - **What major docs cover:** Not addressed; no mention of which art courses satisfy General education areas
+  - **What general docs must cover:** Full FYS/AES, Language & Cultures, FRA, Power and Justice, Exploration & Breadth structure; which Fine Arts area courses satisfy the FA General education requirement
+  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any gen-ed or breadth requirement question; note that Studio Art courses may satisfy the Fine Arts (FA) General education area
 
 - **Topic:** Pass/D/F grading option
   - **What major docs cover:** Not addressed
@@ -811,9 +811,9 @@ Required for ALL degree paths:
   - **Reason for gap:** The documents note that ART68-404 and ART68-504 are offered only once per year but do not specify which semester for most courses
   - **Recommended fallback:** Direct student to current semester course schedule in Self-Service or ask an advisor
 
-- **Topic:** Whether Studio Art courses satisfy Paideia Fine Arts (FA) breadth requirement
+- **Topic:** Whether Studio Art courses satisfy General Education Fine Arts (FA) breadth requirement
   - **Reason for gap:** Not addressed in any provided document
-  - **Recommended fallback:** Check `SU_General_Policies.txt` for Paideia framework; confirm with advisor or Registrar
+  - **Recommended fallback:** Check `SU_General_Policies.txt` for General education framework; confirm with advisor or Registrar
 
 - **Topic:** Departmental Honors in Studio Art
   - **Reason for gap:** Not mentioned in any provided document
@@ -888,7 +888,7 @@ Required for ALL degree paths:
 
 **Always retrieve `SU_General_Policies.txt` alongside major docs when:**
 - Any graduation eligibility or credit count question
-- Any Paideia / general education requirement question
+- Any general education requirement question
 - Any grading policy question (Pass/D/F, grade appeals, incomplete grades)
 - Any academic standing question (probation, dismissal, appeal)
 - Any transfer credit or credit-by-examination question

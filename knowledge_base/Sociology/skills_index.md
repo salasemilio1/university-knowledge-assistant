@@ -58,7 +58,7 @@ This index covers the Sociology major and minor within the Sociology & Anthropol
   - SOC34-314: every fall; prerequisites SOC34-114 + MAT52-114 + declared major/minor; WA, ScS; SPSS or Stata
   - SOC34-344: every spring; prerequisites SOC34-114 + declared major/minor; ScS
   - SOC34-964: every fall; prerequisites SOC34-314 + SOC34-344 + declared sociology major; WA, ScS; qualitative or mixed methods
-  - Multiple courses carry SJ and PJ Paideia designations
+  - Multiple courses carry SJ and PJ General education designations
   - Several courses contribute to Feminist Studies, Race and Ethnicity Studies, Legal Studies Certificate, Spanish for Healthcare Professions Certificate
 
 ---
@@ -245,11 +245,11 @@ This index covers the Sociology major and minor within the Sociology & Anthropol
 
 *Source: `SU_General_Policies.txt`*
 
-### SU Paideia Curriculum (All Degree Paths)
+### SU General Education Curriculum (All Degree Paths)
 
 Required for all students: FYS/AES (4 credits), Languages and Cultures (through third-semester proficiency), FRA (1 credit), Power and Justice course (3-4 credits; cannot be transfer credit), Exploration and Breadth (6 courses: Part I — one each from FA, H, NS, ScS; Part II — one additional from two of the four areas).
 
-*Paideia-relevant sociology courses:*
+*General Education-relevant sociology courses:*
 - SOC34-114: ScS, SJ, **PJ** — may satisfy the Power and Justice requirement
 - SOC34-234: ScS, SJ, **PJ**
 - SOC34-264: ScS, SJ, **PJ**
@@ -343,7 +343,7 @@ Required for all students: FYS/AES (4 credits), Languages and Cultures (through 
 - **Prerequisites:** None
 - **Offered:** Every semester
 - **Required For:** B.A. in Sociology (required core); Minor in Sociology (required)
-- **Counts As:** Required core course; Paideia ScS, SJ, PJ; contributes to Anthropology Certificate and Spanish for Healthcare Professions Certificate
+- **Counts As:** Required core course; Gen Ed ScS, SJ, PJ; contributes to Anthropology Certificate and Spanish for Healthcare Professions Certificate
 - **Notes:** Gateway course; prerequisite for virtually all other sociology courses (SOC34-214, SOC34-234, SOC34-264, SOC34-284, SOC34-314, SOC34-344); must be taken early; only course in the department offered every semester
 - **Source:** `Courses.txt`, `Sociology.txt`
 
@@ -361,7 +361,7 @@ Required for all students: FYS/AES (4 credits), Languages and Cultures (through 
 - **Prerequisites:** None stated
 - **Offered:** Unknown
 - **Required For:** B.A. in Sociology (required supporting course; prerequisite for SOC34-314)
-- **Counts As:** Required supporting course; may count toward Paideia natural science or quantitative areas (verify with advisor)
+- **Counts As:** Required supporting course; may count toward General Education natural science or quantitative areas (verify with advisor)
 - **Notes:** Must be completed before SOC34-314; take as early as possible; not listed as one of the 8 sociology major courses
 - **Source:** `Sociology.txt`, `Courses.txt`
 
@@ -370,7 +370,7 @@ Required for all students: FYS/AES (4 credits), Languages and Cultures (through 
 - **Prerequisites:** SOC34-114
 - **Offered:** Unknown
 - **Required For:** Not specifically required; eligible upper-level elective
-- **Counts As:** Upper-level sociology elective; Paideia ScS; contributes to Feminist Studies, Race and Ethnicity Studies
+- **Counts As:** Upper-level sociology elective; Gen Ed ScS; contributes to Feminist Studies, Race and Ethnicity Studies
 - **Notes:** Examines Christianity at intersection of gender, sexuality, race, class in U.S. context
 - **Source:** `Courses.txt`
 
@@ -379,7 +379,7 @@ Required for all students: FYS/AES (4 credits), Languages and Cultures (through 
 - **Prerequisites:** SOC34-114 OR Feminist Studies 04-104
 - **Offered:** Unknown
 - **Required For:** Not specifically required; eligible upper-level elective
-- **Counts As:** Upper-level sociology elective; Paideia ScS, SJ, PJ; contributes to Feminist Studies, Race and Ethnicity Studies, Spanish for Healthcare Professions Certificate
+- **Counts As:** Upper-level sociology elective; Gen Ed ScS, SJ, PJ; contributes to Feminist Studies, Race and Ethnicity Studies, Spanish for Healthcare Professions Certificate
 - **Notes:** Alternative prerequisite via Feminist Studies 04-104; covers social construction of gender, intersectionality, feminism, patriarchy, masculinity, misogyny
 - **Source:** `Courses.txt`
 
@@ -388,7 +388,7 @@ Required for all students: FYS/AES (4 credits), Languages and Cultures (through 
 - **Prerequisites:** SOC34-114
 - **Offered:** Unknown
 - **Required For:** Not specifically required; eligible upper-level elective
-- **Counts As:** Upper-level sociology elective; Paideia ScS, SJ, PJ; contributes to Feminist Studies, Race and Ethnicity Studies (Concepts Course), Legal Studies Certificate, Spanish for Healthcare Professions Certificate
+- **Counts As:** Upper-level sociology elective; Gen Ed ScS, SJ, PJ; contributes to Feminist Studies, Race and Ethnicity Studies (Concepts Course), Legal Studies Certificate, Spanish for Healthcare Professions Certificate
 - **Notes:** Examines race and ethnicity at individual, interactional, and institutional levels
 - **Source:** `Courses.txt`
 
@@ -397,7 +397,7 @@ Required for all students: FYS/AES (4 credits), Languages and Cultures (through 
 - **Prerequisites:** SOC34-114
 - **Offered:** Unknown
 - **Required For:** Not specifically required; eligible upper-level elective
-- **Counts As:** Upper-level sociology elective; Paideia ScS; contributes to Feminist Studies, Race and Ethnicity Studies, Legal Studies Certificate, Spanish for Healthcare Professions Certificate
+- **Counts As:** Upper-level sociology elective; Gen Ed ScS; contributes to Feminist Studies, Race and Ethnicity Studies, Legal Studies Certificate, Spanish for Healthcare Professions Certificate
 - **Notes:** Inequality in U.S. families; gender, race, class, sexuality; family history and contemporary structures
 - **Source:** `Courses.txt`
 
@@ -406,7 +406,7 @@ Required for all students: FYS/AES (4 credits), Languages and Cultures (through 
 - **Prerequisites:** SOC34-114, MAT52-114, and declared sociology minor or major
 - **Offered:** Every fall
 - **Required For:** B.A. in Sociology (required core); prerequisite for SOC34-964
-- **Counts As:** Required core; Paideia WA, ScS; **must be taken at SU**
+- **Counts As:** Required core; General Education WA, ScS; **must be taken at SU**
 - **Notes:** Quantitative data analysis using SPSS or Stata; students write a quantitative paper using an existing dataset; recommended sophomore year; MUST be completed before senior year; cannot be fulfilled by transfer credit; WA designation means it satisfies Writing Across the Curriculum
 - **Source:** `Courses.txt`, `Sociology.txt`
 
@@ -415,7 +415,7 @@ Required for all students: FYS/AES (4 credits), Languages and Cultures (through 
 - **Prerequisites:** SOC34-114 and declared sociology minor or major
 - **Offered:** Every spring
 - **Required For:** B.A. in Sociology (required core); prerequisite for SOC34-964
-- **Counts As:** Required core; Paideia ScS; **must be taken at SU**
+- **Counts As:** Required core; Gen Ed ScS; **must be taken at SU**
 - **Notes:** Classical (mid-19th century) to contemporary sociological theorists; MUST be completed before senior year; may be taken sophomore year to facilitate study abroad plans junior year; cannot be fulfilled by transfer credit
 - **Source:** `Courses.txt`, `Sociology.txt`
 
@@ -433,7 +433,7 @@ Required for all students: FYS/AES (4 credits), Languages and Cultures (through 
 - **Prerequisites:** SOC34-314, SOC34-344, and declared sociology major
 - **Offered:** Every fall
 - **Required For:** B.A. in Sociology (required capstone); not available to minors
-- **Counts As:** Required capstone; Paideia WA, ScS; **must be taken at SU**
+- **Counts As:** Required capstone; General Education WA, ScS; **must be taken at SU**
 - **Notes:** Qualitative or mixed methods research project; students collect/analyze data, apply sociological literature, write research paper, and present findings to campus community in December (Prothro Room, library; ~15 minutes + Q&A); must be taken fall of senior year; cannot be fulfilled by transfer credit; papers frequently lead to national conference presentations, paper competition entries, and peer-reviewed publication
 - **Source:** `Courses.txt`, `Sociology.txt`, `Sociology_Capstone___Honors_Projects.txt`
 
@@ -548,9 +548,9 @@ Required for all students: FYS/AES (4 credits), Languages and Cultures (through 
 **Routing Note:** Sociology.txt does not restrict double majors; general policies govern paired major restrictions and overlap rules; psychology + sociology is referenced in Notable Achievements as a valid combination.
 **Disambiguation Needed:** Yes — clarify intended second major to check for paired major restrictions via SU_General_Policies.txt.
 
-**Q:** Does Research Methods satisfy any Paideia requirement?
+**Q:** Does Research Methods satisfy any General education requirement?
 **Docs:** `Courses.txt`, `SU_General_Policies.txt`
-**Routing Note:** SOC34-314 carries WA and ScS Paideia designations; General Policies defines what WA and ScS mean in the Paideia framework.
+**Routing Note:** SOC34-314 carries WA and ScS General education designations; General Policies defines what WA and ScS mean in the General education framework.
 **Disambiguation Needed:** No.
 
 **Q:** What courses count toward the Legal Studies Certificate?
@@ -583,9 +583,9 @@ Required for all students: FYS/AES (4 credits), Languages and Cultures (through 
 **Routing Note:** Contact Director of Internships in Career Services at least one semester in advance; submit resume and complete all paperwork; past placements include probation offices, AG's office, drug rehab, Texas politicians.
 **Disambiguation Needed:** No.
 
-**Q:** Can I take Sociology of Gender to satisfy the Power and Justice Paideia requirement?
+**Q:** Can I take Sociology of Gender to satisfy the Power and Justice General education requirement?
 **Docs:** `Courses.txt`, `SU_General_Policies.txt`
-**Routing Note:** SOC34-234 carries the PJ Paideia designation; General Policies defines PJ requirements; PJ cannot be satisfied by transfer credit.
+**Routing Note:** SOC34-234 carries the PJ General Education designation; General Policies defines PJ requirements; PJ cannot be satisfied by transfer credit.
 **Disambiguation Needed:** No.
 
 **Q:** I'm a transfer student. Will my intro sociology course from my previous school count?
@@ -613,10 +613,10 @@ Required for all students: FYS/AES (4 credits), Languages and Cultures (through 
 **Routing Note:** Document links to 2024 US News top 100 sociology programs; includes full NRC-ranked anthropology list.
 **Disambiguation Needed:** No.
 
-**Q:** Can I use a sociology course to satisfy a Paideia social science breadth requirement?
+**Q:** Can I use a sociology course to satisfy a General Education social science breadth requirement?
 **Docs:** `Courses.txt`, `SU_General_Policies.txt`
-**Routing Note:** Multiple sociology courses carry the ScS designation; SOC34-114, SOC34-214, SOC34-234, SOC34-264, SOC34-284, SOC34-314, SOC34-344, and SOC34-964 all carry ScS; confirm with General Policies whether a major course can satisfy a Paideia breadth requirement.
-**Disambiguation Needed:** No — but note that Paideia breadth courses must be outside the major; confirm with General Policies and advisor.
+**Routing Note:** Multiple sociology courses carry the ScS designation; SOC34-114, SOC34-214, SOC34-234, SOC34-264, SOC34-284, SOC34-314, SOC34-344, and SOC34-964 all carry ScS; confirm with General Policies whether a major course can satisfy a General education breadth requirement.
+**Disambiguation Needed:** No — but note that General education breadth courses must be outside the major; confirm with General Policies and advisor.
 
 ---
 
@@ -627,10 +627,10 @@ Required for all students: FYS/AES (4 credits), Languages and Cultures (through 
   - **What general docs must cover:** 127-credit minimum, 64-credit SU residency, last 32 in-residence, 2.000 GPA minimums, 60% major residency rule, Application for Diploma process
   - **Routing instruction:** Always retrieve `SU_General_Policies.txt` alongside `Sociology.txt` for any graduation eligibility question
 
-- **Topic:** Paideia general education requirements
-  - **What major docs cover:** Specific Paideia designations for sociology courses: SOC34-114 (ScS, SJ, PJ), SOC34-234 (ScS, SJ, PJ), SOC34-264 (ScS, SJ, PJ), SOC34-284 (ScS), SOC34-214 (ScS), SOC34-314 (WA, ScS), SOC34-344 (ScS), SOC34-964 (WA, ScS)
+- **Topic:** General education requirements
+  - **What major docs cover:** Specific General education designations for sociology courses: SOC34-114 (ScS, SJ, PJ), SOC34-234 (ScS, SJ, PJ), SOC34-264 (ScS, SJ, PJ), SOC34-284 (ScS), SOC34-214 (ScS), SOC34-314 (WA, ScS), SOC34-344 (ScS), SOC34-964 (WA, ScS)
   - **What general docs must cover:** Full FYS/AES, Language & Cultures, FRA, Power and Justice structure (including whether major courses can satisfy PJ breadth), Exploration & Breadth Parts I and II, Paideia with Distinction option
-  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about gen-ed, breadth, or whether a sociology course satisfies a Paideia requirement
+  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about gen-ed, breadth, or whether a sociology course satisfies a General education requirement
 
 - **Topic:** Pass/D/F grading option
   - **What major docs cover:** Not addressed
@@ -751,7 +751,7 @@ Required for all students: FYS/AES (4 credits), Languages and Cultures (through 
 **Default document for broad major questions:** `Sociology.txt`
 
 **When to retrieve multiple documents:**
-- Any question about a specific course: retrieve `Sociology.txt` (to confirm if required) AND `Courses.txt` (for description, prerequisites, Paideia designations)
+- Any question about a specific course: retrieve `Sociology.txt` (to confirm if required) AND `Courses.txt` (for description, prerequisites, General education designations)
 - Any graduation requirement question: retrieve `Sociology.txt` AND `SU_General_Policies.txt`
 - Any study abroad + major sequence question: retrieve `Sociology.txt` AND `SU_Resources_and_Financial.txt`
 - Any internship question: retrieve `Internships.txt` AND `Sociology.txt`
@@ -760,7 +760,7 @@ Required for all students: FYS/AES (4 credits), Languages and Cultures (through 
 - Any AKD question: retrieve `Alpha_Kappa_Delta.txt`; add `Sociology_National_and_Regional_Awards.txt` if about the paper competition
 - Any conference or presentation question: retrieve `Sociology_Conference_Presentations.txt` AND `For_Current_Students.txt`
 - Any capstone format question: retrieve `Sociology_Capstone___Honors_Projects.txt` AND `Courses.txt`
-- Any Paideia credit question: retrieve `Courses.txt` AND `SU_General_Policies.txt`
+- Any General Education credit question: retrieve `Courses.txt` AND `SU_General_Policies.txt`
 - Any career path question: retrieve `After_Southwestern.txt` AND `Sociology___Anthropology.txt`
 
 **Degree path disambiguation triggers:**
@@ -779,7 +779,7 @@ Required for all students: FYS/AES (4 credits), Languages and Cultures (through 
 - OASIS student organization → `OASIS.txt`
 - National and regional paper award history → `Sociology_National_and_Regional_Awards.txt`
 - Frank E. Luksa and Gwen Kennedy Neville award history and criteria → `Departmental_Awards.txt`
-- Course prerequisites and Paideia designations → `Courses.txt`
+- Course prerequisites and General education designations → `Courses.txt`
 
 **Always escalate to human advisor:**
 - Course substitution or waiver requests (especially for must-take-at-SU courses)
@@ -792,7 +792,7 @@ Required for all students: FYS/AES (4 credits), Languages and Cultures (through 
 
 **Always retrieve `SU_General_Policies.txt` alongside major docs when:**
 - Any graduation eligibility or total credit count question
-- Any Paideia / general education requirement question (especially whether a major course can satisfy PJ or ScS breadth)
+- Any general education requirement question (especially whether a major course can satisfy PJ or ScS breadth)
 - Any grading policy question (Pass/D/F, grade appeals, incomplete grades; note WA-designated courses may be ineligible for P/D/F)
 - Any academic standing question (probation, dismissal, appeal)
 - Any transfer credit or credit-by-examination question

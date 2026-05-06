@@ -46,7 +46,7 @@
 
 ### Courses
 - **degree_relevance:** B.A. | B.S. | Minor (Kinesiology) | Minor (Applied Movement and Sport Studies)
-- **description:** This document lists all current Kinesiology course offerings (prefix KIN48) with descriptions, prerequisites, Paideia designations, offering frequencies, and interdisciplinary contributions. Courses range from introductory (48-112, 48-121, 48-123) through upper-level (48-324 through 48-493). The two capstone courses (48-481, 48-483, 48-493) are described in detail. Most upper-level courses require KIN48-121/123 and/or KIN48-214 as prerequisites. Several courses carry the (NS) Paideia designation (Natural Sciences); the two capstone completion courses carry (WA). Notable prerequisites chain: 48-253/251 is required for 48-261/263 and 48-474; 48-334 or 48-344 is required for 48-444 and 48-481; 48-481 is required for 48-483 and 48-493. The document also notes that KIN48-251/253 and KIN48-261/263 are cross-listed as BIO50-251/253 and BIO50-261/263. A Selected Topics course (48-302 or 48-304) is available by department chair permission.
+- **description:** This document lists all current Kinesiology course offerings (prefix KIN48) with descriptions, prerequisites, General education designations, offering frequencies, and interdisciplinary contributions. Courses range from introductory (48-112, 48-121, 48-123) through upper-level (48-324 through 48-493). The two capstone courses (48-481, 48-483, 48-493) are described in detail. Most upper-level courses require KIN48-121/123 and/or KIN48-214 as prerequisites. Several courses carry the (NS) General Education designation (Natural Sciences); the two capstone completion courses carry (WA). Notable prerequisites chain: 48-253/251 is required for 48-261/263 and 48-474; 48-334 or 48-344 is required for 48-444 and 48-481; 48-481 is required for 48-483 and 48-493. The document also notes that KIN48-251/253 and KIN48-261/263 are cross-listed as BIO50-251/253 and BIO50-261/263. A Selected Topics course (48-302 or 48-304) is available by department chair permission.
 - **critical_data:**
   - KIN48-121 and 48-123: strongly encouraged to take concurrently; both offered Fall and Spring
   - KIN48-214 (Research Methods): prerequisite = MAT52-114 or instructor permission; Fall and Spring; NS, WA
@@ -108,7 +108,7 @@ Source: `SU_General_Policies.txt`
 | Graduation Application | "Application for Diploma" must be filed; financial holds block diploma |
 | Degree Conferral Dates | December, May, August; Commencement once per year in May |
 
-### SU Universal Curriculum Requirements (Paideia Framework)
+### SU Universal Curriculum Requirements (General Education)
 
 **Required for ALL degree paths:**
 - First-Year Seminar (FYS) or Advanced-Entry Seminar (AES): 4 credits
@@ -120,7 +120,7 @@ Source: `SU_General_Policies.txt`
 **Additional requirements for B.S. only** (if not already required in the major):
 - Biology, Chemistry, Mathematics (Calculus), Physics sequences — these are largely built into the B.S. supporting courses
 
-**Note:** The Kinesiology B.S. is a Natural Sciences Area degree. Many Kinesiology courses carry the (NS) Paideia designation.
+**Note:** The Kinesiology B.S. is a Natural Sciences Area degree. Many Kinesiology courses carry the (NS) General Education designation.
 
 ---
 
@@ -277,14 +277,14 @@ All courses use the KIN48-XXXX prefix. Unless noted, credit hours follow the fin
 #### KIN48-112 — Explorations in Kinesiology (2 credits)
 - **Prerequisites:** None
 - **Offered:** Not specified
-- **Paideia:** None listed
+- **General Education: ** None listed
 - **Required For:** Applied Movement and Sport Studies minor (required)
 - **Contributes To:** Applied Movement & Sport Studies, Exercise & Sport Studies, Spanish for Healthcare Professions Certificate
 - **Source:** `Courses.txt`
 
 #### KIN48-121 — Structural Kinesiology (1 credit)
 - **Prerequisites:** None (strongly encouraged to take concurrently with KIN48-123)
-- **Offered:** Fall and Spring | **Paideia:** NS
+- **Offered:** Fall and Spring | **General Education: ** NS
 - **Required For:** B.A. (required), B.S. (required), Kinesiology minor (required), Applied Movement and Sport Studies minor (required)
 - **Notes:** Lab course; musculoskeletal focus
 - **Contributes To:** Applied Movement & Sport Studies, Exercise & Sport Studies, Health Studies, Neuroscience
@@ -292,7 +292,7 @@ All courses use the KIN48-XXXX prefix. Unless noted, credit hours follow the fin
 
 #### KIN48-123 — Intro to Human Anatomy & Physiology (3 credits)
 - **Prerequisites:** None (strongly encouraged to take concurrently with KIN48-121)
-- **Offered:** Fall and Spring | **Paideia:** NS
+- **Offered:** Fall and Spring | **General Education: ** NS
 - **Required For:** B.A. (required), B.S. (required), Kinesiology minor (required)
 - **Contributes To:** Applied Movement & Sport Studies, Exercise & Sport Studies, Health Studies, Neuroscience, Spanish for Healthcare Professions Certificate
 - **Source:** `Courses.txt`
@@ -323,7 +323,7 @@ All courses use the KIN48-XXXX prefix. Unless noted, credit hours follow the fin
 
 #### KIN48-214 — Research Methods in Kinesiology (4 credits)
 - **Prerequisites:** MAT52-114 or instructor permission
-- **Offered:** Fall and Spring | **Paideia:** NS, WA
+- **Offered:** Fall and Spring | **General Education: ** NS, WA
 - **Required For:** B.A. (required), B.S. (required), Kinesiology minor (required)
 - **Notes:** Gateway course; prerequisite for most upper-level KIN courses; covers research design, data analysis, reporting
 - **Contributes To:** Data Analytics, Data Science, Exercise and Sport Studies
@@ -339,7 +339,7 @@ All courses use the KIN48-XXXX prefix. Unless noted, credit hours follow the fin
 
 #### KIN48-234 — Health and Fitness Concepts (4 credits)
 - **Prerequisites:** None listed
-- **Offered:** Fall and Spring | **Paideia:** NS
+- **Offered:** Fall and Spring | **General Education: ** NS
 - **Required For:** B.A. (required), Kinesiology minor (required), Applied Movement and Sport Studies minor (required)
 - **Contributes To:** Applied Movement & Sport Studies, Exercise & Sport Studies, Health Studies, Spanish for Healthcare Professions Certificate
 - **Source:** `Courses.txt`
@@ -351,7 +351,7 @@ All courses use the KIN48-XXXX prefix. Unless noted, credit hours follow the fin
 
 #### KIN48-251 — Integrative Approach to Human A&P I (1 credit, lab)
 - **Prerequisites:** KIN48-123/121; take concurrently with KIN48-253
-- **Offered:** Fall | **Paideia:** NS
+- **Offered:** Fall | **General Education: ** NS
 - **Required For:** B.S. (required)
 - **Notes:** Cross-listed as BIO50-251
 - **Contributes To:** Health Studies
@@ -359,7 +359,7 @@ All courses use the KIN48-XXXX prefix. Unless noted, credit hours follow the fin
 
 #### KIN48-253 — Human Anatomy & Physiology I (3 credits)
 - **Prerequisites:** KIN48-123/121; take concurrently with KIN48-251
-- **Offered:** Fall | **Paideia:** NS
+- **Offered:** Fall | **General Education: ** NS
 - **Required For:** B.S. (required)
 - **Notes:** Cross-listed as BIO50-253; covers cells, tissue histology, nervous, endocrine, integumentary, skeletal, muscular, cardiovascular, lymphatic systems
 - **Contributes To:** Health Studies
@@ -367,7 +367,7 @@ All courses use the KIN48-XXXX prefix. Unless noted, credit hours follow the fin
 
 #### KIN48-261 — Integrative Approach to Human A&P II (1 credit, lab)
 - **Prerequisites:** KIN48-253/251 OR BIO50-253/251; take concurrently with KIN48-263
-- **Offered:** Spring | **Paideia:** NS
+- **Offered:** Spring | **General Education: ** NS
 - **Required For:** B.S. (required)
 - **Notes:** Cross-listed as BIO50-261
 - **Contributes To:** Health Studies, Neuroscience
@@ -375,7 +375,7 @@ All courses use the KIN48-XXXX prefix. Unless noted, credit hours follow the fin
 
 #### KIN48-263 — Human Anatomy & Physiology II (3 credits)
 - **Prerequisites:** KIN48-253/251 OR BIO50-253/251; take concurrently with KIN48-261
-- **Offered:** Spring | **Paideia:** NS
+- **Offered:** Spring | **General Education: ** NS
 - **Required For:** B.S. (required)
 - **Notes:** Cross-listed as BIO50-263; covers respiratory, urinary, digestive, immune, reproductive systems
 - **Contributes To:** Health Studies, Neuroscience
@@ -393,7 +393,7 @@ All courses use the KIN48-XXXX prefix. Unless noted, credit hours follow the fin
 
 #### KIN48-294 — Comparative Physiology of Exercise (4 credits)
 - **Prerequisites:** None listed
-- **Paideia:** NS
+- **General Education: ** NS
 - **Contributes To:** Animal Studies
 - **Source:** `Courses.txt`
 
@@ -421,13 +421,13 @@ All courses use the KIN48-XXXX prefix. Unless noted, credit hours follow the fin
 
 #### KIN48-324 — Motor Learning and Motor Control (4 credits)
 - **Prerequisites:** KIN48-123/121 AND KIN48-214, or instructor permission
-- **Offered:** Spring | **Paideia:** NS
+- **Offered:** Spring | **General Education: ** NS
 - **Contributes To:** Exercise and Sport Studies, Neuroscience
 - **Source:** `Courses.txt`
 
 #### KIN48-334 — Physiology of Exercise (4 credits)
 - **Prerequisites:** KIN48-123/121 AND KIN48-214, or instructor permission
-- **Offered:** Fall | **Paideia:** NS
+- **Offered:** Fall | **General Education: ** NS
 - **Required For:** B.A. (required), B.S. (required)
 - **Notes:** Lab required; covers musculoskeletal, nervous, cardiorespiratory, endocrine systems in relation to exercise
 - **Contributes To:** Exercise and Sport Studies, Neuroscience
@@ -435,7 +435,7 @@ All courses use the KIN48-XXXX prefix. Unless noted, credit hours follow the fin
 
 #### KIN48-344 — Biomechanics (4 credits)
 - **Prerequisites:** KIN48-123/121 AND KIN48-214, or instructor permission
-- **Offered:** Spring | **Paideia:** NS
+- **Offered:** Spring | **General Education: ** NS
 - **Required For:** B.A. (required), B.S. (required)
 - **Notes:** Lab required; computerized movement analysis
 - **Contributes To:** Exercise and Sport Studies
@@ -443,7 +443,7 @@ All courses use the KIN48-XXXX prefix. Unless noted, credit hours follow the fin
 
 #### KIN48-374 — Nutritional Sciences (4 credits)
 - **Prerequisites:** KIN48-234, or instructor permission
-- **Paideia:** NS
+- **General Education: ** NS
 - **Required For:** Applied Movement and Sport Studies minor elective pool
 - **Contributes To:** Applied Movement & Sport Studies, Exercise & Sport Studies, Health Studies
 - **Source:** `Courses.txt`
@@ -469,21 +469,21 @@ All courses use the KIN48-XXXX prefix. Unless noted, credit hours follow the fin
 
 #### KIN48-444 — Exercise Prescription (4 credits)
 - **Prerequisites:** KIN48-214 AND KIN48-334
-- **Offered:** Spring | **Paideia:** NS
+- **Offered:** Spring | **General Education: ** NS
 - **Required For:** B.A. (required); not required for B.S.
 - **Contributes To:** Exercise and Sport Studies
 - **Source:** `Courses.txt`
 
 #### KIN48-454 — Tissue Mechanics (4 credits)
 - **Prerequisites:** KIN48-123/121 AND either KIN48-344 or PHY53-154, or instructor permission
-- **Paideia:** NS
+- **General Education: ** NS
 - **Notes:** Cross-listed as BIO50-454; advanced course on bone, cartilage, tendons, ligaments, nerves, muscle
 - **Contributes To:** Health Studies
 - **Source:** `Courses.txt`
 
 #### KIN48-474 — Muscle Physiology (4 credits)
 - **Prerequisites:** KIN48-253/251, BIO50-253/251, or BIO50-424
-- **Paideia:** NS
+- **General Education: ** NS
 - **Contributes To:** Exercise & Sport Studies
 - **Source:** `Courses.txt`
 
@@ -493,21 +493,21 @@ All courses use the KIN48-XXXX prefix. Unless noted, credit hours follow the fin
 
 #### KIN48-481 — Introduction to Capstone (1 credit)
 - **Prerequisites:** KIN48-214 AND either KIN48-334 or KIN48-344
-- **Offered:** Spring | **Paideia:** WA
+- **Offered:** Spring | **General Education: ** WA
 - **Required For:** B.A. (required), B.S. (required)
 - **Notes:** First of two-course capstone sequence; research proposal development; writing-intensive; must obtain IRB approval if human participants involved
 - **Source:** `Courses.txt`, `Majoring___Minoring.txt`
 
 #### KIN48-483 — Experiential Capstone in Kinesiology (3 credits)
 - **Prerequisites:** KIN48-481
-- **Offered:** Fall | **Paideia:** WA
+- **Offered:** Fall | **General Education: ** WA
 - **Required For:** B.A. and B.S. (one of two options)
 - **Notes:** Field-based research; formal oral and written presentation of results
 - **Source:** `Courses.txt`, `Majoring___Minoring.txt`
 
 #### KIN48-493 — Experimental Capstone in Kinesiology (3 credits)
 - **Prerequisites:** KIN48-481
-- **Offered:** Fall | **Paideia:** WA
+- **Offered:** Fall | **General Education: ** WA
 - **Required For:** B.A. and B.S. (one of two options)
 - **Notes:** Laboratory-based research; formal oral and written presentation of results
 - **Source:** `Courses.txt`, `Majoring___Minoring.txt`
@@ -632,10 +632,10 @@ All courses use the KIN48-XXXX prefix. Unless noted, credit hours follow the fin
   - **What general docs must cover:** 127-credit minimum, 64-credit SU residency, last 32 in-residence, 2.000 GPA, 60% major residency, Application for Diploma
   - **Routing instruction:** Always retrieve `SU_General_Policies.txt` alongside `Majoring___Minoring.txt`
 
-- **Topic:** B.S. Paideia requirements (Natural Sciences Area)
+- **Topic:** B.S. General education requirements (Natural Sciences Area)
   - **What major docs cover:** B.S. supporting courses include Bio, Chem, Math, Physics; many KIN courses carry (NS)
   - **What general docs must cover:** Full B.S. additional requirements (Bio, Chem, Math, Physics sequences if not already in major); Exploration & Breadth
-  - **Routing instruction:** Retrieve `SU_General_Policies.txt` for full B.S. Paideia requirements; many B.S. supporting courses may satisfy these simultaneously — confirm with advisor
+  - **Routing instruction:** Retrieve `SU_General_Policies.txt` for full B.S. General education requirements; many B.S. supporting courses may satisfy these simultaneously — confirm with advisor
 
 - **Topic:** Pass/D/F grading option
   - **What major docs cover:** Not addressed
@@ -669,7 +669,7 @@ All courses use the KIN48-XXXX prefix. Unless noted, credit hours follow the fin
 
 - **Topic:** Latin Honors and Paideia with Distinction
   - **What major docs cover:** Not addressed
-  - **What general docs must cover:** GPA thresholds, Paideia Distinction requirements
+  - **What general docs must cover:** GPA thresholds, General Education Distinction requirements
   - **Routing instruction:** Always retrieve `SU_General_Policies.txt`
 
 - **Topic:** Disability accommodations
@@ -701,8 +701,8 @@ All courses use the KIN48-XXXX prefix. Unless noted, credit hours follow the fin
   - **Reason for gap:** Both Kinesiology.txt and Majoring___Minoring.txt refer to the Education Department without details
   - **Recommended fallback:** Direct to Education Department
 
-- **Topic:** Whether B.S. supporting courses double-satisfy Paideia B.S. Natural Sciences requirements
-  - **Reason for gap:** B.S. supporting courses (Bio, Chem, Physics, Calculus) overlap significantly with Paideia B.S. requirements; source documents do not clarify which courses satisfy which
+- **Topic:** Whether B.S. supporting courses double-satisfy General Education B.S. Natural Sciences requirements
+  - **Reason for gap:** B.S. supporting courses (Bio, Chem, Physics, Calculus) overlap significantly with General Education B.S. requirements; source documents do not clarify which courses satisfy which
   - **Recommended fallback:** Retrieve `SU_General_Policies.txt`; escalate to advisor
 
 - **Topic:** Which specific KIN elective courses satisfy the 8-credit elective requirement for the Kinesiology minor
@@ -730,7 +730,7 @@ All courses use the KIN48-XXXX prefix. Unless noted, credit hours follow the fin
 - Lab and equipment questions → `Resources___Facilities.txt`
 - Graduation or credit-count questions → add `SU_General_Policies.txt`
 - Health professions experiential programs → `SU_Resources_and_Financial.txt`
-- B.S. Paideia requirements interaction → `SU_General_Policies.txt` + advisor
+- B.S. General education requirements interaction → `SU_General_Policies.txt` + advisor
 
 **Degree path disambiguation triggers:**
 - "kinesiology degree" or "kinesiology major" without specifying B.A. or B.S. → ask which before routing; supporting course requirements differ substantially
@@ -751,12 +751,12 @@ All courses use the KIN48-XXXX prefix. Unless noted, credit hours follow the fin
 - Teacher certification pathway (Education Department referral needed)
 - KIN48-424 prerequisite (typo in source — 48-134 likely means 48-234)
 - Methods/Philosophy of Coaching course number discrepancy (48-182/192 vs. 48-202/212)
-- Which B.S. supporting courses satisfy Paideia B.S. requirements simultaneously
+- Which B.S. supporting courses satisfy General Education B.S. requirements simultaneously
 - Course substitutions or waivers
 
 **Always retrieve `SU_General_Policies.txt` alongside major docs when:**
 - Any graduation eligibility or credit count question
-- Any Paideia / gen-ed requirement question (especially B.S. Natural Sciences requirements)
+- Any general education requirement question (especially B.S. Natural Sciences requirements)
 - Any grading policy question (Pass/D/F, grade appeals, incomplete grades)
 - Any academic standing question (probation, dismissal, appeal)
 - Any transfer credit or credit-by-examination question

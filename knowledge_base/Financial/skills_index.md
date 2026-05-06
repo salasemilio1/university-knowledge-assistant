@@ -635,7 +635,7 @@ The following topics require retrieving BOTH this document AND `SU_General_Polic
   - **Routing instruction:** Retrieve both documents
 
 - **Topic:** Paideia with Distinction and community-engaged learning
-  - **What this doc covers:** CEL courses count as one of two distinctive Paideia experiences; how to find CEL courses
+  - **What this doc covers:** CEL courses count as one of two distinctive General Education experiences; how to find CEL courses
   - **What general doc must cover:** Full Paideia with Distinction requirements, application process, deadlines
   - **Routing instruction:** Retrieve both documents
 

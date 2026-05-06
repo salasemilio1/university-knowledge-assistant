@@ -565,10 +565,10 @@ This section indexes key SU course equivalents referenced across all transfer do
   - **What general docs must cover:** 127-credit minimum, 64-credit SU residency, last 32 in-residence, 2.000 GPA, 60% major residency, Application for Diploma process
   - **Routing instruction:** Always retrieve `SU_General_Policies.txt` alongside transfer docs for any graduation eligibility question
 
-- **Topic:** Paideia general education requirements
+- **Topic:** General education requirements
   - **What transfer docs cover:** Which gen-ed area (FA, H, NS, ScS) each transfer course satisfies
   - **What general docs must cover:** Full structure of FYS/AES, Language & Cultures, FRA, Power and Justice, Exploration & Breadth Parts I and II, Paideia with Distinction
-  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about gen-ed, breadth requirements, or Paideia; transfer docs indicate area but not full requirements
+  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about gen-ed, breadth requirements, or General Education; transfer docs indicate area but not full requirements
 
 - **Topic:** Power and Justice requirement and transfer credit
   - **What transfer docs cover:** Not addressed — no transfer course is listed as satisfying Power and Justice
@@ -739,7 +739,7 @@ This section indexes key SU course equivalents referenced across all transfer do
 
 **Always retrieve `SU_General_Policies.txt` alongside transfer docs when:**
 - Any graduation eligibility or total credit count question
-- Any Paideia / general education requirement question
+- Any general education requirement question
 - Any grading policy question (Pass/D/F, grade appeals, incomplete grades)
 - Any academic standing question (probation, dismissal, appeal)
 - Any detailed transfer credit policy question (60% residency, ELEC coding, P/CR grades)

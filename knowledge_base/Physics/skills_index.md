@@ -17,7 +17,7 @@ This index covers all documents provided for the Southwestern University Physics
 
 ### Physics Department Overview
 - **degree_relevance:** All
-- **description:** Provides a high-level overview of the Physics Department at Southwestern University. Describes the department's scope — from geophysics and atmospheric physics to quantum physics and engineering. Explains the Paideia connection and how physics enables interdisciplinary thinking. Mentions the Applied Physics Pre-Engineering Pathway (dual degree, three-year program) and the Fountainwood Observatory, which houses a research-quality reflecting telescope with a CCD camera donated by local engineer Max Allen. Includes links to alumni stories and news about the new engineering program. Names Steve Alexander as the department contact.
+- **description:** Provides a high-level overview of the Physics Department at Southwestern University. Describes the department's scope — from geophysics and atmospheric physics to quantum physics and engineering. Explains the General Education connection and how physics enables interdisciplinary thinking. Mentions the Applied Physics Pre-Engineering Pathway (dual degree, three-year program) and the Fountainwood Observatory, which houses a research-quality reflecting telescope with a CCD camera donated by local engineer Max Allen. Includes links to alumni stories and news about the new engineering program. Names Steve Alexander as the department contact.
 - **critical_data:**
   - Physics department covers: geophysics, atmospheric physics, mathematics, quantum physics
   - Fountainwood Observatory: research-quality reflecting telescope with digital CCD camera
@@ -47,7 +47,7 @@ This index covers all documents provided for the Southwestern University Physics
 
 ### Physics Courses
 - **degree_relevance:** All
-- **description:** Comprehensive listing of all current or recent Physics Department course offerings with full descriptions, credit hours, prerequisites, Paideia area designations, and offering schedules. Covers introductory courses (53-034 Earth Science, 53-064 Solar System, 53-074 Stars/Galaxies), calculus-based foundations (53-154, 53-164), upper-division courses (53-214 through 53-473), engineering-track courses (53-104, 53-112, 53-314, 53-434, 53-463, 53-473), and the capstone writing course (53-872). Many courses have irregular schedules (odd/even years). Includes Paideia area tags (NS, NSL) where applicable. Prerequisite chains are detailed and must be followed carefully for scheduling.
+- **description:** Comprehensive listing of all current or recent Physics Department course offerings with full descriptions, credit hours, prerequisites, General education area designations, and offering schedules. Covers introductory courses (53-034 Earth Science, 53-064 Solar System, 53-074 Stars/Galaxies), calculus-based foundations (53-154, 53-164), upper-division courses (53-214 through 53-473), engineering-track courses (53-104, 53-112, 53-314, 53-434, 53-463, 53-473), and the capstone writing course (53-872). Many courses have irregular schedules (odd/even years). Includes General education area tags (NS, NSL) where applicable. Prerequisite chains are detailed and must be followed carefully for scheduling.
 - **critical_data:**
   - PHY53-154 Fundamentals of Physics I: prereq MAT52-164 (concurrent OK); Fall; NSL
   - PHY53-164 Fundamentals of Physics II: prereq PHY53-154; Spring; NSL
@@ -146,7 +146,7 @@ This index covers all documents provided for the Southwestern University Physics
 
 *Source: `SU_General_Policies.txt`*
 
-### SU Paideia General Education Requirements (All Degree Paths)
+### SU General Education Requirements (All Degree Paths)
 
 | Requirement | Detail |
 |---|---|
@@ -157,7 +157,7 @@ This index covers all documents provided for the Southwestern University Physics
 | Exploration & Breadth Part I | One course each from FA, H, NS, ScS |
 | Exploration & Breadth Part II | One additional course from two of the four areas |
 
-Note: Many Physics courses carry NS or NSL Paideia designations and may satisfy Natural Sciences breadth requirements.
+Note: Many Physics courses carry NS or NSL General education designations and may satisfy Natural Sciences breadth requirements.
 
 *Source: `SU_General_Policies.txt`*
 
@@ -343,8 +343,8 @@ Note: Many Physics courses carry NS or NSL Paideia designations and may satisfy 
 - **Prerequisites:** None stated
 - **Corequisites:** None
 - **Offered:** Fall, Odd years
-- **Required For:** Not required for any degree path; may satisfy NS Paideia breadth
-- **Counts As:** NS (Paideia Natural Sciences); Contributes to Environmental Studies
+- **Required For:** Not required for any degree path; may satisfy NS General education breadth
+- **Counts As:** NS (General Education Natural Sciences); Contributes to Environmental Studies
 - **Notes:** Topics: geologic hazards, land management, water resources, hazardous waste, energy, minerals
 - **Source:** `Courses.txt`
 
@@ -770,11 +770,10 @@ Note: Many Physics courses carry NS or NSL Paideia designations and may satisfy 
   - **What general docs must cover:** 127-credit minimum, 64-credit SU residency, last 32 in-residence, 2.000 GPA, 60% major residency, Application for Diploma process
   - **Routing instruction:** Always retrieve `SU_General_Policies.txt` alongside `Majoring___Minoring.txt` for any graduation eligibility question
 
-- **Topic:** Paideia general education requirements
-  - **What major docs cover:** Which Physics courses carry NS/NSL or WA Paideia area designations (noted in Courses.txt)
+- **Topic:** General education requirements
+  - **What major docs cover:** Which Physics courses carry NS/NSL or WA General education area designations (noted in Courses.txt)
   - **What general docs must cover:** Full structure of FYS/AES, Language & Cultures, FRA, Power and Justice, Exploration & Breadth Parts I and II, Paideia with Distinction
-  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about gen-ed, breadth requirements, or Paideia
-
+  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about gen-ed, breadth requirements, or General Education 
 - **Topic:** Pass/D/F grading option
   - **What major docs cover:** Not addressed in Physics documents
   - **What general docs must cover:** Full Pass/D/F policy, deadlines to switch, GPA impact
@@ -862,9 +861,9 @@ Note: Many Physics courses carry NS or NSL Paideia designations and may satisfy 
   - **Reason for gap:** Not specified in physics documents
   - **Recommended fallback:** Direct student to academic advisor or registrar
 
-- **Topic:** Whether any Physics electives can satisfy the Paideia Power and Justice requirement
+- **Topic:** Whether any Physics electives can satisfy the general education Power and Justice requirement
   - **Reason for gap:** No PJ-designated courses listed in Physics Department documents
-  - **Recommended fallback:** Direct student to check the full Paideia course list; retrieve `SU_General_Policies.txt`
+  - **Recommended fallback:** Direct student to check the full General Education course list; retrieve `SU_General_Policies.txt`
 
 - **Topic:** Advising appointment requirements and process for physics students
   - **Reason for gap:** Not addressed in any Physics document
@@ -907,7 +906,7 @@ Note: Many Physics courses carry NS or NSL Paideia designations and may satisfy 
 - Any question about faculty contact, office locations, or research specialties: retrieve `Our_Faculty.txt`
 - Any question about graduation credit totals, residency minimums, GPA thresholds, or academic standing: retrieve `SU_General_Policies.txt` alongside major docs
 - Any question about study abroad, SURF, King Creativity Fund, or financial aid: retrieve `SU_Resources_and_Financial.txt`
-- Any question about Paideia, gen-ed requirements, or breadth courses: retrieve `SU_General_Policies.txt`
+- Any question about general education or breadth requirements: retrieve `SU_General_Policies.txt`
 
 **Degree path disambiguation triggers:**
 - If student says "the physics degree" or "physics major" without specifying B.A. or B.S., ask: "Are you pursuing the Bachelor of Arts (B.A.) or Bachelor of Science (B.S.) in Physics?"
@@ -933,7 +932,7 @@ Note: Many Physics courses carry NS or NSL Paideia designations and may satisfy 
 
 **Always retrieve `SU_General_Policies.txt` alongside major docs when:**
 - Any graduation eligibility or credit count question
-- Any Paideia / general education requirement question
+- Any general education requirement question
 - Any grading policy question (Pass/D/F, grade appeals, incomplete grades)
 - Any academic standing question (probation, dismissal, appeal)
 - Any transfer credit or credit-by-examination question

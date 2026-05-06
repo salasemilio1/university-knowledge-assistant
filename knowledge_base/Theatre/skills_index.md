@@ -68,7 +68,7 @@ This index covers the Theatre Department at Southwestern University's Sarofim Sc
 
 ### Performance Courses
 - **degree_relevance:** All
-- **description:** Lists all performance-track theatre courses. Includes Voice and Movement, Fundamentals of Acting (THE72-183, required core), Theatre Performance Practicum (one credit per main-stage role, max 4 credits, non-majors only), Alexander Technique (repeatable for credit), Theatre Dance (cross-listed as Dance 79-414), Acting: Realism, Departures from Realism, Musical Theatre Workshop (repeatable for credit), Theatre for Social Change: Practice and Performance, Feminism and Performance (cross-listed with Communication Studies 75-524 and Feminist Studies 04-724, FAP and WA designations), Acting: Poetic Language, Directing for the Theatre, and Advanced Directing (prerequisite Theatre 73-894). Multiple courses are repeatable for credit. Several courses carry Paideia area designations (FAP, WA noted for Feminism and Performance).
+- **description:** Lists all performance-track theatre courses. Includes Voice and Movement, Fundamentals of Acting (THE72-183, required core), Theatre Performance Practicum (one credit per main-stage role, max 4 credits, non-majors only), Alexander Technique (repeatable for credit), Theatre Dance (cross-listed as Dance 79-414), Acting: Realism, Departures from Realism, Musical Theatre Workshop (repeatable for credit), Theatre for Social Change: Practice and Performance, Feminism and Performance (cross-listed with Communication Studies 75-524 and Feminist Studies 04-724, FAP and WA designations), Acting: Poetic Language, Directing for the Theatre, and Advanced Directing (prerequisite Theatre 73-894). Multiple courses are repeatable for credit. Several courses carry General education area designations (FAP, WA noted for Feminism and Performance).
 - **critical_data:**
   - THE72-183 Fundamentals of Acting: required core course for both B.A. tracks and minor (via Design Fundamentals requirement)
   - THE72-193 Movement and Voice: listed as a core requirement in Majoring & Minoring document
@@ -76,7 +76,7 @@ This index covers the Theatre Department at Southwestern University's Sarofim Sc
   - Theatre Performance Practicum: non-majors only; max 4 credits; requires being cast in main-stage production
   - Alexander Technique: repeatable for credit
   - Musical Theatre Workshop: repeatable for credit
-  - Feminism and Performance: FAP and WA Paideia designations; cross-listed with Communication Studies and Feminist Studies
+  - Feminism and Performance: FAP and WA General education designations; cross-listed with Communication Studies and Feminist Studies
   - Theatre Dance: cross-listed with Dance 79-414
 
 ---
@@ -134,14 +134,14 @@ This index covers the Theatre Department at Southwestern University's Sarofim Sc
 
 ### High Impact Learning Experiences
 - **degree_relevance:** All
-- **description:** Describes the Theatre Department's requirement and offerings for high-impact learning experiences. Theatre majors are expected to engage in at least two high-impact experiences before graduation. Available options include: New York Arts Program, Study Abroad, London Semester Abroad, internships, Mask and Wig Association, Alpha Psi Omega, and Workshops and Guest Artists Series. The Center for Career and Professional Development can help with applications, resumes, and interviews. Funding options include the Sarofim Travel Grant (up to $700 per year), general tuition scholarships applicable to London Semester, Paideia scholarships, and Office of Intercultural Learning scholarships. Students in the Edinburgh festival program (Don Swan on the Royal Mile) are also referenced.
+- **description:** Describes the Theatre Department's requirement and offerings for high-impact learning experiences. Theatre majors are expected to engage in at least two high-impact experiences before graduation. Available options include: New York Arts Program, Study Abroad, London Semester Abroad, internships, Mask and Wig Association, Alpha Psi Omega, and Workshops and Guest Artists Series. The Center for Career and Professional Development can help with applications, resumes, and interviews. Funding options include the Sarofim Travel Grant (up to $700 per year), general tuition scholarships applicable to London Semester, General Education scholarships, and Office of Intercultural Learning scholarships. Students in the Edinburgh festival program (Don Swan on the Royal Mile) are also referenced.
 - **critical_data:**
   - Theatre majors must complete at least two high-impact experiences before graduation
   - Sarofim Travel Grant: up to $700, usable once per year throughout enrollment
   - London Semester Abroad can be supported by general tuition scholarships and financial aid
   - Center for Career and Professional Development assists with program applications
   - Programs include: NYAP, Study Abroad, London Semester, internships, Mask and Wig, Alpha Psi Omega, Workshops/Guest Artists
-  - Additional funding: Paideia scholarships, Office of Intercultural Learning scholarships
+  - Additional funding: General Education scholarships, Office of Intercultural Learning scholarships
 
 ---
 
@@ -255,7 +255,7 @@ This index covers the Theatre Department at Southwestern University's Sarofim Sc
 
 *Source: `SU_General_Policies.txt`*
 
-### SU Universal Curriculum Requirements (Paideia Framework)
+### SU Universal Curriculum Requirements (General Education)
 
 **Required for ALL degree paths:**
 - First-Year Seminar (FYS) or Advanced-Entry Seminar (AES): 4 credits
@@ -625,7 +625,7 @@ This index covers the Theatre Department at Southwestern University's Sarofim Sc
 - **Source:** `Performance_Courses.txt`
 
 #### Feminism and Performance
-- **Notes:** Cross-listed with Communication Studies 75-524 and Feminist Studies 04-724; carries FAP and WA Paideia designations; gender performance on stage, in daily life, and media
+- **Notes:** Cross-listed with Communication Studies 75-524 and Feminist Studies 04-724; carries FAP and WA General education designations; gender performance on stage, in daily life, and media
 - **Source:** `Performance_Courses.txt`
 
 #### Acting: Poetic Language
@@ -715,7 +715,7 @@ This index covers the Theatre Department at Southwestern University's Sarofim Sc
 
 **Q:** How do I get funding to study abroad for theatre?
 **Docs:** `High_Impact_Learning_Experiences.txt`, `SU_Resources_and_Financial.txt`
-**Routing Note:** High Impact doc describes Sarofim Travel Grant ($700/yr), Paideia scholarships, OIL scholarships; Resources & Financial doc has fuller financial aid information.
+**Routing Note:** High Impact doc describes Sarofim Travel Grant ($700/yr), General Education scholarships, OIL scholarships; Resources & Financial doc has fuller financial aid information.
 **Disambiguation Needed:** No.
 
 **Q:** What is the London internship program?
@@ -748,10 +748,10 @@ This index covers the Theatre Department at Southwestern University's Sarofim Sc
 **Routing Note:** Facilities document identifies the Heather Jean McGaughey Black Box as a 50-seat performance and classroom space; also used for Theatre Sustainability course and Tracks (spring 2026).
 **Disambiguation Needed:** No.
 
-**Q:** Can I take Feminism and Performance to satisfy a Paideia requirement?
+**Q:** Can I take Feminism and Performance to satisfy a General education requirement?
 **Docs:** `Performance_Courses.txt`, `SU_General_Policies.txt`
-**Routing Note:** Performance Courses notes FAP and WA Paideia designations for this course; General Policies has full Paideia structure.
-**Disambiguation Needed:** No — but confirm student's Paideia status via General Policies.
+**Routing Note:** Performance Courses notes FAP and WA General education designations for this course; General Policies has full General Education structure.
+**Disambiguation Needed:** No — but confirm student's General Education status via General Policies.
 
 **Q:** I want to be a dramaturg for an SSFA production. What do I need?
 **Docs:** `History_and_Literature_Courses.txt`
@@ -822,11 +822,10 @@ This index covers the Theatre Department at Southwestern University's Sarofim Sc
   - **What general docs must cover:** 127-credit minimum, 64-credit SU residency, last 32 in-residence, 2.000 overall GPA, 2.000 major GPA, 60% major residency, Application for Diploma process
   - **Routing instruction:** Always retrieve `SU_General_Policies.txt` alongside `Majoring___Minoring.txt` for any graduation eligibility question
 
-- **Topic:** Paideia general education requirements
+- **Topic:** General education requirements
   - **What major docs cover:** Feminism and Performance carries FAP and WA designations; Theatre Sustainability cross-listed with Environmental Studies; Theatre Dance cross-listed with Dance
   - **What general docs must cover:** Full FYS/AES, Language & Cultures, FRA, Power and Justice, Exploration & Breadth Parts I and II structure; Paideia with Distinction option
-  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about gen-ed, breadth requirements, or Paideia
-
+  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about gen-ed, breadth requirements, or General Education 
 - **Topic:** Pass/D/F grading option
   - **What major docs cover:** Not addressed
   - **What general docs must cover:** Full Pass/D/F policy, deadlines to switch, GPA impact
@@ -988,7 +987,7 @@ This index covers the Theatre Department at Southwestern University's Sarofim Sc
 
 **Always retrieve `SU_General_Policies.txt` alongside major docs when:**
 - Any graduation eligibility or credit count question
-- Any Paideia / general education requirement question
+- Any general education requirement question
 - Any grading policy question (Pass/D/F, grade appeals, incomplete grades)
 - Any academic standing question (probation, dismissal, appeal)
 - Any transfer credit or credit-by-examination question

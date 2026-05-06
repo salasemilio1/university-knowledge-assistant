@@ -39,7 +39,7 @@ This index covers the Department of Economics and Business at Southwestern Unive
 
 ### Business Courses — Full Catalog Listing
 - **degree_relevance:** B.A., Minor
-- **description:** Complete listing of all Business (BUS30-prefix) courses offered by the department. Includes introductory courses (BUS30-114 Fundamentals of Accounting, BUS30-154 Quantitative Methods), the gateway upper-level course BUS30-214 Foundations of Business, and upper-level courses in Finance (BUS30-474), Investments (BUS30-574), Intermediate Accounting (BUS30-204), Financial Statement Analysis (BUS30-594), Organizational Behavior (BUS30-554), Operations Research (BUS30-414), Digital Marketing (BUS30-434), Consumer Behavior (BUS30-394), Auditing (BUS30-454), Innovation and Strategy (BUS30-464), International Business (BUS30-584), and the capstone BUS30-964. Also includes the Financial Analyst Program course BUS30-912 and Independent Study options (BUS30-951 through BUS30-954). Notes prerequisite chains, Paideia ScS designations, and when courses are offered.
+- **description:** Complete listing of all Business (BUS30-prefix) courses offered by the department. Includes introductory courses (BUS30-114 Fundamentals of Accounting, BUS30-154 Quantitative Methods), the gateway upper-level course BUS30-214 Foundations of Business, and upper-level courses in Finance (BUS30-474), Investments (BUS30-574), Intermediate Accounting (BUS30-204), Financial Statement Analysis (BUS30-594), Organizational Behavior (BUS30-554), Operations Research (BUS30-414), Digital Marketing (BUS30-434), Consumer Behavior (BUS30-394), Auditing (BUS30-454), Innovation and Strategy (BUS30-464), International Business (BUS30-584), and the capstone BUS30-964. Also includes the Financial Analyst Program course BUS30-912 and Independent Study options (BUS30-951 through BUS30-954). Notes prerequisite chains, Gen Ed ScS designations, and when courses are offered.
 - **critical_data:**
   - BUS30-114 Fundamentals of Accounting: no prerequisites, offered Fall/Spring, ScS
   - BUS30-214 Foundations of Business: requires BUS30-114, ECO31-104, MAT52-114, MAT52-164; sophomore standing; Fall/Spring, ScS
@@ -361,7 +361,7 @@ Source: `SU_General_Policies.txt`
 | Graduation Application | "Application for Diploma" must be filed; financial holds block diploma |
 | Degree Conferral Dates | December, May, August only; Commencement held once per year in May |
 
-### SU Universal Curriculum Requirements (Paideia Framework)
+### SU Universal Curriculum Requirements (General Education)
 
 Source: `SU_General_Policies.txt`
 
@@ -371,7 +371,7 @@ Source: `SU_General_Policies.txt`
 - Power and Justice (PJ) course: 1 course, 3-4 credits (cannot be satisfied by transfer credit)
 - Exploration and Breadth: 6 courses from outside the major (Fine Arts, Humanities, Natural Sciences, Social Sciences)
 
-Note: Many Economics and Business courses carry ScS (Social Sciences) designation, satisfying Paideia Exploration and Breadth requirements. Writing Attentive (WA) courses satisfy university writing requirements.
+Note: Many Economics and Business courses carry ScS (Social Sciences) designation, satisfying General Education Exploration and Breadth requirements. Writing Attentive (WA) courses satisfy university writing requirements.
 
 ---
 
@@ -562,7 +562,7 @@ Note: Many Economics and Business courses carry ScS (Social Sciences) designatio
 - **Prerequisites:** None
 - **Offered:** Fall, Spring
 - **Required For:** B.A. Business (core), Paired Business-Economics (core), Paired Art History-Business (core), Business Minor, Rice MAcc partnership (required by end of junior year)
-- **Counts As:** Core requirement; Paideia ScS
+- **Counts As:** Core requirement; Gen Ed ScS
 - **Notes:** No prior accounting knowledge assumed; covers financial and managerial accounting
 - **Source:** `Business_Courses.txt`, `Business_Majoring___Minoring.txt`
 
@@ -587,7 +587,7 @@ Note: Many Economics and Business courses carry ScS (Social Sciences) designatio
 - **Prerequisites:** BUS30-114, ECO31-104, MAT52-114, MAT52-164; sophomore standing required
 - **Offered:** Fall, Spring
 - **Required For:** B.A. Business (core), Paired Business-Economics (core), Paired Art History-Business (core), Business Minor
-- **Counts As:** Core requirement; Paideia ScS; gateway to most upper-level business courses
+- **Counts As:** Core requirement; Gen Ed ScS; gateway to most upper-level business courses
 - **Notes:** All four prerequisites plus sophomore standing required — students must plan ahead
 - **Source:** `Business_Courses.txt`, `Business_Majoring___Minoring.txt`
 
@@ -727,7 +727,7 @@ Note: Many Economics and Business courses carry ScS (Social Sciences) designatio
 - **Prerequisites:** None
 - **Offered:** Fall, Spring
 - **Required For:** All degree paths in the department (Business, Economics, both paired majors, both minors)
-- **Counts As:** Core requirement for all programs; Paideia ScS; universal gateway course
+- **Counts As:** Core requirement for all programs; Gen Ed ScS; universal gateway course
 - **Source:** `Economics_Courses.txt`
 
 #### ECO31-214 — Money, Banking and Financial Markets
@@ -743,7 +743,7 @@ Note: Many Economics and Business courses carry ScS (Social Sciences) designatio
 - **Prerequisites:** ECO31-104 and MAT52-164, or instructor permission
 - **Offered:** Fall
 - **Required For:** B.A. Economics (core), Paired Business-Economics (core), Economics Minor (one of two options)
-- **Counts As:** Core requirement for Economics; Paideia ScS
+- **Counts As:** Core requirement for Economics; Gen Ed ScS
 - **Notes:** Intended for Economics majors and minors; price theory, production, income distribution
 - **Source:** `Economics_Courses.txt`, `Economics_Majoring___Minoring.txt`
 
@@ -752,7 +752,7 @@ Note: Many Economics and Business courses carry ScS (Social Sciences) designatio
 - **Prerequisites:** ECO31-104 and MAT52-164
 - **Offered:** Spring
 - **Required For:** B.A. Economics (core), Paired Business-Economics (core), Economics Minor (one of two options)
-- **Counts As:** Core requirement for Economics; Paideia ScS
+- **Counts As:** Core requirement for Economics; Gen Ed ScS
 - **Notes:** Intended for Economics majors and minors; employment, inflation, growth, balance of payments
 - **Source:** `Economics_Courses.txt`, `Economics_Majoring___Minoring.txt`
 
@@ -767,7 +767,7 @@ Note: Many Economics and Business courses carry ScS (Social Sciences) designatio
 - **Prerequisites:** ECO31-224, ECO31-234, MAT52-114, or instructor permission
 - **Offered:** Fall
 - **Required For:** B.A. Economics (required), Paired Business-Economics (required)
-- **Counts As:** Core requirement for Economics; Writing Attentive (WA); contributes to Data Analytics and Data Science; Paideia ScS
+- **Counts As:** Core requirement for Economics; Writing Attentive (WA); contributes to Data Analytics and Data Science; Gen Ed ScS
 - **Notes:** Major research paper required; regular computer lab; cross-sectional data and statistical analysis
 - **Source:** `Economics_Courses.txt`, `Economics_Majoring___Minoring.txt`
 
@@ -827,7 +827,7 @@ Note: Many Economics and Business courses carry ScS (Social Sciences) designatio
 - **Prerequisites:** Senior standing, ECO31-224, ECO31-234, ECO31-314, or instructor permission
 - **Offered:** Spring only
 - **Required For:** B.A. Economics (required), Paired Business-Economics (required)
-- **Counts As:** Capstone; Writing Attentive (WA); Paideia ScS
+- **Counts As:** Capstone; Writing Attentive (WA); Gen Ed ScS
 - **Notes:** MUST be taken spring of senior year; topics vary by year; group and/or individual research projects
 - **Source:** `Economics_Courses.txt`, `Economics_Majoring___Minoring.txt`
 
@@ -927,9 +927,9 @@ Note: Many Economics and Business courses carry ScS (Social Sciences) designatio
 **Routing Note:** BUS30-474 is required core; offered Fall and Spring; course repeat policies and GPA recalculation in SU_General_Policies.txt.
 **Disambiguation Needed:** No — but requires both major doc AND general policies for full answer.
 
-**Q:** Do any business courses count toward Paideia requirements?
+**Q:** Do any business courses count toward General education requirements?
 **Docs:** `Business_Courses.txt`, `Economics_Courses.txt`, `SU_General_Policies.txt`
-**Routing Note:** Multiple courses marked ScS (Social Sciences Paideia area); full Paideia framework in SU_General_Policies.txt.
+**Routing Note:** Multiple courses marked ScS (Social Sciences General education area); full General education framework in SU_General_Policies.txt.
 **Disambiguation Needed:** No
 
 **Q:** I'm transferring in with 30 credits. Which economics courses will count?
@@ -1021,10 +1021,10 @@ Note: Many Economics and Business courses carry ScS (Social Sciences) designatio
   - **What general docs must cover:** 127-credit minimum, 64-credit SU residency, last 32 in-residence, 2.000 GPA both cumulative and SU-only, 60% major residency, Application for Diploma process and financial hold implications
   - **Routing instruction:** Always retrieve `SU_General_Policies.txt` alongside major requirements doc for any graduation eligibility question
 
-- **Topic:** Paideia general education requirements
+- **Topic:** General education requirements
   - **What major docs cover:** Which courses carry ScS designation; WA courses (ECO31-314, ECO31-964)
   - **What general docs must cover:** Full FYS/AES, Language and Cultures, FRA, Power and Justice, Exploration and Breadth Parts I and II structure; Paideia with Distinction requirements and deadlines
-  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about Paideia, gen-ed, breadth requirements, or what courses fulfill specific Paideia areas
+  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about General Education, gen-ed, breadth requirements, or what courses fulfill specific General education areas
 
 - **Topic:** Pass/D/F grading option
   - **What major docs cover:** Not addressed in major documents
@@ -1179,7 +1179,7 @@ Note: Many Economics and Business courses carry ScS (Social Sciences) designatio
 
 **Always retrieve `SU_General_Policies.txt` alongside major docs when:**
 - Any graduation eligibility or credit count question
-- Any Paideia / general education requirement question
+- Any general education requirement question
 - Any grading policy question (Pass/D/F, grade appeals, incomplete grades)
 - Any academic standing question (probation, dismissal, appeal)
 - Any transfer credit or credit-by-examination question

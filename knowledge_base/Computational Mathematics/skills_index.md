@@ -50,7 +50,7 @@ This index covers all available documents for the Computational Mathematics prog
 
 ### Computer Science Courses
 - **degree_relevance:** B.A., B.S.
-- **description:** Lists all current or recent Computer Science (CSC54-prefix) course offerings with full descriptions, prerequisites, offering terms, and Paideia designations. Covers CSC54-144 through CSC54-894, including all courses required or eligible for the Computational Mathematics major: CSC54-184 (Computer Science I, Fall/Spring), CSC54-284 (Computer Science II, Spring), CSC54-384 (Discrete Mathematics, Fall), CSC54-394 (Computer Organization, Fall), CSC54-454 (Algorithms, Spring), CSC54-414 (Operations Research), CSC54-514 (Database Management), and CSC54-894 (Senior Seminar in Software Engineering, Spring). Also describes elective and non-major courses: CSC54-144 (Explorations in Computing), CSC54-291 (Puzzling Programs), CSC54-424 (Artificial Intelligence), CSC54-474 (Programming Languages), CSC54-524 (Introduction to Numerical Analysis), CSC54-534 (Functional Programming), CSC54-644 (Computer Systems), CSC54-684 (Theory of Computation), and CSC54-844 (Seminar in Special Topics). Notes which courses contribute to Data Analytics and Data Science, Design Thinking, and Neuroscience Paideia tracks.
+- **description:** Lists all current or recent Computer Science (CSC54-prefix) course offerings with full descriptions, prerequisites, offering terms, and General education designations. Covers CSC54-144 through CSC54-894, including all courses required or eligible for the Computational Mathematics major: CSC54-184 (Computer Science I, Fall/Spring), CSC54-284 (Computer Science II, Spring), CSC54-384 (Discrete Mathematics, Fall), CSC54-394 (Computer Organization, Fall), CSC54-454 (Algorithms, Spring), CSC54-414 (Operations Research), CSC54-514 (Database Management), and CSC54-894 (Senior Seminar in Software Engineering, Spring). Also describes elective and non-major courses: CSC54-144 (Explorations in Computing), CSC54-291 (Puzzling Programs), CSC54-424 (Artificial Intelligence), CSC54-474 (Programming Languages), CSC54-524 (Introduction to Numerical Analysis), CSC54-534 (Functional Programming), CSC54-644 (Computer Systems), CSC54-684 (Theory of Computation), and CSC54-844 (Seminar in Special Topics). Notes which courses contribute to Data Analytics and Data Science, Design Thinking, and Neuroscience General Education tracks.
 - **critical_data:**
   - CSC54-144: Cannot count toward CS major or minor; for non-majors; (NS) designation
   - CSC54-184: Offered Fall and Spring; prerequisite for virtually all CS upper-level courses; (NS)
@@ -74,7 +74,7 @@ This index covers all available documents for the Computational Mathematics prog
   - what is CSC54-394 computer organization
   - what is artificial intelligence course about
   - what is database management
-  - what paideia credit do CS courses give
+  - what general education credit do CS courses give
   - what is CSC54-684 theory of computation
 
 ---
@@ -210,7 +210,7 @@ Source: `SU_General_Policies.txt`
 | Graduation Application | "Application for Diploma" must be filed; financial holds block diploma |
 | Degree Conferral Dates | December, May, August only; Commencement held once per year in May |
 
-### SU Universal Curriculum Requirements (Paideia Framework)
+### SU Universal Curriculum Requirements (General Education)
 
 **Required for ALL degree paths:**
 - First-Year Seminar (FYS) or Advanced-Entry Seminar (AES): 4 credits
@@ -439,7 +439,7 @@ Source: `SU_General_Policies.txt`
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** NOT eligible for CS major or minor
-- **Counts As:** Paideia (NS); contributes to Data Analytics and Data Science; non-major course only
+- **Counts As:** General Education (NS); contributes to Data Analytics and Data Science; non-major course only
 - **Notes:** AP CS Principles (score 4–5) earns credit for this course only; intended for humanities, social science, and fine arts majors
 - **Source:** `Courses.txt`, `Placement_Information.txt`
 
@@ -451,7 +451,7 @@ Source: `SU_General_Policies.txt`
 - **Corequisites:** None
 - **Offered:** Fall and Spring
 - **Required For:** Computational Mathematics B.A. and B.S. (core required)
-- **Counts As:** Required core; Paideia (NS); contributes to Data Analytics and Data Science
+- **Counts As:** Required core; General Education (NS); contributes to Data Analytics and Data Science
 - **Notes:** AP CS A (score 4–5) earns credit for this course; COSC 1337 transfers as this course; cannot be taken out of sequence without departmental approval; taught in Java
 - **Source:** `Courses.txt`, `Majoring___Minoring.txt`, `Placement_Information.txt`
 
@@ -463,7 +463,7 @@ Source: `SU_General_Policies.txt`
 - **Corequisites:** None
 - **Offered:** Spring only
 - **Required For:** Computational Mathematics B.A. and B.S. (core required)
-- **Counts As:** Required core; Paideia (NS); contributes to Design Thinking
+- **Counts As:** Required core; General Education (NS); contributes to Design Thinking
 - **Notes:** Spring only — students who take CSC54-184 in Spring must wait until the following Spring for CSC54-284; COSC 2336 transfers as this course; cannot be taken out of sequence without departmental approval
 - **Source:** `Courses.txt`, `Majoring___Minoring.txt`, `Placement_Information.txt`
 
@@ -475,7 +475,7 @@ Source: `SU_General_Policies.txt`
 - **Corequisites:** None
 - **Offered:** Fall only
 - **Required For:** Computational Mathematics B.A. and B.S. (core required)
-- **Counts As:** Required core; Paideia (NS); also cross-listed as MAT52-384
+- **Counts As:** Required core; General Education (NS); also cross-listed as MAT52-384
 - **Notes:** Three prerequisites required — plan carefully; Fall only; cross-listed with Mathematics
 - **Source:** `Courses.txt`, `Majoring___Minoring.txt`
 
@@ -487,7 +487,7 @@ Source: `SU_General_Policies.txt`
 - **Corequisites:** None
 - **Offered:** Fall only
 - **Required For:** Computational Mathematics B.A. and B.S. (core required)
-- **Counts As:** Required core; Paideia (NS)
+- **Counts As:** Required core; General Education (NS)
 - **Notes:** Prerequisite for CSC54-474 (Programming Languages) and CSC54-644 (Computer Systems); Fall only
 - **Source:** `Courses.txt`, `Majoring___Minoring.txt`
 
@@ -499,7 +499,7 @@ Source: `SU_General_Policies.txt`
 - **Corequisites:** None
 - **Offered:** Spring only
 - **Required For:** Computational Mathematics B.A. and B.S. (core required)
-- **Counts As:** Required core; Paideia (NS); contributes to Design Thinking
+- **Counts As:** Required core; General Education (NS); contributes to Design Thinking
 - **Notes:** Cannot be taken out of sequence without departmental approval; prerequisite for CSC54-894 (one of three qualifying options); Spring only; implemented in C++
 - **Source:** `Courses.txt`, `Majoring___Minoring.txt`
 
@@ -523,7 +523,7 @@ Source: `SU_General_Policies.txt`
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Elective pool for Computational Mathematics B.A. and B.S. (choose 2 of 4)
-- **Counts As:** Elective pool course; Paideia (NS); contributes to Data Analytics and Data Science
+- **Counts As:** Elective pool course; General Education (NS); contributes to Data Analytics and Data Science
 - **Notes:** One of three qualifying courses required for CSC54-894 Senior Seminar admission
 - **Source:** `Courses.txt`, `Majoring___Minoring.txt`
 
@@ -535,7 +535,7 @@ Source: `SU_General_Policies.txt`
 - **Corequisites:** None
 - **Offered:** Spring only
 - **Required For:** Capstone option for Computational Mathematics B.A. and B.S.
-- **Counts As:** Capstone requirement; Paideia (NS)(WA); includes Major Field Test
+- **Counts As:** Capstone requirement; General Education (NS)(WA); includes Major Field Test
 - **Notes:** Requires 5 CS courses at 300+ level before enrollment; must have completed one of CSC54-454, CSC54-514, or CSC54-474; Spring only; students work on a major group semester project
 - **Source:** `Courses.txt`, `Majoring___Minoring.txt`
 
@@ -559,7 +559,7 @@ Source: `SU_General_Policies.txt`
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Approved upper-level elective for Computational Mathematics
-- **Counts As:** Approved upper-level elective; Paideia (NS); contributes to Neuroscience
+- **Counts As:** Approved upper-level elective; General Education (NS); contributes to Neuroscience
 - **Notes:** Topics include deep neural networks and generative AI; strong elective for CS-leaning students
 - **Source:** `Courses.txt`
 
@@ -571,7 +571,7 @@ Source: `SU_General_Policies.txt`
 - **Corequisites:** None
 - **Offered:** Fall
 - **Required For:** Approved upper-level elective for Computational Mathematics
-- **Counts As:** Approved upper-level elective; Paideia (NS); one of three qualifying courses for CSC54-894 admission
+- **Counts As:** Approved upper-level elective; General Education (NS); one of three qualifying courses for CSC54-894 admission
 - **Notes:** Fall only; required to have been completed for CSC54-894 admission (as one of three eligible options)
 - **Source:** `Courses.txt`
 
@@ -583,7 +583,7 @@ Source: `SU_General_Policies.txt`
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Approved upper-level elective for Computational Mathematics
-- **Counts As:** Approved upper-level elective; Paideia (NS)
+- **Counts As:** Approved upper-level elective; General Education (NS)
 - **Notes:** Uses Haskell, Lisp, or ML; programming-intensive with many projects
 - **Source:** `Courses.txt`
 
@@ -595,7 +595,7 @@ Source: `SU_General_Policies.txt`
 - **Corequisites:** None
 - **Offered:** Spring
 - **Required For:** Approved upper-level elective for Computational Mathematics
-- **Counts As:** Approved upper-level elective; Paideia (NS)
+- **Counts As:** Approved upper-level elective; General Education (NS)
 - **Notes:** Covers operating systems and computer networks
 - **Source:** `Courses.txt`
 
@@ -607,7 +607,7 @@ Source: `SU_General_Policies.txt`
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Approved upper-level elective for Computational Mathematics
-- **Counts As:** Approved upper-level elective; Paideia (NS)
+- **Counts As:** Approved upper-level elective; General Education (NS)
 - **Notes:** Includes programming component; covers Turing machines and decidability
 - **Source:** `Courses.txt`
 
@@ -619,7 +619,7 @@ Source: `SU_General_Policies.txt`
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Approved upper-level elective for Computational Mathematics (course number 844 qualifies as 300+ level)
-- **Counts As:** Approved upper-level elective; Paideia (NS); repeatable for credit
+- **Counts As:** Approved upper-level elective; General Education (NS); repeatable for credit
 - **Notes:** Topics vary; limited enrollment; may be repeated for credit
 - **Source:** `Courses.txt`
 
@@ -795,9 +795,9 @@ Source: `SU_General_Policies.txt`
 **Routing Note:** Career and internship resources (ACM, IBM Extreme Blue, Google, RADIANT, IBM Research) are listed in the resources document.
 **Disambiguation Needed:** No
 
-**Q:** Do my computational math courses count toward the Paideia Natural Science requirement?
+**Q:** Do my computational math courses count toward the General Education Natural Science requirement?
 **Docs:** `Courses.txt`, `SU_General_Policies.txt`
-**Routing Note:** Many required CS courses carry (NS) Paideia designation per the courses document; full Paideia Exploration and Breadth structure is in general policies.
+**Routing Note:** Many required CS courses carry (NS) General Education designation per the courses document; full General Education Exploration and Breadth structure is in general policies.
 **Disambiguation Needed:** No
 
 **Q:** Can I study abroad and have those credits count toward the computational math major?
@@ -834,10 +834,9 @@ Source: `SU_General_Policies.txt`
   - **What general docs must cover:** 127-credit minimum, 64-credit SU residency, last 32 in-residence, 2.000 GPA overall, Application for Diploma process, degree conferral dates
   - **Routing instruction:** Always retrieve `SU_General_Policies.txt` alongside `Majoring___Minoring.txt` for any graduation eligibility question
 
-- **Topic:** Paideia general education requirements
-  - **What major docs cover:** Individual course Paideia designations (NS, WA) noted in Courses.txt; no comprehensive Paideia framework coverage in department documents
-  - **What general docs must cover:** Full FYS/AES, Language & Cultures, FRA, Power and Justice, Exploration & Breadth Parts I and II structure; which major courses double-count for Paideia
-  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any Paideia or gen-ed question
+- **Topic:** General education requirements
+  - **What major docs cover:** Individual course General education designations (NS, WA) noted in Courses.txt; no comprehensive General education framework coverage in department documents
+  - **What general docs must cover:** Full FYS/AES, Language & Cultures, FRA, Power and Justice, Exploration & Breadth Parts I and II structure; which major courses double-count for General Education  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any General Education or gen-ed question
 
 - **Topic:** B.S. supporting science courses vs. SU-wide B.S. degree requirements
   - **What major docs cover:** Four specific supporting science courses required for Computational Mathematics B.S. (Bio, Chem, Physics)
@@ -965,7 +964,7 @@ Source: `SU_General_Policies.txt`
 - Any placement, AP credit, or community college transfer question: retrieve `Placement_Information.txt`; also retrieve `SU_General_Policies.txt` for university-wide transfer rules
 - Any career, internship, or graduate school question: retrieve `Resources.txt`
 - Any club, honor society, or departmental award question: retrieve `Clubs_and_Honor_Societies.txt` and/or `For_Current_Students.txt`
-- Any Paideia or gen-ed requirement question: retrieve `Courses.txt` (for course Paideia designations) + `SU_General_Policies.txt`
+- Any General Education or gen-ed requirement question: retrieve `Courses.txt` (for course General education designations) + `SU_General_Policies.txt`
 - Any capstone question: retrieve both `Majoring___Minoring.txt` AND `Courses.txt` (CSC54-894 has detailed prerequisites)
 
 **Degree path disambiguation triggers:**
@@ -992,7 +991,7 @@ Source: `SU_General_Policies.txt`
 
 **Always retrieve `SU_General_Policies.txt` alongside major docs when:**
 - Any graduation eligibility or credit count question
-- Any Paideia / general education requirement question
+- Any general education requirement question
 - Any grading policy question (Pass/D/F, grade appeals, incomplete grades)
 - Any academic standing question (probation, dismissal, appeal)
 - Any transfer credit or credit-by-examination question

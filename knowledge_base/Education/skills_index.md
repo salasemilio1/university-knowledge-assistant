@@ -86,14 +86,14 @@
 
 ### Courses in Education
 - **degree_relevance:** All
-- **description:** Lists all current or recent course offerings in the Education department with full descriptions, prerequisites, offering schedules, and Paideia area tags. Department prefix is Education 40- (general), 43- (Special Education), 44- (All-Level), 45- (Secondary). Courses span from introductory survey (40-114 Educational Technology, 40-144 Survey of Exceptionalities) through field-based methods blocks (40-714, 40-734, 40-744, 40-764) to student teaching (40-804, 40-808, 40-824, 40-828, 40-844). All courses satisfy Social Sciences (ScS) Paideia area. Several require admission to the Teacher Certification Program as a prerequisite. Field-based fall courses begin on the Georgetown ISD calendar, before Southwestern classes start. Student teaching courses must be taken Pass/D/F. One non-Education course is included: 02-201 Fostering Collaborative Opportunities in the Natural Sciences (Natural Sciences Division seminar).
+- **description:** Lists all current or recent course offerings in the Education department with full descriptions, prerequisites, offering schedules, and General education area tags. Department prefix is Education 40- (general), 43- (Special Education), 44- (All-Level), 45- (Secondary). Courses span from introductory survey (40-114 Educational Technology, 40-144 Survey of Exceptionalities) through field-based methods blocks (40-714, 40-734, 40-744, 40-764) to student teaching (40-804, 40-808, 40-824, 40-828, 40-844). All courses satisfy Social Sciences (ScS) General education area. Several require admission to the Teacher Certification Program as a prerequisite. Field-based fall courses begin on the Georgetown ISD calendar, before Southwestern classes start. Student teaching courses must be taken Pass/D/F. One non-Education course is included: 02-201 Fostering Collaborative Opportunities in the Natural Sciences (Natural Sciences Division seminar).
 - **critical_data:**
-  - All Education courses count as Social Sciences (ScS) for Paideia breadth
+  - All Education courses count as Social Sciences (ScS) for General education breadth
   - 40-114 Educational Technology: (ScS), FALL; no prereq stated beyond "permission for non-certifying students"
   - 40-124 Foundations & Curriculum: (ScS)(WA), SPRING; also Contributes to Race and Ethnicity Studies
   - 40-144 Survey of Exceptionalities: (ScS), SPRING; 15 hours field experience required
   - 40-204 Innovative Schools: (ScS), FALL ODD years only
-  - 40-234 Schools, Society and Diversity: (ScS)(SJ)(PJ), FALL and SPRING; satisfies Power and Justice Paideia requirement
+  - 40-234 Schools, Society and Diversity: (ScS)(SJ)(PJ), FALL and SPRING; satisfies Power and Justice General education requirement
   - 40-264 Teaching Culturally/Linguistically Diverse Learners: (ScS), FALL EVEN years only; prereq sophomore standing
   - 40-274 Multicultural Children's Literature: (ScS), FALL
   - 40-294 Child & Curriculum Early Childhood Ed: SPRING ODD years only
@@ -189,7 +189,7 @@
 | Graduation Application | "Application for Diploma" must be filed; financial holds block diploma |
 | Degree Conferral Dates | December, May, August only; Commencement held once per year in May |
 
-### SU Universal Curriculum Requirements (Paideia Framework)
+### SU Universal Curriculum Requirements (General Education)
 
 **Required for ALL degree paths:**
 - First-Year Seminar (FYS) or Advanced-Entry Seminar (AES): 4 credits
@@ -200,7 +200,7 @@
   - Part I: one course each from Fine Arts (FA), Humanities (H), Natural Sciences (NS), Social Sciences (ScS)
   - Part II: one additional course from two of the four areas
 
-**Note for Education students:** Education 40-234 (Schools, Society and Diversity) satisfies the Power and Justice (PJ) Paideia requirement. All Education courses carry the (ScS) Social Sciences Paideia tag.
+**Note for Education students:** Education 40-234 (Schools, Society and Diversity) satisfies the Power and Justice General Education (PJ) tag.
 
 ---
 
@@ -338,7 +338,7 @@ Does not meet state teacher certification requirements on its own.
 - **Corequisites:** None
 - **Offered:** Fall
 - **Required For:** EC–6 track (as part of field-based prerequisites); referenced in multiple methods course prereqs
-- **Counts As:** Social Sciences (ScS) Paideia breadth
+- **Counts As:** Social Sciences (ScS) General education breadth
 - **Notes:** Students complete Google Educator Training, design web pages and e-portfolios; requires school observations
 - **Source:** `Courses.txt`
 
@@ -378,8 +378,8 @@ Does not meet state teacher certification requirements on its own.
 - **Corequisites:** None
 - **Offered:** Fall and Spring
 - **Required For:** Common major core (Education 40-593 area; confirm with advisor)
-- **Counts As:** Social Sciences (ScS), Social Justice (SJ), **Power and Justice (PJ)** — satisfies Paideia PJ requirement
-- **Notes:** One of few courses across the university satisfying the Power and Justice Paideia requirement; contributes to Race and Ethnicity Studies (Group-Themed)
+- **Counts As:** Social Sciences (ScS), Social Justice (SJ), **Power and Justice (PJ)** — satisfies General Education PJ requirement
+- **Notes:** One of few courses across the university satisfying the Power and Justice General education requirement; contributes to Race and Ethnicity Studies (Group-Themed)
 - **Source:** `Courses.txt`
 
 ### Education 40-264 — Teaching Culturally and Linguistically Diverse Learners
@@ -790,7 +790,7 @@ Does not meet state teacher certification requirements on its own.
 
 **Q:** Does any Education course satisfy the Power and Justice requirement?
 **Docs:** `Courses.txt`
-**Routing Note:** Education 40-234 (Schools, Society and Diversity) satisfies the PJ Paideia requirement.
+**Routing Note:** Education 40-234 (Schools, Society and Diversity) satisfies the PJ General education requirement.
 **Disambiguation Needed:** No
 
 **Q:** What is the field-based semester and when does it start?
@@ -868,9 +868,9 @@ Does not meet state teacher certification requirements on its own.
 **Routing Note:** Multiple examples of undergraduate students co-presenting at national and international conferences and earning student travel awards through FSP research.
 **Disambiguation Needed:** No
 
-**Q:** What is Education 40-234 and does it count for anything special in Paideia?
+**Q:** What is Education 40-234 and does it count for anything special in General Education?
 **Docs:** `Courses.txt`
-**Routing Note:** Education 40-234 satisfies Social Sciences (ScS), Social Justice (SJ), and Power and Justice (PJ) Paideia requirements.
+**Routing Note:** Education 40-234 satisfies Social Sciences (ScS), Social Justice (SJ), and Power and Justice (PJ) General education requirements.
 **Disambiguation Needed:** No
 
 **Q:** I want to become an Art teacher — what do I need for all-level Art certification?
@@ -927,11 +927,10 @@ Does not meet state teacher certification requirements on its own.
   - **What general docs must cover:** 127-credit minimum, 64-credit SU residency, last 32 in-residence, 2.000 GPA, 60% major residency, Application for Diploma process
   - **Routing instruction:** Always retrieve `SU_General_Policies.txt` alongside major requirements docs for any graduation eligibility question
 
-- **Topic:** Paideia general education requirements
-  - **What major docs cover:** Which Education courses satisfy Paideia tags (all Education courses = ScS; Education 40-234 = PJ)
+- **Topic:** General education requirements
+  - **What major docs cover:** Which Education courses satisfy General education tags (all Education courses = ScS; Education 40-234 = PJ)
   - **What general docs must cover:** Full structure of FYS/AES, Language & Cultures, FRA, Power and Justice, Exploration & Breadth Parts I and II, Paideia with Distinction
-  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about gen-ed, breadth requirements, or Paideia
-
+  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about gen-ed, breadth requirements, or General Education 
 - **Topic:** Pass/D/F grading option
   - **What major docs cover:** Student teaching courses (40-804, 808, 824, 828, 844) and Education 40-700 must be taken Pass/D/F
   - **What general docs must cover:** Full Pass/D/F election policy, deadlines, GPA impact
@@ -1010,7 +1009,7 @@ Does not meet state teacher certification requirements on its own.
   - **Reason for gap:** These course numbers appear in the minor elective list but are not described in Courses.txt
   - **Recommended fallback:** Direct student to official course catalog
 
-- **Topic:** Whether Education courses count toward specific Paideia Exploration & Breadth areas beyond ScS and PJ
+- **Topic:** Whether Education courses count toward specific general education Exploration & Breadth areas beyond ScS and PJ
   - **Reason for gap:** Documents confirm (ScS) and (PJ) tags but do not clarify Fine Arts, Humanities, or Natural Sciences applicability
   - **Recommended fallback:** Retrieve `SU_General_Policies.txt`; advise student to consult registrar
 
@@ -1055,7 +1054,7 @@ Does not meet state teacher certification requirements on its own.
 - Student teaching duration, prerequisites, or appeals → `Student_Teaching.txt`
 - S.O.S. program and post-graduation support → `After_Southwestern.txt`
 - Certification application deadline → `Teacher_Certification.txt`
-- Education 40-234 and Power and Justice Paideia → `Courses.txt`
+- Education 40-234 and Power and Justice General Education → `Courses.txt`
 - Irregular course offering schedules → `Courses.txt`
 - Faculty contact information (Kamen) → `Michael_Kamen.txt`
 - Secondary methods instructor and field placement director → `Raquel_Sáenz_Ortiz.txt`
@@ -1071,7 +1070,7 @@ Does not meet state teacher certification requirements on its own.
 
 **Always retrieve `SU_General_Policies.txt` alongside major docs when:**
 - Any graduation eligibility or credit count question
-- Any Paideia / general education requirement question
+- Any general education requirement question
 - Any grading policy question (Pass/D/F, grade appeals, incomplete grades)
 - Any academic standing question (probation, dismissal, appeal)
 - Any transfer credit or credit-by-examination question

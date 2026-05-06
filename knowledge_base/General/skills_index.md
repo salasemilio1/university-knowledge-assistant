@@ -9,7 +9,7 @@ description: "Skills index for answering student questions about Southwestern Un
 **Ingestion Model:** Claude Sonnet 4.6
 **Document Count:** 1
 **Catalog Year:** 2025–2027
-**Scope:** Accreditation, academic structure, curriculum and Paideia, all degree requirements (B.A., B.S., B.F.A., B.Mus., B.S.Ed.), graduation requirements, academic rights, FERPA, disability accommodations, attendance, grading system, academic status (warning/probation/dismissal), academic honors, withdrawals, registration, course options, academic calendar, credit by transfer, and credit by examination
+**Scope:** Accreditation, academic structure, curriculum and General Education, all degree requirements (B.A., B.S., B.F.A., B.Mus., B.S.Ed.), graduation requirements, academic rights, FERPA, disability accommodations, attendance, grading system, academic status (warning/probation/dismissal), academic honors, withdrawals, registration, course options, academic calendar, credit by transfer, and credit by examination
 
 ---
 
@@ -116,7 +116,7 @@ SECTION 3 — TOPICAL SUMMARIES BY SUBJECT AREA
 
 ### 3B. THE SOUTHWESTERN UNIVERSITY CURRICULUM (PAIDEIA)
 
-**Paideia Philosophy:** Making connections between ways of knowing, between academic coursework and life experiences, and between personal life and world issues. All students participate.
+**General Education Philosophy:** Making connections between ways of knowing, between academic coursework and life experiences, and between personal life and world issues. All students participate.
 
 **Required Curriculum Elements (all degrees):**
 
@@ -391,9 +391,9 @@ Grade changes by instructor must be initiated within **one calendar year** of en
 **Paideia with Distinction:**
 Requirements: (1) accepted for and complete a **Paideia Seminar**; (2) at least one **presentation at Research and Creative Works Symposium**; (3) complete **ONE** of:
 - **Option A — Paideia Minor** (C- or better in each course): Animal Studies, Data Science, Design Thinking, Early Modern and Medieval Studies, East Asian Studies, Environmental Studies, Feminist Studies, Health Studies, International Studies, Latin American and Border Studies, Neuroscience, Race and Ethnicity Studies
-- **Option B — Two distinct approved Paideia Experiences**: CEL course, Study Abroad/Away, Faculty-Mentored Research (SURF), Academic Internship, King Creativity Grant project, Cultivating Intercultural Perspectives and Language Proficiency, or other approved High-Impact Experiences
+- **Option B — Two distinct approved General Education Experiences**: CEL course, Study Abroad/Away, Faculty-Mentored Research (SURF), Academic Internship, King Creativity Grant project, Cultivating Intercultural Perspectives and Language Proficiency, or other approved High-Impact Experiences
 - Paideia Seminar: competitive; students apply sophomore year; space not guaranteed
-- Pre-planning with advisor and Director of Paideia during sophomore or junior year
+- Pre-planning with advisor and Director of General Education during sophomore or junior year
 - **Deadlines:** November 15 (December graduates); April 15 (May/August graduates)
 - Students completing seminar but not one intensive option do NOT earn Distinction
 
@@ -774,8 +774,8 @@ SECTION 7 — KNOWN GAPS
   - **Recommended fallback:** Education Department skills index; Education Department advising
 
 - **Topic:** Paideia Seminar application process, specific sections, and annual deadlines
-  - **Reason for gap:** Described in general terms; specific process on Paideia website
-  - **Recommended fallback:** Director of Paideia; https://www.southwestern.edu/about-southwestern/paideia/paideia-with-distinction/
+  - **Reason for gap:** Described in general terms; specific process on General Education website
+  - **Recommended fallback:** Director of General Education; https://www.southwestern.edu/about-southwestern/General Education/General Education-with-distinction/
 
 - **Topic:** Departmental honors guidelines by discipline (project format, scope, timing norms)
   - **Reason for gap:** General provisions in this file; discipline-specific guidance not included

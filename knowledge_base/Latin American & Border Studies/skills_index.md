@@ -54,7 +54,7 @@
 
 ### Courses
 - **degree_relevance:** Major | Paired Major | Minor
-- **description:** This document lists all courses that contribute to LABS, organized by home department. LAS-prefix courses (Selected Topics, Tutorial, Internship, Independent Study, Capstone, Honors) are listed first. Contributing departments: Anthropology (1 course), Communication Studies (1 course), Education (2 courses), English (3 courses), Environmental Studies (1 course), Feminist Studies (1 course), History (6 courses), Philosophy (3 courses), Political Science (1 course), Spanish (19 courses), Theater (1 course). Note: SPA15-364 (Cultures and Communities of Spain) and SPA15-524 (Readings in Contemporary Hispano-American Literature) appear in Courses.txt but not in the Majoring___Minoring.txt Spanish approved list — their eligibility for the major's Spanish requirement should be verified with the LABS chair. No course descriptions, prerequisites, or Paideia designations are included in this document; those details are in the home department's listings.
+- **description:** This document lists all courses that contribute to LABS, organized by home department. LAS-prefix courses (Selected Topics, Tutorial, Internship, Independent Study, Capstone, Honors) are listed first. Contributing departments: Anthropology (1 course), Communication Studies (1 course), Education (2 courses), English (3 courses), Environmental Studies (1 course), Feminist Studies (1 course), History (6 courses), Philosophy (3 courses), Political Science (1 course), Spanish (19 courses), Theater (1 course). Note: SPA15-364 (Cultures and Communities of Spain) and SPA15-524 (Readings in Contemporary Hispano-American Literature) appear in Courses.txt but not in the Majoring___Minoring.txt Spanish approved list — their eligibility for the major's Spanish requirement should be verified with the LABS chair. No course descriptions, prerequisites, or General education designations are included in this document; those details are in the home department's listings.
 - **critical_data:**
   - Total contributing courses listed: approximately 44 (across all departments)
   - LAS-prefix courses: Selected Topics (001-004, 301-304), Tutorial (901-904), Internship (941-944, Pass/D/F required), Independent Study (951-954), Capstone (964), Honors (984, invitation only)
@@ -108,7 +108,7 @@ Source: `SU_General_Policies.txt`
 | Graduation Application | "Application for Diploma" must be filed; financial holds block diploma |
 | Degree Conferral Dates | December, May, August; Commencement once per year in May |
 
-### SU Universal Curriculum Requirements (Paideia Framework)
+### SU Universal Curriculum Requirements (General Education)
 
 **Required for ALL B.A. students:**
 - First-Year Seminar (FYS) or Advanced-Entry Seminar (AES): 4 credits
@@ -240,7 +240,7 @@ THE72-524
 
 ## SECTION 4 — COURSE INDEX
 
-**Note:** Course descriptions, prerequisites, credit hours, and Paideia designations are not included in LABS source documents. See home department course listings for full details. Credit hours follow SU's last-digit convention where available.
+**Note:** Course descriptions, prerequisites, credit hours, and General education designations are not included in LABS source documents. See home department course listings for full details. Credit hours follow SU's last-digit convention where available.
 
 ---
 
@@ -490,9 +490,9 @@ THE72-524
   - **What general docs must cover:** 127-credit minimum, 64-credit SU residency, last 32 in-residence, 2.000 GPA, 60% major residency, Application for Diploma
   - **Routing instruction:** Always retrieve `SU_General_Policies.txt` alongside `Majoring___Minoring.txt`
 
-- **Topic:** Paideia general education requirements and Paideia Distinction
+- **Topic:** General education requirements and General Education Distinction
   - **What major docs cover:** Latin_American_and_Border_Studies.txt identifies LABS as Paideia Minor and describes Distinction pathway
-  - **What general docs must cover:** Full FYS/AES, Language & Cultures, FRA, Power and Justice, Exploration & Breadth; Paideia Distinction deadlines
+  - **What general docs must cover:** Full FYS/AES, Language & Cultures, FRA, Power and Justice, Exploration & Breadth; General Education Distinction deadlines
   - **Routing instruction:** Retrieve `SU_General_Policies.txt`; retrieve `Latin_American_and_Border_Studies.txt` for LABS Paideia Minor context
 
 - **Topic:** Pass/D/F grading option
@@ -551,7 +551,7 @@ THE72-524
   - **Reason for gap:** WA requirement stated but no list of qualifying WA courses provided in LABS documents; WA designations are set by home departments
   - **Recommended fallback:** Check home department course listings; confirm with advisor before registering
 
-- **Topic:** Course descriptions, prerequisites, credit hours, and Paideia designations for LABS-contributing courses
+- **Topic:** Course descriptions, prerequisites, credit hours, and General education designations for LABS-contributing courses
   - **Reason for gap:** Courses.txt lists course numbers and titles only; full details in home department catalogs
   - **Recommended fallback:** Direct to home department course listings in current SU catalog
 
@@ -586,13 +586,13 @@ THE72-524
 **Default document for broad major questions:** `Majoring___Minoring.txt`
 
 **When to retrieve multiple documents:**
-- What the program is, learning goals, Paideia status → `Latin_American_and_Border_Studies.txt` + `Majoring___Minoring.txt`
+- What the program is, learning goals, General Education status → `Latin_American_and_Border_Studies.txt` + `Majoring___Minoring.txt`
 - Which courses count for LABS → `Courses.txt` + `Majoring___Minoring.txt`
 - Faculty contact questions → `Our_Faculty.txt`
 - Borderlands Symposium events → `Borderlands_Symposium.txt`
 - Graduation or credit-count questions → add `SU_General_Policies.txt`
 - Study abroad questions → `SU_Resources_and_Financial.txt` + `SU_General_Policies.txt`
-- Paideia Distinction questions → `Latin_American_and_Border_Studies.txt` + `SU_General_Policies.txt`
+- General Education Distinction questions → `Latin_American_and_Border_Studies.txt` + `SU_General_Policies.txt`
 - Paired major questions → `Majoring___Minoring.txt` + `SU_General_Policies.txt` + advisor
 
 **Degree path disambiguation triggers:**
@@ -622,12 +622,12 @@ THE72-524
 
 **Always retrieve `SU_General_Policies.txt` alongside major docs when:**
 - Any graduation eligibility or credit count question
-- Any Paideia / gen-ed requirement question
+- Any general education requirement question
 - Any grading policy question (Pass/D/F, grade appeals, incomplete grades)
 - Any academic standing question (probation, dismissal, appeal)
 - Any transfer credit or credit-by-examination question
 - Any disability accommodation question
-- Any honors or Paideia Distinction question
+- Any honors or General Education Distinction question
 - Any paired major restriction question
 
 **Always retrieve `SU_Resources_and_Financial.txt` alongside major docs when:**

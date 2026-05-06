@@ -264,9 +264,9 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 | Graduation Application | "Application for Diploma" must be filed; financial holds block diploma |
 | Degree Conferral Dates | December, May, August only; Commencement held once per year in May |
 
-### SU Universal Curriculum Requirements (Paideia Framework)
+### SU Universal Curriculum Requirements (General Education)
 
-SU's general education model is called **Paideia**. Every major's degree plan is built on top of these shared requirements.
+Every major's degree plan is built on top of shared general education requirements.
 
 **Required for ALL degree paths:**
 - First-Year Seminar (FYS) or Advanced-Entry Seminar (AES): 4 credits
@@ -873,11 +873,10 @@ Same introductory sequence, methods courses, and advanced elective requirements 
   - **What general docs must cover:** 127-credit university minimum, 64-credit SU residency, last 32 in-residence, 2.000 GPA, 60% major residency, Application for Diploma process
   - **Routing instruction:** Always retrieve `SU_General_Policies.txt` alongside `Majoring___Minoring.txt` for any graduation eligibility question
 
-- **Topic:** Paideia general education requirements
+- **Topic:** General education requirements
   - **What major docs cover:** Not explicitly covered in biology documents; major courses may satisfy NS (Natural Sciences) area
   - **What general docs must cover:** Full structure of FYS/AES, Language & Cultures, FRA, Power and Justice, Exploration & Breadth Parts I and II, Paideia with Distinction
-  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about gen-ed, breadth requirements, or Paideia
-
+  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about gen-ed, breadth requirements, or General Education 
 - **Topic:** Pass/D/F grading option
   - **What major docs cover:** Notes C- grade minimum for biology courses to count toward major; does not cover P/D/F policy
   - **What general docs must cover:** Full Pass/D/F policy, deadlines to switch, GPA impact; note that a D grade does not count toward biology major even if passing
@@ -958,7 +957,7 @@ Same introductory sequence, methods courses, and advanced elective requirements 
   - **Reason for gap:** `Engagement_Opportunities.txt` notes a GPA threshold but does not specify the exact number
   - **Recommended fallback:** Direct student to contact Dr. González (Tri-Beta faculty mentor) at gonzale2@southwestern.edu
 
-- **Topic:** Which Paideia areas biology courses satisfy
+- **Topic:** Which General education areas biology courses satisfy
   - **Reason for gap:** Not specified in biology documents; only general statement that biology relates to Natural Sciences area
   - **Recommended fallback:** Retrieve `SU_General_Policies.txt`; advise student to check course catalog or ask advisor
 
@@ -1028,7 +1027,7 @@ Same introductory sequence, methods courses, and advanced elective requirements 
 
 **Always retrieve `SU_General_Policies.txt` alongside major docs when:**
 - Any graduation eligibility or credit count question
-- Any Paideia / general education requirement question
+- Any general education requirement question
 - Any grading policy question (Pass/D/F, grade appeals, incomplete grades)
 - Any academic standing question (probation, dismissal, appeal)
 - Any transfer credit or credit-by-examination question

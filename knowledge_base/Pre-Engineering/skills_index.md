@@ -43,7 +43,7 @@
   - Chem II lecture (51-163) and lab (51-161) must be taken concurrently; prerequisite: Chem I (51-153/151)
   - Physical Chemistry I (51-713): prerequisites include Chem 51-163/161 or 173/171, Physics 53-154, and Math 52-253
   - Physical Chemistry I recommends Math 52-753 or 353; must be taken concurrently with Chem 51-711
-  - Chem I (51-153) satisfies POK Natural World: Physical Science Paideia area
+  - Chem I (51-153) satisfies POK Natural World: Physical Science General education area
 
 ---
 
@@ -111,9 +111,9 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 | Graduation Application | "Application for Diploma" must be filed; financial holds block diploma |
 | Degree Conferral Dates | December, May, August only; Commencement held once per year in May |
 
-### SU Universal Curriculum Requirements (Paideia Framework)
+### SU Universal Curriculum Requirements (General Education)
 
-SU's general education model is called **Paideia**. Every major's degree plan is built on top of these shared requirements.
+Every major's degree plan is built on top of shared general education requirements.
 
 **Required for ALL degree paths:**
 - First-Year Seminar (FYS) or Advanced-Entry Seminar (AES): 4 credits
@@ -209,7 +209,7 @@ This major offers only the B.A. in Applied Physics. However, students may pursue
 - **Corequisites:** Must be taken concurrently with CHE 51-151
 - **Offered:** Unknown (assumed each semester)
 - **Required For:** B.A. in Applied Physics (as CHE51-103/101 equivalent — confirm with advisor)
-- **Counts As:** General Chemistry I; satisfies POK Natural World: Physical Science Paideia area
+- **Counts As:** General Chemistry I; satisfies POK Natural World: Physical Science General education area
 - **Notes:** Correlation of physical laws with structure of matter and chemical properties
 - **Source:** `Courses_Chemistry.txt`
 
@@ -516,9 +516,9 @@ This major offers only the B.A. in Applied Physics. However, students may pursue
 **Routing Note:** PHY 53-204 requires Math 52-154/254 and Physics 53-154/164; Math 52-353 is a pre/co-req.
 **Disambiguation Needed:** No
 
-**Q:** Can Chemistry count toward my Paideia requirements?
+**Q:** Can Chemistry count toward my General education requirements?
 **Docs:** `Courses_Chemistry.txt`, `SU_General_Policies.txt`
-**Routing Note:** Chem 51-153 satisfies POK Natural World: Physical Science designation; full Paideia structure in general policies.
+**Routing Note:** Chem 51-153 satisfies POK Natural World: Physical Science designation; full General Education structure in general policies.
 **Disambiguation Needed:** No
 
 **Q:** Can I study abroad and still graduate on time?
@@ -566,9 +566,9 @@ This major offers only the B.A. in Applied Physics. However, students may pursue
 **Routing Note:** Physics-to-Engineering Graduate Pathway is described as especially valuable for aerospace; escalate to advisor for personalized guidance.
 **Disambiguation Needed:** No — but escalate to advisor
 
-**Q:** Do any of my major courses satisfy Paideia breadth requirements?
+**Q:** Do any of my major courses satisfy General education breadth requirements?
 **Docs:** `Courses_Chemistry.txt`, `Courses_Physics.txt`, `Courses_Math.txt`, `Courses_Computer_Science.txt`, `SU_General_Policies.txt`
-**Routing Note:** Several courses carry NS or NSL Paideia designations; full Paideia structure requires general policies doc.
+**Routing Note:** Several courses carry NS or NSL General education designations; full General Education structure requires general policies doc.
 **Disambiguation Needed:** No
 
 **Q:** What financial aid is available to help pay for the Texas Tech portion of the program?
@@ -595,11 +595,10 @@ This major offers only the B.A. in Applied Physics. However, students may pursue
   - **What general docs must cover:** 127-credit minimum, 64-credit SU residency, last 32 in-residence, 2.000 GPA, 60% major residency, Application for Diploma process
   - **Routing instruction:** Always retrieve `SU_General_Policies.txt` alongside `Degree_Requirements.txt` for any graduation eligibility question
 
-- **Topic:** Paideia general education requirements
+- **Topic:** General education requirements
   - **What major docs cover:** Several courses carry NS, NSL, or POK designations (e.g., Chem 51-153 = POK Natural World: Physical Science; Physics and Math courses = NS/NSL)
   - **What general docs must cover:** Full structure of FYS/AES, Language & Cultures, FRA, Power and Justice, Exploration & Breadth Parts I and II, Paideia with Distinction
-  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about gen-ed, breadth requirements, or Paideia
-
+  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about gen-ed, breadth requirements, or General Education 
 - **Topic:** Pass/D/F grading option
   - **What major docs cover:** Not mentioned in major documents
   - **What general docs must cover:** Full Pass/D/F policy, deadlines to switch, GPA impact
@@ -703,7 +702,7 @@ This major offers only the B.A. in Applied Physics. However, students may pursue
 **When to retrieve multiple documents:**
 - Any question about a specific course's prerequisites → retrieve both `Degree_Requirements.txt` and the relevant course document (e.g., `Courses_Physics.txt`, `Courses_Math.txt`)
 - Any question about graduation eligibility → retrieve `Degree_Requirements.txt` AND `SU_General_Policies.txt`
-- Any question about Paideia or general education → retrieve relevant course doc (for designations) AND `SU_General_Policies.txt`
+- Any question about General Education or general education → retrieve relevant course doc (for designations) AND `SU_General_Policies.txt`
 - Any question about the dual degree program or graduate pathways → retrieve `Pre-Engineering_Pathway.txt` AND `Degree_Requirements.txt`
 - Any question about transfer credit → retrieve `Degree_Requirements.txt` AND `SU_General_Policies.txt`
 - Any question about financial aid, study abroad, or tuition → retrieve `SU_Resources_and_Financial.txt`
@@ -731,7 +730,7 @@ This major offers only the B.A. in Applied Physics. However, students may pursue
 
 **Always retrieve `SU_General_Policies.txt` alongside major docs when:**
 - Any graduation eligibility or credit count question
-- Any Paideia / general education requirement question
+- Any general education requirement question
 - Any grading policy question (Pass/D/F, grade appeals, incomplete grades)
 - Any academic standing question (probation, dismissal, appeal)
 - Any transfer credit or credit-by-examination question

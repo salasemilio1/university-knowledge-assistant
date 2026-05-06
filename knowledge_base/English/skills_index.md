@@ -38,7 +38,7 @@
 
 ### English Course Offerings
 - **degree_relevance:** All
-- **description:** This document lists all current and recent English course offerings with full descriptions, prerequisites, Paideia attributes, and interdisciplinary program contributions. Introductory (100-level) courses include ENG10-114 College Writing (not countable toward the major or minor), ENG10-124 Literary Worlds, ENG10-134 Intro to Creative Writing, ENG10-154 Topics in British Lit I, ENG10-164 From Romanticism to Modernism, ENG10-174 Topics in American Literature, ENG10-184 Introduction to Film Studies (offered Fall), ENG10-204 Topics in Literary Methods, and ENG10-244 Literary Methods (offered Spring). Methods-level (200) course ENG10-264 covers Chicana Literary Methods. Upper-division offerings span creative writing workshops (ENG10-334, 344, 354), literature and film courses spanning medieval through contemporary periods and multiple national traditions, and the capstone ENG10-934 Seminar (Fall, prerequisite: any 400-level course). Many courses note contributions to interdisciplinary programs including Feminist Studies, Early Modern Studies, Race and Ethnicity Studies, Latin American and Border Studies, Legal Studies Certificate, International Studies, and Design Thinking. Paideia attributes (H, WA, SJ, PJ, IP) are noted throughout.
+- **description:** This document lists all current and recent English course offerings with full descriptions, prerequisites, General Education attributes, and interdisciplinary program contributions. Introductory (100-level) courses include ENG10-114 College Writing (not countable toward the major or minor), ENG10-124 Literary Worlds, ENG10-134 Intro to Creative Writing, ENG10-154 Topics in British Lit I, ENG10-164 From Romanticism to Modernism, ENG10-174 Topics in American Literature, ENG10-184 Introduction to Film Studies (offered Fall), ENG10-204 Topics in Literary Methods, and ENG10-244 Literary Methods (offered Spring). Methods-level (200) course ENG10-264 covers Chicana Literary Methods. Upper-division offerings span creative writing workshops (ENG10-334, 344, 354), literature and film courses spanning medieval through contemporary periods and multiple national traditions, and the capstone ENG10-934 Seminar (Fall, prerequisite: any 400-level course). Many courses note contributions to interdisciplinary programs including Feminist Studies, Early Modern Studies, Race and Ethnicity Studies, Latin American and Border Studies, Legal Studies Certificate, International Studies, and Design Thinking. General Education attributes (H, WA, SJ, PJ, IP) are noted throughout.
 - **critical_data:**
   - ENG10-114: NOT countable toward English major or minor; NOT included in 56-credit subject-area limitation
   - ENG10-124: required gateway; satisfies (H)(WA)
@@ -110,7 +110,7 @@
 | Graduation Application | "Application for Diploma" must be filed; financial holds block diploma |
 | Degree Conferral Dates | December, May, August only; Commencement held once per year in May |
 
-### SU Universal Curriculum Requirements (Paideia Framework)
+### SU Universal Curriculum Requirements (General Education)
 *Source: `SU_General_Policies.txt`*
 
 Required for ALL degree paths (B.A., B.S., B.F.A., B.Mus., B.S.Ed.):
@@ -288,7 +288,7 @@ Required for ALL degree paths (B.A., B.S., B.F.A., B.Mus., B.S.Ed.):
 - **Offered:** Unknown
 - **Required For:** No required path; strongly recommended for prospective majors/minors
 - **Counts As:** 100-level English elective; contributes to Early Modern Studies and International Studies; (H)(WA)
-- **Notes:** British literary development 1390–1755; history of gender; may satisfy Paideia Humanities breadth
+- **Notes:** British literary development 1390–1755; history of gender; may satisfy General Education Humanities breadth
 - **Source:** `Courses.txt`
 
 ### ENG10-164 — From Romanticism to Modernism
@@ -428,7 +428,7 @@ Required for ALL degree paths (B.A., B.S., B.F.A., B.Mus., B.S.Ed.):
 - **Offered:** Unknown
 - **Required For:** Required course in Paired Major (ENG+FST); one of four options for Critical Theory requirement in English Major and Paired Major (ENG+HIS)
 - **Counts As:** Critical Theory requirement (English Major and ENG+HIS); required course (ENG+FST); contributes to Feminist Studies; 400-level satisfies prerequisite for ENG10-934; (H)(SJ)(PJ)
-- **Notes:** Feminist film criticism and theory from 1975 to present; how films define gender; for students with some experience in critical reading, writing, and theoretical analysis; satisfies Power and Justice (PJ) Paideia attribute
+- **Notes:** Feminist film criticism and theory from 1975 to present; how films define gender; for students with some experience in critical reading, writing, and theoretical analysis; satisfies Power and Justice (PJ) General Education attribute
 - **Source:** `Courses.txt`, `Majoring___Minoring.txt`
 
 ### ENG10-464 — Speaking Across Languages
@@ -618,7 +618,7 @@ Required for ALL degree paths (B.A., B.S., B.F.A., B.Mus., B.S.Ed.):
 - **Offered:** Unknown
 - **Required For:** No required path
 - **Counts As:** 800-level English elective (emergent literatures); contributes to Race and Ethnicity Studies/Allied Course; (H)(IP)(SJ)(PJ)
-- **Notes:** Literature at the intersection of cultures; legacies of colonization; Achebe, Gordimer, Head, Ngugi, Rushdie, Soyinka; satisfies Power and Justice (PJ) and Intercultural Perspectives (IP) Paideia attributes
+- **Notes:** Literature at the intersection of cultures; legacies of colonization; Achebe, Gordimer, Head, Ngugi, Rushdie, Soyinka; satisfies Power and Justice (PJ) and Intercultural Perspectives (IP) General Education attributes
 - **Source:** `Courses.txt`
 
 ### ENG10-854 — Topics in Literature, Gender & Sexuality
@@ -648,7 +648,7 @@ Required for ALL degree paths (B.A., B.S., B.F.A., B.Mus., B.S.Ed.):
 - **Offered:** Unknown
 - **Required For:** No required path
 - **Counts As:** 800-level English elective; contributes to Feminist Studies and Race and Ethnicity Studies/Group-Theme Course; (H)(SJ)(PJ)(WA)
-- **Notes:** Literatures of American ethnic communities; ethnicity, history, literature; intersections of ethnic identity with gender, sexuality, citizenship, and class; focus not covered by ENG10-884 or ENG10-894; satisfies Power and Justice (PJ) Paideia attribute
+- **Notes:** Literatures of American ethnic communities; ethnicity, history, literature; intersections of ethnic identity with gender, sexuality, citizenship, and class; focus not covered by ENG10-884 or ENG10-894; satisfies Power and Justice (PJ) General Education attribute
 - **Source:** `Courses.txt`
 
 ### ENG10-884 — African-American Literature
@@ -808,7 +808,7 @@ Required for ALL degree paths (B.A., B.S., B.F.A., B.Mus., B.S.Ed.):
 
 **Q:** Which English courses satisfy the Power and Justice requirement?
 **Docs:** `Courses.txt`, `SU_General_Policies.txt`
-**Routing Note:** Courses.txt marks ENG10-454 (SJ)(PJ), ENG10-834 (SJ)(PJ)(IP), and ENG10-874 (SJ)(PJ) with PJ attributes; SU_General_Policies.txt explains the full Paideia Power and Justice requirement structure.
+**Routing Note:** Courses.txt marks ENG10-454 (SJ)(PJ), ENG10-834 (SJ)(PJ)(IP), and ENG10-874 (SJ)(PJ) with PJ attributes; SU_General_Policies.txt explains the full general education Power and Justice requirement structure.
 **Disambiguation Needed:** No.
 
 ---
@@ -876,9 +876,9 @@ Required for ALL degree paths (B.A., B.S., B.F.A., B.Mus., B.S.Ed.):
 
 ---
 
-**Q:** Do I need to take Paideia courses as an English major?
+**Q:** Do I need to take General Education courses as an English major?
 **Docs:** `Courses.txt`, `SU_General_Policies.txt`
-**Routing Note:** Courses.txt shows which English courses satisfy Paideia attributes; SU_General_Policies.txt provides the full Paideia framework (FYS/AES, Languages, FRA, PJ, Exploration & Breadth).
+**Routing Note:** Courses.txt shows which English courses satisfy General Education attributes; SU_General_Policies.txt provides the full General education framework (FYS/AES, Languages, FRA, PJ, Exploration & Breadth).
 **Disambiguation Needed:** No — but always retrieve SU_General_Policies.txt alongside Courses.txt for this query.
 
 ---
@@ -920,10 +920,10 @@ Required for ALL degree paths (B.A., B.S., B.F.A., B.Mus., B.S.Ed.):
   - **What general docs must cover:** 127-credit minimum total, 64-credit SU residency, last 32 in-residence, 2.000 GPA overall and major, Application for Diploma process, degree conferral dates
   - **Routing instruction:** Always retrieve `SU_General_Policies.txt` alongside `Majoring___Minoring.txt` for any graduation eligibility question
 
-- **Topic:** Paideia general education requirements
-  - **What major docs cover:** Courses.txt notes which English courses satisfy specific Paideia attributes (H, WA, SJ, PJ, IP); does not describe the full Paideia framework structure
+- **Topic:** General education requirements
+  - **What major docs cover:** Courses.txt notes which English courses satisfy specific General Education attributes (H, WA, SJ, PJ, IP); does not describe the full General education framework structure
   - **What general docs must cover:** Full FYS/AES, Language & Cultures, FRA, Power and Justice, Exploration & Breadth Parts I and II structure; Paideia with Distinction requirements and deadlines
-  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about gen-ed, breadth requirements, or Paideia; retrieve `Courses.txt` to identify which English courses satisfy specific attributes
+  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about gen-ed, breadth requirements, or General Education; retrieve `Courses.txt` to identify which English courses satisfy specific attributes
 
 - **Topic:** Pass/D/F grading option
   - **What major docs cover:** Not covered in English documents
@@ -1034,7 +1034,7 @@ Required for ALL degree paths (B.A., B.S., B.F.A., B.Mus., B.S.Ed.):
 **Default document for broad major questions:** `Majoring___Minoring.txt`
 
 **When to retrieve multiple documents:**
-- Any question about which specific English course satisfies a Paideia requirement → `Courses.txt` + `SU_General_Policies.txt`
+- Any question about which specific English course satisfies a General education requirement → `Courses.txt` + `SU_General_Policies.txt`
 - Any question about graduation eligibility or total credits needed → `Majoring___Minoring.txt` + `SU_General_Policies.txt`
 - Any question about the paired major with History → `Majoring___Minoring.txt` (History course pool is fully listed there)
 - Any question about ENG10-454's role (required vs. optional) → `Majoring___Minoring.txt` + `Courses.txt` (answer differs by degree path)
@@ -1049,7 +1049,7 @@ Required for ALL degree paths (B.A., B.S., B.F.A., B.Mus., B.S.Ed.):
 - If a student asks about a "double major" in English and any other discipline, clarify whether they mean the formal Paired Major or a separate arrangement
 
 **High-confidence single-document retrievals:**
-- Course descriptions, prerequisites, Paideia attributes → `Courses.txt`
+- Course descriptions, prerequisites, General Education attributes → `Courses.txt`
 - Faculty names, emails, phone numbers, specialties → `Our_Faculty.txt`
 - Rose Award or Jason Magnon Writing Prize → `Student_Funding_Opportunities.txt`
 - Faculty and student research achievements, publications, conferences → `Notable_Faculty___Student_Achievements.txt`
@@ -1066,7 +1066,7 @@ Required for ALL degree paths (B.A., B.S., B.F.A., B.Mus., B.S.Ed.):
 
 **Always retrieve `SU_General_Policies.txt` alongside major docs when:**
 - Any graduation eligibility or credit count question
-- Any Paideia / general education requirement question
+- Any general education requirement question
 - Any grading policy question (Pass/D/F, grade appeals, incomplete grades)
 - Any academic standing question (probation, dismissal, appeal)
 - Any transfer credit or credit-by-examination question

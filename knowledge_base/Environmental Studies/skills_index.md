@@ -11,24 +11,23 @@
 
 ### Environmental Studies Program Overview
 - **degree_relevance:** All
-- **description:** Provides a high-level overview of the Environmental Studies program's intellectual focus and its role within SU's Paideia framework. Frames the program around five foundational questions: humankind's relationship to the environment, how natural systems operate, today's most pressing environmental issues, how to address environmental justice, and key environmental issues on the SU campus and in Central Texas. States that Environmental Studies is one of SU's Paideia Minors, meaning completing it can satisfy the minor component of Paideia Distinction. Describes Paideia as structured pathways for integrating disciplines and developing versatile analytical abilities. States that Paideia Distinction requires completing a Paideia Minor (or two High-Impact Experiences) plus a Paideia Seminar. Notes that Paideia skills make graduates highly sought-after by recruiters, employers, and graduate programs.
+- **description:** Provides a high-level overview of the Environmental Studies program's intellectual focus and its role within SU's General education framework. Frames the program around five foundational questions: humankind's relationship to the environment, how natural systems operate, today's most pressing environmental issues, how to address environmental justice, and key environmental issues on the SU campus and in Central Texas. States that Environmental Studies is one of SU's Paideia Minors, meaning completing it can satisfy the minor component of Paideia Distinction. Describes Paideia as structured pathways for integrating disciplines and developing versatile analytical abilities. States that Paideia Distinction requires completing a Paideia Minor (or two High-Impact Experiences) plus a Paideia Seminar. Notes that Paideia skills make graduates highly sought-after by recruiters, employers, and graduate programs.
 - **critical_data:**
   - Environmental Studies is one of SU's Paideia Minors
-  - Completing the Environmental Studies minor can satisfy the minor component of Paideia Distinction
+  - Completing the Environmental Studies minor can satisfy the minor component of General Education Distinction
   - Paideia Distinction requires: one Paideia Minor (or two High-Impact Experiences) + a Paideia Seminar
   - Program focus areas: natural systems, environmental justice, pressing environmental issues, Central Texas/local environment, human-environment relationships
-  - Paideia Distinction formally recognized on transcript; makes graduates competitive with employers and graduate programs
+  - General Education Distinction formally recognized on transcript; makes graduates competitive with employers and graduate programs
   - what is environmental studies
   - environmental studies program overview
-  - Paideia minor environmental studies
-  - Paideia distinction environmental studies
+  - General Education minor environmental studies
+  - General Education distinction environmental studies
   - what does the environmental studies program focus on
   - environmental justice program
   - natural systems environmental studies
   - Central Texas environment courses
-  - Paideia seminar requirement
-  - how does environmental studies count for Paideia
-
+  - General Education seminar requirement
+  - how does environmental studies count for General Education 
 ---
 
 ### Majoring and Minoring in Environmental Studies
@@ -249,7 +248,7 @@
 | Graduation Application | "Application for Diploma" must be filed; financial holds block diploma |
 | Degree Conferral Dates | December, May, August only; Commencement held once per year in May |
 
-### SU Universal Curriculum Requirements (Paideia Framework)
+### SU Universal Curriculum Requirements (General Education)
 
 **Required for ALL degree paths:**
 - First-Year Seminar (FYS) or Advanced-Entry Seminar (AES): 4 credits
@@ -578,7 +577,7 @@
 **Routing Note:** Five courses: ENV49-104 + one natural science from Pool A + three additional ENV courses (at least one from Humanities or Environmental Justice area).
 **Disambiguation Needed:** No
 
-**Q:** Does the Environmental Studies minor count for Paideia Distinction?
+**Q:** Does the Environmental Studies minor count for General Education Distinction?
 **Docs:** `Environmental_Studies.txt`, `SU_General_Policies.txt`
 **Routing Note:** Environmental Studies is explicitly one of SU's Paideia Minors; completing it satisfies the minor component. Paideia Seminar also required.
 **Disambiguation Needed:** No
@@ -688,9 +687,9 @@
 **Routing Note:** No stated sequencing requirement between the two courses; both are required core courses. Confirm with advisor whether there is an unstated recommended order.
 **Disambiguation Needed:** No — but recommend advisor confirmation.
 
-**Q:** Can I count a natural science course toward both my ENV major and my Paideia Natural Science breadth requirement?
+**Q:** Can I count a natural science course toward both my ENV major and my general education Natural Science breadth requirement?
 **Docs:** `Majoring___Minoring.txt`, `SU_General_Policies.txt`
-**Routing Note:** The no-double-counting rule in Majoring doc applies within the major; SU_General_Policies governs whether a course can simultaneously satisfy a major requirement and a Paideia breadth area.
+**Routing Note:** The no-double-counting rule in Majoring doc applies within the major; SU_General_Policies governs whether a course can simultaneously satisfy a major requirement and a General education breadth area.
 **Disambiguation Needed:** No — retrieve both documents.
 
 ---
@@ -702,14 +701,14 @@
   - **What general docs must cover:** 127-credit minimum, 64-credit SU residency, last 32 in-residence, 2.000 GPA, 60% major residency, Application for Diploma process
   - **Routing instruction:** Always retrieve `SU_General_Policies.txt` alongside `Majoring___Minoring.txt` for any graduation eligibility question
 
-- **Topic:** Paideia general education requirements and Paideia Distinction
+- **Topic:** General education requirements and General Education Distinction
   - **What major docs cover:** Environmental Studies is a Paideia Minor; completing it satisfies the minor component of Paideia Distinction; Paideia Seminar also required
-  - **What general docs must cover:** Full structure of FYS/AES, Language & Cultures, FRA, Power and Justice, Exploration & Breadth Parts I and II; Paideia Distinction requirements including seminar application process and deadlines
-  - **Routing instruction:** Retrieve `Environmental_Studies.txt` for ENV-specific Paideia role; always retrieve `SU_General_Policies.txt` for full Paideia requirements
+  - **What general docs must cover:** Full structure of FYS/AES, Language & Cultures, FRA, Power and Justice, Exploration & Breadth Parts I and II; General Education Distinction requirements including seminar application process and deadlines
+  - **Routing instruction:** Retrieve `Environmental_Studies.txt` for ENV-specific General Education role; always retrieve `SU_General_Policies.txt` for full General education requirements
 
-- **Topic:** Whether major courses can also count for Paideia Exploration & Breadth
+- **Topic:** Whether major courses can also count for general education Exploration & Breadth
   - **What major docs cover:** No-double-counting rule applies within the major; ENV students encouraged to take env-relevant gen-ed courses
-  - **What general docs must cover:** Rules about whether a course can simultaneously satisfy a major requirement and a Paideia breadth area
+  - **What general docs must cover:** Rules about whether a course can simultaneously satisfy a major requirement and a General education breadth area
   - **Routing instruction:** Retrieve `Majoring___Minoring.txt` + `SU_General_Policies.txt`
 
 - **Topic:** Pass/D/F grading option
@@ -749,7 +748,7 @@
 
 - **Topic:** Latin Honors and Paideia with Distinction
   - **What major docs cover:** Environmental Studies minor is a Paideia Minor pathway toward Distinction
-  - **What general docs must cover:** Cum Laude GPA thresholds, Dean's List, Paideia Distinction application deadlines (Nov 15 / Apr 15)
+  - **What general docs must cover:** Cum Laude GPA thresholds, Dean's List, General Education Distinction application deadlines (Nov 15 / Apr 15)
   - **Routing instruction:** Always retrieve `SU_General_Policies.txt`
 
 - **Topic:** Disability accommodations and course substitution
@@ -818,14 +817,14 @@
 
 **When to retrieve multiple documents:**
 - Any graduation eligibility question: retrieve `Majoring___Minoring.txt` + `SU_General_Policies.txt`
-- Any Paideia Distinction question: retrieve `Environmental_Studies.txt` + `SU_General_Policies.txt`
+- Any General Education Distinction question: retrieve `Environmental_Studies.txt` + `SU_General_Policies.txt`
 - Any capstone format or example question: retrieve `Capstone.txt` + `Majoring___Minoring.txt`
 - Any Ecolab course question: retrieve `Ecolab.txt` + `Majoring___Minoring.txt` (to confirm ENV49-224 connection)
 - Any GIS course question: retrieve `GIS.txt` + `Majoring___Minoring.txt` (ENV49-204 is the required GIS course)
 - Any faculty research question: retrieve `Our_Faculty.txt`; for Ecolab, also `Ecolab.txt`
 - Any transfer credit question: retrieve `Majoring___Minoring.txt` + `SU_General_Policies.txt`
 - Any study abroad question: retrieve `Majoring___Minoring.txt` + `SU_Resources_and_Financial.txt`
-- Any no-double-counting question involving Paideia breadth: retrieve `Majoring___Minoring.txt` + `SU_General_Policies.txt`
+- Any no-double-counting question involving General education breadth: retrieve `Majoring___Minoring.txt` + `SU_General_Policies.txt`
 
 **Degree path disambiguation triggers:**
 - If a student asks about "the environmental studies degree" without specifying major vs. minor, ask which they mean — the minor is also a Paideia Minor with distinct value
@@ -860,13 +859,13 @@
 
 **Always retrieve `SU_General_Policies.txt` alongside major docs when:**
 - Any graduation eligibility or credit count question
-- Any Paideia / general education requirement question
+- Any general education requirement question
 - Any grading policy question (Pass/D/F, grade appeals, incomplete grades)
 - Any academic standing question (probation, dismissal, appeal)
 - Any transfer credit or credit-by-examination question
 - Any disability accommodation question
-- Any honors or distinction question (Latin Praise, Departmental Honors, Paideia Distinction)
-- Any question about double-counting a course for both a major requirement and a Paideia breadth area
+- Any honors or distinction question (Latin Praise, Departmental Honors, General Education Distinction)
+- Any question about double-counting a course for both a major requirement and a General education breadth area
 
 **Always retrieve `SU_Resources_and_Financial.txt` alongside major docs when:**
 - Any question about study abroad program funding, SURF, or King Creativity Fund

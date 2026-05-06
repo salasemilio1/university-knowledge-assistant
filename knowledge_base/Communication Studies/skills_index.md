@@ -201,7 +201,7 @@
 | Graduation Application | "Application for Diploma" must be filed; financial holds block diploma |
 | Degree Conferral Dates | December, May, August only; Commencement held once per year in May |
 
-### SU Universal Curriculum Requirements (Paideia Framework)
+### SU Universal Curriculum Requirements (General Education)
 
 **Required for ALL degree paths:**
 - First-Year Seminar (FYS) or Advanced-Entry Seminar (AES): 4 credits
@@ -704,9 +704,9 @@ The minor requires proportionally more free upper-level electives (3 of 4) than 
 **Routing Note:** COM75-413 Travel, Tourism, and Communication is offered during SU Summer Study Abroad only — not available on campus.
 **Disambiguation Needed:** No
 
-**Q:** What Paideia designations do comm courses carry?
+**Q:** What General education designations do comm courses carry?
 **Docs:** `Courses.txt`, `SU_General_Policies.txt`
-**Routing Note:** Many COM courses carry (H) for Humanities breadth; several carry (SJ)/(PJ); SU_General_Policies covers full Paideia framework.
+**Routing Note:** Many COM courses carry (H) for Humanities breadth; several carry (SJ)/(PJ); SU_General_Policies covers full General education framework.
 **Disambiguation Needed:** No
 
 **Q:** I'm a junior and just decided to add the minor. Is it too late?
@@ -753,10 +753,10 @@ The minor requires proportionally more free upper-level electives (3 of 4) than 
   - **What general docs must cover:** 127-credit minimum, 64-credit SU residency, last 32 in-residence, 2.000 GPA, 60% major residency, Application for Diploma process
   - **Routing instruction:** Always retrieve `SU_General_Policies.txt` alongside `Majoring___Minoring.txt` for any graduation eligibility question
 
-- **Topic:** Paideia general education requirements
+- **Topic:** General education requirements
   - **What major docs cover:** Which COM courses carry (H), (WA), (SJ), (PJ) designations
   - **What general docs must cover:** Full structure of FYS/AES, Language & Cultures, FRA, Power and Justice, Exploration & Breadth Parts I and II, Paideia with Distinction
-  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any gen-ed, breadth, or Paideia question
+  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any general education or breadth requirement question
 
 - **Topic:** Power and Justice (PJ) course requirement
   - **What major docs cover:** Multiple COM courses carry (PJ): COM75-234, 264, 284, 444, 454, 564, 654
@@ -876,7 +876,7 @@ The minor requires proportionally more free upper-level electives (3 of 4) than 
 - Any question about a specific required course's content, prerequisites, or scheduling: retrieve `Courses.txt` + `Majoring___Minoring.txt`
 - Any graduation eligibility question: retrieve `Majoring___Minoring.txt` + `SU_General_Policies.txt`
 - Any capstone question: retrieve `Majoring___Minoring.txt` + `Courses.txt`
-- Any question combining major requirements with Paideia/gen-ed: retrieve `Majoring___Minoring.txt` + `SU_General_Policies.txt`
+- Any question combining major requirements with general education: retrieve `Majoring___Minoring.txt` + `SU_General_Policies.txt`
 - Any faculty research question: retrieve `Our_Faculty.txt` + `Notable_Faculty___Student_Achievements.txt`
 - Any transfer credit question: retrieve `Majoring___Minoring.txt` + `SU_General_Policies.txt`
 - Any study abroad question: retrieve `Courses.txt` (COM75-413) + `SU_Resources_and_Financial.txt`
@@ -907,7 +907,7 @@ The minor requires proportionally more free upper-level electives (3 of 4) than 
 
 **Always retrieve `SU_General_Policies.txt` alongside major docs when:**
 - Any graduation eligibility or credit count question
-- Any Paideia / general education requirement question
+- Any general education requirement question
 - Any grading policy question (Pass/D/F, grade appeals, incomplete grades)
 - Any academic standing question (probation, dismissal, appeal)
 - Any transfer credit or credit-by-examination question

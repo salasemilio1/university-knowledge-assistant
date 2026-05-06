@@ -42,7 +42,7 @@
 
 ### Courses
 - **degree_relevance:** B.A. | Minor | All
-- **description:** This document lists all current or recent History course offerings with full descriptions, course numbers, Paideia designations, offering frequencies, and interdisciplinary contributions. It covers six World History introductory courses (16-014 through 16-094) and approximately 40 upper-level courses organized by geographic area and theme, including Africa, East Asia, Europe, Latin America, US, and Transregional. Special topics series courses (16-504 through 16-564) may be repeated with change in topic. The Historiography seminar (16-604) and Capstone Research Seminar (16-864) are listed with prerequisites. A Pre-Honors course (16-971) is available by invitation only. Most upper-level courses are offered biennially; all World History courses except 16-094 are offered annually. Several courses carry Power and Justice (PJ), Social Justice (SJ), and Writing Across the Curriculum (WA) Paideia designations in addition to Humanities (H).
+- **description:** This document lists all current or recent History course offerings with full descriptions, course numbers, General education designations, offering frequencies, and interdisciplinary contributions. It covers six World History introductory courses (16-014 through 16-094) and approximately 40 upper-level courses organized by geographic area and theme, including Africa, East Asia, Europe, Latin America, US, and Transregional. Special topics series courses (16-504 through 16-564) may be repeated with change in topic. The Historiography seminar (16-604) and Capstone Research Seminar (16-864) are listed with prerequisites. A Pre-Honors course (16-971) is available by invitation only. Most upper-level courses are offered biennially; all World History courses except 16-094 are offered annually. Several courses carry Power and Justice (PJ), Social Justice (SJ), and Writing Across the Curriculum (WA) General education designations in addition to Humanities (H).
 - **critical_data:**
   - World History courses offered Annually: 16-014, 16-024, 16-034, 16-044, 16-054
   - World History course offered Biennially: 16-094
@@ -120,7 +120,7 @@ Source: `SU_General_Policies.txt`
 | Graduation Application | "Application for Diploma" must be filed; financial holds block diploma |
 | Degree Conferral Dates | December, May, August; Commencement once per year in May |
 
-### SU Universal Curriculum Requirements (Paideia Framework)
+### SU Universal Curriculum Requirements (General Education)
 
 **Required for ALL degree paths:**
 - First-Year Seminar (FYS) or Advanced-Entry Seminar (AES): 4 credits
@@ -129,7 +129,7 @@ Source: `SU_General_Policies.txt`
 - Power and Justice (PJ): 1 course, 3-4 credits — **cannot be satisfied by transfer credit**
 - Exploration and Breadth: 6 courses outside the major across Fine Arts, Humanities, Natural Sciences, Social Sciences
 
-**Note:** Many History courses carry (H) Paideia designation. Several carry (PJ) and (SJ). HIS16-604 and 16-864 carry (WA). See Section 4 for course-level details.
+**Note:** Many History courses carry (H) General Education designation. Several carry (PJ) and (SJ). HIS16-604 and 16-864 carry (WA). See Section 4 for course-level details.
 
 ---
 
@@ -162,12 +162,12 @@ Qualifying courses: 16-024, 16-044, 16-204, 16-214, 16-234, 16-254, 16-274, 16-4
 
 **Requirement 5 — Historiography (HIS16-604):**
 - Prerequisites: one World History course + junior status (or instructor permission)
-- Offered: every Fall | Paideia: H, WA
+- Offered: every Fall | Gen Ed: H, WA
 - Visiting Colloquium scholar participates each fall
 
 **Requirement 6 — Capstone Research Seminar (HIS16-864):**
 - Prerequisite: HIS16-604
-- Offered: every Spring | Paideia: H, WA
+- Offered: every Spring | Gen Ed: H, WA
 - Topic changes each semester; students choose their own research period/place
 
 **Recommended Sequence:** Years 1-2: World History + begin upper-level area courses → Year 3 Fall: Historiography → Year 4 Spring: Capstone
@@ -202,7 +202,7 @@ Qualifying courses: 16-024, 16-044, 16-204, 16-214, 16-234, 16-254, 16-274, 16-4
 | Pre-/early modern | Required | Not required |
 | Historiography | Required | Not required |
 | Capstone | Required | Not required |
-| WA Paideia | Through 604 + 864 | Not guaranteed |
+| WA General Education | Through 604 + 864 | Not guaranteed |
 
 ---
 
@@ -214,7 +214,7 @@ All courses use the HIS16-XXXX format. Final digit = credit hours (4 = 4 credits
 
 ### WORLD HISTORY COURSES
 
-| Course | Title | Offered | Pre-Modern | Paideia | Contributes To |
+| Course | Title | Offered | Pre-Modern | General Education | Contributes To |
 |---|---|---|---|---|---|
 | HIS16-014 | Disease, Health & Medicine in World History | Annually | No | H | Environmental Studies, Health Studies, International Studies, Spanish for Healthcare Professions Certificate |
 | HIS16-024 | Empires & Empires of Mind in World History | Annually | **Yes** | H | Design Thinking, International Studies |
@@ -230,7 +230,7 @@ All courses use the HIS16-XXXX format. Final digit = credit hours (4 = 4 credits
 
 ### UPPER-LEVEL COURSES — AFRICA
 
-| Course | Title | Offered | Pre-Modern | Paideia | Contributes To |
+| Course | Title | Offered | Pre-Modern | General Education | Contributes To |
 |---|---|---|---|---|---|
 | HIS16-114 | History of Modern Africa | Biennially | No | H | International Studies, Race and Ethnicity Studies/Group-Theme |
 | HIS16-204 | African Environmental History | Biennially | Yes | H | Environmental Studies, International Studies, Race and Ethnicity Studies/Group-Theme |
@@ -240,7 +240,7 @@ All courses use the HIS16-XXXX format. Final digit = credit hours (4 = 4 credits
 
 ### UPPER-LEVEL COURSES — EAST ASIA
 
-| Course | Title | Offered | Pre-Modern | Paideia | Contributes To |
+| Course | Title | Offered | Pre-Modern | General Education | Contributes To |
 |---|---|---|---|---|---|
 | HIS16-124 | History of East Asia to 1800 | Biennially | **Yes** | H | Early Modern and Medieval Studies, East Asian Studies, International Studies |
 | HIS16-134 | History of East Asia Since 1800 | Biennially | No | H | East Asian Studies, International Studies |
@@ -252,7 +252,7 @@ All courses use the HIS16-XXXX format. Final digit = credit hours (4 = 4 credits
 
 ### UPPER-LEVEL COURSES — EUROPE
 
-| Course | Title | Offered | Pre-Modern | Paideia | Contributes To |
+| Course | Title | Offered | Pre-Modern | General Education | Contributes To |
 |---|---|---|---|---|---|
 | HIS16-184 | History of Early Modern Europe | Biennially | **Yes** | H | Early Modern and Medieval Studies, International Studies |
 | HIS16-194 | History of Modern Europe | Biennially | No | H | Data Analytics, Data Science, Feminist Studies, International Studies |
@@ -270,7 +270,7 @@ All courses use the HIS16-XXXX format. Final digit = credit hours (4 = 4 credits
 
 ### UPPER-LEVEL COURSES — LATIN AMERICA
 
-| Course | Title | Offered | Pre-Modern | Paideia | Contributes To |
+| Course | Title | Offered | Pre-Modern | General Education | Contributes To |
 |---|---|---|---|---|---|
 | HIS16-144 | History of Colonial Latin America | Biennially | **Yes** | H | Early Modern and Medieval Studies, Health Studies, International Studies, Latin American and Border Studies, Race and Ethnicity Studies/Group-Theme |
 | HIS16-154 | History of Modern Latin America | Biennially | No | H | International Studies, Latin American and Border Studies, Race and Ethnicity Studies/Group-Theme |
@@ -287,7 +287,7 @@ All courses use the HIS16-XXXX format. Final digit = credit hours (4 = 4 credits
 
 ### UPPER-LEVEL COURSES — UNITED STATES
 
-| Course | Title | Offered | Pre-Modern | Paideia | Contributes To |
+| Course | Title | Offered | Pre-Modern | General Education | Contributes To |
 |---|---|---|---|---|---|
 | HIS16-164 | Hist of US: From Colonies to Nation | Biennially | **Yes** | H | Early Modern and Medieval Studies, Legal Studies Certificate |
 | HIS16-174 | Hist of U.S.: From Nation to World Power | Biennially | No | H | — |
@@ -301,7 +301,7 @@ All courses use the HIS16-XXXX format. Final digit = credit hours (4 = 4 credits
 
 ### UPPER-LEVEL COURSES — TRANSREGIONAL
 
-| Course | Title | Offered | Pre-Modern | Paideia | Contributes To |
+| Course | Title | Offered | Pre-Modern | General Education | Contributes To |
 |---|---|---|---|---|---|
 | HIS16-364 | Slavery & Freedom in the Atlantic World | Biennially | **Yes** | H | International Studies, Race and Ethnicity Studies/Group-Theme |
 | HIS16-374 | History of the Islamic World | Biennially | **Yes** | H | International Studies |
@@ -317,13 +317,13 @@ All courses use the HIS16-XXXX format. Final digit = credit hours (4 = 4 credits
 
 #### HIS16-604 — Historiography
 - **Prerequisites:** One of HIS16-014, 16-024, 16-034, 16-044, 16-054, or 16-094; AND junior status or permission of instructor
-- **Offered:** Every Fall | **Paideia:** H, WA
+- **Offered:** Every Fall | **General Education: ** H, WA
 - **Required For:** B.A. in History (not for minor)
 - **Notes:** Methods course on history and philosophy of History; visiting Colloquium scholar participates each fall
 
 #### HIS16-864 — Research Seminar (Capstone)
 - **Prerequisites:** HIS16-604
-- **Offered:** Every Spring | **Paideia:** H, WA
+- **Offered:** Every Spring | **General Education: ** H, WA
 - **Required For:** B.A. in History (not for minor)
 - **Notes:** Topic changes each semester; students choose their own research period and place
 
@@ -472,7 +472,7 @@ All courses use the HIS16-XXXX format. Final digit = credit hours (4 = 4 credits
   - **What general docs must cover:** 127-credit minimum, 64-credit SU residency, last 32 in-residence, 2.000 GPA, 60% major residency, Application for Diploma
   - **Routing instruction:** Always retrieve `SU_General_Policies.txt` alongside `Majoring___Minoring.txt`
 
-- **Topic:** Paideia general education requirements
+- **Topic:** General education requirements
   - **What major docs cover:** Courses.txt notes H, PJ, SJ, WA per course
   - **What general docs must cover:** Full FYS/AES, Language & Cultures, FRA, Power and Justice, Exploration & Breadth structure
   - **Routing instruction:** Always retrieve `SU_General_Policies.txt`; retrieve `Courses.txt` for designation lookup
@@ -575,7 +575,7 @@ All courses use the HIS16-XXXX format. Final digit = credit hours (4 = 4 credits
 - Faculty contact questions → `Our_Faculty.txt`
 - Internship questions → `For_Current_Students.txt`; if funding, add `SU_Resources_and_Financial.txt`
 - Study abroad questions → `SU_Resources_and_Financial.txt` + `SU_General_Policies.txt`
-- Paideia or gen-ed questions → `SU_General_Policies.txt` + `Courses.txt` for designation lookup
+- general education questions → `SU_General_Policies.txt` + `Courses.txt` for designation lookup
 - Paired/double major questions → `Majoring___Minoring.txt` + `SU_General_Policies.txt` + advisor
 
 **Degree path disambiguation triggers:**
@@ -605,7 +605,7 @@ All courses use the HIS16-XXXX format. Final digit = credit hours (4 = 4 credits
 
 **Always retrieve `SU_General_Policies.txt` alongside major docs when:**
 - Any graduation eligibility or credit count question
-- Any Paideia / gen-ed requirement question
+- Any general education requirement question
 - Any grading policy question (Pass/D/F, grade appeals, incomplete grades)
 - Any academic standing question (probation, dismissal, appeal)
 - Any transfer credit or credit-by-examination question

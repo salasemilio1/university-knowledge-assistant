@@ -41,7 +41,7 @@ This index covers all documents provided for the Political Science department at
 
 ### Political Science — Course Offerings
 - **degree_relevance:** B.A., Minor
-- **description:** Lists all current and recent course offerings in the Political Science department with full course descriptions. Covers introductory courses (PSC32-114 through PSC32-284), mid-level courses (PSC32-324 through PSC32-464), advanced 500–600 level courses (PSC32-504 through PSC32-654), and the capstone (PSC32-964). Each entry includes course number, full title, description, prerequisites (where applicable), and Paideia designations (ScS, SJ, PJ, WA). Courses span subfields: American Politics, Comparative Politics, International Relations, Political Theory, Race & Ethnic Politics, Gender & Politics, and area studies (Latin America, Middle East, Japan, China, Europe, Germany/Japan). This is the primary source for course descriptions, prerequisites, and cross-listed/contributing programs.
+- **description:** Lists all current and recent course offerings in the Political Science department with full course descriptions. Covers introductory courses (PSC32-114 through PSC32-284), mid-level courses (PSC32-324 through PSC32-464), advanced 500–600 level courses (PSC32-504 through PSC32-654), and the capstone (PSC32-964). Each entry includes course number, full title, description, prerequisites (where applicable), and General education designations (ScS, SJ, PJ, WA). Courses span subfields: American Politics, Comparative Politics, International Relations, Political Theory, Race & Ethnic Politics, Gender & Politics, and area studies (Latin America, Middle East, Japan, China, Europe, Germany/Japan). This is the primary source for course descriptions, prerequisites, and cross-listed/contributing programs.
 - **critical_data:**
   - 28 courses listed across all levels
   - Introductory courses (no prerequisites): PSC32-114, PSC32-144, PSC32-184, PSC32-194, PSC32-204 (no prereq stated), PSC32-224, PSC32-234, PSC32-264, PSC32-284
@@ -49,7 +49,7 @@ This index covers all documents provided for the Political Science department at
   - 500–600 level prereqs: PSC32-364 or PSC32-384 (or instructor permission)
   - PSC32-344 Texas Legislative Internship: requires 8 credits in PSC, offered every other Spring during TX legislative session
   - PSC32-964 Senior Seminar: requires instructor permission
-  - Many courses carry Paideia designations: (ScS), (SJ), (PJ), (WA)
+  - Many courses carry General education designations: (ScS), (SJ), (PJ), (WA)
   - Several courses contribute to other programs: International Studies, Latin American and Border Studies, Race and Ethnicity Studies, Feminist Studies, Legal Studies Certificate, East Asian Studies, Data Science
 
 ---
@@ -122,7 +122,7 @@ Source: `SU_General_Policies.txt`
 | Graduation Application | "Application for Diploma" must be filed; financial holds block diploma |
 | Degree Conferral Dates | December, May, August only; Commencement held once per year in May |
 
-### SU Universal Curriculum Requirements (Paideia Framework)
+### SU Universal Curriculum Requirements (General Education)
 
 Source: `SU_General_Policies.txt`
 
@@ -132,7 +132,7 @@ Source: `SU_General_Policies.txt`
 - **Power and Justice (PJ):** 1 course, 3–4 credits — cannot be satisfied by transfer credit
 - **Exploration and Breadth:** 6 courses outside major (18–24 credits): Part I — one course each from Fine Arts (FA), Humanities (H), Natural Sciences (NS), Social Sciences (ScS); Part II — one additional course from two of those four areas
 
-Several Political Science courses carry Paideia designations (ScS), (SJ), (PJ), and (WA) and may satisfy Exploration and Breadth or Power and Justice requirements.
+Several Political Science courses carry General education designations (ScS), (SJ), (PJ), and (WA) and may satisfy Exploration and Breadth or Power and Justice requirements.
 
 ---
 
@@ -208,7 +208,7 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
 - **Corequisites:** None
 - **Offered:** Fall and Spring (multiple sections Fall 2024; confirmed in schedule)
 - **Required For:** B.A. Major, Minor
-- **Counts As:** Core requirement; Paideia (ScS)
+- **Counts As:** Core requirement; General Education (ScS)
 - **Notes:** Serves as a civics course and introduction to American political theory and methods. Gateway course — required before most mid-level American Politics courses.
 - **Source:** `Courses.txt`, `Majoring___Minoring.txt`
 
@@ -220,7 +220,7 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
 - **Corequisites:** None
 - **Offered:** Fall and Spring (Spring 2024, Spring 2025 confirmed)
 - **Required For:** B.A. Major, Minor
-- **Counts As:** Core requirement; Paideia (ScS); contributes to International Studies
+- **Counts As:** Core requirement; General Education (ScS); contributes to International Studies
 - **Notes:** Introductory survey of major political systems, Western and non-Western. Gateway to several 400–600 level comparative and IR courses.
 - **Source:** `Courses.txt`, `Majoring___Minoring.txt`
 
@@ -232,7 +232,7 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
 - **Corequisites:** None
 - **Offered:** Spring (Spring 2024 confirmed as Dr. Selbin)
 - **Required For:** Elective for major
-- **Counts As:** Paideia (ScS) (SJ) (PJ); contributes to International Studies, Latin American and Border Studies, Race and Ethnicity Studies/Allied Course
+- **Counts As:** General Education (ScS) (SJ) (PJ); contributes to International Studies, Latin American and Border Studies, Race and Ethnicity Studies/Allied Course
 - **Notes:** Also accessible to students with prior regional knowledge.
 - **Source:** `Courses.txt`
 
@@ -244,7 +244,7 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
 - **Corequisites:** None
 - **Offered:** Unknown (not listed in current schedule)
 - **Required For:** Elective for major
-- **Counts As:** Paideia (ScS)
+- **Counts As:** General Education (ScS)
 - **Notes:** Enrollment restriction: primarily for first-years and sophomores.
 - **Source:** `Courses.txt`
 
@@ -256,7 +256,7 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
 - **Corequisites:** None
 - **Offered:** Spring 2025 (TBA instructor)
 - **Required For:** Elective for major
-- **Counts As:** Paideia (ScS) (SJ) (PJ); contributes to Legal Studies Certificate
+- **Counts As:** General Education (ScS) (SJ) (PJ); contributes to Legal Studies Certificate
 - **Notes:** Covers pre-founding era through twentieth century, American exceptionalism, democracy paradoxes.
 - **Source:** `Courses.txt`
 
@@ -268,7 +268,7 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
 - **Corequisites:** None
 - **Offered:** Unknown (not listed in current schedule by this title; note "Governing Diversity: Race & Ethnicity in American Politics" listed Spring 2024 under Goodwin may be a variant)
 - **Required For:** Elective for major
-- **Counts As:** Paideia (ScS); contributes to Environmental Studies, Race and Ethnicity Studies/Group-Theme Course, Legal Studies Certificate
+- **Counts As:** General Education (ScS); contributes to Environmental Studies, Race and Ethnicity Studies/Group-Theme Course, Legal Studies Certificate
 - **Notes:** Covers African American, American Indian, Latina/o, and Asian American/Pacific Islander political experiences; draws on critical race theory.
 - **Source:** `Courses.txt`
 
@@ -280,7 +280,7 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Elective for major
-- **Counts As:** Paideia (ScS); contributes to International Studies
+- **Counts As:** General Education (ScS); contributes to International Studies
 - **Notes:** Focuses on major Arab states, Israel, and Iran.
 - **Source:** `Courses.txt`
 
@@ -292,7 +292,7 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Elective for major
-- **Counts As:** Paideia (ScS); contributes to Feminist Studies
+- **Counts As:** General Education (ScS); contributes to Feminist Studies
 - **Notes:** Uses feminist political theory and intersectional approach.
 - **Source:** `Courses.txt`
 
@@ -304,7 +304,7 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Elective for major
-- **Counts As:** Paideia (ScS)
+- **Counts As:** General Education (ScS)
 - **Notes:** Enrollment restriction: primarily for first-years and sophomores.
 - **Source:** `Courses.txt`
 
@@ -316,7 +316,7 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Elective for major
-- **Counts As:** Paideia (ScS); contributes to East Asian Studies, International Studies
+- **Counts As:** General Education (ScS); contributes to East Asian Studies, International Studies
 - **Notes:** Enrollment restriction: primarily for first-years and sophomores.
 - **Source:** `Courses.txt`
 
@@ -328,7 +328,7 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Elective for major
-- **Counts As:** Paideia (ScS); contributes to Feminist Studies, Legal Studies Certificate
+- **Counts As:** General Education (ScS); contributes to Feminist Studies, Legal Studies Certificate
 - **Notes:** Examines sex work, reproductive care, and sexual conduct through constitutional law and political theory.
 - **Source:** `Courses.txt`
 
@@ -340,7 +340,7 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
 - **Corequisites:** None
 - **Offered:** Every other Spring when Texas legislature is in session (Spring 2025 confirmed)
 - **Required For:** Elective for major (counts as no more than one internship toward major)
-- **Counts As:** Paideia (ScS)
+- **Counts As:** General Education (ScS)
 - **Notes:** Work environment at Texas State Capitol under faculty supervision. Open to juniors and seniors. Only one internship can count toward the major.
 - **Source:** `Courses.txt`
 
@@ -352,7 +352,7 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Elective for major
-- **Counts As:** Paideia (ScS); contributes to Race and Ethnicity Studies
+- **Counts As:** General Education (ScS); contributes to Race and Ethnicity Studies
 - **Notes:** Strongly encouraged prerequisites, not required.
 - **Source:** `Courses.txt`
 
@@ -364,7 +364,7 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
 - **Corequisites:** None
 - **Offered:** Fall and Spring (Fall 2024 TBA; Spring 2025 confirmed, 2 sections)
 - **Required For:** B.A. Major, Minor
-- **Counts As:** Core requirement; Paideia (ScS) (WA) (SJ) (PJ); contributes to Legal Studies Certificate
+- **Counts As:** Core requirement; General Education (ScS) (WA) (SJ) (PJ); contributes to Legal Studies Certificate
 - **Notes:** Writing Attentive (WA) designation. Gateway to most 500–600 level courses.
 - **Source:** `Courses.txt`, `Majoring___Minoring.txt`
 
@@ -376,7 +376,7 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
 - **Corequisites:** None
 - **Offered:** Fall and Spring (both semesters confirmed in schedule, Dr. Snyder, WA)
 - **Required For:** B.A. Major, Minor
-- **Counts As:** Core requirement; Paideia (WA) (ScS); contributes to International Studies
+- **Counts As:** Core requirement; General Education (WA) (ScS); contributes to International Studies
 - **Notes:** Writing Attentive (WA) designation. Also a gateway to most 500–600 level courses.
 - **Source:** `Courses.txt`, `Majoring___Minoring.txt`
 
@@ -388,7 +388,7 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Elective for major
-- **Counts As:** Paideia (ScS); contributes to Data Science
+- **Counts As:** General Education (ScS); contributes to Data Science
 - **Notes:** Covers research design, hypothesis testing, qualitative and quantitative data analysis. Contributes to Data Science program.
 - **Source:** `Courses.txt`
 
@@ -400,7 +400,7 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Elective for major
-- **Counts As:** Paideia (ScS); contributes to International Studies
+- **Counts As:** General Education (ScS); contributes to International Studies
 - **Notes:** Covers political cultures, structures, and European Union.
 - **Source:** `Courses.txt`
 
@@ -412,7 +412,7 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Elective for major
-- **Counts As:** Paideia (ScS); contributes to East Asian Studies, International Studies
+- **Counts As:** General Education (ScS); contributes to East Asian Studies, International Studies
 - **Notes:** Seminar course on causes and effects of the Cultural Revolution.
 - **Source:** `Courses.txt`
 
@@ -424,7 +424,7 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
 - **Corequisites:** None
 - **Offered:** Fall and Spring (Fall 2024 and Spring 2024 confirmed, Dr. Sydnor)
 - **Required For:** Elective for major
-- **Counts As:** Paideia (ScS)
+- **Counts As:** General Education (ScS)
 - **Notes:** Covers voting behavior, campaign strategies, and political engagement.
 - **Source:** `Courses.txt`
 
@@ -436,7 +436,7 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
 - **Corequisites:** None
 - **Offered:** Varies by topic (may be repeated with change of topic)
 - **Required For:** Counts toward two required 500–600 level courses for major
-- **Counts As:** Paideia (ScS); 500–600 level requirement
+- **Counts As:** General Education (ScS); 500–600 level requirement
 - **Notes:** Repeatable with different topics. Contributes to prerequisite for Senior Seminar.
 - **Source:** `Courses.txt`
 
@@ -448,7 +448,7 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Elective for major (500–600 level)
-- **Counts As:** Paideia (ScS); 500–600 level requirement; contributes to International Studies
+- **Counts As:** General Education (ScS); 500–600 level requirement; contributes to International Studies
 - **Notes:** Substantial writing required.
 - **Source:** `Courses.txt`
 
@@ -460,7 +460,7 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Elective for major (500–600 level)
-- **Counts As:** Paideia (ScS); 500–600 level requirement; contributes to Race and Ethnicity Studies/Group-Theme Course
+- **Counts As:** General Education (ScS); 500–600 level requirement; contributes to Race and Ethnicity Studies/Group-Theme Course
 - **Notes:** Covers development of African American politics from intellectual responses to systemic racism through electoral politics.
 - **Source:** `Courses.txt`
 
@@ -472,7 +472,7 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
 - **Corequisites:** None
 - **Offered:** Spring (Spring 2024 confirmed as 500–600 level Craft of Research, Dr. Snyder)
 - **Required For:** Elective for major (500–600 level)
-- **Counts As:** Paideia (ScS); 500–600 level requirement
+- **Counts As:** General Education (ScS); 500–600 level requirement
 - **Notes:** Focus on Cold War and post-Cold War foreign policy. Listed as "Craft of Research" 500–600 level in schedule.
 - **Source:** `Courses.txt`
 
@@ -484,7 +484,7 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Elective for major (500–600 level)
-- **Counts As:** Paideia (ScS); 500–600 level requirement; contributes to East Asian Studies, International Studies
+- **Counts As:** General Education (ScS); 500–600 level requirement; contributes to East Asian Studies, International Studies
 - **Notes:** Comparative study of democratic institutions, economic growth, and political culture in postwar Japan and Germany.
 - **Source:** `Courses.txt`
 
@@ -496,7 +496,7 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
 - **Corequisites:** None
 - **Offered:** Spring 2025 (Dr. Selbin, listed as 500–600 Craft of Research)
 - **Required For:** Elective for major (500–600 level)
-- **Counts As:** Paideia (ScS); 500–600 level requirement; contributes to International Studies
+- **Counts As:** General Education (ScS); 500–600 level requirement; contributes to International Studies
 - **Notes:** Substantial research and writing component. "Craft of Research" designation.
 - **Source:** `Courses.txt`
 
@@ -508,7 +508,7 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Elective for major (500–600 level)
-- **Counts As:** Paideia (ScS); 500–600 level requirement; contributes to Feminist Studies, Legal Studies Certificate
+- **Counts As:** General Education (ScS); 500–600 level requirement; contributes to Feminist Studies, Legal Studies Certificate
 - **Notes:** Uses activist archives (Redstockings, Black Panthers, SDS, ACT UP) to develop political theories of democracy.
 - **Source:** `Courses.txt`
 
@@ -520,7 +520,7 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
 - **Corequisites:** None
 - **Offered:** Fall 2024 (Dr. Gaunder, listed as 500–600 Craft of Research)
 - **Required For:** Elective for major (500–600 level)
-- **Counts As:** Paideia (ScS) (SJ) (PJ); 500–600 level requirement; contributes to East Asian Studies, Feminist Studies, International Studies
+- **Counts As:** General Education (ScS) (SJ) (PJ); 500–600 level requirement; contributes to East Asian Studies, Feminist Studies, International Studies
 - **Notes:** "Craft of Research" designation. Comparative study of women's political representation.
 - **Source:** `Courses.txt`
 
@@ -699,9 +699,9 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
 
 ---
 
-**Q:** What poli sci courses count toward the Power and Justice Paideia requirement?
+**Q:** What poli sci courses count toward the Power and Justice General education requirement?
 **Docs:** `Courses.txt`
-**Routing Note:** Courses with (PJ) designation: PSC32-184, PSC32-204, PSC32-364, PSC32-654. Routing model identifies these from Paideia designations in course descriptions.
+**Routing Note:** Courses with (PJ) designation: PSC32-184, PSC32-204, PSC32-364, PSC32-654. Routing model identifies these from General education designations in course descriptions.
 **Disambiguation Needed:** No
 
 ---
@@ -818,11 +818,10 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
   - **What general docs must cover:** 127-credit minimum, 64-credit SU residency, last 32 in-residence, 2.000 GPA, 60% major residency, Application for Diploma process
   - **Routing instruction:** Always retrieve `SU_General_Policies.txt` alongside `Majoring___Minoring.txt` for any graduation eligibility question
 
-- **Topic:** Paideia general education requirements
-  - **What major docs cover:** Which poli sci courses satisfy Paideia areas (ScS, PJ, WA, SJ designations listed per course)
+- **Topic:** General education requirements
+  - **What major docs cover:** Which poli sci courses satisfy General education areas (ScS, PJ, WA, SJ designations listed per course)
   - **What general docs must cover:** Full structure of FYS/AES, Language & Cultures, FRA, Power and Justice, Exploration & Breadth Parts I and II, Paideia with Distinction
-  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about gen-ed, breadth requirements, or Paideia
-
+  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about gen-ed, breadth requirements, or General Education 
 - **Topic:** Pass/D/F grading option
   - **What major docs cover:** Not covered
   - **What general docs must cover:** Full Pass/D/F policy, deadlines to switch, GPA impact
@@ -969,7 +968,7 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
 
 **Always retrieve `SU_General_Policies.txt` alongside major docs when:**
 - Any graduation eligibility or credit count question
-- Any Paideia / general education requirement question
+- Any general education requirement question
 - Any grading policy question (Pass/D/F, grade appeals, incomplete grades)
 - Any academic standing question (probation, dismissal, appeal)
 - Any transfer credit or credit-by-examination question
