@@ -2685,6 +2685,30 @@
             if (normalized === "feminist studies and history") {
                 return "english and feminist studies";
             }
+            if (normalized === "pre-engineering") {
+                return "applied physics";
+            }
+            if (normalized === "music") {
+                return "bachelor of arts in music";
+            }
+            if (normalized === "art studio") {
+                return "studio art";
+            }
+            if (
+                normalized === "environmental studies" ||
+                normalized === "b.a. in environmental studies" ||
+                normalized === "b a in environmental studies"
+            ) {
+                return "environmental studies";
+            }
+
+            if (
+                normalized === "education" ||
+                normalized === "b.a. in education" ||
+                normalized === "b a in education"
+            ) {
+                return "b.a. in education";
+            }
 
             return normalized;
         }
