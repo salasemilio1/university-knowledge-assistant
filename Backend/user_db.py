@@ -81,6 +81,7 @@ class Course(Base):
     credits: Mapped[str] = mapped_column(String(5))
     grade: Mapped[Optional[str]] = mapped_column(String(5))
     semester: Mapped[Optional[str]] = mapped_column(String(50))
+    is_transfer_equivalent: Mapped[bool] = mapped_column(Boolean, default=False)
 
     # Don't allow same course code multiple times for a user
     __table_args__ = (UniqueConstraint("google_id","code",),)
@@ -336,7 +337,8 @@ def get_user_courses(google_id: str):
                 "code": normalize_code(course.code),
                 "credits": course.credits,
                 "grade": course.grade,
-                "semester": course.semester
+                "semester": course.semester,
+                "is_transfer_equivalent": course.is_transfer_equivalent
             }
             for course in courses
         ]
@@ -349,13 +351,28 @@ def add_courses(google_id:str, courses:List[dict[str,Any]], is_from_transcript=F
     Args:
         google_id(str): The Google ID of the account to add courses for.
         courses(List[dict[str,Any]]): List of courses in JSON format.
+        is_from_transcript(bool): Whether the data comes from a transcript upload.
     Returns:
         bool: True if successful
+
+    Source-of-truth policy
+    ─────────────────────
+    • Transcript (is_from_transcript=True):
+        – Writes name, credits, semester, and grade on INSERT.
+        – On DUPLICATE: updates name, credits, semester, and grade.
+          A subsequent manual save will overwrite grade if the user edits it.
+    • Manual / frontend (is_from_transcript=False):
+        – Writes name, credits, and grade on INSERT (semester stays "NA").
+        – On DUPLICATE: always overwrites name, credits, AND grade.
+          This is intentional: the user's manual input is always the final
+          source of truth and MUST win over any previously transcript-parsed
+          grade. Semester is preserved from the original transcript row.
     """
 
     with SessionLocal() as session:
         if not is_from_transcript:
-            # Safely handle user deletions: only delete NA courses that are MISSING from the submitted list
+            # Safely handle user deletions: only delete "NA-semester" courses
+            # that are MISSING from the submitted list (i.e. user unchecked them).
             submitted_codes = {normalize_code(c["code"]) for c in courses}
             db_courses = session.query(Course).filter(Course.google_id == google_id, Course.semester == "NA").all()
             for db_c in db_courses:
@@ -371,20 +388,29 @@ def add_courses(google_id:str, courses:List[dict[str,Any]], is_from_transcript=F
                 code=norm_code,
                 credits=str(c["credits"]),
                 grade=c.get("grade", "NA"),
-                semester=c.get("semester", "NA")
+                semester=c.get("semester", "NA"),
+                is_transfer_equivalent=c.get("is_transfer_equivalent", False)
             )
             
             if is_from_transcript:
-                # Transcript is truth for semester/grade.
-                on_duplicate = stmt.on_duplicate_key_update(
-                    semester=stmt.inserted.semester,
-                    grade=stmt.inserted.grade
-                )
-            else:
-                # Manual is truth for name/credits. Don't overwrite existing semester with NA.
+                # Transcript sets all fields on conflict.
+                # A subsequent manual save will overwrite grade if the user edits it.
                 on_duplicate = stmt.on_duplicate_key_update(
                     name=stmt.inserted.name,
-                    credits=stmt.inserted.credits
+                    credits=stmt.inserted.credits,
+                    semester=stmt.inserted.semester,
+                    grade=stmt.inserted.grade,
+                    is_transfer_equivalent=False
+                )
+            else:
+                # Manual input is ALWAYS the source of truth for grade and transfer equivalent flag.
+                # Overwrite grade even if the row was previously inserted by a transcript.
+                # Do NOT overwrite semester — keep the transcript-provided semester intact.
+                on_duplicate = stmt.on_duplicate_key_update(
+                    name=stmt.inserted.name,
+                    credits=stmt.inserted.credits,
+                    grade=stmt.inserted.grade,
+                    is_transfer_equivalent=stmt.inserted.is_transfer_equivalent
                 )
             
             session.execute(on_duplicate)
