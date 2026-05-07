@@ -913,6 +913,22 @@
             border-bottom: 1px solid var(--border);
         }
 
+        .grade-select {
+            margin-left: auto;
+            background: var(--bg);
+            color: var(--text);
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            padding: 2px 6px;
+            font-size: 0.85rem;
+            cursor: pointer;
+        }
+
+        .grade-select:focus {
+            outline: none;
+            border-color: var(--accent);
+        }
+
         .search-result-item:last-child {
             border-bottom: none;
         }
@@ -1411,10 +1427,18 @@
                                 <summary>Transfer Credits</summary>
 
                                 <div class="profile-field">
-                                    <label>Recognized Transfer Credits</label>
+                                    <label>Raw Transfer Credits</label>
                                     <div id="transfer-credits-list"
                                         style="margin-bottom: 16px; display: flex; flex-direction: column;">
                                         <!-- Transfer credits will appear here -->
+                                    </div>
+                                    <div style="margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--border);">
+                                        <label>Unrecognized Transfer Credits: <span id="unrecognized-credits-counter">0</span></label>
+                                        <p style="font-size: 0.8rem; color: var(--muted); margin-bottom: 8px;">These are transfer credits that haven't been mapped to a specific SU course in the Courses tab.</p>
+                                    </div>
+                                    <label style="margin-top: 12px;">Mapped SU Courses</label>
+                                    <div id="mapped-transfer-list" style="margin-bottom: 8px; display: flex; flex-direction: column;">
+                                        <!-- Mapped courses appear here -->
                                     </div>
                                 </div>
                             </details>
@@ -2047,7 +2071,7 @@
          * Full course catalog loaded from the backend.
          */
         let allCourses = [];
-        let selectedCourses = new Set();
+        let selectedCourses = new Map(); // code -> {name, grade}
 
         /**
          * Loads the course catalog and renders the course selection UI.
@@ -2094,8 +2118,7 @@
 
             // 1. Render all selected courses at the top
             allCourses.filter(c => selectedCourses.has(normalizeCode(c.code))).forEach(course => {
-                const courseVal = `${course.code} ${course.title}`;
-                renderItem(selectedListContainer, courseVal, course, true, "selected-course-pill");
+                renderItem(selectedListContainer, course, true, "selected-course-pill");
                 shownInSelected.add(normalizeCode(course.code));
             });
 
@@ -2106,8 +2129,7 @@
                         c.title.toLowerCase().includes(searchTerm)) &&
                     !shownInSelected.has(normalizeCode(c.code))
                 ).slice(0, 50).forEach(course => { // Limit for performance
-                    const courseVal = `${course.code} ${course.title}`;
-                    renderItem(searchResultsContainer, courseVal, course, false, "search-result-item");
+                    renderItem(searchResultsContainer, course, false, "search-result-item");
                 });
             }
         }
@@ -2120,20 +2142,105 @@
          * @param {boolean} isChecked - Whether the course should start checked.
          * @param {string} className - CSS class applied to the course label.
          */
-        function renderItem(container, courseVal, course, isChecked, className) {
+        function renderItem(container, course, isChecked, className) {
+            const normCode = normalizeCode(course.code);
+            const courseData = isChecked ? selectedCourses.get(normCode) : null;
+            const grade = courseData?.grade || "NA";
+            const isTranscript = courseData?.isTranscript || false;
+            
             const label = document.createElement("label");
             label.className = className;
-            label.innerHTML = `<input type="checkbox" name="courses" value="${courseVal}" ${isChecked ? 'checked' : ''}> <span>${courseVal}</span>`;
+            
+            // Use a pipe-delimited value for easy parsing in backend: CODE|NAME|GRADE|IS_TRANSFER
+            const value = `${course.code}|${course.title}|${grade}|${courseData?.isTransfer || false}`;
+            
+            let labelContent = `
+                <input type="checkbox" name="courses" value="${value}" ${isChecked ? 'checked' : ''}>
+                <span>${course.code} ${course.title}</span>
+            `;
+            
+            if (isTranscript) {
+                labelContent += ` <span style="font-size: 0.7rem; color: var(--muted); background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 4px; margin-left: 6px;" title="This course was automatically added from your transcript. You can override the grade here if needed.">Transcript</span>`;
+            }
+            
+            label.innerHTML = labelContent;
+
+            if (isChecked) {
+                const grades = ["A+", "A", "A-", "B+", "B", "B-", "C+", "C", "C-", "Pass", "Fail", "CR", "IP"];
+                const select = document.createElement("select");
+                select.className = "grade-select";
+                // Prevent the label from toggling the checkbox when clicking the select
+                select.addEventListener("click", (e) => e.stopPropagation());
+                
+                // Add placeholder
+                const defaultOpt = document.createElement("option");
+                defaultOpt.value = "NA";
+                defaultOpt.textContent = "-- Select Grade --";
+                select.appendChild(defaultOpt);
+                
+                grades.forEach(g => {
+                    const opt = document.createElement("option");
+                    opt.value = g;
+                    opt.textContent = g;
+                    select.appendChild(opt);
+                });
+                
+                select.value = grade;
+                
+                select.addEventListener("change", (e) => {
+                    const newGrade = e.target.value;
+                    const existingData = selectedCourses.get(normCode) || { name: course.title, isTranscript: false, isTransfer: false };
+                    selectedCourses.set(normCode, { ...existingData, grade: newGrade });
+                    // Update checkbox value
+                    const cb = label.querySelector('input');
+                    cb.value = `${course.code}|${course.title}|${newGrade}|${existingData.isTransfer || false}`;
+                    // Update without triggering a full list re-render to keep focus
+                });
+                
+                label.appendChild(select);
+                
+                if (!isTranscript) {
+                    const transferLabel = document.createElement("label");
+                    transferLabel.style.display = "flex";
+                    transferLabel.style.alignItems = "center";
+                    transferLabel.style.gap = "4px";
+                    transferLabel.style.marginLeft = "12px";
+                    transferLabel.style.fontSize = "0.8rem";
+                    
+                    const transferCheck = document.createElement("input");
+                    transferCheck.type = "checkbox";
+                    transferCheck.checked = courseData?.isTransfer || false;
+                    transferCheck.addEventListener("click", (e) => e.stopPropagation());
+                    transferCheck.addEventListener("change", (e) => {
+                        const isTransfer = e.target.checked;
+                        const existingData = selectedCourses.get(normCode) || { name: course.title, isTranscript: false, grade: "NA" };
+                        
+                        let newGrade = existingData.grade;
+                        if (isTransfer) {
+                            newGrade = "CR";
+                            select.value = "CR";
+                        }
+                        
+                        selectedCourses.set(normCode, { ...existingData, isTransfer, grade: newGrade });
+                        
+                        const cb = label.querySelector('input[name="courses"]');
+                        cb.value = `${course.code}|${course.title}|${newGrade}|${isTransfer}`;
+                    });
+                    
+                    transferLabel.appendChild(transferCheck);
+                    transferLabel.appendChild(document.createTextNode("Transfer Equivalent"));
+                    
+                    label.appendChild(transferLabel);
+                }
+            }
 
             const cb = label.querySelector('input');
-            const normCode = normalizeCode(course.code);
             cb.addEventListener("change", () => {
                 if (cb.checked) {
-                    selectedCourses.add(normCode);
+                    selectedCourses.set(normCode, { name: course.title, grade: "NA", isTranscript: false, isTransfer: false });
                 } else {
                     selectedCourses.delete(normCode);
                 }
-                // Always re-render to move items between lists
                 renderCourseList(courseSearchInput.value.toLowerCase());
                 renderDashboard();
             });
@@ -2229,9 +2336,15 @@
                 setValue("second_minor", data.second_minor, false);
 
                 // Restore selected courses.
-                selectedCourses = new Set(
-                    (data.courses || []).map(c => normalizeCode(c.code))
-                );
+                selectedCourses = new Map();
+                (data.courses || []).forEach(c => {
+                    selectedCourses.set(normalizeCode(c.code), { 
+                        name: c.name, 
+                        grade: c.grade || "NA",
+                        isTranscript: c.semester !== "NA",
+                        isTransfer: c.is_transfer_equivalent || false
+                    });
+                });
 
                 // Render transfer credits.
                 const transferList = document.getElementById("transfer-credits-list");
@@ -2249,6 +2362,34 @@
                     if (transferList.innerHTML === "") {
                         transferList.innerHTML = '<span style="color:var(--muted);font-style:italic;">No transfer credits recorded.</span>';
                     }
+                }
+                
+                // Render mapped courses and unrecognized counter
+                const mappedCoursesList = document.getElementById("mapped-transfer-list");
+                const unrecognizedCounter = document.getElementById("unrecognized-credits-counter");
+                
+                if (mappedCoursesList && unrecognizedCounter) {
+                    mappedCoursesList.innerHTML = "";
+                    let mappedCreditsSum = 0;
+                    
+                    (data.courses || []).forEach(c => {
+                        if (c.is_transfer_equivalent) {
+                            mappedCreditsSum += (parseFloat(c.credits) || 0);
+                            const item = document.createElement("div");
+                            item.className = "selected-course-pill";
+                            item.style.marginBottom = "4px";
+                            item.innerHTML = `<span>${c.code} ${c.name} (${c.credits} credits)</span>`;
+                            mappedCoursesList.appendChild(item);
+                        }
+                    });
+                    
+                    if (mappedCoursesList.innerHTML === "") {
+                        mappedCoursesList.innerHTML = '<span style="color:var(--muted);font-style:italic;">No mapped SU courses.</span>';
+                    }
+                    
+                    const totalRawTransferCredits = sumCredits(data.transfer_credits);
+                    const unrecognized = Math.max(totalRawTransferCredits - mappedCreditsSum, 0);
+                    unrecognizedCounter.textContent = unrecognized;
                 }
 
                 // Ensure course catalog is loaded before calculating custom courses.
@@ -2819,7 +2960,8 @@
             const courses = currentProfile.courses || [];
             const transferCredits = currentProfile.transfer_credits || [];
 
-            const completedCredits = sumCredits(courses) + sumCredits(transferCredits);
+            const coursesWithoutTransferMaps = courses.filter(c => !c.is_transfer_equivalent);
+            const completedCredits = sumCredits(coursesWithoutTransferMaps) + sumCredits(transferCredits);
             const remainingCredits = Math.max(TOTAL_REQUIRED_CREDITS - completedCredits, 0);
             const totalPercent = Math.round((completedCredits / TOTAL_REQUIRED_CREDITS) * 100);
 

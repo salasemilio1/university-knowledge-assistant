@@ -40,6 +40,9 @@ from Backend.user_db import create_user, update_user, get_user_by_id, get_user_c
 # Google OAuth client
 CLIENT_ID = "645267348660-8l6o31mokh4d7g4a0h57suu2lf36motg.apps.googleusercontent.com"
 
+# Allowed grade values. NA = not yet assigned. CR = transfer/AP/IB credit. IP = in progress.
+VALID_GRADES = {"A+", "A", "A-", "B+", "B", "B-", "C+", "C", "C-", "Pass", "Fail", "CR", "IP", "NA"}
+
 load_dotenv() # Load environment variables
 # Used for session middleware
 SECRET_KEY = os.getenv("SECRET_KEY")
@@ -235,15 +238,35 @@ async def users(request:Request):
     
     courses_list = list(form_data["courses"]) # get courses listed in checkbox
     courses = []
-    # Get course list into list of dictionaries
+    # Get course list into list of dictionaries.
+    # Supported formats:
+    #   "CODE|NAME|GRADE" — new pipe-delimited format (current frontend)
+    #   "CODE NAME"        — legacy space-delimited format (backward compat)
     for c in courses_list:
-        code, name = c.split(" ", 1)
+        if "|" in c:
+            parts = c.split("|")
+            code = parts[0].strip()
+            name = parts[1].strip() if len(parts) > 1 else ""
+            raw_grade = parts[2].strip() if len(parts) > 2 else "NA"
+            is_transfer_equivalent = (parts[3].strip().lower() == "true") if len(parts) > 3 else False
+        else:
+            # Legacy format: space-separated "CODE NAME"
+            split = c.split(" ", 1)
+            code = split[0].strip()
+            name = split[1].strip() if len(split) > 1 else ""
+            raw_grade = "NA"
+            is_transfer_equivalent = False
+
+        # Server-side grade validation — reject anything outside the allowed set.
+        grade = raw_grade if raw_grade in VALID_GRADES else "NA"
+
         course = {}
         course["name"] = name
         course["code"] = code
-        course["credits"] = code[-1] # Last digit of course code indicates credits
+        course["credits"] = code[-1] if code else "0" # Last digit of course code indicates credits
         course["semester"] = "NA"
-        course["grade"] = "NA"
+        course["grade"] = grade
+        course["is_transfer_equivalent"] = is_transfer_equivalent
         courses.append(course)
 
     # retrieve currently authed user
