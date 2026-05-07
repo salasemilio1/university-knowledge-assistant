@@ -16,37 +16,18 @@ This index covers all documents provided for the Political Science department at
 ## SECTION 2 — DOCUMENT REGISTRY
 
 ### Political Science — Department Overview
-- **filename:** `Political_Science.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Provides a high-level introduction to the Political Science major and minor at Southwestern University. Explains why studying political science matters, the range of topics covered (campaigns and elections, domestic and foreign policy, international politics, civil discourse, media and politics, gender and politics, political leadership, revolution and conflict, ideologies), and the analytical and communication skills students develop. Notes career paths for graduates including law, government, K–12 and higher education, nonprofits, urban planning, business, and international affairs. Includes brief alumni spotlights: Sierra Rupp '23 earned a Critical Language Scholarship and Fulbright grant; Alexandria Glenn '26 and Zaria Renfro '28 earned Gilman Scholarships for study abroad. Does not contain course lists or specific degree requirements.
 - **critical_data:**
   - Topics covered: campaigns/elections, foreign/domestic policy, international politics, gender and politics, revolution and conflict, ideologies
   - Career outcomes: law, government, K–12 and higher education, nonprofits, urban planning, business, international affairs
   - Alumni awards: Critical Language Scholarship, Fulbright, Gilman Scholarship
   - Does NOT specify credit hours or course requirements
-- **retrieval_triggers:**
-  - "why major in political science"
-  - "what can I do with a poli sci degree"
-  - "careers after political science"
-  - "what does the political science major cover"
-  - "is political science a good major"
-  - "alumni success stories poli sci"
-  - "what topics does the department study"
-  - "political science and law school"
-  - "poli sci and government careers"
-  - "does SU have political science"
 
 ---
 
 ### Majoring and Minoring in Political Science
-- **filename:** `Majoring___Minoring.txt`
-- **document_type:** requirements
 - **degree_relevance:** B.A., Minor
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Specifies the exact course requirements for both the B.A. major (9 courses) and the Minor (5 courses) in Political Science. The major requires four core courses — PSC32-114 American Politics, PSC32-144 Comparative Politics, PSC32-364 Introduction to Political Theory, and PSC32-384 International Politics — plus PSC32-964 Senior Seminar (Capstone), two additional Political Science courses from any subfield, and two Political Science courses at the 500–600 level (at least one taken prior to the Senior Seminar). The minor requires the same four core courses plus one additional approved course. Also references teacher certification in Political Science through the Education Department. Explains that the major cultivates critical thinking, creative communication, analysis of decision-making processes, and political analysis of social data and texts.
 - **critical_data:**
   - Major: 9 courses total
@@ -55,32 +36,12 @@ This index covers all documents provided for the Political Science department at
   - Upper-level: 2 courses at 500–600 level (at least 1 before Senior Seminar)
   - Minor: 5 courses — same 4 core + 1 additional approved course
   - Teacher certification available through Education Department
-- **retrieval_triggers:**
-  - "how many courses for the political science major"
-  - "what are the required courses for poli sci"
-  - "poli sci major requirements"
-  - "how to major in political science at SU"
-  - "poli sci minor requirements"
-  - "how many classes to minor in political science"
-  - "what is the core curriculum for poli sci"
-  - "do I need intro to political theory"
-  - "is American Politics required for the major"
-  - "what 500 level courses do I need"
-  - "can I teach political science"
-  - "how many electives does the major require"
-  - "what is the capstone for poli sci"
-  - "difference between major and minor in poli sci"
-  - "how to add the political science minor"
 
 ---
 
 ### Political Science — Course Offerings
-- **filename:** `Courses.txt`
-- **document_type:** course_info
 - **degree_relevance:** B.A., Minor
-- **time_sensitive:** false
-- **catalog_year:** N/A
-- **description:** Lists all current and recent course offerings in the Political Science department with full course descriptions. Covers introductory courses (PSC32-114 through PSC32-284), mid-level courses (PSC32-324 through PSC32-464), advanced 500–600 level courses (PSC32-504 through PSC32-654), and the capstone (PSC32-964). Each entry includes course number, full title, description, prerequisites (where applicable), and Paideia designations (ScS, SJ, PJ, WA). Courses span subfields: American Politics, Comparative Politics, International Relations, Political Theory, Race & Ethnic Politics, Gender & Politics, and area studies (Latin America, Middle East, Japan, China, Europe, Germany/Japan). This is the primary source for course descriptions, prerequisites, and cross-listed/contributing programs.
+- **description:** Lists all current and recent course offerings in the Political Science department with full course descriptions. Covers introductory courses (PSC32-114 through PSC32-284), mid-level courses (PSC32-324 through PSC32-464), advanced 500–600 level courses (PSC32-504 through PSC32-654), and the capstone (PSC32-964). Each entry includes course number, full title, description, prerequisites (where applicable), and General education designations (ScS, SJ, PJ, WA). Courses span subfields: American Politics, Comparative Politics, International Relations, Political Theory, Race & Ethnic Politics, Gender & Politics, and area studies (Latin America, Middle East, Japan, China, Europe, Germany/Japan). This is the primary source for course descriptions, prerequisites, and cross-listed/contributing programs.
 - **critical_data:**
   - 28 courses listed across all levels
   - Introductory courses (no prerequisites): PSC32-114, PSC32-144, PSC32-184, PSC32-194, PSC32-204 (no prereq stated), PSC32-224, PSC32-234, PSC32-264, PSC32-284
@@ -88,33 +49,13 @@ This index covers all documents provided for the Political Science department at
   - 500–600 level prereqs: PSC32-364 or PSC32-384 (or instructor permission)
   - PSC32-344 Texas Legislative Internship: requires 8 credits in PSC, offered every other Spring during TX legislative session
   - PSC32-964 Senior Seminar: requires instructor permission
-  - Many courses carry Paideia designations: (ScS), (SJ), (PJ), (WA)
+  - Many courses carry General education designations: (ScS), (SJ), (PJ), (WA)
   - Several courses contribute to other programs: International Studies, Latin American and Border Studies, Race and Ethnicity Studies, Feminist Studies, Legal Studies Certificate, East Asian Studies, Data Science
-- **retrieval_triggers:**
-  - "what courses does poli sci offer"
-  - "what is PSC32-114 about"
-  - "prerequisites for Introduction to Political Theory"
-  - "what are the 500-level poli sci courses"
-  - "courses that count toward legal studies certificate"
-  - "does poli sci have an internship course"
-  - "what courses count toward international studies"
-  - "are there courses on race and politics"
-  - "is there a course on gender and politics"
-  - "what poli sci courses have a writing component"
-  - "what courses count for feminist studies"
-  - "what are the upper division electives"
-  - "what courses can freshmen take in poli sci"
-  - "what is the Texas legislative internship"
-  - "courses on Latin America Caribbean"
 
 ---
 
 ### For Current Students — Tentative Course Schedules
-- **filename:** `For_Current_Students.txt`
-- **document_type:** calendar
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** 2024–2025
 - **description:** Lists tentative course offerings by semester for Spring 2024, Fall 2024, and Spring 2025, including instructor assignments. Spring 2024 offerings include American Politics (Goodwin), Comparative Politics (Aha), Politics of Latin America and the Caribbean (Selbin), Governing Diversity (Goodwin), Authoritarianism and Democracy in East Central Europe (Aha), International Politics (Snyder, WA), Candidates/Campaigns/Citizens (Sydnor), Public Opinion 500–600 (Sydnor), U.S. Foreign Policy 500–600 (Snyder), and Capstone (Selbin). Fall 2024 includes two sections of American Politics (Goodwin), plus upper-level and 500–600 level courses. Spring 2025 includes the Texas Legislative Internship (Sydnor, offered in session years only), American Political Thought, Resistance/Rebellion/Revolution 500–600, and others.
 - **critical_data:**
   - Spring 2024: 10 courses, instructors assigned
@@ -124,27 +65,11 @@ This index covers all documents provided for the Political Science department at
   - Labeled "tentative" — not guaranteed
   - Texas Legislative Internship only offered Spring 2025 (legislative session year)
   - Several TBA instructor slots in Fall 2024 and Spring 2025
-- **retrieval_triggers:**
-  - "what courses are offered this spring"
-  - "when is American Politics offered"
-  - "who teaches comparative politics"
-  - "is the internship course available this year"
-  - "what 500 level courses are offered fall 2024"
-  - "when does capstone run"
-  - "who is teaching poli sci next semester"
-  - "is international politics offered in spring"
-  - "when is resistance rebellion revolution offered"
-  - "is there a spring 2025 schedule"
-  - "when is the Texas legislative internship next offered"
 
 ---
 
 ### Our Faculty
-- **filename:** `Our_Faculty.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** N/A
 - **description:** Lists the full-time and visiting faculty in the Political Science department with names, titles, email addresses, and phone numbers. Faculty include: Alisa Gaunder (Professor), Alex Goodwin (Assistant Professor, specialty: American Politics, Race and Ethnic Politics, Black Politics, Policing, Social Movements), Zoe Moss (Assistant Professor), Alexander Norris (Visiting Assistant Professor), and Bob Snyder (Professor, specialty: International Politics, U.S. Foreign Policy, Middle East Politics, Terrorism). Office locations are listed for Gaunder (CB 159) and Snyder (Mood-Bridwell 228). Moss and Norris do not have specialties or office locations listed. This is the primary contact source for students seeking advisor information.
 - **critical_data:**
   - 5 faculty listed (4 full-time + 1 visiting)
@@ -153,26 +78,11 @@ This index covers all documents provided for the Political Science department at
   - Moss: mossz@southwestern.edu, 512.863.1602
   - Norris: norris3@southwestern.edu (visiting, no phone listed)
   - Snyder: snyderb@southwestern.edu, 512.863.1938, Mood-Bridwell 228
-- **retrieval_triggers:**
-  - "who are the poli sci professors"
-  - "how do I contact my political science advisor"
-  - "who teaches international politics"
-  - "who specializes in race and politics"
-  - "what is Professor Snyder's email"
-  - "who is the department chair"
-  - "contact info for poli sci faculty"
-  - "who teaches American politics"
-  - "is there a visiting professor in poli sci"
-  - "who should I talk to about advising"
 
 ---
 
 ### The Honors Thesis
-- **filename:** `The_Honors_Thesis.txt`
-- **document_type:** advising
 - **degree_relevance:** B.A.
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Describes the Honors Thesis program in Political Science, which is available by invitation to exceptional junior-year majors. Criteria for invitation include: demonstrated potential for independent research, interest in graduate education (preferred but not required), overall GPA of 3.4 or higher (required by the university), strong performance across multiple faculty members' courses, and unanimous departmental approval. The timeline spans the junior year spring semester (PSC32-951, 1 credit Independent Study for proposal writing) and both semesters of the senior year (PSC32-984 Honors, 4 credits each semester). Students assemble a three-member committee, must present at an academic conference or the SU Student Works Symposium, and earn the distinction "Honors in Political Science" upon successful defense. The Honors Thesis replaces the Senior Seminar (Capstone). Contrasts with Capstone: Honors is year-long, graduate-level expectations; Capstone is one semester, all majors required.
 - **critical_data:**
   - Invitation extended in fall of junior year by unanimous faculty vote
@@ -183,39 +93,15 @@ This index covers all documents provided for the Political Science department at
   - Must present at academic conference OR SU Student Works Symposium
   - Replaces PSC32-964 Senior Seminar
   - Not all completed theses meet the criteria for graduating with Honors
-- **retrieval_triggers:**
-  - "how do I do honors in poli sci"
-  - "what is the honors thesis"
-  - "GPA requirement for honors"
-  - "how is honors different from capstone"
-  - "when do I get invited to do honors thesis"
-  - "what courses do I take for the honors thesis"
-  - "do I need to present my honors thesis"
-  - "who approves the honors thesis proposal"
-  - "can I do honors thesis if I'm studying abroad"
-  - "what is PSC32-984"
-  - "what GPA do I need for departmental honors"
-  - "how many faculty are on my honors committee"
 
 ---
 
 ### Notable Faculty and Student Achievements
-- **filename:** `Notable_Faculty___Student_Achievements.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** N/A
 - **description:** Contains information about awards, honors, publications, grants, or recognitions earned by faculty and students in the Political Science department. This document may include items such as research grants, fellowships, national awards, presentations, and publications. Content is supplementary context for prospective and current students who want to understand the department's academic profile and reputation.
 - **critical_data:**
   - Content not fully available for direct citation in this index; consult file directly for specifics
   - Likely overlaps with alumni achievement information in `Political_Science.txt`
-- **retrieval_triggers:**
-  - "what awards have poli sci students won"
-  - "has a poli sci professor published recently"
-  - "faculty research in political science"
-  - "student awards in political science"
-  - "notable alumni poli sci"
-  - "what has the department accomplished"
 
 ---
 
@@ -236,7 +122,7 @@ Source: `SU_General_Policies.txt`
 | Graduation Application | "Application for Diploma" must be filed; financial holds block diploma |
 | Degree Conferral Dates | December, May, August only; Commencement held once per year in May |
 
-### SU Universal Curriculum Requirements (Paideia Framework)
+### SU Universal Curriculum Requirements (General Education)
 
 Source: `SU_General_Policies.txt`
 
@@ -246,7 +132,7 @@ Source: `SU_General_Policies.txt`
 - **Power and Justice (PJ):** 1 course, 3–4 credits — cannot be satisfied by transfer credit
 - **Exploration and Breadth:** 6 courses outside major (18–24 credits): Part I — one course each from Fine Arts (FA), Humanities (H), Natural Sciences (NS), Social Sciences (ScS); Part II — one additional course from two of those four areas
 
-Several Political Science courses carry Paideia designations (ScS), (SJ), (PJ), and (WA) and may satisfy Exploration and Breadth or Power and Justice requirements.
+Several Political Science courses carry General education designations (ScS), (SJ), (PJ), and (WA) and may satisfy Exploration and Breadth or Power and Justice requirements.
 
 ---
 
@@ -322,7 +208,7 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
 - **Corequisites:** None
 - **Offered:** Fall and Spring (multiple sections Fall 2024; confirmed in schedule)
 - **Required For:** B.A. Major, Minor
-- **Counts As:** Core requirement; Paideia (ScS)
+- **Counts As:** Core requirement; General Education (ScS)
 - **Notes:** Serves as a civics course and introduction to American political theory and methods. Gateway course — required before most mid-level American Politics courses.
 - **Source:** `Courses.txt`, `Majoring___Minoring.txt`
 
@@ -334,7 +220,7 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
 - **Corequisites:** None
 - **Offered:** Fall and Spring (Spring 2024, Spring 2025 confirmed)
 - **Required For:** B.A. Major, Minor
-- **Counts As:** Core requirement; Paideia (ScS); contributes to International Studies
+- **Counts As:** Core requirement; General Education (ScS); contributes to International Studies
 - **Notes:** Introductory survey of major political systems, Western and non-Western. Gateway to several 400–600 level comparative and IR courses.
 - **Source:** `Courses.txt`, `Majoring___Minoring.txt`
 
@@ -346,7 +232,7 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
 - **Corequisites:** None
 - **Offered:** Spring (Spring 2024 confirmed as Dr. Selbin)
 - **Required For:** Elective for major
-- **Counts As:** Paideia (ScS) (SJ) (PJ); contributes to International Studies, Latin American and Border Studies, Race and Ethnicity Studies/Allied Course
+- **Counts As:** General Education (ScS) (SJ) (PJ); contributes to International Studies, Latin American and Border Studies, Race and Ethnicity Studies/Allied Course
 - **Notes:** Also accessible to students with prior regional knowledge.
 - **Source:** `Courses.txt`
 
@@ -358,7 +244,7 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
 - **Corequisites:** None
 - **Offered:** Unknown (not listed in current schedule)
 - **Required For:** Elective for major
-- **Counts As:** Paideia (ScS)
+- **Counts As:** General Education (ScS)
 - **Notes:** Enrollment restriction: primarily for first-years and sophomores.
 - **Source:** `Courses.txt`
 
@@ -370,7 +256,7 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
 - **Corequisites:** None
 - **Offered:** Spring 2025 (TBA instructor)
 - **Required For:** Elective for major
-- **Counts As:** Paideia (ScS) (SJ) (PJ); contributes to Legal Studies Certificate
+- **Counts As:** General Education (ScS) (SJ) (PJ); contributes to Legal Studies Certificate
 - **Notes:** Covers pre-founding era through twentieth century, American exceptionalism, democracy paradoxes.
 - **Source:** `Courses.txt`
 
@@ -382,7 +268,7 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
 - **Corequisites:** None
 - **Offered:** Unknown (not listed in current schedule by this title; note "Governing Diversity: Race & Ethnicity in American Politics" listed Spring 2024 under Goodwin may be a variant)
 - **Required For:** Elective for major
-- **Counts As:** Paideia (ScS); contributes to Environmental Studies, Race and Ethnicity Studies/Group-Theme Course, Legal Studies Certificate
+- **Counts As:** General Education (ScS); contributes to Environmental Studies, Race and Ethnicity Studies/Group-Theme Course, Legal Studies Certificate
 - **Notes:** Covers African American, American Indian, Latina/o, and Asian American/Pacific Islander political experiences; draws on critical race theory.
 - **Source:** `Courses.txt`
 
@@ -394,7 +280,7 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Elective for major
-- **Counts As:** Paideia (ScS); contributes to International Studies
+- **Counts As:** General Education (ScS); contributes to International Studies
 - **Notes:** Focuses on major Arab states, Israel, and Iran.
 - **Source:** `Courses.txt`
 
@@ -406,7 +292,7 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Elective for major
-- **Counts As:** Paideia (ScS); contributes to Feminist Studies
+- **Counts As:** General Education (ScS); contributes to Feminist Studies
 - **Notes:** Uses feminist political theory and intersectional approach.
 - **Source:** `Courses.txt`
 
@@ -418,7 +304,7 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Elective for major
-- **Counts As:** Paideia (ScS)
+- **Counts As:** General Education (ScS)
 - **Notes:** Enrollment restriction: primarily for first-years and sophomores.
 - **Source:** `Courses.txt`
 
@@ -430,7 +316,7 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Elective for major
-- **Counts As:** Paideia (ScS); contributes to East Asian Studies, International Studies
+- **Counts As:** General Education (ScS); contributes to East Asian Studies, International Studies
 - **Notes:** Enrollment restriction: primarily for first-years and sophomores.
 - **Source:** `Courses.txt`
 
@@ -442,7 +328,7 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Elective for major
-- **Counts As:** Paideia (ScS); contributes to Feminist Studies, Legal Studies Certificate
+- **Counts As:** General Education (ScS); contributes to Feminist Studies, Legal Studies Certificate
 - **Notes:** Examines sex work, reproductive care, and sexual conduct through constitutional law and political theory.
 - **Source:** `Courses.txt`
 
@@ -454,7 +340,7 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
 - **Corequisites:** None
 - **Offered:** Every other Spring when Texas legislature is in session (Spring 2025 confirmed)
 - **Required For:** Elective for major (counts as no more than one internship toward major)
-- **Counts As:** Paideia (ScS)
+- **Counts As:** General Education (ScS)
 - **Notes:** Work environment at Texas State Capitol under faculty supervision. Open to juniors and seniors. Only one internship can count toward the major.
 - **Source:** `Courses.txt`
 
@@ -466,7 +352,7 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Elective for major
-- **Counts As:** Paideia (ScS); contributes to Race and Ethnicity Studies
+- **Counts As:** General Education (ScS); contributes to Race and Ethnicity Studies
 - **Notes:** Strongly encouraged prerequisites, not required.
 - **Source:** `Courses.txt`
 
@@ -478,7 +364,7 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
 - **Corequisites:** None
 - **Offered:** Fall and Spring (Fall 2024 TBA; Spring 2025 confirmed, 2 sections)
 - **Required For:** B.A. Major, Minor
-- **Counts As:** Core requirement; Paideia (ScS) (WA) (SJ) (PJ); contributes to Legal Studies Certificate
+- **Counts As:** Core requirement; General Education (ScS) (WA) (SJ) (PJ); contributes to Legal Studies Certificate
 - **Notes:** Writing Attentive (WA) designation. Gateway to most 500–600 level courses.
 - **Source:** `Courses.txt`, `Majoring___Minoring.txt`
 
@@ -490,7 +376,7 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
 - **Corequisites:** None
 - **Offered:** Fall and Spring (both semesters confirmed in schedule, Dr. Snyder, WA)
 - **Required For:** B.A. Major, Minor
-- **Counts As:** Core requirement; Paideia (WA) (ScS); contributes to International Studies
+- **Counts As:** Core requirement; General Education (WA) (ScS); contributes to International Studies
 - **Notes:** Writing Attentive (WA) designation. Also a gateway to most 500–600 level courses.
 - **Source:** `Courses.txt`, `Majoring___Minoring.txt`
 
@@ -502,7 +388,7 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Elective for major
-- **Counts As:** Paideia (ScS); contributes to Data Science
+- **Counts As:** General Education (ScS); contributes to Data Science
 - **Notes:** Covers research design, hypothesis testing, qualitative and quantitative data analysis. Contributes to Data Science program.
 - **Source:** `Courses.txt`
 
@@ -514,7 +400,7 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Elective for major
-- **Counts As:** Paideia (ScS); contributes to International Studies
+- **Counts As:** General Education (ScS); contributes to International Studies
 - **Notes:** Covers political cultures, structures, and European Union.
 - **Source:** `Courses.txt`
 
@@ -526,7 +412,7 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Elective for major
-- **Counts As:** Paideia (ScS); contributes to East Asian Studies, International Studies
+- **Counts As:** General Education (ScS); contributes to East Asian Studies, International Studies
 - **Notes:** Seminar course on causes and effects of the Cultural Revolution.
 - **Source:** `Courses.txt`
 
@@ -538,7 +424,7 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
 - **Corequisites:** None
 - **Offered:** Fall and Spring (Fall 2024 and Spring 2024 confirmed, Dr. Sydnor)
 - **Required For:** Elective for major
-- **Counts As:** Paideia (ScS)
+- **Counts As:** General Education (ScS)
 - **Notes:** Covers voting behavior, campaign strategies, and political engagement.
 - **Source:** `Courses.txt`
 
@@ -550,7 +436,7 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
 - **Corequisites:** None
 - **Offered:** Varies by topic (may be repeated with change of topic)
 - **Required For:** Counts toward two required 500–600 level courses for major
-- **Counts As:** Paideia (ScS); 500–600 level requirement
+- **Counts As:** General Education (ScS); 500–600 level requirement
 - **Notes:** Repeatable with different topics. Contributes to prerequisite for Senior Seminar.
 - **Source:** `Courses.txt`
 
@@ -562,7 +448,7 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Elective for major (500–600 level)
-- **Counts As:** Paideia (ScS); 500–600 level requirement; contributes to International Studies
+- **Counts As:** General Education (ScS); 500–600 level requirement; contributes to International Studies
 - **Notes:** Substantial writing required.
 - **Source:** `Courses.txt`
 
@@ -574,7 +460,7 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Elective for major (500–600 level)
-- **Counts As:** Paideia (ScS); 500–600 level requirement; contributes to Race and Ethnicity Studies/Group-Theme Course
+- **Counts As:** General Education (ScS); 500–600 level requirement; contributes to Race and Ethnicity Studies/Group-Theme Course
 - **Notes:** Covers development of African American politics from intellectual responses to systemic racism through electoral politics.
 - **Source:** `Courses.txt`
 
@@ -586,7 +472,7 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
 - **Corequisites:** None
 - **Offered:** Spring (Spring 2024 confirmed as 500–600 level Craft of Research, Dr. Snyder)
 - **Required For:** Elective for major (500–600 level)
-- **Counts As:** Paideia (ScS); 500–600 level requirement
+- **Counts As:** General Education (ScS); 500–600 level requirement
 - **Notes:** Focus on Cold War and post-Cold War foreign policy. Listed as "Craft of Research" 500–600 level in schedule.
 - **Source:** `Courses.txt`
 
@@ -598,7 +484,7 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Elective for major (500–600 level)
-- **Counts As:** Paideia (ScS); 500–600 level requirement; contributes to East Asian Studies, International Studies
+- **Counts As:** General Education (ScS); 500–600 level requirement; contributes to East Asian Studies, International Studies
 - **Notes:** Comparative study of democratic institutions, economic growth, and political culture in postwar Japan and Germany.
 - **Source:** `Courses.txt`
 
@@ -610,7 +496,7 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
 - **Corequisites:** None
 - **Offered:** Spring 2025 (Dr. Selbin, listed as 500–600 Craft of Research)
 - **Required For:** Elective for major (500–600 level)
-- **Counts As:** Paideia (ScS); 500–600 level requirement; contributes to International Studies
+- **Counts As:** General Education (ScS); 500–600 level requirement; contributes to International Studies
 - **Notes:** Substantial research and writing component. "Craft of Research" designation.
 - **Source:** `Courses.txt`
 
@@ -622,7 +508,7 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
 - **Corequisites:** None
 - **Offered:** Unknown
 - **Required For:** Elective for major (500–600 level)
-- **Counts As:** Paideia (ScS); 500–600 level requirement; contributes to Feminist Studies, Legal Studies Certificate
+- **Counts As:** General Education (ScS); 500–600 level requirement; contributes to Feminist Studies, Legal Studies Certificate
 - **Notes:** Uses activist archives (Redstockings, Black Panthers, SDS, ACT UP) to develop political theories of democracy.
 - **Source:** `Courses.txt`
 
@@ -634,7 +520,7 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
 - **Corequisites:** None
 - **Offered:** Fall 2024 (Dr. Gaunder, listed as 500–600 Craft of Research)
 - **Required For:** Elective for major (500–600 level)
-- **Counts As:** Paideia (ScS) (SJ) (PJ); 500–600 level requirement; contributes to East Asian Studies, Feminist Studies, International Studies
+- **Counts As:** General Education (ScS) (SJ) (PJ); 500–600 level requirement; contributes to East Asian Studies, Feminist Studies, International Studies
 - **Notes:** "Craft of Research" designation. Comparative study of women's political representation.
 - **Source:** `Courses.txt`
 
@@ -675,107 +561,6 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
 - **Source:** `The_Honors_Thesis.txt`
 
 ---
-
-## SECTION 5 — TOPIC INDEX
-
-- Political Science major overview → `Political_Science.txt`
-- Why study political science → `Political_Science.txt`
-- Career paths after political science degree → `Political_Science.txt`
-- Alumni outcomes: law, government, nonprofits, education → `Political_Science.txt`
-- Alumni: Sierra Rupp Critical Language Scholarship / Fulbright → `Political_Science.txt`
-- Alumni: Alexandria Glenn / Zaria Renfro Gilman Scholarships → `Political_Science.txt`
-- B.A. in Political Science requirements → `Majoring___Minoring.txt`
-- Minor in Political Science requirements → `Majoring___Minoring.txt`
-- Total courses required for the major → `Majoring___Minoring.txt`
-- Total courses required for the minor → `Majoring___Minoring.txt`
-- Core required courses for major and minor → `Majoring___Minoring.txt`
-- PSC32-114 American Politics — required status → `Majoring___Minoring.txt`, `Courses.txt`
-- PSC32-144 Comparative Politics — required status → `Majoring___Minoring.txt`, `Courses.txt`
-- PSC32-364 Introduction to Political Theory — required status → `Majoring___Minoring.txt`, `Courses.txt`
-- PSC32-384 International Politics — required status → `Majoring___Minoring.txt`, `Courses.txt`
-- PSC32-964 Senior Seminar / Capstone — required status → `Majoring___Minoring.txt`, `Courses.txt`
-- 500–600 level course requirements for major → `Majoring___Minoring.txt`
-- Elective course options for the major → `Majoring___Minoring.txt`, `Courses.txt`
-- Difference between major and minor → `Majoring___Minoring.txt`
-- Teacher certification in Political Science → `Majoring___Minoring.txt`
-- Full course catalog and descriptions → `Courses.txt`
-- Course prerequisites — all courses → `Courses.txt`
-- PSC32-184 Politics of Latin America & Caribbean → `Courses.txt`
-- PSC32-194 Film, Literature and the Cold War → `Courses.txt`
-- PSC32-204 American Political Thought → `Courses.txt`
-- PSC32-214 Race and Ethnic Politics → `Courses.txt`
-- PSC32-224 Middle East Politics → `Courses.txt`
-- PSC32-234 Sex, Power, and Politics → `Courses.txt`
-- PSC32-264 Political Ideologies → `Courses.txt`
-- PSC32-284 Japanese Politics, Culture & Society → `Courses.txt`
-- PSC32-324 Sex and the State → `Courses.txt`
-- PSC32-344 Texas Legislative Internship → `Courses.txt`
-- PSC32-354 Hip Hop and Mass Incarceration → `Courses.txt`
-- PSC32-394 Research Methods in Political Science → `Courses.txt`
-- PSC32-414 European Politics → `Courses.txt`
-- PSC32-444 The Chinese Cultural Revolution → `Courses.txt`
-- PSC32-454 Candidates, Campaigns, & Citizens → `Courses.txt`
-- PSC32-504 Advanced Topics in Political Science → `Courses.txt`
-- PSC32-544 International Conflict → `Courses.txt`
-- PSC32-564 Black Politics → `Courses.txt`
-- PSC32-584 U.S. Foreign Policy → `Courses.txt`
-- PSC32-624 Germany & Japan: Losers of World War II → `Courses.txt`
-- PSC32-634 Resistance, Rebellion & Revolution → `Courses.txt`
-- PSC32-644 Radical Democracy, Radical Activism → `Courses.txt`
-- PSC32-654 Women and Politics in Europe and Asia → `Courses.txt`
-- PSC32-951 Independent Study (Honors Proposal) → `The_Honors_Thesis.txt`
-- PSC32-984 Honors Thesis → `The_Honors_Thesis.txt`
-- Courses contributing to International Studies → `Courses.txt`
-- Courses contributing to Feminist Studies → `Courses.txt`
-- Courses contributing to Legal Studies Certificate → `Courses.txt`
-- Courses contributing to Race and Ethnicity Studies → `Courses.txt`
-- Courses contributing to East Asian Studies → `Courses.txt`
-- Courses contributing to Latin American and Border Studies → `Courses.txt`
-- Courses contributing to Data Science → `Courses.txt`
-- Courses contributing to Environmental Studies → `Courses.txt`
-- Paideia (ScS) courses in poli sci → `Courses.txt`
-- Paideia Power and Justice (PJ) courses in poli sci → `Courses.txt`
-- Paideia Writing Attentive (WA) courses in poli sci → `Courses.txt`
-- Social Justice (SJ) courses in poli sci → `Courses.txt`
-- Courses open only to first-year and sophomore students → `Courses.txt`
-- Enrollment restrictions by year/class standing → `Courses.txt`
-- Texas Legislative Internship eligibility and schedule → `Courses.txt`, `For_Current_Students.txt`
-- Internship credit toward the major (limit: 1) → `Courses.txt`
-- Spring 2024 course offerings → `For_Current_Students.txt`
-- Fall 2024 course offerings → `For_Current_Students.txt`
-- Spring 2025 course offerings → `For_Current_Students.txt`
-- Who is teaching a specific course → `For_Current_Students.txt`
-- When is American Politics offered → `For_Current_Students.txt`
-- When is Capstone offered → `For_Current_Students.txt`
-- 500–600 "Craft of Research" courses and schedule → `For_Current_Students.txt`
-- Faculty contact information → `Our_Faculty.txt`
-- Professor Gaunder contact/specialty → `Our_Faculty.txt`
-- Professor Goodwin contact/specialty → `Our_Faculty.txt`
-- Professor Moss contact information → `Our_Faculty.txt`
-- Professor Norris contact information → `Our_Faculty.txt`
-- Professor Snyder contact/specialty → `Our_Faculty.txt`
-- Faculty research specialties → `Our_Faculty.txt`
-- Visiting faculty → `Our_Faculty.txt`
-- Honors Thesis program overview → `The_Honors_Thesis.txt`
-- Invitation criteria for Honors → `The_Honors_Thesis.txt`
-- GPA requirement for Honors (3.4 overall) → `The_Honors_Thesis.txt`
-- Honors Thesis timeline (junior/senior year) → `The_Honors_Thesis.txt`
-- Honors Thesis vs. Capstone differences → `The_Honors_Thesis.txt`
-- Honors Thesis committee structure → `The_Honors_Thesis.txt`
-- Presenting at Student Works Symposium (Honors) → `The_Honors_Thesis.txt`
-- Honors in Political Science graduation distinction → `The_Honors_Thesis.txt`
-- Research proposal process for Honors → `The_Honors_Thesis.txt`
-- Studying abroad while completing Honors Thesis → `The_Honors_Thesis.txt`
-- Faculty awards and student recognition → `Notable_Faculty___Student_Achievements.txt`
-- Graduation requirements (credit minimums, GPA) → `SU_General_Policies.txt`
-- Paideia general education requirements → `SU_General_Policies.txt`
-- Pass/D/F grading policy → `SU_General_Policies.txt`
-- Academic probation and dismissal → `SU_General_Policies.txt`
-- Transfer credit evaluation rules → `SU_General_Policies.txt`, `Majoring___Minoring.txt`
-- Study abroad credit applicability → `SU_Resources_and_Financial.txt`, `SU_General_Policies.txt`
-- Financial aid and tuition → `SU_Resources_and_Financial.txt`
-- SURF and research funding → `SU_Resources_and_Financial.txt`
-- Latin Honors (cum laude thresholds) → `SU_General_Policies.txt`
 
 ---
 
@@ -914,9 +699,9 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
 
 ---
 
-**Q:** What poli sci courses count toward the Power and Justice Paideia requirement?
+**Q:** What poli sci courses count toward the Power and Justice General education requirement?
 **Docs:** `Courses.txt`
-**Routing Note:** Courses with (PJ) designation: PSC32-184, PSC32-204, PSC32-364, PSC32-654. Routing model identifies these from Paideia designations in course descriptions.
+**Routing Note:** Courses with (PJ) designation: PSC32-184, PSC32-204, PSC32-364, PSC32-654. Routing model identifies these from General education designations in course descriptions.
 **Disambiguation Needed:** No
 
 ---
@@ -1033,11 +818,10 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
   - **What general docs must cover:** 127-credit minimum, 64-credit SU residency, last 32 in-residence, 2.000 GPA, 60% major residency, Application for Diploma process
   - **Routing instruction:** Always retrieve `SU_General_Policies.txt` alongside `Majoring___Minoring.txt` for any graduation eligibility question
 
-- **Topic:** Paideia general education requirements
-  - **What major docs cover:** Which poli sci courses satisfy Paideia areas (ScS, PJ, WA, SJ designations listed per course)
+- **Topic:** General education requirements
+  - **What major docs cover:** Which poli sci courses satisfy General education areas (ScS, PJ, WA, SJ designations listed per course)
   - **What general docs must cover:** Full structure of FYS/AES, Language & Cultures, FRA, Power and Justice, Exploration & Breadth Parts I and II, Paideia with Distinction
-  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about gen-ed, breadth requirements, or Paideia
-
+  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about gen-ed, breadth requirements, or General Education 
 - **Topic:** Pass/D/F grading option
   - **What major docs cover:** Not covered
   - **What general docs must cover:** Full Pass/D/F policy, deadlines to switch, GPA impact
@@ -1184,7 +968,7 @@ The B.A. is the only degree path that leads to graduation with Honors in Politic
 
 **Always retrieve `SU_General_Policies.txt` alongside major docs when:**
 - Any graduation eligibility or credit count question
-- Any Paideia / general education requirement question
+- Any general education requirement question
 - Any grading policy question (Pass/D/F, grade appeals, incomplete grades)
 - Any academic standing question (probation, dismissal, appeal)
 - Any transfer credit or credit-by-examination question

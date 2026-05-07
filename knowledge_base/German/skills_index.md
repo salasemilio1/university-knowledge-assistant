@@ -20,12 +20,8 @@
 ## SECTION 2 — DOCUMENT REGISTRY
 
 ### German Course Listings
-- **filename:** `Courses.txt`
-- **document_type:** course_info
 - **degree_relevance:** B.A. | Minor | All
-- **time_sensitive:** true
-- **catalog_year:** Current (exact year not specified in document)
-- **description:** Lists all current and recent course offerings in the German Program at Southwestern University, with full descriptions, prerequisites, credit information, and semester availability. Covers the full sequence from introductory (GER12-144 German I) through advanced graduate-level offerings (GER12-934 Capstone Seminar). Each course entry includes learning outcomes, proficiency level targeted (novice, intermediate, advanced), interdisciplinary connections (Animal Studies, Environmental Studies, Feminist Studies, Health Studies, International Studies, Race and Ethnicity Studies), and Paideia designations (H, SJ, PJ, WA). The document covers 14 distinct course numbers. Variable-credit courses (GER12-332, GER12-334 Speak German!) are noted as offering 2 or 4 credits. Courses taught in English (GER12-714, GER12-734) with optional German Tutorial (GER12-912, GER12-932) are also listed.
+- **description:** Lists all current and recent course offerings in the German Program at Southwestern University, with full descriptions, prerequisites, credit information, and semester availability. Covers the full sequence from introductory (GER12-144 German I) through advanced graduate-level offerings (GER12-934 Capstone Seminar). Each course entry includes learning outcomes, proficiency level targeted (novice, intermediate, advanced), interdisciplinary connections (Animal Studies, Environmental Studies, Feminist Studies, Health Studies, International Studies, Race and Ethnicity Studies), and General education designations (H, SJ, PJ, WA). The document covers 14 distinct course numbers. Variable-credit courses (GER12-332, GER12-334 Speak German!) are noted as offering 2 or 4 credits. Courses taught in English (GER12-714, GER12-734) with optional German Tutorial (GER12-912, GER12-932) are also listed.
 - **critical_data:**
   - GER12-144 German I: Intro Language and Culture — Fall — no prerequisites — novice proficiency
   - GER12-154 German II: Intro Language and Culture — Spring — prerequisite: GER12-144 or equivalent
@@ -43,31 +39,11 @@
   - GER12-912 Tutorial Transnational Identity Narrativ — taught in German — requires concurrent enrollment in GER12-714 — prerequisite: GER12-154
   - GER12-932 Tutorial Global Ldrship Intclt — taught in German — requires concurrent enrollment in GER12-734 — prerequisite: GER12-154
   - GER12-934 Capstone Seminar — fulfills capstone requirement — advanced proficiency expected — Spring of junior or senior year
-- **retrieval_triggers:**
-  - "what German courses are offered"
-  - "what are the prerequisites for German 300 level"
-  - "when is German I offered"
-  - "what is Speak German"
-  - "can I repeat a German course"
-  - "which German course counts for social justice"
-  - "is there a German film course"
-  - "what is the capstone seminar"
-  - "does German have a course in English"
-  - "what German courses count for environmental studies"
-  - "what is German Film Studies"
-  - "how do I get to advanced German"
-  - "what course follows German III"
-  - "is GER12-454 for advanced students"
-  - "what courses count for international studies"
 
 ---
 
 ### Majoring and Minoring in German (Version 1)
-- **filename:** `Majoring & Minoring(1 of 2).txt`
-- **document_type:** requirements
 - **degree_relevance:** B.A. | Minor | All
-- **time_sensitive:** true
-- **catalog_year:** Current (exact year not specified)
 - **description:** Specifies the complete degree requirements for all three German program tracks: Major in German (8 courses), Paired Major in International Studies and German (14 courses), and Minor in German (5 courses). Lists specific required courses by course number and name for each path. For the Major, requires GER12-314 or GER12-334, GER12-344, GER12-354, two German courses at or above 300 level, two additional upper-level German courses, and GER12-934 Capstone Seminar. The Paired Major adds an introductory course from Anthropology, History, or Political Science; four track courses in International Studies; and the INS38-894 Capstone. The Minor requires two courses from a specific list plus three additional German courses (at least one at 300+).
 - **critical_data:**
   - Major in German: 8 courses total
@@ -78,40 +54,18 @@
   - Minor: GER12-164 counts toward minor if taken for credit
   - Paired Major introductory course options: ANT35-104, any World History (HIS16-0X4), PSC32-144
   - International Studies tracks: Global Politics and Economy, Global Society and Culture, or Global Justice
-- **retrieval_triggers:**
-  - "how many courses do I need to major in German"
-  - "what are the requirements for German major"
-  - "can I minor in German"
-  - "what is the paired major in international studies"
-  - "how many courses for German minor"
-  - "does German count toward international studies"
-  - "what is required for the German capstone"
-  - "what upper level courses do I need"
-  - "can I do a double major in German and international studies"
-  - "is GER12-164 required for the minor"
-  - "what are the IS tracks for the paired major"
-  - "how many German courses for the paired major"
 
 ---
 
 ### Majoring and Minoring in German (Version 2)
-- **filename:** `Majoring & Minoring(2 of 2).txt`
-- **document_type:** requirements
 - **degree_relevance:** B.A. | Minor | All
-- **time_sensitive:** true
-- **catalog_year:** Current (exact year not specified)
 - **description:** Duplicate/expanded version of the Majoring & Minoring requirements document, confirming the same course counts and requirements. Contains the same core degree structures as Version 1 with identical course lists for Major (8 courses), Paired Major (14 courses), and Minor (5 courses). Includes department contact information (Georgetown, Texas; 512.863.6511). This version confirms course options for the Paired Major including the same introductory course options and IS track options.
 - **critical_data:** Same as `Majoring & Minoring(1 of 2).txt` — use either document; both are authoritative for requirements.
-- **retrieval_triggers:** Same triggers as `Majoring & Minoring(1 of 2).txt`
 
 ---
 
 ### For Current Students
-- **filename:** `For_Current_Students.txt`
-- **document_type:** advising | resources
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Provides information for currently enrolled students about extracurricular and co-curricular German program activities and resources. Describes the German Club (regular events), study abroad opportunities through Southwestern's Office of Intercultural Learning, the Capstone project (20+ page research project, interdisciplinary, typically drawing on culture, film, and literature courses), and funding opportunities for internships and exchanges. Lists seven professional organizations relevant to German students. Includes links to online resources and an online dictionary for German studies. Funding opportunities listed include Cultural Vistas, CBYX, DAAD, and Fulbright.
 - **critical_data:**
   - German Club meets regularly
@@ -120,26 +74,11 @@
   - Funding opportunities: Cultural Vistas, CBYX (Congress-Bundestag Youth Exchange), DAAD (German Academic Exchange Service), Fulbright
   - Professional organizations: AATG, ACTFL, German Studies Association, Women in German, MLA
   - 11 alumni have earned Fulbright Fellowships (referenced in For_Future_Students.txt)
-- **retrieval_triggers:**
-  - "how do I apply for a Fulbright"
-  - "what is DAAD"
-  - "is there a German Club"
-  - "how do I study abroad in Germany"
-  - "what is the capstone research project"
-  - "what internships are available for German students"
-  - "what is CBYX"
-  - "what professional organizations should I join"
-  - "how long is the German capstone"
-  - "where do I go for study abroad"
 
 ---
 
 ### For Future Students
-- **filename:** `For_Future_Students.txt`
-- **document_type:** advising | general
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Recruitment and informational document for prospective German students, describing the program's philosophy and outcomes. Emphasizes global citizenship, mentoring, interdisciplinary connections, and lifelong skills. Notes that 11 alumni have earned Fulbright Fellowships and that alumni have gone on to graduate schools and public service, including Dori Glanz '06 who works in health care at the White House. Describes interdisciplinary connections to Art History, Business, Environmental Studies, Feminist Studies, Film Studies, History, International Studies, Music, Philosophy, Political Science, and Religion. Highlights the senior Capstone Seminar as original scholarship with oral presentation, and describes how majors/minors pursue internships, scholarships, and study abroad.
 - **critical_data:**
   - 11 alumni have earned Fulbright Fellowships
@@ -148,46 +87,21 @@
   - Critical thinking, reading, writing, and intercultural awareness foregrounded as career skills
   - Capstone includes formal oral presentation component
   - Program enables combining/pairing majors and minors
-- **retrieval_triggers:**
-  - "what can I do with a German major"
-  - "what careers do German majors go into"
-  - "have German students won Fulbrights"
-  - "is German good for graduate school"
-  - "how does German connect to other majors"
-  - "why should I major in German"
-  - "what skills does a German major build"
-  - "does German work well with business"
-  - "can I pair German with environmental studies"
 
 ---
 
 ### Our Faculty
-- **filename:** `Our_Faculty.txt`
-- **document_type:** advising | general
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Lists the faculty of the German Program (and broader Modern Languages department) with names, titles, specialties, contact information, and office locations. The German-specific faculty member is Erika Berroth (Associate Professor of German, berrothe@southwestern.edu, 512.863.1739, Olin 319). Department chair Francis Mathieu (Professor of French, mathieuf@southwestern.edu, 512.863.1509, Olin 309) and Aaron Prevots (Professor of French, prevots@southwestern.edu) are also listed. Berroth's specialties are not listed in the faculty page directly but are extensively documented in the achievements files.
 - **critical_data:**
   - Erika Berroth — Associate Professor of German — berrothe@southwestern.edu — 512.863.1739 — Olin 319
   - Francis Mathieu — Professor of French and Department Chair — mathieuf@southwestern.edu — 512.863.1509 — Olin 309
   - Aaron Prevots — Professor of French — prevots@southwestern.edu
-- **retrieval_triggers:**
-  - "who teaches German at Southwestern"
-  - "how do I contact my German professor"
-  - "who is the German faculty"
-  - "what is Professor Berroth's email"
-  - "where is the German professor's office"
-  - "who chairs the language department"
 
 ---
 
 ### Notable Faculty and Student Achievements (Part 1)
-- **filename:** `Notable_Faculty___Student_Achievements_1_of_2_.txt`
-- **document_type:** general | resources
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A (covers 2020–2025)
 - **description:** Chronological log (February 2020 – December 2025) of achievements by Associate Professor of German Erika Berroth and German program students. Documents Berroth's conference presentations, invited lectures, editorial work, materials grants (multiple DAAD grants), community outreach, mentorship of undergraduate researchers, and student achievements including Fulbright awards. Notable student achievements include Claire Harding '20 (Fulbright, German/Physics double major), Melina Boutirs '22 (capstone presented at national conference), Isabella Moore '25 (National Undergraduate Research Conference, German/Environmental Studies), Kendyl Feuerbacher '27 (research presentations, German/Studio Art), Rylee Morris '28 (SURF research), and Maglor Williams '27 (SURF research). Documents SURF research opportunities available to German students.
 - **critical_data:**
   - 11 Fulbright Fellowships earned by SU German alumni
@@ -198,28 +112,13 @@
   - Undergraduate Research Conference in German Studies — national venue for student research
   - Perry Rhodan collection at SU's Distinctive Collections — only such library collection in USA
   - Capstone research has been presented at national conferences
-- **retrieval_triggers:**
-  - "what research opportunities exist for German students"
-  - "have German students won awards"
-  - "what is SURF"
-  - "can I do undergraduate research in German"
-  - "who has won a Fulbright from the German program"
-  - "what has Professor Berroth published"
-  - "can I present my research at a conference"
-  - "what is the Perry Rhodan collection"
-  - "what grants has the German program received"
 
 ---
 
 ### Notable Faculty and Student Achievements (Part 2)
-- **filename:** `Notable_Faculty___Student_Achievements_2_of_2_.txt`
-- **document_type:** general | resources
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A (covers 2020–2025, more detailed version)
 - **description:** Expanded, more detailed version of the achievements document covering the same period (2020–2025) with more complete entries for each achievement. Contains the same core content as Part 1 with additional detail on conference presentations, mentorship activities, SURF student research, and Berroth's scholarly publications (Feminist German Studies, Glossen, co-edited IVG volume on Disability Studies). Confirms SURF students Kendyl Feuerbacher '27, Rylee Morris '28, and Maglor Williams '27 presented at the 6th biennial joint AATG Texas conference in September 2025.
 - **critical_data:** Same core data as Part 1 — use either for factual questions; Part 2 is more detailed.
-- **retrieval_triggers:** Same as Part 1.
 
 ---
 
@@ -240,7 +139,7 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 | Graduation Application | "Application for Diploma" must be filed; financial holds block diploma |
 | Degree Conferral Dates | December, May, August only; Commencement held once per year in May |
 
-### SU Universal Curriculum Requirements (Paideia Framework)
+### SU Universal Curriculum Requirements (General Education)
 
 **Required for ALL degree paths:**
 - First-Year Seminar (FYS) or Advanced-Entry Seminar (AES): 4 credits
@@ -251,7 +150,7 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
   - Part I: one course from each of four areas: Fine Arts (FA), Humanities (H), Natural Sciences (NS), Social Sciences (ScS)
   - Part II: one additional course from two of the four areas
 
-Note: German Program courses carrying Humanities (H) designation can satisfy Paideia Humanities breadth requirements for non-German majors.
+Note: German Program courses carrying Humanities (H) designation can satisfy General Education Humanities breadth requirements for non-German majors.
 
 ---
 
@@ -392,7 +291,7 @@ Note: German Program courses carrying Humanities (H) designation can satisfy Pai
 - **Corequisites:** None
 - **Offered:** Fall
 - **Required For:** Gateway to all German sequences; not itself required by major/minor but necessary for proficiency path
-- **Counts As:** Language foundation; satisfies Languages and Cultures Paideia requirement progress
+- **Counts As:** Language foundation; satisfies Languages and Cultures General education requirement progress
 - **Notes:** Develops novice level proficiency. Emphasizes speaking, listening, reading, writing, and cultural communication.
 - **Source:** `Courses.txt`
 
@@ -404,7 +303,7 @@ Note: German Program courses carrying Humanities (H) designation can satisfy Pai
 - **Corequisites:** None
 - **Offered:** Spring
 - **Required For:** Prerequisite to GER12-164 and GER12-332/334/912/932
-- **Counts As:** Languages and Cultures Paideia progress; required prerequisite for tutorials (GER12-912, GER12-932)
+- **Counts As:** Languages and Cultures General Education progress; required prerequisite for tutorials (GER12-912, GER12-932)
 - **Notes:** Continues novice proficiency; increases focus on speaking and cultural literacy.
 - **Source:** `Courses.txt`
 
@@ -416,7 +315,7 @@ Note: German Program courses carrying Humanities (H) designation can satisfy Pai
 - **Corequisites:** None
 - **Offered:** Fall
 - **Required For:** Prerequisite to GER12-204 and upper-level courses; counts toward minor
-- **Counts As:** Satisfies Languages and Cultures Paideia requirement (third-semester proficiency); counts toward minor if taken for credit
+- **Counts As:** Satisfies Languages and Cultures General education requirement (third-semester proficiency); counts toward minor if taken for credit
 - **Notes:** Intermediate level proficiency; prepares students for study, research, or internships abroad.
 - **Source:** `Courses.txt`
 
@@ -428,7 +327,7 @@ Note: German Program courses carrying Humanities (H) designation can satisfy Pai
 - **Corequisites:** None
 - **Offered:** Spring
 - **Required For:** Prerequisite to GER12-314, GER12-344, GER12-354, GER12-454
-- **Counts As:** (H)(SJ)(PJ) — Humanities, Social Justice, Power and Justice Paideia designations; contributes to Animal Studies and International Studies
+- **Counts As:** (H)(SJ)(PJ) — Humanities, Social Justice, Power and Justice General education designations; contributes to Animal Studies and International Studies
 - **Notes:** Develops intermediate proficiency through critical engagement with German films; moves from narration to argumentation.
 - **Source:** `Courses.txt`
 
@@ -589,79 +488,6 @@ Note: German Program courses carrying Humanities (H) designation can satisfy Pai
 - **Source:** `Courses.txt`, `For_Current_Students.txt`
 
 ---
-
-## SECTION 5 — TOPIC INDEX
-
-- Major in German — total courses required → `Majoring & Minoring(1 of 2).txt`, `Majoring & Minoring(2 of 2).txt`
-- Paired Major in International Studies and German → `Majoring & Minoring(1 of 2).txt`, `Majoring & Minoring(2 of 2).txt`
-- Minor in German — total courses required → `Majoring & Minoring(1 of 2).txt`, `Majoring & Minoring(2 of 2).txt`
-- Capstone Seminar (GER12-934) requirements → `Courses.txt`, `Majoring & Minoring(1 of 2).txt`, `For_Current_Students.txt`
-- International Studies Capstone (INS38-894) → `Majoring & Minoring(1 of 2).txt` (refer also to IS catalog section)
-- IS track options for Paired Major (Global Politics/Economy, Global Society/Culture, Global Justice) → `Majoring & Minoring(1 of 2).txt`
-- Difference between Major and Minor in German → `Majoring & Minoring(1 of 2).txt`, `Majoring & Minoring(2 of 2).txt`
-- Difference between Major and Paired Major → `Majoring & Minoring(1 of 2).txt`, `Majoring & Minoring(2 of 2).txt`
-- Whether GER12-164 counts toward minor → `Majoring & Minoring(1 of 2).txt`
-- Upper-level course requirements for major → `Majoring & Minoring(1 of 2).txt`
-- Required courses: GER12-314 or GER12-334 (one required for major) → `Majoring & Minoring(1 of 2).txt`, `Courses.txt`
-- Required course: GER12-344 Topics in German Literature and Film → `Majoring & Minoring(1 of 2).txt`, `Courses.txt`
-- Required course: GER12-354 Topics in German Culture → `Majoring & Minoring(1 of 2).txt`, `Courses.txt`
-- Speak German! (GER12-332 vs GER12-334) — credit differences, repeatability → `Courses.txt`
-- GER12-144 German I — offering semester, prerequisites, content → `Courses.txt`
-- GER12-154 German II — prerequisites, content → `Courses.txt`
-- GER12-164 German III — prerequisites, content, Paideia → `Courses.txt`
-- GER12-204 German Film Studies — prerequisites, Paideia designations (H, SJ, PJ) → `Courses.txt`
-- GER12-314 Reading German: Text in Context — prerequisites, Paideia → `Courses.txt`
-- GER12-344 Topics in German Literature and Film — prerequisites, repeatability → `Courses.txt`
-- GER12-354 Topics in German Culture — rotating topics (Identities, Movements, Innovations), Paideia → `Courses.txt`
-- GER12-454 Feminist Studies in German — prerequisites, content → `Courses.txt`
-- GER12-514 Studies in German Literature — prerequisites, content → `Courses.txt`
-- GER12-614 Texts/Contexts — topics, English-taught option, prerequisites → `Courses.txt`
-- GER12-714 Transnational Identity Narrative — taught in English, no prerequisite, Paideia designations → `Courses.txt`
-- GER12-734 Global Leadership and Intercultural Communication — taught in English, business focus → `Courses.txt`
-- GER12-912 Tutorial — concurrent enrollment requirement with GER12-714 → `Courses.txt`
-- GER12-932 Tutorial — concurrent enrollment requirement with GER12-734 → `Courses.txt`
-- Prerequisite chain: 144 → 154 → 164 → 204 → 314/344/354/454 → 514/614/934 → `Courses.txt`
-- Which courses satisfy Power and Justice (PJ) Paideia requirement → `Courses.txt` (GER12-204, GER12-354, GER12-714)
-- Which courses satisfy Humanities (H) Paideia requirement → `Courses.txt` (many courses carry H designation)
-- Which courses satisfy Social Justice (SJ) designation → `Courses.txt` (GER12-204, GER12-354, GER12-714)
-- Which courses carry Writing Across (WA) designation → `Courses.txt` (GER12-314, GER12-344, GER12-354, GER12-514, GER12-614)
-- Interdisciplinary contributions: which German courses count toward Environmental Studies → `Courses.txt` (GER12-354, GER12-714)
-- Interdisciplinary contributions: which courses count toward Feminist Studies → `Courses.txt` (GER12-714)
-- Interdisciplinary contributions: which courses count toward Health Studies → `Courses.txt` (GER12-332/334, GER12-714, GER12-912)
-- Interdisciplinary contributions: which courses count toward International Studies → `Courses.txt` (GER12-204, GER12-314, GER12-344, GER12-354, GER12-514, GER12-614, GER12-714, GER12-734, GER12-912, GER12-932)
-- Interdisciplinary contributions: which courses count toward Business → `Courses.txt` (GER12-734)
-- German courses that can be taken without language prerequisites → `Courses.txt` (GER12-714, GER12-734 — taught in English)
-- Languages and Cultures Paideia requirement — how German courses satisfy it → `Courses.txt` (GER12-164 satisfies third-semester proficiency)
-- Language placement for German → `SU_General_Policies.txt` (cross-reference)
-- Fulbright Fellowships — German alumni record (11 total) → `For_Future_Students.txt`, `For_Current_Students.txt`, `Notable_Faculty___Student_Achievements_1_of_2_.txt`
-- How to apply for Fulbright → `For_Current_Students.txt`
-- DAAD — German Academic Exchange Service → `For_Current_Students.txt`, `Notable_Faculty___Student_Achievements_1_of_2_.txt`
-- CBYX — Congress-Bundestag Youth Exchange → `For_Current_Students.txt`
-- Cultural Vistas internships abroad → `For_Current_Students.txt`
-- SURF research opportunities for German students → `Notable_Faculty___Student_Achievements_1_of_2_.txt`, `Notable_Faculty___Student_Achievements_2_of_2_.txt`
-- Undergraduate research conference opportunities → `Notable_Faculty___Student_Achievements_1_of_2_.txt`
-- Study abroad for German students — general → `For_Current_Students.txt`
-- Office of Intercultural Learning (study abroad office) → `For_Current_Students.txt`
-- German Club → `For_Current_Students.txt`
-- Professional organizations for German students → `For_Current_Students.txt`
-- Career outcomes for German majors → `For_Future_Students.txt`
-- Alumni achievements: Dori Glanz '06 (White House), Claire Harding '20 (Fulbright) → `For_Future_Students.txt`, `Notable_Faculty___Student_Achievements_1_of_2_.txt`
-- Faculty contact — Erika Berroth → `Our_Faculty.txt`
-- Department Chair contact — Francis Mathieu → `Our_Faculty.txt`
-- Paired major restrictions — cannot minor in either field → `Majoring & Minoring(1 of 2).txt`
-- Which IS introductory courses count for the Paired Major → `Majoring & Minoring(1 of 2).txt`
-- Capstone research project — length, format, topics → `For_Current_Students.txt`, `Courses.txt`
-- Capstone oral presentation component → `For_Future_Students.txt`
-- What interdisciplinary fields German connects to → `For_Future_Students.txt`, `Courses.txt`
-- Honors in German / departmental honors → `SU_General_Policies.txt` (cross-reference — see Section 7)
-- Graduation requirements — total credits, GPA → `SU_General_Policies.txt` (cross-reference)
-- Paideia general education full structure → `SU_General_Policies.txt` (cross-reference)
-- Transfer credit applicability to German major → `SU_General_Policies.txt` (cross-reference)
-- Pass/D/F options for German courses → `SU_General_Policies.txt` (cross-reference)
-- Academic probation affecting German standing → `SU_General_Policies.txt` (cross-reference)
-- Financial aid and study abroad → `SU_Resources_and_Financial.txt` (cross-reference)
-- SURF and King Creativity Fund → `SU_Resources_and_Financial.txt` (cross-reference)
-- Tuition and refund schedule → `SU_Resources_and_Financial.txt` (cross-reference)
 
 ---
 
@@ -912,11 +738,10 @@ Note: German Program courses carrying Humanities (H) designation can satisfy Pai
   - **What general docs must cover:** 127-credit minimum, 64-credit SU residency, last 32 in-residence, 2.000 overall GPA, 60% major residency, Application for Diploma process
   - **Routing instruction:** Always retrieve `SU_General_Policies.txt` alongside major requirements doc for any graduation eligibility question
 
-- **Topic:** Paideia general education requirements
+- **Topic:** General education requirements
   - **What major docs cover:** Which German courses carry H, SJ, PJ, WA designations; GER12-164 satisfies Languages and Cultures third-semester requirement; GER12-204, GER12-354, GER12-714 satisfy PJ
   - **What general docs must cover:** Full structure of FYS/AES, Language & Cultures, FRA, Power and Justice, Exploration & Breadth Parts I and II, Paideia with Distinction
-  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about gen-ed, breadth requirements, or Paideia
-
+  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about gen-ed, breadth requirements, or General Education 
 - **Topic:** Pass/D/F grading option
   - **What major docs cover:** Not covered
   - **What general docs must cover:** Full Pass/D/F policy, deadlines to switch, GPA impact
@@ -1045,7 +870,7 @@ Note: German Program courses carrying Humanities (H) designation can satisfy Pai
 **Default document for broad major questions:** `Majoring & Minoring(1 of 2).txt`
 
 **When to retrieve multiple documents:**
-- Any question about specific course content, prerequisites, or Paideia designations: retrieve `Courses.txt` in addition to requirements doc
+- Any question about specific course content, prerequisites, or General education designations: retrieve `Courses.txt` in addition to requirements doc
 - Any question about capstone: retrieve both `Courses.txt` AND `For_Current_Students.txt` AND `Majoring & Minoring(1 of 2).txt`
 - Any question about funding (Fulbright, DAAD, CBYX, SURF): retrieve `For_Current_Students.txt` AND `Notable_Faculty___Student_Achievements_1_of_2_.txt`
 - Any graduation eligibility question: retrieve major docs AND `SU_General_Policies.txt`
@@ -1076,7 +901,7 @@ Note: German Program courses carrying Humanities (H) designation can satisfy Pai
 
 **Always retrieve `SU_General_Policies.txt` alongside major docs when:**
 - Any graduation eligibility or credit count question
-- Any Paideia / general education requirement question (beyond noting which German courses carry H, PJ, SJ, WA designations)
+- Any general education requirement question (beyond noting which German courses carry H, PJ, SJ, WA designations)
 - Any grading policy question (Pass/D/F, grade appeals, incomplete grades)
 - Any academic standing question (probation, dismissal, appeal)
 - Any transfer credit or credit-by-examination question

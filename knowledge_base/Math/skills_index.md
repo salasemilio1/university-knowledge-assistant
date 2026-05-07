@@ -10,11 +10,7 @@
 ## SECTION 2 — DOCUMENT REGISTRY
 
 ### Clubs and Honor Societies
-- **filename:** `Clubs_and_Honor_Societies.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Describes the SU Math Club, a student chapter of the Mathematical Association of America (MAA), and Pi Mu Epsilon (PME), a national mathematics honor society established in 1914. The Math Club meets in the Chapman-Whitmore student lounge and is open to all students — majors and non-majors alike. PME requires at least two years of college mathematics including calculus, a minimum B average in mathematics coursework, and that the student ranks in the top one-third of their general class. The Texas Pi Chapter of PME offers travel grants to national and regional conferences and hosts an annual induction ceremony. Students can join the Math Club mailing list through the su-maa Google Group.
 - **critical_data:**
   - Math Club is an MAA student chapter, open to all
@@ -22,29 +18,11 @@
   - PME members have access to travel grants for conferences
   - Chapman-Whitmore student lounge is the Math Club meeting location
   - Join via su-maa Google Group using SU email
-- **retrieval_triggers:**
-  - "how do I join math club"
-  - "what is Pi Mu Epsilon"
-  - "PME requirements"
-  - "honor society for math"
-  - "math club meetings"
-  - "travel grants for conferences"
-  - "math club activities"
-  - "how do I get inducted into PME"
-  - "GPA requirement for honor society"
-  - "math club google group"
-  - "MAA student chapter"
-  - "math events on campus"
-  - "Pi Day at SU"
 
 ---
 
 ### Courses
-- **filename:** `Courses.txt`
-- **document_type:** course_info
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** 2024-2025
 - **description:** Provides full course descriptions for all Mathematics department offerings, including course numbers, prerequisites, credit designations, and semester availability. Courses range from introductory offerings like MAT52-064 Modern Quantitative Methods and MAT52-104 Explorations in Mathematics to upper-division courses such as MAT52-854 Real Analysis, MAT52-834 Complex Analysis, and MAT52-894 Senior Seminar in Mathematics. The document includes courses cross-listed with Computer Science (e.g., MAT52-384 Discrete Mathematics = CSC54-384) and notes which courses cannot count toward the Mathematics major or minor. Prerequisite chains are explicitly stated, and many courses include semester availability (Fall, Spring, or alternating years). The Senior Seminar (MAT52-894) requires five courses at the 300 level or above, CSC54-184, and instructor permission, and results in a written paper and oral presentation.
 - **critical_data:**
   - MAT52-064 cannot be taken after completing MAT52-164 with C- or better; not usable for major/minor
@@ -59,31 +37,11 @@
   - MAT52-894 Senior Seminar: prereqs are 5 courses at 300+ level, CSC54-184, and instructor permission; results in Major Field Test, paper, and oral presentation; WA designation
   - MAT52-574 Probability and Mathematical Statistics requires MAT52-264; offered Spring only
   - MAT52-524 Numerical Analysis requires MAT52-264, MAT52-674, and CSC54-184 or permission
-- **retrieval_triggers:**
-  - "what are the prerequisites for real analysis"
-  - "when is complex analysis offered"
-  - "what is Modern Calculus I about"
-  - "does statistics count for the math major"
-  - "what courses can I take after Calculus II"
-  - "when is linear algebra offered"
-  - "what is the senior seminar like"
-  - "Putnam competition course"
-  - "what is discrete math cross-listed with"
-  - "does explorations in math count for the minor"
-  - "what does NS mean for math courses"
-  - "prerequisites for differential equations"
-  - "what math courses are offered every other year"
-  - "what is MAT52-684"
-  - "algebraic structures course description"
 
 ---
 
 ### Faculty
-- **filename:** `Faculty.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Lists all current faculty in the Mathematics and Computer Science department with name, title, specialty, email, phone, and office location. Mathematics faculty include Fumiko Futamura (Duncan Chair, projective geometry/harmonic analysis), Alison Marr (Garey Chair, graph theory), Kendall Richards (Special Functions/Complex Analysis), John Ross (Differential Geometry/Riemannian Geometry), Noelle Sawyer (Atkin Junior Professor, geometry/dynamical systems), Therese Shelton (Mathematical Modeling/Differential Equations), and Will Tran (instruction, also the ALEKS contact). Computer Science faculty include Barbara Anthony (Lord Chair, Department Chair, approximation algorithms) and Jacob Schrum (AI/neural networks). All faculty are located in Fondren-Jones Hall.
 - **critical_data:**
   - Department Chair: Barbara M. Anthony (anthonyb@southwestern.edu, FJ 309)
@@ -95,26 +53,11 @@
   - Noelle Sawyer: sawyern@southwestern.edu, FJ 303, 512.863.1749
   - Therese Shelton: shelton@southwestern.edu, FJ 307, 512.863.1489
   - Jean Remy Habimana (statistics instruction): habimanaj@southwestern.edu, FJ 302, 512.863.1220
-- **retrieval_triggers:**
-  - "who teaches differential equations"
-  - "who is the department chair"
-  - "math faculty contact information"
-  - "who do I email about ALEKS"
-  - "who specializes in graph theory"
-  - "who teaches complex analysis"
-  - "office hours location for math professors"
-  - "who is the math advisor"
-  - "who teaches statistics"
-  - "who studies geometry at SU"
 
 ---
 
 ### Majoring and Minoring
-- **filename:** `Majoring_and_Minoring.txt`
-- **document_type:** requirements
 - **degree_relevance:** B.A. | B.S. | Minor
-- **time_sensitive:** true
-- **catalog_year:** 2024-2025
 - **description:** Defines all degree requirements for the B.A. in Mathematics (10 courses), the B.S. in Mathematics (11 courses + 5 supporting courses), and the Minor in Mathematics (6 courses). The B.A. requires MAT52-164 through MAT52-364, Linear Algebra, Algebraic Structures, Real Analysis, Senior Seminar, and three additional upper-level electives plus one supporting course (CSC54-184). The B.S. additionally requires MAT52-574 Probability and Statistics and MAT52-754 Differential Equations, has only two free upper-level electives, and mandates five supporting science/CS courses. The Minor requires Calc I, Calc II, Linear Algebra, and three approved upper-level courses. All degree paths require the Senior Seminar capstone and the Major Field Test. Minimum C- required for any course used as a prerequisite.
 - **critical_data:**
   - B.A.: 10 math courses + 1 supporting course (CSC54-184)
@@ -128,31 +71,11 @@
   - B.S. supporting courses include one choice from: BIO50-133/131, CHE51-203/201, CSC54-284, PHY53-164, or PHY53-404
   - CSC54-184, CSC54-284, and CSC54-454 cannot be taken out of sequence without departmental approval
   - Honors credit (MAT52-984) counts at most once as an approved upper-level elective
-- **retrieval_triggers:**
-  - "how many courses for the math major"
-  - "difference between BA and BS in math"
-  - "what is required for the math minor"
-  - "do I need chemistry for the math BS"
-  - "what is the capstone for math majors"
-  - "when should I take computer science"
-  - "what are approved upper-level electives"
-  - "can PHY53-454 count for the math major"
-  - "does honors count toward the major"
-  - "what supporting courses are required for the BS"
-  - "can I double major in math and CS"
-  - "what is the major field test"
-  - "minimum grade to use a course as a prereq"
-  - "how many electives in the BA vs BS"
-  - "what year should I take the senior seminar"
 
 ---
 
 ### Placement Information
-- **filename:** `Placement_Information.txt`
-- **document_type:** policy
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** 2024-2025
 - **description:** Explains math course placement for incoming and current students, including ALEKS PPL Math Knowledge Check score interpretation, AP exam credit policies, and recommendations by major type. A score of 0–35 requires Modern Quantitative Methods; 36–69 indicates readiness for Calc I pending improvement to 70 by July 31; 70–100 indicates readiness for quantitative courses. AP Calc AB or BC scores of 4 or 5 yield Calculus I credit and placement in Modern Calculus II. Students who took ALEKS at another school may be able to transfer scores by contacting Dr. Will Tran. The document also explains the differences between Modern Calculus and traditional Calculus sequences and compares SU's ALEKS threshold (70) favorably to Austin Community College's (80 for Calc I). Southwestern's Honor Code applies to the ALEKS assessment.
 - **critical_data:**
   - ALEKS score 0–35: take Modern Quantitative Methods (MAT52-064)
@@ -167,31 +90,11 @@
   - ALEKS score transfer from other schools: contact Dr. Will Tran (tranw@southwestern.edu)
   - ALEKS support: http://support.aleks.com (do not contact SU faculty for software issues)
   - Honor Code applies to ALEKS — no outside resources permitted
-- **retrieval_triggers:**
-  - "what ALEKS score do I need for calculus"
-  - "I got a 3 on AP Calculus what should I take"
-  - "how many times can I retake ALEKS"
-  - "do I need to take ALEKS if I have AP credit"
-  - "what is Modern Calculus vs traditional calculus"
-  - "how does SU place students in math courses"
-  - "what if I took ALEKS at another school"
-  - "when is the ALEKS deadline"
-  - "what happens if I don't reach 70 by July 31"
-  - "what course should non-science majors take"
-  - "AP Calculus BC credit at SU"
-  - "can I skip Modern Calculus I"
-  - "social science major what math should I take"
-  - "who is the ALEKS contact person"
-  - "what is the honor code for ALEKS"
 
 ---
 
 ### Resources
-- **filename:** `Resources.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Comprehensive listing of co-curricular and career resources for math students. Includes conference opportunities (Texas Undergraduate Mathematics Conference, Texas Section MAA Meeting, Nebraska Conference for Undergraduate Women in Mathematics, AMS conferences), math competitions (Putnam, COMAP Modeling Contest, AMC, IMO), and funding sources (Fleming Student Travel Fund, King Creativity Fund, NASA MUST Scholarship). Lists on-campus opportunities such as SCOPE (8-week summer research with faculty), the Research and Creative Works Symposium, and books available in the Chapman-Whitmore Common Room. Contains extensive career resources and specific prospective math employers. Covers summer REU programs, semester abroad programs (Budapest Semesters in Mathematics, Math in Moscow, MASS at Penn State, Smith College Junior Program), and graduate school resources including GRE timing and NSF/NDSEG fellowship information.
 - **critical_data:**
   - SCOPE: 8-week summer research with SU faculty (past projects include graph theory, neural networks, matrix research)
@@ -205,22 +108,6 @@
   - Personal statement described as the most important application document
   - Career resources cover actuarial, applied math, operations research, statistics, NSA, and academic careers
   - Books in Chapman-Whitmore Common Room: "Great Jobs for Math Majors," "101 Careers in Mathematics," "She Does Math"
-- **retrieval_triggers:**
-  - "how do I get funding to attend a math conference"
-  - "what is SCOPE research program"
-  - "summer research opportunities for math majors"
-  - "study abroad for math students"
-  - "math careers after graduation"
-  - "how do I prepare for graduate school in math"
-  - "when is the math GRE"
-  - "Budapest semesters in mathematics"
-  - "actuarial science career resources"
-  - "NSF fellowship for math"
-  - "math competitions at SU"
-  - "Putnam competition resources"
-  - "King Creativity Fund application"
-  - "math employers list"
-  - "letters of recommendation advice"
 
 ---
 
@@ -561,89 +448,6 @@
 - **Source:** `Majoring_and_Minoring.txt`
 
 ---
-
-## SECTION 5 — TOPIC INDEX
-
-- B.A. in Mathematics degree requirements → `Majoring_and_Minoring.txt`
-- B.S. in Mathematics degree requirements → `Majoring_and_Minoring.txt`
-- Minor in Mathematics requirements → `Majoring_and_Minoring.txt`
-- Difference between B.A. and B.S. in Mathematics → `Majoring_and_Minoring.txt`
-- Total courses required for Mathematics major → `Majoring_and_Minoring.txt`
-- Required supporting courses for B.S. → `Majoring_and_Minoring.txt`
-- Approved upper-level electives for math majors → `Majoring_and_Minoring.txt`, `Courses.txt`
-- Senior Seminar requirements and process → `Majoring_and_Minoring.txt`, `Courses.txt`
-- Major Field Test requirement → `Majoring_and_Minoring.txt`
-- Capstone requirement for Mathematics → `Majoring_and_Minoring.txt`, `Courses.txt`
-- Minimum grade policy for prerequisites → `Majoring_and_Minoring.txt`
-- CSC54-184 requirement and sequencing → `Majoring_and_Minoring.txt`
-- PHY53-454 as an approved elective → `Majoring_and_Minoring.txt`
-- Honors credit (MAT52-984) counting toward major → `Majoring_and_Minoring.txt`
-- Double major in Mathematics and Computer Science → `Majoring_and_Minoring.txt`
-- Course sequencing rules for CS courses → `Majoring_and_Minoring.txt`
-- MAT52-064 Modern Quantitative Methods → `Courses.txt`, `Placement_Information.txt`
-- MAT52-104 Explorations in Mathematics → `Courses.txt`
-- MAT52-114 Introduction to Statistics → `Courses.txt`
-- MAT52-164 Modern Calculus I → `Courses.txt`, `Placement_Information.txt`, `Majoring_and_Minoring.txt`
-- MAT52-264 Modern Calculus II → `Courses.txt`, `Majoring_and_Minoring.txt`
-- MAT52-364 Modern Calculus III → `Courses.txt`, `Majoring_and_Minoring.txt`
-- MAT52-574 Probability and Mathematical Statistics → `Courses.txt`, `Majoring_and_Minoring.txt`
-- MAT52-674 Linear Algebra → `Courses.txt`, `Majoring_and_Minoring.txt`
-- MAT52-684 Algebraic Structures → `Courses.txt`
-- MAT52-754 Differential Equations → `Courses.txt`, `Majoring_and_Minoring.txt`
-- MAT52-834 Complex Analysis (offered Fall, even years) → `Courses.txt`
-- MAT52-854 Real Analysis → `Courses.txt`, `Majoring_and_Minoring.txt`
-- MAT52-894 Senior Seminar prerequisites and deliverables → `Courses.txt`, `Majoring_and_Minoring.txt`
-- MAT52-404 Geometry (offered Fall, odd years) → `Courses.txt`
-- MAT52-524 Numerical Analysis prerequisites → `Courses.txt`
-- MAT52-384 Discrete Mathematics (cross-listed CSC54-384) → `Courses.txt`
-- MAT52-291 Putnam Power Hour (Pass/D/F, no major credit) → `Courses.txt`
-- Prerequisite chain from Calc I to Real Analysis → `Courses.txt`, `Majoring_and_Minoring.txt`
-- Courses that do NOT count toward the math major → `Courses.txt`
-- Courses that do NOT count toward the math minor → `Courses.txt`
-- When courses are offered (semester/year schedule) → `Courses.txt`
-- ALEKS placement test score ranges and meaning → `Placement_Information.txt`
-- ALEKS score required for Modern Calculus I → `Placement_Information.txt`
-- ALEKS deadline (July 31) for incoming students → `Placement_Information.txt`
-- ALEKS re-take rules and attempt limits → `Placement_Information.txt`
-- ALEKS score transfer from another school → `Placement_Information.txt`, `Faculty.txt`
-- AP Calculus AB credit at SU → `Placement_Information.txt`
-- AP Calculus BC credit at SU → `Placement_Information.txt`
-- AP score of 3 on Calculus exam → `Placement_Information.txt`
-- Exemptions from ALEKS test → `Placement_Information.txt`
-- Modern Calculus vs traditional Calculus differences → `Placement_Information.txt`
-- Math course recommendations by major type → `Placement_Information.txt`
-- Non-science major math recommendations → `Placement_Information.txt`
-- Social/natural science major math requirements → `Placement_Information.txt`
-- Honor Code and ALEKS → `Placement_Information.txt`
-- Contact for ALEKS questions (Dr. Will Tran) → `Placement_Information.txt`, `Faculty.txt`
-- Math Club (MAA student chapter) → `Clubs_and_Honor_Societies.txt`
-- Pi Mu Epsilon (PME) honor society requirements → `Clubs_and_Honor_Societies.txt`
-- PME induction GPA and class-standing requirements → `Clubs_and_Honor_Societies.txt`
-- Travel grants for math conferences → `Clubs_and_Honor_Societies.txt`, `Resources.txt`
-- Math Club mailing list (su-maa Google Group) → `Clubs_and_Honor_Societies.txt`
-- Conference opportunities for undergraduates → `Resources.txt`
-- Fleming Student Travel Fund → `Resources.txt`
-- SCOPE summer research program → `Resources.txt`
-- King Creativity Fund (deadline: October) → `Resources.txt`
-- Research and Creative Works Symposium → `Resources.txt`
-- NASA MUST Scholarship → `Resources.txt`
-- Summer REU programs → `Resources.txt`
-- Budapest Semesters in Mathematics → `Resources.txt`
-- Math in Moscow study abroad → `Resources.txt`
-- MASS program at Penn State → `Resources.txt`
-- Smith College Junior Program for women → `Resources.txt`
-- Graduate school GRE dates for mathematics → `Resources.txt`
-- NSF Graduate Research Fellowships → `Resources.txt`
-- Career paths for math majors → `Resources.txt`
-- Actuarial career resources → `Resources.txt`
-- Applied mathematics career resources → `Resources.txt`
-- Operations research career resources → `Resources.txt`
-- NSA career opportunities → `Resources.txt`
-- Math-specific employers list → `Resources.txt`
-- Math faculty contact information → `Faculty.txt`
-- Department Chair contact → `Faculty.txt`
-- Faculty research specialties → `Faculty.txt`
-- Who teaches which courses → `Faculty.txt`, `Courses.txt`
 
 ---
 

@@ -10,11 +10,7 @@
 ## SECTION 2 — DOCUMENT REGISTRY
 
 ### Pre-Engineering Pathway Overview
-- **filename:** `Pre-Engineering_Pathway.txt`
-- **document_type:** advising
 - **degree_relevance:** B.A.
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Introduces Southwestern's Pre-Engineering Pathway and explains the program philosophy situating technical engineering training within a liberal arts education. Describes three post-Southwestern routes: (1) Dual Degree Engineering Program — 3 years at SU then transfer to ABET-accredited school, earning both a B.A. in Applied Physics from SU and an engineering degree; formal partnership with Washington University in St. Louis, which also offers a fast-track Master's in Engineering. (2) Master of Science in Mechanical Engineering in partnership with Texas Tech University — earns B.A. in Applied Physics from SU and M.S. in Mechanical Engineering from TTU. (3) Physics-to-Engineering Graduate Pathway — complete full 4-year Physics degree at SU, then apply to a graduate engineering program. Contact person is Professor of Physics Steve Alexander.
 - **critical_data:**
   - Dual Degree option: 3 years at SU + semesters at ABET partner school
@@ -23,29 +19,11 @@
   - MS in Mechanical Engineering partnership: Texas Tech University
   - Physics-to-Engineering Graduate Pathway available for specialized fields (aerospace, biomedical, environmental engineering)
   - Contact: Professor Steve Alexander (alexands@southwestern.edu)
-- **retrieval_triggers:**
-  - "what is the pre-engineering pathway"
-  - "dual degree engineering"
-  - "Washington University transfer"
-  - "Texas Tech mechanical engineering"
-  - "can I get an engineering degree from SU"
-  - "how does the 3+2 program work"
-  - "master's in mechanical engineering"
-  - "physics to engineering graduate school"
-  - "ABET accredited partner school"
-  - "who do I contact about pre-engineering"
-  - "liberal arts and engineering"
-  - "aerospace biomedical environmental engineering grad school"
-  - "fast track masters engineering"
 
 ---
 
 ### Degree Requirements — B.A. in Applied Physics
-- **filename:** `Degree_Requirements.txt`
-- **document_type:** requirements
 - **degree_relevance:** B.A.
-- **time_sensitive:** true
-- **catalog_year:** N/A (confirm with advisor)
 - **description:** Lists the 17 required courses for the B.A. in Applied Physics (minimum 30 major credits). Includes required chemistry (2 courses with labs), mathematics (Calculus I–III and Differential Equations), physics core (Introduction to Engineering, Fundamentals of Physics I & II, Modern Physics, Classical Mechanics I, Statics), and a Capstone Course (PHY53-872). Also specifies one required pre-engineering elective from a named pool of 6 courses, and two additional pre-approved upper-level engineering courses transferred from an ABET-accredited engineering school totaling at least 6 credits. Transfer engineering courses are a required component of the degree.
 - **critical_data:**
   - 17 total courses; minimum 30 major credits
@@ -54,82 +32,34 @@
   - Required physics: PHY53-104, PHY53-154, PHY53-164, PHY53-214, PHY53-334, PHY53-434, PHY53-872
   - One pre-engineering elective required from: MAT52-674, PHY53-324, PHY53-364, PHY53-404, PHY53-454, PHY53-463, PHY53-473
   - Two pre-approved upper-level engineering transfer courses (min. 6 credits total) from ABET-accredited school required
-- **retrieval_triggers:**
-  - "what courses do I need for applied physics"
-  - "degree requirements pre-engineering"
-  - "how many credits is the major"
-  - "what's required to graduate"
-  - "do I need chemistry"
-  - "what math courses are required"
-  - "what electives can I take"
-  - "what is the capstone course"
-  - "do I need to transfer engineering credits"
-  - "what is PHY53-872"
-  - "statics course required"
-  - "modern physics required"
-  - "classical mechanics required"
-  - "list of pre-engineering electives"
 
 ---
 
 ### Chemistry Courses
-- **filename:** `Courses_Chemistry.txt`
-- **document_type:** course_info
 - **degree_relevance:** B.A.
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Lists chemistry courses offered as part of the Pre-Engineering Pathway. Includes Chemical Concepts and Properties I Lab (51-151, 0-4 credits, corequisite with 51-153), Chemical Concepts and Properties I (51-153, 3-0 credits, general chemistry, POK Natural World: Physical Science), Chemical Concepts and Properties II Lab (51-161, 0-4 credits), Chemical Concepts and Properties II (51-163, 3-0 credits, continuation of 51-153), and Physical Chemistry I (51-713, 3-0 credits). Note: these course numbers differ from those listed in the Degree Requirements document (which uses CHE51-103/101 and CHE51-203/201 formatting); this may reflect a course numbering convention difference and should be clarified with an advisor. Physical Chemistry I requires Chemistry 51-163/161 or 173/171, Physics 53-154, and Mathematics 52-253, and recommends Mathematics 52-753 or 353; must be taken concurrently with Chemistry 51-711.
 - **critical_data:**
   - Chem I lecture (51-153) and lab (51-151) must be taken concurrently
   - Chem II lecture (51-163) and lab (51-161) must be taken concurrently; prerequisite: Chem I (51-153/151)
   - Physical Chemistry I (51-713): prerequisites include Chem 51-163/161 or 173/171, Physics 53-154, and Math 52-253
   - Physical Chemistry I recommends Math 52-753 or 353; must be taken concurrently with Chem 51-711
-  - Chem I (51-153) satisfies POK Natural World: Physical Science Paideia area
-- **retrieval_triggers:**
-  - "chemistry courses pre-engineering"
-  - "do I need chem lab"
-  - "what is chemical concepts and properties"
-  - "prerequisites for physical chemistry"
-  - "chem I and chem II"
-  - "can chem count for Paideia"
-  - "what does chemistry 51-153 satisfy"
-  - "physical chemistry prerequisites"
-  - "when do I take chem II"
-  - "concurrent enrollment chemistry"
+  - Chem I (51-153) satisfies POK Natural World: Physical Science General education area
 
 ---
 
 ### Computer Science Courses
-- **filename:** `Courses_Computer_Science.txt`
-- **document_type:** course_info
 - **degree_relevance:** B.A.
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Lists two computer science courses available within the Pre-Engineering Pathway. Introduction to Programming (54-143) is an introductory course covering object-oriented programming, class definitions, basic data structures, and interactive user interfaces; explicitly does not fulfill the Area One Mathematics requirement; carries NS designation. Computer Science I (54-183) covers primitive types, selection, iteration, arrays, recursion, encapsulation, inheritance; prerequisite is prior programming experience with departmental approval or CS 54-143; offered each semester; carries NS designation. Neither course appears as a required course in the Applied Physics degree requirements but may be relevant for students in the Pre-Engineering track.
 - **critical_data:**
   - CS 54-143 (Intro to Programming): does NOT fulfill Area One Mathematics requirement; NS designation
   - CS 54-183 (Computer Science I): prerequisite is CS 54-143 or prior programming with departmental approval; offered each semester; NS designation
   - CS 54-183 is offered each semester
   - Neither course is listed as a required course in the B.A. in Applied Physics
-- **retrieval_triggers:**
-  - "computer science courses pre-engineering"
-  - "do I need programming"
-  - "introduction to programming"
-  - "CS 54-143"
-  - "CS 54-183"
-  - "computer science I"
-  - "does programming count for math requirement"
-  - "object-oriented programming"
-  - "CS elective pre-engineering"
 
 ---
 
 ### Mathematics Courses
-- **filename:** `Courses_Math.txt`
-- **document_type:** course_info
 - **degree_relevance:** B.A.
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Lists five mathematics courses in the Pre-Engineering Pathway. Calculus I (52-154) covers derivatives, integration, and exponential/logarithmic/trig functions; includes lab component; prerequisite is mastery of high school precalculus; offered each semester; NS designation. Calculus II (52-254) covers integration methods, series, Taylor's Formula, polar coordinates; prerequisite Calculus I; offered each semester; NS designation. Calculus III (52-353) is multivariable calculus covering vectors, partial differentiation, multiple integration, and vector calculus; prerequisite Calculus II; offered each semester. Linear Algebra (52-673) covers linear equations, matrices, vector spaces; prerequisite Calculus II or permission; offered each semester; NS designation. Elementary Differential Equations (52-753) covers first-order equations, linear DEs, power series, Laplace Transform; prerequisite Calculus III or permission; offered in Fall only; NS designation.
 - **critical_data:**
   - Calculus I (52-154): requires mastery of precalculus; offered each semester
@@ -138,27 +68,11 @@
   - Linear Algebra (52-673): prerequisite Calc II or permission; offered each semester
   - Differential Equations (52-753): prerequisite Calc III or permission; Fall only
   - Note: Degree Requirements uses course numbers MAT52-154/254/354/754 — confirm equivalency with advisor
-- **retrieval_triggers:**
-  - "math courses pre-engineering"
-  - "do I need differential equations"
-  - "calculus sequence"
-  - "when is differential equations offered"
-  - "linear algebra required"
-  - "prerequisites for calculus II"
-  - "multivariable calculus"
-  - "what math do I need"
-  - "calc III pre-engineering"
-  - "52-753 when is it offered"
-  - "fall only course math"
 
 ---
 
 ### Physics Courses
-- **filename:** `Courses_Physics.txt`
-- **document_type:** course_info
 - **degree_relevance:** B.A.
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Lists four physics courses in the Pre-Engineering Pathway. Fundamentals of Physics I & II (53-154 and 53-164, both 3-3 credits) are calculus-based covering mechanics, wave motion, electromagnetism, and optics; Phys I requires concurrent Math 52-154; Phys II requires Phys I; both carry NSL designation. Electronics (53-204, 3-3 credits) introduces digital and analog circuits; prerequisites are Math 52-154/254 and Physics 53-154/164; Math 52-353 is a pre- or co-requisite; NSL. Elementary Modern Physics (53-214, 3-3 credits) covers relativity, wave-particle duality, atomic structure, nuclear theory; prerequisites are Math 52-154/254 and Physics 53-154/164; Math 53-353 is a pre- or co-requisite; NSL. Classical Mechanics I (53-334, 3-3 credits) covers advanced Newtonian mechanics, kinematics, forced oscillations; prerequisites are Math 52-353 and Physics 53-154/164; Math 53-753 is a pre- or co-requisite; NSL.
 - **critical_data:**
   - Phys I (53-154): concurrent registration or credit in Math 52-154 required; NSL designation
@@ -167,44 +81,16 @@
   - Modern Physics (53-214): prerequisites Math 52-154/254 and Phys 53-154/164; Math 53-353 pre/co-req
   - Classical Mechanics I (53-334): prerequisites Math 52-353 and Phys 53-154/164; Math 53-753 pre/co-req
   - All four courses carry NSL (Natural Science with Lab) designation
-- **retrieval_triggers:**
-  - "physics courses pre-engineering"
-  - "fundamentals of physics I"
-  - "do I need calculus for physics"
-  - "electronics course prerequisites"
-  - "modern physics prerequisites"
-  - "classical mechanics prerequisites"
-  - "PHY 53-204"
-  - "PHY 53-214"
-  - "PHY 53-334"
-  - "what is NSL"
-  - "physics with lab"
-  - "when can I take modern physics"
 
 ---
 
 ### Faculty — Pre-Engineering Pathway
-- **filename:** `Faculty.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Lists the faculty associated with the Pre-Engineering Pathway. Steve Alexander, Professor of Physics, is the primary contact (alexands@southwestern.edu, 512.863.1633, Fondren-Jones 150). Cody Crosby, Assistant Professor of Physics, specializes in biofabrication, biomaterials, hydrogels, material characterization, stem cells, and engineering education (crosbyc@southwestern.edu, 512.863.1130, FJS 109). Both faculty members also appear listed under Affiliated Faculty. The university's general contact is listed as Georgetown, Texas, 512.863.6511.
 - **critical_data:**
   - Primary contact: Steve Alexander — alexands@southwestern.edu — 512.863.1633 — Fondren-Jones 150
   - Cody Crosby — crosbyc@southwestern.edu — 512.863.1130 — FJS 109 — specialty: biofabrication, biomaterials, engineering education
   - General SU contact: 512.863.6511
-- **retrieval_triggers:**
-  - "who is my advisor"
-  - "who teaches pre-engineering"
-  - "Steve Alexander contact"
-  - "Cody Crosby"
-  - "faculty pre-engineering"
-  - "professor of physics contact"
-  - "email for pre-engineering advisor"
-  - "phone number physics department"
-  - "where is the physics office"
-  - "biomaterials faculty"
 
 ---
 
@@ -225,9 +111,9 @@ These apply to ALL students regardless of major. Source: `SU_General_Policies.tx
 | Graduation Application | "Application for Diploma" must be filed; financial holds block diploma |
 | Degree Conferral Dates | December, May, August only; Commencement held once per year in May |
 
-### SU Universal Curriculum Requirements (Paideia Framework)
+### SU Universal Curriculum Requirements (General Education)
 
-SU's general education model is called **Paideia**. Every major's degree plan is built on top of these shared requirements.
+Every major's degree plan is built on top of shared general education requirements.
 
 **Required for ALL degree paths:**
 - First-Year Seminar (FYS) or Advanced-Entry Seminar (AES): 4 credits
@@ -323,7 +209,7 @@ This major offers only the B.A. in Applied Physics. However, students may pursue
 - **Corequisites:** Must be taken concurrently with CHE 51-151
 - **Offered:** Unknown (assumed each semester)
 - **Required For:** B.A. in Applied Physics (as CHE51-103/101 equivalent — confirm with advisor)
-- **Counts As:** General Chemistry I; satisfies POK Natural World: Physical Science Paideia area
+- **Counts As:** General Chemistry I; satisfies POK Natural World: Physical Science General education area
 - **Notes:** Correlation of physical laws with structure of matter and chemical properties
 - **Source:** `Courses_Chemistry.txt`
 
@@ -521,76 +407,6 @@ This major offers only the B.A. in Applied Physics. However, students may pursue
 
 ---
 
-## SECTION 5 — TOPIC INDEX
-
-- B.A. in Applied Physics degree requirements → `Degree_Requirements.txt`
-- Total credit hours for major (minimum 30) → `Degree_Requirements.txt`
-- Number of required courses (17) → `Degree_Requirements.txt`
-- Required chemistry courses (CHE51-103/101 and CHE51-203/201) → `Degree_Requirements.txt`, `Courses_Chemistry.txt`
-- Required math courses (Calculus I, II, III, Differential Equations) → `Degree_Requirements.txt`, `Courses_Math.txt`
-- Required physics courses → `Degree_Requirements.txt`, `Courses_Physics.txt`
-- Introduction to Engineering (PHY53-104) → `Degree_Requirements.txt`
-- Fundamentals of Physics I (PHY53-154) → `Degree_Requirements.txt`, `Courses_Physics.txt`
-- Fundamentals of Physics II (PHY53-164) → `Degree_Requirements.txt`, `Courses_Physics.txt`
-- Modern Physics (PHY53-214) → `Degree_Requirements.txt`, `Courses_Physics.txt`
-- Classical Mechanics I (PHY53-334) → `Degree_Requirements.txt`, `Courses_Physics.txt`
-- Statics (PHY53-434) → `Degree_Requirements.txt`
-- Capstone Course (PHY53-872) → `Degree_Requirements.txt`
-- Pre-engineering elective options → `Degree_Requirements.txt`
-- Linear Algebra as elective (MAT52-674) → `Degree_Requirements.txt`, `Courses_Math.txt`
-- Electromagnetism I as elective (PHY53-324) → `Degree_Requirements.txt`
-- Materials Science as elective (PHY53-364) → `Degree_Requirements.txt`
-- Electronics as elective (PHY53-404) → `Degree_Requirements.txt`, `Courses_Physics.txt`
-- Math Methods in Physical Science as elective (PHY53-454) → `Degree_Requirements.txt`
-- Dynamics as elective (PHY53-463) → `Degree_Requirements.txt`
-- Thermodynamics 204 as elective (PHY53-473) → `Degree_Requirements.txt`
-- Transfer engineering course requirement (2 courses, min. 6 credits, ABET school) → `Degree_Requirements.txt`
-- Pre-approved upper-level engineering transfer credits → `Degree_Requirements.txt`
-- ABET-accredited partner schools → `Pre-Engineering_Pathway.txt`
-- Dual degree engineering program → `Pre-Engineering_Pathway.txt`
-- Washington University in St. Louis partnership → `Pre-Engineering_Pathway.txt`
-- Fast-track Master's in Engineering at WashU → `Pre-Engineering_Pathway.txt`
-- Texas Tech University MS in Mechanical Engineering → `Pre-Engineering_Pathway.txt`
-- Physics-to-engineering graduate pathway → `Pre-Engineering_Pathway.txt`
-- 3+2 dual degree program structure → `Pre-Engineering_Pathway.txt`
-- Liberal arts foundation for engineering → `Pre-Engineering_Pathway.txt`
-- Contact for pre-engineering advising → `Faculty.txt`, `Pre-Engineering_Pathway.txt`
-- Steve Alexander contact information → `Faculty.txt`
-- Cody Crosby contact information → `Faculty.txt`
-- Faculty specialties (biofabrication, biomaterials, engineering education) → `Faculty.txt`
-- Calculus I (MAT52-154/164) → `Courses_Math.txt`, `Degree_Requirements.txt`
-- Calculus II (MAT52-254/264) → `Courses_Math.txt`, `Degree_Requirements.txt`
-- Calculus III / Multivariable Calculus (MAT52-353/364) → `Courses_Math.txt`, `Degree_Requirements.txt`
-- Differential Equations — Fall only offering (MAT52-753/754) → `Courses_Math.txt`, `Degree_Requirements.txt`
-- Linear Algebra prerequisites → `Courses_Math.txt`
-- Calculus I prerequisites (precalculus mastery) → `Courses_Math.txt`
-- Electronics prerequisites (PHY53-204/404) → `Courses_Physics.txt`
-- Modern Physics prerequisites → `Courses_Physics.txt`
-- Classical Mechanics I prerequisites → `Courses_Physics.txt`
-- Physics concurrent enrollment with Calculus I → `Courses_Physics.txt`
-- Chemistry I lecture and lab concurrent enrollment → `Courses_Chemistry.txt`
-- Chemistry II prerequisites → `Courses_Chemistry.txt`
-- Physical Chemistry I prerequisites → `Courses_Chemistry.txt`
-- Chemistry satisfying Paideia Natural World requirement → `Courses_Chemistry.txt`
-- Computer Science I prerequisites → `Courses_Computer_Science.txt`
-- Intro to Programming does not count for math requirement → `Courses_Computer_Science.txt`
-- NSL designation (Natural Science with Lab) courses → `Courses_Physics.txt`
-- NS designation (Natural Science) courses → `Courses_Math.txt`, `Courses_Computer_Science.txt`
-- Prerequisite chains for upper-division physics → `Courses_Physics.txt`, `Courses_Math.txt`
-- Course numbering discrepancy between degree requirements and course documents → `Degree_Requirements.txt`, `Courses_Math.txt`, `Courses_Chemistry.txt`
-- GPA requirements (overall and major) → `SU_General_Policies.txt`
-- Graduation application process → `SU_General_Policies.txt`
-- Paideia general education requirements → `SU_General_Policies.txt`
-- Transfer credit rules → `SU_General_Policies.txt`, `Degree_Requirements.txt`
-- Pass/D/F grading option → `SU_General_Policies.txt`
-- Academic probation and dismissal → `SU_General_Policies.txt`
-- Study abroad credit applicability → `SU_Resources_and_Financial.txt`, `SU_General_Policies.txt`
-- Financial aid questions → `SU_Resources_and_Financial.txt`
-- Tuition refund schedule → `SU_Resources_and_Financial.txt`
-- SURF and research opportunities → `SU_Resources_and_Financial.txt`
-- Latin honors and Paideia with Distinction → `SU_General_Policies.txt`
-- Credit by examination (AP, IB, CLEP) → `SU_General_Policies.txt`
-
 ---
 
 ## SECTION 6 — QUERY PATTERN MAP
@@ -700,9 +516,9 @@ This major offers only the B.A. in Applied Physics. However, students may pursue
 **Routing Note:** PHY 53-204 requires Math 52-154/254 and Physics 53-154/164; Math 52-353 is a pre/co-req.
 **Disambiguation Needed:** No
 
-**Q:** Can Chemistry count toward my Paideia requirements?
+**Q:** Can Chemistry count toward my General education requirements?
 **Docs:** `Courses_Chemistry.txt`, `SU_General_Policies.txt`
-**Routing Note:** Chem 51-153 satisfies POK Natural World: Physical Science designation; full Paideia structure in general policies.
+**Routing Note:** Chem 51-153 satisfies POK Natural World: Physical Science designation; full General Education structure in general policies.
 **Disambiguation Needed:** No
 
 **Q:** Can I study abroad and still graduate on time?
@@ -750,9 +566,9 @@ This major offers only the B.A. in Applied Physics. However, students may pursue
 **Routing Note:** Physics-to-Engineering Graduate Pathway is described as especially valuable for aerospace; escalate to advisor for personalized guidance.
 **Disambiguation Needed:** No — but escalate to advisor
 
-**Q:** Do any of my major courses satisfy Paideia breadth requirements?
+**Q:** Do any of my major courses satisfy General education breadth requirements?
 **Docs:** `Courses_Chemistry.txt`, `Courses_Physics.txt`, `Courses_Math.txt`, `Courses_Computer_Science.txt`, `SU_General_Policies.txt`
-**Routing Note:** Several courses carry NS or NSL Paideia designations; full Paideia structure requires general policies doc.
+**Routing Note:** Several courses carry NS or NSL General education designations; full General Education structure requires general policies doc.
 **Disambiguation Needed:** No
 
 **Q:** What financial aid is available to help pay for the Texas Tech portion of the program?
@@ -779,11 +595,10 @@ This major offers only the B.A. in Applied Physics. However, students may pursue
   - **What general docs must cover:** 127-credit minimum, 64-credit SU residency, last 32 in-residence, 2.000 GPA, 60% major residency, Application for Diploma process
   - **Routing instruction:** Always retrieve `SU_General_Policies.txt` alongside `Degree_Requirements.txt` for any graduation eligibility question
 
-- **Topic:** Paideia general education requirements
+- **Topic:** General education requirements
   - **What major docs cover:** Several courses carry NS, NSL, or POK designations (e.g., Chem 51-153 = POK Natural World: Physical Science; Physics and Math courses = NS/NSL)
   - **What general docs must cover:** Full structure of FYS/AES, Language & Cultures, FRA, Power and Justice, Exploration & Breadth Parts I and II, Paideia with Distinction
-  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about gen-ed, breadth requirements, or Paideia
-
+  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about gen-ed, breadth requirements, or General Education 
 - **Topic:** Pass/D/F grading option
   - **What major docs cover:** Not mentioned in major documents
   - **What general docs must cover:** Full Pass/D/F policy, deadlines to switch, GPA impact
@@ -887,7 +702,7 @@ This major offers only the B.A. in Applied Physics. However, students may pursue
 **When to retrieve multiple documents:**
 - Any question about a specific course's prerequisites → retrieve both `Degree_Requirements.txt` and the relevant course document (e.g., `Courses_Physics.txt`, `Courses_Math.txt`)
 - Any question about graduation eligibility → retrieve `Degree_Requirements.txt` AND `SU_General_Policies.txt`
-- Any question about Paideia or general education → retrieve relevant course doc (for designations) AND `SU_General_Policies.txt`
+- Any question about General Education or general education → retrieve relevant course doc (for designations) AND `SU_General_Policies.txt`
 - Any question about the dual degree program or graduate pathways → retrieve `Pre-Engineering_Pathway.txt` AND `Degree_Requirements.txt`
 - Any question about transfer credit → retrieve `Degree_Requirements.txt` AND `SU_General_Policies.txt`
 - Any question about financial aid, study abroad, or tuition → retrieve `SU_Resources_and_Financial.txt`
@@ -915,7 +730,7 @@ This major offers only the B.A. in Applied Physics. However, students may pursue
 
 **Always retrieve `SU_General_Policies.txt` alongside major docs when:**
 - Any graduation eligibility or credit count question
-- Any Paideia / general education requirement question
+- Any general education requirement question
 - Any grading policy question (Pass/D/F, grade appeals, incomplete grades)
 - Any academic standing question (probation, dismissal, appeal)
 - Any transfer credit or credit-by-examination question

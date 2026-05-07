@@ -10,11 +10,7 @@
 ## SECTION 2 — DOCUMENT REGISTRY
 
 ### Spanish Program Overview
-- **filename:** `Spanish.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Provides a high-level overview of the Spanish program at Southwestern University, including rationale for studying Spanish (fourth most widely spoken language; U.S. is second largest Spanish-speaking country), cognitive and career benefits of bilingualism, and alumni outcomes. Describes the range of courses (language, literature, film, history, linguistics). Names study abroad destinations: Buenos Aires, Argentina and Granada, Spain. Lists internship locations: Peru, Ecuador, Costa Rica, and Europe. Notes common double-major and minor pairings such as business, Latin American and Border studies, education, biology, communication studies, political science, and international studies. Features alumni story of Kristin Ellermann '10 (Latin American studies, Peace Corps, educator) and mentions the SU Tertulia Student Organization.
 - **critical_data:**
   - Spanish is the official language of 20 countries; over 527 million speakers worldwide
@@ -24,7 +20,6 @@
   - Common double-major pairings: business, LABS, education, biology, communication studies, political science, international studies
   - Alumni careers: marketing at Chilean vineyard, doctors in Hispanic communities, tourism coordinators, graduate researchers and teachers
   - SU Tertulia Student Organization focuses on conversational Spanish through film
-- **retrieval_triggers:**
   - why study Spanish at SU
   - what can I do with a Spanish major
   - careers for Spanish majors
@@ -41,19 +36,14 @@
 ---
 
 ### For Future Students
-- **filename:** `For_Future_Students.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
-- **description:** Describes the educational goals and philosophy of the Spanish program for prospective students, including critical inquiry, global understanding, cognitive skill development, interdisciplinary connections, and lifelong learning. Emphasizes community-engaged learning with local Spanish-speaking communities and civic engagement opportunities. Highlights that courses abroad expose students to new circumstances for developing global citizenship. Mentions cognitive benefits of bilingualism (critical thinking, creativity, flexibility of mind, improved native language skills), referencing external resources from The Dana Foundation. Notes alumni reports that majoring in Spanish impacted their sense of identity. Lists interdisciplinary programs: Paideia, Latin American Studies, International Studies, Feminist Studies, and Race and Ethnicity.
+- **description:** Describes the educational goals and philosophy of the Spanish program for prospective students, including critical inquiry, global understanding, cognitive skill development, interdisciplinary connections, and lifelong learning. Emphasizes community-engaged learning with local Spanish-speaking communities and civic engagement opportunities. Highlights that courses abroad expose students to new circumstances for developing global citizenship. Mentions cognitive benefits of bilingualism (critical thinking, creativity, flexibility of mind, improved native language skills), referencing external resources from The Dana Foundation. Notes alumni reports that majoring in Spanish impacted their sense of identity. Lists interdisciplinary programs: General Education, Latin American Studies, International Studies, Feminist Studies, and Race and Ethnicity.
 - **critical_data:**
   - Program promotes critical thinking, global understanding, cognitive skills, lifelong learning, interdisciplinary connections, and 21st-century career skills
   - Community-engaged learning with local Spanish-speaking communities
-  - Courses contribute to: Paideia, Latin American Studies, International Studies, Feminist Studies, Race and Ethnicity
+  - Courses contribute to: General Education, Latin American Studies, International Studies, Feminist Studies, Race and Ethnicity
   - Bilingualism shown to increase critical thinking, creativity, flexibility of mind
   - Alumni report Spanish gave them confidence to explore the world
-- **retrieval_triggers:**
   - should I study Spanish
   - what will I learn in the Spanish program
   - is Spanish a good major
@@ -67,11 +57,7 @@
 ---
 
 ### Majoring and Minoring in Spanish
-- **filename:** `Majoring___Minoring.txt`
-- **document_type:** requirements
 - **degree_relevance:** B.A., Minor
-- **time_sensitive:** true
-- **catalog_year:** 2023/2025
 - **description:** Specifies the official requirements for both the Spanish major (8 courses) and the Spanish minor (5 courses) under the 2023/2025 catalog. For the major: requires one course from a group including SPA15-214, SPA15-334, or SPA15-344; one course from SPA15-354 or SPA15-364; two additional courses from levels 200–800; three additional courses from levels 400–800; and the capstone seminar SPA15-934 (spring only). Notes that all Spanish majors are strongly urged to plan for study abroad. Describes the capstone as a senior seminar covering broad disciplinary aspects culminating in an oral presentation. Specifies a language assessment exam requirement for both majors and minors. Mentions paired major options with Latin American and Border Studies (LABS) and International Studies. Notes that the LABS paired major allows two courses to count toward both majors but requires two capstone courses.
 - **critical_data:**
   - Major: 8 courses total (2023/2025 catalog)
@@ -87,7 +73,6 @@
   - Paired major available with LABS (two courses double-count; two capstones required)
   - Paired major available with International Studies
   - See Education Department for teacher certification in Spanish
-- **retrieval_triggers:**
   - how many courses to major in Spanish
   - Spanish major requirements
   - Spanish minor requirements
@@ -106,11 +91,7 @@
 ---
 
 ### Beginning Spanish Courses
-- **filename:** `Beginning_Courses.txt`
-- **document_type:** course_info
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Describes the beginning-level Spanish course sequence (SPA15-144, SPA15-154, SPA15-164) that fulfills SU's Language and Culture general education requirement. Notes that a placement test determines entry point, and students must earn C- or better to continue within the sequence. Spanish 1 (SPA15-144) is offered fall, spring, and summer. Spanish 2 (SPA15-154) and Spanish 3 (SPA15-164) are offered fall, spring, and summer, including as part of the summer study abroad program. SPA15-164 (Spanish III) requires an exit interview/examination and, if taken for college credit, may count toward the Spanish minor. Outlines prerequisite chain: SPA15-144 → SPA15-154 → SPA15-164.
 - **critical_data:**
   - SPA15-144 Spanish I: Language and Culture — no prerequisite; offered Fall, Spring
@@ -121,7 +102,6 @@
   - SPA15-154 and SPA15-164 offered in summer study abroad program
   - SPA15-164 may count toward the Spanish minor if taken for college credit
   - Fulfills SU Language and Culture requirement
-- **retrieval_triggers:**
   - Spanish 1 course
   - Spanish 2 course
   - Spanish 3 course
@@ -141,11 +121,7 @@
 ---
 
 ### Intermediate Spanish Courses
-- **filename:** `Intermediate_Courses.txt`
-- **document_type:** course_info
 - **degree_relevance:** B.A., Minor, All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Describes intermediate-level Spanish courses (SPA15-214 through SPA15-364) designed for native speakers, heritage speakers, and students who have completed the Language and Culture sequence or placed out. All courses require SPA15-164 or equivalent placement, or instructor permission. Courses include: SPA15-214 (Written and Oral Expression, WA, H), SPA15-314 (Conversation in Context — summer study abroad only), SPA15-334 (Conversation Through Hispanic Cinema, WA, H, Fall/Spring), SPA15-344 (Introduction to Literary Studies, WA, H), SPA15-354 (Cultures and Communities of Latin America — community-engaged learning, H, SJ, JP, Fall/Summer; Latin America study abroad in even-numbered years), and SPA15-364 (Cultures and Communities of Spain — community-engaged learning, H, SJ, PJ, Spring/Summer; Spain study abroad in odd-numbered years). Multiple courses contribute to International Studies and Latin American and Border Studies.
 - **critical_data:**
   - SPA15-214: Written and Oral Expression — prerequisite SPA15-164 or equivalent; (WA)(H); contributes to International Studies, Latin American and Border Studies
@@ -156,7 +132,6 @@
   - SPA15-364: Cultures and Communities of Spain — Spring, Summer; community-engaged learning component; prerequisite SPA15-164 or equivalent; (H)(SJ)(PJ); Spain study abroad offered odd-numbered years; contributes to International Studies
   - SPA15-214, SPA15-334, and SPA15-344 are each options for the required first course grouping in both the major and minor
   - SPA15-354 and SPA15-364 are options for the required second course grouping in both the major and minor
-- **retrieval_triggers:**
   - SPA15-214
   - SPA15-314
   - SPA15-334
@@ -178,11 +153,7 @@
 ---
 
 ### Advanced Spanish Courses
-- **filename:** `Advanced_Courses.txt`
-- **document_type:** course_info
 - **degree_relevance:** B.A., Minor
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Describes advanced-level Spanish courses (400–900 level) for majors, minors, and students who have completed at least one 300-level course. Explains course numbering conventions: 400-level = Spain literature; 500-level = Latin American literature; 600-level = culture; 700-level = linguistics; 900-level = capstone, tutorial, independent study, internship, honors. Abroad-focused courses (SPA15-444, -454, -464) require one 200 or 300-level prerequisite. General advanced courses include SPA15-534 (Cultural Memory in Latin America, WA, SJ, PJ, H), SPA15-614/624/634 (repeatable Topics courses in Film, Literature, Culture), SPA15-644 (Gender, Race and Nationalism in Spanish Cinema, WA, H), SPA15-654 (Citizenship & Conflict Colombian Cinema, SJ, IP, WA, H), SPA15-714 (Spanish Sociolinguistics), SPA15-724 (Spanish Phonetics and Phonology), and SPA15-734 (Spanish in the United States, WA, H). All courses taught in Spanish.
 - **critical_data:**
   - Course numbering: 400=Spain lit; 500=Latin American lit; 600=culture; 700=linguistics; 900=capstone/internship/honors
@@ -200,7 +171,6 @@
   - SPA15-734: Spanish in the United States — prereq: one 200 or 300-level; (WA)(H); LABS, Race and Ethnicity
   - Prerequisites for advanced courses: generally one 200 or 300-level course (SPA15-654 requires one 300-level specifically)
   - All advanced courses taught in Spanish
-- **retrieval_triggers:**
   - advanced Spanish courses
   - 400 level Spanish
   - 500 level Spanish
@@ -230,11 +200,7 @@
 ---
 
 ### Native Speakers Information
-- **filename:** `Native_Speakers.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Advises native and heritage speakers of Spanish to consider intermediate and advanced courses, which are designed to engage both native and non-native speakers. Encourages study abroad for life-changing experience and resume enhancement. Notes that studying abroad improves Spanish skills, exposes students to diverse cultures from a non-American perspective, and is particularly beneficial for advanced speakers. Also encourages native speakers to pursue Paideia with Distinction given their advanced language proficiency. Advises consulting faculty members for further engagement ideas.
 - **critical_data:**
   - Native speakers should take intermediate or advanced courses
@@ -242,7 +208,6 @@
   - Study abroad encouraged for native speakers — enhances resume, expands cultural perspective
   - Paideia with Distinction recommended for advanced Spanish speakers
   - Students should consult faculty for involvement opportunities
-- **retrieval_triggers:**
   - native speaker Spanish courses
   - heritage speaker Spanish
   - I already speak Spanish what courses should I take
@@ -254,18 +219,13 @@
 ---
 
 ### Special Opportunities
-- **filename:** `Special_Opportunities.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Brief overview of two special opportunities for Spanish students: study abroad programs and membership in Sigma Delta Pi (the Spanish Honor Society). Notes that all students of Spanish are encouraged to study abroad and that the Spanish department offers programs for intermediate and advanced students, with additional options through the Office of Intercultural Learning. Notes that students majoring or minoring in Spanish are eligible to apply for membership to the Iota Delta chapter of Sigma Delta Pi.
 - **critical_data:**
   - Study abroad offered for intermediate and advanced level students
   - Additional study abroad options available through Office of Intercultural Learning
   - Sigma Delta Pi eligibility: students majoring or minoring in Spanish
   - Iota Delta chapter of Sigma Delta Pi
-- **retrieval_triggers:**
   - Spanish honor society
   - Sigma Delta Pi
   - study abroad Spanish
@@ -276,11 +236,7 @@
 ---
 
 ### Study Abroad
-- **filename:** `Study_Abroad.txt`
-- **document_type:** advising
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** 2021 (some content dated; check for current programs)
 - **description:** Describes study abroad options for Spanish students, including summer, semester, and full academic year programs. Lists past destinations: Peru, Ecuador, Spain, Argentina, Costa Rica, and other countries. Notes summer programs are available after completion of Spanish III (SPA15-164). Describes advanced-level summer programs in Granada, Spain (International Marketing focus, led by Dr. Katy Ross) and Buenos Aires, Argentina (led by Dr. Carlos de Oro). Notes that intermediate programs (Spanish II and III abroad) may also be offered in Granada, Spain in even years. Some content references summer 2021 specifically and may be outdated — current program offerings should be confirmed with the department.
 - **critical_data:**
   - Study abroad available for summer, semester, or full academic year
@@ -290,7 +246,6 @@
   - Intermediate programs (Spanish II and III) may be offered in Granada in summer
   - Dr. Katy Ross leads Granada program; Dr. Carlos de Oro leads Buenos Aires program
   - Some content dated to 2021 — verify current offerings with department or Office of Intercultural Learning
-- **retrieval_triggers:**
   - study abroad Spain
   - study abroad Argentina
   - study abroad Spanish program
@@ -307,11 +262,7 @@
 ---
 
 ### Sigma Delta Pi Honor Society
-- **filename:** `Sigma_Delta_Pi.txt`
-- **document_type:** advising
 - **degree_relevance:** B.A., Minor
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Provides details on Sigma Delta Pi, the National Collegiate Hispanic Honor Society. States it is a non-profit incorporated in South Carolina, a member of the Association of College Honor Societies, and affiliated with the American Association of Teachers of Spanish and Portuguese. Provides historical context: established in 1919 at UC Berkeley as "Sociedad del Prado." Society motto: "Spanias Didagei Proagomen" ("Prosigamos bajo la inspiración de España"). SU's chapter is Iota Delta and is open to students with a major or minor in Spanish. Faculty advisor is Professor Angeles Rodríguez Cadena.
 - **critical_data:**
   - Sigma Delta Pi: National Collegiate Hispanic Honor Society
@@ -320,7 +271,6 @@
   - SU chapter: Iota Delta
   - Eligibility: students with a Spanish major or minor
   - Faculty Advisor: Professor Angeles Rodríguez Cadena
-- **retrieval_triggers:**
   - Sigma Delta Pi
   - Spanish honor society
   - how to join Spanish honor society
@@ -332,11 +282,7 @@
 ---
 
 ### Our Faculty
-- **filename:** `Our_Faculty.txt`
-- **document_type:** general
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** N/A
 - **description:** Lists all current Spanish department faculty with name, title, specialty, email, phone, and office location. Faculty include: Abby Dings (Associate Professor and Department Chair, Second Language Acquisition, Sociolinguistics, dingsa@southwestern.edu, Olin 317); Noelia Cigarroa-Cooke (Staff Instructor, cigarron@southwestern.edu, Mundy 122); Carlos De Oro (Christine Robertson Morenz Professor, Contemporary Latin American Film/Literature/Culture, deoroc@southwestern.edu, Olin 312); Meaghan Dinan (Visiting Instructor, dinanm@southwestern.edu, Mundy 152); Ted Jobe (Director of Language Media Services, Hispanic Linguistics/sociolinguistics/audiovisual learning, jobet@southwestern.edu, Olin 320); María de los Ángeles Rodriguez Cadena (Associate Professor, Mexican and Latin American Literature/Culture/Feminist Studies, rodrigua@southwestern.edu, Olin 306); Katy Bourland Ross (Professor, Post-Franco Spanish literature/peninsular film, rossc@southwestern.edu, Olin 316); Laura Senio Blair (Assistant Dean of Faculty and Professor, Hispano American Narrative/Drama/Chilean Film, seniobll@southwestern.edu).
 - **critical_data:**
   - Department Chair: Abby Dings — dingsa@southwestern.edu — 512.863.1667 — Olin 317
@@ -347,7 +293,6 @@
   - Ted Jobe — Language Media Services, Hispanic Linguistics — jobet@southwestern.edu — Olin 320
   - Noelia Cigarroa-Cooke — Staff Instructor — Mundy 122
   - Meaghan Dinan — Visiting Instructor — Mundy 152
-- **retrieval_triggers:**
   - Spanish faculty
   - who teaches Spanish at SU
   - Spanish department chair
@@ -365,11 +310,7 @@
 ---
 
 ### Resources for Spanish Students
-- **filename:** `Resources.txt`
-- **document_type:** resources
 - **degree_relevance:** All
-- **time_sensitive:** true
-- **catalog_year:** Fall 2023 (tutoring schedule; may have changed)
 - **description:** Compiles resources for Spanish students including language placement/proficiency testing (Emmersion oral assessment for Spanish 3, majors, minors, LABS majors, and International Studies majors — requires SU email for account), free Spanish tutoring schedule (Fall 2023: Paola, Tuesdays 2–3pm, Wednesdays 12–2pm, Thursdays 10am–12pm via Debby Ellis Writing Center), study abroad resources (transfer of credit guidelines, pre-departure form, suggested programs, Office of Intercultural Learning), Spanish department advising and degree plan documents, online dictionaries (WordReference, Real Academia Española, Jergas de habla hispana), grammar activity sites, news sources in Spanish (BBC Mundo, CNN en Español), TV and podcast media (Netflix, Radio Ambulante, Pero Like, Remezcla, Flama), and guides for typing Spanish special characters on Mac and PC.
 - **critical_data:**
   - Proficiency/placement testing: Emmersion oral assessment — use full SU email; create account or use existing if prior exam taken
@@ -380,7 +321,6 @@
   - Official Spanish dictionary: Real Academia Española
   - Spanish special characters: Mac uses Option+key sequences; PC uses Alt+number codes
   - Advising guide and degree plans available
-- **retrieval_triggers:**
   - Spanish tutoring
   - free tutoring Spanish
   - placement test Spanish
@@ -400,11 +340,7 @@
 ---
 
 ### Spanish for Healthcare Professions Certificate
-- **filename:** `Spanish_for_Healthcare_Professions.txt`
-- **document_type:** requirements
 - **degree_relevance:** All (certificate available to any student)
-- **time_sensitive:** false
-- **catalog_year:** N/A
 - **description:** Describes the Spanish for Healthcare Professions certificate, which prepares students to communicate effectively in Spanish in healthcare settings. Certificate goals include: communicating in routine medical contexts (patient registration, medical interviews, health education), comprehending medical documents in Spanish, addressing language barriers and health disparities for Spanish-speaking communities, and applying interdisciplinary perspectives on health. Requires six courses total: SPA15-274 (Spanish for Healthcare Professions) and SPA15-284 (Culture and Health in Hispanic Communities) are required; one option between an academic internship (SPA15-943 or SPA15-944) or an approved Health Studies-related study abroad in a Spanish-speaking country; and three courses chosen from a specified list of electives across biology, kinesiology, history, philosophy, psychology, and sociology. Notes that all certificate requirements must be fulfilled with SU courses only — no transfer credit, AP/IB scores, or other non-residence credit accepted. Language proficiency assessment required upon completion.
 - **critical_data:**
   - Certificate name: Spanish for Healthcare Professions
@@ -416,7 +352,6 @@
   - Certificate requirements: SU courses ONLY — no transfer credit, AP/IB, or non-residence credit
   - Language proficiency assessment required upon completion
   - First certificate available to current SU students
-- **retrieval_triggers:**
   - Spanish for healthcare
   - Spanish healthcare certificate
   - SPA15-274
@@ -451,7 +386,7 @@
 | Graduation Application | "Application for Diploma" must be filed; financial holds block diploma |
 | Degree Conferral Dates | December, May, August only; Commencement held once per year in May |
 
-### SU Universal Curriculum Requirements (Paideia Framework)
+### SU Universal Curriculum Requirements (General Education)
 
 **Required for ALL degree paths:**
 - First-Year Seminar (FYS) or Advanced-Entry Seminar (AES): 4 credits
@@ -808,87 +743,6 @@ Note: Many Spanish courses carry the (H) designation satisfying Humanities bread
 
 ---
 
-## SECTION 5 — TOPIC INDEX
-
-- Spanish major overview and rationale → `Spanish.txt`, `For_Future_Students.txt`
-- B.A. in Spanish requirements (2023/2025 catalog) → `Majoring___Minoring.txt`
-- Spanish minor requirements → `Majoring___Minoring.txt`
-- Spanish for Healthcare Professions certificate requirements → `Spanish_for_Healthcare_Professions.txt`
-- How many courses for Spanish major → `Majoring___Minoring.txt`
-- How many courses for Spanish minor → `Majoring___Minoring.txt`
-- Required first-group courses (SPA15-214 / 334 / 344) → `Majoring___Minoring.txt`, `Intermediate_Courses.txt`
-- Required second-group courses (SPA15-354 / 364) → `Majoring___Minoring.txt`, `Intermediate_Courses.txt`
-- Upper-division elective requirements (400–800 level) → `Majoring___Minoring.txt`, `Advanced_Courses.txt`
-- Capstone SPA15-934 — when offered, what it involves → `Majoring___Minoring.txt`
-- Capstone spring-only scheduling constraint → `Majoring___Minoring.txt`
-- Language assessment exam for majors → `Majoring___Minoring.txt`, `Resources.txt`
-- Language assessment exam for minors → `Majoring___Minoring.txt`, `Resources.txt`
-- Emmersion oral assessment — how to access → `Resources.txt`
-- Placement test / placement exam Spanish → `Beginning_Courses.txt`, `Resources.txt`
-- Minimum grade to continue in Spanish sequence (C-) → `Beginning_Courses.txt`
-- SPA15-144 Spanish I — prerequisites, offerings → `Beginning_Courses.txt`
-- SPA15-154 Spanish II — prerequisites, offerings → `Beginning_Courses.txt`
-- SPA15-164 Spanish III — prerequisites, offerings, exit exam → `Beginning_Courses.txt`
-- SPA15-164 counting toward minor → `Beginning_Courses.txt`, `Majoring___Minoring.txt`
-- SPA15-214 Written and Oral Expression — description, prereqs → `Intermediate_Courses.txt`
-- SPA15-334 Conversation Through Hispanic Cinema — description, prereqs, offerings → `Intermediate_Courses.txt`
-- SPA15-344 Introduction to Literary Studies — description, prereqs → `Intermediate_Courses.txt`
-- SPA15-354 Cultures and Communities of Latin America — description, offerings, study abroad years → `Intermediate_Courses.txt`
-- SPA15-364 Cultures and Communities of Spain — description, offerings, study abroad years → `Intermediate_Courses.txt`
-- SPA15-534 Cultural Memory in Latin America → `Advanced_Courses.txt`
-- SPA15-614/624/634 Topics courses (repeatable) → `Advanced_Courses.txt`
-- SPA15-644 Gender Race Nationalism Spanish Cinema → `Advanced_Courses.txt`
-- SPA15-654 Colombian Cinema (requires 300-level prereq) → `Advanced_Courses.txt`
-- SPA15-714 Spanish Sociolinguistics → `Advanced_Courses.txt`
-- SPA15-724 Spanish Phonetics and Phonology → `Advanced_Courses.txt`
-- SPA15-734 Spanish in the United States → `Advanced_Courses.txt`
-- Advanced course numbering system (400/500/600/700/900) → `Advanced_Courses.txt`
-- Prerequisites for advanced courses → `Advanced_Courses.txt`
-- Prerequisite stricter for SPA15-654 (300-level required) → `Advanced_Courses.txt`
-- Can I repeat a Topics course → `Advanced_Courses.txt`
-- Courses taught in Spanish (all advanced, most intermediate) → `Advanced_Courses.txt`, `Intermediate_Courses.txt`
-- Native speaker course placement → `Native_Speakers.txt`, `Beginning_Courses.txt`
-- Heritage speaker course placement → `Native_Speakers.txt`, `Intermediate_Courses.txt`
-- Paideia with Distinction for Spanish speakers → `Native_Speakers.txt`, `Advanced_Courses.txt`
-- Study abroad — summer programs → `Study_Abroad.txt`, `Special_Opportunities.txt`
-- Study abroad — Buenos Aires Argentina → `Study_Abroad.txt`, `Spanish.txt`
-- Study abroad — Granada Spain → `Study_Abroad.txt`, `Spanish.txt`
-- Study abroad prerequisite (Spanish III) → `Study_Abroad.txt`
-- Study abroad — intermediate programs (Spanish II and III abroad) → `Study_Abroad.txt`
-- Study abroad — advanced programs → `Study_Abroad.txt`
-- Who leads study abroad programs → `Study_Abroad.txt`, `Our_Faculty.txt`
-- Internship opportunities in Spanish → `Spanish.txt`, `Spanish_for_Healthcare_Professions.txt`
-- SPA15-274 Spanish for Healthcare Professions (course) → `Spanish_for_Healthcare_Professions.txt`
-- SPA15-284 Culture and Health in Hispanic Communities → `Spanish_for_Healthcare_Professions.txt`
-- Healthcare certificate elective courses list → `Spanish_for_Healthcare_Professions.txt`
-- Healthcare certificate — no transfer credit policy → `Spanish_for_Healthcare_Professions.txt`
-- Healthcare certificate — language proficiency exam → `Spanish_for_Healthcare_Professions.txt`
-- Sigma Delta Pi eligibility and application → `Sigma_Delta_Pi.txt`, `Special_Opportunities.txt`
-- Sigma Delta Pi faculty advisor → `Sigma_Delta_Pi.txt`, `Resources.txt`
-- Sigma Delta Pi history and founding → `Sigma_Delta_Pi.txt`
-- Spanish faculty — who teaches what → `Our_Faculty.txt`
-- Department chair contact information → `Our_Faculty.txt`
-- Professor specialties (film, linguistics, literature, etc.) → `Our_Faculty.txt`
-- Free Spanish tutoring — schedule and location → `Resources.txt`
-- Study abroad transfer of credit for Spanish → `Resources.txt`, `Study_Abroad.txt`
-- Online Spanish dictionaries and resources → `Resources.txt`
-- Typing Spanish accent marks on Mac and PC → `Resources.txt`
-- Spanish news and media resources → `Resources.txt`
-- Community-engaged learning in Spanish courses → `Intermediate_Courses.txt`, `For_Future_Students.txt`
-- Paideia courses satisfied by Spanish → `Advanced_Courses.txt`, `Intermediate_Courses.txt`
-- Paired major Spanish + LABS → `Majoring___Minoring.txt`
-- Paired major Spanish + International Studies → `Majoring___Minoring.txt`
-- Teacher certification in Spanish → `Majoring___Minoring.txt`
-- Double major or minor pairings with Spanish → `Majoring___Minoring.txt`, `Spanish.txt`
-- Language and Culture requirement fulfilled by Spanish sequence → `Beginning_Courses.txt`
-- Latin American and Border Studies contributions from Spanish courses → `Intermediate_Courses.txt`, `Advanced_Courses.txt`
-- Feminist Studies courses in Spanish → `Advanced_Courses.txt`
-- Race and Ethnicity Studies courses in Spanish → `Advanced_Courses.txt`
-- Health Studies / Neuroscience connections (SPA15-724) → `Advanced_Courses.txt`
-- Career paths for Spanish majors → `Spanish.txt`, `For_Future_Students.txt`
-- Cognitive benefits of bilingualism → `For_Future_Students.txt`, `Spanish.txt`
-- SU Tertulia student organization → `Spanish.txt`
-
 ---
 
 ## SECTION 6 — QUERY PATTERN MAP
@@ -960,7 +814,7 @@ Note: Many Spanish courses carry the (H) designation satisfying Humanities bread
 
 **Q:** What is SPA15-724 about and what does it count toward?
 **Docs:** `Advanced_Courses.txt`
-**Routing Note:** SPA15-724 is Spanish Phonetics and Phonology; contributes to Health Studies and Neuroscience Paideia areas.
+**Routing Note:** SPA15-724 is Spanish Phonetics and Phonology; contributes to Health Studies and Neuroscience General education areas.
 **Disambiguation Needed:** No
 
 **Q:** What courses in Spanish count toward Health Studies?
@@ -1077,11 +931,10 @@ Note: Many Spanish courses carry the (H) designation satisfying Humanities bread
   - **What general docs must cover:** 127-credit minimum, 64-credit SU residency, last 32 in-residence, 2.000 GPA, 60% major residency, Application for Diploma process
   - **Routing instruction:** Always retrieve `SU_General_Policies.txt` alongside `Majoring___Minoring.txt` for any graduation eligibility question
 
-- **Topic:** Paideia general education requirements
+- **Topic:** General education requirements
   - **What major docs cover:** Which Spanish courses satisfy (H), (WA), (SJ), (PJ), (IP) designations; Language and Culture requirement fulfilled by beginning sequence
   - **What general docs must cover:** Full structure of FYS/AES, Language & Cultures, FRA, Power and Justice, Exploration & Breadth Parts I and II, Paideia with Distinction
-  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about gen-ed, breadth requirements, or Paideia
-
+  - **Routing instruction:** Always retrieve `SU_General_Policies.txt` for any question about gen-ed, breadth requirements, or General Education 
 - **Topic:** Pass/D/F grading option
   - **What major docs cover:** Not covered; Spanish docs note C- minimum to continue in sequence
   - **What general docs must cover:** Full Pass/D/F policy, deadlines to switch, GPA impact, which courses allow P/D/F
@@ -1198,7 +1051,7 @@ Note: Many Spanish courses carry the (H) designation satisfying Humanities bread
 - Any transfer credit question: retrieve `Majoring___Minoring.txt` + `SU_General_Policies.txt`
 - Any question about both the major and a healthcare career: retrieve `Majoring___Minoring.txt` + `Spanish_for_Healthcare_Professions.txt`
 - Any language assessment exam question: retrieve `Majoring___Minoring.txt` + `Resources.txt`
-- Any Paideia or gen-ed question: retrieve `SU_General_Policies.txt` + appropriate course file
+- Any general education requirement question: retrieve `SU_General_Policies.txt` + appropriate course file
 
 **Degree path disambiguation triggers:**
 - No disambiguation needed between B.A. and B.S. — Spanish only offers a B.A.
@@ -1227,7 +1080,7 @@ Note: Many Spanish courses carry the (H) designation satisfying Humanities bread
 
 **Always retrieve `SU_General_Policies.txt` alongside major docs when:**
 - Any graduation eligibility or credit count question
-- Any Paideia / general education requirement question
+- Any general education requirement question
 - Any grading policy question (Pass/D/F, grade appeals, incomplete grades)
 - Any academic standing question (probation, dismissal, appeal)
 - Any transfer credit or credit-by-examination question
