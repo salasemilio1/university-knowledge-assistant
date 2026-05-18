@@ -399,7 +399,7 @@ def _call_gemini_direct(prompt: str) -> str:
             max_output_tokens=8192,
         )
 
-        model = os.getenv("MODEL_ROUTER", "gemini-3.1-flash-lite-preview")
+        model = os.getenv("MODEL_ROUTER", "gemini-3.1-flash-lite")
         response = client.models.generate_content(
             model=model,
             contents=prompt,
