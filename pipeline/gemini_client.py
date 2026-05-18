@@ -45,8 +45,8 @@ load_dotenv(_PROJECT_ROOT / ".env")
 # ── Model constants ───────────────────────────────────────────────────────────
 # Override via environment variables if needed.
 
-MODEL_ROUTER            = os.getenv("MODEL_ROUTER",            "gemini-3.1-flash-lite-preview")
-MODEL_ANSWERER          = os.getenv("MODEL_ANSWERER",          "gemini-3-flash-preview")
+MODEL_ROUTER            = os.getenv("MODEL_ROUTER",            "gemini-3.1-flash-lite")
+MODEL_ANSWERER          = os.getenv("MODEL_ANSWERER",          "gemini-3-flash")
 MODEL_ANSWERER_FALLBACK = os.getenv("MODEL_ANSWERER_FALLBACK", "gemini-2.5-flash")
 
 DEFAULT_MODEL = MODEL_ANSWERER  # kept for backward compatibility with scripts

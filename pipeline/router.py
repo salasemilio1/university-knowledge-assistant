@@ -8,7 +8,7 @@ Reads context_registry.json and asks Gemini three things in a single call:
 
 Resilience
 ----------
-- One attempt only — no retries. The router uses a fast model (gemini-3.1-flash-lite-preview)
+- One attempt only — no retries. The router uses a fast model (gemini-3.1-flash-lite)
   with a 5-second hard timeout.
 - If the router times out, fails, or returns an empty department list, the
   caller falls back to a default department ("general") so the pipeline can
